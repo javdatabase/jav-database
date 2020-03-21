@@ -25,8 +25,14 @@ const generateTitle = path => {
     case "/home":
       return "Home";
 
+    case "/idols":
+      return "Idols";
+
     case "/dvds":
       return "Dvds";
+
+    case "/pre-release-dvds":
+      return "Pre Release Dvds";
 
     case "/amateur-dvds":
       return "Amateur Dvds";
