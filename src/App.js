@@ -10,7 +10,9 @@ import {
 } from "./utils/debug-data";
 import Layout from "./layout/Layout";
 
-const history = createBrowserHistory();
+const CONFIG_BASE = "/jav-database";
+
+const history = createBrowserHistory({ basename: CONFIG_BASE });
 
 function App() {
   useEffect(() => {
