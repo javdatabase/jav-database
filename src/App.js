@@ -10,7 +10,7 @@ import {
 } from "./utils/debug-data";
 import Layout from "./layout/Layout";
 
-export const CONFIG_BASE = "/jav-database";
+const CONFIG_BASE = "/jav-database";
 
 const history = createBrowserHistory({ basename: CONFIG_BASE });
 

@@ -1,8 +1,7 @@
 import React, { Suspense, lazy } from "react";
 import styled from "styled-components";
-import { Route, Switch, Redirect } from "react-router-dom";
+import { Route, Switch, Redirect, useLocation } from "react-router-dom";
 
-import { CONFIG_BASE } from "../App";
 import LoadingIcon from "../assets/images/icon_loading/icon_loading.svg";
 import { Black, White } from "../themes/colors";
 import { XXLarge } from "../themes/font";
@@ -63,10 +62,12 @@ const PreReleaseDvds = lazy(() => import("../containers/Dvds/PreReleaseDvds"));
 const AmateurDvds = lazy(() => import("../containers/Dvds/AmateurDvds"));
 
 function Routes() {
+  const location = useLocation();
+
   return (
     <Suspense fallback={<Loading />}>
       <Switch>
-        {window.location.pathname === CONFIG_BASE && <Redirect to={"/home"} />}
+        {location.pathname === "/" && <Redirect to={"/home"} />}
         <Route path={"/home"} exact={true} component={Home} />
         <Route path={"/idols"} exact={true} component={Idols} />
         <Route path={"/dvds"} exact={true} component={Dvds} />
