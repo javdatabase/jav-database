@@ -86,7 +86,7 @@ function IdolDetail({ show, toggleModal, data }) {
           </InformationIdol>
           <StylesIdolContainer>
             {get(data, "styles", []).map(item => (
-              <StyleIdol key={item.tag} style={item.tag} />
+              <StyleIdol key={item.tag} tag={item.tag} />
             ))}
           </StylesIdolContainer>
         </DetailContainer>

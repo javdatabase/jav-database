@@ -1,13 +1,8 @@
 import Idols from "../data/idols";
 
-function getIdolBasicDetail(id) {
+function getIdolDetail(id) {
   const detail = Idols.find(idol => idol.idIdol === id);
-  return {
-    idIdol: detail.idIdol,
-    avatar: detail.name,
-    name: detail.name,
-    other: detail.other
-  };
+  return detail;
 }
 
 function sortIdols() {
@@ -22,4 +17,4 @@ function sortIdols() {
   return response.reverse();
 }
 
-export { getIdolBasicDetail, sortIdols };
+export { getIdolDetail, sortIdols };

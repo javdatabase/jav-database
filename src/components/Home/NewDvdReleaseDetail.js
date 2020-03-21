@@ -1,8 +1,9 @@
-import React, { memo } from "react";
+import React, { Fragment, useState, useCallback } from "react";
 import styled from "styled-components";
 
 import DvdPoster from "../Dvds/DvdPoster";
 import IdolTag from "../Idols/IdolTag";
+import IdolDetail from "../Idols/IdolDetail";
 import { Pink, White, Orange, DarkBlue, LightBlue } from "../../themes/colors";
 import { Regular, XLarge } from "../../themes/font";
 import { center, fadeIn } from "../../themes/styled";
@@ -58,31 +59,58 @@ const IdolsContainer = styled.div`
   flex-wrap: wrap;
 `;
 
+const TagIdol = styled(IdolTag)`
+  cursor: pointer;
+`;
+
 function NewDvdReleaseDetail({ data, active }) {
-  if (active) {
-    return (
-      <Container>
-        <PosterDvdWrapper uncensored={data.type === "Uncensored"}>
-          <PosterDvd src={data.poster} />
-        </PosterDvdWrapper>
-        <DetailContainer>
-          <div>
-            <CodeDvd uncensored={data.type === "Uncensored"}>
-              {data.code}
-            </CodeDvd>
-          </div>
-          <Title>{data.title}</Title>
-          <IdolsContainer>
-            {data.idols.map(item => (
-              <IdolTag key={item.idIdol} name={item.name} />
-            ))}
-          </IdolsContainer>
-        </DetailContainer>
-      </Container>
-    );
-  } else return null;
+  const [show, setShow] = useState(false);
+  const [idol, setIdol] = useState(null);
+
+  const toggleModal = useCallback(() => {
+    setShow(!show);
+  }, [show]);
+
+  const handleChangeIdol = useCallback(
+    value => {
+      if (value) {
+        setIdol(value);
+      } else {
+        setIdol(null);
+      }
+      toggleModal();
+    },
+    [toggleModal]
+  );
+  return (
+    <Fragment>
+      {active && (
+        <Container>
+          <PosterDvdWrapper uncensored={data.type === "Uncensored"}>
+            <PosterDvd src={data.poster} />
+          </PosterDvdWrapper>
+          <DetailContainer>
+            <div>
+              <CodeDvd uncensored={data.type === "Uncensored"}>
+                {data.code}
+              </CodeDvd>
+            </div>
+            <Title>{data.title}</Title>
+            <IdolsContainer>
+              {data.idols.map(item => (
+                <TagIdol
+                  key={item.idIdol}
+                  name={item.name}
+                  onClick={() => handleChangeIdol(item)}
+                />
+              ))}
+            </IdolsContainer>
+          </DetailContainer>
+        </Container>
+      )}
+      <IdolDetail show={show} toggleModal={toggleModal} data={idol} />
+    </Fragment>
+  );
 }
 
-const MemoNewDvdReleaseDetail = memo(NewDvdReleaseDetail);
-
-export default MemoNewDvdReleaseDetail;
+export default NewDvdReleaseDetail;

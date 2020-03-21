@@ -4,7 +4,7 @@ import MainDvds from "../data/dvds/main";
 import PreReleaseDvds from "../data/dvds/pre-release";
 import AmateurDvds from "../data/dvds/amateur";
 
-import { getIdolBasicDetail } from "./common.service";
+import { getIdolDetail } from "./common.service";
 
 const SIZE_MAIN_DVDS = MainDvds.length;
 const SIZE_AMATEUR_DVDS = AmateurDvds.length;
@@ -30,7 +30,7 @@ const NEW_DVDS_RELEASE = [
 
 const NEW_DVDS_RELEASE_DETAIL = NEW_DVDS_RELEASE.map(dvd => ({
   ...dvd,
-  idols: dvd.idols.map(idol => getIdolBasicDetail(idol.idIdol))
+  idols: dvd.idols.map(idol => getIdolDetail(idol.idIdol))
 }));
 
 const RANDOM_DVDS_DETAIL = () => {
@@ -45,7 +45,7 @@ const RANDOM_DVDS_DETAIL = () => {
 
   return randomDvds().map(dvd => ({
     ...dvd,
-    idols: dvd.idols.map(idol => getIdolBasicDetail(idol.idIdol))
+    idols: dvd.idols.map(idol => getIdolDetail(idol.idIdol))
   }));
 };
 
@@ -61,7 +61,7 @@ const ALL_DVDS_RELEASE_DETAIL = (page, pageSize) => {
     .reverse()
     .map(dvd => ({
       ...dvd,
-      idols: dvd.idols.map(idol => getIdolBasicDetail(idol.idIdol))
+      idols: dvd.idols.map(idol => getIdolDetail(idol.idIdol))
     }));
   return response;
 };
@@ -78,7 +78,7 @@ const ALL_DVDS_PRE_RELEASE_DETAIL = (page, pageSize) => {
     .reverse()
     .map(dvd => ({
       ...dvd,
-      idols: dvd.idols.map(idol => getIdolBasicDetail(idol.idIdol))
+      idols: dvd.idols.map(idol => getIdolDetail(idol.idIdol))
     }));
   return response;
 };

@@ -32,7 +32,7 @@ const TagIdol = styled(IdolTag)`
   font-size: ${Large};
 `;
 
-function DvdCard({ data, click }) {
+function IdolCard({ data, click }) {
   return (
     <Container onClick={click}>
       <AvatarIdol src={data.avatar} />
@@ -41,6 +41,6 @@ function DvdCard({ data, click }) {
   );
 }
 
-const MemoDvdCard = memo(DvdCard);
+const MemoIdolCard = memo(IdolCard);
 
-export default MemoDvdCard;
+export default MemoIdolCard;

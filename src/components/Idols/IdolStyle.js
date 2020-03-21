@@ -12,12 +12,12 @@ const Component = styled.div`
   font-size: ${Large};
 `;
 
-function IdolStyle({ style, ...props }) {
-  const color = modelStyle(style);
+function IdolStyle({ tag, ...props }) {
+  const color = modelStyle(tag);
 
   return (
     <Component color={color} {...props}>
-      {style}
+      {tag}
     </Component>
   );
 }
