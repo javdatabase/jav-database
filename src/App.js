@@ -1,25 +1,32 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect } from "react";
+import { Router } from "react-router-dom";
+import { createBrowserHistory } from "history";
+
+import {
+  RESULT_CHECK_ALREADY_EXIST_DVD,
+  RESULT_CHECK_POSTER,
+  RESULT_CHECK_ALREADY_EXIST_IDOLS,
+  RESULT_CHECK_ALREADY_EXIST_ID_IDOLS
+} from "./utils/debug-data";
+import Layout from "./layout/Layout";
+
+const history = createBrowserHistory();
 
 function App() {
+  useEffect(() => {
+    console.log("Dvds Already Exists:", RESULT_CHECK_ALREADY_EXIST_DVD);
+    console.log("Poster Error:", RESULT_CHECK_POSTER);
+    console.log("Idols Already Exists:", RESULT_CHECK_ALREADY_EXIST_IDOLS);
+    console.log(
+      "ID Idols Already Exists:",
+      RESULT_CHECK_ALREADY_EXIST_ID_IDOLS
+    );
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router history={history}>
+      <Layout />
+    </Router>
   );
 }
 
