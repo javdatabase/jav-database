@@ -1,4 +1,4 @@
-import React, { memo } from "react";
+import React, { Fragment, useState, useMemo, useCallback } from "react";
 import styled from "styled-components";
 
 import { dvdPoints } from "../../helpers/render-color";
@@ -6,6 +6,7 @@ import IdolAvatar from "./IdolAvatar";
 import IdolCup from "./IdolCup";
 import IdolStyle from "./IdolStyle";
 import DvdPoster from "../Dvds/DvdPoster";
+import DvdDetail from "../Dvds/DvdDetail";
 
 import {
   Black,
@@ -131,50 +132,76 @@ const Points = styled.div`
   background-color: ${White};
   color: ${props => props.color};
   font-size: ${XXLarge};
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: ${Black};
 `;
 
 function IdolRanking({ data }) {
-  const dvds = data.dvds.filter((item, index) => index > data.dvds.length - 13);
-  const color = dvdPoints(data.points);
+  const [show, setShow] = useState(false);
+  const [dvd, setDvd] = useState(null);
+
+  const dvds = useMemo(
+    () => data.dvds.filter((item, index) => index > data.dvds.length - 13),
+    [data.dvds]
+  );
+
+  const color = useMemo(() => dvdPoints(data.points), [data.points]);
+
+  const toggleModal = useCallback(() => {
+    setShow(!show);
+  }, [show]);
+
+  const handleChangeDvd = useCallback(
+    value => {
+      if (value) {
+        setDvd(value);
+      } else {
+        setDvd(null);
+      }
+      toggleModal();
+    },
+    [toggleModal]
+  );
 
   return (
-    <Container queen={data.rank === 1} runnerUp={data.rank === 2}>
-      <RankingIdol>{data.rank}</RankingIdol>
-      <div style={{ display: "flex", width: "100%" }}>
-        <AvatarIdol src={data.avatar} />
-        <IdolInformationContainer>
-          <NameIdol>
-            {data.name} {data.other ? `(${data.other})` : ""}
-          </NameIdol>
-          <InformationIdol>
-            ● Born: {data.born}
-            <br />● Height: {data.height}
-            <br />● Breast: {data.breast}{" "}
-            <IdolCup cup={data.cup}>({data.cup})</IdolCup>
-            <br />● Waist: {data.waist}
-            <br />● Hips: {data.hips}
-            <br />
-          </InformationIdol>
-          <StylesIdolContainer>
-            {data.styles.map(item => (
-              <StyleIdol key={item.tag} tag={item.tag} />
+    <Fragment>
+      <Container queen={data.rank === 1} runnerUp={data.rank === 2}>
+        <RankingIdol>{data.rank}</RankingIdol>
+        <div style={{ display: "flex", width: "100%" }}>
+          <AvatarIdol src={data.avatar} />
+          <IdolInformationContainer>
+            <NameIdol>
+              {data.name} {data.other ? `(${data.other})` : ""}
+            </NameIdol>
+            <InformationIdol>
+              ● Born: {data.born}
+              <br />● Height: {data.height}
+              <br />● Breast: {data.breast}{" "}
+              <IdolCup cup={data.cup}>({data.cup})</IdolCup>
+              <br />● Waist: {data.waist}
+              <br />● Hips: {data.hips}
+              <br />
+            </InformationIdol>
+            <StylesIdolContainer>
+              {data.styles.map(item => (
+                <StyleIdol key={item.tag} tag={item.tag} />
+              ))}
+            </StylesIdolContainer>
+          </IdolInformationContainer>
+          <DvdsContainer>
+            {dvds.map(item => (
+              <DvdItem key={item.code} onClick={() => handleChangeDvd(item)}>
+                <PosterDvd src={item.poster} />
+                <CodeDvd>{item.code}</CodeDvd>
+              </DvdItem>
             ))}
-          </StylesIdolContainer>
-        </IdolInformationContainer>
-        <DvdsContainer>
-          {dvds.map(item => (
-            <DvdItem key={item.code}>
-              <PosterDvd src={item.poster} />
-              <CodeDvd>{item.code}</CodeDvd>
-            </DvdItem>
-          ))}
-        </DvdsContainer>
-      </div>
-      <Points color={color}>{data.points}p</Points>
-    </Container>
+          </DvdsContainer>
+        </div>
+        <Points color={color}>{data.points}p</Points>
+      </Container>
+      <DvdDetail show={show} toggleModal={toggleModal} data={dvd} />
+    </Fragment>
   );
 }
 
-const MemoIdolRanking = memo(IdolRanking);
-
-export default MemoIdolRanking;
+export default IdolRanking;

@@ -910,7 +910,6 @@ const File2 = [
     waist: "58 cm",
     hips: "85 cm",
     styles: [
-      { tag: "Retired" },
       { tag: "6 Stars JAV" },
       { tag: "Cute" },
       { tag: "Beautiful Breasts" }
@@ -971,7 +970,6 @@ const File2 = [
     waist: "60 cm",
     hips: "88 cm",
     styles: [
-      { tag: "Retired" },
       { tag: "Cute" },
       { tag: "Killer Tits" },
       { tag: "Slender" },
