@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import styled from "styled-components";
 
 import { dvdPoints } from "../../helpers/render-color";
@@ -136,7 +136,6 @@ const Points = styled.div`
 function IdolRanking({ data }) {
   const dvds = data.dvds.filter((item, index) => index > data.dvds.length - 13);
   const color = dvdPoints(data.points);
-  console.log(color);
 
   return (
     <Container queen={data.rank === 1} runnerUp={data.rank === 2}>
@@ -176,4 +175,6 @@ function IdolRanking({ data }) {
   );
 }
 
-export default IdolRanking;
+const MemoIdolRanking = memo(IdolRanking);
+
+export default MemoIdolRanking;
