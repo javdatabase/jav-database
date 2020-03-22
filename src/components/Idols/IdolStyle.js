@@ -2,6 +2,7 @@ import React, { memo } from "react";
 import styled from "styled-components";
 
 import { modelStyle } from "../../helpers/render-color";
+
 import { Large } from "../../themes/font";
 
 const Component = styled.div`

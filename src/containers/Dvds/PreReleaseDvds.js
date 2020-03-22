@@ -1,17 +1,17 @@
-import React, { Fragment, useState, useCallback } from "react";
+import React, { Fragment, useState, useMemo, useCallback } from "react";
 import styled from "styled-components";
 import LazyLoad from "react-lazyload";
 
+import {
+  ALL_DVDS_PRE_RELEASE_DETAIL_BY_PAGE,
+  SIZE_PRE_RELEASE_DVDS
+} from "../../services/dvds.service";
 import Pagination from "../../components/UI/Pagination/Pagination";
 import DvdCard from "../../components/Dvds/DvdCard";
 import DvdDetail from "../../components/Dvds/DvdDetail";
-import { Pink, Orange, White } from "../../themes/colors";
-import { fadeIn, center } from "../../themes/styled";
 
-import {
-  ALL_DVDS_PRE_RELEASE_DETAIL,
-  SIZE_PRE_RELEASE_DVDS
-} from "../../services/dvds.service";
+import { Pink, Orange, White } from "../../themes/colors";
+import { center, fadeIn } from "../../themes/styled";
 
 const Container = styled.div`
   position: relative;
@@ -64,6 +64,10 @@ function PreReleaseDvds() {
   const [show, setShow] = useState(false);
   const [data, setData] = useState(null);
 
+  const dvds = useMemo(() => ALL_DVDS_PRE_RELEASE_DETAIL_BY_PAGE(page, 30), [
+    page
+  ]);
+
   const handleChangePage = useCallback(page => {
     setPage(page);
   }, []);
@@ -91,7 +95,7 @@ function PreReleaseDvds() {
           <NotFound>Not Found</NotFound>
         ) : (
           <DvdContainer>
-            {ALL_DVDS_PRE_RELEASE_DETAIL(page, 30).map(item => (
+            {dvds.map(item => (
               <LazyLoad
                 key={item.idDvd}
                 height={200}

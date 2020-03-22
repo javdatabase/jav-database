@@ -11,9 +11,10 @@ import PlaylistIcon from "../../assets/images/icon_playlist/icon_playlist.svg";
 import AlbumIcon from "../../assets/images/icon_album/icon_album.svg";
 import ClipboardIcon from "../../assets/images/icon_clipboard/icon_clipboard.svg";
 import NextIcon from "../../assets/images/icon_next/icon_next.svg";
+
 import { Black, Pink, Orange, White } from "../../themes/colors";
-import { XLarge } from "../../themes/font";
 import { center } from "../../themes/styled";
+import { XLarge } from "../../themes/font";
 
 const Container = styled.div`
   width: 300px;

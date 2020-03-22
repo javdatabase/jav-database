@@ -4,9 +4,10 @@ import styled from "styled-components";
 import DvdPoster from "../Dvds/DvdPoster";
 import IdolTag from "../Idols/IdolTag";
 import IdolDetail from "../Idols/IdolDetail";
+
 import { Pink, White, Orange, DarkBlue, LightBlue } from "../../themes/colors";
-import { Regular, XLarge } from "../../themes/font";
 import { center, fadeIn } from "../../themes/styled";
+import { Regular, XLarge } from "../../themes/font";
 
 const Container = styled.div`
   ${center}
@@ -82,6 +83,7 @@ function NewDvdReleaseDetail({ data, active }) {
     },
     [toggleModal]
   );
+  
   return (
     <Fragment>
       {active && (

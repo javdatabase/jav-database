@@ -2,6 +2,7 @@ import React, { memo } from "react";
 import styled from "styled-components";
 
 import { sizeCup } from "../../helpers/render-color";
+
 import { Black } from "../../themes/colors";
 
 const Component = styled.span`

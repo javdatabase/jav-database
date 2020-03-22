@@ -1,14 +1,14 @@
-import React, { Fragment, useState, useCallback } from "react";
+import React, { Fragment, useState, useMemo, useCallback } from "react";
 import styled from "styled-components";
 import LazyLoad from "react-lazyload";
 
+import { ALL_IDOLS_BY_PAGE, SIZE_IDOLS } from "../../services/idols.service";
 import Pagination from "../../components/UI/Pagination/Pagination";
 import IdolCard from "../../components/Idols/IdolCard";
 import IdolDetail from "../../components/Idols/IdolDetail";
-import { Pink, Orange, White } from "../../themes/colors";
-import { fadeIn, center } from "../../themes/styled";
 
-import { ALL_IDOLS, SIZE_IDOLS } from "../../services/idols.service";
+import { Pink, Orange, White } from "../../themes/colors";
+import { center, fadeIn } from "../../themes/styled";
 
 const Container = styled.div`
   position: relative;
@@ -61,6 +61,8 @@ function Idols() {
   const [show, setShow] = useState(false);
   const [data, setData] = useState(null);
 
+  const idols = useMemo(() => ALL_IDOLS_BY_PAGE(page, 20), [page]);
+
   const handleChangePage = useCallback(page => {
     setPage(page);
   }, []);
@@ -88,7 +90,7 @@ function Idols() {
           <NotFound>Not Found</NotFound>
         ) : (
           <IdolContainer>
-            {ALL_IDOLS(page, 20).map(item => (
+            {idols.map(item => (
               <LazyLoad
                 key={item.idIdol}
                 height={200}

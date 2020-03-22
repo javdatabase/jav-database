@@ -3,6 +3,7 @@ import { useHistory } from "react-router-dom";
 import styled from "styled-components";
 
 import DvdsIcon from "../../assets/images/icon_dvds/icon_dvds.svg";
+
 import { Pink, Orange, White, Black } from "../../themes/colors";
 import { center } from "../../themes/styled";
 import { XXLarge } from "../../themes/font";

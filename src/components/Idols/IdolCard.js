@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 import IdolAvatar from "./IdolAvatar";
 import IdolTag from "./IdolTag";
+
 import { center } from "../../themes/styled";
 import { Large } from "../../themes/font";
 

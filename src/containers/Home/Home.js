@@ -1,16 +1,16 @@
 import React, { useState, useCallback } from "react";
 import styled from "styled-components";
 
-import WaterWheelSlider from "../../components/Slider/WaterWheelSlider/Slider";
-import NewDvdRelease from "../../components/Home/NewDvdRelease";
-import NewDvdReleaseDetail from "../../components/Home/NewDvdReleaseDetail";
-
 import {
   RANDOM_DVDS_DETAIL,
   NEW_DVDS_RELEASE_DETAIL
 } from "../../services/dvds.service";
-import { center } from "../../themes/styled";
+import WaterWheelSlider from "../../components/Slider/WaterWheelSlider/Slider";
+import NewDvdRelease from "../../components/Home/NewDvdRelease";
+import NewDvdReleaseDetail from "../../components/Home/NewDvdReleaseDetail";
+
 import { Pink, Orange, Black, White } from "../../themes/colors";
+import { center } from "../../themes/styled";
 import { Large } from "../../themes/font";
 
 const Container = styled.div`

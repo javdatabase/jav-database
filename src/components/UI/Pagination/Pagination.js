@@ -1,8 +1,8 @@
 import React, { useMemo, useCallback, useRef } from "react";
 import styled from "styled-components";
 
-import { center } from "../../../themes/styled";
 import { White, Pink, Orange } from "../../../themes/colors";
+import { center } from "../../../themes/styled";
 import { Regular } from "../../../themes/font";
 
 const Container = styled.div`

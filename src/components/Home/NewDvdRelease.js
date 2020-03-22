@@ -2,9 +2,10 @@ import React, { memo } from "react";
 import styled from "styled-components";
 
 import DvdPoster from "../Dvds/DvdPoster";
-import { Large } from "../../themes/font";
+
 import { Pink, Orange, DarkBlue, LightBlue } from "../../themes/colors";
 import { center } from "../../themes/styled";
+import { Large } from "../../themes/font";
 
 const Container = styled.div`
   display: flex;

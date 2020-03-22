@@ -1,9 +1,9 @@
 import Idols from "../data/idols";
-import { sortIdols } from "./common.service";
+import { sortIdols, getDvdsByIdol } from "./common.service";
 
 const SIZE_IDOLS = Idols.length;
 
-const ALL_IDOLS = (page, pageSize) => {
+const ALL_IDOLS_BY_PAGE = (page, pageSize) => {
   const idols = sortIdols();
   const response = idols.filter((item, index) => {
     return (
@@ -14,4 +14,21 @@ const ALL_IDOLS = (page, pageSize) => {
   return response.splice(0).reverse();
 };
 
-export { SIZE_IDOLS, ALL_IDOLS };
+const ALL_IDOLS_DETAIL = () => {
+  const idols = Idols.map(item => {
+    const { dvds, size } = getDvdsByIdol(item.idIdol);
+    return {
+      ...item,
+      dvds: dvds,
+      points: size
+    };
+  });
+  const response = idols
+    .sort((a, b) => b.points - a.points)
+    .map((item, index) => ({ ...item, rank: index + 1 }));
+  return response;
+};
+
+const IDOL_DETAIL = () => {};
+
+export { SIZE_IDOLS, ALL_IDOLS_BY_PAGE, ALL_IDOLS_DETAIL, IDOL_DETAIL };

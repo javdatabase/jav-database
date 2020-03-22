@@ -5,6 +5,7 @@ import styled from "styled-components";
 import Backdrop from "../UI/Backdrop/Backdrop";
 import DvdPoster from "./DvdPoster";
 import IdolTag from "../Idols/IdolTag";
+
 import {
   Pink,
   White,
@@ -13,8 +14,8 @@ import {
   DarkBlue,
   LightBlue
 } from "../../themes/colors";
-import { Large, XXLarge } from "../../themes/font";
 import { center, fadeIn } from "../../themes/styled";
+import { Large, XXLarge } from "../../themes/font";
 
 const Container = styled.div`
   position: fixed;

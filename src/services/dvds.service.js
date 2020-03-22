@@ -49,7 +49,7 @@ const RANDOM_DVDS_DETAIL = () => {
   }));
 };
 
-const ALL_DVDS_RELEASE_DETAIL = (page, pageSize) => {
+const ALL_DVDS_RELEASE_DETAIL_BY_PAGE = (page, pageSize) => {
   const temp = MainDvds.filter((item, index) => {
     return (
       index < SIZE_MAIN_DVDS - (page - 1) * pageSize &&
@@ -66,7 +66,7 @@ const ALL_DVDS_RELEASE_DETAIL = (page, pageSize) => {
   return response;
 };
 
-const ALL_DVDS_PRE_RELEASE_DETAIL = (page, pageSize) => {
+const ALL_DVDS_PRE_RELEASE_DETAIL_BY_PAGE = (page, pageSize) => {
   const temp = PreReleaseDvds.filter((item, index) => {
     return (
       index < SIZE_MAIN_DVDS - (page - 1) * pageSize &&
@@ -83,7 +83,7 @@ const ALL_DVDS_PRE_RELEASE_DETAIL = (page, pageSize) => {
   return response;
 };
 
-const ALL_DVDS_AMATEUR = (page, pageSize) => {
+const ALL_DVDS_AMATEUR_BY_PAGE = (page, pageSize) => {
   const temp = AmateurDvds.filter((item, index) => {
     return (
       index < SIZE_AMATEUR_DVDS - (page - 1) * pageSize &&
@@ -101,7 +101,7 @@ export {
   NEW_DVDS_RELEASE,
   NEW_DVDS_RELEASE_DETAIL,
   RANDOM_DVDS_DETAIL,
-  ALL_DVDS_RELEASE_DETAIL,
-  ALL_DVDS_PRE_RELEASE_DETAIL,
-  ALL_DVDS_AMATEUR
+  ALL_DVDS_RELEASE_DETAIL_BY_PAGE,
+  ALL_DVDS_PRE_RELEASE_DETAIL_BY_PAGE,
+  ALL_DVDS_AMATEUR_BY_PAGE
 };

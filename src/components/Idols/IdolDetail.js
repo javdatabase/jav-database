@@ -6,6 +6,7 @@ import Backdrop from "../UI/Backdrop/Backdrop";
 import IdolAvatar from "./IdolAvatar";
 import IdolCup from "./IdolCup";
 import IdolStyle from "./IdolStyle";
+
 import { Pink, Orange, Black, White } from "../../themes/colors";
 import { center, fadeIn } from "../../themes/styled";
 import { Large, XXLarge } from "../../themes/font";

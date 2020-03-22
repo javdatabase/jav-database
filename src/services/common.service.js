@@ -1,4 +1,5 @@
 import Idols from "../data/idols";
+import MainDvds from "../data/dvds/main";
 
 function getIdolDetail(id) {
   const detail = Idols.find(idol => idol.idIdol === id);
@@ -17,4 +18,14 @@ function sortIdols() {
   return response.reverse();
 }
 
-export { getIdolDetail, sortIdols };
+function getDvdsByIdol(id) {
+  const dvds = MainDvds.filter(item =>
+    item.idols.find(idol => idol.idIdol === id)
+  );
+  return {
+    size: dvds.length,
+    dvds: dvds
+  };
+}
+
+export { getIdolDetail, sortIdols, getDvdsByIdol };

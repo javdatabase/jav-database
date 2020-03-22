@@ -92,11 +92,23 @@ function modelStyle(style) {
       return "#f953c6";
 
     case "Former Race Queen":
-      return "#ffe000";
+      return "#ffff00";
 
     default:
       return "";
   }
 }
 
-export { sizeCup, modelStyle };
+function dvdPoints(points) {
+  if (points >= 1000) return "#74ebd5";
+  if (points < 1000 && points >= 500) return "#ff0000";
+  if (points < 500 && points >= 200) return "#7f00ff";
+  if (points < 200 && points >= 100) return "#ffa751";
+  if (points < 100 && points >= 50) return "#ffff00";
+  if (points < 50 && points >= 20) return "#0066ff";
+  if (points < 20 && points >= 10) return "#00c6ff";
+  if (points < 10 && points >= 5) return "#17bf44";
+  if (points < 5) return "#996600";
+}
+
+export { sizeCup, modelStyle, dvdPoints };
