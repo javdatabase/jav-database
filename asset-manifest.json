@@ -5,12 +5,12 @@
     "static/js/1.860678c7.chunk.js": "/jav-database/static/js/1.860678c7.chunk.js",
     "static/js/1.860678c7.chunk.js.map": "/jav-database/static/js/1.860678c7.chunk.js.map",
     "main.css": "/jav-database/static/css/main.5637683e.chunk.css",
-    "main.js": "/jav-database/static/js/main.32abbd24.chunk.js",
-    "main.js.map": "/jav-database/static/js/main.32abbd24.chunk.js.map",
+    "main.js": "/jav-database/static/js/main.ee55185c.chunk.js",
+    "main.js.map": "/jav-database/static/js/main.ee55185c.chunk.js.map",
     "runtime-main.js": "/jav-database/static/js/runtime-main.797efab5.js",
     "runtime-main.js.map": "/jav-database/static/js/runtime-main.797efab5.js.map",
-    "static/js/4.fe8e5bd5.chunk.js": "/jav-database/static/js/4.fe8e5bd5.chunk.js",
-    "static/js/4.fe8e5bd5.chunk.js.map": "/jav-database/static/js/4.fe8e5bd5.chunk.js.map",
+    "static/js/4.cb2bfaf8.chunk.js": "/jav-database/static/js/4.cb2bfaf8.chunk.js",
+    "static/js/4.cb2bfaf8.chunk.js.map": "/jav-database/static/js/4.cb2bfaf8.chunk.js.map",
     "static/js/5.4a206a64.chunk.js": "/jav-database/static/js/5.4a206a64.chunk.js",
     "static/js/5.4a206a64.chunk.js.map": "/jav-database/static/js/5.4a206a64.chunk.js.map",
     "static/js/6.6ae068ab.chunk.js": "/jav-database/static/js/6.6ae068ab.chunk.js",
@@ -24,11 +24,11 @@
     "static/js/10.a3c80077.chunk.js": "/jav-database/static/js/10.a3c80077.chunk.js",
     "static/js/10.a3c80077.chunk.js.map": "/jav-database/static/js/10.a3c80077.chunk.js.map",
     "index.html": "/jav-database/index.html",
-    "precache-manifest.117e8ff4ffb82844a396588b582193dd.js": "/jav-database/precache-manifest.117e8ff4ffb82844a396588b582193dd.js",
+    "precache-manifest.73d693938233ce40dc0609598cf92f20.js": "/jav-database/precache-manifest.73d693938233ce40dc0609598cf92f20.js",
     "service-worker.js": "/jav-database/service-worker.js",
     "static/css/main.5637683e.chunk.css.map": "/jav-database/static/css/main.5637683e.chunk.css.map",
     "static/js/0.252f821d.chunk.js.LICENSE.txt": "/jav-database/static/js/0.252f821d.chunk.js.LICENSE.txt",
-    "static/js/4.fe8e5bd5.chunk.js.LICENSE.txt": "/jav-database/static/js/4.fe8e5bd5.chunk.js.LICENSE.txt",
+    "static/js/4.cb2bfaf8.chunk.js.LICENSE.txt": "/jav-database/static/js/4.cb2bfaf8.chunk.js.LICENSE.txt",
     "static/media/BT-137.jpg": "/jav-database/static/media/BT-137.fb4cbe20.jpg",
     "static/media/BT-141.jpg": "/jav-database/static/media/BT-141.60cce085.jpg",
     "static/media/BT-93.jpg": "/jav-database/static/media/BT-93.1b616f80.jpg",
@@ -204,8 +204,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.797efab5.js",
-    "static/js/4.fe8e5bd5.chunk.js",
+    "static/js/4.cb2bfaf8.chunk.js",
     "static/css/main.5637683e.chunk.css",
-    "static/js/main.32abbd24.chunk.js"
+    "static/js/main.ee55185c.chunk.js"
   ]
 }
