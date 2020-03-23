@@ -1,5 +1,3 @@
-import { random } from "lodash";
-
 import MainDvds from "../data/dvds/main";
 import PreReleaseDvds from "../data/dvds/pre-release";
 import AmateurDvds from "../data/dvds/amateur";
@@ -32,22 +30,6 @@ const NEW_DVDS_RELEASE_DETAIL = NEW_DVDS_RELEASE.map(dvd => ({
   ...dvd,
   idols: dvd.idols.map(idol => getIdolDetail(idol.idIdol))
 }));
-
-const RANDOM_DVDS_DETAIL = () => {
-  function randomDvds() {
-    let dvds = Array(15).fill(0);
-    dvds.forEach((item, index) => {
-      const temp = MainDvds[random(SIZE_MAIN_DVDS - 1)];
-      dvds[index] = temp;
-    });
-    return dvds;
-  }
-
-  return randomDvds().map(dvd => ({
-    ...dvd,
-    idols: dvd.idols.map(idol => getIdolDetail(idol.idIdol))
-  }));
-};
 
 const ALL_DVDS_RELEASE_DETAIL_BY_PAGE = (page, pageSize) => {
   const temp = MainDvds.filter((item, index) => {
@@ -100,7 +82,6 @@ export {
   SIZE_PRE_RELEASE_DVDS,
   NEW_DVDS_RELEASE,
   NEW_DVDS_RELEASE_DETAIL,
-  RANDOM_DVDS_DETAIL,
   ALL_DVDS_RELEASE_DETAIL_BY_PAGE,
   ALL_DVDS_PRE_RELEASE_DETAIL_BY_PAGE,
   ALL_DVDS_AMATEUR_BY_PAGE

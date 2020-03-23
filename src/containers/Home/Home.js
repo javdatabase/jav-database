@@ -1,10 +1,8 @@
 import React, { useState, useCallback } from "react";
 import styled from "styled-components";
 
-import {
-  RANDOM_DVDS_DETAIL,
-  NEW_DVDS_RELEASE_DETAIL
-} from "../../services/dvds.service";
+import { getDvdsRandom } from "../../services/common.service";
+import { NEW_DVDS_RELEASE_DETAIL } from "../../services/dvds.service";
 import WaterWheelSlider from "../../components/UI/Slider/WaterWheelSlider/Slider";
 import NewDvdRelease from "../../components/Home/NewDvdRelease";
 import NewDvdReleaseDetail from "../../components/Home/NewDvdReleaseDetail";
@@ -92,7 +90,7 @@ function Home() {
     if (value === "new") {
       setData(NEW_DVDS_RELEASE_DETAIL);
     } else {
-      setData(RANDOM_DVDS_DETAIL());
+      setData(getDvdsRandom());
     }
     setType(value);
   }, []);

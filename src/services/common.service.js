@@ -1,9 +1,10 @@
-import { get, omit } from "lodash";
+import { get, omit, random } from "lodash";
 
 import Idols from "../data/idols";
 import MainDvds from "../data/dvds/main";
 
 import { ALL_IDOLS_DETAIL } from "./idols.service";
+import { SIZE_MAIN_DVDS } from "./dvds.service";
 
 function getIdolDetail(id) {
   const detail = Idols.find(idol => idol.idIdol === id);
@@ -11,8 +12,23 @@ function getIdolDetail(id) {
 }
 
 function getIdolRank(id) {
-  const detail = ALL_IDOLS_DETAIL().find(idol => idol.idIdol === id);
+  const detail = ALL_IDOLS_DETAIL.find(idol => idol.idIdol === id);
   return get(detail, "rank", "");
+}
+
+function getAllIdolsDetail() {
+  const idols = Idols.map(item => {
+    const { dvds, size } = getDvdsByIdol(item.idIdol);
+    return {
+      ...item,
+      dvds: dvds,
+      points: size
+    };
+  });
+  const response = idols
+    .sort((a, b) => b.points - a.points)
+    .map((item, index) => ({ ...item, rank: index + 1 }));
+  return response;
 }
 
 function sortIdols(idols) {
@@ -36,6 +52,22 @@ function getDvdsByIdol(id) {
   };
 }
 
+function getDvdsRandom() {
+  function randomDvds() {
+    let dvds = Array(15).fill(0);
+    dvds.forEach((item, index) => {
+      const temp = MainDvds[random(SIZE_MAIN_DVDS - 1)];
+      dvds[index] = temp;
+    });
+    return dvds;
+  }
+
+  return randomDvds().map(dvd => ({
+    ...dvd,
+    idols: dvd.idols.map(idol => getIdolDetail(idol.idIdol))
+  }));
+}
+
 function sortDvds(dvds) {
   const response = dvds.sort((a, b) => {
     let x = a.code.toUpperCase();
@@ -47,4 +79,12 @@ function sortDvds(dvds) {
   return response;
 }
 
-export { getIdolDetail, getIdolRank, sortIdols, getDvdsByIdol, sortDvds };
+export {
+  getIdolDetail,
+  getIdolRank,
+  getAllIdolsDetail,
+  sortIdols,
+  getDvdsByIdol,
+  getDvdsRandom,
+  sortDvds
+};

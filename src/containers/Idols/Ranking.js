@@ -1,4 +1,4 @@
-import React, { useMemo } from "react";
+import React from "react";
 import styled from "styled-components";
 import LazyLoad from "react-lazyload";
 
@@ -41,12 +41,10 @@ const IdolItem = styled.div`
 `;
 
 function Ranking() {
-  const idols = useMemo(() => ALL_IDOLS_DETAIL(), []);
-
   return (
     <Container>
       <RankingContainer>
-        {idols.map(item => (
+        {ALL_IDOLS_DETAIL.map(item => (
           <LazyLoad key={item.idIdol} height={200} once={true} overflow={true}>
             <IdolItem>
               <IdolRanking data={item} />
