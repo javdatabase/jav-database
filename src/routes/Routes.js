@@ -2,10 +2,11 @@ import React, { Suspense, lazy } from "react";
 import styled from "styled-components";
 import { Route, Switch, Redirect, useLocation } from "react-router-dom";
 
-import LoadingIcon from "../assets/images/icon_loading/icon_loading.svg";
+import LoadingIcon from "../assets/images/ic_loading/ic_loading.svg";
+
 import { Black, White } from "../themes/colors";
-import { XXLarge } from "../themes/font";
 import { center } from "../themes/styled";
+import { XXLarge } from "../themes/font";
 
 const ContainerLoading = styled.div`
   position: absolute;
@@ -57,6 +58,8 @@ const Ranking = lazy(() => import("../containers/Idols/Ranking"));
 
 const Idols = lazy(() => import("../containers/Idols/Idols"));
 
+const Idol = lazy(() => import("../containers/Idols/Idol"));
+
 const Dvds = lazy(() => import("../containers/Dvds/Dvds"));
 
 const PreReleaseDvds = lazy(() => import("../containers/Dvds/PreReleaseDvds"));
@@ -73,6 +76,7 @@ function Routes() {
         <Route path={"/home"} exact={true} component={Home} />
         <Route path={"/ranking"} exact={true} component={Ranking} />
         <Route path={"/idols"} exact={true} component={Idols} />
+        <Route path={"/idol/:id"} exact={false} component={Idol} />
         <Route path={"/dvds"} exact={true} component={Dvds} />
         <Route
           path={"/pre-release-dvds"}

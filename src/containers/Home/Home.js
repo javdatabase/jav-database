@@ -5,7 +5,7 @@ import {
   RANDOM_DVDS_DETAIL,
   NEW_DVDS_RELEASE_DETAIL
 } from "../../services/dvds.service";
-import WaterWheelSlider from "../../components/Slider/WaterWheelSlider/Slider";
+import WaterWheelSlider from "../../components/UI/Slider/WaterWheelSlider/Slider";
 import NewDvdRelease from "../../components/Home/NewDvdRelease";
 import NewDvdReleaseDetail from "../../components/Home/NewDvdReleaseDetail";
 

@@ -1,11 +1,20 @@
 import React, { Fragment, useState, useCallback } from "react";
 import styled from "styled-components";
 
+import { getIdolRank } from "../../services/common.service";
 import DvdPoster from "../Dvds/DvdPoster";
 import IdolTag from "../Idols/IdolTag";
 import IdolDetail from "../Idols/IdolDetail";
 
-import { Pink, White, Orange, DarkBlue, LightBlue } from "../../themes/colors";
+import {
+  Pink,
+  White,
+  Orange,
+  DarkBlue,
+  LightBlue,
+  Yellow,
+  Red
+} from "../../themes/colors";
 import { center, fadeIn } from "../../themes/styled";
 import { Regular, XLarge } from "../../themes/font";
 
@@ -62,6 +71,12 @@ const IdolsContainer = styled.div`
 
 const TagIdol = styled(IdolTag)`
   cursor: pointer;
+  background: ${props =>
+    props.queen
+      ? `linear-gradient(to right, ${Yellow}, ${Red})`
+      : props.runnerUp
+      ? `linear-gradient(to right, ${LightBlue}, ${Pink})`
+      : `linear-gradient(to right,  ${Orange}, ${Pink})`};
 `;
 
 function NewDvdReleaseDetail({ data, active }) {
@@ -83,7 +98,7 @@ function NewDvdReleaseDetail({ data, active }) {
     },
     [toggleModal]
   );
-  
+
   return (
     <Fragment>
       {active && (
@@ -102,6 +117,8 @@ function NewDvdReleaseDetail({ data, active }) {
               {data.idols.map(item => (
                 <TagIdol
                   key={item.idIdol}
+                  queen={getIdolRank(item.idIdol) === 1}
+                  runnerUp={getIdolRank(item.idIdol) === 2}
                   name={item.name}
                   onClick={() => handleChangeIdol(item)}
                 />

@@ -10,8 +10,8 @@ import {
   Orange,
   DarkBlue,
   LightBlue
-} from "../../../themes/colors";
-import { center } from "../../../themes/styled";
+} from "../../../../themes/colors";
+import { center } from "../../../../themes/styled";
 
 const Container = styled.div`
   width: 100%;

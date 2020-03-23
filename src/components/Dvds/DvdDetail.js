@@ -1,7 +1,9 @@
 import React, { Fragment, memo } from "react";
 import { get } from "lodash";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
+import { getIdolRank } from "../../services/common.service";
 import Backdrop from "../UI/Backdrop/Backdrop";
 import DvdPoster from "./DvdPoster";
 import IdolTag from "../Idols/IdolTag";
@@ -12,7 +14,9 @@ import {
   Orange,
   Black,
   DarkBlue,
-  LightBlue
+  LightBlue,
+  Yellow,
+  Red
 } from "../../themes/colors";
 import { center, fadeIn } from "../../themes/styled";
 import { Large, XXLarge } from "../../themes/font";
@@ -67,9 +71,15 @@ const IdolsContainer = styled.div`
 const TagIdol = styled(IdolTag)`
   border: solid 2px ${Black};
   margin-top: 10px;
+  background: ${props =>
+    props.queen
+      ? `linear-gradient(to right, ${Yellow}, ${Red})`
+      : props.runnerUp
+      ? `linear-gradient(to right, ${LightBlue}, ${Pink})`
+      : `linear-gradient(to right,  ${Orange}, ${Pink})`};
 `;
 
-function DvdDetail({ show, toggleModal, data }) {
+function DvdDetail({ show, toggleModal, data, rank }) {
   return (
     <Fragment>
       <Backdrop show={show} hiddenModal={toggleModal} />
@@ -84,9 +94,24 @@ function DvdDetail({ show, toggleModal, data }) {
           </div>
           <Title>{get(data, "title", "")}</Title>
           <IdolsContainer>
-            {get(data, "idols", []).map(item => (
-              <TagIdol key={item.idIdol} name={item.name} />
-            ))}
+            {get(data, "idols", []).map(item =>
+              item.idIdol === "jai000" ? (
+                <TagIdol key={item.idIdol} name={item.name} />
+              ) : (
+                <Link
+                  key={item.idIdol}
+                  to={`/idol/${item.idIdol}`}
+                  style={{ textDecoration: "none", color: Black }}
+                >
+                  <TagIdol
+                    key={item.idIdol}
+                    queen={getIdolRank(item.idIdol) === 1}
+                    runnerUp={getIdolRank(item.idIdol) === 2}
+                    name={item.name}
+                  />
+                </Link>
+              )
+            )}
           </IdolsContainer>
         </DetailContainer>
       </Container>

@@ -1,7 +1,9 @@
 import React, { Fragment, useState, useMemo, useCallback } from "react";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 import { dvdPoints } from "../../helpers/render-color";
+import { getIdolRank } from "../../services/common.service";
 import IdolAvatar from "./IdolAvatar";
 import IdolCup from "./IdolCup";
 import IdolStyle from "./IdolStyle";
@@ -14,7 +16,9 @@ import {
   Orange,
   White,
   Yellow,
-  LightBlue
+  LightBlue,
+  Grey,
+  Red
 } from "../../themes/colors";
 import { center } from "../../themes/styled";
 import { Regular, XXLarge } from "../../themes/font";
@@ -28,7 +32,7 @@ const Container = styled.div`
   box-sizing: border-box;
   background: ${props =>
     props.queen
-      ? `linear-gradient(to right, ${Yellow}, ${Pink})`
+      ? `linear-gradient(to right, ${Yellow}, ${Red})`
       : props.runnerUp
       ? `linear-gradient(to right, ${LightBlue}, ${Pink})`
       : `linear-gradient(to right,  ${Orange}, ${Pink})`};
@@ -58,6 +62,7 @@ const AvatarIdol = styled(IdolAvatar)`
 `;
 
 const IdolInformationContainer = styled.div`
+  position: relative;
   width: 450px;
   min-width: 450px;
   display: flex;
@@ -116,9 +121,7 @@ const PosterDvd = styled(DvdPoster)`
 const CodeDvd = styled.div`
   margin-top: 5px;
   font-size: ${Regular};
-  background: ${props => (props.uncensored ? White : Black)};
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: ${props => (props.uncensored ? Grey : Black)};
 `;
 
 const Points = styled.div`
@@ -136,12 +139,42 @@ const Points = styled.div`
   -webkit-text-stroke-color: ${Black};
 `;
 
+const ViewProfile = styled(Link)`
+  position: absolute;
+  left: calc(-10vw - 10px);
+  bottom: 0px;
+  ${center}
+  width: 10vw;
+  height: 0px;
+  overflow: hidden;
+  border-radius: 0px 0px 18px 18px;
+  box-sizing: border-box;
+  background: ${props =>
+    props.queen === "true"
+      ? `linear-gradient(to right, ${Yellow}, ${Red})`
+      : props.runner === "true"
+      ? `linear-gradient(to right, ${LightBlue}, ${Pink})`
+      : `linear-gradient(to right,  ${Orange}, ${Pink})`};
+  text-decoration: none;
+  color: ${Black};
+  font-size: ${Regular};
+  transition: height 0.3s ease-in-out;
+
+  ${Container}:hover & {
+    height: 30px;
+    border: solid 1px ${Black};
+  }
+`;
+
 function IdolRanking({ data }) {
   const [show, setShow] = useState(false);
   const [dvd, setDvd] = useState(null);
 
   const dvds = useMemo(
-    () => data.dvds.filter((item, index) => index > data.dvds.length - 13),
+    () =>
+      data.dvds
+        .filter((item, index) => index > data.dvds.length - 13)
+        .reverse(),
     [data.dvds]
   );
 
@@ -180,19 +213,27 @@ function IdolRanking({ data }) {
               <IdolCup cup={data.cup}>({data.cup})</IdolCup>
               <br />● Waist: {data.waist}
               <br />● Hips: {data.hips}
-              <br />
             </InformationIdol>
             <StylesIdolContainer>
               {data.styles.map(item => (
                 <StyleIdol key={item.tag} tag={item.tag} />
               ))}
             </StylesIdolContainer>
+            <ViewProfile
+              to={`/idol/${data.idIdol}`}
+              queen={(getIdolRank(data.idIdol) === 1).toString()}
+              runner={(getIdolRank(data.idIdol) === 2).toString()}
+            >
+              View
+            </ViewProfile>
           </IdolInformationContainer>
           <DvdsContainer>
             {dvds.map(item => (
               <DvdItem key={item.code} onClick={() => handleChangeDvd(item)}>
                 <PosterDvd src={item.poster} />
-                <CodeDvd>{item.code}</CodeDvd>
+                <CodeDvd uncensored={item.type === "Uncensored"}>
+                  {item.code}
+                </CodeDvd>
               </DvdItem>
             ))}
           </DvdsContainer>

@@ -1,13 +1,23 @@
 import React, { Fragment, memo } from "react";
 import { get } from "lodash";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
+import { getIdolRank } from "../../services/common.service";
 import Backdrop from "../UI/Backdrop/Backdrop";
 import IdolAvatar from "./IdolAvatar";
 import IdolCup from "./IdolCup";
 import IdolStyle from "./IdolStyle";
 
-import { Pink, Orange, Black, White } from "../../themes/colors";
+import {
+  Pink,
+  Orange,
+  Black,
+  White,
+  Yellow,
+  LightBlue,
+  Red
+} from "../../themes/colors";
 import { center, fadeIn } from "../../themes/styled";
 import { Large, XXLarge } from "../../themes/font";
 
@@ -21,7 +31,12 @@ const Container = styled.div`
   display: ${props => (props.show ? "flex" : "none")};
   padding: 10px;
   border-radius: 18px;
-  background: linear-gradient(to right, ${Pink}, ${Orange});
+  background: ${props =>
+    props.queen
+      ? `linear-gradient(to right, ${Yellow}, ${Red})`
+      : props.runnerUp
+      ? `linear-gradient(to right, ${LightBlue}, ${Pink})`
+      : `linear-gradient(to right,  ${Orange}, ${Pink})`};
   animation: ${fadeIn} 0.3s ease-in-out;
 `;
 
@@ -33,6 +48,7 @@ const AvatarIdol = styled(IdolAvatar)`
 `;
 
 const DetailContainer = styled.div`
+  position: relative;
   width: 24vw;
   height: calc(22vw + 6px);
   display: flex;
@@ -63,11 +79,42 @@ const StyleIdol = styled(IdolStyle)`
   margin-top: 10px;
 `;
 
+const ViewProfile = styled(Link)`
+  position: absolute;
+  left: -16vw;
+  bottom: 0px;
+  ${center}
+  width: 16vw;
+  height: 0px;
+  overflow: hidden;
+  border-radius: 0px 0px 18px 18px;
+  box-sizing: border-box;
+  background: ${props =>
+    props.queen === "true"
+      ? `linear-gradient(to right, ${Yellow}, ${Red})`
+      : props.runner === "true"
+      ? `linear-gradient(to right, ${LightBlue}, ${Pink})`
+      : `linear-gradient(to right,  ${Orange}, ${Pink})`};
+  text-decoration: none;
+  color: ${Black};
+  font-size: ${Large};
+  transition: height 0.3s ease-in-out;
+
+  ${Container}:hover & {
+    height: 50px;
+    border: solid 1px ${Black};
+  }
+`;
+
 function IdolDetail({ show, toggleModal, data }) {
   return (
     <Fragment>
       <Backdrop show={show} hiddenModal={toggleModal} />
-      <Container show={show}>
+      <Container
+        queen={getIdolRank(get(data, "idIdol", "")) === 1}
+        runnerUp={getIdolRank(get(data, "idIdol", "")) === 2}
+        show={show}
+      >
         <AvatarIdol src={get(data, "avatar", null)} />
         <DetailContainer>
           <NameIdol>
@@ -75,7 +122,7 @@ function IdolDetail({ show, toggleModal, data }) {
             {get(data, "other", "") ? `(${get(data, "other")})` : ""}
           </NameIdol>
           <InformationIdol>
-            ● Born: {get(data, "born", "")}
+            ● Born: {get(data, "born", "")} ({get(data, "age", "")} year olds)
             <br />● Height: {get(data, "height", "")}
             <br />● Breast: {get(data, "breast", "")}{" "}
             <IdolCup cup={get(data, "cup", "")}>
@@ -83,13 +130,19 @@ function IdolDetail({ show, toggleModal, data }) {
             </IdolCup>
             <br />● Waist: {get(data, "waist", "")}
             <br />● Hips: {get(data, "hips", "")}
-            <br />
           </InformationIdol>
           <StylesIdolContainer>
             {get(data, "styles", []).map(item => (
               <StyleIdol key={item.tag} tag={item.tag} />
             ))}
           </StylesIdolContainer>
+          <ViewProfile
+            to={`/idol/${get(data, "idIdol", "")}`}
+            queen={(getIdolRank(get(data, "idIdol", "")) === 1).toString()}
+            runner={(getIdolRank(get(data, "idIdol", "")) === 2).toString()}
+          >
+            View
+          </ViewProfile>
         </DetailContainer>
       </Container>
     </Fragment>

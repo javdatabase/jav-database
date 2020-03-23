@@ -97,7 +97,7 @@ function PreReleaseDvds() {
           <DvdContainer>
             {dvds.map(item => (
               <LazyLoad
-                key={item.idDvd}
+                key={item.code}
                 height={200}
                 once={true}
                 overflow={true}

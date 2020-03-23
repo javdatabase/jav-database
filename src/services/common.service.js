@@ -1,14 +1,22 @@
+import { get, omit } from "lodash";
+
 import Idols from "../data/idols";
 import MainDvds from "../data/dvds/main";
 
+import { ALL_IDOLS_DETAIL } from "./idols.service";
+
 function getIdolDetail(id) {
   const detail = Idols.find(idol => idol.idIdol === id);
-  return detail;
+  return omit(detail, ["album"]);
 }
 
-function sortIdols() {
-  const array = [...Idols];
-  const response = array.sort((a, b) => {
+function getIdolRank(id) {
+  const detail = ALL_IDOLS_DETAIL().find(idol => idol.idIdol === id);
+  return get(detail, "rank", "");
+}
+
+function sortIdols(idols) {
+  const response = idols.sort((a, b) => {
     let x = a.name.toUpperCase();
     let y = b.name.toUpperCase();
     if (x < y) return -1;
@@ -28,4 +36,15 @@ function getDvdsByIdol(id) {
   };
 }
 
-export { getIdolDetail, sortIdols, getDvdsByIdol };
+function sortDvds(dvds) {
+  const response = dvds.sort((a, b) => {
+    let x = a.code.toUpperCase();
+    let y = b.code.toUpperCase();
+    if (x < y) return -1;
+    else if (x > y) return 1;
+    else return 0;
+  });
+  return response;
+}
+
+export { getIdolDetail, getIdolRank, sortIdols, getDvdsByIdol, sortDvds };

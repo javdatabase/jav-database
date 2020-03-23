@@ -1,16 +1,16 @@
 import React, { Fragment, useCallback } from "react";
-import { useHistory, useLocation, Link } from "react-router-dom";
 import styled from "styled-components";
+import { Link, useHistory, useLocation } from "react-router-dom";
 
 import Backdrop from "../UI/Backdrop/Backdrop";
-import DvdsIcon from "../../assets/images/icon_dvds/icon_dvds.svg";
-import HomeIcon from "../../assets/images/icon_home/icon_home.svg";
-import RankingIcon from "../../assets/images/icon_ranking/icon_ranking.svg";
-import WomanIcon from "../../assets/images/icon_woman/icon_woman.svg";
-import PlaylistIcon from "../../assets/images/icon_playlist/icon_playlist.svg";
-import AlbumIcon from "../../assets/images/icon_album/icon_album.svg";
-import ClipboardIcon from "../../assets/images/icon_clipboard/icon_clipboard.svg";
-import NextIcon from "../../assets/images/icon_next/icon_next.svg";
+import DvdsIcon from "../../assets/images/ic_dvds/ic_dvds.svg";
+import HomeIcon from "../../assets/images/ic_home/ic_home.svg";
+import RankingIcon from "../../assets/images/ic_ranking/ic_ranking.svg";
+import WomanIcon from "../../assets/images/ic_woman/ic_woman.svg";
+import PlaylistIcon from "../../assets/images/ic_playlist/ic_playlist.svg";
+import AlbumIcon from "../../assets/images/ic_album/ic_album.svg";
+import ClipboardIcon from "../../assets/images/ic_clipboard/ic_clipboard.svg";
+import NextIcon from "../../assets/images/ic_next/ic_next.svg";
 
 import { Black, Pink, Orange, White } from "../../themes/colors";
 import { center } from "../../themes/styled";
