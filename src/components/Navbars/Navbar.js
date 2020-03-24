@@ -2,6 +2,12 @@ import React, { Fragment, useCallback } from "react";
 import styled from "styled-components";
 import { Link, useHistory, useLocation } from "react-router-dom";
 
+import {
+  SIZE_MAIN_DVDS,
+  SIZE_PRE_RELEASE_DVDS,
+  SIZE_AMATEUR_DVDS
+} from "../../services/dvds.service";
+import { SIZE_IDOLS } from "../../services/idols.service";
 import Backdrop from "../UI/Backdrop/Backdrop";
 import DvdsIcon from "../../assets/images/ic_dvds/ic_dvds.svg";
 import HomeIcon from "../../assets/images/ic_home/ic_home.svg";
@@ -96,22 +102,22 @@ const navigate = [
   },
   {
     path: "/idols",
-    title: "Idols",
+    title: `Idols (${SIZE_IDOLS})`,
     icon: WomanIcon
   },
   {
     path: "/dvds",
-    title: "Dvds",
+    title: `Dvds (${SIZE_MAIN_DVDS})`,
     icon: PlaylistIcon
   },
   {
     path: "/pre-release-dvds",
-    title: "Pre Release Dvds",
+    title: `Pre Release Dvds (${SIZE_PRE_RELEASE_DVDS})`,
     icon: AlbumIcon
   },
   {
     path: "/amateur-dvds",
-    title: "Amateur Dvds",
+    title: `Amateur Dvds (${SIZE_AMATEUR_DVDS})`,
     icon: ClipboardIcon
   }
 ];

@@ -11,6 +11,11 @@ function getIdolDetail(id) {
   return omit(detail, ["album"]);
 }
 
+function getIdolName(id) {
+  const detail = Idols.find(idol => idol.idIdol === id);
+  return get(detail, "name", "");
+}
+
 function getIdolRank(id) {
   const detail = ALL_IDOLS_DETAIL.find(idol => idol.idIdol === id);
   return get(detail, "rank", "");
@@ -81,6 +86,7 @@ function sortDvds(dvds) {
 
 export {
   getIdolDetail,
+  getIdolName,
   getIdolRank,
   getAllIdolsDetail,
   sortIdols,

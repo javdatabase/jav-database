@@ -8,7 +8,7 @@ import NewDvdRelease from "../../components/Home/NewDvdRelease";
 import NewDvdReleaseDetail from "../../components/Home/NewDvdReleaseDetail";
 
 import { Pink, Orange, Black, White } from "../../themes/colors";
-import { center } from "../../themes/styled";
+import { center, fadeIn } from "../../themes/styled";
 import { Large } from "../../themes/font";
 
 const Container = styled.div`
@@ -20,6 +20,7 @@ const Container = styled.div`
   align-items: center;
   padding: 35px 0px;
   box-sizing: border-box;
+  animation: ${fadeIn} 0.8s ease-in-out;
 `;
 
 const WaterWheelSliderContainer = styled.div`

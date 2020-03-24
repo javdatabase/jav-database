@@ -1,10 +1,12 @@
 import React, { useState, useEffect, useCallback } from "react";
-import { useLocation } from "react-router-dom";
+import { matchPath, useLocation } from "react-router-dom";
 import styled from "styled-components";
 
+import { getIdolName } from "../services/common.service";
 import Navbar from "../components/Navbars/Navbar";
 import Header from "../components/Headers/Header";
 import Routes from "../routes/Routes";
+
 import { Black } from "../themes/colors";
 
 const Container = styled.div`
@@ -19,36 +21,35 @@ const Body = styled.div`
   background-color: ${Black};
 `;
 
-const generateTitle = path => {
-  switch (path) {
-    case "/home":
-      return "Home";
-
-    case "/idols":
-      return "Idols";
-
-    case "/dvds":
-      return "Dvds";
-
-    case "/pre-release-dvds":
-      return "Pre Release Dvds";
-
-    case "/amateur-dvds":
-      return "Amateur Dvds";
-
-    default:
-      return "";
-  }
-};
-
 function Layout() {
   const location = useLocation();
   const [show, setShow] = useState(false);
   const [title, setTitle] = useState("");
 
+  const renderTitle = useCallback(() => {
+    const path = location.pathname;
+    if (matchPath(path, { path: "/home", exact: true })) {
+      return "Home";
+    } else if (matchPath(path, { path: "/ranking", exact: true })) {
+      return "Ranking";
+    } else if (matchPath(path, { path: "/idols", exact: true })) {
+      return "Idols";
+    } else if (matchPath(path, { path: "/idol/:id", exact: false })) {
+      return getIdolName(path.replace("/idol/", ""));
+    } else if (matchPath(path, { path: "/dvds", exact: true })) {
+      return "Dvds";
+    } else if (matchPath(path, { path: "/pre-release-dvds", exact: true })) {
+      return "Pre Release Dvds";
+    } else if (matchPath(path, { path: "/amateur-dvds", exact: true })) {
+      return "Amateur Dvds";
+    } else {
+      return "Not Found";
+    }
+  }, [location.pathname]);
+
   useEffect(() => {
-    setTitle(generateTitle(location.pathname));
-  }, [location]);
+    setTitle(renderTitle());
+  }, [renderTitle]);
 
   const toggleMenu = useCallback(() => {
     setShow(!show);

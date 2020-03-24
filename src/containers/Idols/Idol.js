@@ -4,6 +4,11 @@ import styled from "styled-components";
 import { useParams } from "react-router-dom";
 import LazyLoad from "react-lazyload";
 
+import { priceCurrency } from "../../helpers/render-price";
+import {
+  getEarningIdol,
+  getPriceOneNight
+} from "../../services/earnings.service";
 import { IDOL_PROFILE } from "../../services/idols.service";
 import Tabs from "../../components/UI/Tabs/Tabs";
 import IdolAvatar from "../../components/Idols/IdolAvatar";
@@ -20,12 +25,11 @@ import {
   DarkBlue,
   LightBlue,
   Yellow,
-  Red
+  Red,
+  Black
 } from "../../themes/colors";
-import { center } from "../../themes/styled";
-import { Large, XXLarge } from "../../themes/font";
-
-const tabs = ["Pictures", "Dvds"];
+import { center, fadeIn } from "../../themes/styled";
+import { Large, XLarge, XXLarge } from "../../themes/font";
 
 const Container = styled.div`
   position: relative;
@@ -35,6 +39,7 @@ const Container = styled.div`
   overflow: auto;
   padding: 30px;
   box-sizing: border-box;
+  animation: ${fadeIn} 0.8s ease-in-out;
 
   &::-webkit-scrollbar {
     width: 6px;
@@ -61,10 +66,11 @@ const InformationContainer = styled.div`
 `;
 
 const AvatarIdol = styled(IdolAvatar)`
-  width: 16vw;
-  height: 22vw;
+  width: 18vw;
+  height: 25vw;
   border: solid 5px transparent;
   border-radius: 18px;
+  box-sizing: content-box;
   object-fit: cover;
   cursor: pointer;
   transition: border 0.3s ease-in-out;
@@ -75,14 +81,14 @@ const AvatarIdol = styled(IdolAvatar)`
 `;
 
 const Information = styled.div`
+  position: relative;
+  margin-left: 10px;
   color: ${White};
   font-size: ${Large};
   line-height: 35px;
-  margin-left: 10px;
 `;
 
 const NameIdol = styled.div`
-  margin-bottom: 50px;
   font-size: ${XXLarge};
   background: ${props =>
     props.queen
@@ -92,6 +98,40 @@ const NameIdol = styled.div`
       : `linear-gradient(to right, ${Orange}, ${Pink})`};
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+`;
+
+const PointsIdol = styled.div`
+  ${center}
+  width: 150px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  border-radius: 18px;
+  background: ${props =>
+    props.queen
+      ? `linear-gradient(to right, ${Yellow}, ${Red})`
+      : props.runnerUp
+      ? `linear-gradient(to right, ${LightBlue}, ${Pink})`
+      : `linear-gradient(to right, ${Orange}, ${Pink})`};
+  color: ${Black};
+  font-size: ${XLarge};
+`;
+
+const RankIdol = styled.div`
+  position: absolute;
+  left: calc(-18vw - 15px);
+  bottom: 5px;
+  ${center}
+  width: 18vw;
+  height: 50px;
+  border-radius: 0px 0px 12px 12px;
+  background: ${props =>
+    props.queen
+      ? `linear-gradient(to right, ${Yellow}, ${Red})`
+      : props.runnerUp
+      ? `linear-gradient(to right, ${LightBlue}, ${Pink})`
+      : `linear-gradient(to right, ${Orange}, ${Pink})`};
+  color: ${Black};
+  font-size: ${XLarge};
 `;
 
 const StylesIdolContainer = styled.div`
@@ -159,11 +199,12 @@ const CodeDvd = styled.div`
 `;
 
 const PictureContainer = styled(DvdContainer)`
+  grid-template-columns: repeat(auto-fill, minmax(17vw, 1fr));
   gap: 20px;
 `;
 
 const Picture = styled(IdolAvatar)`
-  width: 12vw;
+  width: 18vw;
   border: solid 5px transparent;
   border-radius: 12px;
   cursor: pointer;
@@ -172,6 +213,17 @@ const Picture = styled(IdolAvatar)`
   &:hover {
     border: solid 5px ${Pink};
   }
+`;
+
+const PriceIdol = styled.div`
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  padding: 5px 10px;
+  border-radius: 12px;
+  background-color: ${White};
+  color: ${Black};
+  font-size: ${Large};
 `;
 
 function Idol() {
@@ -185,6 +237,29 @@ function Idol() {
   const data = useMemo(() => {
     return IDOL_PROFILE(id);
   }, [id]);
+
+  const earnings = useMemo(() => {
+    const uncensored = get(data, "dvds", []).filter(
+      item => item.type === "Uncensored"
+    );
+    return getEarningIdol(
+      get(data, "rank", 1000000),
+      get(data, "points", 0),
+      get(data, "styles", []),
+      uncensored.length
+    );
+  }, [data]);
+
+  const price = useMemo(() => {
+    return getPriceOneNight(earnings);
+  }, [earnings]);
+
+  const tabs = useMemo(() => {
+    return [
+      `Pictures (${get(data, "album.length", 0)})`,
+      `Dvds (${get(data, "dvds.length", 0)})`
+    ];
+  }, [data]);
 
   const handleChangeTab = useCallback(value => {
     setTab(value);
@@ -243,7 +318,7 @@ function Idol() {
           <DvdContainer>
             {get(data, "dvds", []).map(item => (
               <LazyLoad
-                key={item.code}
+                key={item.idDvd}
                 height={200}
                 once={true}
                 overflow={true}
@@ -281,6 +356,18 @@ function Idol() {
                 {get(data, "name", "")}{" "}
                 {get(data, "other", "") ? `(${get(data, "other")})` : ""}
               </NameIdol>
+              <PointsIdol
+                queen={get(data, "rank", "") === 1}
+                runnerUp={get(data, "rank", "") === 2}
+              >
+                {get(data, "points", 0)} points
+              </PointsIdol>
+              <RankIdol
+                queen={get(data, "rank", "") === 1}
+                runnerUp={get(data, "rank", "") === 2}
+              >
+                #{get(data, "rank", 0)}
+              </RankIdol>
               ● Born: {get(data, "born", "")} ({get(data, "age", "")} year olds)
               <br />● Height: {get(data, "height", "")}
               <br />● Breast: {get(data, "breast", "")}{" "}
@@ -307,6 +394,9 @@ function Idol() {
             <TabContent>{renderTabContent()}</TabContent>
           </div>
         </ProductContainer>
+        <PriceIdol>
+          ${priceCurrency(earnings)} ({priceCurrency(price)})
+        </PriceIdol>
       </Container>
       <IdolPicture
         show={showPicture}

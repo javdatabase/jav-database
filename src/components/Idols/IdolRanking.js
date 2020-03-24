@@ -229,7 +229,7 @@ function IdolRanking({ data }) {
           </IdolInformationContainer>
           <DvdsContainer>
             {dvds.map(item => (
-              <DvdItem key={item.code} onClick={() => handleChangeDvd(item)}>
+              <DvdItem key={item.idDvd} onClick={() => handleChangeDvd(item)}>
                 <PosterDvd src={item.poster} />
                 <CodeDvd uncensored={item.type === "Uncensored"}>
                   {item.code}
