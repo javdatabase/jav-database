@@ -251,7 +251,7 @@ const File24 = [
     poster:
       "http://pics.dmm.co.jp/mono/movie/adult/dvdms355so/dvdms355sopl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai057", name: "Yumi Maeda" }]
+    idols: [{ idIdol: "jai057", name: "Yumi Maedaa" }]
   },
   {
     code: "JUY-743",
@@ -302,7 +302,7 @@ const File24 = [
     poster:
       "http://pics.dmm.co.jp/mono/movie/adult/h_047wa393/h_047wa393pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai057", name: "Yumi Maeda" }]
+    idols: [{ idIdol: "jai057", name: "Yumi Maedaa" }]
   },
   {
     code: "WANZ-826",

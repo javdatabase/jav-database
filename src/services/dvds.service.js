@@ -38,13 +38,10 @@ const ALL_DVDS_RELEASE_DETAIL_BY_PAGE = (page, pageSize) => {
       index > SIZE_MAIN_DVDS - 1 - page * pageSize
     );
   });
-  const response = temp
-    .splice(0)
-    .reverse()
-    .map(dvd => ({
-      ...dvd,
-      idols: dvd.idols.map(idol => getIdolDetail(idol.idIdol))
-    }));
+  const response = [...temp].reverse().map(dvd => ({
+    ...dvd,
+    idols: dvd.idols.map(idol => getIdolDetail(idol.idIdol))
+  }));
   return response;
 };
 
@@ -55,13 +52,10 @@ const ALL_DVDS_PRE_RELEASE_DETAIL_BY_PAGE = (page, pageSize) => {
       index > SIZE_MAIN_DVDS - 1 - page * pageSize
     );
   });
-  const response = temp
-    .splice(0)
-    .reverse()
-    .map(dvd => ({
-      ...dvd,
-      idols: dvd.idols.map(idol => getIdolDetail(idol.idIdol))
-    }));
+  const response = [...temp].reverse().map(dvd => ({
+    ...dvd,
+    idols: dvd.idols.map(idol => getIdolDetail(idol.idIdol))
+  }));
   return response;
 };
 
@@ -72,7 +66,7 @@ const ALL_DVDS_AMATEUR_BY_PAGE = (page, pageSize) => {
       index > SIZE_AMATEUR_DVDS - 1 - page * pageSize
     );
   });
-  const response = temp.splice(0).reverse();
+  const response = [...temp].reverse();
   return response;
 };
 

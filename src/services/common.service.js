@@ -30,14 +30,14 @@ function getAllIdolsDetail() {
       points: size
     };
   });
-  const response = idols
+  const response = [...idols]
     .sort((a, b) => b.points - a.points)
     .map((item, index) => ({ ...item, rank: index + 1 }));
   return response;
 }
 
 function sortIdols(idols) {
-  const response = idols.sort((a, b) => {
+  const response = [...idols].sort((a, b) => {
     let x = a.name.toUpperCase();
     let y = b.name.toUpperCase();
     if (x < y) return -1;
@@ -74,7 +74,7 @@ function getDvdsRandom() {
 }
 
 function sortDvds(dvds) {
-  const response = dvds.sort((a, b) => {
+  const response = [...dvds].sort((a, b) => {
     let x = a.code.toUpperCase();
     let y = b.code.toUpperCase();
     if (x < y) return -1;

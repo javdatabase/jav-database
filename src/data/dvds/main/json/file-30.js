@@ -2593,7 +2593,7 @@ const File30 = [
     type: "Censored",
     idols: [
       { idIdol: "jai054", name: "Arisa Hanyuu" },
-      { idIdol: "jai057", name: "Yumi Maeda" }
+      { idIdol: "jai057", name: "Yumi Maedaa" }
     ]
   },
   {

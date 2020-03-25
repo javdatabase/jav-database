@@ -1083,7 +1083,7 @@ const File1 = [
     cup: "C-Cup",
     waist: "58 cm",
     hips: "86 cm",
-    styles: [{ tag: "Cute" }, { tag: "Slender" }],
+    styles: [{ tag: "Retired" }, { tag: "Cute" }, { tag: "Slender" }],
     album: [
       {
         picture:
@@ -2600,7 +2600,7 @@ const File1 = [
     cup: "H-Cup",
     waist: "65 cm",
     hips: "93 cm",
-    styles: [{ tag: "Killer Tits" }, { tag: "Long Legs" }],
+    styles: [{ tag: "Retired" }, { tag: "Killer Tits" }, { tag: "Long Legs" }],
     album: [
       {
         picture:
@@ -2757,6 +2757,7 @@ const File1 = [
     waist: "58 cm",
     hips: "85 cm",
     styles: [
+      { tag: "Retired" },
       { tag: "6 Stars JAV" },
       { tag: "Cute" },
       { tag: "Beautiful Breasts" },
@@ -2978,7 +2979,7 @@ const File1 = [
     idIdol: "jai057",
     avatar:
       "https://www.japanesebeauties.net/hardcore/caribbeancom/yumi-maeda/080917-476/yumi-maeda-7.jpg",
-    name: "Yumi Maeda",
+    name: "Yumi Maedaa",
     other: "Haruka Inoue",
     born: "30/11/1994",
     height: "157 cm",

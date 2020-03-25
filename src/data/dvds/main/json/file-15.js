@@ -1710,7 +1710,7 @@ const File15 = [
     title: `CUM INSIDE BIG BREAST UNIFORM BEAUTIFUL GIRL VOL.004`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/84bazx160/84bazx160pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai057", name: "Yumi Maeda" }]
+    idols: [{ idIdol: "jai057", name: "Yumi Maedaa" }]
   },
   {
     code: "SDEN-040",
@@ -1719,7 +1719,7 @@ const File15 = [
     type: "Censored",
     idols: [
       { idIdol: "jai034", name: "Mary Tachibana" },
-      { idIdol: "jai057", name: "Yumi Maeda" }
+      { idIdol: "jai057", name: "Yumi Maedaa" }
     ]
   },
   {

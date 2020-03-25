@@ -14,7 +14,7 @@ const ALL_IDOLS_BY_PAGE = (page, pageSize) => {
       index > SIZE_IDOLS - 1 - page * pageSize
     );
   });
-  return response.splice(0).reverse();
+  return [...response].reverse();
 };
 
 const IDOL_PROFILE = id => {
