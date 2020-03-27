@@ -202,7 +202,7 @@ const File26 = [
     poster:
       "http://pics.dmm.co.jp/mono/movie/adult/h_1160meko111/h_1160meko111pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai057", name: "Yumi Maedaa" }]
+    idols: [{ idIdol: "jai057", name: "Yumi Maeda" }]
   },
   {
     code: "TOEN-12",

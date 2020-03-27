@@ -141,7 +141,6 @@ const Points = styled.div`
 
 const ViewProfile = styled(Link)`
   position: absolute;
-  left: calc(-10vw - 10px);
   bottom: 0px;
   ${center}
   width: 10vw;
@@ -201,7 +200,16 @@ function IdolRanking({ data }) {
       <Container queen={data.rank === 1} runnerUp={data.rank === 2}>
         <RankingIdol>{data.rank}</RankingIdol>
         <div style={{ display: "flex", width: "100%" }}>
-          <AvatarIdol src={data.avatar} />
+          <div style={{ position: "relative", height: "15vw" }}>
+            <AvatarIdol src={data.avatar} />
+            <ViewProfile
+              to={`/idol/${data.idIdol}`}
+              queen={(getIdolRank(data.idIdol) === 1).toString()}
+              runner={(getIdolRank(data.idIdol) === 2).toString()}
+            >
+              View
+            </ViewProfile>
+          </div>
           <IdolInformationContainer>
             <NameIdol>
               {data.name} {data.other ? `(${data.other})` : ""}
@@ -219,13 +227,6 @@ function IdolRanking({ data }) {
                 <StyleIdol key={item.tag} tag={item.tag} />
               ))}
             </StylesIdolContainer>
-            <ViewProfile
-              to={`/idol/${data.idIdol}`}
-              queen={(getIdolRank(data.idIdol) === 1).toString()}
-              runner={(getIdolRank(data.idIdol) === 2).toString()}
-            >
-              View
-            </ViewProfile>
           </IdolInformationContainer>
           <DvdsContainer>
             {dvds.map(item => (

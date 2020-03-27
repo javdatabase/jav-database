@@ -2138,7 +2138,7 @@ const File21 = [
     title: `ONNA BOSS WHO PRESSES ON PHYSICAL RELATIONSHIP AT A BUSINESS TRIP DESTINATION`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/bf564/bf564pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai057", name: "Yumi Maedaa" }]
+    idols: [{ idIdol: "jai057", name: "Yumi Maeda" }]
   },
   {
     code: "STAR-380",

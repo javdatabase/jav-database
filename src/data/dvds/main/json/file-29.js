@@ -761,7 +761,7 @@ const File29 = [
     title: `HANIKAMI BEAUTIFUL GIRL WHO DOESN'T STOP LOVING LOVE`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/sqte249so/sqte249sopl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai057", name: "Yumi Maedaa" }]
+    idols: [{ idIdol: "jai057", name: "Yumi Maeda" }]
   },
   {
     code: "CEAD-267",
@@ -2547,7 +2547,7 @@ const File29 = [
     type: "Censored",
     idols: [
       { idIdol: "jai049", name: "Hikari Anzai" },
-      { idIdol: "jai057", name: "Yumi Maedaa" }
+      { idIdol: "jai057", name: "Yumi Maeda" }
     ]
   },
   {
@@ -2826,7 +2826,7 @@ const File29 = [
     poster: "http://pics.dmm.co.jp/mono/movie/adult/club556/club556pl.jpg",
     type: "Censored",
     idols: [
-      { idIdol: "jai057", name: "Yumi Maedaa" },
+      { idIdol: "jai057", name: "Yumi Maeda" },
       { idIdol: "jai144", name: "Kanna Misaki" }
     ]
   },
@@ -2843,7 +2843,7 @@ const File29 = [
     poster:
       "http://pics.dmm.co.jp/mono/movie/adult/h_237nacr235/h_237nacr235pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai057", name: "Yumi Maedaa" }]
+    idols: [{ idIdol: "jai057", name: "Yumi Maeda" }]
   },
   {
     code: "GVG-865",

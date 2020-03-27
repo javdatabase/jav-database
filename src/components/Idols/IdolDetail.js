@@ -48,7 +48,6 @@ const AvatarIdol = styled(IdolAvatar)`
 `;
 
 const DetailContainer = styled.div`
-  position: relative;
   width: 24vw;
   height: calc(22vw + 6px);
   display: flex;
@@ -81,7 +80,6 @@ const StyleIdol = styled(IdolStyle)`
 
 const ViewProfile = styled(Link)`
   position: absolute;
-  left: -16vw;
   bottom: 0px;
   ${center}
   width: 16vw;
@@ -115,7 +113,16 @@ function IdolDetail({ show, toggleModal, data }) {
         runnerUp={getIdolRank(get(data, "idIdol", "")) === 2}
         show={show}
       >
-        <AvatarIdol src={get(data, "avatar", null)} />
+        <div style={{ position: "relative", height: "22vw" }}>
+          <AvatarIdol src={get(data, "avatar", null)} />
+          <ViewProfile
+            to={`/idol/${get(data, "idIdol", "")}`}
+            queen={(getIdolRank(get(data, "idIdol", "")) === 1).toString()}
+            runner={(getIdolRank(get(data, "idIdol", "")) === 2).toString()}
+          >
+            View
+          </ViewProfile>
+        </div>
         <DetailContainer>
           <NameIdol>
             {get(data, "name", "")}{" "}
@@ -136,13 +143,6 @@ function IdolDetail({ show, toggleModal, data }) {
               <StyleIdol key={item.tag} tag={item.tag} />
             ))}
           </StylesIdolContainer>
-          <ViewProfile
-            to={`/idol/${get(data, "idIdol", "")}`}
-            queen={(getIdolRank(get(data, "idIdol", "")) === 1).toString()}
-            runner={(getIdolRank(get(data, "idIdol", "")) === 2).toString()}
-          >
-            View
-          </ViewProfile>
         </DetailContainer>
       </Container>
     </Fragment>

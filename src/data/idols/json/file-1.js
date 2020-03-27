@@ -2979,7 +2979,7 @@ const File1 = [
     idIdol: "jai057",
     avatar:
       "https://www.japanesebeauties.net/hardcore/caribbeancom/yumi-maeda/080917-476/yumi-maeda-7.jpg",
-    name: "Yumi Maedaa",
+    name: "Yumi Maeda",
     other: "Haruka Inoue",
     born: "30/11/1994",
     height: "157 cm",

@@ -265,7 +265,7 @@ const File3 = [
     avatar:
       "https://www.japanesebeauties.net/hardcore/1pondo/mahoro-yoshino/123016_455/mahoro-yoshino-46.jpg",
     name: "Mahoro Yoshino",
-    other: "",
+    other: "Mahoro Aino",
     born: "30/11/1994",
     height: "145 cm",
     breast: "95 cm",
@@ -710,62 +710,62 @@ const File3 = [
       }
     ]
   },
-  {
-    idIdol: "jai127",
-    avatar:
-      "https://www.japanesebeauties.net/japanese/chinami-ito/10/chinami-ito-7.jpg",
-    name: "Chinami Ito",
-    other: "",
-    born: "01/12/1996",
-    height: "163 cm",
-    breast: "86 cm",
-    cup: "D-Cup",
-    waist: "57 cm",
-    hips: "86 cm",
-    styles: [{ tag: "Cute" }, { tag: "Beautiful Breasts" }],
-    album: [
-      {
-        picture:
-          "https://www.japanesebeauties.net/japanese/chinami-ito/11/chinami-ito-4.jpg"
-      },
-      {
-        picture:
-          "https://www.japanesebeauties.net/japanese/chinami-ito/6/chinami-ito-3.jpg"
-      },
-      {
-        picture:
-          "https://www.japanesebeauties.net/japanese/chinami-ito/7/chinami-ito-3.jpg"
-      },
-      {
-        picture:
-          "https://www.japanesebeauties.net/japanese/chinami-ito/5/chinami-ito-8.jpg"
-      },
-      {
-        picture:
-          "https://www.japanesebeauties.net/japanese/chinami-ito/4/chinami-ito-5.jpg"
-      },
-      {
-        picture:
-          "https://www.japanesebeauties.net/japanese/chinami-ito/4/chinami-ito-11.jpg"
-      },
-      {
-        picture:
-          "https://www.japanesebeauties.net/japanese/chinami-ito/3/chinami-ito-5.jpg"
-      },
-      {
-        picture:
-          "https://www.japanesebeauties.net/japanese/chinami-ito/10/chinami-ito-2.jpg"
-      },
-      {
-        picture:
-          "https://www.japanesebeauties.net/japanese/chinami-ito/12/chinami-ito-12.jpg"
-      },
-      {
-        picture:
-          "https://www.japanesebeauties.net/japanese/chinami-ito/2/chinami-ito-7.jpg"
-      }
-    ]
-  },
+  // {
+  //   idIdol: "jai127",
+  //   avatar:
+  //     "https://www.japanesebeauties.net/japanese/chinami-ito/10/chinami-ito-7.jpg",
+  //   name: "Chinami Ito",
+  //   other: "",
+  //   born: "01/12/1996",
+  //   height: "163 cm",
+  //   breast: "86 cm",
+  //   cup: "D-Cup",
+  //   waist: "57 cm",
+  //   hips: "86 cm",
+  //   styles: [{ tag: "Cute" }, { tag: "Beautiful Breasts" }],
+  //   album: [
+  //     {
+  //       picture:
+  //         "https://www.japanesebeauties.net/japanese/chinami-ito/11/chinami-ito-4.jpg"
+  //     },
+  //     {
+  //       picture:
+  //         "https://www.japanesebeauties.net/japanese/chinami-ito/6/chinami-ito-3.jpg"
+  //     },
+  //     {
+  //       picture:
+  //         "https://www.japanesebeauties.net/japanese/chinami-ito/7/chinami-ito-3.jpg"
+  //     },
+  //     {
+  //       picture:
+  //         "https://www.japanesebeauties.net/japanese/chinami-ito/5/chinami-ito-8.jpg"
+  //     },
+  //     {
+  //       picture:
+  //         "https://www.japanesebeauties.net/japanese/chinami-ito/4/chinami-ito-5.jpg"
+  //     },
+  //     {
+  //       picture:
+  //         "https://www.japanesebeauties.net/japanese/chinami-ito/4/chinami-ito-11.jpg"
+  //     },
+  //     {
+  //       picture:
+  //         "https://www.japanesebeauties.net/japanese/chinami-ito/3/chinami-ito-5.jpg"
+  //     },
+  //     {
+  //       picture:
+  //         "https://www.japanesebeauties.net/japanese/chinami-ito/10/chinami-ito-2.jpg"
+  //     },
+  //     {
+  //       picture:
+  //         "https://www.japanesebeauties.net/japanese/chinami-ito/12/chinami-ito-12.jpg"
+  //     },
+  //     {
+  //       picture:
+  //         "https://www.japanesebeauties.net/japanese/chinami-ito/2/chinami-ito-7.jpg"
+  //     }
+  //   ]
+  // },
   {
     idIdol: "jai128",
     avatar:

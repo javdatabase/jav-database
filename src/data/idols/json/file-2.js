@@ -540,7 +540,7 @@ const File2 = [
     idIdol: "jai068",
     avatar: "https://www.japanesebeauties.net/japanese/aoi/11/aoi-1.jpg",
     name: "Aoi",
-    other: "",
+    other: "Yuko Ono",
     born: "03/12/1993",
     height: "160 cm",
     breast: "92 cm",
@@ -695,7 +695,7 @@ const File2 = [
     cup: "G-Cup",
     waist: "58 cm",
     hips: "88 cm",
-    styles: [{ tag: "Killer Tits" }, { tag: "Slender" }],
+    styles: [{ tag: "Retired" }, { tag: "Killer Tits" }, { tag: "Slender" }],
     album: [
       {
         picture:
@@ -1677,6 +1677,7 @@ const File2 = [
     waist: "59 cm",
     hips: "87 cm",
     styles: [
+      { tag: "Retired" },
       { tag: "Cute" },
       { tag: "Beautiful Breasts" },
       { tag: "Former Gravure Model" }

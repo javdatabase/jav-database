@@ -2262,13 +2262,6 @@ const File30 = [
     idols: [{ idIdol: "jai132", name: "Moka" }]
   },
   {
-    code: "YMDD-151",
-    title: `SQUIRREL WAGON GOES ! ! HAPPENING A GO GO ! ! MARI NAKA SUMMER AND LIZ'S RARE JOURNEY`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/ymdd151so/ymdd151sopl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai014", name: "Rika Mari" }]
-  },
-  {
     code: "HND-673",
     title: `A GIRL OF SPOOFING LITERARY SYSTEM FEMALE FILTHY NTR ~ SEX CRAZY CHANGED THE APPEARANCE AND CRIED A PURE FAVORITE MAN ~`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/hnd673/hnd673pl.jpg",
@@ -2520,20 +2513,6 @@ const File30 = [
     ]
   },
   {
-    code: "GCF-008",
-    title: `WE WILL CARRY OUT THE COST REDUCTION OF UTILITIES EXPENSES , SO PLEASE WEAR UNIFORMS SUPPLIED FROM TODAY AND WORK TO THE FEMALE EMPLOYEES OF MY SUBORDINATES IS A SEE-THROUGH AND HUMBLE HYPER-COOL BIZ SPECIFICATION ! EVEN THOUGH THE FABRIC SHOULD BE THIN AND COOL , IT'S STRANGE THAT IT'S NOT WORKING AT ALL !`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/gcf008/gcf008pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai054", name: "Arisa Hanyuu" }]
-  },
-  {
-    code: "MCT-041",
-    title: `SECRET 1 DAY DATE 4 HANYU ARISA`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/118mct041/118mct041pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai054", name: "Arisa Hanyuu" }]
-  },
-  {
     code: "FSET-826",
     title: `THE TRANSFORMATION WOMAN WHO IS STRANGE WHEN IT LOOKS IN FRONT OF THE EYE ○ ○ GIRL AS GLASSES GIRL WHO LOOKS SERIOUS LOOKS`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/1fset826/1fset826pl.jpg",
@@ -2593,7 +2572,7 @@ const File30 = [
     type: "Censored",
     idols: [
       { idIdol: "jai054", name: "Arisa Hanyuu" },
-      { idIdol: "jai057", name: "Yumi Maedaa" }
+      { idIdol: "jai057", name: "Yumi Maeda" }
     ]
   },
   {
@@ -3003,6 +2982,21 @@ const File30 = [
     code: "FLAV-232",
     title: `HYPER FETISH HIGH LEG IRRITATING QUEEN ARISA HANYU`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/flav232so/flav232sopl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai054", name: "Arisa Hanyuu" }]
+  },
+  {
+    code: "DANDY-693",
+    title: `BEAUTIFUL ASS ESTHETICIAN VOL.2 TO REMOVE THE BONES IN THE S-SHAPED SWINGING WOMAN ON TOP POSITION THAT DOES NOT MOVE THE MAN WHO HAS ERECTED AT ALL`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/1dandy693/1dandy693pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai054", name: "Arisa Hanyuu" }]
+  },
+  {
+    code: "NASH-201",
+    title: `A FEMALE DOCTOR IN THE UROLOGY DEPARTMENT KNOWS IT ! ? AS A RESULT OF BEING TOUCHED BY AN EXAMINATION AND ERECTION INADVERTENTLY ...`,
+    poster:
+      "http://pics.dmm.co.jp/mono/movie/adult/h_067nash201/h_067nash201pl.jpg",
     type: "Censored",
     idols: [{ idIdol: "jai054", name: "Arisa Hanyuu" }]
   }
