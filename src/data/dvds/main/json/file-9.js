@@ -2996,6 +2996,13 @@ const File9 = [
     poster: `http://pics.dmm.co.jp/mono/movie/adult/24gkd006/24gkd006pl.jpg`,
     type: `Censored`,
     idols: [{ idIdol: `jai016`, name: "Kanako Iioka" }]
+  },
+  {
+    code: "NEO-717",
+    title: `UNCLE , DO YOU WANT TO DRINK MY PEE ? ARIMURA NOZOMI`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/433neo717/433neo717pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai148", name: "Nozomi Arimura" }]
   }
 ];
 

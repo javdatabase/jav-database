@@ -3002,6 +3002,21 @@ const File25 = [
     poster: "http://pics.dmm.co.jp/mono/movie/adult/gdhh162/gdhh162pl.jpg",
     type: "Censored",
     idols: [{ idIdol: "jai145", name: "Moa Hoshizora" }]
+  },
+  {
+    code: "MXGS-1131",
+    title: `DESPITE BEING BULLIED BY THE HATING DAD WHO HATES HIM , HIS COMPATIBILITY IS TOO GOOD AND HE GOT STUCK ! ARIMURA NOZOMI`,
+    poster:
+      "http://pics.dmm.co.jp/mono/movie/adult/h_068mxgs1131/h_068mxgs1131pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai148", name: "Nozomi Arimura" }]
+  },
+  {
+    code: "DNW-069",
+    title: `I COLLECTED EXTREMELY EROTIC BEAUTIES WHO LOVED OJISAN TOO MUCH . PICKING UP AMATEUR DAUGHTERS ! ! 06`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/118dnw069/118dnw069pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai148", name: "Nozomi Arimura" }]
   }
 ];
 

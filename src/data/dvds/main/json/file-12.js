@@ -2998,6 +2998,13 @@ const File12 = [
     poster: `http://pics.dmm.co.jp/mono/movie/adult/adn101/adn101pl.jpg`,
     type: `Censored`,
     idols: [{ idIdol: `jai013`, name: "Kaho Shibuya" }]
+  },
+  {
+    code: "FLAV-237",
+    title: `BEROCHU LOVE HENTAI BIG ASS SWIMSUIT SCHOOL GIRLS BUKKAKE CLUB ARIMURA NOZOMI`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/flav237so/flav237sopl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai148", name: "Nozomi Arimura" }]
   }
 ];
 

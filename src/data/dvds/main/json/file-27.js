@@ -3005,6 +3005,13 @@ const File27 = [
     poster: "http://pics.dmm.co.jp/mono/movie/adult/1star619/1star619pl.jpg",
     type: "Censored",
     idols: [{ idIdol: "jai139", name: "Mana Sakura" }]
+  },
+  {
+    code: "SOJU-019",
+    title: `A NEWLYWED WIFE WHO IS ASKED BY HER HUSBAND ON A BUSINESS TRIP AND SENDS A VIDEO LETTER , HER HUSBAND IS TAKEN DOWN AND SHE SEES THE MASOCHIST OF HER DESIRE AND DROPS NTR VIDEOS ONE AFTER ANOTHER ! I'M HOOKED ON FOOLING MY HUSBAND AND SNEERING ... NOZOMI ARIMURA`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/soju019/soju019pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai148", name: "Nozomi Arimura" }]
   }
 ];
 
