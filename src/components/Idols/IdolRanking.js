@@ -115,7 +115,6 @@ const DvdItem = styled.div`
 const PosterDvd = styled(DvdPoster)`
   width: 7.5vw;
   height: 5vw;
-  object-fit: cover;
 `;
 
 const CodeDvd = styled.div`

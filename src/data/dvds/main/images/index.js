@@ -122,6 +122,24 @@ import SKYHD040 from "./SKYHD-040.jpg";
 import SKYHD048 from "./SKYHD-048.jpg";
 import CWP25 from "./CWP-25.jpg";
 import MXX20 from "./MXX-20.jpg";
+import SSDV05 from "./SSDV-05.jpg";
+import CT36 from "./CT-36.jpg";
+import HEY141 from "./HEY-141.jpg";
+import MMDV58 from "./MMDV-58.jpg";
+import SSDV58 from "./SSDV-58.jpg";
+import LLDV37 from "./LLDV-37.jpg";
+import MMDV40 from "./MMDV-40.jpg";
+import MXX49 from "./MXX-49.jpg";
+import CCDV55 from "./CCDV-55.jpg";
+import LLDV27 from "./LLDV-27.jpg";
+import CCDV40 from "./CCDV-40.jpg";
+import HEY132 from "./HEY-132.jpg";
+import SSDV40 from "./SSDV-40.jpg";
+import HEY136 from "./HEY-136.jpg";
+import HEY151 from "./HEY-151.jpg";
+import HEY137 from "./HEY-137.jpg";
+import HEY148 from "./HEY-148.jpg";
+import BT177 from "./BT-177.jpg";
 
 export {
   CWP49,
@@ -247,5 +265,23 @@ export {
   SKYHD040,
   SKYHD048,
   CWP25,
-  MXX20
+  MXX20,
+  SSDV05,
+  CT36,
+  HEY141,
+  MMDV58,
+  SSDV58,
+  LLDV37,
+  MMDV40,
+  MXX49,
+  CCDV55,
+  LLDV27,
+  CCDV40,
+  HEY132,
+  SSDV40,
+  HEY136,
+  HEY151,
+  HEY137,
+  HEY148,
+  BT177
 };

@@ -40,7 +40,6 @@ const Container = styled.div`
 const PosterDvd = styled(DvdPoster)`
   width: 36vw;
   height: 24vw;
-  object-fit: cover;
 `;
 
 const DetailContainer = styled.div`

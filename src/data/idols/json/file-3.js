@@ -503,14 +503,14 @@ const File3 = [
     avatar:
       "https://img201.imagetwist.com/i/27916/78awfzvrwovv.jpg/miku-akari-2.jpg",
     name: "Miku Akari",
-    other: "Rin Yuuka",
+    other: "Rei Reiwa",
     born: "20/12/1990",
     height: "167 cm",
     breast: "88 cm",
     cup: "G-Cup",
     waist: "55 cm",
     hips: "83 cm",
-    styles: [{ tag: "Retired" }, { tag: "Beautiful Breasts" }],
+    styles: [{ tag: "Beautiful Breasts" }],
     album: [
       {
         picture:
@@ -543,18 +543,14 @@ const File3 = [
     avatar:
       "https://www.japanesebeauties.net/hardcore/caribbeancom/airi-miyazaki/082915-959/airi-miyazaki-6.jpg",
     name: "Airi Miyazaki",
-    other: "",
+    other: "Kei Mimori",
     born: "17/06/1991",
     height: "169 cm",
     breast: "89 cm",
     cup: "G-Cup",
     waist: "58 cm",
     hips: "90 cm",
-    styles: [
-      { tag: "Retired" },
-      { tag: "Beautiful Breasts" },
-      { tag: "Long Legs" }
-    ],
+    styles: [{ tag: "Beautiful Breasts" }, { tag: "Long Legs" }],
     album: [
       {
         picture:
@@ -666,7 +662,7 @@ const File3 = [
     cup: "G-Cup",
     waist: "62 cm",
     hips: "97 cm",
-    styles: [{ tag: "Killer Tits" }],
+    styles: [{ tag: "Retired" }, { tag: "Killer Tits" }],
     album: [
       {
         picture:
@@ -1236,7 +1232,12 @@ const File3 = [
     cup: "B-Cup",
     waist: "58 cm",
     hips: "87 cm",
-    styles: [{ tag: "Small Tits" }, { tag: "Slender" }, { tag: "Mature" }],
+    styles: [
+      { tag: "Retired" },
+      { tag: "Small Tits" },
+      { tag: "Slender" },
+      { tag: "Mature" }
+    ],
     album: [{ picture: akiko_hasegawa.akiko_hasegawa_1 }]
   },
   {
@@ -1805,6 +1806,7 @@ const File3 = [
     waist: "58 cm",
     hips: "85 cm",
     styles: [
+      { tag: "Retired" },
       { tag: "Cute" },
       { tag: "Beautiful Breasts" },
       { tag: "Mixed-Race" }
