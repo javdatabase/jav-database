@@ -2520,54 +2520,54 @@ const File1 = [
       }
     ]
   },
-  {
-    idIdol: "jai048",
-    avatar:
-      "https://www.japanesebeauties.net/japanese/nonoka-momose/4/nonoka-momose-11.jpg",
-    name: "Nonoka Momose",
-    other: "",
-    born: "25/12/1987",
-    height: "168 cm",
-    breast: "90 cm",
-    cup: "E-Cup",
-    waist: "60 cm",
-    hips: "89 cm",
-    styles: [{ tag: "Retired" }, { tag: "Cute" }, { tag: "Killer Tits" }],
-    album: [
-      {
-        picture:
-          "https://www.japanesebeauties.net/japanese/nonoka-momose/10/nonoka-momose-9.jpg"
-      },
-      {
-        picture:
-          "https://www.japanesebeauties.net/japanese/nonoka-momose/10/nonoka-momose-7.jpg"
-      },
-      {
-        picture:
-          "https://www.japanesebeauties.net/japanese/nonoka-momose/5/nonoka-momose-3.jpg"
-      },
-      {
-        picture:
-          "https://www.japanesebeauties.net/japanese/nonoka-momose/5/nonoka-momose-7.jpg"
-      },
-      {
-        picture:
-          "https://www.japanesebeauties.net/japanese/nonoka-momose/5/nonoka-momose-6.jpg"
-      },
-      {
-        picture:
-          "https://www.japanesebeauties.net/japanese/nonoka-momose/5/nonoka-momose-8.jpg"
-      },
-      {
-        picture:
-          "https://www.japanesebeauties.net/japanese/nonoka-momose/13/nonoka-momose-11.jpg"
-      },
-      {
-        picture:
-          "https://www.japanesebeauties.net/japanese/nonoka-momose/7/nonoka-momose-4.jpg"
-      }
-    ]
-  },
+  // {
+  //   idIdol: "jai048",
+  //   avatar:
+  //     "https://www.japanesebeauties.net/japanese/nonoka-momose/4/nonoka-momose-11.jpg",
+  //   name: "Nonoka Momose",
+  //   other: "",
+  //   born: "25/12/1987",
+  //   height: "168 cm",
+  //   breast: "90 cm",
+  //   cup: "E-Cup",
+  //   waist: "60 cm",
+  //   hips: "89 cm",
+  //   styles: [{ tag: "Retired" }, { tag: "Cute" }, { tag: "Killer Tits" }],
+  //   album: [
+  //     {
+  //       picture:
+  //         "https://www.japanesebeauties.net/japanese/nonoka-momose/10/nonoka-momose-9.jpg"
+  //     },
+  //     {
+  //       picture:
+  //         "https://www.japanesebeauties.net/japanese/nonoka-momose/10/nonoka-momose-7.jpg"
+  //     },
+  //     {
+  //       picture:
+  //         "https://www.japanesebeauties.net/japanese/nonoka-momose/5/nonoka-momose-3.jpg"
+  //     },
+  //     {
+  //       picture:
+  //         "https://www.japanesebeauties.net/japanese/nonoka-momose/5/nonoka-momose-7.jpg"
+  //     },
+  //     {
+  //       picture:
+  //         "https://www.japanesebeauties.net/japanese/nonoka-momose/5/nonoka-momose-6.jpg"
+  //     },
+  //     {
+  //       picture:
+  //         "https://www.japanesebeauties.net/japanese/nonoka-momose/5/nonoka-momose-8.jpg"
+  //     },
+  //     {
+  //       picture:
+  //         "https://www.japanesebeauties.net/japanese/nonoka-momose/13/nonoka-momose-11.jpg"
+  //     },
+  //     {
+  //       picture:
+  //         "https://www.japanesebeauties.net/japanese/nonoka-momose/7/nonoka-momose-4.jpg"
+  //     }
+  //   ]
+  // },
   {
     idIdol: "jai049",
     avatar:

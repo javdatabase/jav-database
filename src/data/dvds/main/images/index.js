@@ -95,7 +95,6 @@ import HEY046 from "./HEY-046.jpg";
 import BT141 from "./BT-141.jpg";
 import SMD33 from "./SMD-33.jpg";
 import LLDV21 from "./LLDV-21.jpg";
-import INU042 from "./INU-042.jpg";
 import MCDV35 from "./MCDV-35.jpg";
 import MCDV49 from "./MCDV-49.jpg";
 import HEY124 from "./HEY-124.jpg";
@@ -222,7 +221,6 @@ export {
   BT141,
   SMD33,
   LLDV21,
-  INU042,
   MCDV49,
   HEY124,
   DRC149,

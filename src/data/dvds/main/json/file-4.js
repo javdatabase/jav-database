@@ -53,10 +53,7 @@ const File4 = [
     title: `BUSTY MAID M HUMILIATION`,
     poster: `http://img10.pixhost.to/images/130/44389990_i189337.jpg`,
     type: `Censored`,
-    idols: [
-      { idIdol: `jai006`, name: "Haruki Satou" },
-      { idIdol: `jai048`, name: "Nonoka Momose" }
-    ]
+    idols: [{ idIdol: `jai006`, name: "Haruki Satou" }]
   },
   {
     code: `TERA-007`,
@@ -2999,7 +2996,7 @@ const File4 = [
     poster: `http://pics.dmm.co.jp/mono/movie/adult/143fab02/143fab02pl.jpg`,
     type: `Censored`,
     idols: [{ idIdol: `jai011`, name: "Asahi Mizuno" }]
-  },
+  }
 ];
 
 export default File4;

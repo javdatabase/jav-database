@@ -1490,7 +1490,12 @@ const File3 = [
     cup: "D-Cup",
     waist: "59 cm",
     hips: "83 cm",
-    styles: [{ tag: "Cute" }, { tag: "Small Tits" }, { tag: "Slender" }],
+    styles: [
+      { tag: "Retired" },
+      { tag: "Cute" },
+      { tag: "Small Tits" },
+      { tag: "Slender" }
+    ],
     album: [
       { picture: ririna_yamaoka.ririna_yamaoka_1 },
       { picture: ririna_yamaoka.ririna_yamaoka_2 }
