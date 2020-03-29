@@ -1,8 +1,4 @@
-import {
-  honoka_tsuji_1,
-  honoka_tsuji_2,
-  honoka_tsuji_3
-} from "../images/honoka-tsuji";
+import * as honoka_tsuji from "../images/honoka-tsuji";
 
 const File1 = [
   {
@@ -2528,7 +2524,7 @@ const File1 = [
   },
   {
     idIdol: "jai048",
-    avatar: honoka_tsuji_1,
+    avatar: honoka_tsuji.honoka_tsuji_1,
     name: "Honoka Tsuji",
     other: "",
     born: "28/08/1996",
@@ -2538,7 +2534,10 @@ const File1 = [
     waist: "60 cm",
     hips: "88 cm",
     styles: [{ tag: "Killer Tits" }, { tag: "Long Legs" }],
-    album: [{ picture: honoka_tsuji_2 }, { picture: honoka_tsuji_3 }]
+    album: [
+      { picture: honoka_tsuji.honoka_tsuji_2 },
+      { picture: honoka_tsuji.honoka_tsuji_3 }
+    ]
   },
   {
     idIdol: "jai049",

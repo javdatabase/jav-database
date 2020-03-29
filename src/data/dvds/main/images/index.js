@@ -140,6 +140,8 @@ import HEY151 from "./HEY-151.jpg";
 import HEY137 from "./HEY-137.jpg";
 import HEY148 from "./HEY-148.jpg";
 import BT177 from "./BT-177.jpg";
+import HEY150 from "./HEY-150.jpg";
+import PT181 from "./PT-181.jpg";
 
 export {
   CWP49,
@@ -283,5 +285,7 @@ export {
   HEY151,
   HEY137,
   HEY148,
-  BT177
+  BT177,
+  HEY150,
+  PT181
 };

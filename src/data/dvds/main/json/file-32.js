@@ -2905,6 +2905,223 @@ const File32 = [
       "http://pics.dmm.co.jp/mono/movie/adult/118gnab013/118gnab013pl.jpg",
     type: "Censored",
     idols: [{ idIdol: "jai150", name: "Shizuka Takano" }]
+  },
+  {
+    code: "BGN-054",
+    title: `NEWCOMER PRESTIGE EXCLUSIVE DEBUT ANGEL REBORN IN THE ERA REM MORI`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/118bgn054/118bgn054pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai151", name: "Remu Suzumori" }]
+  },
+  {
+    code: "ABP-859",
+    title: `AESTHETICS OF THE FACE OF THE FACE 07 TAKE OFF THE ' WHITE MAN JUICE ' COLLECTED IN THE FACE OF A BEAUTIFUL WOMAN ! ! LEMU SUZUMORI`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/118abp859/118abp859pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai151", name: "Remu Suzumori" }]
+  },
+  {
+    code: "ABP-870",
+    title: `THE ULTRA-LATEST ADDICTIVE ESTHETICS THAT REUMO MORIMU WILL SERVE YOU 44 REFRESH THE BEST SQUEEZED PUSSY BY YOUR DESIRES ! !`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/118abp870/118abp870pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai151", name: "Remu Suzumori" }]
+  },
+  {
+    code: "CHN-174",
+    title: `NEW ABSOLUTE GIRL , I WILL LEND . 90 SUZUMORI REM ( AV ACTRESS ) 21 YEARS OLD`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/118chn174/118chn174pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai151", name: "Remu Suzumori" }]
+  },
+  {
+    code: "ABP-889",
+    title: `SPOKKOS SWEATY SEX 4 PRODUCTION ! ATHLETIC CLUB SYSTEM REMU MORI 涼 ACT.23 SWEATY SWEAT × SPORTSWEAR FETISHISM`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/118abp889/118abp889pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai151", name: "Remu Suzumori" }]
+  },
+  {
+    code: "ABP-901",
+    title: `HER OLDER SISTER IS A TEMPTATION GIRL . 22 WHEN I WENT TO PLAY AT HER HOUSE , I WAS PRESSED BY MY SISTER AND GOT INTO A RELATIONSHIP ... REM SUZUMORI`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/118abp901/118abp901pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai151", name: "Remu Suzumori" }]
+  },
+  {
+    code: "ABP-912",
+    title: `THE FEMALE MANAGER IS OUR SEXUAL PROCESSING PET . 035`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/118abp912/118abp912pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai151", name: "Remu Suzumori" }]
+  },
+  {
+    code: "ABP-919",
+    title: `REMU SUZUMORI'S FINEST BRUSH WHOLESALE 31 UNPRECEDENTED CLIMAX WITH SEX WITH THE FIRST VIRGIN IN LIFE !`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/118abp919/118abp919pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai151", name: "Remu Suzumori" }]
+  },
+  {
+    code: "ABP-933",
+    title: `NATURAL INGREDIENT ORIGIN SUZUMORI REMU JUICE 120% 63 COVERED FROM THE HEAD TO THE TOES`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/118abp933/118abp933pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai151", name: "Remu Suzumori" }]
+  },
+  {
+    code: "ABP-939",
+    title: `CUSTOMS TOWER EROGENOUS FULL COURSE 3 HOURS SPECIAL ACT.31 BREASTFEEDING , FAMILIAR SECRET , HANDCUFFS ... ETC WE WILL RESPOND TO ALL THE DEMANDS OF MANIACS ! SUZUMORI REMU`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/118abp939/118abp939pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai151", name: "Remu Suzumori" }]
+  },
+  {
+    code: "ABP-950",
+    title: `ABSOLUTE IRON PLATE SITUATION 18 COMPLETE SUBJECTIVITY ! VERY H 4 SITUATIONS THAT SUZUMORI REMU GIVES`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/118abp950/118abp950pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai151", name: "Remu Suzumori" }]
+  },
+  {
+    code: "PPT-092",
+    title: `SUZUMORI REM 8 HOURS BEST PRESTIGE PREMIUM TREASURE VOL.01 PERMANENT PRESERVATION BOARD THAT TRACES THE TRAJECTORY OF " REM SUZUMORI " IN ALL 6 WORKS ! !`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/118ppt092/118ppt092pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai151", name: "Remu Suzumori" }]
+  },
+  {
+    code: "ABP-960",
+    title: `WITH A BEAUTIFUL GIRL , A RESERVED HOT SPRING , AND DENSE SEXUAL INTERCOURSE . 09 RENTING A F-CUP BEAUTIFUL GIRL FOR ONE NIGHT , GOING TO A HOT SPRING INN IN THE MOUNTAINS REM SUZUMORI`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/118abp960/118abp960pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai151", name: "Remu Suzumori" }]
+  },
+  {
+    code: "BGN-051",
+    title: `NEWCOMER PRESTIGE EXCLUSIVE DEBUT`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/118bgn051/118bgn051pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai152", name: "Minamo Nagase" }]
+  },
+  {
+    code: "ABP-818",
+    title: `SEXUAL AWAKENING THAT TASTES GOD MILK G-CUP 3 ESSENTIAL EROTIC EROTIC TITS M MAKES ME CUM ! NAGASE MINAMI`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/118abp818/118abp818pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai152", name: "Minamo Nagase" }]
+  },
+  {
+    code: "ABP-827",
+    title: `SPOKOS SWEATY SEX 4 PRODUCTION! SPORTS DAY SOCIETY · NAGASE MINAMI ACT.20 SPORTSWEAR FETISHISM × NATURAL G-CUP`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/118abp827/118abp827pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai152", name: "Minamo Nagase" }]
+  },
+  {
+    code: "ABP-837",
+    title: `PRODUCTION OK ! WHAT ? RUMORS BEHIND PINSARO 07 TASTE THE BEST G MILK OF THE AV WORLD ! NAGASE MINAMI`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/118abp837/118abp837pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai152", name: "Minamo Nagase" }]
+  },
+  {
+    code: "CHN-171",
+    title: `NEW ABSOLUTE GIRL , I WILL LEND . 89 MINASE NAGASE ( AV ACTRESS ※ FORMER IDOL ) 20 YEARS OLD`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/118chn171/118chn171pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai152", name: "Minamo Nagase" }]
+  },
+  {
+    code: "ABP-854",
+    title: `THE GIRL MANAGER IS OUR SEX PROCESSING PET . 034 MINASE NAGASE`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/118abp854/118abp854pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai152", name: "Minamo Nagase" }]
+  },
+  {
+    code: "ABP-865",
+    title: `HER ELDER SISTER IS A TEMPTATION NAUGHTY GIRL . 21 WHEN I GO TO HER HOUSE TO PLAY WITH HER SISTER TO THE IKENAI RELATIONSHIP ... MINASE NAGASE`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/118abp865/118abp865pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai152", name: "Minamo Nagase" }]
+  },
+  {
+    code: "ABP-878",
+    title: `NATURAL INGREDIENTS ORIGIN MINASE NAGASE 120% 59 HARD SEX SPOUTING SWEAT FROM THE WHOLE BODY`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/118abp878/118abp878pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai152", name: "Minamo Nagase" }]
+  },
+  {
+    code: "ABP-887",
+    title: `CUSTOMS TOWER EROTICISM FULL COURSE 3 HOURS SPECIAL ACT.29 ATTACK RECEIVED EXCELLENT ! G-CUP GLAMOR GIVES ALL YOUR DESIRES 185 MINUTES MINASE NAGASE`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/118abp887/118abp887pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai152", name: "Minamo Nagase" }]
+  },
+  {
+    code: "ABP-899",
+    title: `NAGASE MINAMOTO'S FINEST BRUSH LOWERING 28 A HUGE PERFORMANCE THAT COULD SHORTEN MINAKO'S ACTRESS'S LIFE TO A VIRGIN PARTNER OPENS ! !`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/118abp899/118abp899pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai152", name: "Minamo Nagase" }]
+  },
+  {
+    code: "ABP-910",
+    title: `SUPER ! SEE-THROUGH LEWD SCHOOL CLASS 06 SEE-THROUGH FETISH TONO SEX THAT BEAUTIFUL NUDE IS TRANSPARENT ! MINASE NAGASE`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/118abp910/118abp910pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai152", name: "Minamo Nagase" }]
+  },
+  {
+    code: "ABP-921",
+    title: `MINASE NAGASE IS A NAKADASHI 32 G-CUP IDOLMA ● 8 SEEDING SEEDLINGS ! ! !`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/118abp921/118abp921pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai152", name: "Minamo Nagase" }]
+  },
+  {
+    code: "ABP-931",
+    title: `MY WORLD OF DIFFERENT THINGS ACT.04 BREAKING THE LIMITS OF EROTICISM WITH THE STRONGEST SEXY EQUIPMENT ! ! ! MINASE NAGASE`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/118abp931/118abp931pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai152", name: "Minamo Nagase" }]
+  },
+  {
+    code: "PPT-086",
+    title: `MINASE NAGASE 8 HOURS BEST PRESTIGE PREMIUM TREASURE VOL.01 PERMANENT PRESERVATION BOARD THAT TRACES THE PATH OF “ NAGASE MINAMO ” WITH 6 WORKS AND UNRELEASED VIDEO ! !`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/118ppt086/118ppt086pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai152", name: "Minamo Nagase" }]
+  },
+  {
+    code: "ABP-938",
+    title: `THE FIRST TIME IN MY LIFE , TRANCE IKI CUM SEX 51 TO THE OTHER SIDE OF ORGASM . MINASE NAGASE`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/118abp938/118abp938pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai152", name: "Minamo Nagase" }]
+  },
+  {
+    code: "ABP-946",
+    title: `SUPER LATEST ADDICTIVE ESTHETICS MINASE NAGASE WILL SERVE 48 THE BEST REFRESHING DICK SOLIDIFIED BY YOUR DESIRES ! !`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/118abp946/118abp946pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai152", name: "Minamo Nagase" }]
+  },
+  {
+    code: "ABP-956",
+    title: `IT IS RAW CUM SHOT INTERCOURSE THAT NEVER ENDS . 21 EJACULATIONS IN THE BODY MINASE NAGASE`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/118abp956/118abp956pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai152", name: "Minamo Nagase" }]
+  },
+  {
+    code: "ABP-966",
+    title: `NAGASE MINAMO IS A CLASS SEX-ONLY SHARE . ISSUE 1 IDOL OF THE CLASS I LIKED IS SEXUALLY PROCESSED`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/118abp966/118abp966pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai152", name: "Minamo Nagase" }]
   }
 ];
 

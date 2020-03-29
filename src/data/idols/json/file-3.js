@@ -1803,22 +1803,189 @@ const File3 = [
   },
   {
     idIdol: "jai151",
-    avatar: risa_morisawa.risa_morisawa_1,
-    name: "Risa Morisawa",
+    avatar:
+      "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/49000/49406/large/wapdb-remu-suzumori-pornostar-asiatique.warashi-asian-pornstars.fr-49406-001.jpg",
+    name: "Remu Suzumori",
     other: "",
-    born: "30/11/1998",
-    height: "162 cm",
-    breast: "85 cm",
+    born: "03/12/1997",
+    height: "160 cm",
+    breast: "87 cm",
     cup: "D-Cup",
     waist: "58 cm",
     hips: "85 cm",
     styles: [
-      { tag: "Retired" },
       { tag: "Cute" },
       { tag: "Beautiful Breasts" },
       { tag: "Mixed-Race" }
     ],
-    album: [{ picture: risa_morisawa.risa_morisawa_2 }]
+    album: [
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/49000/49280/large/wapdb-remu-suzumori-pornostar-asiatique.warashi-asian-pornstars.fr-49280-001.jpg"
+      },
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/49000/49072/large/wapdb-remu-suzumori-pornostar-asiatique.warashi-asian-pornstars.fr-49072-001.jpg"
+      },
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/48000/48572/large/wapdb-remu-suzumori-pornostar-asiatique.warashi-asian-pornstars.fr-48572-010.jpg"
+      },
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/48000/48569/large/wapdb-remu-suzumori-pornostar-asiatique.warashi-asian-pornstars.fr-48569-001.jpg"
+      },
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/48000/48565/large/wapdb-remu-suzumori-pornostar-asiatique.warashi-asian-pornstars.fr-48565-001.jpg"
+      },
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/48000/48570/large/wapdb-remu-suzumori-pornostar-asiatique.warashi-asian-pornstars.fr-48570-001.jpg"
+      },
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/48000/48567/large/wapdb-remu-suzumori-pornostar-asiatique.warashi-asian-pornstars.fr-48567-001.jpg"
+      },
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/48000/48572/large/wapdb-remu-suzumori-pornostar-asiatique.warashi-asian-pornstars.fr-48572-008.jpg"
+      },
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/48000/48572/large/wapdb-remu-suzumori-pornostar-asiatique.warashi-asian-pornstars.fr-48572-007.jpg"
+      },
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/48000/48566/large/wapdb-remu-suzumori-pornostar-asiatique.warashi-asian-pornstars.fr-48566-001.jpg"
+      }
+    ]
+  },
+  {
+    idIdol: "jai152",
+    avatar:
+      "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/48000/48509/large/wapdb-minamo-nagase-pornostar-asiatique.warashi-asian-pornstars.fr-48509-001.jpg",
+    name: "Minamo Nagase",
+    other: "",
+    born: "12/02/1998",
+    height: "155 cm",
+    breast: "90 cm",
+    cup: "G-Cup",
+    waist: "58 cm",
+    hips: "89 cm",
+    styles: [{ tag: "Cute" }, { tag: "Killer Tits" }, { tag: "Slender" }],
+    album: [
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/46000/46713/large/wapdb-minamo-nagase-pornostar-asiatique.warashi-asian-pornstars.fr-46713-001.jpg"
+      },
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/46000/46715/large/wapdb-minamo-nagase-pornostar-asiatique.warashi-asian-pornstars.fr-46715-001.jpg"
+      },
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/46000/46718/large/wapdb-minamo-nagase-pornostar-asiatique.warashi-asian-pornstars.fr-46718-003.jpg"
+      },
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/46000/46718/large/wapdb-minamo-nagase-pornostar-asiatique.warashi-asian-pornstars.fr-46718-009.jpg"
+      },
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/46000/46718/large/wapdb-minamo-nagase-pornostar-asiatique.warashi-asian-pornstars.fr-46718-006.jpg"
+      },
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/46000/46718/large/wapdb-minamo-nagase-pornostar-asiatique.warashi-asian-pornstars.fr-46718-007.jpg"
+      },
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/48000/48470/large/wapdb-minamo-nagase-pornostar-asiatique.warashi-asian-pornstars.fr-48470-001.jpg"
+      },
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/46000/46717/large/wapdb-minamo-nagase-pornostar-asiatique.warashi-asian-pornstars.fr-46717-010.jpg"
+      },
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/49000/49264/large/wapdb-minamo-nagase-pornostar-asiatique.warashi-asian-pornstars.fr-49264-001.jpg"
+      },
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/48000/48468/large/wapdb-minamo-nagase-pornostar-asiatique.warashi-asian-pornstars.fr-48468-001.jpg"
+      }
+    ]
+  },
+  {
+    idIdol: "jai153",
+    avatar:
+      "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/45000/45599/large/wapdb-hikari-ninomiya-pornostar-asiatique.warashi-asian-pornstars.fr-45599-001.jpg",
+    name: "Hikari Ninomiya",
+    other: "",
+    born: "15/03/1999",
+    height: "160 cm",
+    breast: "85 cm",
+    cup: "C-Cup",
+    waist: "59 cm",
+    hips: "88 cm",
+    styles: [{ tag: "Cute" }],
+    album: [
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/48000/48766/large/wapdb-hikari-ninomiya-pornostar-asiatique.warashi-asian-pornstars.fr-48766-011.jpg"
+      },
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/47000/47888/large/wapdb-hikari-ninomiya-pornostar-asiatique.warashi-asian-pornstars.fr-47888-012.jpg"
+      },
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/45000/45599/large/wapdb-hikari-ninomiya-pornostar-asiatique.warashi-asian-pornstars.fr-45599-010.jpg"
+      }
+    ]
+  },
+  {
+    idIdol: "jai154",
+    avatar: "",
+    name: "Momoko Maeda",
+    other: "",
+    born: "07/10/1999",
+    height: "160 cm",
+    breast: "98 cm",
+    cup: "I-Cup",
+    waist: "59 cm",
+    hips: "92 cm",
+    styles: [{ tag: "Cute" }, { tag: "Killer Tits" }],
+    album: [
+      {
+        picture: ""
+      }
+    ]
+  },
+  {
+    idIdol: "jai155",
+    avatar:
+      "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/38000/38027/large/wapdb-reira-kitagawa-pornostar-asiatique.warashi-asian-pornstars.fr-38027-002.jpg",
+    name: "Reira Kitagawa",
+    other: "",
+    born: "30/11/1995",
+    height: "158 cm",
+    breast: "82 cm",
+    cup: "C-Cup",
+    waist: "57 cm",
+    hips: "84 cm",
+    styles: [{ tag: "Cute" }, { tag: "Small Tits" }],
+    album: [
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/38000/38027/large/wapdb-reira-kitagawa-pornostar-asiatique.warashi-asian-pornstars.fr-38027-001.jpg"
+      },
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/38000/38025/large/wapdb-reira-kitagawa-pornostar-asiatique.warashi-asian-pornstars.fr-38025-001.jpg"
+      }
+    ]
   }
 ];
 
