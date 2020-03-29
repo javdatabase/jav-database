@@ -741,7 +741,7 @@ const File27 = [
     poster:
       "http://pics.dmm.co.jp/mono/movie/adult/h_1352knmd008/h_1352knmd008pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai054", name: "Arisa Hanyuu" }]
+    idols: [{ idIdol: "jai054", name: "Arisa Hanyu" }]
   },
   {
     code: "JUFE-032",
@@ -769,7 +769,7 @@ const File27 = [
     title: `EXPERIENCED GENTLE AMATEUR MARRIED WOMAN IS THE BEST VIRGIN BRUSH 17`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/1iene976/1iene976pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai054", name: "Arisa Hanyuu" }]
+    idols: [{ idIdol: "jai054", name: "Arisa Hanyu" }]
   },
   {
     code: "STAR-888",
@@ -938,7 +938,10 @@ const File27 = [
     poster:
       "http://pics.dmm.co.jp/mono/movie/adult/h_1324skmj029/h_1324skmj029pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai055", name: "Marina Yuzuki" }]
+    idols: [
+      { idIdol: "jai150", name: "Shizuka Takano" },
+      { idIdol: "jai055", name: "Marina Yuzuki" }
+    ]
   },
   {
     code: "XVSR-456",
@@ -960,7 +963,7 @@ const File27 = [
     poster:
       "http://pics.dmm.co.jp/mono/movie/adult/118kfne009/118kfne009pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai054", name: "Arisa Hanyuu" }]
+    idols: [{ idIdol: "jai054", name: "Arisa Hanyu" }]
   },
   {
     code: "ATID-338",

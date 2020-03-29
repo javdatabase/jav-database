@@ -706,62 +706,30 @@ const File3 = [
       }
     ]
   },
-  // {
-  //   idIdol: "jai127",
-  //   avatar:
-  //     "https://www.japanesebeauties.net/japanese/chinami-ito/10/chinami-ito-7.jpg",
-  //   name: "Chinami Ito",
-  //   other: "",
-  //   born: "01/12/1996",
-  //   height: "163 cm",
-  //   breast: "86 cm",
-  //   cup: "D-Cup",
-  //   waist: "57 cm",
-  //   hips: "86 cm",
-  //   styles: [{ tag: "Cute" }, { tag: "Beautiful Breasts" }],
-  //   album: [
-  //     {
-  //       picture:
-  //         "https://www.japanesebeauties.net/japanese/chinami-ito/11/chinami-ito-4.jpg"
-  //     },
-  //     {
-  //       picture:
-  //         "https://www.japanesebeauties.net/japanese/chinami-ito/6/chinami-ito-3.jpg"
-  //     },
-  //     {
-  //       picture:
-  //         "https://www.japanesebeauties.net/japanese/chinami-ito/7/chinami-ito-3.jpg"
-  //     },
-  //     {
-  //       picture:
-  //         "https://www.japanesebeauties.net/japanese/chinami-ito/5/chinami-ito-8.jpg"
-  //     },
-  //     {
-  //       picture:
-  //         "https://www.japanesebeauties.net/japanese/chinami-ito/4/chinami-ito-5.jpg"
-  //     },
-  //     {
-  //       picture:
-  //         "https://www.japanesebeauties.net/japanese/chinami-ito/4/chinami-ito-11.jpg"
-  //     },
-  //     {
-  //       picture:
-  //         "https://www.japanesebeauties.net/japanese/chinami-ito/3/chinami-ito-5.jpg"
-  //     },
-  //     {
-  //       picture:
-  //         "https://www.japanesebeauties.net/japanese/chinami-ito/10/chinami-ito-2.jpg"
-  //     },
-  //     {
-  //       picture:
-  //         "https://www.japanesebeauties.net/japanese/chinami-ito/12/chinami-ito-12.jpg"
-  //     },
-  //     {
-  //       picture:
-  //         "https://www.japanesebeauties.net/japanese/chinami-ito/2/chinami-ito-7.jpg"
-  //     }
-  //   ]
-  // },
+  {
+    idIdol: "jai127",
+    avatar:
+      "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/48000/48684/large/wapdb-reira-natsuki-pornostar-asiatique.warashi-asian-pornstars.fr-48684-001.jpg",
+    name: "Reira Natsuki",
+    other: "",
+    born: "30/11/1997",
+    height: "164 cm",
+    breast: "101 cm",
+    cup: "H-Cup",
+    waist: "59 cm",
+    hips: "95 cm",
+    styles: [{ tag: "Cute" }, { tag: "Killer Tits" }],
+    album: [
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/48000/48683/large/wapdb-reira-natsuki-pornostar-asiatique.warashi-asian-pornstars.fr-48683-001.jpg"
+      },
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/48000/48685/large/wapdb-reira-natsuki-pornostar-asiatique.warashi-asian-pornstars.fr-48685-001.jpg"
+      }
+    ]
+  },
   {
     idIdol: "jai128",
     avatar:
@@ -1796,6 +1764,45 @@ const File3 = [
   },
   {
     idIdol: "jai149",
+    avatar: risa_morisawa.risa_morisawa_1,
+    name: "Risa Morisawa",
+    other: "",
+    born: "30/11/1998",
+    height: "162 cm",
+    breast: "85 cm",
+    cup: "D-Cup",
+    waist: "58 cm",
+    hips: "85 cm",
+    styles: [
+      { tag: "Retired" },
+      { tag: "Cute" },
+      { tag: "Beautiful Breasts" },
+      { tag: "Mixed-Race" }
+    ],
+    album: [{ picture: risa_morisawa.risa_morisawa_2 }]
+  },
+  {
+    idIdol: "jai150",
+    avatar:
+      "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/44000/44479/large/wapdb-shizuka-takano-pornostar-asiatique.warashi-asian-pornstars.fr-44479-010.jpg",
+    name: "Shizuka Takano",
+    other: "Sayumi Yamai",
+    born: "29/04/1996",
+    height: "155 cm",
+    breast: "90 cm",
+    cup: "H-Cup",
+    waist: "62 cm",
+    hips: "88 cm",
+    styles: [{ tag: "Killer Tits" }],
+    album: [
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/44000/44479/large/wapdb-shizuka-takano-pornostar-asiatique.warashi-asian-pornstars.fr-44479-005.jpg"
+      }
+    ]
+  },
+  {
+    idIdol: "jai151",
     avatar: risa_morisawa.risa_morisawa_1,
     name: "Risa Morisawa",
     other: "",

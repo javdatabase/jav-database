@@ -1,3 +1,9 @@
+import {
+  honoka_tsuji_1,
+  honoka_tsuji_2,
+  honoka_tsuji_3
+} from "../images/honoka-tsuji";
+
 const File1 = [
   {
     idIdol: "jai001",
@@ -2520,54 +2526,20 @@ const File1 = [
       }
     ]
   },
-  // {
-  //   idIdol: "jai048",
-  //   avatar:
-  //     "https://www.japanesebeauties.net/japanese/nonoka-momose/4/nonoka-momose-11.jpg",
-  //   name: "Nonoka Momose",
-  //   other: "",
-  //   born: "25/12/1987",
-  //   height: "168 cm",
-  //   breast: "90 cm",
-  //   cup: "E-Cup",
-  //   waist: "60 cm",
-  //   hips: "89 cm",
-  //   styles: [{ tag: "Retired" }, { tag: "Cute" }, { tag: "Killer Tits" }],
-  //   album: [
-  //     {
-  //       picture:
-  //         "https://www.japanesebeauties.net/japanese/nonoka-momose/10/nonoka-momose-9.jpg"
-  //     },
-  //     {
-  //       picture:
-  //         "https://www.japanesebeauties.net/japanese/nonoka-momose/10/nonoka-momose-7.jpg"
-  //     },
-  //     {
-  //       picture:
-  //         "https://www.japanesebeauties.net/japanese/nonoka-momose/5/nonoka-momose-3.jpg"
-  //     },
-  //     {
-  //       picture:
-  //         "https://www.japanesebeauties.net/japanese/nonoka-momose/5/nonoka-momose-7.jpg"
-  //     },
-  //     {
-  //       picture:
-  //         "https://www.japanesebeauties.net/japanese/nonoka-momose/5/nonoka-momose-6.jpg"
-  //     },
-  //     {
-  //       picture:
-  //         "https://www.japanesebeauties.net/japanese/nonoka-momose/5/nonoka-momose-8.jpg"
-  //     },
-  //     {
-  //       picture:
-  //         "https://www.japanesebeauties.net/japanese/nonoka-momose/13/nonoka-momose-11.jpg"
-  //     },
-  //     {
-  //       picture:
-  //         "https://www.japanesebeauties.net/japanese/nonoka-momose/7/nonoka-momose-4.jpg"
-  //     }
-  //   ]
-  // },
+  {
+    idIdol: "jai048",
+    avatar: honoka_tsuji_1,
+    name: "Honoka Tsuji",
+    other: "",
+    born: "28/08/1996",
+    height: "172 cm",
+    breast: "96 cm",
+    cup: "G-Cup",
+    waist: "60 cm",
+    hips: "88 cm",
+    styles: [{ tag: "Killer Tits" }, { tag: "Long Legs" }],
+    album: [{ picture: honoka_tsuji_2 }, { picture: honoka_tsuji_3 }]
+  },
   {
     idIdol: "jai049",
     avatar:
@@ -2811,7 +2783,7 @@ const File1 = [
     idIdol: "jai054",
     avatar:
       "https://www.japanesebeauties.net/hardcore/caribbeancompr/hinata-komine/011813_489/hinata-komine-1.jpg",
-    name: "Arisa Hanyuu",
+    name: "Arisa Hanyu",
     other: "Hinata Komine",
     born: "28/06/1986",
     height: "153 cm",

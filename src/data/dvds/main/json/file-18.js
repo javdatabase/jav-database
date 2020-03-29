@@ -913,7 +913,7 @@ const File18 = [
     poster:
       "http://pics.dmm.co.jp/mono/movie/adult/118docp114/118docp114pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai054", name: "Arisa Hanyuu" }]
+    idols: [{ idIdol: "jai054", name: "Arisa Hanyu" }]
   },
   {
     code: "HND-615",
@@ -934,7 +934,7 @@ const File18 = [
     title: `VICTIM ALWAYS WOMEN'S SECRET WOMEN VIOLENCE DEMON 2`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/nsps764so/nsps764sopl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai054", name: "Arisa Hanyuu" }]
+    idols: [{ idIdol: "jai054", name: "Arisa Hanyu" }]
   },
   {
     code: "BLK-184",
@@ -1945,7 +1945,10 @@ const File18 = [
     title: `RESTRAINED SLIMY WITH APHRODISIAC BATH`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/1rctd056/1rctd056pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai078", name: "Mitsuki Akai" }]
+    idols: [
+      { idIdol: "jai078", name: "Mitsuki Akai" },
+      { idIdol: "jai150", name: "Shizuka Takano" }
+    ]
   },
   {
     code: "REKU-006",

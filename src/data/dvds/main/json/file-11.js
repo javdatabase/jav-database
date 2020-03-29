@@ -898,7 +898,7 @@ const File11 = [
     type: `Censored`,
     idols: [
       { idIdol: `jai020`, name: "Kirari Hoshizora" },
-      { idIdol: `jai054`, name: "Arisa Hanyuu" }
+      { idIdol: `jai054`, name: "Arisa Hanyu" }
     ]
   },
   {

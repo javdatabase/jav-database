@@ -2571,7 +2571,7 @@ const File6 = [
     idols: [
       { idIdol: `jai007`, name: "Mao Hamasaki" },
       { idIdol: `jai052`, name: "Saki Mizumi" },
-      { idIdol: `jai054`, name: "Arisa Hanyuu" }
+      { idIdol: `jai054`, name: "Arisa Hanyu" }
     ]
   },
   {
@@ -2612,7 +2612,7 @@ const File6 = [
     type: `Censored`,
     idols: [
       { idIdol: `jai007`, name: "Mao Hamasaki" },
-      { idIdol: `jai054`, name: "Arisa Hanyuu" }
+      { idIdol: `jai054`, name: "Arisa Hanyu" }
     ]
   },
   {

@@ -6,7 +6,7 @@ const File16 = [
     title: `AFTER GIRLS' COLLEGE LIMITED DRINKING PARTY , TAKE IT HOME AND TAKE IT BACK TO THE VOYEUR AND SILENCE TO THE AV NO.24 MILK SUPER MILK · GOD BREAST FEMALE COLLEGE STUDENT AZUSA / J-CUP / 21 YEARS OLD / I-CUP / 21 YEARS OLD`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/akid060/akid060pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai054", name: "Arisa Hanyuu" }]
+    idols: [{ idIdol: "jai054", name: "Arisa Hanyu" }]
   },
   {
     code: "SKY-246",
@@ -14,7 +14,7 @@ const File16 = [
     poster:
       "https://img201.imagetwist.com/i/26653/wk13nesym8ly.jpg/SKY-246.jpg",
     type: "Uncensored",
-    idols: [{ idIdol: "jai054", name: "Arisa Hanyuu" }]
+    idols: [{ idIdol: "jai054", name: "Arisa Hanyu" }]
   },
   {
     code: "HEY-015",
@@ -22,7 +22,7 @@ const File16 = [
     poster:
       "https://img201.imagetwist.com/i/26653/pqr5igf6ua1v.jpg/HEY-015.jpg",
     type: "Uncensored",
-    idols: [{ idIdol: "jai054", name: "Arisa Hanyuu" }]
+    idols: [{ idIdol: "jai054", name: "Arisa Hanyu" }]
   },
   {
     code: "AV-22913",
@@ -30,7 +30,7 @@ const File16 = [
     poster:
       "https://img201.imagetwist.com/i/26653/4bdld0032e0c.jpg/AV-22913.jpg",
     type: "Uncensored",
-    idols: [{ idIdol: "jai054", name: "Arisa Hanyuu" }]
+    idols: [{ idIdol: "jai054", name: "Arisa Hanyu" }]
   },
   {
     code: "MILD-696",

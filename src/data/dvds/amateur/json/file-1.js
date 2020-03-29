@@ -28,30 +28,9 @@ const File1 = [
     idols: [{ idIdol: "jai000", name: "Nonoka Otoha" }]
   },
   {
-    code: "SGA-125",
-    title: `WITH THE BEST MISTRESS , THE BEST CUM SHOT INTERCOURSE . 39 LONG BODY G-CUP BIG TITS BEAUTY`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/118sga125/118sga125pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai000", name: "Amateur" }]
-  },
-  {
-    code: "MIST-253",
-    title: `UNTIL THE RABBIT OF OKINI IS MADE VAGINAL CUM SHOT WITH RAW COWGIRL IN " LONG-ESTABLISHED TITS PUB " IN THE LARGEST DOWNTOWN AREA IN JAPAN SAYUMI YAMAI`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/1mist253/1mist253pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai000", name: "Sayumi Yamai" }]
-  },
-  {
     code: "BLK-401",
     title: `EXCAVATED AT SEKUKABA IN TOKYO ! ! THERE ISN'T A SECRET PILE DRIVING COWGIRL IN THE HUSTLE TIME ! BIG BLACK ASS GAL AV APPEARANCE ! !`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/blk401/blk401pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai000", name: "Amatuer" }]
-  },
-  {
-    code: "SGA-127",
-    title: `THE BEST MISTRESS AND THE BEST CREAMPIE FUCK . 41 H-CUP MUTCHIMUCHI BIG BOOBS`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/118sga127/118sga127pl.jpg",
     type: "Censored",
     idols: [{ idIdol: "jai000", name: "Amatuer" }]
   },
@@ -68,13 +47,6 @@ const File1 = [
     poster: "http://pics.dmm.co.jp/mono/movie/adult/118abp859/118abp859pl.jpg",
     type: "Censored",
     idols: [{ idIdol: "jai000", name: "Remu Suzumori" }]
-  },
-  {
-    code: "AKA-067",
-    title: `MY ESTRUS PET ( PROVISIONAL ) FILE.002 101 CM HUGE BREASTS H-CUP CONTINUOUS CREAMPIE`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/118aka067/118aka067pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai000", name: "Amatuer" }]
   }
 ];
 

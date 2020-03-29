@@ -498,7 +498,7 @@ const File7 = [
     type: `Censored`,
     idols: [
       { idIdol: `jai007`, name: "Mao Hamasaki" },
-      { idIdol: `jai054`, name: "Arisa Hanyuu" }
+      { idIdol: `jai054`, name: "Arisa Hanyu" }
     ]
   },
   {
@@ -961,7 +961,7 @@ const File7 = [
     type: `Censored`,
     idols: [
       { idIdol: `jai007`, name: "Mao Hamasaki" },
-      { idIdol: `jai054`, name: "Arisa Hanyuu" }
+      { idIdol: `jai054`, name: "Arisa Hanyu" }
     ]
   },
   {
@@ -971,7 +971,7 @@ const File7 = [
     type: `Censored`,
     idols: [
       { idIdol: `jai007`, name: "Mao Hamasaki" },
-      { idIdol: `jai054`, name: "Arisa Hanyuu" }
+      { idIdol: `jai054`, name: "Arisa Hanyu" }
     ]
   },
   {
@@ -986,7 +986,7 @@ const File7 = [
       { idIdol: `jai036`, name: "Akari Asagiri" },
       { idIdol: `jai042`, name: "Azusa Nagasawa" },
       { idIdol: `jai044`, name: "Sayuki Kannou" },
-      { idIdol: `jai054`, name: "Arisa Hanyuu" }
+      { idIdol: `jai054`, name: "Arisa Hanyu" }
     ]
   },
   {

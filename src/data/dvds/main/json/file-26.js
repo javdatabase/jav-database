@@ -173,7 +173,7 @@ const File26 = [
     title: `" " YOU CAN BE COOL WHILE WATCHING MY PANTS " SHE WHO CAME TO A WEDDING NEXT TO YOU IS A PANICKY PROVOCATIVE YAKUSARU DESIRE " VOL.2`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/1dandy647/1dandy647pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai054", name: "Arisa Hanyuu" }]
+    idols: [{ idIdol: "jai054", name: "Arisa Hanyu" }]
   },
   {
     code: "HUNTA-554",
@@ -303,7 +303,7 @@ const File26 = [
     poster:
       "http://pics.dmm.co.jp/mono/movie/adult/h_254tama034/h_254tama034pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai054", name: "Arisa Hanyuu" }]
+    idols: [{ idIdol: "jai054", name: "Arisa Hanyu" }]
   },
   {
     code: "BLO-037",
@@ -640,7 +640,7 @@ const File26 = [
     title: `W HEALING SLUTS OLDER SISTER NATSUKO MISHIMA HANYU ARISA`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/bhg026so/bhg026sopl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai054", name: "Arisa Hanyuu" }]
+    idols: [{ idIdol: "jai054", name: "Arisa Hanyu" }]
   },
   {
     code: "XVSR-454",

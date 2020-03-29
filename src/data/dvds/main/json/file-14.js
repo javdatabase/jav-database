@@ -1809,7 +1809,7 @@ const File14 = [
     idols: [
       { idIdol: `jai018`, name: "Hitomi Kitagawa" },
       { idIdol: "jai039", name: "Kokomi Naruse" },
-      { idIdol: "jai054", name: "Arisa Hanyuu" }
+      { idIdol: "jai054", name: "Arisa Hanyu" }
     ]
   },
   {
@@ -2679,14 +2679,14 @@ const File14 = [
     title: `I SNEAKED INTO A PROSPEROUS SHOP AT THE HOLY LAND IKEBUKURO IN THE MEN'S ESTHETIC AND GOT ONE SHOT ! !`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/1faa286/1faa286pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai054", name: "Arisa Hanyuu" }]
+    idols: [{ idIdol: "jai054", name: "Arisa Hanyu" }]
   },
   {
     code: "MIST-239",
     title: `" MUGIMUCHI " " IKASHI " " CUM INSIDE " HANYU ARISA`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/1mist239/1mist239pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai054", name: "Arisa Hanyuu" }]
+    idols: [{ idIdol: "jai054", name: "Arisa Hanyu" }]
   },
   {
     code: "JBD-230",

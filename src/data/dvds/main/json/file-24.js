@@ -151,7 +151,7 @@ const File24 = [
     title: `BUSTY DARIEL HANYU ARISA`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/onsg010so/onsg010sopl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai054", name: "Arisa Hanyuu" }]
+    idols: [{ idIdol: "jai054", name: "Arisa Hanyu" }]
   },
   {
     code: "OYC-231",
@@ -229,7 +229,7 @@ const File24 = [
     title: `ANY GOOD WOMAN I SAW IN THE TOWN CAN BE CALLED AS DERIHER FUTURE PHONE NUMBER 3`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/84bazx169/84bazx169pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai054", name: "Arisa Hanyuu" }]
+    idols: [{ idIdol: "jai054", name: "Arisa Hanyu" }]
   },
   {
     code: "DASD-498",
@@ -266,7 +266,7 @@ const File24 = [
     poster:
       "http://pics.dmm.co.jp/mono/movie/adult/h_687macb002/h_687macb002pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai054", name: "Arisa Hanyuu" }]
+    idols: [{ idIdol: "jai054", name: "Arisa Hanyu" }]
   },
   {
     code: "MIAA-011",
@@ -2725,7 +2725,7 @@ const File24 = [
     title: `A BROTHER-IN-LAW HANIWA WHO WAS SHRUGGED DOWN BY A GOOD HOMELESS BROTHER`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/18mond160/18mond160pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai054", name: "Arisa Hanyuu" }]
+    idols: [{ idIdol: "jai054", name: "Arisa Hanyu" }]
   },
   {
     code: "JBD-234",
@@ -2992,14 +2992,14 @@ const File24 = [
     poster:
       "http://pics.dmm.co.jp/mono/movie/adult/h_237avop429so/h_237avop429sopl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai054", name: "Arisa Hanyuu" }]
+    idols: [{ idIdol: "jai054", name: "Arisa Hanyu" }]
   },
   {
     code: "AVOP-449",
     title: `TOTAL DOMINATION OF HUGE BREASTS HANYU ARISA`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/avop449/avop449pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai054", name: "Arisa Hanyuu" }]
+    idols: [{ idIdol: "jai054", name: "Arisa Hanyu" }]
   }
 ];
 

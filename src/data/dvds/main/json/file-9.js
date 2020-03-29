@@ -1677,7 +1677,7 @@ const File9 = [
     type: `Censored`,
     idols: [
       { idIdol: `jai015`, name: "Mao Kurata" },
-      { idIdol: `jai054`, name: "Arisa Hanyuu" }
+      { idIdol: `jai054`, name: "Arisa Hanyu" }
     ]
   },
   {
@@ -1687,7 +1687,7 @@ const File9 = [
     type: `Censored`,
     idols: [
       { idIdol: `jai015`, name: "Mao Kurata" },
-      { idIdol: `jai054`, name: "Arisa Hanyuu" }
+      { idIdol: `jai054`, name: "Arisa Hanyu" }
     ]
   },
   {
@@ -1697,7 +1697,7 @@ const File9 = [
     type: `Censored`,
     idols: [
       { idIdol: `jai015`, name: "Mao Kurata" },
-      { idIdol: `jai054`, name: "Arisa Hanyuu" }
+      { idIdol: `jai054`, name: "Arisa Hanyu" }
     ]
   },
   {
@@ -2286,7 +2286,7 @@ const File9 = [
     title: `BOIN GRAMMAR BASTARD ' HEALING SLUT ' OFFICE SISTER HANYU ARISA`,
     poster: `http://pics.dmm.co.jp/mono/movie/adult/bhg024so/bhg024sopl.jpg`,
     type: `Censored`,
-    idols: [{ idIdol: `jai054`, name: "Arisa Hanyuu" }]
+    idols: [{ idIdol: `jai054`, name: "Arisa Hanyu" }]
   },
   {
     code: `IENE-364`,
@@ -2309,7 +2309,7 @@ const File9 = [
     type: `Censored`,
     idols: [
       { idIdol: `jai011`, name: "Asahi Mizuno" },
-      { idIdol: `jai054`, name: "Arisa Hanyuu" }
+      { idIdol: `jai054`, name: "Arisa Hanyu" }
     ]
   },
   {

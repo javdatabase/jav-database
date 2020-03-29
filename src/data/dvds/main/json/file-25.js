@@ -38,7 +38,7 @@ const File25 = [
     poster: "http://pics.dmm.co.jp/mono/movie/adult/avop415so/avop415sopl.jpg",
     type: "Censored",
     idols: [
-      { idIdol: "jai054", name: "Arisa Hanyuu" },
+      { idIdol: "jai054", name: "Arisa Hanyu" },
       { idIdol: "jai055", name: "Marina Yuzuki" }
     ]
   },
@@ -803,7 +803,7 @@ const File25 = [
     poster:
       "http://pics.dmm.co.jp/mono/movie/adult/1avop413so/1avop413sopl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai054", name: "Arisa Hanyuu" }]
+    idols: [{ idIdol: "jai054", name: "Arisa Hanyu" }]
   },
   {
     code: "GHKQ-88",
@@ -1753,7 +1753,7 @@ const File25 = [
     title: `THERE ARE LOTS OF BEAUTIFUL WOMEN BEFORE THE PART OF THE MOTHER ! INFILTRATE THE BACKYARD BY PRETENDING THAT THE MOTHER HAS BUSINESS AS A BREAK AND EAGERLY ATTENDING TO THE OLDER BEAUTY IN THE DOGS!I DESPERATELY ASKED FOR IT AND I MANAGED TO DO IT EVEN WITH MY HANDJOB . HOWEVER , I GOT A VAGINA CHEWING TO A YOUNG CHEE-POO AND IT'S THE LAST WOMAN IN THE WOMAN ON COWGIRL ...`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/oyc234/oyc234pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai054", name: "Arisa Hanyuu" }]
+    idols: [{ idIdol: "jai054", name: "Arisa Hanyu" }]
   },
   {
     code: "SCR-211",
@@ -2382,7 +2382,10 @@ const File25 = [
     title: `FEMALE THERAPY TREATMENT CENTER 21 WHERE A FEMALE TEACHER IN BUNKYO WARD ATTENDS 21`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/club532/club532pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai011", name: "Asahi Mizuno" }]
+    idols: [
+      { idIdol: "jai011", name: "Asahi Mizuno" },
+      { idIdol: "jai150", name: "Shizuka Takano" }
+    ]
   },
   {
     code: "FSET-812",
@@ -2400,7 +2403,7 @@ const File25 = [
     poster:
       "http://pics.dmm.co.jp/mono/movie/adult/h_910vrtm408/h_910vrtm408pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai054", name: "Arisa Hanyuu" }]
+    idols: [{ idIdol: "jai054", name: "Arisa Hanyu" }]
   },
   {
     code: "MIAA-018",

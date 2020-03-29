@@ -4,7 +4,7 @@ const File31 = [
     title: `YOUNG WIVES SOLD IN DEBT RISA , ARISA KAWASAKI , RINA OTOMI , ARISA HANYU , MIKURU SHIIBA , TOUKA AYANE`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/84xrw799/84xrw799pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai054", name: "Arisa Hanyuu" }]
+    idols: [{ idIdol: "jai054", name: "Arisa Hanyu" }]
   },
   {
     code: "URFD-010",
@@ -12,42 +12,42 @@ const File31 = [
     poster:
       "http://pics.dmm.co.jp/mono/movie/adult/118urfd010/118urfd010pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai054", name: "Arisa Hanyuu" }]
+    idols: [{ idIdol: "jai054", name: "Arisa Hanyu" }]
   },
   {
     code: "RCTD-302",
     title: `NUDE DRAWING MODEL WRITHES WITH APHRODISIAC`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/1rctd302/1rctd302pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai054", name: "Arisa Hanyuu" }]
+    idols: [{ idIdol: "jai054", name: "Arisa Hanyu" }]
   },
   {
     code: "LULU-008",
     title: `BIG PENIS IMMEDIATELY SADDLE SCREWED FROM THE BACK WITHOUT BEING ABLE TO PUT UP WITH AUNT BLOOMERS PITA BREAD! A YOUNG MAN WHO WAS DEPRIVED OF A PURSUING PISTON WHO COULD NOT STOP EVEN IF HE WAS YOUNG`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/lulu008/lulu008pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai054", name: "Arisa Hanyuu" }]
+    idols: [{ idIdol: "jai054", name: "Arisa Hanyu" }]
   },
   {
     code: "ANB-168",
     title: `ESTRUS OF I-CUP SUPER MILK BEAUTY MOTHER-IN-LAW WHO BECAME MY TOY ! ARISA HANYU`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/anb168so/anb168sopl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai054", name: "Arisa Hanyuu" }]
+    idols: [{ idIdol: "jai054", name: "Arisa Hanyu" }]
   },
   {
     code: "CESD-863",
     title: `A BAD MAN WHO CAN'T GO AWAY × NO.1 CUSTOMS MISS LOVE WEDDING CUM INSIDE SEX4 HANYU ARISA`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/cesd863/cesd863pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai054", name: "Arisa Hanyuu" }]
+    idols: [{ idIdol: "jai054", name: "Arisa Hanyu" }]
   },
   {
     code: "PPSD-054",
     title: `BUSTY SLUT TITTY FUCKING SCHOOL`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/ppsd054/ppsd054pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai054", name: "Arisa Hanyuu" }]
+    idols: [{ idIdol: "jai054", name: "Arisa Hanyu" }]
   },
   {
     code: "XRW-835",
@@ -55,7 +55,7 @@ const File31 = [
     poster: "http://pics.dmm.co.jp/mono/movie/adult/84xrw835/84xrw835pl.jpg",
     type: "Censored",
     idols: [
-      { idIdol: "jai054", name: "Arisa Hanyuu" },
+      { idIdol: "jai054", name: "Arisa Hanyu" },
       { idIdol: "jai144", name: "Kanna Misaki" }
     ]
   },
@@ -65,7 +65,7 @@ const File31 = [
     poster: "http://pics.dmm.co.jp/mono/movie/adult/84xrw837/84xrw837pl.jpg",
     type: "Censored",
     idols: [
-      { idIdol: "jai054", name: "Arisa Hanyuu" },
+      { idIdol: "jai054", name: "Arisa Hanyu" },
       { idIdol: "jai144", name: "Kanna Misaki" }
     ]
   },
@@ -74,28 +74,28 @@ const File31 = [
     title: `ADOLESCENT SON'S EXPERIENCE ODIOUS MOTHER OMNIBUS`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/nsps882so/nsps882sopl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai054", name: "Arisa Hanyuu" }]
+    idols: [{ idIdol: "jai054", name: "Arisa Hanyu" }]
   },
   {
     code: "UMSO-309",
     title: `I'M WORRIED THAT CHI PO IS TOO BIG . BECAUSE A NORMAL WOMAN HURTS AND CAN'T INSERT IT . THAT'S WHY I'M LOOKING FOR A WOMAN WHO CAN CALL ME AN EXPERIENCED SLUT GIRL AT HOME AND DO MY BEST ...`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/84umso309/84umso309pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai054", name: "Arisa Hanyuu" }]
+    idols: [{ idIdol: "jai054", name: "Arisa Hanyu" }]
   },
   {
     code: "UMSO-310",
     title: `( I-CUP ) LIMITED ! GOD BREASTS SISTER'S POWERFUL SEX 10 PEOPLE VOL.02`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/84umso310/84umso310pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai054", name: "Arisa Hanyuu" }]
+    idols: [{ idIdol: "jai054", name: "Arisa Hanyu" }]
   },
   {
     code: "KATU-068",
     title: `NIPPLE BOTTLE DIRTY CAREGIVER SUPER PLUMP MEAT BULLET GACHIMUCHI SMALL DEVIL SLUT`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/katu068/katu068pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai054", name: "Arisa Hanyuu" }]
+    idols: [{ idIdol: "jai054", name: "Arisa Hanyu" }]
   },
   {
     code: "CLB-031",
@@ -875,7 +875,10 @@ const File31 = [
     title: `CUM IN A COWGIRL TO NIPPLE TORTURE SPECIALIST DERIHERU MISS 4`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/1mist271/1mist271pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai008", name: "Eri Hosaka" }]
+    idols: [
+      { idIdol: "jai008", name: "Eri Hosaka" },
+      { idIdol: "jai150", name: "Shizuka Takano" }
+    ]
   },
   {
     code: "MGDN-115",
@@ -2176,7 +2179,10 @@ const File31 = [
     title: `" DON'T MISS UNTIL YOU PUT IT IN ! " OVULATION DAY ONLY ! I WANT TO GET PREGNANT ! A WALL DON FROM A YOUNG WIFE ! FLOOR DON ! FERTILIZATION HARD PISTON ! !`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/gdhh176/gdhh176pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: `jai049`, name: "Hikari Anzai" }]
+    idols: [
+      { idIdol: "jai048", name: "Honoka Tsuji" },
+      { idIdol: `jai049`, name: "Hikari Anzai" }
+    ]
   },
   {
     code: "HUNTA-681",

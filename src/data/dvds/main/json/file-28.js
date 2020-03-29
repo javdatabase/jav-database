@@ -1182,7 +1182,7 @@ const File28 = [
     title: `MY PRETTY GIRL WHO WORKED PRETTY SUDDENLY SUFFERED A WOMAN 3`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/1fset816/1fset816pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai054", name: "Arisa Hanyuu" }]
+    idols: [{ idIdol: "jai054", name: "Arisa Hanyu" }]
   },
   {
     code: "IENE-980",
@@ -1262,7 +1262,7 @@ const File28 = [
     poster:
       "http://pics.dmm.co.jp/mono/movie/adult/h_086xmom02/h_086xmom02pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai054", name: "Arisa Hanyuu" }]
+    idols: [{ idIdol: "jai054", name: "Arisa Hanyu" }]
   },
   {
     code: "SSNI-432",
@@ -1378,7 +1378,7 @@ const File28 = [
       "http://pics.dmm.co.jp/mono/movie/adult/118kfne010/118kfne010pl.jpg",
     type: "Censored",
     idols: [
-      { idIdol: "jai054", name: "Arisa Hanyuu" },
+      { idIdol: "jai054", name: "Arisa Hanyu" },
       { idIdol: "jai051", name: "Ruri Tachibana" }
     ]
   },
@@ -1660,7 +1660,7 @@ const File28 = [
     poster:
       "http://pics.dmm.co.jp/mono/movie/adult/h_254vnds3304/h_254vnds3304pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai054", name: "Arisa Hanyuu" }]
+    idols: [{ idIdol: "jai054", name: "Arisa Hanyu" }]
   },
   {
     code: "HND-644",
@@ -1731,7 +1731,7 @@ const File28 = [
     poster:
       "http://pics.dmm.co.jp/mono/movie/adult/h_1359omt002/h_1359omt002pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai054", name: "Arisa Hanyuu" }]
+    idols: [{ idIdol: "jai054", name: "Arisa Hanyu" }]
   },
   {
     code: "CESD-734",
@@ -2042,7 +2042,7 @@ const File28 = [
     type: "Censored",
     idols: [
       { idIdol: "jai011", name: "Asahi Mizuno" },
-      { idIdol: "jai054", name: "Arisa Hanyuu" }
+      { idIdol: "jai054", name: "Arisa Hanyu" }
     ]
   },
   {
