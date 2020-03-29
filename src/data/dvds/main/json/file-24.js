@@ -321,7 +321,7 @@ const File24 = [
   {
     code: "JUX-515",
     title: `MADONNA DEDICATING HOUSEWIFE SECOND EDITION ! ! TODAY ALSO , I THINK I WILL BE EMBRACED BY THE FATHER-IN-LAW .... HARA CHITOSE`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/jux494/jux494pl.jpg",
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/jux515/jux515pl.jpg",
     type: "Censored",
     idols: [{ idIdol: "jai116", name: "Chitose Hara" }]
   },
@@ -2010,8 +2010,7 @@ const File24 = [
   {
     code: "ONED-602",
     title: `SORA AOI HYPER HYPER BARELY BARELY ×`,
-    poster:
-      "https://img201.imagetwist.com/i/27679/e90yzm6dj8p2.jpg/ONED-539.jpg",
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/oned602/oned602pl.jpg",
     type: "Censored",
     idols: [{ idIdol: "jai118", name: "Sora Aoi" }]
   },

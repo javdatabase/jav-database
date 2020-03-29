@@ -306,7 +306,7 @@ const File6 = [
   {
     code: `NASS-913`,
     title: `AS A RESULT OF THE EYELID OF A VIRGIN SERVANT I WAS TAUGHT BY A BEAUTY FEMALE DOCTOR IN UROLOGY DEPARTMENT …`,
-    poster: `http://pics.dmm.co.jp/mono/movie/adult/84scpx296/84scpx296pl.jpg`,
+    poster: `http://pics.dmm.co.jp/mono/movie/adult/h_067nass913/h_067nass913pl.jpg`,
     type: `Censored`,
     idols: [{ idIdol: `jai021`, name: "Aki Sasaki" }]
   },

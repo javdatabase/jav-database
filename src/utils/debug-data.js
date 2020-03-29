@@ -1,83 +1,108 @@
+import { SIZE_MAIN_DVDS } from "../services/dvds.service";
+import { SIZE_IDOLS } from "../services/idols.service";
+
 import MainDvds from "../data/dvds/main";
 import Idols from "../data/idols";
 
-const CheckAlreadyExistDvd = () => {
-  let d = 0;
-  let rs = [];
-  const data = MainDvds;
-  const size = data.length;
-  for (let i = 1; i < size; i++) {
+function CheckAlreadyExistDvd() {
+  let count = 0;
+  let response = [];
+  for (let i = 1; i < SIZE_MAIN_DVDS; i++) {
     for (let j = 0; j < i; j++) {
-      if (data[i].code === data[j].code && data[i].code !== "") {
-        d++;
-        rs.push(data[i].code);
+      if (MainDvds[i].code === MainDvds[j].code && MainDvds[i].code !== "") {
+        count++;
+        response.push(MainDvds[i].code);
       }
     }
   }
-  if (d !== 0) {
-    return rs;
+  if (count !== 0) {
+    return response;
   } else {
     return "* none *";
   }
-};
+}
 
 const RESULT_CHECK_ALREADY_EXIST_DVD = CheckAlreadyExistDvd();
 
-const CheckPoster = () => {
-  const data = MainDvds.filter(item => item.poster === "" && item.code !== "");
-  const rs = data.map(item => item.code);
-  if (data.length > 0) {
-    return rs;
-  } else {
-    return "* none *";
-  }
-};
-
-const RESULT_CHECK_POSTER = CheckPoster();
-
-const CheckAlreadyExistIdols = () => {
-  let d = 0;
-  let rs = [];
-  for (let i = 1; i < Idols.length; i++) {
+function CheckAlreadyExistPoster() {
+  let count = 0;
+  let response = [];
+  for (let i = 1; i < SIZE_MAIN_DVDS; i++) {
     for (let j = 0; j < i; j++) {
-      if (Idols[i].name === Idols[j].name && Idols[i].name !== "") {
-        d++;
-        rs.push(Idols[i].name);
+      if (
+        MainDvds[i].poster === MainDvds[j].poster &&
+        MainDvds[i].poster !== ""
+      ) {
+        count++;
+        response.push(MainDvds[i].code);
       }
     }
   }
-  if (d !== 0) {
-    return rs;
+  if (count !== 0) {
+    return response;
   } else {
     return "* none *";
   }
-};
+}
+
+const RESULT_CHECK_ALREADY_EXIST_POSTER = CheckAlreadyExistPoster();
+
+function CheckPosterIsFalsy() {
+  const data = MainDvds.filter(item => item.poster === "" && item.code !== "");
+  const response = data.map(item => item.code);
+  if (data.length > 0) {
+    return response;
+  } else {
+    return "* none *";
+  }
+}
+
+const RESULT_CHECK_POSTER_FALSY = CheckPosterIsFalsy();
+
+function CheckAlreadyExistIdols() {
+  let count = 0;
+  let response = [];
+  for (let i = 1; i < SIZE_IDOLS; i++) {
+    for (let j = 0; j < i; j++) {
+      if (Idols[i].name === Idols[j].name && Idols[i].name !== "") {
+        count++;
+        response.push(Idols[i].name);
+      }
+    }
+  }
+  if (count !== 0) {
+    return response;
+  } else {
+    return "* none *";
+  }
+}
 
 const RESULT_CHECK_ALREADY_EXIST_IDOLS = CheckAlreadyExistIdols();
 
-const CheckAlreadyExistIdIdols = () => {
-  let d = 0;
-  let rs = [];
-  for (let i = 1; i < Idols.length; i++) {
+function CheckAlreadyExistIdIdols() {
+  let count = 0;
+  let response = [];
+  for (let i = 1; i < SIZE_IDOLS; i++) {
     for (let j = 0; j < i; j++) {
       if (Idols[i].idIdol === Idols[j].idIdol) {
-        d++;
-        rs.push(Idols[i].idIdol);
+        count++;
+        response.push(Idols[i].idIdol);
       }
     }
   }
-  if (d !== 0) {
-    return rs;
+  if (count !== 0) {
+    return response;
   } else {
     return "* none *";
   }
-};
+}
 
 const RESULT_CHECK_ALREADY_EXIST_ID_IDOLS = CheckAlreadyExistIdIdols();
 
 export {
   RESULT_CHECK_ALREADY_EXIST_DVD,
-  RESULT_CHECK_POSTER,
+  RESULT_CHECK_ALREADY_EXIST_POSTER,
+  RESULT_CHECK_POSTER_FALSY,
   RESULT_CHECK_ALREADY_EXIST_IDOLS,
   RESULT_CHECK_ALREADY_EXIST_ID_IDOLS
 };

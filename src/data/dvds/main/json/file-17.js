@@ -829,7 +829,7 @@ const File17 = [
   {
     code: "RBND-119",
     title: `KIM SEONG-HARD NIMBLY HANAKAWA`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/13kba02/13kba02pl.jpg",
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/62rbnd119/62rbnd119pl.jpg",
     type: "Censored",
     idols: [{ idIdol: "jai037", name: "Sayaka Minami" }]
   },
@@ -1011,8 +1011,7 @@ const File17 = [
   {
     code: "YST-101",
     title: `TODAY IS ALSO THE TOY IN FATHER-IN-LAW ... YURI NIKAIDO`,
-    poster:
-      "http://pics.dmm.co.jp/mono/movie/adult/h_127yal050/h_127yal050pl.jpg",
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/540yst101/540yst101pl.jpg",
     type: "Censored",
     idols: [{ idIdol: "jai050", name: "Yuri Nikaido" }]
   },

@@ -1263,7 +1263,7 @@ const File19 = [
   {
     code: "RBD-145",
     title: `I CARE HELPER HUMILIATION , H. OHASHI ... I DO NOT HOLD ON`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/rbd143/rbd143pl.jpg",
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/rbd145/rbd145pl.jpg",
     type: "Censored",
     idols: [{ idIdol: "jai099", name: "Miku Ohashi" }]
   },
