@@ -5,6 +5,7 @@ import * as hinata_koizumi from "../images/hinata-koizumi";
 import * as akiko_hasegawa from "../images/akiko-hasegawa";
 import * as ririna_yamaoka from "../images/ririna-yamaoka";
 import * as risa_morisawa from "../images/risa-morisawa";
+import * as momoko_maeda from "../images/momoko-maeda";
 
 const File3 = [
   {
@@ -1947,7 +1948,7 @@ const File3 = [
   },
   {
     idIdol: "jai154",
-    avatar: "",
+    avatar: momoko_maeda.momoko_maeda_2,
     name: "Momoko Maeda",
     other: "",
     born: "07/10/1999",
@@ -1959,7 +1960,34 @@ const File3 = [
     styles: [{ tag: "Cute" }, { tag: "Killer Tits" }],
     album: [
       {
-        picture: ""
+        picture: momoko_maeda.momoko_maeda_3
+      },
+      {
+        picture: momoko_maeda.momoko_maeda_4
+      },
+      {
+        picture: momoko_maeda.momoko_maeda_5
+      },
+      {
+        picture: momoko_maeda.momoko_maeda_9
+      },
+      {
+        picture: momoko_maeda.momoko_maeda_10
+      },
+      {
+        picture: momoko_maeda.momoko_maeda_1
+      },
+      {
+        picture: momoko_maeda.momoko_maeda_6
+      },
+      {
+        picture: momoko_maeda.momoko_maeda_7
+      },
+      {
+        picture: momoko_maeda.momoko_maeda_8
+      },
+      {
+        picture: momoko_maeda.momoko_maeda_11
       }
     ]
   },
