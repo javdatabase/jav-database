@@ -6,6 +6,7 @@ import * as akiko_hasegawa from "../images/akiko-hasegawa";
 import * as ririna_yamaoka from "../images/ririna-yamaoka";
 import * as risa_morisawa from "../images/risa-morisawa";
 import * as momoko_maeda from "../images/momoko-maeda";
+import * as seina_aono from "../images/seira-aono";
 
 const File3 = [
   {
@@ -2012,6 +2013,29 @@ const File3 = [
       {
         picture:
           "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/38000/38025/large/wapdb-reira-kitagawa-pornostar-asiatique.warashi-asian-pornstars.fr-38025-001.jpg"
+      }
+    ]
+  },
+  {
+    idIdol: "jai156",
+    avatar: seina_aono.seira_aono_1,
+    name: "Seina Aono",
+    other: "",
+    born: "23/01/1982",
+    height: "160 cm",
+    breast: "89 cm",
+    cup: "F-Cup",
+    waist: "57 cm",
+    hips: "87 cm",
+    styles: [
+      { tag: "Retired" },
+      { tag: "Cute" },
+      { tag: "Killer Tits" },
+      { tag: "Slender" }
+    ],
+    album: [
+      {
+        picture: seina_aono.seira_aono_2
       }
     ]
   }
