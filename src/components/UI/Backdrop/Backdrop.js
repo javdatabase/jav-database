@@ -8,7 +8,8 @@ const Component = styled.div`
   width: 100vw;
   height: 100vh;
   position: fixed;
-  top: 0;
+  top: 0px;
+  right: 0px;
   z-index: 200;
   background-color: ${Black};
   opacity: 0.6;

@@ -40,6 +40,12 @@ const Container = styled.div`
   animation: ${fadeIn} 0.3s ease-in-out;
 `;
 
+const AvatarContainer = styled.div`
+  position: relative;
+  width: 16vw;
+  height: 22vw;
+`;
+
 const AvatarIdol = styled(IdolAvatar)`
   width: 16vw;
   height: 22vw;
@@ -113,7 +119,7 @@ function IdolDetail({ show, toggleModal, data }) {
         runnerUp={getIdolRank(get(data, "idIdol", "")) === 2}
         show={show}
       >
-        <div style={{ position: "relative", height: "22vw" }}>
+        <AvatarContainer>
           <AvatarIdol src={get(data, "avatar", null)} />
           <ViewProfile
             to={`/idol/${get(data, "idIdol", "")}`}
@@ -122,7 +128,7 @@ function IdolDetail({ show, toggleModal, data }) {
           >
             View
           </ViewProfile>
-        </div>
+        </AvatarContainer>
         <DetailContainer>
           <NameIdol>
             {get(data, "name", "")}{" "}

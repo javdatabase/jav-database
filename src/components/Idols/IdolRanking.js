@@ -53,6 +53,12 @@ const RankingIdol = styled.div`
   font-size: ${XXLarge};
 `;
 
+const AvatarContainer = styled.div`
+  position: relative;
+  width: 10vw;
+  height: 15vw;
+`;
+
 const AvatarIdol = styled(IdolAvatar)`
   width: 10vw;
   min-width: 10vw;
@@ -114,7 +120,9 @@ const DvdItem = styled.div`
 
 const PosterDvd = styled(DvdPoster)`
   width: 7.5vw;
+  max-width: 7.5vw;
   height: 5vw;
+  max-height: 5vw;
 `;
 
 const CodeDvd = styled.div`
@@ -199,7 +207,7 @@ function IdolRanking({ data }) {
       <Container queen={data.rank === 1} runnerUp={data.rank === 2}>
         <RankingIdol>{data.rank}</RankingIdol>
         <div style={{ display: "flex", width: "100%" }}>
-          <div style={{ position: "relative", height: "15vw" }}>
+          <AvatarContainer>
             <AvatarIdol src={data.avatar} />
             <ViewProfile
               to={`/idol/${data.idIdol}`}
@@ -208,7 +216,7 @@ function IdolRanking({ data }) {
             >
               View
             </ViewProfile>
-          </div>
+          </AvatarContainer>
           <IdolInformationContainer>
             <NameIdol>
               {data.name} {data.other ? `(${data.other})` : ""}

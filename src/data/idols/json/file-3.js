@@ -2038,6 +2038,34 @@ const File3 = [
         picture: seina_aono.seira_aono_2
       }
     ]
+  },
+  {
+    idIdol: "jai157",
+    avatar:
+      "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/50000/50210/large/wapdb-suzume-mino-pornostar-asiatique.warashi-asian-pornstars.fr-50210-001.jpg",
+    name: "Suzume Mino",
+    other: "",
+    born: "10/05/1996",
+    height: "168 cm",
+    breast: "93 cm",
+    cup: "G-Cup",
+    waist: "60 cm",
+    hips: "89 cm",
+    styles: [{ tag: "Killer Tits" }],
+    album: [
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/50000/50210/large/wapdb-suzume-mino-pornostar-asiatique.warashi-asian-pornstars.fr-50210-002.jpg"
+      },
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/50000/50210/large/wapdb-suzume-mino-pornostar-asiatique.warashi-asian-pornstars.fr-50210-003.jpg"
+      },
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/50000/50213/large/wapdb-suzume-mino-pornostar-asiatique.warashi-asian-pornstars.fr-50213-001.jpg"
+      }
+    ]
   }
 ];
 

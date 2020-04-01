@@ -1,10 +1,12 @@
-import React, { Fragment, memo } from "react";
+import React, { Fragment, useMemo, useCallback } from "react";
 import styled from "styled-components";
 
 import Backdrop from "../UI/Backdrop/Backdrop";
 import IdolAvatar from "./IdolAvatar";
 
-import { fadeIn } from "../../themes/styled";
+import { White, Black, Pink } from "../../themes/colors";
+import { fadeIn, center } from "../../themes/styled";
+import { XXLarge } from "../../themes/font";
 
 const AvatarIdol = styled(IdolAvatar)`
   position: fixed;
@@ -18,15 +20,87 @@ const AvatarIdol = styled(IdolAvatar)`
   animation: ${fadeIn} 0.3s ease-in-out;
 `;
 
-function IdolPicture({ show, toggleModal, data }) {
+const PrevButton = styled.div`
+  position: fixed;
+  z-index: 500;
+  top: 50%;
+  left: 28%;
+  transform: translateY(-50%);
+  ${center}
+  display: ${props => (props.show === "true" ? "flex" : "none")};
+  width: 40px;
+  height: 40px;
+  background-color: ${White};
+  border-radius: 12px;
+  color: ${Black};
+  font-size: ${XXLarge};
+  animation: ${fadeIn} 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    background-color: ${Pink};
+    color: ${White};
+  }
+`;
+
+const NextButton = styled.div`
+  position: fixed;
+  z-index: 500;
+  top: 50%;
+  right: 28%;
+  transform: translateY(-50%);
+  ${center}
+  display: ${props => (props.show === "true" ? "flex" : "none")};
+  width: 40px;
+  height: 40px;
+  background-color: ${White};
+  border-radius: 12px;
+  color: ${Black};
+  font-size: ${XXLarge};
+  animation: ${fadeIn} 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    background-color: ${Pink};
+    color: ${White};
+  }
+`;
+
+function IdolPicture({ show, toggleModal, listData, data, setData }) {
+  const current = useMemo(() => {
+    return listData.indexOf(data);
+  }, [listData, data]);
+
+  const prevImage = useCallback(() => {
+    if (current <= 0) {
+      setData(listData[listData.length - 1]);
+    } else {
+      setData(listData[current - 1]);
+    }
+  }, [listData, current, setData]);
+
+  const nextImage = useCallback(() => {
+    if (current >= listData.length - 1) {
+      setData(listData[0]);
+    } else {
+      setData(listData[current + 1]);
+    }
+  }, [listData, current, setData]);
+
   return (
     <Fragment>
       <Backdrop show={show} hiddenModal={toggleModal} />
+      <PrevButton show={show.toString()} onClick={prevImage}>
+        {"<"}
+      </PrevButton>
       <AvatarIdol show={show.toString()} src={data} />
+      <NextButton show={show.toString()} onClick={nextImage}>
+        {">"}
+      </NextButton>
     </Fragment>
   );
 }
 
-const MemoIdolPicture = memo(IdolPicture);
-
-export default MemoIdolPicture;
+export default IdolPicture;

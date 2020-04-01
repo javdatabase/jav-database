@@ -238,6 +238,12 @@ function Idol() {
     return IDOL_PROFILE(id);
   }, [id]);
 
+  const listImages = useMemo(() => {
+    return [get(data, "avatar", "")].concat(
+      get(data, "album", []).map(item => item.picture)
+    );
+  }, [data]);
+
   const earnings = useMemo(() => {
     const uncensored = get(data, "dvds", []).filter(
       item => item.type === "Uncensored"
@@ -285,7 +291,11 @@ function Idol() {
     setShowPicture(!showPicture);
   }, [showPicture]);
 
-  const handleChangePicture = useCallback(
+  const handleChangePicture = useCallback(value => {
+    setPicture(value);
+  }, []);
+
+  const handleModalPicture = useCallback(
     value => {
       if (value) {
         setPicture(value);
@@ -306,7 +316,7 @@ function Idol() {
               <Picture
                 key={item.picture}
                 src={item.picture}
-                onClick={() => handleChangePicture(item.picture)}
+                onClick={() => handleModalPicture(item.picture)}
                 alt={""}
               />
             ))}
@@ -337,7 +347,7 @@ function Idol() {
       default:
         return null;
     }
-  }, [tab, data, handleChangeDvd, handleChangePicture]);
+  }, [tab, data, handleChangeDvd, handleModalPicture]);
 
   return (
     <Fragment>
@@ -346,7 +356,7 @@ function Idol() {
           <InformationContainer>
             <AvatarIdol
               src={get(data, "avatar", "")}
-              onClick={() => handleChangePicture(get(data, "avatar", ""))}
+              onClick={() => handleModalPicture(get(data, "avatar", ""))}
             />
             <Information>
               <NameIdol
@@ -401,7 +411,9 @@ function Idol() {
       <IdolPicture
         show={showPicture}
         toggleModal={toggleModalPicture}
+        listData={listImages}
         data={picture}
+        setData={handleChangePicture}
       />
       <DvdDetail show={showDvd} toggleModal={toggleModalDvd} data={dvd} />
     </Fragment>
