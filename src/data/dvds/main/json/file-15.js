@@ -331,7 +331,10 @@ const File15 = [
     poster:
       "http://pics.dmm.co.jp/mono/movie/adult/118gets088/118gets088pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai012", name: "Aimi Yoshikawa" }]
+    idols: [
+      { idIdol: "jai012", name: "Aimi Yoshikawa" },
+      { idIdol: "jai158", name: "Nao Jinguuji" }
+    ]
   },
   {
     code: "KSBJ-046",
@@ -1757,7 +1760,8 @@ const File15 = [
     type: "Censored",
     idols: [
       { idIdol: "jai002", name: "Hibiki Otsuki" },
-      { idIdol: "jai021", name: "Aki Sasaki" }
+      { idIdol: "jai021", name: "Aki Sasaki" },
+      { idIdol: "jai158", name: "Nao Jinguuji" }
     ]
   },
   {

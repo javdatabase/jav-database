@@ -4,7 +4,7 @@ import styled from "styled-components";
 import Backdrop from "../UI/Backdrop/Backdrop";
 import IdolAvatar from "./IdolAvatar";
 
-import { White, Black, Pink } from "../../themes/colors";
+import { White, Black, Pink, Orange } from "../../themes/colors";
 import { fadeIn, center } from "../../themes/styled";
 import { XXLarge } from "../../themes/font";
 
@@ -30,13 +30,14 @@ const PrevButton = styled.div`
   display: ${props => (props.show === "true" ? "flex" : "none")};
   width: 40px;
   height: 40px;
-  background-color: ${White};
+  background-color: ${Orange};
   border-radius: 12px;
   color: ${Black};
   font-size: ${XXLarge};
   animation: ${fadeIn} 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
+  user-select: none;
 
   &:hover {
     background-color: ${Pink};
@@ -54,13 +55,14 @@ const NextButton = styled.div`
   display: ${props => (props.show === "true" ? "flex" : "none")};
   width: 40px;
   height: 40px;
-  background-color: ${White};
+  background-color: ${Orange};
   border-radius: 12px;
   color: ${Black};
   font-size: ${XXLarge};
   animation: ${fadeIn} 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
+  user-select: none;
 
   &:hover {
     background-color: ${Pink};

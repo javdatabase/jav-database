@@ -2470,7 +2470,10 @@ const File32 = [
     title: `SHIBUYA VOYEUR TEMPERED OIL MASSAGE 01`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/118dnw001/118dnw001pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai150", name: "Shizuka Takano" }]
+    idols: [
+      { idIdol: "jai150", name: "Shizuka Takano" },
+      { idIdol: "jai158", name: "Nao Jinguuji" }
+    ]
   },
   {
     code: "XRW-476",

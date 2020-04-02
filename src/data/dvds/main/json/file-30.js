@@ -546,7 +546,8 @@ const File30 = [
     type: "Censored",
     idols: [
       { idIdol: `jai001`, name: "Yui Hatano" },
-      { idIdol: `jai002`, name: "Hibiki Otsuki" }
+      { idIdol: `jai002`, name: "Hibiki Otsuki" },
+      { idIdol: "jai158", name: "Nao Jinguuji" }
     ]
   },
   {
