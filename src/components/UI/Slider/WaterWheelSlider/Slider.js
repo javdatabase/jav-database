@@ -4,13 +4,7 @@ import styled from "styled-components";
 
 import Item from "./Item";
 
-import {
-  Pink,
-  White,
-  Orange,
-  DarkBlue,
-  LightBlue
-} from "../../../../themes/colors";
+import { Pink, White, Orange } from "../../../../themes/colors";
 import { center } from "../../../../themes/styled";
 
 const Container = styled.div`
@@ -40,7 +34,7 @@ const Dot = styled.div`
   background: ${props =>
     props.active
       ? props.customColor
-        ? `linear-gradient(to right, ${DarkBlue}, ${LightBlue})`
+        ? props.customColor
         : `linear-gradient(to right, ${Pink}, ${Orange})`
       : White};
   border-radius: 100%;

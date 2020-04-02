@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 import { dvdPoints } from "../../helpers/render-color";
-import { getIdolRank, checkBestIdol } from "../../services/common.service";
+import { getIdolRank } from "../../services/common.service";
 import IdolAvatar from "./IdolAvatar";
 import IdolCup from "./IdolCup";
 import IdolStyle from "./IdolStyle";
@@ -18,19 +18,16 @@ import {
   Yellow,
   LightBlue,
   Grey,
-  Red,
-  LightPurple,
-  DarkPurple
+  Red
 } from "../../themes/colors";
-import { center } from "../../themes/styled";
-import { Regular, XLarge, XXLarge } from "../../themes/font";
+import { center, fadeIn } from "../../themes/styled";
+import { Regular, XXLarge } from "../../themes/font";
 
 const Container = styled.div`
   width: 100%;
   display: flex;
   border-radius: 18px;
   padding: 10px;
-  margin: 20px 0px;
   box-sizing: border-box;
   background: ${props =>
     props.queen
@@ -38,6 +35,7 @@ const Container = styled.div`
       : props.runnerUp
       ? `linear-gradient(to right, ${LightBlue}, ${Pink})`
       : `linear-gradient(to right,  ${Orange}, ${Pink})`};
+  animation: ${fadeIn} 1s linear;
 `;
 
 const RankingIdol = styled.div`
@@ -58,23 +56,7 @@ const RankingIdol = styled.div`
 const AvatarContainer = styled.div`
   position: relative;
   width: 10vw;
-  min-width: 10vw;
   height: 15vw;
-  border-radius: 18px;
-  overflow: hidden;
-`;
-
-const BadgeIdol = styled.div`
-  position: absolute;
-  top: -5px;
-  left: -35px;
-  ${center}
-  width: 100px;
-  height: 40px;
-  background: linear-gradient(to right, ${LightPurple}, ${DarkPurple});
-  transform: rotate(135deg);
-  font-size: ${XLarge};
-  color: ${White};
 `;
 
 const AvatarIdol = styled(IdolAvatar)`
@@ -190,7 +172,7 @@ const ViewProfile = styled(Link)`
   }
 `;
 
-function IdolRanking({ data }) {
+function BestIdolDetail({ data, active }) {
   const [show, setShow] = useState(false);
   const [dvd, setDvd] = useState(null);
 
@@ -222,54 +204,55 @@ function IdolRanking({ data }) {
 
   return (
     <Fragment>
-      <Container queen={data.rank === 1} runnerUp={data.rank === 2}>
-        <RankingIdol>{data.rank}</RankingIdol>
-        <div style={{ display: "flex", width: "100%" }}>
-          <AvatarContainer>
-            {checkBestIdol(data.idIdol) && <BadgeIdol>☿</BadgeIdol>}
-            <AvatarIdol src={data.avatar} />
-            <ViewProfile
-              to={`/idol/${data.idIdol}`}
-              queen={(getIdolRank(data.idIdol) === 1).toString()}
-              runner={(getIdolRank(data.idIdol) === 2).toString()}
-            >
-              View
-            </ViewProfile>
-          </AvatarContainer>
-          <IdolInformationContainer>
-            <NameIdol>
-              {data.name} {data.other ? `(${data.other})` : ""}
-            </NameIdol>
-            <InformationIdol>
-              ● Born: {data.born}
-              <br />● Height: {data.height}
-              <br />● Breast: {data.breast}{" "}
-              <IdolCup cup={data.cup}>({data.cup})</IdolCup>
-              <br />● Waist: {data.waist}
-              <br />● Hips: {data.hips}
-            </InformationIdol>
-            <StylesIdolContainer>
-              {data.styles.map(item => (
-                <StyleIdol key={item.tag} tag={item.tag} />
+      {active && (
+        <Container queen={data.rank === 1} runnerUp={data.rank === 2}>
+          <RankingIdol>{data.rank}</RankingIdol>
+          <div style={{ display: "flex", width: "100%" }}>
+            <AvatarContainer>
+              <AvatarIdol src={data.avatar} />
+              <ViewProfile
+                to={`/idol/${data.idIdol}`}
+                queen={(getIdolRank(data.idIdol) === 1).toString()}
+                runner={(getIdolRank(data.idIdol) === 2).toString()}
+              >
+                View
+              </ViewProfile>
+            </AvatarContainer>
+            <IdolInformationContainer>
+              <NameIdol>
+                {data.name} {data.other ? `(${data.other})` : ""}
+              </NameIdol>
+              <InformationIdol>
+                ● Born: {data.born}
+                <br />● Height: {data.height}
+                <br />● Breast: {data.breast}{" "}
+                <IdolCup cup={data.cup}>({data.cup})</IdolCup>
+                <br />● Waist: {data.waist}
+                <br />● Hips: {data.hips}
+              </InformationIdol>
+              <StylesIdolContainer>
+                {data.styles.map(item => (
+                  <StyleIdol key={item.tag} tag={item.tag} />
+                ))}
+              </StylesIdolContainer>
+            </IdolInformationContainer>
+            <DvdsContainer>
+              {dvds.map(item => (
+                <DvdItem key={item.idDvd} onClick={() => handleChangeDvd(item)}>
+                  <PosterDvd src={item.poster} />
+                  <CodeDvd uncensored={item.type === "Uncensored"}>
+                    {item.code}
+                  </CodeDvd>
+                </DvdItem>
               ))}
-            </StylesIdolContainer>
-          </IdolInformationContainer>
-          <DvdsContainer>
-            {dvds.map(item => (
-              <DvdItem key={item.idDvd} onClick={() => handleChangeDvd(item)}>
-                <PosterDvd src={item.poster} />
-                <CodeDvd uncensored={item.type === "Uncensored"}>
-                  {item.code}
-                </CodeDvd>
-              </DvdItem>
-            ))}
-          </DvdsContainer>
-        </div>
-        <Points color={color}>{data.points}p</Points>
-      </Container>
+            </DvdsContainer>
+          </div>
+          <Points color={color}>{data.points}p</Points>
+        </Container>
+      )}
       <DvdDetail show={show} toggleModal={toggleModal} data={dvd} />
     </Fragment>
   );
 }
 
-export default IdolRanking;
+export default BestIdolDetail;

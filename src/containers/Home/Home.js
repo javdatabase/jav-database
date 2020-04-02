@@ -4,10 +4,17 @@ import styled from "styled-components";
 import { getDvdsRandom } from "../../services/common.service";
 import { NEW_DVDS_RELEASE_DETAIL } from "../../services/dvds.service";
 import WaterWheelSlider from "../../components/UI/Slider/WaterWheelSlider/Slider";
-import NewDvdRelease from "../../components/Home/NewDvdRelease";
-import NewDvdReleaseDetail from "../../components/Home/NewDvdReleaseDetail";
+import NewDvdReleaseCard from "../../components/Dvds/NewDvdReleaseCard";
+import NewDvdReleaseDetail from "../../components/Dvds/NewDvdReleaseDetail";
 
-import { Pink, Orange, Black, White } from "../../themes/colors";
+import {
+  Pink,
+  Orange,
+  Black,
+  White,
+  DarkBlue,
+  LightBlue
+} from "../../themes/colors";
 import { center, fadeIn } from "../../themes/styled";
 import { Large } from "../../themes/font";
 
@@ -21,17 +28,6 @@ const Container = styled.div`
   padding: 35px 0px;
   box-sizing: border-box;
   animation: ${fadeIn} 0.8s ease-in-out;
-`;
-
-const WaterWheelSliderContainer = styled.div`
-  width: calc(21vw + 800px);
-  height: calc(14vw + 100px);
-`;
-
-const DetailContainer = styled.div`
-  ${center}
-  margin-top: 20px;
-  width: calc(60vw + 50px);
 `;
 
 const ButtonLeft = styled.div`
@@ -78,6 +74,17 @@ const ButtonRight = styled.div`
   }
 `;
 
+const WaterWheelSliderContainer = styled.div`
+  width: calc(21vw + 800px);
+  height: calc(14vw + 100px);
+`;
+
+const DetailContainer = styled.div`
+  ${center}
+  margin-top: 20px;
+  width: calc(60vw + 50px);
+`;
+
 function Home() {
   const [type, setType] = useState("new");
   const [highlight, setHighlight] = useState(0);
@@ -113,10 +120,14 @@ function Home() {
           width={"21vw"}
           height={"calc(14vw + 40px)"}
           onSelect={changeHighlight}
-          customColor={data[highlight].type === "Uncensored"}
+          customColor={
+            data[highlight].type === "Uncensored"
+              ? `linear-gradient(to right, ${DarkBlue}, ${LightBlue})`
+              : `linear-gradient(to right, ${Pink}, ${Orange})`
+          }
         >
           {data.map((item, index) => (
-            <NewDvdRelease
+            <NewDvdReleaseCard
               key={item.idDvd}
               data={item}
               active={index === highlight}

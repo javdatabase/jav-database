@@ -1,7 +1,7 @@
 import React, { memo } from "react";
 import styled from "styled-components";
 
-import DvdPoster from "../Dvds/DvdPoster";
+import DvdPoster from "./DvdPoster";
 
 import { Pink, Orange, DarkBlue, LightBlue } from "../../themes/colors";
 import { center } from "../../themes/styled";
@@ -45,7 +45,7 @@ const CodeDvd = styled.div`
   -webkit-text-fill-color: transparent;
 `;
 
-function NewDvdRelease({ data, active }) {
+function NewDvdReleaseCard({ data, active }) {
   return (
     <Container>
       <PosterDvdWrapper active={active} uncensored={data.type === "Uncensored"}>
@@ -56,6 +56,6 @@ function NewDvdRelease({ data, active }) {
   );
 }
 
-const MemoNewDvdRelease = memo(NewDvdRelease);
+const MemoNewDvdReleaseCard = memo(NewDvdReleaseCard);
 
-export default MemoNewDvdRelease;
+export default MemoNewDvdReleaseCard;

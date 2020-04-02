@@ -5,6 +5,7 @@ import { useParams } from "react-router-dom";
 import LazyLoad from "react-lazyload";
 
 import { priceCurrency } from "../../helpers/render-price";
+import { checkBestIdol } from "../../services/common.service";
 import {
   getEarningIdol,
   getPriceOneNight
@@ -26,7 +27,9 @@ import {
   LightBlue,
   Yellow,
   Red,
-  Black
+  Black,
+  LightPurple,
+  DarkPurple
 } from "../../themes/colors";
 import { center, fadeIn } from "../../themes/styled";
 import { Large, XLarge, XXLarge } from "../../themes/font";
@@ -65,14 +68,13 @@ const InformationContainer = styled.div`
   margin-bottom: 10px;
 `;
 
-const AvatarIdol = styled(IdolAvatar)`
+const AvatarContainer = styled.div`
+  position: relative;
   width: 18vw;
   height: 25vw;
-  border: solid 5px transparent;
   border-radius: 18px;
-  box-sizing: content-box;
-  object-fit: cover;
-  cursor: pointer;
+  border: solid 5px transparent;
+  overflow: hidden;
   transition: border 0.3s ease-in-out;
 
   &:hover {
@@ -80,8 +82,46 @@ const AvatarIdol = styled(IdolAvatar)`
   }
 `;
 
+const BadgeIdol = styled.div`
+  position: absolute;
+  top: -5px;
+  left: -35px;
+  ${center}
+  width: 100px;
+  height: 40px;
+  background: linear-gradient(to right, ${LightPurple}, ${DarkPurple});
+  transform: rotate(135deg);
+  font-size: ${XLarge};
+  color: ${White};
+`;
+
+const AvatarIdol = styled(IdolAvatar)`
+  width: 18vw;
+  height: 25vw;
+  border-radius: 18px;
+  box-sizing: content-box;
+  object-fit: cover;
+  cursor: pointer;
+`;
+
+const RankIdol = styled.div`
+  position: absolute;
+  bottom: 0px;
+  ${center}
+  width: 18vw;
+  height: 50px;
+  border-radius: 0px 0px 12px 12px;
+  background: ${props =>
+    props.queen
+      ? `linear-gradient(to right, ${Yellow}, ${Red})`
+      : props.runnerUp
+      ? `linear-gradient(to right, ${LightBlue}, ${Pink})`
+      : `linear-gradient(to right, ${Orange}, ${Pink})`};
+  color: ${Black};
+  font-size: ${XLarge};
+`;
+
 const Information = styled.div`
-  position: relative;
   margin-left: 10px;
   color: ${White};
   font-size: ${Large};
@@ -106,24 +146,6 @@ const PointsIdol = styled.div`
   margin-top: 10px;
   margin-bottom: 50px;
   border-radius: 18px;
-  background: ${props =>
-    props.queen
-      ? `linear-gradient(to right, ${Yellow}, ${Red})`
-      : props.runnerUp
-      ? `linear-gradient(to right, ${LightBlue}, ${Pink})`
-      : `linear-gradient(to right, ${Orange}, ${Pink})`};
-  color: ${Black};
-  font-size: ${XLarge};
-`;
-
-const RankIdol = styled.div`
-  position: absolute;
-  left: calc(-18vw - 15px);
-  bottom: 5px;
-  ${center}
-  width: 18vw;
-  height: 50px;
-  border-radius: 0px 0px 12px 12px;
   background: ${props =>
     props.queen
       ? `linear-gradient(to right, ${Yellow}, ${Red})`
@@ -354,10 +376,19 @@ function Idol() {
       <Container>
         <ProfileContainer>
           <InformationContainer>
-            <AvatarIdol
-              src={get(data, "avatar", "")}
-              onClick={() => handleModalPicture(get(data, "avatar", ""))}
-            />
+            <AvatarContainer>
+              {checkBestIdol(data.idIdol) && <BadgeIdol>☿</BadgeIdol>}
+              <AvatarIdol
+                src={get(data, "avatar", "")}
+                onClick={() => handleModalPicture(get(data, "avatar", ""))}
+              />
+              <RankIdol
+                queen={get(data, "rank", "") === 1}
+                runnerUp={get(data, "rank", "") === 2}
+              >
+                #{get(data, "rank", 0)}
+              </RankIdol>
+            </AvatarContainer>
             <Information>
               <NameIdol
                 queen={get(data, "rank", "") === 1}
@@ -372,12 +403,6 @@ function Idol() {
               >
                 {get(data, "points", 0)} points
               </PointsIdol>
-              <RankIdol
-                queen={get(data, "rank", "") === 1}
-                runnerUp={get(data, "rank", "") === 2}
-              >
-                #{get(data, "rank", 0)}
-              </RankIdol>
               ● Born: {get(data, "born", "")} ({get(data, "age", "")} year olds)
               <br />● Height: {get(data, "height", "")}
               <br />● Breast: {get(data, "breast", "")}{" "}

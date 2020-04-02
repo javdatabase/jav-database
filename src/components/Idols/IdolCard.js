@@ -2,13 +2,22 @@ import React, { memo } from "react";
 import { get } from "lodash";
 import styled from "styled-components";
 
-import { getIdolRank } from "../../services/common.service";
+import { getIdolRank, checkBestIdol } from "../../services/common.service";
 import IdolAvatar from "./IdolAvatar";
 import IdolTag from "./IdolTag";
 
-import { Yellow, Pink, LightBlue, Orange, Red } from "../../themes/colors";
+import {
+  Yellow,
+  Pink,
+  LightBlue,
+  Orange,
+  Red,
+  White,
+  LightPurple,
+  DarkPurple
+} from "../../themes/colors";
 import { center } from "../../themes/styled";
-import { Large } from "../../themes/font";
+import { Large, XLarge } from "../../themes/font";
 
 const Container = styled.div`
   ${center}
@@ -22,6 +31,27 @@ const Container = styled.div`
   &:hover {
     transform: translateY(-40px);
   }
+`;
+
+const AvatarContainer = styled.div`
+  position: relative;
+  width: 16vw;
+  height: 22vw;
+  border-radius: 18px;
+  overflow: hidden;
+`;
+
+const BadgeIdol = styled.div`
+  position: absolute;
+  top: -5px;
+  left: -35px;
+  ${center}
+  width: 100px;
+  height: 40px;
+  background: linear-gradient(to right, ${LightPurple}, ${DarkPurple});
+  transform: rotate(135deg);
+  font-size: ${XLarge};
+  color: ${White};
 `;
 
 const AvatarIdol = styled(IdolAvatar)`
@@ -45,7 +75,10 @@ const TagIdol = styled(IdolTag)`
 function IdolCard({ data, click }) {
   return (
     <Container onClick={click}>
-      <AvatarIdol src={get(data, "avatar", "")} />
+      <AvatarContainer>
+        {checkBestIdol(get(data, "idIdol", "")) && <BadgeIdol>☿</BadgeIdol>}
+        <AvatarIdol src={get(data, "avatar", "")} />
+      </AvatarContainer>
       <TagIdol
         queen={getIdolRank(get(data, "idIdol", "")) === 1}
         runnerUp={getIdolRank(get(data, "idIdol", "")) === 2}

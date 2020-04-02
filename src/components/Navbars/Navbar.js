@@ -18,9 +18,16 @@ import AlbumIcon from "../../assets/images/ic_album/ic_album.svg";
 import ClipboardIcon from "../../assets/images/ic_clipboard/ic_clipboard.svg";
 import NextIcon from "../../assets/images/ic_next/ic_next.svg";
 
-import { Black, Pink, Orange, White } from "../../themes/colors";
+import {
+  Black,
+  Pink,
+  Orange,
+  White,
+  LightPurple,
+  DarkPurple
+} from "../../themes/colors";
 import { center } from "../../themes/styled";
-import { XLarge } from "../../themes/font";
+import { Large, XLarge } from "../../themes/font";
 
 const Container = styled.div`
   width: 300px;
@@ -42,7 +49,7 @@ const LogoContainer = styled.div`
   ${center}
   flex-direction: column;
   cursor: pointer;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 `;
 
 const ImageLogo = styled.img`
@@ -54,6 +61,34 @@ const CompanyName = styled.div`
   font-size: ${XLarge};
   margin-top: 20px
   color: ${White};
+`;
+
+const ButtonContainer = styled.div`
+  width: 100%;
+  height: 50px;
+  position: relative;
+  margin-bottom: 20px;
+`;
+
+const Button = styled(Link)`
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(to right, ${LightPurple}, ${DarkPurple});
+  padding: 10px 30px;
+  border-radius: 6px;
+  box-shadow: none;
+  white-space: nowrap;
+  color: ${White};
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    top: 35%;
+    box-shadow: 0px 15px 10px -10px ${Black};
+  }
 `;
 
 const Navigate = styled(Link)`
@@ -139,6 +174,12 @@ function Navbar({ show, toggleMenu }) {
           <ImageLogo src={DvdsIcon} alt={""} />
           <CompanyName>JAV Database Official</CompanyName>
         </LogoContainer>
+        <ButtonContainer>
+          <Button to={"/best-idols"} onClick={toggleMenu}>
+            <span style={{ fontSize: Large }}>☿</span> Best Idols{" "}
+            <span style={{ fontSize: Large }}>☿</span>
+          </Button>
+        </ButtonContainer>
         {navigate.map((item, index) => (
           <Navigate
             key={item.path}

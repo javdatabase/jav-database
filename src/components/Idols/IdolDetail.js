@@ -3,7 +3,7 @@ import { get } from "lodash";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
-import { getIdolRank } from "../../services/common.service";
+import { getIdolRank, checkBestIdol } from "../../services/common.service";
 import Backdrop from "../UI/Backdrop/Backdrop";
 import IdolAvatar from "./IdolAvatar";
 import IdolCup from "./IdolCup";
@@ -16,10 +16,12 @@ import {
   White,
   Yellow,
   LightBlue,
-  Red
+  Red,
+  DarkPurple,
+  LightPurple
 } from "../../themes/colors";
 import { center, fadeIn } from "../../themes/styled";
-import { Large, XXLarge } from "../../themes/font";
+import { Large, XLarge, XXLarge } from "../../themes/font";
 
 const Container = styled.div`
   position: fixed;
@@ -44,6 +46,21 @@ const AvatarContainer = styled.div`
   position: relative;
   width: 16vw;
   height: 22vw;
+  border-radius: 18px;
+  overflow: hidden;
+`;
+
+const BadgeIdol = styled.div`
+  position: absolute;
+  top: -5px;
+  left: -35px;
+  ${center}
+  width: 100px;
+  height: 40px;
+  background: linear-gradient(to right, ${LightPurple}, ${DarkPurple});
+  transform: rotate(135deg);
+  font-size: ${XLarge};
+  color: ${White};
 `;
 
 const AvatarIdol = styled(IdolAvatar)`
@@ -120,6 +137,7 @@ function IdolDetail({ show, toggleModal, data }) {
         show={show}
       >
         <AvatarContainer>
+          {checkBestIdol(get(data, "idIdol", "")) && <BadgeIdol>☿</BadgeIdol>}
           <AvatarIdol src={get(data, "avatar", null)} />
           <ViewProfile
             to={`/idol/${get(data, "idIdol", "")}`}

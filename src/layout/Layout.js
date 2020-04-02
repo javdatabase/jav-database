@@ -3,6 +3,7 @@ import { matchPath, useLocation } from "react-router-dom";
 import styled from "styled-components";
 
 import { getIdolName } from "../services/common.service";
+import { BEST_IDOL_IDS } from "../services/idols.service";
 import Navbar from "../components/Navbars/Navbar";
 import Header from "../components/Headers/Header";
 import Routes from "../routes/Routes";
@@ -30,6 +31,8 @@ function Layout() {
     const path = location.pathname;
     if (matchPath(path, { path: "/home", exact: true })) {
       return "Home";
+    } else if (matchPath(path, { path: "/best-idols", exact: true })) {
+      return `${BEST_IDOL_IDS.length} Best Idols`;
     } else if (matchPath(path, { path: "/ranking", exact: true })) {
       return "Ranking";
     } else if (matchPath(path, { path: "/idols", exact: true })) {

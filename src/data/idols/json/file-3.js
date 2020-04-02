@@ -2019,7 +2019,7 @@ const File3 = [
   {
     idIdol: "jai156",
     avatar: seina_aono.seira_aono_1,
-    name: "Seina Aono",
+    name: "Seira Aono",
     other: "",
     born: "23/01/1982",
     height: "160 cm",

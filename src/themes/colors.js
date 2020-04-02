@@ -7,5 +7,19 @@ const DarkBlue = "#2193b0";
 const LightBlue = "#6dd5ed";
 const Yellow = "#f7ff00";
 const Red = "#f12711";
+const LightPurple = "#DA22FF";
+const DarkPurple = "#9733EE";
 
-export { Pink, Orange, Black, White, Grey, DarkBlue, LightBlue, Yellow, Red };
+export {
+  Pink,
+  Orange,
+  Black,
+  White,
+  Grey,
+  DarkBlue,
+  LightBlue,
+  Yellow,
+  Red,
+  LightPurple,
+  DarkPurple
+};

@@ -3,7 +3,7 @@ import { get, omit, random } from "lodash";
 import Idols from "../data/idols";
 import MainDvds from "../data/dvds/main";
 
-import { ALL_IDOLS_DETAIL } from "./idols.service";
+import { ALL_IDOLS_DETAIL, BEST_IDOL_IDS } from "./idols.service";
 import { SIZE_MAIN_DVDS } from "./dvds.service";
 
 function getIdolDetail(id) {
@@ -19,6 +19,11 @@ function getIdolName(id) {
 function getIdolRank(id) {
   const detail = ALL_IDOLS_DETAIL.find(idol => idol.idIdol === id);
   return get(detail, "rank", "");
+}
+
+function checkBestIdol(id) {
+  const response = BEST_IDOL_IDS.includes(id);
+  return response;
 }
 
 function getAllIdolsDetail() {
@@ -88,6 +93,7 @@ export {
   getIdolDetail,
   getIdolName,
   getIdolRank,
+  checkBestIdol,
   getAllIdolsDetail,
   sortIdols,
   getDvdsByIdol,

@@ -54,6 +54,8 @@ function NotFound() {
 
 const Home = lazy(() => import("../containers/Home/Home"));
 
+const BestIdols = lazy(() => import("../containers/Idols/BestIdols"));
+
 const Ranking = lazy(() => import("../containers/Idols/Ranking"));
 
 const Idols = lazy(() => import("../containers/Idols/Idols"));
@@ -74,6 +76,7 @@ function Routes() {
       <Switch>
         {location.pathname === "/" && <Redirect to={"/home"} />}
         <Route path={"/home"} exact={true} component={Home} />
+        <Route path={"/best-idols"} exact={true} component={BestIdols} />
         <Route path={"/ranking"} exact={true} component={Ranking} />
         <Route path={"/idols"} exact={true} component={Idols} />
         <Route path={"/idol/:id"} exact={false} component={Idol} />
