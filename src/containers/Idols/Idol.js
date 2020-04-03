@@ -8,7 +8,7 @@ import { priceCurrency } from "../../helpers/render-price";
 import { checkBestIdol } from "../../services/common.service";
 import {
   getEarningIdol,
-  getPriceOneNight
+  getPriceOneNight,
 } from "../../services/earnings.service";
 import { IDOL_PROFILE } from "../../services/idols.service";
 import Tabs from "../../components/UI/Tabs/Tabs";
@@ -29,7 +29,7 @@ import {
   Red,
   Black,
   LightPurple,
-  DarkPurple
+  DarkPurple,
 } from "../../themes/colors";
 import { center, fadeIn } from "../../themes/styled";
 import { Large, XLarge, XXLarge } from "../../themes/font";
@@ -70,6 +70,7 @@ const InformationContainer = styled.div`
 
 const AvatarContainer = styled.div`
   position: relative;
+  ${center}
   width: 18vw;
   height: 25vw;
   border-radius: 18px;
@@ -98,10 +99,7 @@ const BadgeIdol = styled.div`
 const AvatarIdol = styled(IdolAvatar)`
   width: 18vw;
   height: 25vw;
-  border-radius: 18px;
-  box-sizing: content-box;
   object-fit: cover;
-  cursor: pointer;
 `;
 
 const RankIdol = styled.div`
@@ -111,7 +109,7 @@ const RankIdol = styled.div`
   width: 18vw;
   height: 50px;
   border-radius: 0px 0px 12px 12px;
-  background: ${props =>
+  background: ${(props) =>
     props.queen
       ? `linear-gradient(to right, ${Yellow}, ${Red})`
       : props.runnerUp
@@ -130,7 +128,7 @@ const Information = styled.div`
 
 const NameIdol = styled.div`
   font-size: ${XXLarge};
-  background: ${props =>
+  background: ${(props) =>
     props.queen
       ? `linear-gradient(to right, ${Yellow}, ${Red})`
       : props.runnerUp
@@ -146,7 +144,7 @@ const PointsIdol = styled.div`
   margin-top: 10px;
   margin-bottom: 50px;
   border-radius: 18px;
-  background: ${props =>
+  background: ${(props) =>
     props.queen
       ? `linear-gradient(to right, ${Yellow}, ${Red})`
       : props.runnerUp
@@ -212,7 +210,7 @@ const PosterDvd = styled(DvdPoster)`
 const CodeDvd = styled.div`
   margin-top: 5px;
   font-size: ${Large};
-  background: ${props =>
+  background: ${(props) =>
     props.uncensored
       ? `linear-gradient(to right, ${DarkBlue}, ${LightBlue})`
       : `linear-gradient(to right, ${Pink}, ${Orange})`};
@@ -225,16 +223,23 @@ const PictureContainer = styled(DvdContainer)`
   gap: 20px;
 `;
 
-const Picture = styled(IdolAvatar)`
+const PictureBorder = styled.div`
+  ${center}
   width: 18vw;
-  border: solid 5px transparent;
+  padding: 0px;
   border-radius: 12px;
+  border: solid 5px transparent;
+  overflow: hidden;
   cursor: pointer;
   transition: border 0.3s ease-in-out;
 
   &:hover {
     border: solid 5px ${Pink};
   }
+`;
+
+const Picture = styled(IdolAvatar)`
+  width: 18vw;
 `;
 
 const PriceIdol = styled.div`
@@ -262,13 +267,13 @@ function Idol() {
 
   const listImages = useMemo(() => {
     return [get(data, "avatar", "")].concat(
-      get(data, "album", []).map(item => item.picture)
+      get(data, "album", []).map((item) => item.picture)
     );
   }, [data]);
 
   const earnings = useMemo(() => {
     const uncensored = get(data, "dvds", []).filter(
-      item => item.type === "Uncensored"
+      (item) => item.type === "Uncensored"
     );
     return getEarningIdol(
       get(data, "rank", 1000000),
@@ -285,11 +290,11 @@ function Idol() {
   const tabs = useMemo(() => {
     return [
       `Pictures (${get(data, "album.length", 0)})`,
-      `Dvds (${get(data, "dvds.length", 0)})`
+      `Dvds (${get(data, "dvds.length", 0)})`,
     ];
   }, [data]);
 
-  const handleChangeTab = useCallback(value => {
+  const handleChangeTab = useCallback((value) => {
     setTab(value);
   }, []);
 
@@ -298,7 +303,7 @@ function Idol() {
   }, [showDvd]);
 
   const handleChangeDvd = useCallback(
-    value => {
+    (value) => {
       if (value) {
         setDvd(value);
       } else {
@@ -313,12 +318,12 @@ function Idol() {
     setShowPicture(!showPicture);
   }, [showPicture]);
 
-  const handleChangePicture = useCallback(value => {
+  const handleChangePicture = useCallback((value) => {
     setPicture(value);
   }, []);
 
   const handleModalPicture = useCallback(
-    value => {
+    (value) => {
       if (value) {
         setPicture(value);
       } else {
@@ -334,13 +339,15 @@ function Idol() {
       case 0:
         return (
           <PictureContainer>
-            {get(data, "album", []).map(item => (
-              <Picture
-                key={item.picture}
-                src={item.picture}
-                onClick={() => handleModalPicture(item.picture)}
-                alt={""}
-              />
+            {get(data, "album", []).map((item) => (
+              <PictureBorder>
+                <Picture
+                  key={item.picture}
+                  src={item.picture}
+                  onClick={() => handleModalPicture(item.picture)}
+                  alt={""}
+                />
+              </PictureBorder>
             ))}
           </PictureContainer>
         );
@@ -348,7 +355,7 @@ function Idol() {
       case 1:
         return (
           <DvdContainer>
-            {get(data, "dvds", []).map(item => (
+            {get(data, "dvds", []).map((item) => (
               <LazyLoad
                 key={item.idDvd}
                 height={200}
@@ -414,7 +421,7 @@ function Idol() {
             </Information>
           </InformationContainer>
           <StylesIdolContainer>
-            {get(data, "styles", []).map(item => (
+            {get(data, "styles", []).map((item) => (
               <IdolStyle
                 key={item.tag}
                 tag={item.tag}

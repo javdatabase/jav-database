@@ -19,11 +19,11 @@ const Container = styled.div`
   height: calc(19.25vw + 40px);
 `;
 
-const AvatarWrapper = styled.div`
+const AvatarContainer = styled.div`
   ${center}
   width: calc(14vw + 6px);
   height: calc(19.25vw + 6px);
-  background: ${props =>
+  background: ${(props) =>
     props.active
       ? props.queen
         ? `linear-gradient(to right, ${Yellow}, ${Red})`
@@ -44,7 +44,7 @@ const AvatarIdol = styled(IdolAvatar)`
 const CodeDvd = styled.div`
   margin-top: 10px;
   font-size: ${Large};
-  background: ${props =>
+  background: ${(props) =>
     props.queen
       ? `linear-gradient(to right, ${Yellow}, ${Red})`
       : props.runnerUp
@@ -57,13 +57,13 @@ const CodeDvd = styled.div`
 function BestIdolCard({ data, active }) {
   return (
     <Container>
-      <AvatarWrapper
+      <AvatarContainer
         active={active}
         queen={getIdolRank(get(data, "idIdol", "")) === 1}
         runnerUp={getIdolRank(get(data, "idIdol", "")) === 2}
       >
         <AvatarIdol src={data.avatar} />
-      </AvatarWrapper>
+      </AvatarContainer>
       <CodeDvd
         queen={getIdolRank(get(data, "idIdol", "")) === 1}
         runnerUp={getIdolRank(get(data, "idIdol", "")) === 2}

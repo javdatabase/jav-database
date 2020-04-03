@@ -13,7 +13,7 @@ import {
   DarkBlue,
   LightBlue,
   Yellow,
-  Red
+  Red,
 } from "../../themes/colors";
 import { center, fadeIn } from "../../themes/styled";
 import { Regular, XLarge } from "../../themes/font";
@@ -23,11 +23,11 @@ const Container = styled.div`
   animation: ${fadeIn} 1s linear;
 `;
 
-const PosterDvdWrapper = styled.div`
+const PosterDvdContainer = styled.div`
   ${center}
   width: calc(30vw + 6px);
   height: calc(20vw + 6px);
-  background: ${props =>
+  background: ${(props) =>
     props.uncensored
       ? `linear-gradient(to right, ${DarkBlue}, ${LightBlue})`
       : `linear-gradient(to right, ${Pink}, ${Orange})`};
@@ -50,7 +50,7 @@ const DetailContainer = styled.div`
 
 const CodeDvd = styled.span`
   font-size: ${XLarge};
-  background: ${props =>
+  background: ${(props) =>
     props.uncensored
       ? ` linear-gradient(to right, ${DarkBlue}, ${LightBlue})`
       : ` linear-gradient(to right, ${Pink}, ${Orange})`};
@@ -70,7 +70,7 @@ const IdolsContainer = styled.div`
 
 const TagIdol = styled(IdolTag)`
   cursor: pointer;
-  background: ${props =>
+  background: ${(props) =>
     props.queen
       ? `linear-gradient(to right, ${Yellow}, ${Red})`
       : props.runnerUp
@@ -87,7 +87,7 @@ function NewDvdReleaseDetail({ data, active }) {
   }, [show]);
 
   const handleChangeIdol = useCallback(
-    value => {
+    (value) => {
       if (value) {
         setIdol(value);
       } else {
@@ -102,9 +102,9 @@ function NewDvdReleaseDetail({ data, active }) {
     <Fragment>
       {active && (
         <Container>
-          <PosterDvdWrapper uncensored={data.type === "Uncensored"}>
+          <PosterDvdContainer uncensored={data.type === "Uncensored"}>
             <PosterDvd src={data.poster} />
-          </PosterDvdWrapper>
+          </PosterDvdContainer>
           <DetailContainer>
             <div>
               <CodeDvd uncensored={data.type === "Uncensored"}>
@@ -113,7 +113,7 @@ function NewDvdReleaseDetail({ data, active }) {
             </div>
             <Title>{data.title}</Title>
             <IdolsContainer>
-              {data.idols.map(item => (
+              {data.idols.map((item) => (
                 <TagIdol
                   key={item.idIdol}
                   queen={getIdolRank(item.idIdol) === 1}
