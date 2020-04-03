@@ -279,7 +279,8 @@ function Idol() {
       get(data, "rank", 1000000),
       get(data, "points", 0),
       get(data, "styles", []),
-      uncensored.length
+      uncensored.length,
+      checkBestIdol(get(data, "idIdol", ""))
     );
   }, [data]);
 

@@ -1,4 +1,4 @@
-function getEarningIdol(rank, points, styles, uncensored) {
+function getEarningIdol(rank, points, styles, uncensored, best) {
   const rankEarnings = Math.ceil(1000000 / rank);
 
   let pointEarnings = 1000 * points;
@@ -23,22 +23,34 @@ function getEarningIdol(rank, points, styles, uncensored) {
   }
 
   let styleEarning = 100000;
-  if (styles.find(item => item.tag === "Retired")) {
+  if (styles.find((item) => item.tag === "Retired")) {
     styleEarning = 50000;
   }
-  if (styles.find(item => item.tag === "6 Stars JAV")) {
+  if (styles.find((item) => item.tag === "6 Stars JAV")) {
     styleEarning = styleEarning + 100000;
   }
-  if (styles.find(item => item.tag === "Killer Tits")) {
+  if (styles.find((item) => item.tag === "Killer Tits")) {
     styleEarning = styleEarning + 50000;
   }
-  if (styles.find(item => item.tag === "Beautiful Breasts")) {
+  if (styles.find((item) => item.tag === "Beautiful Breasts")) {
     styleEarning = styleEarning + 50000;
   }
 
   const uncensoredEarnings = 5000 * uncensored;
 
-  return rankEarnings + pointEarnings + styleEarning + uncensoredEarnings;
+  let bestEarnings = 0;
+
+  if (best) {
+    bestEarnings = 1000000;
+  }
+
+  return (
+    rankEarnings +
+    pointEarnings +
+    styleEarning +
+    uncensoredEarnings +
+    bestEarnings
+  );
 }
 
 function getPriceOneNight(earnings) {

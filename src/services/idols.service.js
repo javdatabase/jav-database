@@ -17,12 +17,12 @@ const ALL_IDOLS_BY_PAGE = (page, pageSize) => {
   return [...response].reverse();
 };
 
-const IDOL_PROFILE = id => {
-  let idol = ALL_IDOLS_DETAIL.find(item => item.idIdol === id);
+const IDOL_PROFILE = (id) => {
+  let idol = ALL_IDOLS_DETAIL.find((item) => item.idIdol === id);
   if (idol) {
     idol = {
       ...idol,
-      dvds: sortDvds(idol.dvds)
+      dvds: sortDvds(idol.dvds),
     };
   }
   return idol;
@@ -35,12 +35,8 @@ const BEST_IDOL_IDS = [
   "jai004",
   "jai006",
   "jai008",
-  "jai009",
-  "jai010",
-  "jai012",
   "jai015",
   "jai016",
-  "jai018",
   "jai020",
   "jai021",
   "jai024",
@@ -53,8 +49,6 @@ const BEST_IDOL_IDS = [
   "jai040",
   "jai041",
   "jai042",
-  "jai043",
-  "jai044",
   "jai045",
   "jai049",
   "jai051",
@@ -65,30 +59,23 @@ const BEST_IDOL_IDS = [
   "jai061",
   "jai062",
   "jai063",
-  "jai065",
   "jai066",
-  "jai067",
   "jai068",
   "jai069",
   "jai070",
   "jai071",
-  "jai073",
   "jai074",
-  "jai075",
   "jai076",
   "jai077",
   "jai078",
-  "jai079",
   "jai081",
   "jai084",
   "jai085",
   "jai087",
   "jai091",
   "jai098",
-  "jai100",
   "jai102",
   "jai103",
-  "jai104",
   "jai106",
   "jai108",
   "jai109",
@@ -100,17 +87,16 @@ const BEST_IDOL_IDS = [
   "jai120",
   "jai121",
   "jai124",
-  "jai125",
   "jai127",
   "jai132",
   "jai133",
   "jai141",
   "jai151",
   "jai155",
-  "jai156"
+  "jai156",
 ];
 
-const BEST_IDOLS = getAllIdolsDetail().filter(item =>
+const BEST_IDOLS = getAllIdolsDetail().filter((item) =>
   BEST_IDOL_IDS.includes(item.idIdol)
 );
 
@@ -120,5 +106,5 @@ export {
   ALL_IDOLS_DETAIL,
   IDOL_PROFILE,
   BEST_IDOL_IDS,
-  BEST_IDOLS
+  BEST_IDOLS,
 };
