@@ -4,7 +4,7 @@ import LazyLoad from "react-lazyload";
 
 import {
   ALL_DVDS_PRE_RELEASE_DETAIL_BY_PAGE,
-  SIZE_PRE_RELEASE_DVDS
+  SIZE_PRE_RELEASE_DVDS,
 } from "../../services/dvds.service";
 import Pagination from "../../components/UI/Pagination/Pagination";
 import DvdCard from "../../components/Dvds/DvdCard";
@@ -64,11 +64,11 @@ function PreReleaseDvds() {
   const [show, setShow] = useState(false);
   const [data, setData] = useState(null);
 
-  const dvds = useMemo(() => ALL_DVDS_PRE_RELEASE_DETAIL_BY_PAGE(page, 30), [
-    page
-  ]);
+  const dvds = useMemo(() => {
+    return ALL_DVDS_PRE_RELEASE_DETAIL_BY_PAGE(page, 30);
+  }, [page]);
 
-  const handleChangePage = useCallback(page => {
+  const handleChangePage = useCallback((page) => {
     setPage(page);
   }, []);
 
@@ -77,7 +77,7 @@ function PreReleaseDvds() {
   }, [show]);
 
   const handleChangeData = useCallback(
-    value => {
+    (value) => {
       if (value) {
         setData(value);
       } else {
@@ -95,7 +95,7 @@ function PreReleaseDvds() {
           <NotFound>Not Found</NotFound>
         ) : (
           <DvdContainer>
-            {dvds.map(item => (
+            {dvds.map((item) => (
               <LazyLoad
                 key={item.idDvd}
                 height={200}

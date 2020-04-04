@@ -48,8 +48,8 @@ const ALL_DVDS_RELEASE_DETAIL_BY_PAGE = (page, pageSize) => {
 const ALL_DVDS_PRE_RELEASE_DETAIL_BY_PAGE = (page, pageSize) => {
   const temp = PreReleaseDvds.filter((item, index) => {
     return (
-      index < SIZE_MAIN_DVDS - (page - 1) * pageSize &&
-      index > SIZE_MAIN_DVDS - 1 - page * pageSize
+      index < SIZE_PRE_RELEASE_DVDS - (page - 1) * pageSize &&
+      index > SIZE_PRE_RELEASE_DVDS - 1 - page * pageSize
     );
   });
   const response = [...temp].reverse().map(dvd => ({

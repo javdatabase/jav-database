@@ -7,9 +7,11 @@ import {
   RESULT_CHECK_ALREADY_EXIST_POSTER,
   RESULT_CHECK_POSTER_FALSY,
   RESULT_CHECK_ALREADY_EXIST_IDOLS,
-  RESULT_CHECK_ALREADY_EXIST_ID_IDOLS
+  RESULT_CHECK_ALREADY_EXIST_ID_IDOLS,
 } from "./utils/debug-data";
 import Layout from "./layout/Layout";
+
+import "./services/bootstrap.service";
 
 const CONFIG_BASE = "/jav-database";
 
