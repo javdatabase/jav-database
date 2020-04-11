@@ -64,17 +64,13 @@ const CompanyName = styled.div`
 `;
 
 const ButtonContainer = styled.div`
+  ${center}
   width: 100%;
-  height: 50px;
-  position: relative;
+  height: 60px;
   margin-bottom: 20px;
 `;
 
 const Button = styled(Link)`
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   background: linear-gradient(to right, ${LightPurple}, ${DarkPurple});
   padding: 10px 30px;
   border-radius: 6px;
@@ -86,7 +82,7 @@ const Button = styled(Link)`
   transition: all 0.3s ease-in-out;
 
   &:hover {
-    top: 35%;
+    transform: translateY(-5px);
     box-shadow: 0px 15px 10px -10px ${Black};
   }
 `;

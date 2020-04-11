@@ -1670,6 +1670,27 @@ const File33 = [
     type: `Censored`,
     idols: [{ idIdol: `jai057`, name: "Yumi Maeda" }],
   },
+  {
+    code: `ABP-968`,
+    title: `SUZUMORI REM NANAKADASHI 35 IMPREGNATES THE STRONGEST BEAUTIFUL GIRL WITH NO.1 IN TRANSPARENCY ! !`,
+    poster: `http://pics.dmm.co.jp/mono/movie/adult/118abp968/118abp968pl.jpg`,
+    type: `Censored`,
+    idols: [{ idIdol: "jai151", name: "Remu Suzumori" }],
+  },
+  {
+    code: `RCTD-323`,
+    title: `MUSCLE BEAUTY 3 MARY TACHIBANA`,
+    poster: `http://pics.dmm.co.jp/mono/movie/adult/1rctd323/1rctd323pl.jpg`,
+    type: `Censored`,
+    idols: [{ idIdol: "jai034", name: "Mary Tachibana" }],
+  },
+  {
+    code: `HZ-001`,
+    title: `NURSE NURSE SAPAN YOUR BODY IS ALSO A CRIME`,
+    poster: `http://pics.dmm.co.jp/mono/movie/adult/h_113hz001/h_113hz001pl.jpg`,
+    type: `Censored`,
+    idols: [{ idIdol: `jai054`, name: "Arisa Hanyu" }],
+  },
 ];
 
 export default File33;
