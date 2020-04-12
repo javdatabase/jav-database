@@ -1,3 +1,5 @@
+import ModelStyle from "./model-styles";
+
 function sizeCup(cup) {
   switch (cup) {
     case "A-Cup":
@@ -52,46 +54,46 @@ function sizeCup(cup) {
 
 function modelStyle(style) {
   switch (style) {
-    case "6 Stars JAV":
-      return "#ff0084";
-
-    case "Cute":
-      return "#11ffbd";
-
-    case "Beautiful Breasts":
-      return "#00c6ff";
-
-    case "Slender":
-      return "#036310";
-
-    case "Teens":
-      return "#0072ff";
-
-    case "Retired":
+    case ModelStyle[0]:
       return "#bdc3c7";
 
-    case "Killer Tits":
+    case ModelStyle[1]:
+      return "#ff0084";
+
+    case ModelStyle[2]:
+      return "#11ffbd";
+
+    case ModelStyle[3]:
+      return "#00c6ff";
+
+    case ModelStyle[4]:
+      return "#036310";
+
+    case ModelStyle[5]:
+      return "#0072ff";
+
+    case ModelStyle[6]:
       return "#f12711";
 
-    case "Small Tits":
+    case ModelStyle[7]:
       return "#ffa751";
 
-    case "Mixed-Race":
+    case ModelStyle[8]:
       return "#7f00ff";
 
-    case "Mature":
+    case ModelStyle[9]:
       return "#f4c4f3";
 
-    case "Former Gravure Model":
+    case ModelStyle[10]:
       return "#74ebd5";
 
-    case "Long Legs":
+    case ModelStyle[11]:
       return "#45b649";
 
-    case "Former TV Actress":
+    case ModelStyle[12]:
       return "#f953c6";
 
-    case "Former Race Queen":
+    case ModelStyle[13]:
       return "#ffff00";
 
     default:

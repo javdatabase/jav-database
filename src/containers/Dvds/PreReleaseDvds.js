@@ -36,7 +36,7 @@ const DvdContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(14vw, 1fr));
   gap: 10px;
-  padding: 50px 20px 30px;
+  padding: 30px 20px;
   box-sizing: border-box;
 `;
 

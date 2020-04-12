@@ -4618,6 +4618,11 @@ electron-to-chromium@^1.3.378:
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.380.tgz#1e1f07091b42b54bccd0ad6d3a14f2b73b60dc9d"
   integrity sha512-2jhQxJKcjcSpVOQm0NAfuLq8o+130blrcawoumdXT6411xG/xIAOyZodO/y7WTaYlz/NHe3sCCAe/cJLnDsqTw==
 
+element-resize-event@^3.0.3:
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/element-resize-event/-/element-resize-event-3.0.3.tgz#3f59facef6b8f23fbd678a5f364ee5723af98a2a"
+  integrity sha512-vhGNxT87PdZA6Ak4E0QhArwGzNcSPUwSN7n9wCFLeBlY2NNuuiwguQuQIp7P5oB65PLJ892yKcHiqz1xLWeiug==
+
 elliptic@^6.0.0:
   version "6.5.2"
   resolved "https://registry.yarnpkg.com/elliptic/-/elliptic-6.5.2.tgz#05c5678d7173c049d8ca433552224a495d0e3762"

@@ -26,8 +26,8 @@ const Tab = styled.div`
 const Bar = styled.div`
   position: absolute;
   bottom: -4px;
-  left: ${props => `calc(100% * ${props.active} / ${props.size})`};
-  width: calc(100% / ${props => props.size});
+  left: ${(props) => `calc(100% * ${props.active} / ${props.size})`};
+  width: calc(100% / ${(props) => props.size});
   height: 5px;
   background: linear-gradient(${Orange}, ${Pink});
   transition: left 0.3s ease-in-out;

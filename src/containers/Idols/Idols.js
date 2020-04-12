@@ -33,7 +33,7 @@ const IdolContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(15vw, 1fr));
   gap: 80px 40px;
-  padding: 100px 20px 30px;
+  padding: 80px 20px 30px;
   box-sizing: border-box;
 `;
 

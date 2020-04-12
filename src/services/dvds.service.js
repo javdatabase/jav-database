@@ -23,26 +23,45 @@ const NEW_DVDS_RELEASE = [
   MainDvds[SIZE_MAIN_DVDS - 12],
   MainDvds[SIZE_MAIN_DVDS - 13],
   MainDvds[SIZE_MAIN_DVDS - 14],
-  MainDvds[SIZE_MAIN_DVDS - 15]
+  MainDvds[SIZE_MAIN_DVDS - 15],
 ];
 
-const NEW_DVDS_RELEASE_DETAIL = NEW_DVDS_RELEASE.map(dvd => ({
+const NEW_DVDS_RELEASE_DETAIL = NEW_DVDS_RELEASE.map((dvd) => ({
   ...dvd,
-  idols: dvd.idols.map(idol => getIdolDetail(idol.idIdol))
+  idols: dvd.idols.map((idol) => getIdolDetail(idol.idIdol)),
 }));
 
-const ALL_DVDS_RELEASE_DETAIL_BY_PAGE = (page, pageSize) => {
-  const temp = MainDvds.filter((item, index) => {
+const ALL_DVDS_RELEASE_DETAIL_BY_PAGE = (code, type, idols, page, pageSize) => {
+  let temp = MainDvds;
+  if (code) {
+    temp = temp.filter((item) => item.code.includes(code));
+  }
+  if (type) {
+    temp = temp.filter((item) => item.type === type);
+  }
+  if (idols.length > 0) {
+    temp = temp.filter((item) => {
+      const result = item.idols.filter(
+        (idol) => !!idols.find((filter) => filter.value === idol.idIdol)
+      );
+      if (result.length < idols.length) {
+        return false;
+      } else {
+        return true;
+      }
+    });
+  }
+  const size = temp.length;
+  temp = temp.filter((item, index) => {
     return (
-      index < SIZE_MAIN_DVDS - (page - 1) * pageSize &&
-      index > SIZE_MAIN_DVDS - 1 - page * pageSize
+      index < size - (page - 1) * pageSize && index > size - 1 - page * pageSize
     );
   });
-  const response = [...temp].reverse().map(dvd => ({
+  const response = [...temp].reverse().map((dvd) => ({
     ...dvd,
-    idols: dvd.idols.map(idol => getIdolDetail(idol.idIdol))
+    idols: dvd.idols.map((idol) => getIdolDetail(idol.idIdol)),
   }));
-  return response;
+  return { data: response, size: size };
 };
 
 const ALL_DVDS_PRE_RELEASE_DETAIL_BY_PAGE = (page, pageSize) => {
@@ -52,9 +71,9 @@ const ALL_DVDS_PRE_RELEASE_DETAIL_BY_PAGE = (page, pageSize) => {
       index > SIZE_PRE_RELEASE_DVDS - 1 - page * pageSize
     );
   });
-  const response = [...temp].reverse().map(dvd => ({
+  const response = [...temp].reverse().map((dvd) => ({
     ...dvd,
-    idols: dvd.idols.map(idol => getIdolDetail(idol.idIdol))
+    idols: dvd.idols.map((idol) => getIdolDetail(idol.idIdol)),
   }));
   return response;
 };
@@ -78,5 +97,5 @@ export {
   NEW_DVDS_RELEASE_DETAIL,
   ALL_DVDS_RELEASE_DETAIL_BY_PAGE,
   ALL_DVDS_PRE_RELEASE_DETAIL_BY_PAGE,
-  ALL_DVDS_AMATEUR_BY_PAGE
+  ALL_DVDS_AMATEUR_BY_PAGE,
 };
