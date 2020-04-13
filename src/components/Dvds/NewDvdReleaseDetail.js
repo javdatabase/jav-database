@@ -52,8 +52,8 @@ const CodeDvd = styled.span`
   font-size: ${XLarge};
   background: ${(props) =>
     props.uncensored
-      ? ` linear-gradient(to right, ${DarkBlue}, ${LightBlue})`
-      : ` linear-gradient(to right, ${Pink}, ${Orange})`};
+      ? `linear-gradient(to right, ${DarkBlue}, ${LightBlue})`
+      : `linear-gradient(to right, ${Pink}, ${Orange})`};
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 `;

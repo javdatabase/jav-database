@@ -1,50 +1,51 @@
+import SizesCup from "./sizes-cup";
 import ModelStyle from "./model-styles";
 
 function sizeCup(cup) {
   switch (cup) {
-    case "A-Cup":
-      return "#bdc3c7";
-
-    case "B-Cup":
+    case SizesCup[0]:
       return "#2c3e50";
 
-    case "C-Cup":
+    case SizesCup[1]:
+      return "#bdc3c7";
+
+    case SizesCup[2]:
       return "#996600";
 
-    case "D-Cup":
+    case SizesCup[3]:
       return "#0066ff";
 
-    case "E-Cup":
+    case SizesCup[4]:
       return "#00ccff";
 
-    case "F-Cup":
+    case SizesCup[5]:
       return "#02661d";
 
-    case "G-Cup":
+    case SizesCup[6]:
       return "#17bf44";
 
-    case "H-Cup":
+    case SizesCup[7]:
       return "#ffff00";
 
-    case "I-Cup":
+    case SizesCup[8]:
       return "#f5af19";
 
-    case "J-Cup":
+    case SizesCup[9]:
       return "#6600ff";
 
-    case "K-Cup":
+    case SizesCup[10]:
       return "#ff00ff";
 
-    case "L-Cup":
+    case SizesCup[11]:
       return "#ff0066";
 
-    case "M-Cup":
+    case SizesCup[12]:
       return "#ff0000";
 
-    case "N-Cup":
+    case SizesCup[13]:
       return "#00ffcc";
 
-    case "O-Cup":
+    case SizesCup[14]:
       return "#0000ff";
 
     default:

@@ -1,20 +1,57 @@
+import * as _ from "lodash";
+
 import Idols from "../data/idols";
 
-import { getAllIdolsDetail, sortIdols, sortDvds } from "./common.service";
+import {
+  getAllIdolsDetail,
+  sortIdols,
+  sortDvds,
+  checkBestIdol,
+  checkUncensoredIdol
+} from "./common.service";
 
 const SIZE_IDOLS = Idols.length;
 
 const ALL_IDOLS_DETAIL = getAllIdolsDetail();
 
-const ALL_IDOLS_BY_PAGE = (page, pageSize) => {
-  const idols = sortIdols(Idols);
-  const response = idols.filter((item, index) => {
+const ALL_IDOLS_BY_PAGE = (name, cup, styles, best, uncensored, page, pageSize) => {
+  let temp = sortIdols(Idols);
+  if (name) {
+    temp = temp.filter((item) =>
+      _.toUpper(item.name + " " + item.other).includes(_.toUpper(name))
+    );
+  }
+  if (cup && cup.length > 0) {
+    temp = temp.filter(
+      (item) => !!cup.find((filter) => filter.value === item.cup)
+    );
+  }
+  if (styles && styles.length > 0) {
+    temp = temp.filter((item) => {
+      const result = item.styles.filter(
+        (style) => !!styles.find((filter) => filter.value === style.tag)
+      );
+      if (result.length < styles.length) {
+        return false;
+      } else {
+        return true;
+      }
+    });
+  }
+  if (best === true) {
+    temp = temp.filter((item) => checkBestIdol(item.idIdol));
+  }
+  if (uncensored === true) {
+    temp = temp.filter((item) => checkUncensoredIdol(item.idIdol));
+  }
+  const size = temp.length;
+  const response = temp.filter((item, index) => {
     return (
-      index < SIZE_IDOLS - (page - 1) * pageSize &&
-      index > SIZE_IDOLS - 1 - page * pageSize
+      index < size - (page - 1) * pageSize && index > size - 1 - page * pageSize
     );
   });
-  return [...response].reverse();
+  console.log(response);
+  return { data: [...response].reverse(), size: size };
 };
 
 const IDOL_PROFILE = (id) => {

@@ -7,17 +7,17 @@ import { ALL_IDOLS_DETAIL, BEST_IDOL_IDS } from "./idols.service";
 import { SIZE_MAIN_DVDS } from "./dvds.service";
 
 function getIdolDetail(id) {
-  const detail = Idols.find(idol => idol.idIdol === id);
+  const detail = Idols.find((idol) => idol.idIdol === id);
   return omit(detail, ["album"]);
 }
 
 function getIdolName(id) {
-  const detail = Idols.find(idol => idol.idIdol === id);
+  const detail = Idols.find((idol) => idol.idIdol === id);
   return get(detail, "name", "");
 }
 
 function getIdolRank(id) {
-  const detail = ALL_IDOLS_DETAIL.find(idol => idol.idIdol === id);
+  const detail = ALL_IDOLS_DETAIL.find((idol) => idol.idIdol === id);
   return get(detail, "rank", "");
 }
 
@@ -26,13 +26,27 @@ function checkBestIdol(id) {
   return response;
 }
 
+function checkUncensoredIdol(id) {
+  let response = false;
+  const { dvds } = getDvdsByIdol(id);
+  dvds.every((item) => {
+    if (item.type === "Uncensored") {
+      response = true;
+      return false;
+    } else {
+      return true;
+    }
+  });
+  return response;
+}
+
 function getAllIdolsDetail() {
-  const idols = Idols.map(item => {
+  const idols = Idols.map((item) => {
     const { dvds, size } = getDvdsByIdol(item.idIdol);
     return {
       ...item,
       dvds: dvds,
-      points: size
+      points: size,
     };
   });
   const response = [...idols]
@@ -53,12 +67,12 @@ function sortIdols(idols) {
 }
 
 function getDvdsByIdol(id) {
-  const dvds = MainDvds.filter(item =>
-    item.idols.find(idol => idol.idIdol === id)
+  const dvds = MainDvds.filter((item) =>
+    item.idols.find((idol) => idol.idIdol === id)
   );
   return {
     size: dvds.length,
-    dvds: dvds
+    dvds: dvds,
   };
 }
 
@@ -72,9 +86,9 @@ function getDvdsRandom() {
     return dvds;
   }
 
-  return randomDvds().map(dvd => ({
+  return randomDvds().map((dvd) => ({
     ...dvd,
-    idols: dvd.idols.map(idol => getIdolDetail(idol.idIdol))
+    idols: dvd.idols.map((idol) => getIdolDetail(idol.idIdol)),
   }));
 }
 
@@ -94,9 +108,10 @@ export {
   getIdolName,
   getIdolRank,
   checkBestIdol,
+  checkUncensoredIdol,
   getAllIdolsDetail,
   sortIdols,
   getDvdsByIdol,
   getDvdsRandom,
-  sortDvds
+  sortDvds,
 };

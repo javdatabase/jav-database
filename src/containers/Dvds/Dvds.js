@@ -10,6 +10,7 @@ import LazyLoad from "react-lazyload";
 import ElementResizeEvent from "element-resize-event";
 
 import ShortIdols from "../../helpers/short-idols";
+import { getIdolRank } from "../../services/common.service";
 import { ALL_DVDS_RELEASE_DETAIL_BY_PAGE } from "../../services/dvds.service";
 import Input from "../../components/UI/Input/Input";
 import Select from "../../components/UI/Select/Select";
@@ -17,7 +18,14 @@ import Pagination from "../../components/UI/Pagination/Pagination";
 import DvdCard from "../../components/Dvds/DvdCard";
 import DvdDetail from "../../components/Dvds/DvdDetail";
 
-import { Pink, Orange, White } from "../../themes/colors";
+import {
+  Pink,
+  Orange,
+  White,
+  Red,
+  Yellow,
+  LightBlue,
+} from "../../themes/colors";
 import { center, fadeIn } from "../../themes/styled";
 import { Regular } from "../../themes/font";
 
@@ -116,14 +124,17 @@ function Dvds() {
 
   const handleChangeCode = useCallback((value) => {
     setCode(value);
+    setPage(1);
   }, []);
 
   const handleChangeType = useCallback((value) => {
     setType(value);
+    setPage(1);
   }, []);
 
   const handleChangeIdols = useCallback((value) => {
     setIdols(value);
+    setPage(1);
   }, []);
 
   const handleChangePage = useCallback((page) => {
@@ -170,6 +181,12 @@ function Dvds() {
             options={ShortIdols.map((item) => ({
               label: item.name,
               value: item.idIdol,
+              colors:
+                getIdolRank(item.idIdol) === 1
+                  ? [Yellow, Red]
+                  : getIdolRank(item.idIdol) === 2
+                  ? [LightBlue, Pink]
+                  : [Pink, Orange],
             }))}
             placeholder={"Select idols..."}
             value={idols}
@@ -186,12 +203,7 @@ function Dvds() {
         ) : (
           <DvdContainer>
             {dvds.data.map((item) => (
-              <LazyLoad
-                key={item.idDvd}
-                height={200}
-                once={true}
-                overflow={true}
-              >
+              <LazyLoad key={item.idDvd} height={50} overflow={true}>
                 <DvdItem>
                   <DvdCard data={item} click={() => handleChangeData(item)} />
                 </DvdItem>

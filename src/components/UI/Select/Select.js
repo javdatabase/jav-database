@@ -32,7 +32,13 @@ const selectStyle = {
     color: Grey,
   }),
   singleValue: (styles) => ({ ...styles, fontSize: Large }),
-  multiValue: (styles) => ({ ...styles, fontSize: Large }),
+  multiValue: (styles, { data }) => ({
+    ...styles,
+    fontSize: Large,
+    background: data.colors
+      ? `linear-gradient(to right, ${data.colors[0]}, ${data.colors[1]})`
+      : data.color,
+  }),
 };
 
 function Selectable(props) {

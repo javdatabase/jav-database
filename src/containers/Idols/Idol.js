@@ -341,9 +341,8 @@ function Idol() {
         return (
           <PictureContainer>
             {get(data, "album", []).map((item) => (
-              <PictureBorder>
+              <PictureBorder key={item.picture}>
                 <Picture
-                  key={item.picture}
                   src={item.picture}
                   onClick={() => handleModalPicture(item.picture)}
                   alt={""}
