@@ -7,14 +7,23 @@ import {
   sortIdols,
   sortDvds,
   checkBestIdol,
-  checkUncensoredIdol
+  checkUncensoredIdol,
 } from "./common.service";
 
 const SIZE_IDOLS = Idols.length;
 
 const ALL_IDOLS_DETAIL = getAllIdolsDetail();
 
-const ALL_IDOLS_BY_PAGE = (name, cup, styles, best, uncensored, page, pageSize) => {
+const ALL_IDOLS_BY_PAGE = (
+  name,
+  cup,
+  styles,
+  best,
+  uncensored,
+  active,
+  page,
+  pageSize
+) => {
   let temp = sortIdols(Idols);
   if (name) {
     temp = temp.filter((item) =>
@@ -43,6 +52,11 @@ const ALL_IDOLS_BY_PAGE = (name, cup, styles, best, uncensored, page, pageSize) 
   }
   if (uncensored === true) {
     temp = temp.filter((item) => checkUncensoredIdol(item.idIdol));
+  }
+  if (active === true) {
+    temp = temp.filter(
+      (item) => !item.styles.find((style) => style.tag === "Retired")
+    );
   }
   const size = temp.length;
   const response = temp.filter((item, index) => {

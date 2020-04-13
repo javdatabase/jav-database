@@ -112,13 +112,23 @@ function Idols() {
   const [styles, setStyles] = useState([]);
   const [best, setBest] = useState(false);
   const [uncensored, setUncensored] = useState(false);
+  const [active, setActive] = useState(false);
   const [page, setPage] = useState(1);
   const [show, setShow] = useState(false);
   const [data, setData] = useState(null);
 
   const idols = useMemo(() => {
-    return ALL_IDOLS_BY_PAGE(name, cup, styles, best, uncensored, page, 20);
-  }, [name, cup, styles, best, uncensored, page]);
+    return ALL_IDOLS_BY_PAGE(
+      name,
+      cup,
+      styles,
+      best,
+      uncensored,
+      active,
+      page,
+      20
+    );
+  }, [name, cup, styles, best, uncensored, active, page]);
 
   const changeFilterHeight = useCallback(() => {
     const element = document.getElementById("filter-idols");
@@ -157,6 +167,11 @@ function Idols() {
     setUncensored(!uncensored);
     setPage(1);
   }, [uncensored]);
+
+  const handleChangeActive = useCallback(() => {
+    setActive(!active);
+    setPage(1);
+  }, [active]);
 
   const handleChangePage = useCallback((page) => {
     setPage(page);
@@ -223,6 +238,13 @@ function Idols() {
               value={uncensored}
               onChange={handleChangeUncensored}
               customColor={`linear-gradient(to right, ${DarkBlue}, ${LightBlue})`}
+            />
+          </CheckboxGroup>
+          <CheckboxGroup>
+            <Checkbox
+              label={"Active"}
+              value={active}
+              onChange={handleChangeActive}
             />
           </CheckboxGroup>
         </div>
