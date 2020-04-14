@@ -21,6 +21,12 @@ const ALL_IDOLS_BY_PAGE = (
   best,
   uncensored,
   active,
+  height,
+  breast,
+  hips,
+  normal,
+  censored,
+  inactive,
   page,
   pageSize
 ) => {
@@ -47,16 +53,40 @@ const ALL_IDOLS_BY_PAGE = (
       }
     });
   }
-  if (best === true) {
+  if (best === true && normal === false) {
     temp = temp.filter((item) => checkBestIdol(item.idIdol));
   }
-  if (uncensored === true) {
+  if (best === false && normal === true) {
+    temp = temp.filter((item) => !checkBestIdol(item.idIdol));
+  }
+  if (uncensored === true && censored === false) {
     temp = temp.filter((item) => checkUncensoredIdol(item.idIdol));
   }
-  if (active === true) {
+  if (uncensored === false && censored === true) {
+    temp = temp.filter((item) => !checkUncensoredIdol(item.idIdol));
+  }
+  if (active === true && inactive === false) {
     temp = temp.filter(
       (item) => !item.styles.find((style) => style.tag === "Retired")
     );
+  }
+  if (active === false && inactive === true) {
+    temp = temp.filter(
+      (item) => !!item.styles.find((style) => style.tag === "Retired")
+    );
+  }
+  if (height) {
+    temp = temp.filter(
+      (item) => Number(item.height.replace(" cm", "")) >= height
+    );
+  }
+  if (breast) {
+    temp = temp.filter(
+      (item) => Number(item.breast.replace(" cm", "")) >= breast
+    );
+  }
+  if (hips) {
+    temp = temp.filter((item) => Number(item.hips.replace(" cm", "")) >= hips);
   }
   const size = temp.length;
   const response = temp.filter((item, index) => {
@@ -64,7 +94,6 @@ const ALL_IDOLS_BY_PAGE = (
       index < size - (page - 1) * pageSize && index > size - 1 - page * pageSize
     );
   });
-  console.log(response);
   return { data: [...response].reverse(), size: size };
 };
 

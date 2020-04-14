@@ -28,18 +28,25 @@ import {
   LightPurple,
   DarkBlue,
   LightBlue,
+  Grey,
 } from "../../themes/colors";
 import { Regular } from "../../themes/font";
 import { center, fadeIn } from "../../themes/styled";
 
 const FilterIdolsContainer = styled.div`
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-bottom: solid 3px ${Pink};
+  box-sizing: border-box;
+`;
+
+const RowFilter = styled.div`
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
   min-height: 80px;
   padding: 20px;
-  border-bottom: solid 3px ${Pink};
   box-sizing: border-box;
 `;
 
@@ -49,12 +56,14 @@ const SelectCustom = styled(Select)`
 
 const CheckboxGroup = styled.div`
   display: flex;
-  align-items: center;
   margin-left: 30px;
 `;
 
 const Result = styled.div`
-  align-self: center;
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  transform: translateY(-50%);
   color: ${White};
   font-size: ${Regular};
 `;
@@ -106,13 +115,19 @@ const NotFound = styled.div`
 `;
 
 function Idols() {
-  const [filterHeight, setFilterHeight] = useState(80);
+  const [filterHeight, setFilterHeight] = useState(160);
   const [name, setName] = useState("");
   const [cup, setCup] = useState(null);
   const [styles, setStyles] = useState([]);
   const [best, setBest] = useState(false);
   const [uncensored, setUncensored] = useState(false);
   const [active, setActive] = useState(false);
+  const [height, setHeight] = useState("");
+  const [breast, setBreast] = useState("");
+  const [hips, setHips] = useState("");
+  const [normal, setNormal] = useState(false);
+  const [censored, setCensored] = useState(false);
+  const [inactive, setInactive] = useState(false);
   const [page, setPage] = useState(1);
   const [show, setShow] = useState(false);
   const [data, setData] = useState(null);
@@ -125,10 +140,30 @@ function Idols() {
       best,
       uncensored,
       active,
+      height,
+      breast,
+      hips,
+      normal,
+      censored,
+      inactive,
       page,
       20
     );
-  }, [name, cup, styles, best, uncensored, active, page]);
+  }, [
+    name,
+    cup,
+    styles,
+    best,
+    uncensored,
+    active,
+    height,
+    breast,
+    hips,
+    normal,
+    censored,
+    inactive,
+    page,
+  ]);
 
   const changeFilterHeight = useCallback(() => {
     const element = document.getElementById("filter-idols");
@@ -173,6 +208,36 @@ function Idols() {
     setPage(1);
   }, [active]);
 
+  const handleChangeHeight = useCallback((value) => {
+    setHeight(value);
+    setPage(1);
+  }, []);
+
+  const handleChangeBreast = useCallback((value) => {
+    setBreast(value);
+    setPage(1);
+  }, []);
+
+  const handleChangeHips = useCallback((value) => {
+    setHips(value);
+    setPage(1);
+  }, []);
+
+  const handleChangeNormal = useCallback(() => {
+    setNormal(!normal);
+    setPage(1);
+  }, [normal]);
+
+  const handleChangeCensored = useCallback(() => {
+    setCensored(!censored);
+    setPage(1);
+  }, [censored]);
+
+  const handleChangeInactive = useCallback(() => {
+    setInactive(!inactive);
+    setPage(1);
+  }, [inactive]);
+
   const handleChangePage = useCallback((page) => {
     setPage(page);
   }, []);
@@ -196,7 +261,7 @@ function Idols() {
   return (
     <Fragment>
       <FilterIdolsContainer id={"filter-idols"}>
-        <div style={{ display: "flex" }}>
+        <RowFilter>
           <Input
             placeholder={"Search name..."}
             value={name}
@@ -247,7 +312,51 @@ function Idols() {
               onChange={handleChangeActive}
             />
           </CheckboxGroup>
-        </div>
+        </RowFilter>
+        <RowFilter>
+          <Input
+            placeholder={"Search height..."}
+            type={"number"}
+            value={height}
+            onChange={(e) => handleChangeHeight(e.target.value)}
+          />
+          <Input
+            style={{ marginLeft: "30px" }}
+            placeholder={"Search breast..."}
+            type={"number"}
+            value={breast}
+            onChange={(e) => handleChangeBreast(e.target.value)}
+          />
+          <Input
+            style={{ marginLeft: "30px" }}
+            placeholder={"Search hips..."}
+            type={"number"}
+            value={hips}
+            onChange={(e) => handleChangeHips(e.target.value)}
+          />
+          <CheckboxGroup>
+            <Checkbox
+              label={"Normal"}
+              value={normal}
+              onChange={handleChangeNormal}
+            />
+          </CheckboxGroup>
+          <CheckboxGroup style={{ marginLeft: "44.5px" }}>
+            <Checkbox
+              label={"Censored"}
+              value={censored}
+              onChange={handleChangeCensored}
+            />
+          </CheckboxGroup>
+          <CheckboxGroup style={{ marginLeft: "44.5px" }}>
+            <Checkbox
+              label={"Inactive"}
+              value={inactive}
+              onChange={handleChangeInactive}
+              customColor={Grey}
+            />
+          </CheckboxGroup>
+        </RowFilter>
         <Result>
           ( {idols.size + ` ${idols.size > 1 ? "results" : "result"}`} )
         </Result>
