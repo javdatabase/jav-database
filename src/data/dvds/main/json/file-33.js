@@ -1754,6 +1754,41 @@ const File33 = [
     type: `Censored`,
     idols: [{ idIdol: "jai031", name: "Miyuki Sakura" }],
   },
+  {
+    code: `JUFE-103`,
+    title: `SOFT AND CUTE SCANDINAVIAN HALF BEAUTIFUL GIRL ! 19-YEAR-OLD FEMALE COLLEGE STUDENT AV DEBUT KURATA ANNA WHO WAS ADDICTED TO DADDY LIFE`,
+    poster: `http://pics.dmm.co.jp/mono/movie/adult/jufe103/jufe103pl.jpg`,
+    type: `Censored`,
+    idols: [{ idIdol: "jai159", name: "Anna Kurata" }],
+  },
+  {
+    code: `JUFE-115`,
+    title: `BIG CUM SHOT OF A SUPER SENSITIVE GIRL WHO ACCEPTS THE MASS SPERM OF AN ABSTINENT ACTOR FOR THE FIRST TIME IN HER LIFE ! ANNA KURATA`,
+    poster: `http://pics.dmm.co.jp/mono/movie/adult/jufe115/jufe115pl.jpg`,
+    type: `Censored`,
+    idols: [{ idIdol: "jai159", name: "Anna Kurata" }],
+  },
+  {
+    code: `JUFE-123`,
+    title: `AN EXQUISITE CUSTOM FULL COURSE THAT ANNA KURATA COMFORTABLY PULLS OUT WITH COSPLAY TOO EROTIC !`,
+    poster: `http://pics.dmm.co.jp/mono/movie/adult/jufe123/jufe123pl.jpg`,
+    type: `Censored`,
+    idols: [{ idIdol: "jai159", name: "Anna Kurata" }],
+  },
+  {
+    code: `JUFE-136`,
+    title: `YEAR-END HOMECOMING NTR NEW YEAR'S DAY 3`,
+    poster: `http://pics.dmm.co.jp/mono/movie/adult/jufe136/jufe136pl.jpg`,
+    type: `Censored`,
+    idols: [{ idIdol: "jai159", name: "Anna Kurata" }],
+  },
+  {
+    code: `MIAA-257`,
+    title: `FAIR-SKINNED PINK NIPPLE FEMALE COLLEGE STUDENT SCREAMS SHRIMP WARP CHI ● PO FELL ! " NOW I WILL MAKE THIS WOMAN SQUID AND LOSE CONTROL "`,
+    poster: `http://pics.dmm.co.jp/mono/movie/adult/miaa257/miaa257pl.jpg`,
+    type: `Censored`,
+    idols: [{ idIdol: "jai159", name: "Anna Kurata" }],
+  },
 ];
 
 export default File33;
