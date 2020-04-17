@@ -71,7 +71,7 @@ const Container = styled.div`
 
 const DvdContainer = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(14vw, 1fr));
+  grid-template-columns: repeat(6, minmax(14vw, 1fr));
   gap: 10px;
   padding: 30px 20px;
   box-sizing: border-box;
@@ -106,7 +106,34 @@ function Dvds() {
   const [data, setData] = useState(null);
 
   const dvds = useMemo(() => {
-    return ALL_DVDS_RELEASE_DETAIL_BY_PAGE(code, type, idols, page, 30);
+    const result = ALL_DVDS_RELEASE_DETAIL_BY_PAGE(code, type, idols, page, 30);
+    let dvdData = [];
+    result.data.forEach((item, index) => {
+      let found = dvdData.findIndex((data) => data.id.includes(item.idDvd));
+      if (found > -1) {
+        const newData = {
+          ...dvdData[found],
+          dvds: [...dvdData[found].dvds, item],
+        };
+        dvdData[found] = newData;
+      } else {
+        const newData = {
+          id: `${item.idDvd}${
+            result.data[index + 1] ? result.data[index + 1].idDvd : ""
+          }${result.data[index + 2] ? result.data[index + 2].idDvd : ""}${
+            result.data[index + 3] ? result.data[index + 3].idDvd : ""
+          }${result.data[index + 4] ? result.data[index + 4].idDvd : ""}${
+            result.data[index + 5] ? result.data[index + 5].idDvd : ""
+          }`,
+          dvds: [item],
+        };
+        dvdData.push(newData);
+      }
+    });
+    return {
+      size: result.size,
+      data: dvdData,
+    };
   }, [code, type, idols, page]);
 
   const changeFilterHeight = useCallback(() => {
@@ -204,14 +231,16 @@ function Dvds() {
           <DvdContainer>
             {dvds.data.map((item) => (
               <LazyLoad
-                key={item.idDvd}
-                height={300}
+                key={item.id}
+                height={"calc(10vw + 50px)"}
                 once={true}
                 overflow={true}
               >
-                <DvdItem>
-                  <DvdCard data={item} click={() => handleChangeData(item)} />
-                </DvdItem>
+                {item.dvds.map((dvd) => (
+                  <DvdItem key={dvd.idDvd}>
+                    <DvdCard data={dvd} click={() => handleChangeData(dvd)} />
+                  </DvdItem>
+                ))}
               </LazyLoad>
             ))}
           </DvdContainer>

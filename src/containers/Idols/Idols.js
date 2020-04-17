@@ -89,7 +89,7 @@ const Container = styled.div`
 
 const IdolContainer = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(15vw, 1fr));
+  grid-template-columns: repeat(5, minmax(15vw, 1fr));
   gap: 80px 40px;
   padding: 80px 20px 30px;
   box-sizing: border-box;
@@ -133,7 +133,7 @@ function Idols() {
   const [data, setData] = useState(null);
 
   const idols = useMemo(() => {
-    return ALL_IDOLS_BY_PAGE(
+    const result = ALL_IDOLS_BY_PAGE(
       name,
       cup,
       styles,
@@ -149,6 +149,31 @@ function Idols() {
       page,
       20
     );
+    let idolData = [];
+    result.data.forEach((item, index) => {
+      let found = idolData.findIndex((data) => data.id.includes(item.idIdol));
+      if (found > -1) {
+        const newData = {
+          ...idolData[found],
+          idols: [...idolData[found].idols, item],
+        };
+        idolData[found] = newData;
+      } else {
+        const newData = {
+          id: `${item.idIdol}${
+            result.data[index + 1] ? result.data[index + 1].idIdol : ""
+          }${result.data[index + 2] ? result.data[index + 2].idIdol : ""}${
+            result.data[index + 3] ? result.data[index + 3].idIdol : ""
+          }${result.data[index + 4] ? result.data[index + 4].idIdol : ""}`,
+          idols: [item],
+        };
+        idolData.push(newData);
+      }
+    });
+    return {
+      size: result.size,
+      data: idolData,
+    };
   }, [
     name,
     cup,
@@ -368,14 +393,19 @@ function Idols() {
           <IdolContainer>
             {idols.data.map((item) => (
               <LazyLoad
-                key={item.idIdol}
-                height={500}
+                key={item.id}
+                height={"calc(22vw + 50px)"}
                 once={true}
                 overflow={true}
               >
-                <IdolItem>
-                  <IdolCard data={item} click={() => handleChangeData(item)} />
-                </IdolItem>
+                {item.idols.map((idol) => (
+                  <IdolItem key={idol.idIdol}>
+                    <IdolCard
+                      data={idol}
+                      click={() => handleChangeData(idol)}
+                    />
+                  </IdolItem>
+                ))}
               </LazyLoad>
             ))}
           </IdolContainer>
