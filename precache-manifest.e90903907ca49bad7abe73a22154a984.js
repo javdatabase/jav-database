@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "84a3fdf4c3c866c05f15aecc2a3e2908",
+    "revision": "b56e0d343f5ef7c0f3f6b543721adcc7",
     "url": "/jav-database/index.html"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/jav-database/static/js/10.3e03ac3b.chunk.js"
   },
   {
-    "revision": "beb42c8bd681b768396b",
-    "url": "/jav-database/static/js/11.221b14ba.chunk.js"
+    "revision": "8484434c122534526716",
+    "url": "/jav-database/static/js/11.a41c99ff.chunk.js"
   },
   {
     "revision": "6e21ba96ec81fb801c75",
@@ -44,8 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/jav-database/static/js/7.470ec5ae.chunk.js"
   },
   {
-    "revision": "0e1d4c66d9e9368062ce",
-    "url": "/jav-database/static/js/8.c31825cd.chunk.js"
+    "revision": "93d7ae3b6cec027357da",
+    "url": "/jav-database/static/js/8.7b3e6c1f.chunk.js"
   },
   {
     "revision": "007d43bfefd819fde98a",
@@ -56,8 +56,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/jav-database/static/js/main.39537758.chunk.js"
   },
   {
-    "revision": "77fb513fa8f13501e3e3",
-    "url": "/jav-database/static/js/runtime-main.dc9ebf5b.js"
+    "revision": "01fd4a008227e22149b5",
+    "url": "/jav-database/static/js/runtime-main.65eac08f.js"
   },
   {
     "revision": "fb4cbe2013d8f7a6e6e3ae72b7baa6c7",
