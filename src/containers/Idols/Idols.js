@@ -369,7 +369,7 @@ function Idols() {
             {idols.data.map((item) => (
               <LazyLoad
                 key={item.idIdol}
-                height={100}
+                height={500}
                 once={true}
                 overflow={true}
               >

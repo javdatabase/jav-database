@@ -203,7 +203,12 @@ function Dvds() {
         ) : (
           <DvdContainer>
             {dvds.data.map((item) => (
-              <LazyLoad key={item.idDvd} height={50} overflow={true}>
+              <LazyLoad
+                key={item.idDvd}
+                height={300}
+                once={true}
+                overflow={true}
+              >
                 <DvdItem>
                   <DvdCard data={item} click={() => handleChangeData(item)} />
                 </DvdItem>
