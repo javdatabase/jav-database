@@ -1,6 +1,6 @@
 import React, { Fragment, useState, useMemo, useCallback } from "react";
 import styled from "styled-components";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 import { dvdPoints } from "../../helpers/render-color";
 import { getIdolRank, checkBestIdol } from "../../services/common.service";
@@ -20,7 +20,7 @@ import {
   Grey,
   Red,
   LightPurple,
-  DarkPurple
+  DarkPurple,
 } from "../../themes/colors";
 import { center } from "../../themes/styled";
 import { Regular, XLarge, XXLarge } from "../../themes/font";
@@ -32,7 +32,7 @@ const Container = styled.div`
   padding: 10px;
   margin: 20px 0px;
   box-sizing: border-box;
-  background: ${props =>
+  background: ${(props) =>
     props.queen
       ? `linear-gradient(to right, ${Yellow}, ${Red})`
       : props.runnerUp
@@ -64,7 +64,7 @@ const AvatarContainer = styled.div`
   overflow: hidden;
 `;
 
-const BadgeIdol = styled.div`
+const BadgeIdol = styled(Link)`
   position: absolute;
   top: -5px;
   left: -35px;
@@ -73,6 +73,8 @@ const BadgeIdol = styled.div`
   height: 40px;
   background: linear-gradient(to right, ${LightPurple}, ${DarkPurple});
   transform: rotate(135deg);
+  text-align: center;
+  text-decoration: none;
   font-size: ${XLarge};
   color: ${White};
 `;
@@ -146,7 +148,7 @@ const PosterDvd = styled(DvdPoster)`
 const CodeDvd = styled.div`
   margin-top: 5px;
   font-size: ${Regular};
-  color: ${props => (props.uncensored ? Grey : Black)};
+  color: ${(props) => (props.uncensored ? Grey : Black)};
 `;
 
 const Points = styled.div`
@@ -158,7 +160,7 @@ const Points = styled.div`
   border-radius: 0px 18px 18px 0px;
   box-sizing: border-box;
   background-color: ${White};
-  color: ${props => props.color};
+  color: ${(props) => props.color};
   font-size: ${XXLarge};
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: ${Black};
@@ -173,7 +175,7 @@ const ViewProfile = styled(Link)`
   overflow: hidden;
   border-radius: 0px 0px 18px 18px;
   box-sizing: border-box;
-  background: ${props =>
+  background: ${(props) =>
     props.queen === "true"
       ? `linear-gradient(to right, ${Yellow}, ${Red})`
       : props.runner === "true"
@@ -191,6 +193,7 @@ const ViewProfile = styled(Link)`
 `;
 
 function IdolRanking({ data }) {
+  const location = useLocation();
   const [show, setShow] = useState(false);
   const [dvd, setDvd] = useState(null);
 
@@ -209,7 +212,7 @@ function IdolRanking({ data }) {
   }, [show]);
 
   const handleChangeDvd = useCallback(
-    value => {
+    (value) => {
       if (value) {
         setDvd(value);
       } else {
@@ -226,7 +229,20 @@ function IdolRanking({ data }) {
         <RankingIdol>{data.rank}</RankingIdol>
         <div style={{ display: "flex", width: "100%" }}>
           <AvatarContainer>
-            {checkBestIdol(data.idIdol) && <BadgeIdol>☿</BadgeIdol>}
+            {checkBestIdol(data.idIdol) && (
+              <BadgeIdol
+                to={{
+                  pathname: "/idols",
+                  state: {
+                    ...location.state,
+                    best: true,
+                    page: 1,
+                  },
+                }}
+              >
+                ☿
+              </BadgeIdol>
+            )}
             <AvatarIdol src={data.avatar} />
             <ViewProfile
               to={`/idol/${data.idIdol}`}
@@ -249,13 +265,13 @@ function IdolRanking({ data }) {
               <br />● Hips: {data.hips}
             </InformationIdol>
             <StylesIdolContainer>
-              {data.styles.map(item => (
+              {data.styles.map((item) => (
                 <StyleIdol key={item.tag} tag={item.tag} />
               ))}
             </StylesIdolContainer>
           </IdolInformationContainer>
           <DvdsContainer>
-            {dvds.map(item => (
+            {dvds.map((item) => (
               <DvdItem key={item.idDvd} onClick={() => handleChangeDvd(item)}>
                 <PosterDvd src={item.poster} />
                 <CodeDvd uncensored={item.type === "Uncensored"}>

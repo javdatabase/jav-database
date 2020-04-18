@@ -1,4 +1,4 @@
-import * as _ from "lodash";
+import { toUpper } from "lodash";
 
 import MainDvds from "../data/dvds/main";
 import PreReleaseDvds from "../data/dvds/pre-release";
@@ -36,9 +36,7 @@ const NEW_DVDS_RELEASE_DETAIL = NEW_DVDS_RELEASE.map((dvd) => ({
 const ALL_DVDS_RELEASE_DETAIL_BY_PAGE = (code, type, idols, page, pageSize) => {
   let temp = MainDvds;
   if (code) {
-    temp = temp.filter((item) =>
-      _.toUpper(item.code).includes(_.toUpper(code))
-    );
+    temp = temp.filter((item) => toUpper(item.code).includes(toUpper(code)));
   }
   if (type) {
     temp = temp.filter((item) => item.type === type.value);

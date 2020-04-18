@@ -9,6 +9,7 @@ const Component = styled.div`
   padding: 5px 10px;
   border-radius: 6px;
   background: linear-gradient(to right, ${Pink}, ${Orange});
+  text-align: center;
   font-size: ${Large};
 `;
 

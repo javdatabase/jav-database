@@ -5,13 +5,15 @@ import React, {
   useEffect,
   useCallback,
 } from "react";
+import { get } from "lodash";
 import styled from "styled-components";
+import { useHistory, useLocation } from "react-router-dom";
 import LazyLoad from "react-lazyload";
 import ElementResizeEvent from "element-resize-event";
 
 import SizesCup from "../../helpers/sizes-cup";
 import ModelStyles from "../../helpers/model-styles";
-import { modelStyle, sizeCup } from "../../helpers/render-color";
+import { sizeCup, modelStyle } from "../../helpers/render-color";
 import { ALL_IDOLS_BY_PAGE } from "../../services/idols.service";
 import Input from "../../components/UI/Input/Input";
 import Select from "../../components/UI/Select/Select";
@@ -115,38 +117,29 @@ const NotFound = styled.div`
 `;
 
 function Idols() {
+  const history = useHistory();
+  const location = useLocation();
   const [filterHeight, setFilterHeight] = useState(160);
-  const [name, setName] = useState("");
-  const [cup, setCup] = useState(null);
-  const [styles, setStyles] = useState([]);
-  const [best, setBest] = useState(false);
-  const [uncensored, setUncensored] = useState(false);
-  const [active, setActive] = useState(false);
-  const [height, setHeight] = useState("");
-  const [breast, setBreast] = useState("");
-  const [hips, setHips] = useState("");
-  const [normal, setNormal] = useState(false);
-  const [censored, setCensored] = useState(false);
-  const [inactive, setInactive] = useState(false);
-  const [page, setPage] = useState(1);
   const [show, setShow] = useState(false);
   const [data, setData] = useState(null);
 
   const idols = useMemo(() => {
+    setShow(false);
+    const state = location.state;
     const result = ALL_IDOLS_BY_PAGE(
-      name,
-      cup,
-      styles,
-      best,
-      uncensored,
-      active,
-      height,
-      breast,
-      hips,
-      normal,
-      censored,
-      inactive,
-      page,
+      get(state, "name", ""),
+      get(state, "cup", null),
+      get(state, "styles", null),
+      get(state, "best", false),
+      get(state, "uncensored", false),
+      get(state, "active", false),
+      get(state, "height", ""),
+      get(state, "breast", ""),
+      get(state, "hips", ""),
+      get(state, "normal", false),
+      get(state, "censored", false),
+      get(state, "inactive", false),
+      get(state, "page", 1),
       20
     );
     let idolData = [];
@@ -174,21 +167,7 @@ function Idols() {
       size: result.size,
       data: idolData,
     };
-  }, [
-    name,
-    cup,
-    styles,
-    best,
-    uncensored,
-    active,
-    height,
-    breast,
-    hips,
-    normal,
-    censored,
-    inactive,
-    page,
-  ]);
+  }, [location.state]);
 
   const changeFilterHeight = useCallback(() => {
     const element = document.getElementById("filter-idols");
@@ -203,69 +182,118 @@ function Idols() {
     };
   }, [changeFilterHeight]);
 
-  const handleChangeName = useCallback((value) => {
-    setName(value);
-    setPage(1);
-  }, []);
+  const handleChangeName = useCallback(
+    (name) => {
+      const state = { ...location.state, name: name, page: 1 };
+      history.push(location.pathname, state);
+    },
+    [history, location]
+  );
 
-  const handleChangeCup = useCallback((value) => {
-    setCup(value);
-    setPage(1);
-  }, []);
+  const handleChangeCup = useCallback(
+    (cup) => {
+      const state = { ...location.state, cup: cup, page: 1 };
+      history.push(location.pathname, state);
+    },
+    [history, location]
+  );
 
-  const handleChangeStyles = useCallback((value) => {
-    setStyles(value);
-    setPage(1);
-  }, []);
+  const handleChangeStyles = useCallback(
+    (styles) => {
+      const state = { ...location.state, styles: styles, page: 1 };
+      history.push(location.pathname, state);
+    },
+    [history, location]
+  );
 
   const handleChangeBest = useCallback(() => {
-    setBest(!best);
-    setPage(1);
-  }, [best]);
+    const state = {
+      ...location.state,
+      best: !get(location.state, "best", false),
+      page: 1,
+    };
+    history.push(location.pathname, state);
+  }, [history, location]);
 
   const handleChangeUncensored = useCallback(() => {
-    setUncensored(!uncensored);
-    setPage(1);
-  }, [uncensored]);
+    const state = {
+      ...location.state,
+      uncensored: !get(location.state, "uncensored", false),
+      page: 1,
+    };
+    history.push(location.pathname, state);
+  }, [history, location]);
 
   const handleChangeActive = useCallback(() => {
-    setActive(!active);
-    setPage(1);
-  }, [active]);
+    const state = {
+      ...location.state,
+      active: !get(location.state, "active", false),
+      page: 1,
+    };
+    history.push(location.pathname, state);
+  }, [history, location]);
 
-  const handleChangeHeight = useCallback((value) => {
-    setHeight(value);
-    setPage(1);
-  }, []);
+  const handleChangeHeight = useCallback(
+    (height) => {
+      const state = { ...location.state, height: height, page: 1 };
+      history.push(location.pathname, state);
+    },
+    [history, location]
+  );
 
-  const handleChangeBreast = useCallback((value) => {
-    setBreast(value);
-    setPage(1);
-  }, []);
+  const handleChangeBreast = useCallback(
+    (breast) => {
+      const state = { ...location.state, breast: breast, page: 1 };
+      history.push(location.pathname, state);
+    },
+    [history, location]
+  );
 
-  const handleChangeHips = useCallback((value) => {
-    setHips(value);
-    setPage(1);
-  }, []);
+  const handleChangeHips = useCallback(
+    (hips) => {
+      const state = { ...location.state, hips: hips, page: 1 };
+      history.push(location.pathname, state);
+    },
+    [history, location]
+  );
 
   const handleChangeNormal = useCallback(() => {
-    setNormal(!normal);
-    setPage(1);
-  }, [normal]);
+    const state = {
+      ...location.state,
+      normal: !get(location.state, "normal", false),
+      page: 1,
+    };
+    history.push(location.pathname, state);
+  }, [history, location]);
 
   const handleChangeCensored = useCallback(() => {
-    setCensored(!censored);
-    setPage(1);
-  }, [censored]);
+    const state = {
+      ...location.state,
+      censored: !get(location.state, "censored", false),
+      page: 1,
+    };
+    history.push(location.pathname, state);
+  }, [history, location]);
 
   const handleChangeInactive = useCallback(() => {
-    setInactive(!inactive);
-    setPage(1);
-  }, [inactive]);
+    const state = {
+      ...location.state,
+      inactive: !get(location.state, "inactive", false),
+      page: 1,
+    };
+    history.push(location.pathname, state);
+  }, [history, location]);
 
-  const handleChangePage = useCallback((page) => {
-    setPage(page);
-  }, []);
+  const handleChangePage = useCallback(
+    (page) => {
+      const state = {
+        ...location.state,
+        page: page,
+      };
+      history.push(location.pathname, state);
+    },
+    [history, location]
+  );
 
   const toggleModal = useCallback(() => {
     setShow(!show);
@@ -289,7 +317,7 @@ function Idols() {
         <RowFilter>
           <Input
             placeholder={"Search name..."}
-            value={name}
+            value={get(location.state, "name", "")}
             onChange={(e) => handleChangeName(e.target.value)}
           />
           <SelectCustom
@@ -300,7 +328,7 @@ function Idols() {
               color: sizeCup(item),
             }))}
             placeholder={"Select size cup..."}
-            value={cup}
+            value={get(location.state, "cup", null)}
             onChange={(value) => handleChangeCup(value)}
           />
           <SelectCustom
@@ -311,13 +339,13 @@ function Idols() {
               color: modelStyle(item),
             }))}
             placeholder={"Select model styles..."}
-            value={styles}
+            value={get(location.state, "styles", null)}
             onChange={(value) => handleChangeStyles(value)}
           />
           <CheckboxGroup>
             <Checkbox
               label={"The Best"}
-              value={best}
+              value={get(location.state, "best", false)}
               onChange={handleChangeBest}
               customColor={`linear-gradient(to right, ${LightPurple}, ${DarkPurple})`}
             />
@@ -325,7 +353,7 @@ function Idols() {
           <CheckboxGroup>
             <Checkbox
               label={"Uncensored"}
-              value={uncensored}
+              value={get(location.state, "uncensored", false)}
               onChange={handleChangeUncensored}
               customColor={`linear-gradient(to right, ${DarkBlue}, ${LightBlue})`}
             />
@@ -333,7 +361,7 @@ function Idols() {
           <CheckboxGroup>
             <Checkbox
               label={"Active"}
-              value={active}
+              value={get(location.state, "active", false)}
               onChange={handleChangeActive}
             />
           </CheckboxGroup>
@@ -342,41 +370,41 @@ function Idols() {
           <Input
             placeholder={"Search height..."}
             type={"number"}
-            value={height}
+            value={get(location.state, "height", "")}
             onChange={(e) => handleChangeHeight(e.target.value)}
           />
           <Input
             style={{ marginLeft: "30px" }}
             placeholder={"Search breast..."}
             type={"number"}
-            value={breast}
+            value={get(location.state, "breast", "")}
             onChange={(e) => handleChangeBreast(e.target.value)}
           />
           <Input
             style={{ marginLeft: "30px" }}
             placeholder={"Search hips..."}
             type={"number"}
-            value={hips}
+            value={get(location.state, "hips", "")}
             onChange={(e) => handleChangeHips(e.target.value)}
           />
           <CheckboxGroup>
             <Checkbox
               label={"Normal"}
-              value={normal}
+              value={get(location.state, "normal", false)}
               onChange={handleChangeNormal}
             />
           </CheckboxGroup>
           <CheckboxGroup style={{ marginLeft: "44.5px" }}>
             <Checkbox
               label={"Censored"}
-              value={censored}
+              value={get(location.state, "censored", false)}
               onChange={handleChangeCensored}
             />
           </CheckboxGroup>
           <CheckboxGroup style={{ marginLeft: "44.5px" }}>
             <Checkbox
               label={"Inactive"}
-              value={inactive}
+              value={get(location.state, "inactive", false)}
               onChange={handleChangeInactive}
               customColor={Grey}
             />
@@ -413,7 +441,7 @@ function Idols() {
         <PaginationContainer>
           <Pagination
             count={idols.size}
-            page={page}
+            page={get(location.state, "page", 1)}
             size={20}
             handleChangePage={handleChangePage}
           />

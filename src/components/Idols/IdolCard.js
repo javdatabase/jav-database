@@ -1,6 +1,7 @@
 import React, { memo } from "react";
 import { get } from "lodash";
 import styled from "styled-components";
+import { Link, useLocation } from "react-router-dom";
 
 import { getIdolRank, checkBestIdol } from "../../services/common.service";
 import IdolAvatar from "./IdolAvatar";
@@ -14,7 +15,7 @@ import {
   Red,
   White,
   LightPurple,
-  DarkPurple
+  DarkPurple,
 } from "../../themes/colors";
 import { center } from "../../themes/styled";
 import { Large, XLarge } from "../../themes/font";
@@ -41,7 +42,7 @@ const AvatarContainer = styled.div`
   overflow: hidden;
 `;
 
-const BadgeIdol = styled.div`
+const BadgeIdol = styled(Link)`
   position: absolute;
   top: -5px;
   left: -35px;
@@ -50,6 +51,8 @@ const BadgeIdol = styled.div`
   height: 40px;
   background: linear-gradient(to right, ${LightPurple}, ${DarkPurple});
   transform: rotate(135deg);
+  text-align: center;
+  text-decoration: none;
   font-size: ${XLarge};
   color: ${White};
 `;
@@ -64,7 +67,7 @@ const AvatarIdol = styled(IdolAvatar)`
 const TagIdol = styled(IdolTag)`
   margin-top: 15px;
   font-size: ${Large};
-  background: ${props =>
+  background: ${(props) =>
     props.queen
       ? `linear-gradient(to right, ${Yellow}, ${Red})`
       : props.runnerUp
@@ -73,10 +76,25 @@ const TagIdol = styled(IdolTag)`
 `;
 
 function IdolCard({ data, click }) {
+  const location = useLocation();
+
   return (
     <Container onClick={click}>
       <AvatarContainer>
-        {checkBestIdol(get(data, "idIdol", "")) && <BadgeIdol>☿</BadgeIdol>}
+        {checkBestIdol(get(data, "idIdol", "")) && (
+          <BadgeIdol
+            to={{
+              pathname: "/idols",
+              state: {
+                ...location.state,
+                best: true,
+                page: 1,
+              },
+            }}
+          >
+            ☿
+          </BadgeIdol>
+        )}
         <AvatarIdol src={get(data, "avatar", "")} />
       </AvatarContainer>
       <TagIdol

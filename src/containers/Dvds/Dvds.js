@@ -5,7 +5,9 @@ import React, {
   useEffect,
   useCallback,
 } from "react";
+import { get } from "lodash";
 import styled from "styled-components";
+import { useHistory, useLocation } from "react-router-dom";
 import LazyLoad from "react-lazyload";
 import ElementResizeEvent from "element-resize-event";
 
@@ -97,16 +99,21 @@ const NotFound = styled.div`
 `;
 
 function Dvds() {
+  const history = useHistory();
+  const location = useLocation();
   const [filterHeight, setFilterHeight] = useState(80);
-  const [code, setCode] = useState("");
-  const [type, setType] = useState(null);
-  const [idols, setIdols] = useState([]);
-  const [page, setPage] = useState(1);
   const [show, setShow] = useState(false);
   const [data, setData] = useState(null);
 
   const dvds = useMemo(() => {
-    const result = ALL_DVDS_RELEASE_DETAIL_BY_PAGE(code, type, idols, page, 30);
+    const state = location.state;
+    const result = ALL_DVDS_RELEASE_DETAIL_BY_PAGE(
+      get(state, "code", ""),
+      get(state, "type", null),
+      get(state, "idols", null),
+      get(state, "page", 1),
+      30
+    );
     let dvdData = [];
     result.data.forEach((item, index) => {
       let found = dvdData.findIndex((data) => data.id.includes(item.idDvd));
@@ -134,7 +141,7 @@ function Dvds() {
       size: result.size,
       data: dvdData,
     };
-  }, [code, type, idols, page]);
+  }, [location.state]);
 
   const changeFilterHeight = useCallback(() => {
     const element = document.getElementById("filter-dvds");
@@ -149,24 +156,37 @@ function Dvds() {
     };
   }, [changeFilterHeight]);
 
-  const handleChangeCode = useCallback((value) => {
-    setCode(value);
-    setPage(1);
-  }, []);
+  const handleChangeCode = useCallback(
+    (code) => {
+      const state = { ...location.state, code: code, page: 1 };
+      history.push(location.pathname, state);
+    },
+    [history, location]
+  );
 
-  const handleChangeType = useCallback((value) => {
-    setType(value);
-    setPage(1);
-  }, []);
+  const handleChangeType = useCallback(
+    (type) => {
+      const state = { ...location.state, type: type, page: 1 };
+      history.push(location.pathname, state);
+    },
+    [history, location]
+  );
 
-  const handleChangeIdols = useCallback((value) => {
-    setIdols(value);
-    setPage(1);
-  }, []);
+  const handleChangeIdols = useCallback(
+    (idols) => {
+      const state = { ...location.state, idols: idols, page: 1 };
+      history.push(location.pathname, state);
+    },
+    [history, location]
+  );
 
-  const handleChangePage = useCallback((page) => {
-    setPage(page);
-  }, []);
+  const handleChangePage = useCallback(
+    (page) => {
+      const state = { ...location.state, page: page };
+      history.push(location.pathname, state);
+    },
+    [history, location]
+  );
 
   const toggleModal = useCallback(() => {
     setShow(!show);
@@ -190,7 +210,7 @@ function Dvds() {
         <div style={{ display: "flex" }}>
           <Input
             placeholder={"Search code..."}
-            value={code}
+            value={get(location.state, "code", "")}
             onChange={(e) => handleChangeCode(e.target.value)}
           />
           <SelectCustom
@@ -200,7 +220,7 @@ function Dvds() {
             ]}
             placeholder={"Select type..."}
             isClearable={true}
-            value={type}
+            value={get(location.state, "type", null)}
             onChange={(value) => handleChangeType(value)}
           />
           <SelectCustom
@@ -216,7 +236,7 @@ function Dvds() {
                   : [Pink, Orange],
             }))}
             placeholder={"Select idols..."}
-            value={idols}
+            value={get(location.state, "idols", null)}
             onChange={(value) => handleChangeIdols(value)}
           />
         </div>
@@ -248,7 +268,7 @@ function Dvds() {
         <PaginationContainer>
           <Pagination
             count={dvds.size}
-            page={page}
+            page={get(location.state, "page", 1)}
             size={30}
             handleChangePage={handleChangePage}
           />

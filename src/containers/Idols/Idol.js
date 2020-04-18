@@ -1,7 +1,7 @@
 import React, { Fragment, useState, useMemo, useCallback } from "react";
 import { get } from "lodash";
 import styled from "styled-components";
-import { useParams } from "react-router-dom";
+import { Link, useLocation, useParams } from "react-router-dom";
 import LazyLoad from "react-lazyload";
 
 import { priceCurrency } from "../../helpers/render-price";
@@ -83,7 +83,7 @@ const AvatarContainer = styled.div`
   }
 `;
 
-const BadgeIdol = styled.div`
+const BadgeIdol = styled(Link)`
   position: absolute;
   top: -5px;
   left: -35px;
@@ -92,6 +92,8 @@ const BadgeIdol = styled.div`
   height: 40px;
   background: linear-gradient(to right, ${LightPurple}, ${DarkPurple});
   transform: rotate(135deg);
+  text-align: center;
+  text-decoration: none;
   font-size: ${XLarge};
   color: ${White};
 `;
@@ -254,6 +256,7 @@ const PriceIdol = styled.div`
 `;
 
 function Idol() {
+  const location = useLocation();
   const { id } = useParams();
   const [tab, setTab] = useState(0);
   const [showPicture, setShowPicture] = useState(false);
@@ -384,7 +387,20 @@ function Idol() {
         <ProfileContainer>
           <InformationContainer>
             <AvatarContainer>
-              {checkBestIdol(data.idIdol) && <BadgeIdol>☿</BadgeIdol>}
+              {checkBestIdol(data.idIdol) && (
+                <BadgeIdol
+                  to={{
+                    pathname: "/idols",
+                    state: {
+                      ...location.state,
+                      best: true,
+                      page: 1,
+                    },
+                  }}
+                >
+                  ☿
+                </BadgeIdol>
+              )}
               <AvatarIdol
                 src={get(data, "avatar", "")}
                 onClick={() => handleModalPicture(get(data, "avatar", ""))}

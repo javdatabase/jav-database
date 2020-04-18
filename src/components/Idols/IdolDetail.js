@@ -1,7 +1,7 @@
 import React, { Fragment, memo } from "react";
 import { get } from "lodash";
 import styled from "styled-components";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 import { getIdolRank, checkBestIdol } from "../../services/common.service";
 import Backdrop from "../UI/Backdrop/Backdrop";
@@ -18,7 +18,7 @@ import {
   LightBlue,
   Red,
   DarkPurple,
-  LightPurple
+  LightPurple,
 } from "../../themes/colors";
 import { center, fadeIn } from "../../themes/styled";
 import { Large, XLarge, XXLarge } from "../../themes/font";
@@ -30,10 +30,10 @@ const Container = styled.div`
   left: 50%;
   transform: translate(-50%, -50%);
   ${center}
-  display: ${props => (props.show ? "flex" : "none")};
+  display: ${(props) => (props.show ? "flex" : "none")};
   padding: 10px;
   border-radius: 18px;
-  background: ${props =>
+  background: ${(props) =>
     props.queen
       ? `linear-gradient(to right, ${Yellow}, ${Red})`
       : props.runnerUp
@@ -50,7 +50,7 @@ const AvatarContainer = styled.div`
   overflow: hidden;
 `;
 
-const BadgeIdol = styled.div`
+const BadgeIdol = styled(Link)`
   position: absolute;
   top: -5px;
   left: -35px;
@@ -59,6 +59,8 @@ const BadgeIdol = styled.div`
   height: 40px;
   background: linear-gradient(to right, ${LightPurple}, ${DarkPurple});
   transform: rotate(135deg);
+  text-align: center;
+  text-decoration: none;
   font-size: ${XLarge};
   color: ${White};
 `;
@@ -110,7 +112,7 @@ const ViewProfile = styled(Link)`
   overflow: hidden;
   border-radius: 0px 0px 18px 18px;
   box-sizing: border-box;
-  background: ${props =>
+  background: ${(props) =>
     props.queen === "true"
       ? `linear-gradient(to right, ${Yellow}, ${Red})`
       : props.runner === "true"
@@ -128,6 +130,8 @@ const ViewProfile = styled(Link)`
 `;
 
 function IdolDetail({ show, toggleModal, data }) {
+  const location = useLocation();
+
   return (
     <Fragment>
       <Backdrop show={show} hiddenModal={toggleModal} />
@@ -137,7 +141,20 @@ function IdolDetail({ show, toggleModal, data }) {
         show={show}
       >
         <AvatarContainer>
-          {checkBestIdol(get(data, "idIdol", "")) && <BadgeIdol>☿</BadgeIdol>}
+          {checkBestIdol(get(data, "idIdol", "")) && (
+            <BadgeIdol
+              to={{
+                pathname: "/idols",
+                state: {
+                  ...location.state,
+                  best: true,
+                  page: 1,
+                },
+              }}
+            >
+              ☿
+            </BadgeIdol>
+          )}
           <AvatarIdol src={get(data, "avatar", null)} />
           <ViewProfile
             to={`/idol/${get(data, "idIdol", "")}`}
@@ -163,7 +180,7 @@ function IdolDetail({ show, toggleModal, data }) {
             <br />● Hips: {get(data, "hips", "")}
           </InformationIdol>
           <StylesIdolContainer>
-            {get(data, "styles", []).map(item => (
+            {get(data, "styles", []).map((item) => (
               <StyleIdol key={item.tag} tag={item.tag} />
             ))}
           </StylesIdolContainer>
