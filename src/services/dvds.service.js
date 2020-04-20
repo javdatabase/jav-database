@@ -75,7 +75,13 @@ const ALL_DVDS_PRE_RELEASE_DETAIL_BY_PAGE = (page, pageSize) => {
   });
   const response = [...temp].reverse().map((dvd) => ({
     ...dvd,
-    idols: dvd.idols.map((idol) => getIdolDetail(idol.idIdol)),
+    idols: dvd.idols.map((idol) => {
+      if (idol.idIdol === "jai000") {
+        return idol;
+      } else {
+        return getIdolDetail(idol.idIdol);
+      }
+    }),
   }));
   return response;
 };

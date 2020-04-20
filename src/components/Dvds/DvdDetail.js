@@ -16,7 +16,7 @@ import {
   DarkBlue,
   LightBlue,
   Yellow,
-  Red
+  Red,
 } from "../../themes/colors";
 import { center, fadeIn } from "../../themes/styled";
 import { Large, XXLarge } from "../../themes/font";
@@ -28,9 +28,9 @@ const Container = styled.div`
   left: 50%;
   transform: translate(-50%, -50%);
   ${center}
-  display: ${props => (props.show ? "flex" : "none")};
+  display: ${(props) => (props.show ? "flex" : "none")};
   padding: 10px;
-  background: ${props =>
+  background: ${(props) =>
     props.uncensored
       ? `linear-gradient(to right, ${DarkBlue}, ${LightBlue})`
       : `linear-gradient(to right, ${Pink}, ${Orange})`};
@@ -70,7 +70,7 @@ const IdolsContainer = styled.div`
 const TagIdol = styled(IdolTag)`
   border: solid 2px ${Black};
   margin-top: 10px;
-  background: ${props =>
+  background: ${(props) =>
     props.queen
       ? `linear-gradient(to right, ${Yellow}, ${Red})`
       : props.runnerUp
@@ -78,7 +78,7 @@ const TagIdol = styled(IdolTag)`
       : `linear-gradient(to right,  ${Orange}, ${Pink})`};
 `;
 
-function DvdDetail({ show, toggleModal, data, rank }) {
+function DvdDetail({ show, toggleModal, data }) {
   return (
     <Fragment>
       <Backdrop show={show} hiddenModal={toggleModal} />
@@ -93,7 +93,7 @@ function DvdDetail({ show, toggleModal, data, rank }) {
           </div>
           <Title>{get(data, "title", "")}</Title>
           <IdolsContainer>
-            {get(data, "idols", []).map(item =>
+            {get(data, "idols", []).map((item) =>
               item.idIdol === "jai000" ? (
                 <TagIdol key={item.idIdol} name={item.name} />
               ) : (
