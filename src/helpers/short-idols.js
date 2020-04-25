@@ -148,7 +148,7 @@ const ShortIdols = [
   { idIdol: "jai147", name: "Satomi Suzuki" },
   { idIdol: "jai148", name: "Nozomi Arimura" },
   { idIdol: "jai149", name: "Risa Morisawa" },
-  { idIdol: "jai150", name: "Shizuka Takano" },
+  // { idIdol: "jai150", name: "" },
   { idIdol: "jai151", name: "Remu Suzumori" },
   { idIdol: "jai152", name: "Minamo Nagase" },
   { idIdol: "jai153", name: "Hikari Ninomiya" },

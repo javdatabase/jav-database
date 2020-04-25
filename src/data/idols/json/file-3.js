@@ -514,7 +514,7 @@ const File3 = [
     cup: "G-Cup",
     waist: "55 cm",
     hips: "83 cm",
-    styles: [{ tag: "Beautiful Breasts" }],
+    styles: [{ tag: "Retired" }, { tag: "Beautiful Breasts" }],
     album: [
       {
         picture:
@@ -722,7 +722,7 @@ const File3 = [
     cup: "H-Cup",
     waist: "59 cm",
     hips: "95 cm",
-    styles: [{ tag: "Cute" }, { tag: "Killer Tits" }],
+    styles: [{ tag: "Retired" }, { tag: "Cute" }, { tag: "Killer Tits" }],
     album: [
       {
         picture:
@@ -1610,7 +1610,7 @@ const File3 = [
     cup: "H-Cup",
     waist: "58 cm",
     hips: "87 cm",
-    styles: [{ tag: "Killer Tits" }],
+    styles: [{ tag: "Retired" }, { tag: "Killer Tits" }],
     album: [
       {
         picture:
@@ -1785,26 +1785,20 @@ const File3 = [
     ],
     album: [{ picture: risa_morisawa.risa_morisawa_2 }],
   },
-  {
-    idIdol: "jai150",
-    avatar:
-      "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/44000/44479/large/wapdb-shizuka-takano-pornostar-asiatique.warashi-asian-pornstars.fr-44479-010.jpg",
-    name: "Shizuka Takano",
-    other: "Sayumi Yamai",
-    born: "29/04/1996",
-    height: "155 cm",
-    breast: "90 cm",
-    cup: "H-Cup",
-    waist: "62 cm",
-    hips: "88 cm",
-    styles: [{ tag: "Killer Tits" }],
-    album: [
-      {
-        picture:
-          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/44000/44479/large/wapdb-shizuka-takano-pornostar-asiatique.warashi-asian-pornstars.fr-44479-005.jpg",
-      },
-    ],
-  },
+  // {
+  //   idIdol: "jai150",
+  //   avatar: "",
+  //   name: "",
+  //   other: "",
+  //   born: "",
+  //   height: "",
+  //   breast: "",
+  //   cup: "",
+  //   waist: "",
+  //   hips: "",
+  //   styles: [],
+  //   album: [],
+  // },
   {
     idIdol: "jai151",
     avatar:

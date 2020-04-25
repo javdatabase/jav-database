@@ -425,7 +425,7 @@ const File1 = [
     cup: "G-Cup",
     waist: "59 cm",
     hips: "88 cm",
-    styles: [{ tag: "Cute" }, { tag: "Beautiful Breasts" }],
+    styles: [{ tag: "Retired" }, { tag: "Cute" }, { tag: "Beautiful Breasts" }],
     album: [
       {
         picture:
@@ -586,7 +586,7 @@ const File1 = [
     cup: "G-Cup",
     waist: "58 cm",
     hips: "88 cm",
-    styles: [{ tag: "Cute" }, { tag: "Killer Tits" }],
+    styles: [{ tag: "Retired" }, { tag: "Cute" }, { tag: "Killer Tits" }],
     album: [
       {
         picture:
@@ -643,6 +643,7 @@ const File1 = [
     waist: "58 cm",
     hips: "85 cm",
     styles: [
+      { tag: "Retired" },
       { tag: "6 Stars JAV" },
       { tag: "Cute" },
       { tag: "Killer Tits" },
