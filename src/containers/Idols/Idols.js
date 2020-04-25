@@ -132,13 +132,13 @@ function Idols() {
       get(state, "styles", null),
       get(state, "best", false),
       get(state, "uncensored", false),
-      get(state, "active", false),
+      get(state, "working", false),
       get(state, "height", ""),
       get(state, "breast", ""),
       get(state, "hips", ""),
       get(state, "normal", false),
       get(state, "censored", false),
-      get(state, "inactive", false),
+      get(state, "retired", false),
       get(state, "page", 1),
       20
     );
@@ -224,10 +224,10 @@ function Idols() {
     history.push(location.pathname, state);
   }, [history, location]);
 
-  const handleChangeActive = useCallback(() => {
+  const handleChangeWorking = useCallback(() => {
     const state = {
       ...location.state,
-      active: !get(location.state, "active", false),
+      working: !get(location.state, "working", false),
       page: 1,
     };
     history.push(location.pathname, state);
@@ -275,10 +275,10 @@ function Idols() {
     history.push(location.pathname, state);
   }, [history, location]);
 
-  const handleChangeInactive = useCallback(() => {
+  const handleChangeRetired = useCallback(() => {
     const state = {
       ...location.state,
-      inactive: !get(location.state, "inactive", false),
+      retired: !get(location.state, "retired", false),
       page: 1,
     };
     history.push(location.pathname, state);
@@ -360,9 +360,9 @@ function Idols() {
           </CheckboxGroup>
           <CheckboxGroup>
             <Checkbox
-              label={"Active"}
-              value={get(location.state, "active", false)}
-              onChange={handleChangeActive}
+              label={"Working"}
+              value={get(location.state, "working", false)}
+              onChange={handleChangeWorking}
             />
           </CheckboxGroup>
         </RowFilter>
@@ -403,9 +403,9 @@ function Idols() {
           </CheckboxGroup>
           <CheckboxGroup style={{ marginLeft: "44.5px" }}>
             <Checkbox
-              label={"Inactive"}
-              value={get(location.state, "inactive", false)}
-              onChange={handleChangeInactive}
+              label={"Retired"}
+              value={get(location.state, "retired", false)}
+              onChange={handleChangeRetired}
               customColor={Grey}
             />
           </CheckboxGroup>

@@ -8,6 +8,9 @@ import * as risa_morisawa from "../images/risa-morisawa";
 import * as momoko_maeda from "../images/momoko-maeda";
 import * as seina_aono from "../images/seira-aono";
 import * as anna_kurata from "../images/anna-kurata";
+import * as haruka_miyazaki from "../images/haruka-miyazaki";
+import * as nonoka_otoha from "../images/nonoka-otoha";
+import * as anela from "../images/anela";
 
 const File3 = [
   {
@@ -1785,20 +1788,26 @@ const File3 = [
     ],
     album: [{ picture: risa_morisawa.risa_morisawa_2 }],
   },
-  // {
-  //   idIdol: "jai150",
-  //   avatar: "",
-  //   name: "",
-  //   other: "",
-  //   born: "",
-  //   height: "",
-  //   breast: "",
-  //   cup: "",
-  //   waist: "",
-  //   hips: "",
-  //   styles: [],
-  //   album: [],
-  // },
+  {
+    idIdol: "jai150",
+    avatar: haruka_miyazaki.haruka_miyazaki_1,
+    name: "Haruka Miyazaki",
+    other: "",
+    born: "11/11/1998",
+    height: "146 cm",
+    breast: "84 cm",
+    cup: "D-Cup",
+    waist: "57 cm",
+    hips: "85 cm",
+    styles: [{ tag: "Retired" }, { tag: "Cute" }, { tag: "Slender" }],
+    album: [
+      { picture: haruka_miyazaki.haruka_miyazaki_2 },
+      { picture: haruka_miyazaki.haruka_miyazaki_3 },
+      { picture: haruka_miyazaki.haruka_miyazaki_4 },
+      { picture: haruka_miyazaki.haruka_miyazaki_5 },
+      { picture: haruka_miyazaki.haruka_miyazaki_6 },
+    ],
+  },
   {
     idIdol: "jai151",
     avatar:
@@ -2017,8 +2026,8 @@ const File3 = [
     avatar: seina_aono.seira_aono_1,
     name: "Seira Aono",
     other: "",
-    born: "23/01/1982",
-    height: "160 cm",
+    born: "23/01/1985",
+    height: "159 cm",
     breast: "89 cm",
     cup: "F-Cup",
     waist: "57 cm",
@@ -2130,7 +2139,7 @@ const File3 = [
     cup: "F-Cup",
     waist: "63 cm",
     hips: "91 cm",
-    styles: [{ tag: "Killer Tits" }, { tag: "Teens" }],
+    styles: [{ tag: "Retired" }, { tag: "Killer Tits" }, { tag: "Teens" }],
     album: [
       {
         picture: anna_kurata.anna_kurata_2,
@@ -2143,6 +2152,55 @@ const File3 = [
       },
       {
         picture: anna_kurata.anna_kurata_5,
+      },
+    ],
+  },
+  {
+    idIdol: "jai160",
+    avatar: nonoka_otoha.nonoka_otoha_1,
+    name: "Nonoka Otoha",
+    other: "",
+    born: "30/11/1998",
+    height: "168 cm",
+    breast: "85 cm",
+    cup: "E-Cup",
+    waist: "62 cm",
+    hips: "92 cm",
+    styles: [
+      { tag: "Retired" },
+      { tag: "Cute" },
+      { tag: "Beautiful Breasts" },
+      { tag: "Slender" },
+    ],
+    album: [
+      {
+        picture: nonoka_otoha.nonoka_otoha_2,
+      },
+      {
+        picture: nonoka_otoha.nonoka_otoha_3,
+      },
+    ],
+  },
+  {
+    idIdol: "jai161",
+    avatar: anela.anela_2,
+    name: "Anela",
+    other: "",
+    born: "20/12/1998",
+    height: "153 cm",
+    breast: "89 cm",
+    cup: "F-Cup",
+    waist: "56 cm",
+    hips: "86 cm",
+    styles: [
+      { tag: "Retired" },
+      { tag: "Cute" },
+      { tag: "Beautiful Breasts" },
+      { tag: "Slender" },
+    ],
+    album: [
+      {
+        picture: anela.anela_1,
       },
     ],
   },

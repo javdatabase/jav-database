@@ -20,13 +20,13 @@ const ALL_IDOLS_BY_PAGE = (
   styles,
   best,
   uncensored,
-  active,
+  working,
   height,
   breast,
   hips,
   normal,
   censored,
-  inactive,
+  retired,
   page,
   pageSize
 ) => {
@@ -65,12 +65,12 @@ const ALL_IDOLS_BY_PAGE = (
   if (uncensored === false && censored === true) {
     temp = temp.filter((item) => !checkUncensoredIdol(item.idIdol));
   }
-  if (active === true && inactive === false) {
+  if (working === true && retired === false) {
     temp = temp.filter(
       (item) => !item.styles.find((style) => style.tag === "Retired")
     );
   }
-  if (active === false && inactive === true) {
+  if (working === false && retired === true) {
     temp = temp.filter(
       (item) => !!item.styles.find((style) => style.tag === "Retired")
     );
