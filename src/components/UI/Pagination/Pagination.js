@@ -19,7 +19,7 @@ const PageContainer = styled.div`
   width: 100%;
   height: 50px;
   margin: 0px 2.5px;
-  overflow-x: auto;
+  overflow-x: scroll;
 
   &::-webkit-scrollbar {
     height: 6px;
@@ -40,8 +40,8 @@ const PageItem = styled.div`
   height: 30px;
   border-radius: 30px;
   margin: 5px 2.5px;
-  cursor: ${props => (props.active ? "default" : "pointer")};
-  background: ${props =>
+  cursor: ${(props) => (props.active ? "default" : "pointer")};
+  background: ${(props) =>
     props.active
       ? `linear-gradient(to right, ${Pink}, ${Orange})`
       : "transparent"};
@@ -49,7 +49,7 @@ const PageItem = styled.div`
   font-size: ${Regular};
   font-weight: 500;
 
-  ${props =>
+  ${(props) =>
     props.active
       ? ""
       : `&:hover {
@@ -99,7 +99,7 @@ function Pagination({ count, page, size, handleChangePage }) {
         onClick={() => handleChange(page - 1, true)}
       >{`<`}</PageOtherItem>
       <PageContainer ref={pageContainerRef}>
-        {pages.map(item => (
+        {pages.map((item) => (
           <PageItem
             key={`page-${item}`}
             active={item === page}
