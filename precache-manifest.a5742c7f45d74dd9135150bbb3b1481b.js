@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cf49bc6e0829e33f974c34c7dbc16815",
+    "revision": "715c6ae91206d2f9cc5ad741e0dbdc69",
     "url": "/jav-database/index.html"
   },
   {
@@ -12,12 +12,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/jav-database/static/js/0.e799d2f6.chunk.js"
   },
   {
-    "revision": "ab961b6090f173b986a0",
-    "url": "/jav-database/static/js/10.85c33d92.chunk.js"
+    "revision": "4f03973d313439c50687",
+    "url": "/jav-database/static/js/10.cca9bbf9.chunk.js"
   },
   {
-    "revision": "54b00a344ee7ee3c4133",
-    "url": "/jav-database/static/js/11.21716d3f.chunk.js"
+    "revision": "1ad7d3734a7b3be9ea70",
+    "url": "/jav-database/static/js/11.93e97b90.chunk.js"
   },
   {
     "revision": "b04bf2d78916ee8c2b2d",
@@ -44,20 +44,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/jav-database/static/js/7.2275ae80.chunk.js"
   },
   {
-    "revision": "5196907cd71f8ab8900e",
-    "url": "/jav-database/static/js/8.4ad89702.chunk.js"
+    "revision": "5d0159294cb413083e55",
+    "url": "/jav-database/static/js/8.bf7d9884.chunk.js"
   },
   {
-    "revision": "6776c01abceb638cef47",
-    "url": "/jav-database/static/js/9.3a44b8ca.chunk.js"
+    "revision": "a2187cfe80ec5a87438a",
+    "url": "/jav-database/static/js/9.0dd38afe.chunk.js"
   },
   {
     "revision": "44392cbab3ecca669ab8",
     "url": "/jav-database/static/js/main.9d438441.chunk.js"
   },
   {
-    "revision": "057b12c737aba4a27cad",
-    "url": "/jav-database/static/js/runtime-main.5962f7a5.js"
+    "revision": "193fb01dcd3987ca395e",
+    "url": "/jav-database/static/js/runtime-main.f0598026.js"
   },
   {
     "revision": "fb4cbe2013d8f7a6e6e3ae72b7baa6c7",
