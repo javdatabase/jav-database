@@ -401,7 +401,7 @@ function Idols() {
               onChange={handleChangeCensored}
             />
           </CheckboxGroup>
-          <CheckboxGroup style={{ marginLeft: "44.5px" }}>
+          <CheckboxGroup style={{ marginLeft: "50.5px" }}>
             <Checkbox
               label={"Retired"}
               value={get(location.state, "retired", false)}

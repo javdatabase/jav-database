@@ -1370,7 +1370,10 @@ const File32 = [
     poster:
       "http://pics.dmm.co.jp/mono/movie/adult/dvdms478so/dvdms478sopl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai148", name: "Nozomi Arimura" }],
+    idols: [
+      { idIdol: "jai148", name: "Nozomi Arimura" },
+      { idIdol: "jai162", name: "Tsugumi Morimoto" },
+    ],
   },
   {
     code: "FNEO-047",

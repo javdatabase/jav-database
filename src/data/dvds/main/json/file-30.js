@@ -1816,7 +1816,10 @@ const File30 = [
     title: `EXPERIENCED GENTLE AMATEUR MARRIED WOMAN IS THE BEST VIRGIN BRUSH WHOLESALE 20`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/1ienf055/1ienf055pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai015", name: "Mao Kurata" }],
+    idols: [
+      { idIdol: "jai015", name: "Mao Kurata" },
+      { idIdol: "jai162", name: "Tsugumi Morimoto" },
+    ],
   },
   {
     code: "NHDTB-363",
@@ -2879,7 +2882,10 @@ const File30 = [
     poster:
       "http://pics.dmm.co.jp/mono/movie/adult/118docp177/118docp177pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai054", name: "Arisa Hanyu" }],
+    idols: [
+      { idIdol: "jai054", name: "Arisa Hanyu" },
+      { idIdol: "jai162", name: "Tsugumi Morimoto" },
+    ],
   },
   {
     code: "SW-661",

@@ -2204,6 +2204,38 @@ const File3 = [
       },
     ],
   },
+  {
+    idIdol: "jai162",
+    avatar:
+      "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/48000/48919/large/wapdb-tsugumi-morimoto-pornostar-asiatique.warashi-asian-pornstars.fr-48919-012.jpg",
+    name: "Tsugumi Morimoto",
+    other: "Misato Asahina",
+    born: "07/08/1999",
+    height: "152 cm",
+    breast: "90 cm",
+    cup: "G-Cup",
+    waist: "60 cm",
+    hips: "90 cm",
+    styles: [{ tag: "Cute" }, { tag: "Killer Tits" }],
+    album: [
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/48000/48921/large/wapdb-tsugumi-morimoto-pornostar-asiatique.warashi-asian-pornstars.fr-48921-001.jpg",
+      },
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/49000/49081/large/wapdb-tsugumi-morimoto-pornostar-asiatique.warashi-asian-pornstars.fr-49081-001.jpg",
+      },
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/49000/49140/large/wapdb-tsugumi-morimoto-pornostar-asiatique.warashi-asian-pornstars.fr-49140-012.jpg",
+      },
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/49000/49142/large/wapdb-tsugumi-morimoto-pornostar-asiatique.warashi-asian-pornstars.fr-49142-001.jpg",
+      },
+    ],
+  },
 ];
 
 export default File3;
