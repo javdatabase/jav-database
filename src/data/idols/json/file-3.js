@@ -11,6 +11,7 @@ import * as anna_kurata from "../images/anna-kurata";
 import * as haruka_miyazaki from "../images/haruka-miyazaki";
 import * as nonoka_otoha from "../images/nonoka-otoha";
 import * as anela from "../images/anela";
+import * as mana_minami from "../images/mana-minami";
 
 const File3 = [
   {
@@ -2233,6 +2234,24 @@ const File3 = [
       {
         picture:
           "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/49000/49142/large/wapdb-tsugumi-morimoto-pornostar-asiatique.warashi-asian-pornstars.fr-49142-001.jpg",
+      },
+    ],
+  },
+  {
+    idIdol: "jai163",
+    avatar: mana_minami.mana_minami_1,
+    name: "Mana Minami",
+    other: "",
+    born: "30/11/1993",
+    height: "155 cm",
+    breast: "84 cm",
+    cup: "D-Cup",
+    waist: "58 cm",
+    hips: "83 cm",
+    styles: [{ tag: "Slender" }],
+    album: [
+      {
+        picture: mana_minami.mana_minami_2,
       },
     ],
   },

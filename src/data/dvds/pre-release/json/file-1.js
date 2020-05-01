@@ -198,6 +198,13 @@ const File1 = [
     type: `Censored`,
     idols: [{ idIdol: "jai055", name: "Marina Yuzuki" }],
   },
+  {
+    code: `MSFH-019`,
+    title: `KIYO AMI AV DEBUT`,
+    poster: `http://pics.dmm.co.jp/mono/movie/adult/1msfh019/1msfh019pl.jpg`,
+    type: `Censored`,
+    idols: [{ idIdol: "jai000", name: "Ami Kitai" }],
+  },
 ];
 
 export default File1;
