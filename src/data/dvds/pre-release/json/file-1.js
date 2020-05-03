@@ -66,20 +66,6 @@ const File1 = [
     idols: [{ idIdol: "jai026", name: "Ayaka Tomoda" }],
   },
   {
-    code: `JUL-220`,
-    title: `MECHA X 100 SOFT ! ! ! J-CUP MARRIED WOMAN BORN TO HOLD JI ○ PORT NOZOMI TAKEI 32 YEARS OLD AV DEBUT ! ! !`,
-    poster: `http://pics.dmm.co.jp/mono/movie/adult/jul220/jul220pl.jpg`,
-    type: `Censored`,
-    idols: [{ idIdol: "jai000", name: "Nozomi Takei" }],
-  },
-  {
-    code: `JUL-211`,
-    title: `A SWEET AND DANGEROUS LIVING TOGETHER WITH AN ANIKI WOMAN . " IF YOU PUT YOUR HAND ON ME , YOU'LL BE KILLED BY ANIKI ? " NAO JINGUJI`,
-    poster: `http://pics.dmm.co.jp/mono/movie/adult/jul211/jul211pl.jpg`,
-    type: `Censored`,
-    idols: [{ idIdol: "jai158", name: "Nao Jinguuji" }],
-  },
-  {
     code: `ADN-248`,
     title: `KANA MORISAWA EMBRACED BY HER BROTHER-IN-LAW IN FRONT OF HER HUSBAND WHO DOESN'T KNOW ANYTHING`,
     poster: `http://pics.dmm.co.jp/mono/movie/adult/adn248/adn248pl.jpg`,

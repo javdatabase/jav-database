@@ -2255,6 +2255,24 @@ const File3 = [
       },
     ],
   },
+  // {
+  //   idIdol: "jai164",
+  //   avatar: "",
+  //   name: "Nozomi Takei",
+  //   other: "",
+  //   born: "20/12/xxxx",
+  //   height: "160 cm",
+  //   breast: "84 cm",
+  //   cup: "D-Cup",
+  //   waist: "57 cm",
+  //   hips: "86 cm",
+  //   styles: [{ tag: "Cute" }, { tag: "Beautiful Breasts" }],
+  //   album: [
+  //     {
+  //       picture: "",
+  //     },
+  //   ],
+  // },
 ];
 
 export default File3;
