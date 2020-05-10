@@ -3,8 +3,8 @@
     "static/js/0.38630ada.chunk.js": "/jav-database/static/js/0.38630ada.chunk.js",
     "static/js/0.38630ada.chunk.js.map": "/jav-database/static/js/0.38630ada.chunk.js.map",
     "main.css": "/jav-database/static/css/main.5637683e.chunk.css",
-    "main.js": "/jav-database/static/js/main.001db32f.chunk.js",
-    "main.js.map": "/jav-database/static/js/main.001db32f.chunk.js.map",
+    "main.js": "/jav-database/static/js/main.a97982da.chunk.js",
+    "main.js.map": "/jav-database/static/js/main.a97982da.chunk.js.map",
     "runtime-main.js": "/jav-database/static/js/runtime-main.694a16a5.js",
     "runtime-main.js.map": "/jav-database/static/js/runtime-main.694a16a5.js.map",
     "static/js/3.7603f8c3.chunk.js": "/jav-database/static/js/3.7603f8c3.chunk.js",
@@ -26,7 +26,7 @@
     "static/js/11.d07382f8.chunk.js": "/jav-database/static/js/11.d07382f8.chunk.js",
     "static/js/11.d07382f8.chunk.js.map": "/jav-database/static/js/11.d07382f8.chunk.js.map",
     "index.html": "/jav-database/index.html",
-    "precache-manifest.831b8e0e918284ebfb290b2850026d7d.js": "/jav-database/precache-manifest.831b8e0e918284ebfb290b2850026d7d.js",
+    "precache-manifest.3d912dfc65704b4360799cb4eee14458.js": "/jav-database/precache-manifest.3d912dfc65704b4360799cb4eee14458.js",
     "service-worker.js": "/jav-database/service-worker.js",
     "static/css/main.5637683e.chunk.css.map": "/jav-database/static/css/main.5637683e.chunk.css.map",
     "static/js/3.7603f8c3.chunk.js.LICENSE.txt": "/jav-database/static/js/3.7603f8c3.chunk.js.LICENSE.txt",
@@ -261,6 +261,6 @@
     "static/js/runtime-main.694a16a5.js",
     "static/js/3.7603f8c3.chunk.js",
     "static/css/main.5637683e.chunk.css",
-    "static/js/main.001db32f.chunk.js"
+    "static/js/main.a97982da.chunk.js"
   ]
 }
