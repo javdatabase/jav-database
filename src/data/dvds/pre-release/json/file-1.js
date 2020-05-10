@@ -14,13 +14,6 @@ const File1 = [
     idols: [{ idIdol: "jai041", name: "Julia" }],
   },
   {
-    code: `FSDSS-040`,
-    title: `ASK ... GET PREGNANT ... GIVE ME ... ! 2 DAYS AND 1 NIGHT HOT SPRING CONQUEST CHALLENGE TOUR AYAKA TOMODA`,
-    poster: `http://pics.dmm.co.jp/mono/movie/adult/1fsdss040/1fsdss040pl.jpg`,
-    type: `Censored`,
-    idols: [{ idIdol: "jai026", name: "Ayaka Tomoda" }],
-  },
-  {
     code: `EKDV-630`,
     title: `A SLUT OVERTIME NTR WITH A SUBORDINATE WHO DOES NOT WANT TO BE BARRED BY HIS WIFE`,
     poster: `http://pics.dmm.co.jp/mono/movie/adult/49ekdv630/49ekdv630pl.jpg`,
