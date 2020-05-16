@@ -204,6 +204,23 @@ const File34 = [
     type: `Censored`,
     idols: [{ idIdol: "jai144", name: "Kanna Misaki" }],
   },
+  {
+    code: `DNW-082`,
+    title: `RAW SHOOTING AMATEUR LEAKED VIDEO 16`,
+    poster: `http://pics.dmm.co.jp/mono/movie/adult/118dnw082/118dnw082pl.jpg`,
+    type: `Censored`,
+    idols: [
+      { idIdol: "jai057", name: "Yumi Maeda" },
+      { idIdol: "jai056", name: "Rui Hiduki" },
+    ],
+  },
+  {
+    code: `MDTM-635`,
+    title: `IMMEDIATE MEASURE IMMEDIATELY SADDLE CONTINUOUS EJACULATION PROMISED MAID REFRE VOL.003`,
+    poster: `http://pics.dmm.co.jp/mono/movie/adult/84mdtm635/84mdtm635pl.jpg`,
+    type: `Censored`,
+    idols: [{ idIdol: "jai148", name: "Nozomi Arimura" }],
+  },
 ];
 
 export default File34;
