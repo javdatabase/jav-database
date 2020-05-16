@@ -257,7 +257,7 @@ function IdolRanking({ data }) {
               {data.name} {data.other ? `(${data.other})` : ""}
             </NameIdol>
             <InformationIdol>
-              ● Born: {data.born}
+              ● Born: {data.born} ({data.age} year olds)
               <br />● Height: {data.height}
               <br />● Breast: {data.breast}{" "}
               <IdolCup cup={data.cup}>({data.cup})</IdolCup>
