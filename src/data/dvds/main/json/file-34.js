@@ -333,6 +333,27 @@ const File34 = [
     type: `Censored`,
     idols: [{ idIdol: "jai078", name: "Mitsuki Akai" }],
   },
+  {
+    code: `IENF-074`,
+    title: `GET A PRIZE IF YOU CAN FIRE WITH YOUR FRIENDS AND INTERCRURAL EXPERIENCE WITH ONE LAP SEPARATED BY SCHOOL GIRLS ONLY ! !`,
+    poster: `http://pics.dmm.co.jp/mono/movie/adult/1ienf074/1ienf074pl.jpg`,
+    type: `Censored`,
+    idols: [{ idIdol: "jai148", name: "Nozomi Arimura" }],
+  },
+  {
+    code: `SNKH-004`,
+    title: `J-CUP OL WANTS TO PLAY WITH BLACK PEOPLE ! A HUGE BREAST GIRL WHO FACED A LONGED-FOR BLACK STICK COLLAPSES REASON AND GOES CRAZY ! MARINA YUZUKI`,
+    poster: `http://pics.dmm.co.jp/mono/movie/adult/h_687snkh004/h_687snkh004pl.jpg`,
+    type: `Censored`,
+    idols: [{ idIdol: "jai055", name: "Marina Yuzuki" }],
+  },
+  {
+    code: `OMT-015`,
+    title: `A BEAUTIFUL WIFE WHO IS ESTRUS WITH THE SMELL OF ANOTHER PERSON'S POEM " I RAPED WITH A STICKY MEAT STICK ◆ " HIBIKI OTSUKI`,
+    poster: `http://pics.dmm.co.jp/mono/movie/adult/h_1359omt015/h_1359omt015pl.jpg`,
+    type: `Censored`,
+    idols: [{ idIdol: "jai002", name: "Hibiki Otsuki" }],
+  },
 ];
 
 export default File34;
