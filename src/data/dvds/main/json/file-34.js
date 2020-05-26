@@ -354,6 +354,34 @@ const File34 = [
     type: `Censored`,
     idols: [{ idIdol: "jai002", name: "Hibiki Otsuki" }],
   },
+  {
+    code: `JUL-225`,
+    title: `MADONNA'S EXCLUSIVE " MARINA SHIRAISHI " X SUPER IRON PLATE " AIMU " SERIES ! ! ! A FEMALE BOSS WHO HAS BEEN LONGING FOR A LONG TIME AT A BUSINESS HOTEL ON A BUSINESS TRIP`,
+    poster: `http://pics.dmm.co.jp/mono/movie/adult/jul225/jul225pl.jpg`,
+    type: `Censored`,
+    idols: [{ idIdol: "jai067", name: "Marina Shiraishi" }],
+  },
+  {
+    code: `XVSR-543`,
+    title: `AWAHIME TOGENGO ABSOLUTELY BEAUTIFUL GIRL SOAP LADY NOZOMI ARIMURA`,
+    poster: `http://pics.dmm.co.jp/mono/movie/adult/xvsr543so/xvsr543sopl.jpg`,
+    type: `Censored`,
+    idols: [{ idIdol: "jai148", name: "Nozomi Arimura" }],
+  },
+  {
+    code: `HND-837`,
+    title: `CONTINUOUS CREAM PIE SOAP THAT WILL NEVER MAKE YOU FIRE CONTINUOUSLY HINATA KOIZUMI`,
+    poster: `http://pics.dmm.co.jp/mono/movie/adult/hnd837/hnd837pl.jpg`,
+    type: `Censored`,
+    idols: [{ idIdol: "jai136", name: "Hinata Koizumi" }],
+  },
+  {
+    code: `LUKE-006`,
+    title: `SLUTTY SISTER SEDUCES WITH DIRTY WORDS WHILE ADHERING TO ALISA HANYU`,
+    poster: `http://pics.dmm.co.jp/mono/movie/adult/luke006so/luke006sopl.jpg`,
+    type: `Censored`,
+    idols: [{ idIdol: "jai054", name: "Arisa Hanyu" }],
+  },
 ];
 
 export default File34;
