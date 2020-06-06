@@ -2255,8 +2255,64 @@ const File3 = [
       },
     ],
   },
+  {
+    idIdol: "jai164",
+    avatar:
+      "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/36000/36759/large/wapdb-aoi-shirosaki-pornostar-asiatique.warashi-asian-pornstars.fr-36759-001.jpg",
+    name: "Kotone Suzumiya",
+    other: "Aoi Shirosaki",
+    born: "27/06/1992",
+    height: "157 cm",
+    breast: "84 cm",
+    cup: "D-Cup",
+    waist: "57 cm",
+    hips: "84 cm",
+    styles: [{ tag: "Cute" }, { tag: "Beautiful Breasts" }],
+    album: [
+      {
+        picture:
+          "https://www.japanesebeauties.net/hardcore/1pondo/aoi-shirosaki/012415_016/aoi-shirosaki-27.jpg",
+      },
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/27000/27742/large/wapdb-aoi-shirosaki-pornostar-asiatique.warashi-asian-pornstars.fr-27742-008.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/hardcore/caribbeancompr/aoi-shirosaki/021015_103/aoi-shirosaki-10.jpg",
+      },
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/36000/36760/large/wapdb-aoi-shirosaki-pornostar-asiatique.warashi-asian-pornstars.fr-36760-016.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/japanese/aoi-shirosaki/7/aoi-shirosaki-7.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/japanese/aoi-shirosaki/13/aoi-shirosaki-7.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/japanese/aoi-shirosaki/2/aoi-shirosaki-2.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/hardcore/caribbeancompr/aoi-shirosaki/021015_103/aoi-shirosaki-8.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/japanese/aoi-shirosaki/4/aoi-shirosaki-2.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/hardcore/caribbeancompr/aoi-shirosaki/021015_103/aoi-shirosaki-9.jpg",
+      },
+    ],
+  },
   // {
-  //   idIdol: "jai164",
+  //   idIdol: "jai165",
   //   avatar: "",
   //   name: "Nozomi Takei",
   //   other: "",
