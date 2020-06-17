@@ -2155,7 +2155,10 @@ const File7 = [
     title: `IMMEDIATELY IRAMA A SMALL JI ○ PORT YELLING PAINTED APHRODISIAC TO GIRLS WHO LIVE IN THE SAME APARTMENT . RESULT , NASTY REDUCTION IN THE THREAD DRAW KUE NOT KI JUICE TAINTED BREATH FACE MOTTO IF NE . 5 PIES ALL SP`,
     poster: `http://pics.dmm.co.jp/mono/movie/adult/1nhdta731/1nhdta731pl.jpg`,
     type: `Censored`,
-    idols: [{ idIdol: `jai003`, name: "Ruka Kanae" }],
+    idols: [
+      { idIdol: `jai003`, name: "Ruka Kanae" },
+      { idIdol: "jai164", name: "Kotone Suzumiya" },
+    ],
   },
   {
     code: `ATFB-239`,
