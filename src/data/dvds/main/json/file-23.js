@@ -2935,7 +2935,7 @@ const File23 = [
   {
     code: "FIV-032",
     title: `★ ★ ★ ★ ★ 5-STAR CH BROUGHT SEX SECRET SHOOTING SP CH.28 THOROUGH VIDEOTAPE OF AMATEUR DAUGHTER VOYEURISM 4 HOURS !`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/118fiv032/118fiv032pl.jpg",
+    poster: "http://img27.pixhost.to/images/129/92826882_i386825.jpg",
     type: "Censored",
     idols: [
       { idIdol: "jai014", name: "Rika Mari" },

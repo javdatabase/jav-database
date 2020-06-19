@@ -12,6 +12,8 @@ import * as haruka_miyazaki from "../images/haruka-miyazaki";
 import * as nonoka_otoha from "../images/nonoka-otoha";
 import * as anela from "../images/anela";
 import * as mana_minami from "../images/mana-minami";
+import * as kanon_yano from "../images/kanon-yano";
+import * as rikka_ono from "../images/rikka-ono";
 
 const File3 = [
   {
@@ -2311,8 +2313,87 @@ const File3 = [
       },
     ],
   },
+  {
+    idIdol: "jai165",
+    avatar: kanon_yano.kanon_yano_1,
+    name: "Kanon Yano",
+    other: "",
+    born: "30/03/1999",
+    height: "170 cm",
+    breast: "90 cm",
+    cup: "G-Cup",
+    waist: "54 cm",
+    hips: "86 cm",
+    styles: [
+      { tag: "6 Stars JAV" },
+      { tag: "Killer Tits" },
+      { tag: "Long Legs" },
+    ],
+    album: [
+      {
+        picture: kanon_yano.kanon_yano_3,
+      },
+      {
+        picture: kanon_yano.kanon_yano_4,
+      },
+      {
+        picture: kanon_yano.kanon_yano_5,
+      },
+      {
+        picture: kanon_yano.kanon_yano_6,
+      },
+      {
+        picture: kanon_yano.kanon_yano_2,
+      },
+    ],
+  },
+  {
+    idIdol: "jai166",
+    avatar: rikka_ono.rikka_ono_2,
+    name: "Rikka Ono",
+    other: "",
+    born: "30/01/2002",
+    height: "148 cm",
+    breast: "81 cm",
+    cup: "C-Cup",
+    waist: "58 cm",
+    hips: "82 cm",
+    styles: [{ tag: "Beautiful Breasts" }, { tag: "Slender" }],
+    album: [
+      {
+        picture: rikka_ono.rikka_ono_1,
+      },
+      {
+        picture: rikka_ono.rikka_ono_3,
+      },
+      {
+        picture: rikka_ono.rikka_ono_4,
+      },
+      {
+        picture: rikka_ono.rikka_ono_5,
+      },
+      {
+        picture: rikka_ono.rikka_ono_6,
+      },
+      {
+        picture: rikka_ono.rikka_ono_7,
+      },
+      {
+        picture: rikka_ono.rikka_ono_8,
+      },
+      {
+        picture: rikka_ono.rikka_ono_9,
+      },
+      {
+        picture: rikka_ono.rikka_ono_10,
+      },
+      {
+        picture: rikka_ono.rikka_ono_11,
+      },
+    ],
+  },
   // {
-  //   idIdol: "jai165",
+  //   idIdol: "jai167",
   //   avatar: "",
   //   name: "Nozomi Takei",
   //   other: "",
@@ -2322,7 +2403,7 @@ const File3 = [
   //   cup: "D-Cup",
   //   waist: "57 cm",
   //   hips: "86 cm",
-  //   styles: [{ tag: "Cute" }, { tag: "Beautiful Breasts" }],
+  //   styles: [{ tag: "Killer Tits" }],
   //   album: [
   //     {
   //       picture: "",
