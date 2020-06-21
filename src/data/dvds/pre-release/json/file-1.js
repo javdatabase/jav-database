@@ -21,16 +21,6 @@ const File1 = [
     idols: [{ idIdol: "jai001", name: "Yui Hatano" }],
   },
   {
-    code: "CJOD-247",
-    title: `REVERSE 4P SLUT TECH , LET'S MAKE IT COOL ! YUI HATANO BLOWS A MAN'S TIDE WHILE HIBIKI OTSUKI CLIMAXES WITH A NIPPLE BLAME AND CLAIRE HASUMI WITH AN ANAL BLAME FOR TODOME COMPLETE EJACULATION FORMATION`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/cjod247/cjod247pl.jpg",
-    type: "Censored",
-    idols: [
-      { idIdol: "jai001", name: "Yui Hatano" },
-      { idIdol: "jai002", name: "Hibiki Otsuki" },
-    ],
-  },
-  {
     code: `MIDE-795`,
     title: `PRIVATE TEACHER NAO'S CREAMPIE OK DIRTY AND TEMPTATION UNDERWEAR JINGUJI NAO`,
     poster: `http://pics.dmm.co.jp/mono/movie/adult/mide795/mide795pl.jpg`,

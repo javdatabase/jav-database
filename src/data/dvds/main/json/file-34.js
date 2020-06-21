@@ -2926,6 +2926,16 @@ const File34 = [
     type: `Censored`,
     idols: [{ idIdol: "jai048", name: "Honoka Tsuji" }],
   },
+  {
+    code: "CJOD-247",
+    title: `REVERSE 4P SLUT TECH , LET'S MAKE IT COOL ! YUI HATANO BLOWS A MAN'S TIDE WHILE HIBIKI OTSUKI CLIMAXES WITH A NIPPLE BLAME AND CLAIRE HASUMI WITH AN ANAL BLAME FOR TODOME COMPLETE EJACULATION FORMATION`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/cjod247/cjod247pl.jpg",
+    type: "Censored",
+    idols: [
+      { idIdol: "jai001", name: "Yui Hatano" },
+      { idIdol: "jai002", name: "Hibiki Otsuki" },
+    ],
+  },
 ];
 
 export default File34;
