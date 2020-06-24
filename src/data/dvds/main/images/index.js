@@ -147,6 +147,9 @@ import N1032 from "./N-1032.jpg";
 import N1042 from "./N-1042.jpg";
 import SMD116 from "./SMD-116.jpg";
 import PT191 from "./PT-191.jpg";
+import BT171 from "./BT-171.jpeg";
+import BT182 from "./BT-182.jpg";
+import PT192 from "./PT-192.jpg";
 
 export {
   CWP49,
@@ -298,4 +301,7 @@ export {
   N1042,
   SMD116,
   PT191,
+  BT171,
+  BT182,
+  PT192,
 };

@@ -1,4 +1,4 @@
-import { N1025, N1032, N1042, SMD116, PT191 } from "../images";
+import { N1025, N1032, N1042, SMD116, PT191, BT171 } from "../images";
 
 const File34 = [
   {
@@ -2935,6 +2935,34 @@ const File34 = [
       { idIdol: "jai001", name: "Yui Hatano" },
       { idIdol: "jai002", name: "Hibiki Otsuki" },
     ],
+  },
+  {
+    code: `DASD-680`,
+    title: `BISEXUAL TRANSSEXUAL DEBUT ALICE KANAME`,
+    poster: `http://pics.dmm.co.jp/mono/movie/adult/dasd680/dasd680pl.jpg`,
+    type: `Censored`,
+    idols: [{ idIdol: "jai145", name: "Moa Hoshizora" }],
+  },
+  {
+    code: `JUL-255`,
+    title: `MADONNA'S EXCLUSIVE " MARINA SHIRAISHI " X MASTER " NAGAE " MADONNA'S BEST-SELLING DRAMA THAT ATTRACTS THE BEST TAG EVER ! ! MOVING COMPANY NTR`,
+    poster: `http://pics.dmm.co.jp/mono/movie/adult/jul255/jul255pl.jpg`,
+    type: `Censored`,
+    idols: [{ idIdol: "jai067", name: "Marina Shiraishi" }],
+  },
+  {
+    code: `JAC-006`,
+    title: `GAL STAMEN [ CREAMPIE GAL X ROSARY SPLICING ] 03 CONTINUE TO INTRODUCE EROTIC GALS TO EROTIC GALS " GAL SERVANT " SELECTED FROM 3 EROTIC GALS`,
+    poster: `http://pics.dmm.co.jp/mono/movie/adult/118jac006/118jac006pl.jpg`,
+    type: `Censored`,
+    idols: [{ idIdol: "jai057", name: "Yumi Maeda" }],
+  },
+  {
+    code: `BT-171`,
+    title: `NYMPHO SISTERS`,
+    poster: BT171,
+    type: `Uncensored`,
+    idols: [{ idIdol: "jai082", name: "Miho Ichiki" }],
   },
 ];
 
