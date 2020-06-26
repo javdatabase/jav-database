@@ -14,6 +14,7 @@ import * as anela from "../images/anela";
 import * as mana_minami from "../images/mana-minami";
 import * as kanon_yano from "../images/kanon-yano";
 import * as rikka_ono from "../images/rikka-ono";
+import * as nozomi_takei from "../images/nozomi-takei";
 
 const File3 = [
   {
@@ -2392,24 +2393,39 @@ const File3 = [
       },
     ],
   },
-  // {
-  //   idIdol: "jai167",
-  //   avatar: "",
-  //   name: "Nozomi Takei",
-  //   other: "",
-  //   born: "20/12/xxxx",
-  //   height: "160 cm",
-  //   breast: "84 cm",
-  //   cup: "D-Cup",
-  //   waist: "57 cm",
-  //   hips: "86 cm",
-  //   styles: [{ tag: "Killer Tits" }],
-  //   album: [
-  //     {
-  //       picture: "",
-  //     },
-  //   ],
-  // },
+  {
+    idIdol: "jai167",
+    avatar: nozomi_takei.nozomi_takei_5,
+    name: "Nozomi Takei",
+    other: "",
+    born: "30/01/1988",
+    height: "160 cm",
+    breast: "103 cm",
+    cup: "J-Cup",
+    waist: "57 cm",
+    hips: "86 cm",
+    styles: [{ tag: "Killer Tits" }],
+    album: [
+      {
+        picture: nozomi_takei.nozomi_takei_6,
+      },
+      {
+        picture: nozomi_takei.nozomi_takei_4,
+      },
+      {
+        picture: nozomi_takei.nozomi_takei_7,
+      },
+      {
+        picture: nozomi_takei.nozomi_takei_3,
+      },
+      {
+        picture: nozomi_takei.nozomi_takei_2,
+      },
+      {
+        picture: nozomi_takei.nozomi_takei_1,
+      },
+    ],
+  },
 ];
 
 export default File3;

@@ -8,6 +8,7 @@ const SizesCup = [
   "G-Cup",
   "H-Cup",
   "I-Cup",
+  "J-Cup",
   "K-Cup",
   "L-Cup",
   "M-Cup",
