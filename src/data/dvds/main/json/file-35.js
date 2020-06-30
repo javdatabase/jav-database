@@ -65,6 +65,20 @@ const File35 = [
     type: `Censored`,
     idols: [{ idIdol: "jai143", name: "Kana Yume" }],
   },
+  {
+    code: `LULU-027`,
+    title: `NO.1 CHILDHOOD FRIEND WITH FAIR-SKINNED BIG TITS WHO BECAME A MAID AND 3 DAYS LAUNCH UNLIMITED COHABITATION LIFE`,
+    poster: `http://pics.dmm.co.jp/mono/movie/adult/lulu027/lulu027pl.jpg`,
+    type: `Censored`,
+    idols: [{ idIdol: "jai048", name: "Honoka Tsuji" }],
+  },
+  {
+    code: `BSTC-044`,
+    title: `SEX TRAINING AN OFFICE LADY FULL OF NEATNESS ! PLEASURE TORTURE EXPOSES THE NASTY NATURE !`,
+    poster: `http://pics.dmm.co.jp/mono/movie/adult/h_1117bstc044/h_1117bstc044pl.jpg`,
+    type: `Censored`,
+    idols: [{ idIdol: "jai016", name: "Kanako Iioka" }],
+  },
 ];
 
 export default File35;

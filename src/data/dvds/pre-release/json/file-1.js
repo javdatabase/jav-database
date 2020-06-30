@@ -107,13 +107,6 @@ const File1 = [
     idols: [{ idIdol: "jai036", name: "Akari Asagiri" }],
   },
   {
-    code: `LULU-027`,
-    title: `NO.1 CHILDHOOD FRIEND WITH FAIR-SKINNED BIG TITS WHO BECAME A MAID AND 3 DAYS LAUNCH UNLIMITED COHABITATION LIFE`,
-    poster: `http://pics.dmm.co.jp/mono/movie/adult/lulu027/lulu027pl.jpg`,
-    type: `Censored`,
-    idols: [{ idIdol: "jai048", name: "Honoka Tsuji" }],
-  },
-  {
     code: `MUDR-118`,
     title: `HINATA KOIZUMI , A NIPPLE HUNTER WHO HIDES IN THE TOILET AIMING FOR THE STUDENT COUNCIL CHAIR`,
     poster: `http://pics.dmm.co.jp/mono/movie/adult/mudr118/mudr118pl.jpg`,
