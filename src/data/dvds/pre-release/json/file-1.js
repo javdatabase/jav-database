@@ -51,13 +51,6 @@ const File1 = [
     idols: [{ idIdol: "jai157", name: "Suzume Mino" }],
   },
   {
-    code: `ABP-991`,
-    title: `CREAMPIE EJACULATION OFFICER 06 DE S OFFICER SQUEEZES IMPURE SPERM IN EXPLOSIVE COWGIRL ! ! SUZUMURA AIRI`,
-    poster: `http://pics.dmm.co.jp/mono/movie/adult/118abp991/118abp991pl.jpg`,
-    type: `Censored`,
-    idols: [{ idIdol: "jai113", name: "Airi Suzumura" }],
-  },
-  {
     code: `MIDE-797`,
     title: `18 YEARS OLD PACO OK! THE STRONGEST SERVICE MAID ROKKA ONO`,
     poster: `http://pics.dmm.co.jp/mono/movie/adult/mide797/mide797pl.jpg`,

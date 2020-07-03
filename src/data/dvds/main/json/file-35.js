@@ -114,6 +114,20 @@ const File35 = [
     type: `Censored`,
     idols: [{ idIdol: "jai021", name: "Aki Sasaki" }],
   },
+  {
+    code: `ABP-991`,
+    title: `CREAMPIE EJACULATION OFFICER 06 DE S OFFICER SQUEEZES IMPURE SPERM IN EXPLOSIVE COWGIRL ! ! SUZUMURA AIRI`,
+    poster: `http://pics.dmm.co.jp/mono/movie/adult/118abp991/118abp991pl.jpg`,
+    type: `Censored`,
+    idols: [{ idIdol: "jai113", name: "Airi Suzumura" }],
+  },
+  {
+    code: `PPT-095`,
+    title: `MARIA AINE 8 HOURS BEST PRESTIGE PREMIUM TREASURE VOL.05`,
+    poster: `http://pics.dmm.co.jp/mono/movie/adult/118ppt095/118ppt095pl.jpg`,
+    type: `Censored`,
+    idols: [{ idIdol: "jai072", name: "Maria Aine" }],
+  },
 ];
 
 export default File35;
