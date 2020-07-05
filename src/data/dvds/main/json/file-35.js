@@ -211,6 +211,13 @@ const File35 = [
     type: `Censored`,
     idols: [{ idIdol: "jai158", name: "Nao Jinguuji" }],
   },
+  {
+    code: `PPT-095`,
+    title: `MARIA AINE 8 HOURS BEST PRESTIGE PREMIUM TREASURE VOL.05`,
+    poster: `http://pics.dmm.co.jp/mono/movie/adult/118ppt095/118ppt095pl.jpg`,
+    type: `Censored`,
+    idols: [{ idIdol: "jai072", name: "Maria Aine" }],
+  },
 ];
 
 export default File35;
