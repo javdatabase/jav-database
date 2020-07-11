@@ -218,6 +218,13 @@ const File35 = [
     type: `Censored`,
     idols: [{ idIdol: "jai072", name: "Maria Aine" }],
   },
+  {
+    code: "PRED-247",
+    title: `MY SISTER'S FIANCÉ IS MY FIRST LOVE . BEFORE BECOMING A FAMILY ... A RECORD OF 3 DAYS OF HAVING SEX INSIDE MANY TIMES`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/pred247/pred247pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai041", name: "Julia" }],
+  },
 ];
 
 export default File35;

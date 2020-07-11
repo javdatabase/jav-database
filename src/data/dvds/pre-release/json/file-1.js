@@ -114,13 +114,6 @@ const File1 = [
     idols: [{ idIdol: "jai065", name: "Hitomi Tanaka" }],
   },
   {
-    code: "PRED-247",
-    title: `MY SISTER'S FIANCÉ IS MY FIRST LOVE . BEFORE BECOMING A FAMILY ... A RECORD OF 3 DAYS OF HAVING SEX INSIDE MANY TIMES`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/pred247/pred247pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai041", name: "Julia" }],
-  },
-  {
     code: "WANZ-973",
     title: `GUERRILLA THE NIGHT WHEN I WAS ALONE WITH MY BOSS WHO HATES SEXUAL HARASSMENT DUE TO HEAVY RAIN JULIA`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/wanz973/wanz973pl.jpg",
