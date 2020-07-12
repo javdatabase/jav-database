@@ -1,5 +1,3 @@
-import { BT182, PT192 } from "../../main/images";
-
 const File1 = [
   {
     code: `CESD-910`,
@@ -28,20 +26,6 @@ const File1 = [
     poster: `http://pics.dmm.co.jp/mono/movie/adult/meyd605/meyd605pl.jpg`,
     type: `Censored`,
     idols: [{ idIdol: "jai076", name: "Megu Fujiura" }],
-  },
-  {
-    code: `BT-182`,
-    title: `NO-BRA WIFE IN THE MORNING COMPILATION`,
-    poster: BT182,
-    type: `Uncensored`,
-    idols: [{ idIdol: "jai082", name: "Miho Ichiki" }],
-  },
-  {
-    code: `PT-192`,
-    title: `LESBIAN ORGY`,
-    poster: PT192,
-    type: `Uncensored`,
-    idols: [{ idIdol: "jai036", name: "Akari Asagiri" }],
   },
   {
     code: `MUDR-118`,

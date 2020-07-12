@@ -1,3 +1,5 @@
+import { BT182, PT192 } from "../images";
+
 const File35 = [
   {
     code: "SW-710",
@@ -289,6 +291,27 @@ const File35 = [
     poster: `http://pics.dmm.co.jp/mono/movie/adult/ipx519/ipx519pl.jpg`,
     type: `Censored`,
     idols: [{ idIdol: "jai075", name: "Minori Hatsune" }],
+  },
+  {
+    code: `BT-182`,
+    title: `NO-BRA WIFE IN THE MORNING COMPILATION`,
+    poster: BT182,
+    type: `Uncensored`,
+    idols: [{ idIdol: "jai082", name: "Miho Ichiki" }],
+  },
+  {
+    code: `PT-192`,
+    title: `LESBIAN ORGY`,
+    poster: PT192,
+    type: `Uncensored`,
+    idols: [{ idIdol: "jai036", name: "Akari Asagiri" }],
+  },
+  {
+    code: `DTT-059`,
+    title: `BIG BUTT EXTREME EROTIC WIFE , FIRST BAN CUM SHOT BAN ! ! IN THE THIRD YEAR OF MARRIAGE , SHE APPEARED WITH HER HUSBAND'S CHEATING BELLY ! ? CELEBRITY WIFE OF DENTIST MIREI IMADA 35-YEAR-OLD AV DEBUT EXPOSING ALL THE BEAUTY , SEXUALITY , SEX APPEAL THAT CAPTIVATED HER DENTIST'S HUSBAND !`,
+    poster: `http://pics.dmm.co.jp/mono/movie/adult/118dtt059/118dtt059pl.jpg`,
+    type: `Censored`,
+    idols: [{ idIdol: "jai168", name: "Mirei Imada" }],
   },
 ];
 

@@ -15,6 +15,7 @@ import * as mana_minami from "../images/mana-minami";
 import * as kanon_yano from "../images/kanon-yano";
 import * as rikka_ono from "../images/rikka-ono";
 import * as nozomi_takei from "../images/nozomi-takei";
+import * as mirei_imada from "../images/mirei-imada";
 
 const File3 = [
   {
@@ -2423,6 +2424,24 @@ const File3 = [
       },
       {
         picture: nozomi_takei.nozomi_takei_1,
+      },
+    ],
+  },
+  {
+    idIdol: "jai168",
+    avatar: mirei_imada.mirei_imada_2,
+    name: "Mirei Imada",
+    other: "",
+    born: "30/03/1985",
+    height: "164 cm",
+    breast: "88 cm",
+    cup: "F-Cup",
+    waist: "60 cm",
+    hips: "90 cm",
+    styles: [{ tag: "Cute" }, { tag: "Beautiful Breasts" }, { tag: "Slender" }],
+    album: [
+      {
+        picture: mirei_imada.mirei_imada_1,
       },
     ],
   },
