@@ -334,6 +334,20 @@ const File35 = [
     type: `Censored`,
     idols: [{ idIdol: "jai136", name: "Hinata Koizumi" }],
   },
+  {
+    code: `CESD-910`,
+    title: `YOUR PET YUI HATANO`,
+    poster: `http://pics.dmm.co.jp/mono/movie/adult/cesd910/cesd910pl.jpg`,
+    type: `Censored`,
+    idols: [{ idIdol: "jai001", name: "Yui Hatano" }],
+  },
+  {
+    code: `IPX-504`,
+    title: `CLIMAX ORGASM POSITION DEVELOPMENT SEX KANA MOMONOGI KANA I'VE NEVER SEEN ...`,
+    poster: `http://pics.dmm.co.jp/mono/movie/adult/ipx504/ipx504pl.jpg`,
+    type: `Censored`,
+    idols: [{ idIdol: "jai062", name: "Kana Momonogi" }],
+  },
 ];
 
 export default File35;
