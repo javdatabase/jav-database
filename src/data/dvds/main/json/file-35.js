@@ -348,6 +348,27 @@ const File35 = [
     type: `Censored`,
     idols: [{ idIdol: "jai062", name: "Kana Momonogi" }],
   },
+  {
+    code: "SSNI-826",
+    title: `YUA MIKAMI'S PLATINUM SOAP`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/ssni826/ssni826pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai070", name: "Yua Mikami" }],
+  },
+  {
+    code: "SSNI-827",
+    title: `I WAS A SLUT ENOUGH TO DIE IN MY OLDER BROTHER KANO TSUKASA AOI`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/ssni827/ssni827pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai069", name: "Tsukasa Aoi" }],
+  },
+  {
+    code: "PPPD-860",
+    title: `SEX APPEAL MUNMUN GOD HUGE BREASTS AND BUKKAKE BROKEN RAW CUM SHOT APHRODISIAC NASTY KIMESEKU BIG CUM ! ! ! HITOMI`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/pppd860/pppd860pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai065", name: "Hitomi Tanaka" }],
+  },
 ];
 
 export default File35;
