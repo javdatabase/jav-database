@@ -2445,6 +2445,42 @@ const File3 = [
       },
     ],
   },
+  {
+    idIdol: "jai169",
+    avatar:
+      "https://www.japanesebeauties.net/r18/momoe-takanashi/h_1285cbikmv00036/momoe-takanashi-9.jpg",
+    name: "Momoe Takanashi",
+    other: "",
+    born: "17/02/1998",
+    height: "154 cm",
+    breast: "88 cm",
+    cup: "F-Cup",
+    waist: "60 cm",
+    hips: "89 cm",
+    styles: [{ tag: "Cute" }, { tag: "Beautiful Breasts" }, { tag: "Slender" }],
+    album: [
+      {
+        picture:
+          "https://www.japanesebeauties.net/r18/momoe-takanashi/h_1456pxvr00014/momoe-takanashi-4.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/r18/momoe-takanashi/h_1456pxvr00014/momoe-takanashi-9.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/r18/momoe-takanashi/maxvr00066/momoe-takanashi-10.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/r18/momoe-takanashi/mdvr00077/momoe-takanashi-5.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/r18/momoe-takanashi/h_1285cbikmv00036/momoe-takanashi-12.jpg",
+      },
+    ],
+  },
 ];
 
 export default File3;
