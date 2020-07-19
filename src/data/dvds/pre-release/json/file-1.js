@@ -34,13 +34,6 @@ const File1 = [
     type: `Censored`,
     idols: [{ idIdol: "jai015", name: "Mao Kurata" }],
   },
-  {
-    code: `JUL-280`,
-    title: `MADONNA EXCLUSIVE MARRIED WOMAN'S IMMORAL INTERCOURSE SEEKING PLEASURE AND HEALING ! ! ! ! ! ADHESION SEX-CONTINUED TO BE COMFORTED BY NASTY SUFFERING-MARINA SHIRAISHI`,
-    poster: `http://pics.dmm.co.jp/mono/movie/adult/jul280/jul280pl.jpg`,
-    type: `Censored`,
-    idols: [{ idIdol: "jai067", name: "Marina Shiraishi" }],
-  },
 ];
 
 export default File1;
