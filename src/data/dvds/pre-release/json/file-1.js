@@ -123,13 +123,6 @@ const File1 = [
     idols: [{ idIdol: "jai048", name: "Honoka Tsuji" }],
   },
   {
-    code: "ABP-994",
-    title: `SMILE 120% ! ! ! SUZUMURA AIRI SPENDING ICHARAB DAYS LOVER'S EYES COMPLETE SUBJECTIVITY 3 PRODUCTION`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/118abp994/118abp994pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai113", name: "Airi Suzumura" }],
-  },
-  {
     code: "ABP-995",
     title: `PRODUCTION OK ! ? RUMORED BACK PINSALO 16 ENJOY THE BEST BODY IN THE AV WORLD! SUZUMORI REMU`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/118abp995/118abp995pl.jpg",
