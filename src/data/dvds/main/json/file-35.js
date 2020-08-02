@@ -708,6 +708,13 @@ const File35 = [
     type: "Censored",
     idols: [{ idIdol: "jai113", name: "Airi Suzumura" }],
   },
+  {
+    code: "RBD-974",
+    title: `KANA MORISAWA , ANAL RECEPTIONIST FOR BEAUTIFUL LANDLADY`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/rbd974/rbd974pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai016", name: "Kanako Iioka" }],
+  },
 ];
 
 export default File35;

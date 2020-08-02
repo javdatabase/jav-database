@@ -77,13 +77,6 @@ const File1 = [
     idols: [{ idIdol: "jai048", name: "Honoka Tsuji" }],
   },
   {
-    code: "RBD-974",
-    title: `KANA MORISAWA , ANAL RECEPTIONIST FOR BEAUTIFUL LANDLADY`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/rbd974/rbd974pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai016", name: "Kanako Iioka" }],
-  },
-  {
     code: "RBD-982",
     title: `STRONG ● CONCEPTION BLACK MARKET 3 YUI HATANO`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/rbd982/rbd982pl.jpg",
