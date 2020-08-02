@@ -77,13 +77,6 @@ const File1 = [
     idols: [{ idIdol: "jai048", name: "Honoka Tsuji" }],
   },
   {
-    code: "RBD-982",
-    title: `STRONG ● CONCEPTION BLACK MARKET 3 YUI HATANO`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/rbd982/rbd982pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai001", name: "Yui Hatano" }],
-  },
-  {
     code: "DASD-709",
     title: `THE APHRODISIAC WOMEN WHO HAVE BEEN BRAINWASHED BY APHRODISIACS HAVE BECOME EVEN MORE NASTY BITCH ...`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/dasd709/dasd709pl.jpg",

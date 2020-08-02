@@ -715,6 +715,20 @@ const File35 = [
     type: "Censored",
     idols: [{ idIdol: "jai016", name: "Kanako Iioka" }],
   },
+  {
+    code: "RBD-982",
+    title: `STRONG ● CONCEPTION BLACK MARKET 3 YUI HATANO`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/rbd982/rbd982pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai001", name: "Yui Hatano" }],
+  },
+  {
+    code: "ADN-258",
+    title: `FUCKED IN FRONT OF HER HUSBAND-IMMORAL OVERTIME WORK RIHO FUJIMORI`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/adn258/adn258pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai057", name: "Yumi Maeda" }],
+  },
 ];
 
 export default File35;
