@@ -84,17 +84,6 @@ const File1 = [
     idols: [{ idIdol: "jai001", name: "Yui Hatano" }],
   },
   {
-    code: "DOCP-237",
-    title: `YURIA SATOMI YUI HATANO FIRST COMPETITION DREAM MATCH LEGEND NIPPLE DEVELOPMENT BY TWO AV ACTRESSES ! " PEOPLE WHO CONTROL NIPPLES CONTROL AV WORLD ! ! "`,
-    poster:
-      "http://pics.dmm.co.jp/mono/movie/adult/118docp237/118docp237pl.jpg",
-    type: "Censored",
-    idols: [
-      { idIdol: "jai001", name: "Yui Hatano" },
-      { idIdol: "jai061", name: "Yuria Satomi" },
-    ],
-  },
-  {
     code: "IPX-525",
     title: `IDOL MOMONOGI'S VACUUM BLOW 5 MINUTES IF YOU CAN WITHSTAND IT , " KANA MOMONOGI " UNLIMITED SEX WITH HERSELF IN SHIBUYA ACTRESS VS AMATEUR PEACH TECH BLOW EXPLOSION ! ! !`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/ipx525/ipx525pl.jpg",

@@ -729,6 +729,24 @@ const File35 = [
     type: "Censored",
     idols: [{ idIdol: "jai057", name: "Yumi Maeda" }],
   },
+  {
+    code: "DOCP-237",
+    title: `YURIA SATOMI YUI HATANO FIRST COMPETITION DREAM MATCH LEGEND NIPPLE DEVELOPMENT BY TWO AV ACTRESSES ! " PEOPLE WHO CONTROL NIPPLES CONTROL AV WORLD ! ! "`,
+    poster:
+      "http://pics.dmm.co.jp/mono/movie/adult/118docp237/118docp237pl.jpg",
+    type: "Censored",
+    idols: [
+      { idIdol: "jai001", name: "Yui Hatano" },
+      { idIdol: "jai061", name: "Yuria Satomi" },
+    ],
+  },
+  {
+    code: "TSF-003",
+    title: `THOROUGH COVERAGE OF A MALE OFFICE WORKER ( 44 ) WHO WAS A YOUNG WOMAN WHEN I WOKE UP IN THE MORNING , I AM AN OLD MAN WITH A NERD CONTENT`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/tsf003/tsf003pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai056", name: "Rui Hiduki" }],
+  },
 ];
 
 export default File35;
