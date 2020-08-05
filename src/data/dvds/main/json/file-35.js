@@ -747,6 +747,38 @@ const File35 = [
     type: "Censored",
     idols: [{ idIdol: "jai056", name: "Rui Hiduki" }],
   },
+  {
+    code: "THP-84",
+    title: `SUPER HEROINE CLOSE CALL ! ! ! VOL.84 SUPER WARRIOR ELECTRIC MAN NOZOMI ARIMURA`,
+    poster:
+      "http://pics.dmm.co.jp/mono/movie/adult/h_173thp84/h_173thp84pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai148", name: "Nozomi Arimura" }],
+  },
+  {
+    code: "GHLS-67",
+    title: `SAILOR ANIMAL-AWAKENING! SAILOR CAT RUI HIZUKI`,
+    poster:
+      "http://pics.dmm.co.jp/mono/movie/adult/h_173ghls67/h_173ghls67pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai056", name: "Rui Hiduki" }],
+  },
+  {
+    code: "DKSB-066",
+    title: `FINEST BEAUTIFUL MATURE WOMAN AKI SASAKI BEST COLLECTION 5 HOURS`,
+    poster:
+      "http://pics.dmm.co.jp/mono/movie/adult/h_139dksb066/h_139dksb066pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai021", name: "Aki Sasaki" }],
+  },
+  {
+    code: "GHLS-71",
+    title: `SHADOW GIRL FALL GEKISHA MAJIN TOKUDANE HEN YUI HATANO`,
+    poster:
+      "http://pics.dmm.co.jp/mono/movie/adult/h_173ghls71/h_173ghls71pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai001", name: "Yui Hatano" }],
+  },
 ];
 
 export default File35;
