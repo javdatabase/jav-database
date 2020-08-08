@@ -98,13 +98,6 @@ const File1 = [
     idols: [{ idIdol: "jai048", name: "Honoka Tsuji" }],
   },
   {
-    code: "ABP-995",
-    title: `PRODUCTION OK ! ? RUMORED BACK PINSALO 16 ENJOY THE BEST BODY IN THE AV WORLD! SUZUMORI REMU`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/118abp995/118abp995pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai151", name: "Remu Suzumori" }],
-  },
-  {
     code: "MKMP-348",
     title: `DOUBLE H-CUP BOOBS PURUNPURUN MICRO BIKINI BIG BOOBS MIDSUMMER POOLSIDE SEX RUKA INABA TSUGUMI MORIMOTO`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/84mkmp348/84mkmp348pl.jpg",
