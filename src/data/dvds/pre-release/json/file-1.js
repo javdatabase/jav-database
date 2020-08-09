@@ -84,13 +84,6 @@ const File1 = [
     idols: [{ idIdol: "jai001", name: "Yui Hatano" }],
   },
   {
-    code: "IPX-525",
-    title: `IDOL MOMONOGI'S VACUUM BLOW 5 MINUTES IF YOU CAN WITHSTAND IT , " KANA MOMONOGI " UNLIMITED SEX WITH HERSELF IN SHIBUYA ACTRESS VS AMATEUR PEACH TECH BLOW EXPLOSION ! ! !`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/ipx525/ipx525pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai062", name: "Kana Momonogi" }],
-  },
-  {
     code: "MEYD-613",
     title: `I WENT TO MATT HEALTH WITHOUT A PRODUCTION AND CAME OUT WITH A PROUD BEAUTIFUL WIFE NEXT DOOR . WITH MY WEAKNESS , I FORCED THE PRODUCTION AND VAGINAL CUM SHOT ! HONOKA TSUJII , WHO WAS A COMPLIANT SEX GUY OUTSIDE THE STORE`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/meyd613/meyd613pl.jpg",

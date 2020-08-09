@@ -863,6 +863,20 @@ const File35 = [
     type: "Censored",
     idols: [{ idIdol: "jai034", name: "Mary Tachibana" }],
   },
+  {
+    code: "IPX-517",
+    title: `AMAMI TSUBASA AMAMI I AM SEEING ON THE TRAIN EVERY MORNING , BUT I CAN NOT DO ANYTHING BUT I'M ERECTING A SCRAP WHILE I'M SEEING IT`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/ipx517/ipx517pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai038", name: "Tsubasa Amami" }],
+  },
+  {
+    code: "IPX-525",
+    title: `IDOL MOMONOGI'S VACUUM BLOW 5 MINUTES IF YOU CAN WITHSTAND IT , " KANA MOMONOGI " UNLIMITED SEX WITH HERSELF IN SHIBUYA ACTRESS VS AMATEUR PEACH TECH BLOW EXPLOSION ! ! !`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/ipx525/ipx525pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai062", name: "Kana Momonogi" }],
+  },
 ];
 
 export default File35;
