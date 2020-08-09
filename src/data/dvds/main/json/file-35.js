@@ -877,6 +877,20 @@ const File35 = [
     type: "Censored",
     idols: [{ idIdol: "jai062", name: "Kana Momonogi" }],
   },
+  {
+    code: "JUFE-193",
+    title: `DADDY ACTIVE FEMALE COLLEGE STUDENT , UNCLE HONOKA'S RAW SQUIRREL TALL BREAST BODY THAT GETS WET WITH SEXUAL INTERCOURSE`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/jufe193/jufe193pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai048", name: "Honoka Tsuji" }],
+  },
+  {
+    code: "DASD-709",
+    title: `THE APHRODISIAC WOMEN WHO HAVE BEEN BRAINWASHED BY APHRODISIACS HAVE BECOME EVEN MORE NASTY BITCH ...`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/dasd709/dasd709pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai001", name: "Yui Hatano" }],
+  },
 ];
 
 export default File35;
