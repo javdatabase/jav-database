@@ -105,13 +105,6 @@ const File1 = [
     idols: [{ idIdol: "jai001", name: "Yui Hatano" }],
   },
   {
-    code: `VEC-434`,
-    title: `KANA MORISAWA , MY WIFE'S BEST FRIEND WHO PREACHED HER UNFAITHFUL YARITIN'S HUSBAND`,
-    poster: `http://pics.dmm.co.jp/mono/movie/adult/vec434/vec434pl.jpg`,
-    type: `Censored`,
-    idols: [{ idIdol: "jai016", name: "Kanako Iioka" }],
-  },
-  {
     code: `HZGD-161`,
     title: `HER SISTER'S UNPROTECTED I-CUP BEAUTY HUGE BREASTS BODY IS TOO EROTIC AND SECRETLY CUM SHOT AFFAIR INTERCOURSE ARISA HANYU`,
     poster: `http://pics.dmm.co.jp/mono/movie/adult/h_1100hzgd161/h_1100hzgd161pl.jpg`,

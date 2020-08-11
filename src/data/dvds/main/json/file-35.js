@@ -891,6 +891,13 @@ const File35 = [
     type: "Censored",
     idols: [{ idIdol: "jai001", name: "Yui Hatano" }],
   },
+    {
+    code: `VEC-434`,
+    title: `KANA MORISAWA , MY WIFE'S BEST FRIEND WHO PREACHED HER UNFAITHFUL YARITIN'S HUSBAND`,
+    poster: `http://pics.dmm.co.jp/mono/movie/adult/vec434/vec434pl.jpg`,
+    type: `Censored`,
+    idols: [{ idIdol: "jai016", name: "Kanako Iioka" }],
+  },
 ];
 
 export default File35;
