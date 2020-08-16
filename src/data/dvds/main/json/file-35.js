@@ -1149,6 +1149,13 @@ const File35 = [
     type: "Censored",
     idols: [{ idIdol: "jai148", name: "Nozomi Arimura" }],
   },
+  {
+    code: "SSNI-854",
+    title: `ROOKIE NO.1 STYLE ENTERTAINER RITSU NANATSU AV DEBUT`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/ssni854/ssni854pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai170", name: "Riri Nanatsumori" }],
+  },
 ];
 
 export default File35;

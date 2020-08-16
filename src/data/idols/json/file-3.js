@@ -16,6 +16,7 @@ import * as kanon_yano from "../images/kanon-yano";
 import * as rikka_ono from "../images/rikka-ono";
 import * as nozomi_takei from "../images/nozomi-takei";
 import * as mirei_imada from "../images/mirei-imada";
+import * as riri_nanatsumori from "../images/riri-nanatsumori";
 
 const File3 = [
   {
@@ -2478,6 +2479,58 @@ const File3 = [
       {
         picture:
           "https://www.japanesebeauties.net/r18/momoe-takanashi/h_1285cbikmv00036/momoe-takanashi-12.jpg",
+      },
+    ],
+  },
+  {
+    idIdol: "jai170",
+    avatar: riri_nanatsumori.riri_nanatsumori_5,
+    name: "Riri Nanatsumori",
+    other: "",
+    born: "11/11/1995",
+    height: "153 cm",
+    breast: "89 cm",
+    cup: "F-Cup",
+    waist: "62 cm",
+    hips: "90 cm",
+    styles: [
+      { tag: "6 Stars JAV" },
+      { tag: "Beautiful Breasts" },
+      { tag: "Slender" },
+      { tag: "Mixed-Race" },
+      { tag: "Former TV Actress" },
+      { tag: "Former Gravure Model" },
+    ],
+    album: [
+      {
+        picture: riri_nanatsumori.riri_nanatsumori_1,
+      },
+      {
+        picture: riri_nanatsumori.riri_nanatsumori_2,
+      },
+      {
+        picture: riri_nanatsumori.riri_nanatsumori_3,
+      },
+      {
+        picture: riri_nanatsumori.riri_nanatsumori_4,
+      },
+      {
+        picture: riri_nanatsumori.riri_nanatsumori_6,
+      },
+      {
+        picture: riri_nanatsumori.riri_nanatsumori_7,
+      },
+      {
+        picture: riri_nanatsumori.riri_nanatsumori_8,
+      },
+      {
+        picture: riri_nanatsumori.riri_nanatsumori_9,
+      },
+      {
+        picture: riri_nanatsumori.riri_nanatsumori_10,
+      },
+      {
+        picture: riri_nanatsumori.riri_nanatsumori_11,
       },
     ],
   },

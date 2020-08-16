@@ -28,13 +28,6 @@ const File1 = [
     idols: [{ idIdol: "jai001", name: "Yui Hatano" }],
   },
   {
-    code: "SSNI-854",
-    title: `ROOKIE NO.1 STYLE ENTERTAINER RITSU NANATSU AV DEBUT`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/ssni854/ssni854pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai000", name: "Riri Nanatsumori" }],
-  },
-  {
     code: `OKP-065`,
     title: `GOD GLASSES OL YUI HATANO EYEGLASSES OL ENJOY THE RAW PANTYHOSE WRAPPED AROUND THE BEAUTIFUL LEGS OF THE SUIT FROM THE SOLES OF YOUR FEET THAT ARE FULL OF CLOTHES AND TASTE YOUR TOES ! SOMETIMES YOU CAN DO FACE SITTING AND FOOTJOB , SOMETIMES VAGINAL CUM SHOT , SOMETIMES BUTT BUTT AND BUKKAKE ! FETISH AV ENJOYING THE TRANSFORMATION TRAINING CUM PLAY OF A WOMAN WHO WAS ESTRUS`,
     poster: `http://pics.dmm.co.jp/mono/movie/adult/1okp065/1okp065pl.jpg`,
