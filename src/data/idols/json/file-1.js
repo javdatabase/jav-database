@@ -1261,6 +1261,7 @@ const File1 = [
     waist: "58 cm",
     hips: "87 cm",
     styles: [
+      { tag: "Retired" },
       { tag: "6 Stars JAV" },
       { tag: "Cute" },
       { tag: "Beautiful Breasts" },
