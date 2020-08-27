@@ -7,13 +7,6 @@ const File1 = [
     idols: [{ idIdol: "jai015", name: "Mao Kurata" }],
   },
   {
-    code: `XVSR-551`,
-    title: `YUI HATANO WHO CAN BE ABSOLUTELY LIVE PRODUCTION`,
-    poster: `http://pics.dmm.co.jp/mono/movie/adult/xvsr551so/xvsr551sopl.jpg`,
-    type: `Censored`,
-    idols: [{ idIdol: "jai001", name: "Yui Hatano" }],
-  },
-  {
     code: `MIDE-814`,
     title: `A SWEATY ADULTERY TRIP IN THE MIDSUMMER THAT SPREES OVER AND OVER AGAIN AND AGAIN WITH THE BOSS OF A BOSS DURING A FATIGUE SHOKO TAKAHASHI`,
     poster: `http://pics.dmm.co.jp/mono/movie/adult/mide814/mide814pl.jpg`,
@@ -21,35 +14,11 @@ const File1 = [
     idols: [{ idIdol: "jai141", name: "Shoko Takahashi" }],
   },
   {
-    code: `CESD-921`,
-    title: `BEAUTIFUL THREE SISTERS INDIVIDUAL DERIHERU BEGAN YUI HATANO MOMOKA KATO SHINICHI AIKAWA`,
-    poster: `http://pics.dmm.co.jp/mono/movie/adult/cesd921/cesd921pl.jpg`,
-    type: `Censored`,
-    idols: [{ idIdol: "jai001", name: "Yui Hatano" }],
-  },
-  {
     code: `CESD-927`,
     title: `I'M RAPED BY A STALKER MAN WHO STICKS TO GLASSES TODAY ... KANA MORISAWA`,
     poster: `http://pics.dmm.co.jp/mono/movie/adult/cesd927/cesd927pl.jpg`,
     type: `Censored`,
     idols: [{ idIdol: "jai016", name: "Kanako Iioka" }],
-  },
-  {
-    code: `CEAD-318`,
-    title: `POPULAR FEMALE SEXUAL TREATMENT " G SHOT " AMERI HOSHI HIBIKI OTSUKI YURI HIKAWA KANA MORISAWA`,
-    poster: `http://pics.dmm.co.jp/mono/movie/adult/cead318/cead318pl.jpg`,
-    type: `Censored`,
-    idols: [
-      { idIdol: "jai002", name: "Hibiki Otsuki" },
-      { idIdol: "jai016", name: "Kanako Iioka" },
-    ],
-  },
-  {
-    code: `DTT-062`,
-    title: `GOLF COACH WIFE SEDUCES STUDENTS IN PRIVATE ADHESION LESSON KAREN ZAIZEN 35 YEARS OLD AV DEBUT SEXUAL WIFE WHO EATS STUDENTS IN ADHESION LESSONS`,
-    poster: `http://pics.dmm.co.jp/mono/movie/adult/118dtt062/118dtt062pl.jpg`,
-    type: `Censored`,
-    idols: [{ idIdol: "jai000", name: "Kallen Zaizen" }],
   },
   {
     code: `FSDSS-081`,
