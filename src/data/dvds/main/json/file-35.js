@@ -1284,6 +1284,27 @@ const File35 = [
       { idIdol: "jai139", name: "Mana Sakura" },
     ],
   },
+  {
+    code: `FSDSS-081`,
+    title: `KISSMANIA 100% HUMIDITY KISSING SEX AYAKA TOMODA`,
+    poster: `http://pics.dmm.co.jp/mono/movie/adult/1fsdss081/1fsdss081pl.jpg`,
+    type: `Censored`,
+    idols: [{ idIdol: "jai026", name: "Ayaka Tomoda" }],
+  },
+  {
+    code: `WANZ-980`,
+    title: `CLIMAX PEARL SHORTS MANIAX MAO KURATA`,
+    poster: `http://pics.dmm.co.jp/mono/movie/adult/wanz980/wanz980pl.jpg`,
+    type: `Censored`,
+    idols: [{ idIdol: "jai015", name: "Mao Kurata" }],
+  },
+  {
+    code: `MIDE-814`,
+    title: `A SWEATY ADULTERY TRIP IN THE MIDSUMMER THAT SPREES OVER AND OVER AGAIN AND AGAIN WITH THE BOSS OF A BOSS DURING A FATIGUE SHOKO TAKAHASHI`,
+    poster: `http://pics.dmm.co.jp/mono/movie/adult/mide814/mide814pl.jpg`,
+    type: `Censored`,
+    idols: [{ idIdol: "jai141", name: "Shoko Takahashi" }],
+  },
 ];
 
 export default File35;
