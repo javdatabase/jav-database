@@ -1305,6 +1305,20 @@ const File35 = [
     type: `Censored`,
     idols: [{ idIdol: "jai141", name: "Shoko Takahashi" }],
   },
+  {
+    code: `GNAX-033`,
+    title: `THE DAYS WHEN A NEAT AND TIMID YOUNG WIFE WAS FORCED TO BE HOMELESS - KANNA MISAKI`,
+    poster: `http://pics.dmm.co.jp/mono/movie/adult/h_1345gnax033/h_1345gnax033pl.jpg`,
+    type: `Censored`,
+    idols: [{ idIdol: "jai144", name: "Kanna Misaki" }],
+  },
+  {
+    code: `JJDA-008`,
+    title: `RUB ON BEHALF OF OYACHIN ... MARY TACHIBANA`,
+    poster: `http://pics.dmm.co.jp/mono/movie/adult/jjda008/jjda008pl.jpg`,
+    type: `Censored`,
+    idols: [{ idIdol: "jai034", name: "Mary Tachibana" }],
+  },
 ];
 
 export default File35;
