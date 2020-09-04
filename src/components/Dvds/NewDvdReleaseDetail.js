@@ -70,6 +70,7 @@ const IdolsContainer = styled.div`
 
 const TagIdol = styled(IdolTag)`
   cursor: pointer;
+  margin-top: 10px;
   background: ${(props) =>
     props.queen
       ? `linear-gradient(to right, ${Yellow}, ${Red})`
