@@ -49,13 +49,6 @@ const File1 = [
     idols: [{ idIdol: "jai166", name: "Rikka Ono" }],
   },
   {
-    code: `VRTM-519`,
-    title: `TWO INTELLIGENT BLACK PANTYHOSE FEMALE BOSSES WHO MISSED THE LAST TRAIN COME TO MY HOME ! THE WOMEN WHO WERE HUNGRY FOR JI-PO AND HAD TIPSY CONDITIONS EJACULATED TO DEATH UNTIL THE MORNING ! 2`,
-    poster: `http://pics.dmm.co.jp/mono/movie/adult/h_910vrtm519/h_910vrtm519pl.jpg`,
-    type: `Censored`,
-    idols: [{ idIdol: "jai015", name: "Mao Kurata" }],
-  },
-  {
     code: `MIAA-317`,
     title: `TEMPTATION INTERROGATION OF FEMALE INVESTIGATOR WRESTLING THREE DAYS CONTINUED TO BE TORTURED WHILE PILING OUT UNTIL SUSPECT CLEARED HASUMI CLAIRE MAO KURATA`,
     poster: `http://pics.dmm.co.jp/mono/movie/adult/miaa317/miaa317pl.jpg`,
