@@ -1403,6 +1403,27 @@ const File35 = [
     type: `Censored`,
     idols: [{ idIdol: "jai163", name: "Mana Minami" }],
   },
+  {
+    code: `IPX-532`,
+    title: `I'M OKAY WITH THIS SHOT BECAUSE IT'S MY NOMINATION GOD-MATCHING SOAP LADY WHO MAKES YOU EJACULATE UNLIMITEDLY 11 CONSECUTIVE EXCITEMENT EJACULATION KANANO YANO`,
+    poster: `http://pics.dmm.co.jp/mono/movie/adult/ipx532/ipx532pl.jpg`,
+    type: `Censored`,
+    idols: [{ idIdol: "jai165", name: "Kanon Yano" }],
+  },
+  {
+    code: `IPX-536`,
+    title: `3 DAYS OF ENDLESS ABSTINENCE , SWEAT AND CUM JUICE COVERED FOR 3 DAYS KANA MOMONOGI`,
+    poster: `http://pics.dmm.co.jp/mono/movie/adult/ipx536/ipx536pl.jpg`,
+    type: `Censored`,
+    idols: [{ idIdol: "jai062", name: "Kana Momonogi" }],
+  },
+  {
+    code: `IPX-537`,
+    title: `THIS IS A JOB ( INFILTRATION INVESTIGATION ) ... PLEASE DON'T SAY ANYTHING ... CAREER FEMALE INVESTIGATOR JET BLACK NTR CRUEL MISSION ... CRAZY VAGINAL CUM SHOT FROM A HATED MAN ! AMAMI TSUBASA`,
+    poster: `http://pics.dmm.co.jp/mono/movie/adult/ipx537/ipx537pl.jpg`,
+    type: `Censored`,
+    idols: [{ idIdol: "jai038", name: "Tsubasa Amami" }],
+  },
 ];
 
 export default File35;
