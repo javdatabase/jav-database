@@ -753,7 +753,7 @@ const File1 = [
     cup: "D-Cup",
     waist: "56 cm",
     hips: "87 cm",
-    styles: [{ tag: "Cute" }, { tag: "Beautiful Breasts" }],
+    styles: [{ tag: "Retired" }, { tag: "Cute" }, { tag: "Beautiful Breasts" }],
     album: [
       {
         picture:
@@ -2554,7 +2554,12 @@ const File1 = [
     cup: "E-Cup",
     waist: "57 cm",
     hips: "89 cm",
-    styles: [{ tag: "Cute" }, { tag: "Beautiful Breasts" }, { tag: "Slender" }],
+    styles: [
+      { tag: "Retired" },
+      { tag: "Cute" },
+      { tag: "Beautiful Breasts" },
+      { tag: "Slender" },
+    ],
     album: [
       {
         picture:
