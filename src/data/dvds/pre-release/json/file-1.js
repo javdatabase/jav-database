@@ -140,13 +140,6 @@ const File1 = [
     idols: [{ idIdol: "jai049", name: "Hikari Anzai" }],
   },
   {
-    code: `STARS-270`,
-    title: `FULL ERECTION WHEN I SEE A SENIOR FEMALE DETECTIVE WHO CAME TO SAVE ME WHO IS SICK OF BEING CIRCLED BY AN EVIL ORGANIZATION IORI FURUKAWA`,
-    poster: `http://pics.dmm.co.jp/mono/movie/adult/1stars270/1stars270pl.jpg`,
-    type: `Censored`,
-    idols: [{ idIdol: "jai059", name: "Iori Kogawa" }],
-  },
-  {
     code: `CLOT-013`,
     title: `PANTYHOSE TEMPTATION KANNA MISAKI`,
     poster: `http://pics.dmm.co.jp/mono/movie/adult/h_237clot013/h_237clot013pl.jpg`,
@@ -159,13 +152,6 @@ const File1 = [
     poster: `http://pics.dmm.co.jp/mono/movie/adult/lulu038/lulu038pl.jpg`,
     type: `Censored`,
     idols: [{ idIdol: "jai048", name: "Honoka Tsuji" }],
-  },
-  {
-    code: `MSFH-030`,
-    title: `PISTON FUCKING PLEASANTLY THAN GENITAL MOMOKA MAEDA`,
-    poster: `http://pics.dmm.co.jp/mono/movie/adult/1msfh030/1msfh030pl.jpg`,
-    type: `Censored`,
-    idols: [{ idIdol: "jai154", name: "Momoko Maeda" }],
   },
 ];
 

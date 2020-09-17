@@ -1539,6 +1539,20 @@ const File35 = [
     type: `Censored`,
     idols: [{ idIdol: "jai167", name: "Nozomi Takei" }],
   },
+  {
+    code: `STARS-270`,
+    title: `FULL ERECTION WHEN I SEE A SENIOR FEMALE DETECTIVE WHO CAME TO SAVE ME WHO IS SICK OF BEING CIRCLED BY AN EVIL ORGANIZATION IORI FURUKAWA`,
+    poster: `http://pics.dmm.co.jp/mono/movie/adult/1stars270/1stars270pl.jpg`,
+    type: `Censored`,
+    idols: [{ idIdol: "jai059", name: "Iori Kogawa" }],
+  },
+  {
+    code: `MSFH-030`,
+    title: `PISTON FUCKING PLEASANTLY THAN GENITAL MOMOKA MAEDA`,
+    poster: `http://pics.dmm.co.jp/mono/movie/adult/1msfh030/1msfh030pl.jpg`,
+    type: `Censored`,
+    idols: [{ idIdol: "jai154", name: "Momoko Maeda" }],
+  },
 ];
 
 export default File35;
