@@ -1784,6 +1784,27 @@ const File35 = [
     type: "Censored",
     idols: [{ idIdol: "jai007", name: "Mao Hamasaki" }],
   },
+  {
+    code: "SRMC-024",
+    title: `HYPNOSIS DOCUMENT MAO HAMASAKI VS EVENT ● MAGICIAN RED SECOND VOLUME`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/srmc024/srmc024pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai007", name: "Mao Hamasaki" }],
+  },
+  {
+    code: `CLOT-013`,
+    title: `PANTYHOSE TEMPTATION KANNA MISAKI`,
+    poster: `http://pics.dmm.co.jp/mono/movie/adult/h_237clot013/h_237clot013pl.jpg`,
+    type: `Censored`,
+    idols: [{ idIdol: "jai144", name: "Kanna Misaki" }],
+  },
+  {
+    code: `KV-227`,
+    title: `PACIFIER PREPARATORY SCHOOL 67 NOZOMI ARIMURA`,
+    poster: `http://pics.dmm.co.jp/mono/movie/adult/h_955kv227/h_955kv227pl.jpg`,
+    type: `Censored`,
+    idols: [{ idIdol: "jai148", name: "Nozomi Arimura" }],
+  },
 ];
 
 export default File35;

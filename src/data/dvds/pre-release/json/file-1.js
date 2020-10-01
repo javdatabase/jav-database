@@ -28,13 +28,6 @@ const File1 = [
     idols: [{ idIdol: "jai048", name: "Honoka Tsuji" }],
   },
   {
-    code: `CLOT-013`,
-    title: `PANTYHOSE TEMPTATION KANNA MISAKI`,
-    poster: `http://pics.dmm.co.jp/mono/movie/adult/h_237clot013/h_237clot013pl.jpg`,
-    type: `Censored`,
-    idols: [{ idIdol: "jai144", name: "Kanna Misaki" }],
-  },
-  {
     code: "JUL-334",
     title: `SWIMMING CLASS NTR SHOCKING CREAMPIE VIDEO OF MY WIFE DROWNING IN THE KINDNESS OF AN INSTRUCTOR NAO JINGUJI`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/jul334/jul334pl.jpg",
