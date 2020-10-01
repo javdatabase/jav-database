@@ -1805,6 +1805,20 @@ const File35 = [
     type: `Censored`,
     idols: [{ idIdol: "jai148", name: "Nozomi Arimura" }],
   },
+  {
+    code: `BSTC-047`,
+    title: `" I WANT TO BE EVEN MORE COMFORTABLE . " A PLEASURE-ADDICTED F-CUP FEMALE COLLEGE STUDENT , LOST EGO THROUGH ACME TRAINING, CLOUDY PUSSY JUICE DRIPPING SEX !`,
+    poster: `http://pics.dmm.co.jp/mono/movie/adult/h_1117bstc047/h_1117bstc047pl.jpg`,
+    type: `Censored`,
+    idols: [{ idIdol: "jai011", name: "Asahi Mizuno" }],
+  },
+  {
+    code: `SDAM-054`,
+    title: `SADDLE SELFIE ! AN AMATEUR GIRL WHO WANTS TO SEE HER NAUGHTY APPEARANCE BORROWS JI ○ AND SHOOTS ! THE ACTUAL SITUATION OF A CERTAIN DISTRIBUTION SITE CAREFULLY SELECTED EROTIC WOMAN !`,
+    poster: `http://pics.dmm.co.jp/mono/movie/adult/1sdam054/1sdam054pl.jpg`,
+    type: `Censored`,
+    idols: [{ idIdol: "jai057", name: "Yumi Maeda" }],
+  },
 ];
 
 export default File35;
