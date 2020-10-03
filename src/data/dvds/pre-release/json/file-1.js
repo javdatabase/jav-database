@@ -28,13 +28,6 @@ const File1 = [
     idols: [{ idIdol: "jai048", name: "Honoka Tsuji" }],
   },
   {
-    code: "JUL-334",
-    title: `SWIMMING CLASS NTR SHOCKING CREAMPIE VIDEO OF MY WIFE DROWNING IN THE KINDNESS OF AN INSTRUCTOR NAO JINGUJI`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/jul334/jul334pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai158", name: "Nao Jinguuji" }],
-  },
-  {
     code: "JUL-344",
     title: `" YOU'RE GOING TO BE LATE TONIGHT . " - A MARRIED REAL ESTATE LADY WHO CAN'T TELL ANYONE ABOUT COMPLAINTS`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/jul344/jul344pl.jpg",
