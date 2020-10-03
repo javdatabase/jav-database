@@ -150,6 +150,7 @@ import PT191 from "./PT-191.jpg";
 import BT171 from "./BT-171.jpeg";
 import BT182 from "./BT-182.jpg";
 import PT192 from "./PT-192.jpg";
+import HEY172 from "./HEY-172.jpg";
 
 export {
   CWP49,
@@ -304,4 +305,5 @@ export {
   BT171,
   BT182,
   PT192,
+  HEY172
 };

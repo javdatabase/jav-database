@@ -1851,6 +1851,20 @@ const File35 = [
     type: "Censored",
     idols: [{ idIdol: "jai162", name: "Tsugumi Morimoto" }],
   },
+  {
+    code: "SSPD-163",
+    title: `THE DAYS WHEN I WAS SPOILED WITH A FRUSTRATED MARRIED WOMAN AT A PART-TIME JOB . HATSUNE MINORI`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/sspd163/sspd163pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai075", name: "Minori Hatsune" }],
+  },
+  {
+    code: "SSPD-164",
+    title: `I COULDN'T STAND THE DEFENSELESS BODY OF MY CHILDHOOD FRIEND WHO BECAME MY SISTER-IN-LAW AND CROSSED THE LINE . YUAI KANA`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/sspd164/sspd164pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai143", name: "Kana Yume" }],
+  },
 ];
 
 export default File35;
