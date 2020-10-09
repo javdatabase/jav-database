@@ -13,9 +13,7 @@ import Layout from "./layout/Layout";
 
 import "./services/bootstrap.service";
 
-const CONFIG_BASE = "/jav-database";
-
-const history = createBrowserHistory({ basename: CONFIG_BASE });
+const history = createBrowserHistory();
 
 function App() {
   useEffect(() => {
