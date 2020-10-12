@@ -17,6 +17,7 @@ import * as rikka_ono from "../images/rikka-ono";
 import * as nozomi_takei from "../images/nozomi-takei";
 import * as mirei_imada from "../images/mirei-imada";
 import * as riri_nanatsumori from "../images/riri-nanatsumori";
+import * as aka_asuka from "../images/aka-asuka";
 
 const File3 = [
   {
@@ -2531,6 +2532,42 @@ const File3 = [
       },
       {
         picture: riri_nanatsumori.riri_nanatsumori_11,
+      },
+    ],
+  },
+  {
+    idIdol: "jai171",
+    avatar: aka_asuka.aka_asuka_1,
+    name: "Aka Asuka",
+    other: "",
+    born: "17/02/1998",
+    height: "162 cm",
+    breast: "105 cm",
+    cup: "J-Cup",
+    waist: "59 cm",
+    hips: "88 cm",
+    styles: [{ tag: "Killer Tits" }, { tag: "Teens" }],
+    album: [
+      {
+        picture: aka_asuka.aka_asuka_2,
+      },
+      {
+        picture: aka_asuka.aka_asuka_3,
+      },
+      {
+        picture: aka_asuka.aka_asuka_4,
+      },
+      {
+        picture: aka_asuka.aka_asuka_5,
+      },
+      {
+        picture: aka_asuka.aka_asuka_6,
+      },
+      {
+        picture: aka_asuka.aka_asuka_7,
+      },
+      {
+        picture: aka_asuka.aka_asuka_8,
       },
     ],
   },

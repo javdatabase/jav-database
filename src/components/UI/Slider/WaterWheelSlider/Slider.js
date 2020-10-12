@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo, useCallback } from "react";
+import React, { memo, useState, useEffect, useMemo, useCallback } from "react";
 import { get } from "lodash";
 import styled from "styled-components";
 
@@ -29,9 +29,9 @@ const Dots = styled.div`
 `;
 
 const Dot = styled.div`
-  width: ${props => (props.active ? "12px" : "8px")};
-  height: ${props => (props.active ? "12px" : "8px")};
-  background: ${props =>
+  width: ${(props) => (props.active ? "12px" : "8px")};
+  height: ${(props) => (props.active ? "12px" : "8px")};
+  background: ${(props) =>
     props.active
       ? props.customColor
         ? props.customColor
@@ -52,7 +52,7 @@ function Slider({ highlight, width, height, onSelect, customColor, ...props }) {
   }, [props.children]);
 
   const changeCurrent = useCallback(
-    value => {
+    (value) => {
       setCurrent(value);
       if (onSelect) {
         onSelect(value);
@@ -91,7 +91,7 @@ function Slider({ highlight, width, height, onSelect, customColor, ...props }) {
         ))}
       </SliderContainer>
       <Dots>
-        {dots.map(item => (
+        {dots.map((item) => (
           <Dot
             key={"dot-" + item.toString()}
             active={item === current}
@@ -104,4 +104,6 @@ function Slider({ highlight, width, height, onSelect, customColor, ...props }) {
   );
 }
 
-export default Slider;
+const MemoSlider = memo(Slider);
+
+export default MemoSlider;

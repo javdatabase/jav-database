@@ -1,4 +1,4 @@
-import React, { Fragment, useState, useEffect, useCallback } from "react";
+import React, { Fragment, memo, useState, useEffect, useCallback } from "react";
 import styled from "styled-components";
 
 import RollingIcon from "../../assets/images/ic_rolling/ic_rolling.svg";
@@ -52,4 +52,6 @@ function IdolAvatar({ src, lazy, ...props }) {
   );
 }
 
-export default IdolAvatar;
+const MemoIdolAvatar = memo(IdolAvatar);
+
+export default MemoIdolAvatar;

@@ -1,4 +1,4 @@
-import React, { useCallback } from "react";
+import React, {memo, useCallback } from "react";
 import styled from "styled-components";
 import { useHistory } from "react-router-dom";
 
@@ -100,4 +100,6 @@ function Header({ title, toggleMenu }) {
   );
 }
 
-export default Header;
+const MemoHeader = memo(Header)
+
+export default MemoHeader;

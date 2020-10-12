@@ -1,11 +1,11 @@
-import React, { Fragment, useCallback } from "react";
+import React, { Fragment, memo, useCallback } from "react";
 import styled from "styled-components";
 import { Link, useHistory, useLocation } from "react-router-dom";
 
 import {
   SIZE_MAIN_DVDS,
   SIZE_PRE_RELEASE_DVDS,
-  SIZE_AMATEUR_DVDS
+  SIZE_AMATEUR_DVDS,
 } from "../../services/dvds.service";
 import { SIZE_IDOLS } from "../../services/idols.service";
 import Backdrop from "../UI/Backdrop/Backdrop";
@@ -24,7 +24,7 @@ import {
   Orange,
   White,
   LightPurple,
-  DarkPurple
+  DarkPurple,
 } from "../../themes/colors";
 import { center } from "../../themes/styled";
 import { Large, XLarge } from "../../themes/font";
@@ -35,7 +35,7 @@ const Container = styled.div`
   position: fixed;
   z-index: 300;
   top: 0;
-  left: ${props => (props.show ? 0 : -300)}px;
+  left: ${(props) => (props.show ? 0 : -300)}px;
   background-image: linear-gradient(${Pink}, ${Orange});
   overflow: hidden;
   transition: 0.3s;
@@ -89,7 +89,7 @@ const Button = styled(Link)`
 
 const Navigate = styled(Link)`
   padding: 20px 30px;
-  background: ${props => (props.active === 1 ? Black : "transparent")};
+  background: ${(props) => (props.active === 1 ? Black : "transparent")};
   text-decoration: none;
   color: ${White};
   border-bottom: solid 1px ${White};
@@ -124,33 +124,33 @@ const navigate = [
   {
     path: "/home",
     title: "Home",
-    icon: HomeIcon
+    icon: HomeIcon,
   },
   {
     path: "/ranking",
     title: "Ranking",
-    icon: RankingIcon
+    icon: RankingIcon,
   },
   {
     path: "/idols",
     title: `Idols (${SIZE_IDOLS})`,
-    icon: WomanIcon
+    icon: WomanIcon,
   },
   {
     path: "/dvds",
     title: `Dvds (${SIZE_MAIN_DVDS})`,
-    icon: PlaylistIcon
+    icon: PlaylistIcon,
   },
   {
     path: "/pre-release-dvds",
     title: `Pre Release Dvds (${SIZE_PRE_RELEASE_DVDS})`,
-    icon: AlbumIcon
+    icon: AlbumIcon,
   },
   {
     path: "/amateur-dvds",
     title: `Amateur Dvds (${SIZE_AMATEUR_DVDS})`,
-    icon: ClipboardIcon
-  }
+    icon: ClipboardIcon,
+  },
 ];
 
 function Navbar({ show, toggleMenu }) {
@@ -183,7 +183,7 @@ function Navbar({ show, toggleMenu }) {
             to={item.path}
             onClick={toggleMenu}
             style={{
-              borderTop: index === 0 ? `solid 1px ${White}` : "transparent"
+              borderTop: index === 0 ? `solid 1px ${White}` : "transparent",
             }}
           >
             <ContentNavigate>
@@ -200,4 +200,6 @@ function Navbar({ show, toggleMenu }) {
   );
 }
 
-export default Navbar;
+const MemoNavbar = memo(Navbar);
+
+export default MemoNavbar;

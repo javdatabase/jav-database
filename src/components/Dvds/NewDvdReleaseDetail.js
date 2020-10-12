@@ -1,4 +1,4 @@
-import React, { Fragment, useState, useCallback } from "react";
+import React, { Fragment,memo, useState, useCallback } from "react";
 import styled from "styled-components";
 
 import { getIdolRank } from "../../services/common.service";
@@ -132,4 +132,6 @@ function NewDvdReleaseDetail({ data, active }) {
   );
 }
 
-export default NewDvdReleaseDetail;
+const MemoNewDvdReleaseDetail = memo(NewDvdReleaseDetail);
+
+export default MemoNewDvdReleaseDetail;

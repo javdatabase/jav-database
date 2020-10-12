@@ -1,4 +1,4 @@
-import React, { useCallback } from "react";
+import React, { memo, useCallback } from "react";
 import styled from "styled-components";
 
 const AnimationItem = styled.div`
@@ -172,4 +172,6 @@ function Item({ current, size, index, ...props }) {
   );
 }
 
-export default Item;
+const MemoItem = memo(Item);
+
+export default MemoItem;

@@ -1,4 +1,4 @@
-import React, { Fragment, useState, useMemo, useCallback } from "react";
+import React, { Fragment, memo, useState, useMemo, useCallback } from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
@@ -18,7 +18,7 @@ import {
   Yellow,
   LightBlue,
   Grey,
-  Red
+  Red,
 } from "../../themes/colors";
 import { center, fadeIn } from "../../themes/styled";
 import { Regular, XXLarge } from "../../themes/font";
@@ -29,7 +29,7 @@ const Container = styled.div`
   border-radius: 18px;
   padding: 10px;
   box-sizing: border-box;
-  background: ${props =>
+  background: ${(props) =>
     props.queen
       ? `linear-gradient(to right, ${Yellow}, ${Red})`
       : props.runnerUp
@@ -128,7 +128,7 @@ const PosterDvd = styled(DvdPoster)`
 const CodeDvd = styled.div`
   margin-top: 5px;
   font-size: ${Regular};
-  color: ${props => (props.uncensored ? Grey : Black)};
+  color: ${(props) => (props.uncensored ? Grey : Black)};
 `;
 
 const Points = styled.div`
@@ -140,7 +140,7 @@ const Points = styled.div`
   border-radius: 0px 18px 18px 0px;
   box-sizing: border-box;
   background-color: ${White};
-  color: ${props => props.color};
+  color: ${(props) => props.color};
   font-size: ${XXLarge};
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: ${Black};
@@ -155,7 +155,7 @@ const ViewProfile = styled(Link)`
   overflow: hidden;
   border-radius: 0px 0px 18px 18px;
   box-sizing: border-box;
-  background: ${props =>
+  background: ${(props) =>
     props.queen === "true"
       ? `linear-gradient(to right, ${Yellow}, ${Red})`
       : props.runner === "true"
@@ -191,7 +191,7 @@ function BestIdolDetail({ data, active }) {
   }, [show]);
 
   const handleChangeDvd = useCallback(
-    value => {
+    (value) => {
       if (value) {
         setDvd(value);
       } else {
@@ -231,13 +231,13 @@ function BestIdolDetail({ data, active }) {
                 <br />● Hips: {data.hips}
               </InformationIdol>
               <StylesIdolContainer>
-                {data.styles.map(item => (
+                {data.styles.map((item) => (
                   <StyleIdol key={item.tag} tag={item.tag} />
                 ))}
               </StylesIdolContainer>
             </IdolInformationContainer>
             <DvdsContainer>
-              {dvds.map(item => (
+              {dvds.map((item) => (
                 <DvdItem key={item.idDvd} onClick={() => handleChangeDvd(item)}>
                   <PosterDvd src={item.poster} />
                   <CodeDvd uncensored={item.type === "Uncensored"}>
@@ -255,4 +255,6 @@ function BestIdolDetail({ data, active }) {
   );
 }
 
-export default BestIdolDetail;
+const MemoBestIdolDetail = memo(BestIdolDetail);
+
+export default MemoBestIdolDetail;

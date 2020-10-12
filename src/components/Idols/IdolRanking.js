@@ -1,4 +1,4 @@
-import React, { Fragment, useState, useMemo, useCallback } from "react";
+import React, { Fragment, memo, useState, useMemo, useCallback } from "react";
 import styled from "styled-components";
 import { Link, useLocation } from "react-router-dom";
 
@@ -288,4 +288,6 @@ function IdolRanking({ data }) {
   );
 }
 
-export default IdolRanking;
+const MemoIdolRanking = memo(IdolRanking);
+
+export default MemoIdolRanking;

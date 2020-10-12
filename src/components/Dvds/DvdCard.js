@@ -29,7 +29,7 @@ const PosterDvd = styled(DvdPoster)`
 const CodeDvd = styled.div`
   margin-top: 10px;
   font-size: ${Large};
-  background: ${props =>
+  background: ${(props) =>
     props.uncensored
       ? `linear-gradient(to right, ${DarkBlue}, ${LightBlue})`
       : `linear-gradient(to right, ${Pink}, ${Orange})`};

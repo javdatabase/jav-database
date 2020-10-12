@@ -1,4 +1,4 @@
-import React, { Fragment, useMemo, useCallback } from "react";
+import React, { Fragment, memo, useMemo, useCallback } from "react";
 import styled from "styled-components";
 
 import Backdrop from "../UI/Backdrop/Backdrop";
@@ -14,7 +14,7 @@ const AvatarIdol = styled(IdolAvatar)`
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  display: ${props => (props.show === "true" ? "block" : "none")};
+  display: ${(props) => (props.show === "true" ? "block" : "none")};
   height: 90vh;
   border-radius: 12px;
   animation: ${fadeIn} 0.3s ease-in-out;
@@ -27,7 +27,7 @@ const PrevButton = styled.div`
   left: 28%;
   transform: translateY(-50%);
   ${center}
-  display: ${props => (props.show === "true" ? "flex" : "none")};
+  display: ${(props) => (props.show === "true" ? "flex" : "none")};
   width: 40px;
   height: 40px;
   background-color: ${Orange};
@@ -52,7 +52,7 @@ const NextButton = styled.div`
   right: 28%;
   transform: translateY(-50%);
   ${center}
-  display: ${props => (props.show === "true" ? "flex" : "none")};
+  display: ${(props) => (props.show === "true" ? "flex" : "none")};
   width: 40px;
   height: 40px;
   background-color: ${Orange};
@@ -105,4 +105,6 @@ function IdolPicture({ show, toggleModal, listData, data, setData }) {
   );
 }
 
-export default IdolPicture;
+const MemoIdolPicture = memo(IdolPicture);
+
+export default MemoIdolPicture;

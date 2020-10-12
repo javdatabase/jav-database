@@ -1,4 +1,4 @@
-import React, { useMemo, useCallback, useRef } from "react";
+import React, { memo, useMemo, useCallback, useRef } from "react";
 import styled from "styled-components";
 
 import { White, Pink, Orange } from "../../../themes/colors";
@@ -119,4 +119,6 @@ function Pagination({ count, page, size, handleChangePage }) {
   );
 }
 
-export default Pagination;
+const MemoPagination = memo(Pagination);
+
+export default MemoPagination;

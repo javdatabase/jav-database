@@ -1,4 +1,4 @@
-import React, { Fragment, useState, useEffect, useCallback } from "react";
+import React, { Fragment, memo, useState, useEffect, useCallback } from "react";
 import styled from "styled-components";
 
 import RollingIcon from "../../assets/images/ic_rolling/ic_rolling.svg";
@@ -52,4 +52,6 @@ function DvdPoster({ src, lazy, ...props }) {
   );
 }
 
-export default DvdPoster;
+const MemoDvdPoster = memo(DvdPoster);
+
+export default MemoDvdPoster;
