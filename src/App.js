@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
-import { Router } from "react-router-dom";
-import { createBrowserHistory } from "history";
+import { BrowserRouter } from "react-router-dom";
 
 import {
   RESULT_CHECK_ALREADY_EXIST_DVD,
@@ -12,8 +11,6 @@ import {
 import Layout from "./layout/Layout";
 
 import "./services/bootstrap.service";
-
-const history = createBrowserHistory();
 
 function App() {
   useEffect(() => {
@@ -28,9 +25,9 @@ function App() {
   }, []);
 
   return (
-    <Router history={history}>
+    <BrowserRouter>
       <Layout />
-    </Router>
+    </BrowserRouter>
   );
 }
 

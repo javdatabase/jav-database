@@ -1,23 +1,22 @@
 {
   "name": "jav-database",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "homepage": "https://www.javdatabase.com/",
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.0.4",
+    "@testing-library/user-event": "^12.1.7",
     "element-resize-event": "^3.0.3",
-    "history": "^4.10.1",
-    "lodash": "^4.17.15",
-    "moment": "^2.24.0",
+    "lodash": "^4.17.20",
+    "moment": "^2.29.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-lazyload": "^2.6.5",
+    "react-lazyload": "^3.0.0",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.4.1",
-    "react-select": "^3.0.8",
-    "styled-components": "^5.0.1"
+    "react-scripts": "3.4.3",
+    "react-select": "^3.1.0",
+    "styled-components": "^5.2.0"
   },
   "scripts": {
     "predeploy": "yarn build",
