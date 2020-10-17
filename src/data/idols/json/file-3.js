@@ -2571,6 +2571,114 @@ const File3 = [
       },
     ],
   },
+  {
+    idIdol: "jai172",
+    avatar:
+      "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/48000/48980/large/wapdb-maron-natsuki-pornostar-asiatique.warashi-asian-pornstars.fr-48980-001.jpg",
+    name: "Maron Natsuki",
+    other: "",
+    born: "25/12/1996",
+    height: "164 cm",
+    breast: "88 cm",
+    cup: "G-Cup",
+    waist: "58 cm",
+    hips: "88 cm",
+    styles: [{ tag: "Beautiful Breasts" }],
+    album: [
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/48000/48978/large/wapdb-maron-natsuki-pornostar-asiatique.warashi-asian-pornstars.fr-48978-001.jpg",
+      },
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/49000/49658/large/wapdb-maron-natsuki-pornostar-asiatique.warashi-asian-pornstars.fr-49658-003.jpg",
+      },
+    ],
+  },
+  {
+    idIdol: "jai173",
+    avatar:
+      "https://www.japanesebeauties.net/r18/rino-hazuki/royd00007/rino-hazuki-2.jpg",
+    name: "Rino Hazuki",
+    other: "",
+    born: "30/01/1999",
+    height: "150 cm",
+    breast: "88 cm",
+    cup: "G-Cup",
+    waist: "60 cm",
+    hips: "90 cm",
+    styles: [{ tag: "Beautiful Breasts" }],
+    album: [
+      {
+        picture:
+          "https://www.japanesebeauties.net/r18/rino-hazuki/royd00007/rino-hazuki-15.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/r18/rino-hazuki/1oks00091/rino-hazuki-12.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/r18/rino-hazuki/1oks00091/rino-hazuki-7.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/r18/rino-hazuki/1nyh00025/rino-hazuki-12.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/r18/rino-hazuki/h_1440fgan00021/rino-hazuki-3.jpg",
+      },
+    ],
+  },
+  {
+    idIdol: "jai174",
+    avatar:
+      "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/51000/51545/large/wapdb-mami-hoshino-pornostar-asiatique.warashi-asian-pornstars.fr-51545-020.jpg",
+    name: "Mami Hoshino",
+    other: "",
+    born: "30/10/2000",
+    height: "153 cm",
+    breast: "110 cm",
+    cup: "J-Cup",
+    waist: "70 cm",
+    hips: "108 cm",
+    styles: [{ tag: "Killer Tits" }],
+    album: [
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/51000/51544/large/wapdb-mami-hoshino-pornostar-asiatique.warashi-asian-pornstars.fr-51544-019.jpg",
+      },
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/51000/51544/large/wapdb-mami-hoshino-pornostar-asiatique.warashi-asian-pornstars.fr-51544-020.jpg",
+      },
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/51000/51545/large/wapdb-mami-hoshino-pornostar-asiatique.warashi-asian-pornstars.fr-51545-019.jpg",
+      },
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/51000/51545/large/wapdb-mami-hoshino-pornostar-asiatique.warashi-asian-pornstars.fr-51545-002.jpg",
+      },
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/51000/51547/large/wapdb-mami-hoshino-pornostar-asiatique.warashi-asian-pornstars.fr-51547-012.jpg",
+      },
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/51000/51545/large/wapdb-mami-hoshino-pornostar-asiatique.warashi-asian-pornstars.fr-51545-001.jpg",
+      },
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/51000/51543/large/wapdb-mami-hoshino-pornostar-asiatique.warashi-asian-pornstars.fr-51543-001.jpg",
+      },
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/51000/51546/large/wapdb-mami-hoshino-pornostar-asiatique.warashi-asian-pornstars.fr-51546-001.jpg",
+      },
+    ],
+  },
 ];
 
 export default File3;

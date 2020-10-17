@@ -2997,7 +2997,10 @@ const File34 = [
     title: `MIXED BATH WITH BUSTY COUSIN & AUNTY AUNT! MY GROWN-UP BIN BINCHI ○ CO CAN NOT STOP THE AUNT AND SISTER'S UNEVENNESS PRETEND TO WASH AND CLENCH IT AND PUT IT WHEN TWO PEOPLE ARE ALONE`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/1sw710/1sw710pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai007", name: "Mao Hamasaki" }],
+    idols: [
+      { idIdol: "jai007", name: "Mao Hamasaki" },
+      { idIdol: "jai173", name: "Rino Hazuki" },
+    ],
   },
   {
     code: "SW-712",
