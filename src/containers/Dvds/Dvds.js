@@ -73,7 +73,7 @@ const Container = styled.div`
 
 const DvdContainer = styled.div`
   display: grid;
-  grid-template-columns: repeat(6, minmax(14vw, 1fr));
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   gap: 10px;
   padding: 30px 20px;
   box-sizing: border-box;
@@ -255,6 +255,7 @@ function Dvds() {
                 height={"calc(10vw + 50px)"}
                 once={true}
                 overflow={true}
+                offset={100}
               >
                 {item.dvds.map((dvd) => (
                   <DvdItem key={dvd.idDvd}>

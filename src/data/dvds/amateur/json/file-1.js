@@ -20,6 +20,27 @@ const File1 = [
     type: `Censored`,
     idols: [{ idIdol: "jai000", name: "Hiro Shirasawa" }],
   },
+  {
+    code: `SOAN-048`,
+    title: `JUVENILE ANAL ADDICTION KENDO WAS A STREAK , BUT HE IS A PERVERTED 19-YEAR-OLD WHO IS DREAMING OF ANAL MASTURBATION AND STRANGLES 2 HOLES FUCK FROM A YOUNG AGE`,
+    poster: `http://pics.dmm.co.jp/mono/movie/adult/soan048/soan048pl.jpg`,
+    type: `Censored`,
+    idols: [{ idIdol: "jai000", name: "Hiro Shirasawa" }],
+  },
+  {
+    code: `GZAP-031`,
+    title: `J-TYPE WHO IS FAMILIAR WITH THE SELF-DEFENSE DOJO AS A COUNTERMEASURE AGAINST IDIOTS , IS FULL OF SKIES AND TRIES TO BE SEXUALLY HARASSED WHILE HE IS PRACTICING W`,
+    poster: `http://pics.dmm.co.jp/mono/movie/adult/118gzap031/118gzap031pl.jpg`,
+    type: `Censored`,
+    idols: [{ idIdol: "jai000", name: "Hiro Shirasawa" }],
+  },
+  {
+    code: `GGEN-007`,
+    title: `ACTUALLY , MY WIFE ( 28 ) WAS NTR BY A YOGA SCHOOL TEACHER ( 22 ) ... PLEASE RELEASE ANAL 3P AV BECAUSE IT IS TOO MUCH`,
+    poster: `http://pics.dmm.co.jp/mono/movie/adult/118ggen007/118ggen007pl.jpg`,
+    type: `Censored`,
+    idols: [{ idIdol: "jai000", name: "Hiro Shirasawa" }],
+  },
 ];
 
 export default File1;
