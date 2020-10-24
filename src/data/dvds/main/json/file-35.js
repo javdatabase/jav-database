@@ -2848,6 +2848,13 @@ const File35 = [
     type: "Censored",
     idols: [{ idIdol: "jai016", name: "Kanako Iioka" }],
   },
+  {
+    code: "MDBK-135",
+    title: `REVERSE SEXUAL HARASSMENT LESSON OF NURUTEKA YOGA INSTRUCTOR WHO SEDUCES A MAN WITH OUTSTANDING SWEATY STYLE`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/84mdbk135/84mdbk135pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai007", name: "Mao Hamasaki" }],
+  },
 ];
 
 export default File35;
