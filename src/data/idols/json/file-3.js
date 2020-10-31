@@ -1613,7 +1613,7 @@ const File3 = [
     avatar:
       "https://www.japanesebeauties.net/hardcore/caribbeancompr/harua-narumiya/071317_002/harua-narumiya-10.jpg",
     name: "Harua Narumiya",
-    other: "Nozomi Hinata",
+    other: "Haruka Nogi",
     born: "30/07/1992",
     height: "163 cm",
     breast: "97 cm",

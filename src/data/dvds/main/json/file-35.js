@@ -2986,6 +2986,20 @@ const File35 = [
     type: "Uncensored",
     idols: [{ idIdol: "jai078", name: "Mitsuki Akai" }],
   },
+  {
+    code: `JUL-355`,
+    title: `A SHOCKING CHEATING IMAGE OF MY WIFE DROWNING IN THE POWER OF A PERSONAL GYM NTR TRAINER HARUKA NOGI`,
+    poster: `http://pics.dmm.co.jp/mono/movie/adult/jul355/jul355pl.jpg`,
+    type: `Censored`,
+    idols: [{ idIdol: "jai146", name: "Harua Narumiya" }],
+  },
+  {
+    code: `GVH-150`,
+    title: `PRESIDENT'S SON H SOCIAL STUDIES TOUR 6 MAYU SUZUKI / AI KAWANA / HARUKA NOGI`,
+    poster: `http://pics.dmm.co.jp/mono/movie/adult/13gvh150/13gvh150pl.jpg`,
+    type: `Censored`,
+    idols: [{ idIdol: "jai146", name: "Harua Narumiya" }],
+  },
 ];
 
 export default File35;
