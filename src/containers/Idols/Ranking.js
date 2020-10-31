@@ -72,7 +72,7 @@ function Ranking() {
   return (
     <Container ref={containerRef} onScroll={handleScroll}>
       <RankingContainer>
-        {ALL_IDOLS_DETAIL.map((item, index) => (
+        {ALL_IDOLS_DETAIL.map((item) => (
           <LazyLoad key={item.idIdol} height={200} once={true} overflow={true}>
             <IdolItem>
               <IdolRanking data={item} />
