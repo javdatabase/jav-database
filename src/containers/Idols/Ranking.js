@@ -1,5 +1,7 @@
-import React from "react";
+import React, { useState, useRef, useEffect, useCallback } from "react";
+import { get } from "lodash";
 import styled from "styled-components";
+import Cookies from "js-cookie";
 import LazyLoad from "react-lazyload";
 
 import { ALL_IDOLS_DETAIL } from "../../services/idols.service";
@@ -41,10 +43,36 @@ const IdolItem = styled.div`
 `;
 
 function Ranking() {
+  const [mount, setMount] = useState(false);
+  const [scroll, setScroll] = useState(0);
+  const containerRef = useRef();
+
+  useEffect(() => {
+    if (containerRef && containerRef.current && !mount) {
+      const scrollCookies = Cookies.get("scroll");
+      if (scrollCookies) {
+        containerRef.current.scrollTo({ top: scrollCookies });
+      }
+      setMount(true);
+    }
+  }, [mount]);
+
+  useEffect(() => {
+    return () => {
+      Cookies.set("scroll", scroll);
+    };
+  }, [scroll]);
+
+  const handleScroll = useCallback(() => {
+    if (containerRef && containerRef.current) {
+      setScroll(get(containerRef.current, "scrollTop", 0));
+    }
+  }, []);
+
   return (
-    <Container>
+    <Container ref={containerRef} onScroll={handleScroll}>
       <RankingContainer>
-        {ALL_IDOLS_DETAIL.map(item => (
+        {ALL_IDOLS_DETAIL.map((item, index) => (
           <LazyLoad key={item.idIdol} height={200} once={true} overflow={true}>
             <IdolItem>
               <IdolRanking data={item} />

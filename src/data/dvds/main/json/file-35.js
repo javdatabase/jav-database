@@ -2480,13 +2480,6 @@ const File35 = [
     idols: [{ idIdol: "jai057", name: "Yumi Maeda" }],
   },
   {
-    code: "MGT-119",
-    title: `ERO COSPLAY RELAY BUTTON VOL.01`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/118mgt119/118mgt119pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai057", name: "Yumi Maeda" }],
-  },
-  {
     code: "DAC-017",
     title: `DOCK AMACHUA CHANNEL VOL.17`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/118dac017/118dac017pl.jpg",
