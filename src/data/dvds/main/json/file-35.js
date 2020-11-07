@@ -2477,7 +2477,10 @@ const File35 = [
     title: `ASSISTANCE AT LUNCHTIME SECRETLY TO THE COMPANY ● CUM SHOT TO A BEAUTIFUL OFFICE LADY WHO EARNS MONEY WITH SEX`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/84bazx249/84bazx249pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai057", name: "Yumi Maeda" }],
+    idols: [
+      { idIdol: "jai057", name: "Yumi Maeda" },
+      { idIdol: "jai169", name: "Momoe Takanashi" },
+    ],
   },
   {
     code: "DAC-017",
@@ -2992,6 +2995,20 @@ const File35 = [
     poster: `http://pics.dmm.co.jp/mono/movie/adult/13gvh150/13gvh150pl.jpg`,
     type: `Censored`,
     idols: [{ idIdol: "jai146", name: "Harua Narumiya" }],
+  },
+  {
+    code: `GVH-141`,
+    title: `ANAL DIRTY VII NOZOMI ARIMURA`,
+    poster: `http://pics.dmm.co.jp/mono/movie/adult/13gvh141/13gvh141pl.jpg`,
+    type: `Censored`,
+    idols: [{ idIdol: "jai148", name: "Nozomi Arimura" }],
+  },
+  {
+    code: "ABW-023",
+    title: `IN A SITUATION WHERE YOU CAN NOT MAKE A VOICE ... SECRETLY LOVE " CLOSE CONTACT " SEX VOL.03 3 PRODUCTION CLOSE CONTACT SEXUAL INTERCOURSE THAT KILLS YOUR VOICE IN AN UNPRECEDENTED CLOSED PLACE REMU SUZUMORI`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/118abw023/118abw023pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai151", name: "Remu Suzumori" }],
   },
 ];
 
