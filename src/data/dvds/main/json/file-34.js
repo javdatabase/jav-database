@@ -396,7 +396,7 @@ const File34 = [
     title: `MY SISTER-IN-LAW WHO IS IN THE HOUSE WATCHING THE WIFE'S INTENSE LUST HAS A LUST ... NAO JINGUJI`,
     poster: `http://pics.dmm.co.jp/mono/movie/adult/mide781/mide781pl.jpg`,
     type: `Censored`,
-    idols: [{ idIdol: "jai158", name: "Nao Jinguuji" }],
+    idols: [{ idIdol: "jai158", name: "Nao Jinguji" }],
   },
   {
     code: `MIDE-782`,

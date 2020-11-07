@@ -14,6 +14,13 @@ const File1 = [
     idols: [{ idIdol: "jai048", name: "Honoka Tsuji" }],
   },
   {
+    code: "JUFE-227",
+    title: `IF YOU KEEP SATISFYING WITH H FOR 4 YEARS UNTIL YOU GET MARRIED , THE FIRST RAW VAGINAL CUM SHOT SEX IN YOUR LIFE IS CONFIRMED ! MIDORIKAWA MIYABI`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/jufe227/jufe227pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai176", name: "Miyabi Midorikawa" }],
+  },
+  {
     code: "JUFE-231",
     title: `SNAKE TONGUE FUCKING GUY ● TRAINING SLIME BIG BREASTS TAKING ADVANTAGE OF THE WEAKNESS OF A CABARET GIRL AT A HOTEL ● HONOKA TSUJII`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/jufe231/jufe231pl.jpg",
@@ -155,11 +162,25 @@ const File1 = [
     idols: [{ idIdol: "jai065", name: "Hitomi Tanaka" }],
   },
   {
+    code: "HJMO-441",
+    title: `BEST FRIEND SHOWDOWN ! FIXED DILDO HIP PRETEND COMPETITION 1000 TIMES I HAVE TO GO HOME ! ! ! 8`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/hjmo441/hjmo441pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai048", name: "Honoka Tsuji" }],
+  },
+  {
     code: "HJMO-444",
     title: `CHALLENGE AS A COUPLE ! IF MY HUSBAND IS SQUID TWICE WITH JULIA'S AMAZING TECH , MY WIFE IS TAKEN DOWN AND SEX OUT IN RAW !`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/hjmo444/hjmo444pl.jpg",
     type: "Censored",
     idols: [{ idIdol: "jai041", name: "Julia" }],
+  },
+  {
+    code: "NSPS-944",
+    title: `THRILLING SEX THAT MAY BE CAUGHT BY HER HUSBAND`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/nsps944so/nsps944sopl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai034", name: "Mary Tachibana" }],
   },
   {
     code: "NSPS-948",
@@ -212,7 +233,7 @@ const File1 = [
     title: `A CARNIVOROUS NEW GRADUATE GIRL WHISPERS A LITTLE DEVILISH SWEET TO ME WHO MISSED THE LAST TRAIN AT THE WELCOME PARTY , " WOULD YOU LIKE TO STAY WITH MY SENIORS ? " NAO JINGUJI WHO LOST THE TEMPTATION AND HAD SEX MANY TIMES`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/mide856/mide856pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai158", name: "Nao Jinguuji" }],
+    idols: [{ idIdol: "jai158", name: "Nao Jinguji" }],
   },
   {
     code: "SSNI-916",
@@ -234,6 +255,50 @@ const File1 = [
     poster: "http://pics.dmm.co.jp/mono/movie/adult/ssni925/ssni925pl.jpg",
     type: "Censored",
     idols: [{ idIdol: "jai170", name: "Riri Nanatsumori" }],
+  },
+  {
+    code: "XVSR-563",
+    title: `PRIVATE MATTER INTENTION OF SHOOTING HAD BEEN IMMEDIATELY SADDLE AT HOME HARUHI KOTONE ( MARIA WAKATSUKI )`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/xvsr563so/xvsr563sopl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai164", name: "Kotone Suzumiya" }],
+  },
+  {
+    code: "XVSR-564",
+    title: `EROTIC DRAMA EVEN THOUGH I'M SLEEPING NEXT TO YOU ... , VOICE PATIENCE SO AS NOT TO GET CAUGHT NTR SEX MAO KURATA`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/xvsr564so/xvsr564sopl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai015", name: "Mao Kurata" }],
+  },
+  {
+    code: "XVSR-565",
+    title: `FULLY OPEN MOTHERHOOD FROM A CHILD'S PERSPECTIVE I WANT TO FEEL A BUBBLY FEELING FOR YUI MAMA AND SWEAR ! YUI HATANO`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/xvsr565so/xvsr565sopl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai001", name: "Yui Hatano" }],
+  },
+  {
+    code: "XVSR-566",
+    title: `AMAENBO NEW WIFE'S CHILD MAKING CREAMPIE SEXUAL ACTIVITY HIBIKI OTSUKI`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/xvsr566so/xvsr566sopl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai002", name: "Hibiki Otsuki" }],
+  },
+  {
+    code: "NACR-373",
+    title: `SON OF THE DAUGHTER-IN-LAW CANNA MISAKI`,
+    poster:
+      "http://pics.dmm.co.jp/mono/movie/adult/h_237nacr373/h_237nacr373pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai144", name: "Kanna Misaki" }],
+  },
+  {
+    code: "NACR-379",
+    title: `RUMORED FORTUNE-TELLER IN THE CITY MARON NATSUKI`,
+    poster:
+      "http://pics.dmm.co.jp/mono/movie/adult/h_237nacr379/h_237nacr379pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai172", name: "Maron Natsuki" }],
   },
 ];
 

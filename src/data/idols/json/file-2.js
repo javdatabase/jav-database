@@ -1,3 +1,5 @@
+import * as haruka_hakii from "../images/haruka-hakii";
+
 const File2 = [
   {
     idIdol: "jai058",
@@ -323,8 +325,7 @@ const File2 = [
   },
   {
     idIdol: "jai064",
-    avatar:
-      "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/38000/38859/large/wapdb-haruka-ichinose-pornostar-asiatique.warashi-asian-pornstars.fr-38859-008.jpg",
+    avatar: haruka_hakii.haruka_hakii_4,
     name: "Haruka Hakii",
     other: "Haruka Ichinose",
     born: "07/07/1993",
@@ -340,6 +341,13 @@ const File2 = [
       { tag: "Slender" },
     ],
     album: [
+      {
+        picture: haruka_hakii.haruka_hakii_3,
+      },
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/38000/38859/large/wapdb-haruka-ichinose-pornostar-asiatique.warashi-asian-pornstars.fr-38859-008.jpg",
+      },
       {
         picture:
           "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/39000/39322/large/wapdb-haruka-ichinose-pornostar-asiatique.warashi-asian-pornstars.fr-39322-001.jpg",
@@ -359,6 +367,15 @@ const File2 = [
       {
         picture:
           "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/37000/37349/large/wapdb-haruka-ichinose-pornostar-asiatique.warashi-asian-pornstars.fr-37349-001.jpg",
+      },
+      {
+        picture: haruka_hakii.haruka_hakii_1,
+      },
+      {
+        picture: haruka_hakii.haruka_hakii_2,
+      },
+      {
+        picture: haruka_hakii.haruka_hakii_5,
       },
     ],
   },
@@ -552,7 +569,12 @@ const File2 = [
     cup: "H-Cup",
     waist: "58 cm",
     hips: "88 cm",
-    styles: [{ tag: "Retired" },{ tag: "6 Stars JAV" }, { tag: "Cute" }, { tag: "Killer Tits" }],
+    styles: [
+      { tag: "Retired" },
+      { tag: "6 Stars JAV" },
+      { tag: "Cute" },
+      { tag: "Killer Tits" },
+    ],
     album: [
       { picture: "https://www.japanesebeauties.net/japanese/aoi/31/aoi-2.jpg" },
       { picture: "https://www.japanesebeauties.net/japanese/aoi/23/aoi-2.jpg" },

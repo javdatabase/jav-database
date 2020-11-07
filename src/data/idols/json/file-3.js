@@ -18,6 +18,8 @@ import * as nozomi_takei from "../images/nozomi-takei";
 import * as mirei_imada from "../images/mirei-imada";
 import * as riri_nanatsumori from "../images/riri-nanatsumori";
 import * as aka_asuka from "../images/aka-asuka";
+import * as konomi_yoshinaga from "../images/konomi-yoshinaga";
+import * as miyabi_midorikawa from "../images/miyabi-midorikawa";
 
 const File3 = [
   {
@@ -2083,7 +2085,7 @@ const File3 = [
     idIdol: "jai158",
     avatar:
       "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/42000/42232/large/wapdb-nao-jinguji-pornostar-asiatique.warashi-asian-pornstars.fr-42232-001.jpg",
-    name: "Nao Jinguuji",
+    name: "Nao Jinguji",
     other: "Mei Matsuoka",
     born: "30/03/1997",
     height: "160 cm",
@@ -2676,6 +2678,77 @@ const File3 = [
       {
         picture:
           "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/51000/51546/large/wapdb-mami-hoshino-pornostar-asiatique.warashi-asian-pornstars.fr-51546-001.jpg",
+      },
+    ],
+  },
+  {
+    idIdol: "jai175",
+    avatar: konomi_yoshinaga.konomi_yoshinaga_6,
+    name: "Konomi Yoshinaga",
+    other: "",
+    born: "13/04/1995",
+    height: "166 cm",
+    breast: "90 cm",
+    cup: "F-Cup",
+    waist: "59 cm",
+    hips: "89 cm",
+    styles: [{ tag: "Cute" }, { tag: "Beautiful Breasts" }],
+    album: [
+      {
+        picture: konomi_yoshinaga.konomi_yoshinaga_9,
+      },
+      {
+        picture: konomi_yoshinaga.konomi_yoshinaga_10,
+      },
+      {
+        picture: konomi_yoshinaga.konomi_yoshinaga_8,
+      },
+      {
+        picture: konomi_yoshinaga.konomi_yoshinaga_7,
+      },
+      {
+        picture: konomi_yoshinaga.konomi_yoshinaga_5,
+      },
+      {
+        picture: konomi_yoshinaga.konomi_yoshinaga_4,
+      },
+      {
+        picture: konomi_yoshinaga.konomi_yoshinaga_3,
+      },
+      {
+        picture: konomi_yoshinaga.konomi_yoshinaga_2,
+      },
+      {
+        picture: konomi_yoshinaga.konomi_yoshinaga_1,
+      },
+    ],
+  },
+  {
+    idIdol: "jai176",
+    avatar:
+      "https://www.japanesebeauties.net/r18/miyabi-midorikawa/jufe00198/miyabi-midorikawa-11.jpg",
+    name: "Miyabi Midorikawa",
+    other: "",
+    born: "01/07/1999",
+    height: "172 cm",
+    breast: "101 cm",
+    cup: "H-Cup",
+    waist: "63 cm",
+    hips: "89 cm",
+    styles: [{ tag: "Killer Tits" }, { tag: "Long Legs" }],
+    album: [
+      {
+        picture:
+          "https://www.japanesebeauties.net/r18/miyabi-midorikawa/jufe00198/miyabi-midorikawa-1.jpg",
+      },
+      {
+        picture: miyabi_midorikawa.miyabi_midorikawa_1,
+      },
+      {
+        picture: miyabi_midorikawa.miyabi_midorikawa_2,
+      },
+      {
+        picture: miyabi_midorikawa.miyabi_midorikawa_3,
       },
     ],
   },

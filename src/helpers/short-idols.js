@@ -156,7 +156,7 @@ const ShortIdols = [
   { idIdol: "jai155", name: "Reira Kitagawa" },
   { idIdol: "jai156", name: "Seira Aono" },
   { idIdol: "jai157", name: "Suzume Mino" },
-  { idIdol: "jai158", name: "Nao Jinguuji" },
+  { idIdol: "jai158", name: "Nao Jinguji" },
   { idIdol: "jai159", name: "Anna Kurata" },
   { idIdol: "jai160", name: "Nonoka Otoha" },
   { idIdol: "jai161", name: "Anela" },
@@ -173,6 +173,8 @@ const ShortIdols = [
   { idIdol: "jai172", name: "Maron Natsuki" },
   { idIdol: "jai173", name: "Rino Hazuki" },
   { idIdol: "jai174", name: "Mami Hoshino" },
+  { idIdol: "jai175", name: "Konomi Yoshinaga" },
+  { idIdol: "jai176", name: "Miyabi Midorikawa" },
 ];
 
 export default ShortIdols;
