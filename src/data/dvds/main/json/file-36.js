@@ -482,6 +482,13 @@ const File36 = [
     type: "Censored",
     idols: [{ idIdol: "jai176", name: "Miyabi Midorikawa" }],
   },
+  {
+    code: "STARS-298",
+    title: `YOU ... OUR INN IS THRIVING BECAUSE I'M ENTERTAINING WITH A VAGINAL CUM SHOT IORI FURUKAWA`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/1stars298/1stars298pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai059", name: "Iori Kogawa" }],
+  },
 ];
 
 export default File36;

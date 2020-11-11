@@ -91,13 +91,6 @@ const File1 = [
     idols: [{ idIdol: "jai073", name: "Minami Aizawa" }],
   },
   {
-    code: "STARS-298",
-    title: `YOU ... OUR INN IS THRIVING BECAUSE I'M ENTERTAINING WITH A VAGINAL CUM SHOT IORI FURUKAWA`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/1stars298/1stars298pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai059", name: "Iori Kogawa" }],
-  },
-  {
     code: "STARS-303",
     title: `HONJO SUZU X NATURAL HIGH NAKED SLUT ● OK DAUGHTER SPECIAL SODSTAR VER . EXCITE TRANSCENDENTAL BEAUTY TEACHER WITH NAKED SHAME AND MAKE IT OK`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/1stars303/1stars303pl.jpg",
