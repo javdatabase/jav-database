@@ -58,10 +58,10 @@ function getPriceOneNight(earnings) {
 }
 
 function getBonusEarnings(id) {
-  const bestDvd = [];
+  const bestDvd = ["jai166", "jai177"];
   const topPointGrowth = ["jai048"];
-  const sweetNight = [];
-  const bestIdol = [];
+  const sweetNight = ["jai177"];
+  const bestIdol = ["jai038", "jai041", "jai062", "jai166"];
   const topIdol = [
     "jai041",
     "jai048",
@@ -94,12 +94,15 @@ function getBonusEarnings(id) {
     "jai062",
     "jai073",
     "jai147",
+    "jai148",
     "jai152",
     "jai165",
     "jai166",
     "jai172",
+    "jai177",
+    "jai178",
   ];
-  const newbie = [];
+  const newbie = ["jai177", "jai178"];
 
   let bonus = 0;
 
