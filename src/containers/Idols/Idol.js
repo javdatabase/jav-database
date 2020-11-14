@@ -9,6 +9,7 @@ import { checkBestIdol } from "../../services/common.service";
 import {
   getEarningIdol,
   getPriceOneNight,
+  getBonusEarnings,
 } from "../../services/earnings.service";
 import { IDOL_PROFILE } from "../../services/idols.service";
 import Tabs from "../../components/UI/Tabs/Tabs";
@@ -244,15 +245,31 @@ const Picture = styled(IdolAvatar)`
   width: 18vw;
 `;
 
-const PriceIdol = styled.div`
+const EarningContainer = styled.div`
   position: absolute;
   left: 20px;
   bottom: 20px;
+  display: flex;
+  flex-direction: column;
+`;
+
+const PriceIdol = styled.div`
   padding: 5px 10px;
   border-radius: 12px;
   background-color: ${White};
   color: ${Black};
   font-size: ${Large};
+`;
+
+const BonusIdol = styled(PriceIdol)`
+  background: linear-gradient(to right, ${LightPurple}, ${DarkPurple});
+  color: ${White};
+  margin-top: 10px;
+`;
+
+const TotalIdol = styled(BonusIdol)`
+  background: linear-gradient(to right, ${Orange}, ${Pink});
+  color: ${White};
 `;
 
 function Idol() {
@@ -290,6 +307,18 @@ function Idol() {
   const price = useMemo(() => {
     return getPriceOneNight(earnings);
   }, [earnings]);
+
+  const bonus = useMemo(() => {
+    return getBonusEarnings(id);
+  }, [id]);
+
+  const total = useMemo(() => {
+    return bonus + earnings;
+  }, [bonus, earnings]);
+
+  const fee = useMemo(() => {
+    return getPriceOneNight(total);
+  }, [total]);
 
   const tabs = useMemo(() => {
     return [
@@ -452,9 +481,19 @@ function Idol() {
             <TabContent>{renderTabContent()}</TabContent>
           </div>
         </ProductContainer>
-        <PriceIdol>
-          ${priceCurrency(earnings)} ({priceCurrency(price)})
-        </PriceIdol>
+        <EarningContainer>
+          <PriceIdol>
+            ${priceCurrency(earnings)} ({priceCurrency(price)})
+          </PriceIdol>
+          {!!bonus && (
+            <Fragment>
+              <BonusIdol>${priceCurrency(bonus)}</BonusIdol>
+              <TotalIdol>
+                ${priceCurrency(total)} ({priceCurrency(fee)})
+              </TotalIdol>
+            </Fragment>
+          )}
+        </EarningContainer>
       </Container>
       <IdolPicture
         show={showPicture}
