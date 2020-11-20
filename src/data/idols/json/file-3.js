@@ -20,6 +20,7 @@ import * as riri_nanatsumori from "../images/riri-nanatsumori";
 import * as aka_asuka from "../images/aka-asuka";
 import * as konomi_yoshinaga from "../images/konomi-yoshinaga";
 import * as miyabi_midorikawa from "../images/miyabi-midorikawa";
+import * as momoka_tachibana from "../images/momoka-tachibana";
 
 const File3 = [
   {
@@ -2749,6 +2750,52 @@ const File3 = [
       },
       {
         picture: miyabi_midorikawa.miyabi_midorikawa_3,
+      },
+    ],
+  },
+  {
+    idIdol: "jai177",
+    avatar: momoka_tachibana.momoka_tachibana_10,
+    name: "Momoka Tachibana",
+    other: "Miu Narumi",
+    born: "30/04/1994",
+    height: "166 cm",
+    breast: "86 cm",
+    cup: "E-Cup",
+    waist: "59 cm",
+    hips: "87 cm",
+    styles: [{ tag: "Beautiful Breasts" }, { tag: "Slender" }],
+    album: [
+      {
+        picture: momoka_tachibana.momoka_tachibana_2,
+      },
+      {
+        picture: momoka_tachibana.momoka_tachibana_3,
+      },
+      {
+        picture: momoka_tachibana.momoka_tachibana_4,
+      },
+      {
+        picture: momoka_tachibana.momoka_tachibana_5,
+      },
+      {
+        picture: momoka_tachibana.momoka_tachibana_6,
+      },
+      {
+        picture: momoka_tachibana.momoka_tachibana_7,
+      },
+      {
+        picture: momoka_tachibana.momoka_tachibana_8,
+      },
+      {
+        picture: momoka_tachibana.momoka_tachibana_1,
+      },
+      {
+        picture: momoka_tachibana.momoka_tachibana_9,
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/r18/momoka-tachibana/1kire00004/momoka-tachibana-1.jpg",
       },
     ],
   },
