@@ -2799,6 +2799,67 @@ const File3 = [
       },
     ],
   },
+  {
+    idIdol: "jai178",
+    avatar:
+      "https://www.japanesebeauties.net/japanese/nami-hoshino/32/nami-hoshino-8.jpg",
+    name: "Nami Hoshino",
+    other: "",
+    born: "03/07/1992",
+    height: "152 cm",
+    breast: "90 cm",
+    cup: "G-Cup",
+    waist: "59 cm",
+    hips: "90 cm",
+    styles: [
+      { tag: "6 Stars JAV" },
+      { tag: "Cute" },
+      { tag: "Beautiful Breasts" },
+      { tag: "Slender" },
+    ],
+    album: [
+      {
+        picture:
+          "https://www.japanesebeauties.net/japanese/nami-hoshino/29/nami-hoshino-5.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/japanese/nami-hoshino/36/nami-hoshino-5.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/japanese/nami-hoshino/21/nami-hoshino-11.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/japanese/nami-hoshino/28/nami-hoshino-11.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/japanese/nami-hoshino/3/nami-hoshino-9.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/japanese/nami-hoshino/19/nami-hoshino-12.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/japanese/nami-hoshino/14/nami-hoshino-12.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/japanese/nami-hoshino/33/nami-hoshino-2.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/japanese/nami-hoshino/7/nami-hoshino-8.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/japanese/nami-hoshino/11/nami-hoshino-1.jpg",
+      },
+    ],
+  },
 ];
 
 export default File3;
