@@ -2860,6 +2860,60 @@ const File3 = [
       },
     ],
   },
+  {
+    idIdol: "jai179",
+    avatar:
+      "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/49000/49349/large/wapdb-kaho-imai-pornostar-asiatique.warashi-asian-pornstars.fr-49349-001.jpg",
+    name: "Kaho Imai",
+    other: "",
+    born: "30/11/1999",
+    height: "163 cm",
+    breast: "88 cm",
+    cup: "G-Cup",
+    waist: "60 cm",
+    hips: "90 cm",
+    styles: [{ tag: "Killer Tits" }, { tag: "Teens" }],
+    album: [
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/47000/47333/large/wapdb-kaho-imai-pornostar-asiatique.warashi-asian-pornstars.fr-47333-001.jpg",
+      },
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/47000/47333/large/wapdb-kaho-imai-pornostar-asiatique.warashi-asian-pornstars.fr-47333-002.jpg",
+      },
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/47000/47333/large/wapdb-kaho-imai-pornostar-asiatique.warashi-asian-pornstars.fr-47333-003.jpg",
+      },
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/47000/47335/large/wapdb-kaho-imai-pornostar-asiatique.warashi-asian-pornstars.fr-47335-007.jpg",
+      },
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/47000/47332/large/wapdb-kaho-imai-pornostar-asiatique.warashi-asian-pornstars.fr-47332-002.jpg",
+      },
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/49000/49351/large/wapdb-kaho-imai-pornostar-asiatique.warashi-asian-pornstars.fr-49351-012.jpg",
+      },
+
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/47000/47682/large/wapdb-kaho-imai-pornostar-asiatique.warashi-asian-pornstars.fr-47682-009.jpg",
+      },
+
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/51000/51425/large/wapdb-kaho-imai-pornostar-asiatique.warashi-asian-pornstars.fr-51425-003.jpg",
+      },
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/49000/49352/large/wapdb-kaho-imai-pornostar-asiatique.warashi-asian-pornstars.fr-49352-016.jpg",
+      },
+    ],
+  },
 ];
 
 export default File3;

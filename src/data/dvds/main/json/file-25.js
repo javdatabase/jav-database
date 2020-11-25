@@ -2980,6 +2980,7 @@ const File25 = [
     idols: [
       { idIdol: `jai015`, name: "Mao Kurata" },
       { idIdol: "jai145", name: "Moa Hoshizora" },
+      { idIdol: "jai179", name: "Kaho Imai" },
     ],
   },
   {

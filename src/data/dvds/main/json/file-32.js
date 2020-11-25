@@ -69,7 +69,10 @@ const File32 = [
     title: `OFFICE OL CHASING AROUND CREAMPIE MOLESTER`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/ap703/ap703pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai145", name: "Moa Hoshizora" }],
+    idols: [
+      { idIdol: "jai145", name: "Moa Hoshizora" },
+      { idIdol: "jai179", name: "Kaho Imai" },
+    ],
   },
   {
     code: "GS-292",
@@ -2235,7 +2238,10 @@ const File32 = [
     poster:
       "http://pics.dmm.co.jp/mono/movie/adult/118gnab001/118gnab001pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai127", name: "Reira Natsuki" }],
+    idols: [
+      { idIdol: "jai127", name: "Reira Natsuki" },
+      { idIdol: "jai179", name: "Kaho Imai" },
+    ],
   },
   {
     code: "SORA-236",
@@ -2258,7 +2264,10 @@ const File32 = [
     poster:
       "http://pics.dmm.co.jp/mono/movie/adult/118gnab006/118gnab006pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai127", name: "Reira Natsuki" }],
+    idols: [
+      { idIdol: "jai127", name: "Reira Natsuki" },
+      { idIdol: "jai179", name: "Kaho Imai" },
+    ],
   },
   {
     code: "GNAB-007",
@@ -2274,7 +2283,10 @@ const File32 = [
     poster:
       "http://pics.dmm.co.jp/mono/movie/adult/118gzap006/118gzap006pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai127", name: "Reira Natsuki" }],
+    idols: [
+      { idIdol: "jai127", name: "Reira Natsuki" },
+      { idIdol: "jai179", name: "Kaho Imai" },
+    ],
   },
   {
     code: "CEAD-278",

@@ -1519,7 +1519,10 @@ const File35 = [
     title: `SEDUCED BY MY YOUNGER MOTHER-IN-LAW ...`,
     poster: `http://pics.dmm.co.jp/mono/movie/adult/h_067nash357/h_067nash357pl.jpg`,
     type: `Censored`,
-    idols: [{ idIdol: "jai016", name: "Kanako Iioka" }],
+    idols: [
+      { idIdol: "jai049", name: "Hikari Anzai" },
+      { idIdol: "jai179", name: "Kaho Imai" },
+    ],
   },
   {
     code: `SQTE-320`,
@@ -1687,7 +1690,10 @@ const File35 = [
     title: `I WON THE TREASURE LOTTERY , SO I CALLED FOUR BIG BREASTS DERIHERU AND RENTED OUT UNTIL MORNING ! ~ FOR THE TIME BEING, LET'S PLAY HARLEM! HEN ~`,
     poster: `http://pics.dmm.co.jp/mono/movie/adult/mird206/mird206pl.jpg`,
     type: `Censored`,
-    idols: [{ idIdol: "jai048", name: "Honoka Tsuji" }],
+    idols: [
+      { idIdol: "jai048", name: "Honoka Tsuji" },
+      { idIdol: "jai179", name: "Kaho Imai" },
+    ],
   },
   {
     code: `MACB-019`,
@@ -2048,7 +2054,10 @@ const File35 = [
     title: `[ MIRACLE OF REIWA ! ] IN THE ILLEGAL LINGERIE PUB THAT HAS BEEN SPARED FROM BEING CAUGHT FROM SHOWA TO REIWA , THERE ARE RUMORS THAT EVEN NOW , THE BIG CUSTOMERS ARE SECRETLY DOING EVERYTHING FROM BLOWJOBS TO LIVE PERFORMANCES ! THOROUGH SCOOP OF EXTREME GIRLS DRESSED IN SEXY LINGERIE !`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/84scop687/84scop687pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai057", name: "Yumi Maeda" }],
+    idols: [
+      { idIdol: "jai057", name: "Yumi Maeda" },
+      { idIdol: "jai179", name: "Kaho Imai" },
+    ],
   },
   {
     code: "SCPX-407",

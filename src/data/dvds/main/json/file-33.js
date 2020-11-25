@@ -2161,7 +2161,10 @@ const File33 = [
     title: `DO YOU KNOW BLOOMERS ? I WANT TO SEE MORE . MY SISTER FOUND A BLOOMER WHEN SHE WAS A FEMALE STUDENT , AND SHE WAS WEARING IT WITH NOSTALGIC FUN , BUT HER ASS IS EROTIC WITH A TIGHT BUN ! ESTABLISHED EACH OTHER WHEN THEY COSPLAY IN BLOOMERS ASS`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/1sw666/1sw666pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai162", name: "Tsugumi Morimoto" }],
+    idols: [
+      { idIdol: "jai162", name: "Tsugumi Morimoto" },
+      { idIdol: "jai179", name: "Kaho Imai" },
+    ],
   },
   {
     code: "FSET-855",
@@ -2525,7 +2528,10 @@ const File33 = [
     title: `A GALAXY-CLASS BEAUTIFUL GIRL PRESIDENT SECRETARY IMEKURA PREMIUM VOL.002`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/84mdtm586/84mdtm586pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai162", name: "Tsugumi Morimoto" }],
+    idols: [
+      { idIdol: "jai162", name: "Tsugumi Morimoto" },
+      { idIdol: "jai179", name: "Kaho Imai" },
+    ],
   },
   {
     code: "SCG-016",
@@ -2540,7 +2546,10 @@ const File33 = [
     poster:
       "http://pics.dmm.co.jp/mono/movie/adult/h_1371zmen037/h_1371zmen037pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai162", name: "Tsugumi Morimoto" }],
+    idols: [
+      { idIdol: "jai162", name: "Tsugumi Morimoto" },
+      { idIdol: "jai179", name: "Kaho Imai" },
+    ],
   },
   {
     code: "BDA-104",
@@ -2727,7 +2736,10 @@ const File33 = [
     title: `NAKED OFFICE BUSTY OL HARLEM SPECIAL`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/84mdbk091/84mdbk091pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai162", name: "Tsugumi Morimoto" }],
+    idols: [
+      { idIdol: "jai162", name: "Tsugumi Morimoto" },
+      { idIdol: "jai179", name: "Kaho Imai" },
+    ],
   },
   {
     code: "SABA-607",

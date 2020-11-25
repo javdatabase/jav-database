@@ -958,7 +958,10 @@ const File31 = [
     title: `" ALWAYS INTERCOURSE " BIKINI MASSAGE 8 BIG TITS SUPER CLOSE COWGIRL FULL COURSE + TAKING DOWN 125 MINUTES GORGEOUS THERAPIST 9 PEOPLE OMNIBUS 230 MINUTES 2 DISCS TOTAL 355 MINUTES RECORDED !`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/1sdde597/1sdde597pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai055", name: "Marina Yuzuki" }],
+    idols: [
+      { idIdol: "jai055", name: "Marina Yuzuki" },
+      { idIdol: "jai179", name: "Kaho Imai" },
+    ],
   },
   {
     code: "KFNE-023",
@@ -1087,7 +1090,10 @@ const File31 = [
     title: `CHEEKY GIRLS ○ TEACHERS WHO FORCEFULLY COMMIT WHILE BEING CHEATED AND ABUSED BY STUDENTS`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/55t28576/55t28576pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai140", name: "Riona Minami" }],
+    idols: [
+      { idIdol: "jai140", name: "Riona Minami" },
+      { idIdol: "jai179", name: "Kaho Imai" },
+    ],
   },
   {
     code: "GHKR-82",
@@ -1480,7 +1486,10 @@ const File31 = [
     title: `PITCH PICHI'S BIKINI GAL LIMITED ! SEA HOUSE PICK-UP ! TAKE IT HOME TO LOVE HOTEL , AND THE SAME DAY ORGY PARTY ! !`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/nnpj352/nnpj352pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: `jai024`, name: "Shiori Kamisaki" }],
+    idols: [
+      { idIdol: `jai024`, name: "Shiori Kamisaki" },
+      { idIdol: "jai179", name: "Kaho Imai" },
+    ],
   },
   {
     code: "CLUB-569",
@@ -2229,7 +2238,10 @@ const File31 = [
     title: `GAL STAMEN LONG [ CREAMPIE GAL × ROSARY CONNECT ] 01 INTRODUCING EROTIC GALS TO EROTIC GALS AND CONTINUING TO CRAWL “ GAL STAMENS LONG ” EROTIC GALS 3 PEOPLE 240 MINUTES`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/118jac001/118jac001pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: `jai049`, name: "Hikari Anzai" }],
+    idols: [
+      { idIdol: `jai049`, name: "Hikari Anzai" },
+      { idIdol: "jai179", name: "Kaho Imai" },
+    ],
   },
   {
     code: "XRW-812",
