@@ -2971,6 +2971,40 @@ const File36 = [
     type: "Censored",
     idols: [{ idIdol: "jai139", name: "Mana Sakura" }],
   },
+  {
+    code: "FCDSS-001",
+    title: `FALENOSTAR FIRST BEST 24 TITLES 8 HOURS`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/1fcdss001/1fcdss001pl.jpg",
+    type: "Censored",
+    idols: [
+      { idIdol: "jai026", name: "Ayaka Tomoda" },
+      { idIdol: "jai068", name: "Aoi" },
+      { idIdol: "jai157", name: "Suzume Mino" },
+    ],
+  },
+  {
+    code: "FCDSS-005",
+    title: `SEX GODDESS SUZUME MINO FIRST BEST FALENO 1ST ANNIVERSARY 8 TITLES 8 HOURS SPECIAL`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/1fcdss005/1fcdss005pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai157", name: "Suzume Mino" }],
+  },
+  {
+    code: "MILK-096",
+    title: `120 MINUTES COMPLETELY UNCUT OVERCOME THE TEMPTATION OF THE PUNCH LINE CORPS NONSTOP MASTURBATION CHALLENGE RIONA MINAMI`,
+    poster:
+      "https://pics.dmm.co.jp/mono/movie/adult/h_1240milk096/h_1240milk096pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai140", name: "Riona Minami" }],
+  },
+  {
+    code: "MAST-004",
+    title: `AMATEUR SHOOTING VOL.04 G NANNY , FEMALE COLLEGE STUDENT , BIG PIE , GONZO , AMATEUR INDIVIDUAL SHOOTING`,
+    poster:
+      "https://pics.dmm.co.jp/mono/movie/adult/h_1523mast004/h_1523mast004pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai162", name: "Tsugumi Morimoto" }],
+  },
 ];
 
 export default File36;

@@ -63,14 +63,6 @@ const File1 = [
     idols: [{ idIdol: "jai054", name: "Arisa Hanyu" }],
   },
   {
-    code: "GNAX-039",
-    title: `SCREAMING IN THE DAYTIME THAT MY HUSBAND CAN NEVER SHOW ~ YUI HATANO , AN UNEQUALED MANIPULATIVE FERTILITY HEALER ~`,
-    poster:
-      "http://pics.dmm.co.jp/mono/movie/adult/h_1345gnax039/h_1345gnax039pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai001", name: "Yui Hatano" }],
-  },
-  {
     code: "JUL-388",
     title: `HIGH-CLASS WHORE NAO JINGUJI BEWITCHING , SPLENDID MARRIED WOMAN - , THE BEAUTY IS EXTREME`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/jul388/jul388pl.jpg",
@@ -183,6 +175,20 @@ const File1 = [
     poster: "http://pics.dmm.co.jp/mono/movie/adult/1stars307/1stars307pl.jpg",
     type: "Censored",
     idols: [{ idIdol: "jai139", name: "Mana Sakura" }],
+  },
+  {
+    code: "ABW-032",
+    title: `LIFE'S FIRST TRANCE STATE INTENSE CLIMAX SEX 54 F BREASTS BEAUTIFUL GIRL IS SQUID TO THE FULLEST`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/118abw032/118abw032pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai151", name: "Remu Suzumori" }],
+  },
+  {
+    code: "ABW-036",
+    title: `WITH A BEAUTIFUL GIRL , A PRIVATE HOT SPRING , AND DENSE SEXUAL INTERCOURSE . 11 ABSOLUTELY BEAUTIFUL GIRL RESERVED FOR ONE NIGHT , TO A HOT SPRING INN IN THE MOUNTAINS MINAMO NAGASE`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/118abw036/118abw036pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai152", name: "Minamo Nagase" }],
   },
 ];
 
