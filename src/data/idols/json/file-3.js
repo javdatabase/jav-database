@@ -21,6 +21,8 @@ import * as aka_asuka from "../images/aka-asuka";
 import * as konomi_yoshinaga from "../images/konomi-yoshinaga";
 import * as miyabi_midorikawa from "../images/miyabi-midorikawa";
 import * as momoka_tachibana from "../images/momoka-tachibana";
+import * as yuria_kanae from "../images/yuria-kanae";
+import * as haru_kawamura from "../images/haru-kawamura";
 
 const File3 = [
   {
@@ -2911,6 +2913,78 @@ const File3 = [
       {
         picture:
           "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/49000/49352/large/wapdb-kaho-imai-pornostar-asiatique.warashi-asian-pornstars.fr-49352-016.jpg",
+      },
+    ],
+  },
+  {
+    idIdol: "jai180",
+    avatar: yuria_kanae.yuria_kanae_1,
+    name: "Yuria Kanae",
+    other: "Yulia Kano",
+    born: "30/11/1994",
+    height: "158 cm",
+    breast: "96 cm",
+    cup: "H-Cup",
+    waist: "57 cm",
+    hips: "90 cm",
+    styles: [{ tag: "Killer Tits" }],
+    album: [
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/51000/51891/large/wapdb-yuria-kanae-pornostar-asiatique.warashi-asian-pornstars.fr-51891-010.jpg",
+      },
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/51000/51890/large/wapdb-yuria-kanae-pornostar-asiatique.warashi-asian-pornstars.fr-51890-010.jpg",
+      },
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/51000/51891/large/wapdb-yuria-kanae-pornostar-asiatique.warashi-asian-pornstars.fr-51891-001.jpg",
+      },
+    ],
+  },
+  {
+    idIdol: "jai181",
+    avatar: haru_kawamura.haru_kawamura_1,
+    name: "Haru Kawamura",
+    other: "Kiyoshi Kawamura",
+    born: "30/01/2000",
+    height: "170 cm",
+    breast: "97 cm",
+    cup: "H-Cup",
+    waist: "62 cm",
+    hips: "88 cm",
+    styles: [{ tag: "Killer Tits" }, { tag: "Long Legs" }],
+    album: [
+      {
+        picture: haru_kawamura.haru_kawamura_2,
+      },
+      {
+        picture: haru_kawamura.haru_kawamura_3,
+      },
+    ],
+  },
+  {
+    idIdol: "jai182",
+    avatar:
+      "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/51000/51016/large/wapdb-inori-fukazawa-pornostar-asiatique.warashi-asian-pornstars.fr-51016-010.jpg",
+    name: "Inori Fukazawa",
+    other: "",
+    born: "12/07/1997",
+    height: "164 cm",
+    breast: "86 cm",
+    cup: "G-Cup",
+    waist: "60 cm",
+    hips: "92 cm",
+    styles: [{ tag: "Beautiful Breasts" }],
+    album: [
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/51000/51013/large/wapdb-inori-fukazawa-pornostar-asiatique.warashi-asian-pornstars.fr-51013-003.jpg",
+      },
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/52000/52026/large/wapdb-inori-fukazawa-pornostar-asiatique.warashi-asian-pornstars.fr-52026-001.jpg",
       },
     ],
   },
