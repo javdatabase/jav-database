@@ -2988,6 +2988,58 @@ const File3 = [
       },
     ],
   },
+  {
+    idIdol: "jai183",
+    avatar:
+      "https://www.japanesebeauties.net/r18/moe-arihana/apkh00125/moe-arihana-7.jpg",
+    name: "Moe Arihana",
+    other: "",
+    born: "30/07/1998",
+    height: "157 cm",
+    breast: "85 cm",
+    cup: "E-Cup",
+    waist: "60 cm",
+    hips: "88 cm",
+    styles: [{ tag: "Cute" }, { tag: "Beautiful Breasts" }, { tag: "Teens" }],
+    album: [
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/38000/38266/large/wapdb-moe-arihana-pornostar-asiatique.warashi-asian-pornstars.fr-38266-009.jpg",
+      },
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/38000/38265/large/wapdb-moe-arihana-pornostar-asiatique.warashi-asian-pornstars.fr-38265-004.jpg",
+      },
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/38000/38265/large/wapdb-moe-arihana-pornostar-asiatique.warashi-asian-pornstars.fr-38265-005.jpg",
+      },
+    ],
+  },
+  {
+    idIdol: "jai184",
+    avatar:
+      "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/42000/42688/large/wapdb-yurara-sasamoto-pornostar-asiatique.warashi-asian-pornstars.fr-42688-001.jpg",
+    name: "Yurara Sasamoto",
+    other: "Sena Asami",
+    born: "14/10/1994",
+    height: "163 cm",
+    breast: "86 cm",
+    cup: "E-Cup",
+    waist: "55 cm",
+    hips: "85 cm",
+    styles: [{ tag: "Cute" }, { tag: "Beautiful Breasts" }],
+    album: [
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/43000/43148/large/wapdb-yurara-sasamoto-pornostar-asiatique.warashi-asian-pornstars.fr-43148-008.jpg",
+      },
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/44000/44567/large/wapdb-yurara-sasamoto-pornostar-asiatique.warashi-asian-pornstars.fr-44567-001.jpg",
+      },
+    ],
+  },
 ];
 
 export default File3;
