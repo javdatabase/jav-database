@@ -2080,7 +2080,10 @@ const File31 = [
     title: `DRUNK IN COMPANY TRIP , REVERSE GRILLE INSERTION TO SINGLE ARASA WOMAN BOSS WHO COMES FULL OF SERMONS!A FEMALE BOSS AND TWO OF US WHO WERE TO STAY AT A HOT SPRING HOTEL ON AN EMPLOYEE TRIP . I MISS MY MARRIAGE ...`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/oyc269/oyc269pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: `jai049`, name: "Hikari Anzai" }],
+    idols: [
+      { idIdol: `jai049`, name: "Hikari Anzai" },
+      { idIdol: "jai184", name: "Yurara Sasamoto" },
+    ],
   },
   {
     code: "KAGP-106",
@@ -2209,7 +2212,10 @@ const File31 = [
     title: `LOVE LOVE COUPLE THERE MISSED THE LAST TRAIN ! ! BY CHANCE , THE DIRECTION IS THE SAME , SO IF IT'S OK , WE CAN TAK WITH OUR PRECIOUS GIRLFRIEND ! FIVE`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/nkkd148/nkkd148pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: `jai049`, name: "Hikari Anzai" }],
+    idols: [
+      { idIdol: `jai049`, name: "Hikari Anzai" },
+      { idIdol: "jai184", name: "Yurara Sasamoto" },
+    ],
   },
   {
     code: "GS-300",
@@ -2863,7 +2869,10 @@ const File31 = [
     title: `I HAD A FIGHT WITH MY BOYFRIEND AND I WAS DRIVEN OUT OF THE HOUSE WITH MY ROOM DRESSED NEXT TO MY BEAUTIFUL SISTER SAYING " PLEASE WAIT INSIDE BECAUSE IT IS COLD " , BUT I GOT IN MY HOUSE , BUT REASONABLY IN LIGHT CLOTHES FULL OF GAPS BUT IT FLEW AWAY ...`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/84scpx386/84scpx386pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: `jai034`, name: "Mary Tachibana" }],
+    idols: [
+      { idIdol: `jai034`, name: "Mary Tachibana" },
+      { idIdol: "jai184", name: "Yurara Sasamoto" },
+    ],
   },
   {
     code: "HUNTA-746",

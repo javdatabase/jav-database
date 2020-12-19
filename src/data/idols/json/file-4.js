@@ -15,7 +15,6 @@ const File4 = [
       {
         picture: "https://www.japanesebeauties.net/r18/nene-tanaka/h_237nacr00377/nene-tanaka-18.jpg",
       },
-    
       {
         picture: "https://www.japanesebeauties.net/r18/nene-tanaka/venu00972/nene-tanaka-2.jpg",
       },

@@ -943,7 +943,10 @@ const File33 = [
     title: `NO WAY ! ! COULD IT BE PERHAPS ? ! JUNIOR COLLEGE GIRLS AND TWO OF THEM WORK ! ! A BUS TOWEL NICE SITUATION OCCURRED ! ! GOD , IS NOT IT A ONE-SHAKE ?`,
     poster: "https://pics.dmm.co.jp/mono/movie/adult/125umd652/125umd652pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai158", name: "Nao Jinguji" }],
+    idols: [
+      { idIdol: "jai158", name: "Nao Jinguji" },
+      { idIdol: "jai184", name: "Yurara Sasamoto" },
+    ],
   },
   {
     code: "AP-576",

@@ -58,30 +58,114 @@ function getPriceOneNight(earnings) {
 }
 
 function getBonusEarnings(id) {
-  const bestDvd = [];
-  const topPointGrowth = ["jai048", "jai054", "jai057", "jai172"];
-  const sweetNight = [];
-  const bestIdol = [];
-  const topIdol = ["jai057", "jai113", "jai151", "jai172", "jai185"];
+  const bestDvd = [
+    "jai001",
+    "jai002",
+    "jai057",
+    "jai075",
+    "jai136",
+    "jai157",
+    "jai158",
+    "jai170",
+    "jai171",
+    "jai175",
+  ];
+  const topPointGrowth = [
+    "jai001",
+    "jai007",
+    "jai015",
+    "jai007",
+    "jai048",
+    "jai054",
+    "jai057",
+    "jai136",
+    "jai172",
+    "jai179",
+    "jai180",
+  ];
+  const sweetNight = ["jai001", "jai002", "jai157", "jai171"];
+  const bestIdol = [
+    "jai001",
+    "jai002",
+    "jai015",
+    "jai038",
+    "jai041",
+    "jai048",
+    "jai057",
+    "jai061",
+    "jai062",
+    "jai065",
+    "jai069",
+    "jai070",
+    "jai073",
+    "jai075",
+    "jai133",
+    "jai136",
+    "jai152",
+    "jai153",
+    "jai157",
+    "jai158",
+    "jai166",
+    "jai170",
+    "jai171",
+    "jai172",
+    "jai175",
+  ];
+  const topIdol = [
+    "jai048",
+    "jai062",
+    "jai070",
+    "jai073",
+    "jai151",
+    "jai166",
+    "jai171",
+    "jai172",
+  ];
   const hasDvd = [
     "jai001",
+    "jai002",
+    "jai007",
     "jai012",
     "jai015",
+    "jai026",
+    "jai038",
     "jai041",
     "jai048",
     "jai054",
+    "jai055",
     "jai056",
     "jai057",
-    "jai140",
+    "jai061",
+    "jai062",
+    "jai065",
+    "jai069",
+    "jai070",
+    "jai072",
+    "jai073",
+    "jai075",
+    "jai133",
+    "jai136",
+    "jai139",
     "jai144",
-    "jai151",
+    "jai147",
+    "jai148",
+    "jai152",
+    "jai153",
+    "jai157",
+    "jai158",
+    "jai163",
+    "jai165",
+    "jai166",
+    "jai167",
+    "jai169",
+    "jai170",
+    "jai171",
     "jai172",
-    "jai176",
-    "jai183",
-    "jai184",
-    "jai185",
+    "jai175",
+    "jai179",
+    "jai180",
   ];
-  const newbie = ["jai183", "jai184", "jai185"];
+  const newbie = [];
 
   let bonus = 0;
 

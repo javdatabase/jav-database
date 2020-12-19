@@ -1722,7 +1722,10 @@ const File30 = [
     title: `WHEN YOU WAKE UP , YOU HAVE A BIG TITS SISTER WHO IS TOO DEFENSELESS IN THE FUTON ! BECAUSE I'M SO LONELY AND EMBRACE TIGHTLY WITH A STANDING NIPPLE IN THE BOTTLE , GIN ERECTING CHI ○ PORT HITS MY SISTER'S CO-CAN AND DOES NOT STOP AND DOES NOT STOP ! CREAMPIE !`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/1ienf040/1ienf040pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai015", name: "Mao Kurata" }],
+    idols: [
+      { idIdol: "jai015", name: "Mao Kurata" },
+      { idIdol: "jai184", name: "Yurara Sasamoto" },
+    ],
   },
   {
     code: "VOSS-168",
@@ -2506,7 +2509,10 @@ const File30 = [
     title: `MY SISTER WHO IS TOO SERIOUS AND I TURN MY FACE RED WHEN I SAY LOWER NETA . ALTHOUGH IT IS BEAUTIFUL , THERE IS NO APPEARANCE OF MAKING A BOYFRIEND AT THE OTHER , SO IF YOU TEASE AND YOU ARE STUPID AS " YOU ARE A VIRGIN " IT IS A REAL GENUINE ARTICLE ! " IS THERE ANYONE YOU LIKE ? " I HEARD THAT IT IS A RAINY DAY ! ! NO WAY ! !`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/84scpx298/84scpx298pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: `jai013`, name: "Kaho Shibuya" }],
+    idols: [
+      { idIdol: `jai013`, name: "Kaho Shibuya" },
+      { idIdol: "jai184", name: "Yurara Sasamoto" },
+    ],
   },
   {
     code: "NASS-912",
@@ -2800,7 +2806,10 @@ const File30 = [
     title: `SWITCH 8TH ANNIVERSARY WORK IF YOU LIKE BLACK PANTYHOSE , HOW ABOUT THIS ? ! A BLACK PANTYHOSE FEMALE EMPLOYEE CONTENDS FOR MY COCK ! BLACK , BLACK AND BLACK BLACK PANTYHOSE FESTIVALS , BOTH RIGHT AND LEFT ! A SINGLE MA-KO IS NOT ALLOWED , AND MULTIPLE MA-KO ARE INCLUDED !`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/1sw653/1sw653pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai054", name: "Arisa Hanyu" }],
+    idols: [
+      { idIdol: "jai054", name: "Arisa Hanyu" },
+      { idIdol: "jai184", name: "Yurara Sasamoto" },
+    ],
   },
   {
     code: "CESD-805",

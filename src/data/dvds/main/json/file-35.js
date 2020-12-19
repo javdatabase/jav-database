@@ -1127,6 +1127,7 @@ const File35 = [
     idols: [
       { idIdol: "jai021", name: "Aki Sasaki" },
       { idIdol: "jai049", name: "Hikari Anzai" },
+      { idIdol: "jai184", name: "Yurara Sasamoto" },
     ],
   },
   {
@@ -1176,7 +1177,10 @@ const File35 = [
     title: `THREE TIPSY KAMIJIRI FEMALE BOSSES ROLL UP WITH SPERM-COVERED STICKY PISTONS THAT WILL NOT STOP EVEN AFTER VAGINAL CUM SHOT ! SQUID ROLL !`,
     poster: `http://pics.dmm.co.jp/mono/movie/adult/hunta832/hunta832pl.jpg`,
     type: `Censored`,
-    idols: [{ idIdol: "jai016", name: "Kanako Iioka" }],
+    idols: [
+      { idIdol: "jai016", name: "Kanako Iioka" },
+      { idIdol: "jai184", name: "Yurara Sasamoto" },
+    ],
   },
   {
     code: `BSY-026`,

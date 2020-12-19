@@ -2003,7 +2003,10 @@ const File36 = [
     title: `FEMALE COLLEGE STUDENTS ONLY AFTER DRINKING PARTY , TAKE TO THE ROOM VOYEUR AND SILENTLY TO AV NO.30 SLUT , ADULT FEMALE COLLEGE STUDENTS REIKO / E-CUP / 21 YEARS OLD YUNA / H-CUP / 21 YEARS OLD`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/akid066/akid066pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai179", name: "Kaho Imai" }],
+    idols: [
+      { idIdol: "jai179", name: "Kaho Imai" },
+      { idIdol: "jai184", name: "Yurara Sasamoto" },
+    ],
   },
   {
     code: "SIM-045",
@@ -2901,7 +2904,10 @@ const File36 = [
     poster:
       "http://pics.dmm.co.jp/mono/movie/adult/118sksk035/118sksk035pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai179", name: "Kaho Imai" }],
+    idols: [
+      { idIdol: "jai179", name: "Kaho Imai" },
+      { idIdol: "jai183", name: "Moe Arihana" },
+    ],
   },
   {
     code: "PKPD-116",

@@ -2695,6 +2695,7 @@ const File4 = [
     idols: [
       { idIdol: `jai049`, name: "Hikari Anzai" },
       { idIdol: `jai057`, name: "Yumi Maeda" },
+      { idIdol: "jai184", name: "Yurara Sasamoto" },
     ],
   },
   {
