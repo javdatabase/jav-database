@@ -277,7 +277,10 @@ const File36 = [
     title: `STREET CORNER AMATEUR PICK-UP ! VOL.92 A BEAUTIFUL WIFE IS PERSUADED . 7`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/118mgt123/118mgt123pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai163", name: "Mana Minami" }],
+    idols: [
+      { idIdol: "jai163", name: "Mana Minami" },
+      { idIdol: "jai185", name: "Nene Tanaka" },
+    ],
   },
   {
     code: "RVH-005",

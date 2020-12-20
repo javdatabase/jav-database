@@ -61,11 +61,18 @@ function getBonusEarnings(id) {
   const bestDvd = [
     "jai001",
     "jai002",
+    "jai015",
+    "jai038",
+    "jai041",
     "jai057",
+    "jai062",
+    "jai065",
+    "jai070",
     "jai075",
     "jai136",
     "jai157",
     "jai158",
+    "jai166",
     "jai170",
     "jai171",
     "jai175",
@@ -83,7 +90,14 @@ function getBonusEarnings(id) {
     "jai179",
     "jai180",
   ];
-  const sweetNight = ["jai001", "jai002", "jai157", "jai171"];
+  const sweetNight = [
+    "jai001",
+    "jai002",
+    "jai041",
+    "jai070",
+    "jai157",
+    "jai171",
+  ];
   const bestIdol = [
     "jai001",
     "jai002",
@@ -146,6 +160,7 @@ function getBonusEarnings(id) {
     "jai133",
     "jai136",
     "jai139",
+    "jai143",
     "jai144",
     "jai147",
     "jai148",

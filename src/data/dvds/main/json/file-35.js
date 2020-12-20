@@ -2500,7 +2500,10 @@ const File35 = [
     title: `DOCK AMACHUA CHANNEL VOL.17`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/118dac017/118dac017pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai057", name: "Yumi Maeda" }],
+    idols: [
+      { idIdol: "jai057", name: "Yumi Maeda" },
+      { idIdol: "jai185", name: "Nene Tanaka" },
+    ],
   },
   {
     code: "EBOD-734",
