@@ -1,47 +1,47 @@
 function getEarningIdol(rank, points, styles, uncensored, best) {
-  const rankEarnings = Math.ceil(9000000 / rank);
+  const rankEarnings = Math.ceil(20000000 / rank);
 
-  let pointEarnings = 60000 * points;
+  let pointEarnings = 1000000 * points;
   if (points >= 1000) {
-    pointEarnings = pointEarnings + 9000000;
+    pointEarnings = pointEarnings + 16000000;
   } else if (points < 1000 && points >= 500) {
-    pointEarnings = pointEarnings + 8000000;
+    pointEarnings = pointEarnings + 15000000;
   } else if (points < 500 && points >= 200) {
-    pointEarnings = pointEarnings + 7000000;
+    pointEarnings = pointEarnings + 11000000;
   } else if (points < 200 && points >= 100) {
-    pointEarnings = pointEarnings + 6000000;
+    pointEarnings = pointEarnings + 10000000;
   } else if (points < 100 && points >= 50) {
-    pointEarnings = pointEarnings + 900000;
+    pointEarnings = pointEarnings + 9000000;
   } else if (points < 50 && points >= 20) {
-    pointEarnings = pointEarnings + 800000;
+    pointEarnings = pointEarnings + 8000000;
   } else if (points < 20 && points >= 10) {
-    pointEarnings = pointEarnings + 700000;
+    pointEarnings = pointEarnings + 7000000;
   } else if (points < 10 && points >= 5) {
-    pointEarnings = pointEarnings + 600000;
+    pointEarnings = pointEarnings + 6000000;
   } else {
-    pointEarnings = pointEarnings + 90000;
+    pointEarnings = pointEarnings + 5500000;
   }
 
-  let styleEarning = 900000;
+  let styleEarning = 2000000;
   if (styles.find((item) => item.tag === "Retired")) {
-    styleEarning = 600000;
+    styleEarning = 1000000;
   }
   if (styles.find((item) => item.tag === "6 Stars JAV")) {
-    styleEarning = styleEarning + 800000;
+    styleEarning = styleEarning + 5000000;
   }
   if (styles.find((item) => item.tag === "Killer Tits")) {
-    styleEarning = styleEarning + 800000;
+    styleEarning = styleEarning + 4000000;
   }
   if (styles.find((item) => item.tag === "Beautiful Breasts")) {
-    styleEarning = styleEarning + 800000;
+    styleEarning = styleEarning + 3000000;
   }
 
-  const uncensoredEarnings = 70000 * uncensored;
+  const uncensoredEarnings = 2000000 * uncensored;
 
   let bestEarnings = 0;
 
   if (best) {
-    bestEarnings = 8000000;
+    bestEarnings = 9000000;
   }
 
   return (
@@ -54,76 +54,41 @@ function getEarningIdol(rank, points, styles, uncensored, best) {
 }
 
 function getPriceOneNight(earnings) {
-  return Math.ceil(earnings / 7);
+  return Math.ceil(earnings / 6);
 }
 
 function getBonusEarnings(id) {
-  const bestDvd = [
-    "jai001",
-    "jai002",
-    "jai015",
-    "jai038",
-    "jai041",
-    "jai057",
-    "jai062",
-    "jai065",
-    "jai070",
-    "jai075",
-    "jai136",
-    "jai157",
-    "jai158",
-    "jai166",
-    "jai170",
-    "jai171",
-    "jai175",
-  ];
+  const bestDvd = ["jai001", "jai057", "jai067", "jai133", "jai136", "jai158"];
   const topPointGrowth = [
     "jai001",
     "jai007",
+    "jai013",
     "jai015",
-    "jai007",
+    "jai031",
     "jai048",
+    "jai052",
     "jai054",
     "jai057",
+    "jai113",
+    "jai123",
     "jai136",
+    "jai147",
     "jai172",
-    "jai179",
-    "jai180",
+    "jai173",
+    "jai185",
   ];
-  const sweetNight = [
-    "jai001",
-    "jai002",
-    "jai041",
-    "jai070",
-    "jai157",
-    "jai171",
-  ];
+  const sweetNight = ["jai057"];
   const bestIdol = [
     "jai001",
-    "jai002",
-    "jai015",
-    "jai038",
-    "jai041",
-    "jai048",
+    "jai011",
     "jai057",
     "jai061",
-    "jai062",
-    "jai065",
-    "jai069",
-    "jai070",
-    "jai073",
-    "jai075",
+    "jai067",
     "jai133",
     "jai136",
-    "jai152",
-    "jai153",
-    "jai157",
     "jai158",
-    "jai166",
-    "jai170",
-    "jai171",
-    "jai172",
-    "jai175",
+    "jai181",
+    "jai182",
   ];
   const topIdol = [
     "jai048",
@@ -131,79 +96,78 @@ function getBonusEarnings(id) {
     "jai070",
     "jai073",
     "jai151",
-    "jai166",
+    "jai158",
     "jai171",
     "jai172",
   ];
   const hasDvd = [
     "jai001",
-    "jai002",
     "jai007",
-    "jai012",
+    "jai011",
+    "jai013",
     "jai015",
-    "jai026",
-    "jai038",
-    "jai041",
+    "jai016",
+    "jai031",
     "jai048",
+    "jai052",
     "jai054",
-    "jai055",
-    "jai056",
     "jai057",
+    "jai059",
     "jai061",
-    "jai062",
-    "jai065",
-    "jai069",
-    "jai070",
+    "jai067",
+    "jai071",
     "jai072",
-    "jai073",
-    "jai075",
+    "jai085",
+    "jai113",
+    "jai123",
+    "jai131",
+    "jai132",
     "jai133",
     "jai136",
     "jai139",
-    "jai143",
-    "jai144",
+    "jai141",
+    "jai146",
     "jai147",
     "jai148",
     "jai152",
-    "jai153",
-    "jai157",
     "jai158",
-    "jai163",
-    "jai165",
-    "jai166",
-    "jai167",
-    "jai169",
-    "jai170",
-    "jai171",
+    "jai168",
     "jai172",
-    "jai175",
+    "jai173",
+    "jai176",
     "jai179",
     "jai180",
+    "jai181",
+    "jai182",
+    "jai185",
   ];
   const newbie = [];
 
   let bonus = 0;
 
   if (bestDvd.includes(id)) {
-    bonus = bonus + 7000000;
+    bonus = bonus + 20000000;
   }
   if (topPointGrowth.includes(id)) {
-    bonus = bonus + 7000000;
+    bonus = bonus + 11000000;
   }
   if (sweetNight.includes(id)) {
-    bonus = bonus + 7000000;
+    bonus =
+      bonus +
+      16000000 *
+        sweetNight.reduce((acc, val) => (val === id ? acc + 1 : acc), 0);
   }
   if (bestIdol.includes(id)) {
-    bonus = bonus + 6000000;
+    bonus = bonus + 9500000;
   }
   if (topIdol.includes(id)) {
-    bonus = bonus + 900000;
+    bonus = bonus + 7000000;
   }
   if (hasDvd.includes(id)) {
-    bonus = bonus + 800000;
+    bonus = bonus + 5500000;
   }
   if (newbie.includes(id)) {
-    bonus = bonus + 700000;
+    bonus = bonus + 3500000;
   }
 
   return bonus;
