@@ -1205,6 +1205,13 @@ const File38 = [
     type: "Censored",
     idols: [{ idIdol: "jai168", name: "Mirei Imada" }],
   },
+  {
+    code: "STARS-317",
+    title: `HIGHLEG BRAINWASHING A BEAUTIFUL MARRIED WOMAN IS AN OBEDIENT SEXUAL PROCESSING GUY IN AN OBSCENE POSE! IORI FURUKAWA`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/1stars317/1stars317pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai059", name: "Iori Kogawa" }],
+  },
 ];
 
 export default File38;

@@ -186,13 +186,6 @@ const File1 = [
     idols: [{ idIdol: "jai070", name: "Yua Mikami" }],
   },
   {
-    code: "STARS-317",
-    title: `HIGHLEG BRAINWASHING A BEAUTIFUL MARRIED WOMAN IS AN OBEDIENT SEXUAL PROCESSING GUY IN AN OBSCENE POSE! IORI FURUKAWA`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/1stars317/1stars317pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai059", name: "Iori Kogawa" }],
-  },
-  {
     code: "JBD-262",
     title: `HINATA KOIZUMI RETIREMENT COMMEMORATIVE WORK FAREWELL ROPE`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/jbd262/jbd262pl.jpg",
