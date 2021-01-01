@@ -1212,6 +1212,27 @@ const File38 = [
     type: "Censored",
     idols: [{ idIdol: "jai059", name: "Iori Kogawa" }],
   },
+  {
+    code: "SSNI-960",
+    title: `ENTERTAINER RIRI NANATSUMORI LIFE'S FIRST BIG ORGY! COCK ENDLESS UNLIMITED SEX`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/ssni960/ssni960pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai170", name: "Riri Nanatsumori" }],
+  },
+  {
+    code: "SSNI-961",
+    title: `GEKI IKI 113 TIMES ! CONVULSIONS 4400 TIMES ! IKI TIDE 1500CC ! ARISU HANA AKA EROS AWAKENING FIRST LARGE , SPASM , CONVULSIONS SPECIAL`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/ssni961/ssni961pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai171", name: "Aka Asuka" }],
+  },
+  {
+    code: "ADN-283",
+    title: `FORGIVE ME ... MARRIED WOMAN EMBRACED BY HER HUSBAND'S SUBORDINATE MINORI HATSUNE`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/adn283/adn283pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai075", name: "Minori Hatsune" }],
+  },
 ];
 
 export default File38;
