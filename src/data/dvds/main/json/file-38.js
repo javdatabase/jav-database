@@ -1289,6 +1289,13 @@ const File38 = [
     type: "Censored",
     idols: [{ idIdol: "jai158", name: "Nao Jinguji" }],
   },
+  {
+    code: "KTB-037",
+    title: `FLESHY EDITORIAL DEPARTMENT - PART-TIME HOUSEWIFE ARISA ( I-CUP ) EXPERIENCE CONFESSION / ASSAULT COVERAGE - ARISA HANYU`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/ktb037/ktb037pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai054", name: "Arisa Hanyu" }],
+  },
 ];
 
 export default File38;
