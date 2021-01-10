@@ -3,6 +3,7 @@ import * as hina_kinami from "../images/hina-kinami";
 import * as hikari_anzai from "../images/hikari-anzai";
 import * as nao_tachibana from "../images/nao-tachibana";
 import * as kirari_hoshizora from "../images/kirari-hoshizora";
+import * as yuka_tachibana from "../images/yuka-tachibana";
 
 const File1 = [
   {
@@ -1094,8 +1095,7 @@ const File1 = [
   },
   {
     idIdol: "jai022",
-    avatar:
-      "https://img200.imagetwist.com/i/25595/piaw0htscha7.jpg/yuka-tachibana-1.jpg",
+    avatar: yuka_tachibana.yuka_tachibana_1,
     name: "Yuka Tachibana",
     other: "Airi Hinata",
     born: "17/12/1992",
@@ -1107,44 +1107,35 @@ const File1 = [
     styles: [{ tag: "Retired" }, { tag: "Killer Tits" }],
     album: [
       {
-        picture:
-          "https://img200.imagetwist.com/i/25595/7ocmyke249um.jpg/yuka-tachibana-10.jpg",
+        picture: yuka_tachibana.yuka_tachibana_10,
       },
       {
         picture:
           "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/26000/26526/large/wapdb-yuka-tachibana-pornostar-asiatique.warashi-asian-pornstars.fr-26526-001.jpg",
       },
       {
-        picture:
-          "https://img200.imagetwist.com/i/25595/5yjdjmvrmiwu.jpg/yuka-tachibana-9.jpg",
+        picture: yuka_tachibana.yuka_tachibana_9,
       },
       {
-        picture:
-          "https://img200.imagetwist.com/i/25595/a5nq87qvsbfs.jpg/yuka-tachibana-8.jpg",
+        picture: yuka_tachibana.yuka_tachibana_8,
       },
       {
-        picture:
-          "https://img200.imagetwist.com/i/25595/gvm8az0r6lzv.jpg/yuka-tachibana-6.jpg",
+        picture: yuka_tachibana.yuka_tachibana_6,
       },
       {
-        picture:
-          "https://img200.imagetwist.com/i/25595/gkuunflr7mmz.jpg/yuka-tachibana-7.jpg",
+        picture: yuka_tachibana.yuka_tachibana_7,
       },
       {
-        picture:
-          "https://img200.imagetwist.com/i/25595/noh5bvl6f52g.jpg/yuka-tachibana-5.jpg",
+        picture: yuka_tachibana.yuka_tachibana_5,
       },
       {
-        picture:
-          "https://img200.imagetwist.com/i/25595/j3476ntle6hr.jpg/yuka-tachibana-3.jpg",
+        picture: yuka_tachibana.yuka_tachibana_3,
       },
       {
-        picture:
-          "https://img200.imagetwist.com/i/25595/nn8s4fk32izv.jpg/yuka-tachibana-4.jpg",
+        picture: yuka_tachibana.yuka_tachibana_4,
       },
       {
-        picture:
-          "https://img200.imagetwist.com/i/25595/co84lftamcje.jpg/yuka-tachibana-2.jpg",
+        picture: yuka_tachibana.yuka_tachibana_2,
       },
     ],
   },
