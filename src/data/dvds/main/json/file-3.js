@@ -1,4 +1,15 @@
-import { CZ014, CZ015, S2M046, S2M047, S2M050, S2M055 } from "../images";
+import {
+  CZ014,
+  CZ015,
+  JK378,
+  PT110,
+  RHJ350,
+  S2M046,
+  S2M047,
+  S2M050,
+  S2M055,
+  SMDV17,
+} from "../images";
 
 const File3 = [
   {
@@ -599,7 +610,7 @@ const File3 = [
   {
     code: `JK-378`,
     title: `THE YUI HATANO 50 SUCCESSIVE BUKKAKE !`,
-    poster: `https://img200.imagetwist.com/i/25722/92r84y8156wp.jpg/JK-378.jpg`,
+    poster: JK378,
     type: `Uncensored`,
     idols: [{ idIdol: `jai001`, name: "Yui Hatano" }],
   },
@@ -679,14 +690,14 @@ const File3 = [
   {
     code: `PT-110`,
     title: `BONDAGE WOMAN TEACHER ~ GOING DO`,
-    poster: `https://img200.imagetwist.com/i/25723/7hjmc7c0p45k.jpg/PT-110.jpg`,
+    poster: PT110,
     type: `Uncensored`,
     idols: [{ idIdol: `jai001`, name: "Yui Hatano" }],
   },
   {
     code: `RHJ-350`,
     title: `RED HOT JAM VOL.350`,
-    poster: `https://img200.imagetwist.com/i/25722/jpt2lb7q7yg3.jpg/RHJ-350.jpg`,
+    poster: RHJ350,
     type: `Uncensored`,
     idols: [{ idIdol: `jai001`, name: "Yui Hatano" }],
   },
@@ -700,7 +711,7 @@ const File3 = [
   {
     code: `SMDV-17`,
     title: `S MODEL DV 17 REAL SEX WITH PERFECT BODY`,
-    poster: `https://img200.imagetwist.com/i/25723/cyry0apx30ff.jpg/SMDV-17.jpg`,
+    poster: SMDV17,
     type: `Uncensored`,
     idols: [{ idIdol: `jai001`, name: "Yui Hatano" }],
   },
