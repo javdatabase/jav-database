@@ -1,4 +1,4 @@
-import { toUpper } from "lodash";
+import { toUpper, trim } from "lodash";
 
 import Idols from "../data/idols";
 
@@ -33,7 +33,7 @@ const ALL_IDOLS_BY_PAGE = (
   let temp = sortIdols(Idols);
   if (name) {
     temp = temp.filter((item) =>
-      toUpper(item.name + " " + item.other).includes(toUpper(name))
+      toUpper(item.name + " " + item.other).includes(toUpper(trim(name)))
     );
   }
   if (cup && cup.length > 0) {
