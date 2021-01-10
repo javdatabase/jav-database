@@ -1,3 +1,5 @@
+import { LLDV08 } from "../images";
+
 const File4 = [
   {
     code: `RBD-434`,
@@ -2426,7 +2428,7 @@ const File4 = [
   {
     code: `LLDV-08`,
     title: `LAFORET GIRL LLDV 08 JONETSU TAIRIKU`,
-    poster: `https://img200.imagetwist.com/i/26105/27pi6dyhvps0.jpg/LLDV-08.jpg`,
+    poster: LLDV08,
     type: `Uncensored`,
     idols: [{ idIdol: `jai063`, name: "Angelia Mizuki" }],
   },

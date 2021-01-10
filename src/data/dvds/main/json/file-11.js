@@ -1,3 +1,5 @@
+import { SMD97 } from "../images";
+
 const File11 = [
   {
     code: `DV-1603`,
@@ -1387,7 +1389,7 @@ const File11 = [
   {
     code: `SMD-97`,
     title: `S MODEL 97 105CM I-CUP`,
-    poster: `https://img201.imagetwist.com/i/26357/k7lwx0o3mnnq.jpg/SMD-97.jpg`,
+    poster: SMD97,
     type: `Uncensored`,
     idols: [{ idIdol: `jai093`, name: "Rina Araki" }]
   },

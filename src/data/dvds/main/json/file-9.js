@@ -1,3 +1,5 @@
+import { N0361, SKY118 } from "../images";
+
 const File9 = [
   {
     code: `HUNT-634`,
@@ -487,14 +489,14 @@ const File9 = [
   {
     code: `SKY-118`,
     title: `SKY ANGEL VOL.75`,
-    poster: `https://img201.imagetwist.com/i/26297/m492hkr5sdzg.jpeg/SKY-118.jpeg`,
+    poster: SKY118,
     type: `Uncensored`,
     idols: [{ idIdol: `jai002`, name: "Hibiki Otsuki" }],
   },
   {
     code: `N-0361`,
     title: `TOKYO HOT - E-CUP SLUT - SAORI WATANUKI`,
-    poster: `https://img201.imagetwist.com/i/26297/9c7eexym0nvo.jpeg/N-0361.jpeg`,
+    poster: N0361,
     type: `Uncensored`,
     idols: [{ idIdol: `jai002`, name: "Hibiki Otsuki" }],
   },

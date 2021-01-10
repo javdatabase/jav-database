@@ -1,3 +1,5 @@
+import { CWP104, LAF26, MKDS77 } from "../images";
+
 const File8 = [
   {
     code: `BUG-016`,
@@ -483,21 +485,21 @@ const File8 = [
   {
     code: `LAF-26`,
     title: `LAFORET GIRL 26 RUKA KANAE`,
-    poster: `https://img201.imagetwist.com/i/26287/1okk13m0i8vk.jpg/LAF-26.jpg`,
+    poster: LAF26,
     type: `Uncensored`,
     idols: [{ idIdol: `jai003`, name: "Ruka Kanae" }],
   },
   {
     code: `CWP-104`,
     title: `CATWALK POISON 104 AFTER ALL MY SISTER IS NAUGHTY GIRL`,
-    poster: `https://img201.imagetwist.com/i/26287/w9v79rary77z.jpeg/CWP-104.jpeg`,
+    poster: CWP104,
     type: `Uncensored`,
     idols: [{ idIdol: `jai003`, name: "Ruka Kanae" }],
   },
   {
     code: `MKD-S77`,
     title: `KIRARI 77 RENTAL GIRL`,
-    poster: `https://img201.imagetwist.com/i/26287/myh82gk89cpn.jpg/MKD-S77.jpg`,
+    poster: MKDS77,
     type: `Uncensored`,
     idols: [{ idIdol: `jai003`, name: "Ruka Kanae" }],
   },

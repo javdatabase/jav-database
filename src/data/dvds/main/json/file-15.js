@@ -1,3 +1,21 @@
+import {
+  CWP121,
+  SKY237,
+  SMD117,
+  SMD133,
+  OTS039,
+  IESP104,
+  IESP114,
+  IESP131,
+  IESP144,
+  ONED452,
+  ONED487,
+  ONED608,
+  ONED634,
+  ONED650,
+  ONED674,
+} from "../images";
+
 const File15 = [
   {
     code: "MRXD-001",
@@ -661,48 +679,42 @@ const File15 = [
   {
     code: "ONED-452",
     title: `SHOU NISHINO × BARELY BARELY BAN`,
-    poster:
-      "https://img201.imagetwist.com/i/26573/0valyne7hu97.jpg/ONED-452.jpg",
+    poster: ONED452,
     type: "Censored",
     idols: [{ idIdol: "jai025", name: "Shou Nishino" }],
   },
   {
     code: "ONED-487",
     title: `BARELY ON THE SOUTHERN ISLAND PAKOPAKO SEX ON THE BEACH ~ ! SHO NISHINO`,
-    poster:
-      "https://img201.imagetwist.com/i/26573/qw22367zvpnh.jpg/ONED-487.jpg",
+    poster: ONED487,
     type: "Censored",
     idols: [{ idIdol: "jai025", name: "Shou Nishino" }],
   },
   {
     code: "ONED-608",
     title: `BARELY CLIMAX ! SHOU NISHINO SQUIRTING FUCK STET`,
-    poster:
-      "https://img201.imagetwist.com/i/26573/3lled5mvk1ew.jpg/ONED-608.jpg",
+    poster: ONED608,
     type: "Censored",
     idols: [{ idIdol: "jai025", name: "Shou Nishino" }],
   },
   {
     code: "ONED-634",
     title: `BARELY FIVE FURIOUS PISTON SHOU NISHINO`,
-    poster:
-      "https://img201.imagetwist.com/i/26573/sbsgumfuws6l.jpg/ONED-634.jpg",
+    poster: ONED634,
     type: "Censored",
     idols: [{ idIdol: "jai025", name: "Shou Nishino" }],
   },
   {
     code: "ONED-650",
     title: `SHOU NISHINO SCREAMING FUCK BARELY EROTIC FEMALE DOCTOR`,
-    poster:
-      "https://img201.imagetwist.com/i/26573/x5q0v5lh7u3s.jpg/ONED-650.jpg",
+    poster: ONED650,
     type: "Censored",
     idols: [{ idIdol: "jai025", name: "Shou Nishino" }],
   },
   {
     code: "ONED-674",
     title: `SHOU NISHINO ORGY BARELY 22 BAKOBAKO`,
-    poster:
-      "https://img201.imagetwist.com/i/26573/vjmcxgvxt13y.jpg/ONED-674.jpg",
+    poster: ONED674,
     type: "Censored",
     idols: [{ idIdol: "jai025", name: "Shou Nishino" }],
   },
@@ -961,32 +973,28 @@ const File15 = [
   {
     code: "IESP-104",
     title: `SHOU NISHINO YOU WANT TO COMMIT THE`,
-    poster:
-      "https://img201.imagetwist.com/i/26600/m6c4w2de41k2.jpg/IESP-104.jpg",
+    poster: IESP104,
     type: "Censored",
     idols: [{ idIdol: "jai025", name: "Shou Nishino" }],
   },
   {
     code: "IESP-114",
     title: `THREADING THREADING MOSAIC VOL.1 MOLESTER ATTACKED BUS IDLE`,
-    poster:
-      "https://img201.imagetwist.com/i/26600/pp1lae152mx9.jpg/IESP-114.jpg",
+    poster: IESP114,
     type: "Censored",
     idols: [{ idIdol: "jai025", name: "Shou Nishino" }],
   },
   {
     code: "IESP-131",
     title: `SHOU NISHINO WORK OUT IN THE NEW EMPLOYEE`,
-    poster:
-      "https://img201.imagetwist.com/i/26600/i1s1flu2wqzh.jpg/IESP-131.jpg",
+    poster: IESP131,
     type: "Censored",
     idols: [{ idIdol: "jai025", name: "Shou Nishino" }],
   },
   {
     code: "IESP-144",
     title: `SHOU NISHINO BARRAGE PIES 20 NEW FEMALE TEACHER`,
-    poster:
-      "https://img201.imagetwist.com/i/26600/xk3ufkquqtho.jpg/IESP-144.jpg",
+    poster: IESP144,
     type: "Censored",
     idols: [{ idIdol: "jai025", name: "Shou Nishino" }],
   },
@@ -1229,9 +1237,8 @@ const File15 = [
   },
   {
     code: "OTS-039",
-    title: `SOAP LADY OF ULTRA-LUXURY SHOU NISHINO`,
-    poster:
-      "https://img201.imagetwist.com/i/26600/tcbl4q4kw7k6.jpg/OTS-039.jpg",
+    title: "SOAP LADY OF ULTRA-LUXURY SHOU NISHINO",
+    poster: OTS039,
     type: "Censored",
     idols: [{ idIdol: "jai025", name: "Shou Nishino" }],
   },
@@ -1312,8 +1319,7 @@ const File15 = [
   {
     code: "SKY-237",
     title: `SKY ANGEL VOL.147`,
-    poster:
-      "https://img201.imagetwist.com/i/26602/5idc6kvuxj0s.jpg/SKY-237.jpg",
+    poster: SKY237,
     type: "Uncensored",
     idols: [{ idIdol: "jai105", name: "Satomi Ichihara" }],
   },
@@ -2163,24 +2169,21 @@ const File15 = [
   {
     code: "SMD-117",
     title: `S MODEL 117 2.5 SECONDS FUCK X2`,
-    poster:
-      "https://img201.imagetwist.com/i/26637/hy0v5hk9xnsj.jpg/SMD-117.jpg",
+    poster: SMD117,
     type: "Uncensored",
     idols: [{ idIdol: "jai008", name: "Eri Hosaka" }],
   },
   {
     code: "SMD-133",
     title: `S MODEL 133 RENTING A SUPER CUTE AMATEUR`,
-    poster:
-      "https://img201.imagetwist.com/i/26637/5vjlahqpzqoa.jpg/SMD-133.jpg",
+    poster: SMD133,
     type: "Uncensored",
     idols: [{ idIdol: "jai008", name: "Eri Hosaka" }],
   },
   {
     code: "CWP-121",
     title: `CATWALK POISON 121 AZABUJUBAN MARRIED WHITE PAPER`,
-    poster:
-      "https://img201.imagetwist.com/i/26637/chzk6055f30j.jpg/CWP-121.jpg",
+    poster: CWP121,
     type: "Uncensored",
     idols: [{ idIdol: "jai008", name: "Eri Hosaka" }],
   },

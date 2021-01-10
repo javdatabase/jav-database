@@ -1,3 +1,5 @@
+import { MCDV22, N0893, N0917, N0996, N1008, SMD109 } from "../images";
+
 const File5 = [
   {
     code: `DVDMS-105`,
@@ -326,14 +328,14 @@ const File5 = [
   {
     code: `N-0893`,
     title: `TOKYO HOT - CUTE URINAL GIRL - TSUBASA HONDA`,
-    poster: `https://img200.imagetwist.com/i/26175/yxko232olyc5.jpeg/N-0893.jpeg`,
+    poster: N0893,
     type: `Uncensored`,
     idols: [{ idIdol: `jai011`, name: "Asahi Mizuno" }],
   },
   {
     code: `N-0917`,
     title: `TOKYO HOT - OFFICE MEAT URINAL - KAEDE NIIYAMA , TSUBASA HONDA`,
-    poster: `https://img200.imagetwist.com/i/26175/y1kc31sonjcg.jpeg/N-0917.jpeg`,
+    poster: N0917,
     type: `Uncensored`,
     idols: [{ idIdol: `jai011`, name: "Asahi Mizuno" }],
   },
@@ -1442,28 +1444,28 @@ const File5 = [
   {
     code: `MCDV-22`,
     title: `MERCI BEAUCOUP DV 22 IMMEDIATE CREAM PIE`,
-    poster: `https://img200.imagetwist.com/i/26182/hcsblglbtth3.jpg/MCDV-22.jpg`,
+    poster: MCDV22,
     type: `Uncensored`,
     idols: [{ idIdol: `jai057`, name: "Yumi Maeda" }],
   },
   {
     code: `N-0996`,
     title: `HARUKA'S HUMILIATION PLAY `,
-    poster: `https://img200.imagetwist.com/i/26182/1srkhchmqh1k.jpg/N-0996.jpg`,
+    poster: N0996,
     type: `Uncensored`,
     idols: [{ idIdol: `jai057`, name: "Yumi Maeda" }],
   },
   {
     code: `N-1008`,
     title: `LOVE SHYNESS PLAY `,
-    poster: `https://img200.imagetwist.com/i/26182/54t6vtaij795.jpg/N-1008.jpg`,
+    poster: N1008,
     type: `Uncensored`,
     idols: [{ idIdol: `jai057`, name: "Yumi Maeda" }],
   },
   {
     code: `SMD-109`,
     title: `S MODEL 109 SHOOTING AV AT YUMI’S HOME`,
-    poster: `https://img200.imagetwist.com/i/26182/nq8tvlvw29n4.jpg/SMD-109.jpg`,
+    poster: SMD109,
     type: `Uncensored`,
     idols: [{ idIdol: `jai057`, name: "Yumi Maeda" }],
   },
