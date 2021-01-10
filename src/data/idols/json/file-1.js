@@ -2,6 +2,8 @@ import * as honoka_tsuji from "../images/honoka-tsuji";
 import * as hina_kinami from "../images/hina-kinami";
 import * as hikari_anzai from "../images/hikari-anzai";
 import * as nao_tachibana from "../images/nao-tachibana";
+import * as kirari_hoshizora from "../images/kirari-hoshizora";
+import * as yuka_tachibana from "../images/yuka-tachibana";
 
 const File1 = [
   {
@@ -713,18 +715,6 @@ const File1 = [
       },
       {
         picture:
-          "https://img200.imagetwist.com/i/25530/nwbjz75u7wk4.jpg/kaho-shibuya-1.jpg",
-      },
-      {
-        picture:
-          "https://img200.imagetwist.com/i/25530/ucpkewv3n1i6.png/kaho-shibuya-3.png",
-      },
-      {
-        picture:
-          "https://img200.imagetwist.com/i/25530/xqs6ttmzmylg.jpg/kaho-shibuya-2.jpg",
-      },
-      {
-        picture:
           "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/33000/33419/large/wapdb-kaho-shibuya-pornostar-asiatique.warashi-asian-pornstars.fr-33419-001.jpg",
       },
       {
@@ -992,7 +982,7 @@ const File1 = [
   {
     idIdol: "jai019",
     avatar:
-      "https://img200.imagetwist.com/i/25558/kyo1pae9b6bu.jpg/hitomi-inoue-2.jpg",
+      "https://www.japanesebeauties.net/japanese/hitomi-inoue/10/hitomi-inoue-9.jpg",
     name: "Hitomi Inoue",
     other: "",
     born: "30/11/1992",
@@ -1006,14 +996,6 @@ const File1 = [
       {
         picture:
           "https://www.japanesebeauties.net/japanese/hitomi-inoue/9/hitomi-inoue-7.jpg",
-      },
-      {
-        picture:
-          "https://www.japanesebeauties.net/japanese/hitomi-inoue/10/hitomi-inoue-9.jpg",
-      },
-      {
-        picture:
-          "https://img200.imagetwist.com/i/25558/pgkdfqs4o7hw.jpg/hitomi-inoue-1.jpg",
       },
       {
         picture:
@@ -1043,8 +1025,7 @@ const File1 = [
   },
   {
     idIdol: "jai020",
-    avatar:
-      "https://img200.imagetwist.com/i/25559/m7wfnngq3g75.jpg/kirari-hoshizora-1.jpg",
+    avatar: kirari_hoshizora.kirari_hoshizora_3,
     name: "Kirari Hoshizora",
     other: "Mashiro Yuuna",
     born: "27/10/1994",
@@ -1061,12 +1042,10 @@ const File1 = [
     ],
     album: [
       {
-        picture:
-          "https://img200.imagetwist.com/i/25559/f24qtcaklkzg.jpg/kirari-hoshizora-2.jpg",
+        picture: kirari_hoshizora.kirari_hoshizora_1,
       },
       {
-        picture:
-          "https://img200.imagetwist.com/i/25559/utprxmo6mtsc.jpg/kirari-hoshizora-3.jpg",
+        picture: kirari_hoshizora.kirari_hoshizora_2,
       },
     ],
   },
@@ -1090,14 +1069,6 @@ const File1 = [
       },
       {
         picture:
-          "https://img200.imagetwist.com/i/25595/vued33ti6cb6.jpg/aki-sasaki-2.jpg",
-      },
-      {
-        picture:
-          "https://img200.imagetwist.com/i/25595/2fon7djn3ldy.jpg/aki-sasaki-3.jpg",
-      },
-      {
-        picture:
           "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/40000/40114/large/wapdb-aki-sasaki-pornostar-asiatique.warashi-asian-pornstars.fr-40114-013.jpg",
       },
       {
@@ -1118,18 +1089,13 @@ const File1 = [
       },
       {
         picture:
-          "https://img200.imagetwist.com/i/25595/v6bq00iir0yh.jpg/aki-sasaki-1.jpg",
-      },
-      {
-        picture:
           "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/40000/40114/large/wapdb-aki-sasaki-pornostar-asiatique.warashi-asian-pornstars.fr-40114-005.jpg",
       },
     ],
   },
   {
     idIdol: "jai022",
-    avatar:
-      "https://img200.imagetwist.com/i/25595/piaw0htscha7.jpg/yuka-tachibana-1.jpg",
+    avatar: yuka_tachibana.yuka_tachibana_1,
     name: "Yuka Tachibana",
     other: "Airi Hinata",
     born: "17/12/1992",
@@ -1141,44 +1107,35 @@ const File1 = [
     styles: [{ tag: "Retired" }, { tag: "Killer Tits" }],
     album: [
       {
-        picture:
-          "https://img200.imagetwist.com/i/25595/7ocmyke249um.jpg/yuka-tachibana-10.jpg",
+        picture: yuka_tachibana.yuka_tachibana_10,
       },
       {
         picture:
           "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/26000/26526/large/wapdb-yuka-tachibana-pornostar-asiatique.warashi-asian-pornstars.fr-26526-001.jpg",
       },
       {
-        picture:
-          "https://img200.imagetwist.com/i/25595/5yjdjmvrmiwu.jpg/yuka-tachibana-9.jpg",
+        picture: yuka_tachibana.yuka_tachibana_9,
       },
       {
-        picture:
-          "https://img200.imagetwist.com/i/25595/a5nq87qvsbfs.jpg/yuka-tachibana-8.jpg",
+        picture: yuka_tachibana.yuka_tachibana_8,
       },
       {
-        picture:
-          "https://img200.imagetwist.com/i/25595/gvm8az0r6lzv.jpg/yuka-tachibana-6.jpg",
+        picture: yuka_tachibana.yuka_tachibana_6,
       },
       {
-        picture:
-          "https://img200.imagetwist.com/i/25595/gkuunflr7mmz.jpg/yuka-tachibana-7.jpg",
+        picture: yuka_tachibana.yuka_tachibana_7,
       },
       {
-        picture:
-          "https://img200.imagetwist.com/i/25595/noh5bvl6f52g.jpg/yuka-tachibana-5.jpg",
+        picture: yuka_tachibana.yuka_tachibana_5,
       },
       {
-        picture:
-          "https://img200.imagetwist.com/i/25595/j3476ntle6hr.jpg/yuka-tachibana-3.jpg",
+        picture: yuka_tachibana.yuka_tachibana_3,
       },
       {
-        picture:
-          "https://img200.imagetwist.com/i/25595/nn8s4fk32izv.jpg/yuka-tachibana-4.jpg",
+        picture: yuka_tachibana.yuka_tachibana_4,
       },
       {
-        picture:
-          "https://img200.imagetwist.com/i/25595/co84lftamcje.jpg/yuka-tachibana-2.jpg",
+        picture: yuka_tachibana.yuka_tachibana_2,
       },
     ],
   },
@@ -1729,10 +1686,6 @@ const File1 = [
         picture:
           "https://www.japanesebeauties.net/japanese/miki-torii/4/miki-torii-5.jpg",
       },
-      {
-        picture:
-          "https://img200.imagetwist.com/i/25710/owh7q5t2e6mo.jpg/miki-torii-1.jpg",
-      },
     ],
   },
   {
@@ -1935,10 +1888,6 @@ const File1 = [
       },
       {
         picture:
-          "https://img200.imagetwist.com/i/25809/vr5zabtwui5b.jpg/sayaka-minami-4.jpg",
-      },
-      {
-        picture:
           "https://www.japanesebeauties.net/hardcore/caribbeancompr/sayaka-minami/120111_209/sayaka-minami-3.jpg",
       },
       {
@@ -1951,23 +1900,11 @@ const File1 = [
       },
       {
         picture:
-          "https://img200.imagetwist.com/i/25809/vuuh5heclhtj.jpg/sayaka-minami-1.jpg",
-      },
-      {
-        picture:
           "https://www.japanesebeauties.net/hardcore/caribbeancompr/sayaka-minami/120111_209/sayaka-minami-4.jpg",
       },
       {
         picture:
           "https://www.japanesebeauties.net/japanese/sayaka-minami/4/sayaka-minami-4.jpg",
-      },
-      {
-        picture:
-          "https://img200.imagetwist.com/i/25809/3e8umm6nsdwc.jpg/sayaka-minami-2.jpg",
-      },
-      {
-        picture:
-          "https://img200.imagetwist.com/i/25809/1y4g5swuxoyx.jpg/sayaka-minami-3.jpg",
       },
     ],
   },
