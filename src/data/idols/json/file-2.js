@@ -1,4 +1,15 @@
 import * as haruka_hakii from "../images/haruka-hakii";
+import * as angelia_mizuki from "../images/angelia-mizuki";
+import * as anju_kitagawa from "../images/anju-kitagawa";
+import * as erika_momotani from "../images/erika-momotani";
+import * as satomi_ichihara from "../images/satomi-ichihara";
+import * as arisa_shindo from "../images/arisa-shindo";
+import * as yui_kasumi from "../images/yui-kasumi";
+import * as arisa_takimoto from "../images/arisa-takimoto";
+import * as nana_minami from "../images/nana-minami";
+import * as reona from "../images/reona";
+import * as minami_aizawa from "../images/minami-aizawa";
+import * as mika_sumire from "../images/mika-sumire";
 
 const File2 = [
   {
@@ -293,8 +304,7 @@ const File2 = [
   },
   {
     idIdol: "jai063",
-    avatar:
-      "https://img200.imagetwist.com/i/26105/8791wqk2hgsf.jpg/angelia-mizuki-3.jpg",
+    avatar: angelia_mizuki.angelia_mizuki_8,
     name: "Angelia Mizuki",
     other: "",
     born: "18/07/1992",
@@ -303,23 +313,37 @@ const File2 = [
     cup: "H-Cup",
     waist: "61 cm",
     hips: "86 cm",
-    styles: [{ tag: "Cute" }, { tag: "Killer Tits" }],
+    styles: [{ tag: "Retired" }, { tag: "Cute" }, { tag: "Killer Tits" }],
     album: [
       {
-        picture:
-          "https://img200.imagetwist.com/i/26105/s4w9hqi52zf2.jpg/angelia-mizuki-2.jpg",
+        picture: angelia_mizuki.angelia_mizuki_6,
       },
       {
-        picture:
-          "https://img200.imagetwist.com/i/26105/35cym86orsx8.jpg/angelia-mizuki-1.jpg",
+        picture: angelia_mizuki.angelia_mizuki_9,
       },
       {
-        picture:
-          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/27000/27473/large/wapdb-angelia-mizuki-pornostar-asiatique.warashi-asian-pornstars.fr-27473-009.jpg",
+        picture: angelia_mizuki.angelia_mizuki_1,
       },
       {
-        picture:
-          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/27000/27813/large/wapdb-angelia-mizuki-pornostar-asiatique.warashi-asian-pornstars.fr-27813-007.jpg",
+        picture: angelia_mizuki.angelia_mizuki_2,
+      },
+      {
+        picture: angelia_mizuki.angelia_mizuki_5,
+      },
+      {
+        picture: angelia_mizuki.angelia_mizuki_3,
+      },
+      {
+        picture: angelia_mizuki.angelia_mizuki_4,
+      },
+      {
+        picture: angelia_mizuki.angelia_mizuki_7,
+      },
+      {
+        picture: angelia_mizuki.angelia_mizuki_10,
+      },
+      {
+        picture: angelia_mizuki.angelia_mizuki_11,
       },
     ],
   },
@@ -824,8 +848,7 @@ const File2 = [
   },
   {
     idIdol: "jai073",
-    avatar:
-      "https://img201.imagetwist.com/i/26358/313o9kut3t30.jpg/minami-aizawa-2.jpg",
+    avatar: minami_aizawa.minami_aizawa_2,
     name: "Minami Aizawa",
     other: "",
     born: "14/06/1996",
@@ -837,28 +860,34 @@ const File2 = [
     styles: [{ tag: "Cute" }, { tag: "Small Tits" }, { tag: "Slender" }],
     album: [
       {
-        picture:
-          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/38000/38882/large/wapdb-minami-aizawa-pornostar-asiatique.warashi-asian-pornstars.fr-38882-011.jpg",
+        picture: minami_aizawa.minami_aizawa_1,
       },
       {
-        picture:
-          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/41000/41982/large/wapdb-minami-aizawa-pornostar-asiatique.warashi-asian-pornstars.fr-41982-010.jpg",
+        picture: minami_aizawa.minami_aizawa_3,
       },
       {
-        picture:
-          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/43000/43712/large/wapdb-minami-aizawa-pornostar-asiatique.warashi-asian-pornstars.fr-43712-001.jpg",
+        picture: minami_aizawa.minami_aizawa_4,
       },
       {
-        picture:
-          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/36000/36217/large/wapdb-minami-aizawa-pornostar-asiatique.warashi-asian-pornstars.fr-36217-001.jpg",
+        picture: minami_aizawa.minami_aizawa_5,
       },
       {
-        picture:
-          "https://img201.imagetwist.com/i/26358/i785cn9kt031.jpg/minami-aizawa-1.jpg",
+        picture: minami_aizawa.minami_aizawa_6,
       },
       {
-        picture:
-          "https://img201.imagetwist.com/i/26358/ojxx8hl0pix4.jpg/minami-aizawa-3.jpg",
+        picture: minami_aizawa.minami_aizawa_7,
+      },
+      {
+        picture: minami_aizawa.minami_aizawa_8,
+      },
+      {
+        picture: minami_aizawa.minami_aizawa_9,
+      },
+      {
+        picture: minami_aizawa.minami_aizawa_10,
+      },
+      {
+        picture: minami_aizawa.minami_aizawa_11,
       },
     ],
   },
@@ -1398,8 +1427,7 @@ const File2 = [
   },
   {
     idIdol: "jai083",
-    avatar:
-      "https://img201.imagetwist.com/i/26270/9idpmfujljhv.jpg/anju-kitagawa-1.jpg",
+    avatar: anju_kitagawa.anju_kitagawa_3,
     name: "Anju Kitagawa",
     other: "",
     born: "10/08/1990",
@@ -1415,8 +1443,22 @@ const File2 = [
     ],
     album: [
       {
-        picture:
-          "https://www.japanesebeauties.net/japanese/anju-kitagawa/7/anju-kitagawa-4.jpg",
+        picture: anju_kitagawa.anju_kitagawa_4,
+      },
+      {
+        picture: anju_kitagawa.anju_kitagawa_1,
+      },
+      {
+        picture: anju_kitagawa.anju_kitagawa_2,
+      },
+      {
+        picture: anju_kitagawa.anju_kitagawa_5,
+      },
+      {
+        picture: anju_kitagawa.anju_kitagawa_6,
+      },
+      {
+        picture: anju_kitagawa.anju_kitagawa_7,
       },
     ],
   },
@@ -1531,8 +1573,7 @@ const File2 = [
   },
   {
     idIdol: "jai086",
-    avatar:
-      "https://www.japanesebeauties.net/hardcore/heyzo/mika-sumire/1784/mika-sumire-3.jpg",
+    avatar: mika_sumire.mika_sumire_7,
     name: "Mika Sumire",
     other: "",
     born: "30/01/1986",
@@ -1544,44 +1585,31 @@ const File2 = [
     styles: [{ tag: "Killer Tits" }],
     album: [
       {
-        picture:
-          "https://img201.imagetwist.com/i/26296/l6m9mrijzaaj.jpg/mika-sumire-3.jpg",
+        picture: mika_sumire.mika_sumire_4,
       },
       {
-        picture:
-          "https://img201.imagetwist.com/i/26296/5j5giwvx5rgx.jpg/mika-sumire-4.jpg",
+        picture: mika_sumire.mika_sumire_5,
       },
       {
-        picture:
-          "https://img201.imagetwist.com/i/26296/u0wt6n8z1jqz.jpg/mika-sumire-5.jpg",
+        picture: mika_sumire.mika_sumire_6,
       },
       {
-        picture:
-          "https://img201.imagetwist.com/i/26296/4qydvt34dbba.jpg/mika-sumire-6.jpg",
+        picture: mika_sumire.mika_sumire_3,
       },
       {
-        picture:
-          "https://img201.imagetwist.com/i/26296/upge9aw2qgnw.jpg/mika-sumire-7.jpg",
+        picture: mika_sumire.mika_sumire_8,
       },
       {
-        picture:
-          "https://img201.imagetwist.com/i/26296/lgeh2p5h0rfa.jpg/mika-sumire-8.jpg",
+        picture: mika_sumire.mika_sumire_9,
       },
       {
-        picture:
-          "https://img201.imagetwist.com/i/26296/b0nrxomolsge.jpg/mika-sumire-9.jpg",
+        picture: mika_sumire.mika_sumire_10,
       },
       {
-        picture:
-          "https://img201.imagetwist.com/i/26296/tot3g5prjrjx.jpg/mika-sumire-10.jpg",
+        picture: mika_sumire.mika_sumire_1,
       },
       {
-        picture:
-          "https://img201.imagetwist.com/i/26296/fzldh5ftey0e.jpg/mika-sumire-2.jpg",
-      },
-      {
-        picture:
-          "https://img201.imagetwist.com/i/26296/jtw6aad3gf3u.jpg/mika-sumire-1.jpg",
+        picture: mika_sumire.mika_sumire_2,
       },
     ],
   },
@@ -1618,14 +1646,6 @@ const File2 = [
       {
         picture:
           "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/29000/29715/large/wapdb-yua-kuramochi-pornostar-asiatique.warashi-asian-pornstars.fr-29715-009.jpg",
-      },
-      {
-        picture:
-          "https://img201.imagetwist.com/i/26303/mvaduphguzjs.jpg/yua-kuramochi-2.jpg",
-      },
-      {
-        picture:
-          "https://img201.imagetwist.com/i/26303/40dc4nfd97mc.jpg/yua-kuramochi-1.jpg",
       },
     ],
   },
@@ -1771,8 +1791,7 @@ const File2 = [
           "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/32000/32158/large/wapdb-nana-minami-pornostar-asiatique.warashi-asian-pornstars.fr-32158-012.jpg",
       },
       {
-        picture:
-          "https://img201.imagetwist.com/i/26358/d0ufwhy998md.jpg/nana-minami-1.jpg",
+        picture: nana_minami.nana_minami_1,
       },
     ],
   },
@@ -1952,7 +1971,7 @@ const File2 = [
   {
     idIdol: "jai094",
     avatar:
-      "https://img201.imagetwist.com/i/26357/l4txhdzgfe7d.jpg/saori-yagami-2.jpg",
+      "https://www.japanesebeauties.net/r18/saori-yagami/h_237nacr00316/saori-yagami-11.jpg",
     name: "Saori Yagami",
     other: "",
     born: "08/08/1990",
@@ -1965,18 +1984,33 @@ const File2 = [
     album: [
       {
         picture:
-          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/36000/36208/large/wapdb-saori-yagami-pornostar-asiatique.warashi-asian-pornstars.fr-36208-010.jpg",
+          "https://www.japanesebeauties.net/r18/saori-yagami/ebod00553/saori-yagami-5.jpg",
       },
       {
         picture:
-          "https://img201.imagetwist.com/i/26357/5dapb7u1b3qy.jpg/saori-yagami-1.jpg",
+          "https://www.japanesebeauties.net/r18/saori-yagami/h_237nacr00316/saori-yagami-15.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/r18/saori-yagami/jul00010/saori-yagami-4.jpg",
+      },
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/50000/50859/large/wapdb-saori-yagami-pornostar-asiatique.warashi-asian-pornstars.fr-50859-001.jpg",
+      },
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/48000/48583/large/wapdb-saori-yagami-pornostar-asiatique.warashi-asian-pornstars.fr-48583-002.jpg",
+      },
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/36000/36203/large/wapdb-saori-yagami-pornostar-asiatique.warashi-asian-pornstars.fr-36203-020.jpg",
       },
     ],
   },
   {
     idIdol: "jai095",
-    avatar:
-      "https://img201.imagetwist.com/i/26358/5vzwqjs21tmd.jpg/reona-3.jpg",
+    avatar: reona.reona_3,
     name: "Reona",
     other: "",
     born: "23/05/1992",
@@ -1993,51 +2027,40 @@ const File2 = [
     ],
     album: [
       {
-        picture:
-          "https://img201.imagetwist.com/i/26358/gvuhxvhs5jet.jpg/reona-1.jpg",
+        picture: reona.reona_1,
       },
       {
-        picture:
-          "https://img201.imagetwist.com/i/26358/w51ecbtfdrzf.jpg/reona-2.jpg",
+        picture: reona.reona_2,
       },
       {
-        picture:
-          "https://img201.imagetwist.com/i/26358/087j42v94frc.jpg/reona-4.jpg",
+        picture: reona.reona_4,
       },
       {
-        picture:
-          "https://img201.imagetwist.com/i/26358/1emvhdfawexc.jpg/reona-5.jpg",
+        picture: reona.reona_5,
       },
       {
-        picture:
-          "https://img201.imagetwist.com/i/26358/nzvrgkgqk76x.jpg/reona-6.jpg",
+        picture: reona.reona_6,
       },
       {
-        picture:
-          "https://img201.imagetwist.com/i/26358/byz0bw7llt6p.jpg/reona-7.jpg",
+        picture: reona.reona_7,
       },
       {
-        picture:
-          "https://img201.imagetwist.com/i/26358/rw18qh14usj4.jpg/reona-8.jpg",
+        picture: reona.reona_8,
       },
       {
-        picture:
-          "https://img201.imagetwist.com/i/26358/jn3b3wq2zb53.jpg/reona-9.jpg",
+        picture: reona.reona_9,
       },
       {
-        picture:
-          "https://img201.imagetwist.com/i/26358/k5ah4721jkxw.jpg/reona-10.jpg",
+        picture: reona.reona_10,
       },
       {
-        picture:
-          "https://img201.imagetwist.com/i/26358/x5tsu8ltaadj.jpg/reona-11.jpg",
+        picture: reona.reona_11,
       },
     ],
   },
   {
     idIdol: "jai096",
-    avatar:
-      "https://img201.imagetwist.com/i/26359/jz8r2bdr0i04.jpg/arisa-takimoto-1.jpg",
+    avatar: arisa_takimoto.arisa_takimoto_2,
     name: "Arisa Takimoto",
     other: "",
     born: "22/05/1995",
@@ -2055,15 +2078,13 @@ const File2 = [
     ],
     album: [
       {
-        picture:
-          "https://img201.imagetwist.com/i/26359/czjj6td819lr.jpg/arisa-takimoto-2.jpg",
+        picture: arisa_takimoto.arisa_takimoto_1,
       },
     ],
   },
   {
     idIdol: "jai097",
-    avatar:
-      "https://img201.imagetwist.com/i/26359/urvfbf7rofvq.jpg/yui-kasumi-3.jpg",
+    avatar: yui_kasumi.yui_kasumi_3,
     name: "Yui Kasumi",
     other: "",
     born: "13/04/1997",
@@ -2081,51 +2102,40 @@ const File2 = [
     ],
     album: [
       {
-        picture:
-          "https://img201.imagetwist.com/i/26359/vq1ono5cowk4.jpg/yui-kasumi-1.jpg",
+        picture: yui_kasumi.yui_kasumi_1,
       },
       {
-        picture:
-          "https://img201.imagetwist.com/i/26359/0xbujbtbmveq.jpg/yui-kasumi-2.jpg",
+        picture: yui_kasumi.yui_kasumi_2,
       },
       {
-        picture:
-          "https://img201.imagetwist.com/i/26359/u75tlnwvs4xt.jpg/yui-kasumi-4.jpg",
+        picture: yui_kasumi.yui_kasumi_4,
       },
       {
-        picture:
-          "https://img201.imagetwist.com/i/26359/s5yzut7tp9af.jpg/yui-kasumi-5.jpg",
+        picture: yui_kasumi.yui_kasumi_5,
       },
       {
-        picture:
-          "https://img201.imagetwist.com/i/26359/c4mp5mkzq1f8.jpg/yui-kasumi-6.jpg",
+        picture: yui_kasumi.yui_kasumi_6,
       },
       {
-        picture:
-          "https://img201.imagetwist.com/i/26359/83dynoxey3b3.jpg/yui-kasumi-7.jpg",
+        picture: yui_kasumi.yui_kasumi_7,
       },
       {
-        picture:
-          "https://img201.imagetwist.com/i/26359/x55znpbl6iyr.jpg/yui-kasumi-8.jpg",
+        picture: yui_kasumi.yui_kasumi_8,
       },
       {
-        picture:
-          "https://img201.imagetwist.com/i/26359/69zoa4essrm9.jpg/yui-kasumi-9.jpg",
+        picture: yui_kasumi.yui_kasumi_9,
       },
       {
-        picture:
-          "https://img201.imagetwist.com/i/26359/zj8mmr3dl640.jpg/yui-kasumi-10.jpg",
+        picture: yui_kasumi.yui_kasumi_10,
       },
       {
-        picture:
-          "https://img201.imagetwist.com/i/26359/eo37nbzanyxw.jpg/yui-kasumi-11.jpg",
+        picture: yui_kasumi.yui_kasumi_11,
       },
     ],
   },
   {
     idIdol: "jai098",
-    avatar:
-      "https://img201.imagetwist.com/i/26359/r8eysnjopiho.jpg/arisa-shindo-3.jpg",
+    avatar: arisa_shindo.arisa_shindo_3,
     name: "Arisa Shindo",
     other: "",
     born: "04/08/1996",
@@ -2137,12 +2147,10 @@ const File2 = [
     styles: [{ tag: "Retired" }, { tag: "Cute" }, { tag: "Teens" }],
     album: [
       {
-        picture:
-          "https://img201.imagetwist.com/i/26359/lvl1ubgkytup.jpg/arisa-shindo-1.jpg",
+        picture: arisa_shindo.arisa_shindo_1,
       },
       {
-        picture:
-          "https://img201.imagetwist.com/i/26359/8799w96yr7zl.jpg/arisa-shindo-2.jpg",
+        picture: arisa_shindo.arisa_shindo_2,
       },
     ],
   },
@@ -2387,8 +2395,7 @@ const File2 = [
   },
   {
     idIdol: "jai103",
-    avatar:
-      "https://img201.imagetwist.com/i/26552/5icn4q3m9oi9.jpg/erika-momotani-10.jpg",
+    avatar: erika_momotani.erika_momotani_10,
     name: "Erika Momotani",
     other: "",
     born: "15/06/1994",
@@ -2405,44 +2412,34 @@ const File2 = [
     ],
     album: [
       {
-        picture:
-          "https://img201.imagetwist.com/i/26552/8memw9mvvy9c.jpg/erika-momotani-1.jpg",
+        picture: erika_momotani.erika_momotani_1,
       },
       {
-        picture:
-          "https://img201.imagetwist.com/i/26552/viegi83a8bn3.jpg/erika-momotani-2.jpg",
+        picture: erika_momotani.erika_momotani_2,
       },
       {
-        picture:
-          "https://img201.imagetwist.com/i/26552/mhh8f60tn9e3.jpg/erika-momotani-3.jpg",
+        picture: erika_momotani.erika_momotani_3,
       },
       {
-        picture:
-          "https://img201.imagetwist.com/i/26552/juiecmbbhcvn.jpg/erika-momotani-4.jpg",
+        picture: erika_momotani.erika_momotani_4,
       },
       {
-        picture:
-          "https://img201.imagetwist.com/i/26552/l9h57c24eciq.jpg/erika-momotani-5.jpg",
+        picture: erika_momotani.erika_momotani_5,
       },
       {
-        picture:
-          "https://img201.imagetwist.com/i/26552/8eab6bee3ma8.jpg/erika-momotani-6.jpg",
+        picture: erika_momotani.erika_momotani_6,
       },
       {
-        picture:
-          "https://img201.imagetwist.com/i/26552/zb03j6t1nzss.jpg/erika-momotani-7.jpg",
+        picture: erika_momotani.erika_momotani_7,
       },
       {
-        picture:
-          "https://img201.imagetwist.com/i/26552/8w9tudyhtyn6.jpg/erika-momotani-8.jpg",
+        picture: erika_momotani.erika_momotani_8,
       },
       {
-        picture:
-          "https://img201.imagetwist.com/i/26552/4626unb086uo.jpg/erika-momotani-9.jpg",
+        picture: erika_momotani.erika_momotani_9,
       },
       {
-        picture:
-          "https://img201.imagetwist.com/i/26552/aafijuaw1y6v.jpg/erika-momotani-11.jpg",
+        picture: erika_momotani.erika_momotani_11,
       },
     ],
   },
@@ -2509,8 +2506,7 @@ const File2 = [
   },
   {
     idIdol: "jai105",
-    avatar:
-      "https://www.japanesebeauties.net/hardcore/caribbeancompr/satomi-ichihara/100512_412/satomi-ichihara-6.jpg",
+    avatar: satomi_ichihara.satomi_ichihara_6,
     name: "Satomi Ichihara",
     other: "Eri Nishimura",
     born: "24/12/1986",
@@ -2527,32 +2523,22 @@ const File2 = [
     ],
     album: [
       {
-        picture:
-          "https://img201.imagetwist.com/i/26601/uol758m75guw.jpg/satomi-ichihara-1.jpg",
+        picture: satomi_ichihara.satomi_ichihara_7,
       },
       {
-        picture:
-          "https://img201.imagetwist.com/i/26601/apbq0946wdsz.jpg/satomi-ichihara-3.jpg",
+        picture: satomi_ichihara.satomi_ichihara_3,
       },
       {
-        picture:
-          "https://img201.imagetwist.com/i/26601/7gw4irmc7zq5.jpg/satomi-ichihara-4.jpg",
+        picture: satomi_ichihara.satomi_ichihara_1,
       },
       {
-        picture:
-          "https://img201.imagetwist.com/i/26601/ana995qppoog.jpg/satomi-ichihara-5.jpg",
+        picture: satomi_ichihara.satomi_ichihara_4,
       },
       {
-        picture:
-          "https://img201.imagetwist.com/i/26601/r1ic2co0h3w3.jpg/satomi-ichihara-6.jpg",
+        picture: satomi_ichihara.satomi_ichihara_5,
       },
       {
-        picture:
-          "https://img201.imagetwist.com/i/26601/cmtjskql0eym.jpg/satomi-ichihara-7.jpg",
-      },
-      {
-        picture:
-          "https://img201.imagetwist.com/i/26601/rfxwm6cnfbvi.jpg/satomi-ichihara-2.jpg",
+        picture: satomi_ichihara.satomi_ichihara_2,
       },
     ],
   },

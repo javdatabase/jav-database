@@ -1,4 +1,7 @@
 import * as honoka_tsuji from "../images/honoka-tsuji";
+import * as hina_kinami from "../images/hina-kinami";
+import * as hikari_anzai from "../images/hikari-anzai";
+import * as nao_tachibana from "../images/nao-tachibana";
 
 const File1 = [
   {
@@ -531,8 +534,7 @@ const File1 = [
   },
   {
     idIdol: "jai010",
-    avatar:
-      "https://img200.imagetwist.com/i/25528/8evb5jkxum35.png/hina-kinami-2.png",
+    avatar: hina_kinami.hina_kinami_2,
     name: "Hina Kinami",
     other: "",
     born: "17/11/1995",
@@ -549,28 +551,22 @@ const File1 = [
     ],
     album: [
       {
-        picture:
-          "https://img200.imagetwist.com/i/25528/wyhi9by65jav.jpg/hina-kinami-3.jpg",
+        picture: hina_kinami.hina_kinami_3,
       },
       {
-        picture:
-          "https://img200.imagetwist.com/i/25528/qf5n5to62udx.jpg/hina-kinami-4.jpg",
+        picture: hina_kinami.hina_kinami_4,
       },
       {
-        picture:
-          "https://img200.imagetwist.com/i/25528/fu0nee2kbigo.jpg/hina-kinami-1.jpg",
+        picture: hina_kinami.hina_kinami_1,
       },
       {
-        picture:
-          "https://img200.imagetwist.com/i/25528/mo38cqm2etrr.jpg/hina-kinami-5.jpg",
+        picture: hina_kinami.hina_kinami_5,
       },
       {
-        picture:
-          "https://img201.imagetwist.com/i/26358/ofbgc5t6hyt7.jpg/hina-kinami-6.jpg",
+        picture: hina_kinami.hina_kinami_6,
       },
       {
-        picture:
-          "https://img201.imagetwist.com/i/26358/odbq6cvo2az9.jpg/hina-kinami-7.jpg",
+        picture: hina_kinami.hina_kinami_7,
       },
     ],
   },
@@ -2383,8 +2379,7 @@ const File1 = [
   },
   {
     idIdol: "jai045",
-    avatar:
-      "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/20000/20487/large/wapdb-nao-tachibana-pornostar-asiatique.warashi-asian-pornstars.fr-20487-001.jpg",
+    avatar: nao_tachibana.nao_tachibana_10,
     name: "Nao Tachibana",
     other: "Kairi Uehara",
     born: "08/10/1990",
@@ -2396,44 +2391,31 @@ const File1 = [
     styles: [{ tag: "Retired" }, { tag: "Killer Tits" }],
     album: [
       {
-        picture:
-          "https://img200.imagetwist.com/i/25872/ud5ez0cdk4oq.png/nao-tachibana-1.png",
+        picture: nao_tachibana.nao_tachibana_2,
       },
       {
-        picture:
-          "https://img200.imagetwist.com/i/25872/u1owdxll5f2g.jpg/nao-tachibana-10.jpg",
+        picture: nao_tachibana.nao_tachibana_3,
       },
       {
-        picture:
-          "https://img200.imagetwist.com/i/25872/elep2setx9im.jpg/nao-tachibana-9.jpg",
+        picture: nao_tachibana.nao_tachibana_4,
       },
       {
-        picture:
-          "https://img200.imagetwist.com/i/25872/na86c0ew4ps9.jpg/nao-tachibana-8.jpg",
+        picture: nao_tachibana.nao_tachibana_5,
       },
       {
-        picture:
-          "https://img200.imagetwist.com/i/25872/17d73zfq6f3c.jpg/nao-tachibana-7.jpg",
+        picture: nao_tachibana.nao_tachibana_6,
       },
       {
-        picture:
-          "https://img200.imagetwist.com/i/25872/x9q70nhcum00.jpg/nao-tachibana-6.jpg",
+        picture: nao_tachibana.nao_tachibana_7,
       },
       {
-        picture:
-          "https://img200.imagetwist.com/i/25872/jzhhkc8j5mq6.jpg/nao-tachibana-5.jpg",
+        picture: nao_tachibana.nao_tachibana_8,
       },
       {
-        picture:
-          "https://img200.imagetwist.com/i/25872/5bys3ufzy206.jpg/nao-tachibana-4.jpg",
+        picture: nao_tachibana.nao_tachibana_9,
       },
       {
-        picture:
-          "https://img200.imagetwist.com/i/25872/bawijd96wu1q.jpg/nao-tachibana-3.jpg",
-      },
-      {
-        picture:
-          "https://img200.imagetwist.com/i/25872/7eqzurflv76v.jpg/nao-tachibana-2.jpg",
+        picture: nao_tachibana.nao_tachibana_1,
       },
     ],
   },
@@ -2544,8 +2526,7 @@ const File1 = [
   },
   {
     idIdol: "jai049",
-    avatar:
-      "https://img200.imagetwist.com/i/25933/sj4wc11lns6k.jpg/hikari-anzai-1.jpg",
+    avatar: hikari_anzai.hikari_anzai_1,
     name: "Hikari Anzai",
     other: "Anju Kaise",
     born: "30/11/1985",
@@ -2562,15 +2543,14 @@ const File1 = [
     ],
     album: [
       {
-        picture:
-          "https://img200.imagetwist.com/i/25933/bk1o5x7j2g57.jpg/hikari-anzai-2.jpg",
+        picture: hikari_anzai.hikari_anzai_2,
       },
     ],
   },
   {
     idIdol: "jai050",
     avatar:
-      "https://img200.imagetwist.com/i/25940/6nvl5nooqfo9.jpg/yuri-nikaido-1.jpg",
+      "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/36000/36283/large/wapdb-yuri-nikaido-pornostar-asiatique.warashi-asian-pornstars.fr-36283-001.jpg",
     name: "Yuri Nikaido",
     other: "",
     born: "26/12/1988",
@@ -2597,24 +2577,12 @@ const File1 = [
         picture:
           "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/41000/41302/large/wapdb-yuri-nikaido-pornostar-asiatique.warashi-asian-pornstars.fr-41302-001.jpg",
       },
-      {
-        picture:
-          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/36000/36283/large/wapdb-yuri-nikaido-pornostar-asiatique.warashi-asian-pornstars.fr-36283-001.jpg",
-      },
-      {
-        picture:
-          "https://img200.imagetwist.com/i/25940/tooi9yu4a5n9.jpg/yuri-nikaido-2.jpg",
-      },
-      {
-        picture:
-          "https://img200.imagetwist.com/i/25940/fdh0f7d77ltz.jpg/yuri-nikaido-3.jpg",
-      },
     ],
   },
   {
     idIdol: "jai051",
     avatar:
-      "https://img200.imagetwist.com/i/26001/pure4a48nsio.jpg/ruri-tachibana-2.jpg",
+      "https://www.japanesebeauties.net/r18/rino-shirosaki/h_1312lors00001/rino-shirosaki-2.jpg",
     name: "Ruri Tachibana",
     other: "Rino Shirosaki",
     born: "19/01/1992",
@@ -2627,43 +2595,19 @@ const File1 = [
     album: [
       {
         picture:
-          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/40000/40039/large/wapdb-ruri-tachibana-pornostar-asiatique.warashi-asian-pornstars.fr-40039-001.jpg",
+          "https://www.japanesebeauties.net/r18/ruri-tachibana/hnd00400/ruri-tachibana-5.jpg",
       },
       {
         picture:
-          "https://imgs.aventertainments.com//vodimages/gallery/large/LAF-88/005.jpg",
+          "https://www.japanesebeauties.net/r18/ruri-tachibana/miae00027/ruri-tachibana-3.jpg",
       },
       {
         picture:
-          "https://imgs.aventertainments.com//vodimages/gallery/large/LAF-88/004.jpg",
+          "https://www.japanesebeauties.net/r18/ruri-tachibana/mvsd00319/ruri-tachibana-7.jpg",
       },
       {
         picture:
-          "https://imgs.aventertainments.com//vodimages/gallery/large/LAF-88/007.jpg",
-      },
-      {
-        picture:
-          "https://imgs.aventertainments.com//vodimages/gallery/large/LAF-88/010.jpg",
-      },
-      {
-        picture:
-          "https://imgs.aventertainments.com//vodimages/gallery/large/CWP-166/007.jpg",
-      },
-      {
-        picture:
-          "https://imgs.aventertainments.com//vodimages/gallery/large/CWP-166/008.jpg",
-      },
-      {
-        picture:
-          "https://imgs.aventertainments.com//vodimages/gallery/large/CWP-166/010.jpg",
-      },
-      {
-        picture:
-          "https://imgs.aventertainments.com//vodimages/gallery/large/CWP-166/012.jpg",
-      },
-      {
-        picture:
-          "https://img200.imagetwist.com/i/26001/kf82ku56nlig.jpg/ruri-tachibana-1.jpg",
+          "https://www.japanesebeauties.net/r18/rino-shirosaki/h_086toen00006/rino-shirosaki-9.jpg",
       },
     ],
   },
@@ -2845,7 +2789,7 @@ const File1 = [
   {
     idIdol: "jai055",
     avatar:
-      "https://img200.imagetwist.com/i/26088/jo2mv897xcqq.jpg/marina-yuzuki-1.jpg",
+      "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/41000/41402/large/wapdb-marina-yuzuki-pornostar-asiatique.warashi-asian-pornstars.fr-41402-001.jpg",
     name: "Marina Yuzuki",
     other: "",
     born: "30/11/1993",
@@ -2856,10 +2800,6 @@ const File1 = [
     hips: "85 cm",
     styles: [{ tag: "Killer Tits" }, { tag: "Slender" }],
     album: [
-      {
-        picture:
-          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/41000/41402/large/wapdb-marina-yuzuki-pornostar-asiatique.warashi-asian-pornstars.fr-41402-001.jpg",
-      },
       {
         picture:
           "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/41000/41402/large/wapdb-marina-yuzuki-pornostar-asiatique.warashi-asian-pornstars.fr-41402-002.jpg",
@@ -2887,14 +2827,6 @@ const File1 = [
       {
         picture:
           "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/42000/42449/large/wapdb-marina-yuzuki-pornostar-asiatique.warashi-asian-pornstars.fr-42449-001.jpg",
-      },
-      {
-        picture:
-          "https://img200.imagetwist.com/i/26088/zog6hmt6h121.jpg/marina-yuzuki-3.jpg",
-      },
-      {
-        picture:
-          "https://img200.imagetwist.com/i/26088/tk2pi9phfyoy.jpg/marina-yuzuki-2.jpg",
       },
     ],
   },

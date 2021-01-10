@@ -23,6 +23,8 @@ import * as miyabi_midorikawa from "../images/miyabi-midorikawa";
 import * as momoka_tachibana from "../images/momoka-tachibana";
 import * as yuria_kanae from "../images/yuria-kanae";
 import * as haru_kawamura from "../images/haru-kawamura";
+import * as miku_akari from "../images/miku-akari";
+import * as rola_takizawa from "../images/rola-takizawa";
 
 const File3 = [
   {
@@ -393,8 +395,7 @@ const File3 = [
   },
   {
     idIdol: "jai121",
-    avatar:
-      "https://img201.imagetwist.com/i/27901/79ph1hybl26l.jpg/rola-takizawa-1.jpg",
+    avatar: rola_takizawa.rola_takizawa_6,
     name: "Rola Takizawa",
     other: "Rora Mizusaki",
     born: "04/06/1992",
@@ -414,44 +415,25 @@ const File3 = [
     ],
     album: [
       {
-        picture:
-          "https://img201.imagetwist.com/i/27901/5gid45zy8m5j.jpg/rola-takizawa-11.jpg",
+        picture: rola_takizawa.rola_takizawa_1,
       },
       {
-        picture:
-          "https://img201.imagetwist.com/i/27901/54cdjarh6vdj.jpg/rola-takizawa-10.jpg",
+        picture: rola_takizawa.rola_takizawa_8,
       },
       {
-        picture:
-          "https://img201.imagetwist.com/i/27901/z8gso0q6vrw5.jpg/rola-takizawa-9.jpg",
+        picture: rola_takizawa.rola_takizawa_3,
       },
       {
-        picture:
-          "https://img201.imagetwist.com/i/27901/m49ijzw8zi0b.jpg/rola-takizawa-8.jpg",
+        picture: rola_takizawa.rola_takizawa_2,
       },
       {
-        picture:
-          "https://img201.imagetwist.com/i/27901/33osur3d8eoy.jpg/rola-takizawa-7.jpg",
+        picture: rola_takizawa.rola_takizawa_4,
       },
       {
-        picture:
-          "https://img201.imagetwist.com/i/27901/z0kb0r2wx6y0.jpg/rola-takizawa-6.jpg",
+        picture: rola_takizawa.rola_takizawa_5,
       },
       {
-        picture:
-          "https://img201.imagetwist.com/i/27901/qzf7w15exv24.jpg/rola-takizawa-5.jpg",
-      },
-      {
-        picture:
-          "https://img201.imagetwist.com/i/27901/omn0g33f90g7.jpg/rola-takizawa-4.jpg",
-      },
-      {
-        picture:
-          "https://img201.imagetwist.com/i/27901/r1lkj83oxr5z.jpg/rola-takizawa-3.jpg",
-      },
-      {
-        picture:
-          "https://img201.imagetwist.com/i/27901/ujb2s2rjf5t7.jpg/rola-takizawa-2.jpg",
+        picture: rola_takizawa.rola_takizawa_7,
       },
     ],
   },
@@ -519,8 +501,7 @@ const File3 = [
   },
   {
     idIdol: "jai123",
-    avatar:
-      "https://img201.imagetwist.com/i/27916/78awfzvrwovv.jpg/miku-akari-2.jpg",
+    avatar: miku_akari.miku_akari_1,
     name: "Miku Akari",
     other: "Rei Reiwa",
     born: "20/12/1990",
@@ -529,31 +510,16 @@ const File3 = [
     cup: "G-Cup",
     waist: "55 cm",
     hips: "83 cm",
-    styles: [{ tag: "Beautiful Breasts" }],
+    styles: [{ tag: "Retired" }, { tag: "Beautiful Breasts" }],
     album: [
       {
-        picture:
-          "https://img201.imagetwist.com/i/27916/ywbf9hrweckv.jpg/miku-akari-1.jpg",
+        picture: miku_akari.miku_akari_2,
       },
       {
-        picture:
-          "https://img201.imagetwist.com/i/27916/h2xznj2fbbg0.jpg/miku-akari-3.jpg",
+        picture: miku_akari.miku_akari_3,
       },
       {
-        picture:
-          "https://img201.imagetwist.com/i/27916/teazv0jltryz.jpg/miku-akari-4.jpg",
-      },
-      {
-        picture:
-          "https://img201.imagetwist.com/i/27916/h93zbhs4hju6.jpg/miku-akari-5.jpg",
-      },
-      {
-        picture:
-          "https://img201.imagetwist.com/i/27916/qhs1uldbpskg.jpg/miku-akari-6.jpg",
-      },
-      {
-        picture:
-          "https://img201.imagetwist.com/i/27916/asw99q161166.jpg/miku-akari-7.jpg",
+        picture: miku_akari.miku_akari_4,
       },
     ],
   },
