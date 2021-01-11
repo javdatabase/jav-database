@@ -1,3 +1,5 @@
+import { CWDV32, CWP147, MCDV21, MKDS145, SMD162 } from "../images";
+
 const File18 = [
   {
     code: "DV-1304",
@@ -1378,32 +1380,28 @@ const File18 = [
   {
     code: "CWP-147",
     title: `CATWALK POISON 147 KOKONE MIZUTANI'S FIRST`,
-    poster:
-      "https://img201.imagetwist.com/i/26881/plfk56d5kv7v.jpeg/CWP-147.jpeg",
+    poster: CWP147,
     type: "Uncensored",
     idols: [{ idIdol: "jai053", name: "Kokone Mizutani" }],
   },
   {
     code: "CWDV-32",
     title: `CATWALK POISON DV 32 EXTREME ERO WOMAN COMING`,
-    poster:
-      "https://img201.imagetwist.com/i/26881/43hry7eoj9j8.jpg/CWDV-32.jpg",
+    poster: CWDV32,
     type: "Uncensored",
     idols: [{ idIdol: "jai053", name: "Kokone Mizutani" }],
   },
   {
     code: "SMD-162",
     title: `S MODEL 162 EXTREMELY ERO CREAM PIE`,
-    poster:
-      "https://img201.imagetwist.com/i/26881/jd8b5x8dwap2.jpg/SMD-162.jpg",
+    poster: SMD162,
     type: "Uncensored",
     idols: [{ idIdol: "jai053", name: "Kokone Mizutani" }],
   },
   {
     code: "MKD-S145",
     title: `KIRARI 145 BIG TITS GAL'S 6 REAL SEX`,
-    poster:
-      "https://img201.imagetwist.com/i/26881/ovhmfckua18k.jpg/MKD-S145.jpg",
+    poster: MKDS145,
     type: "Uncensored",
     idols: [{ idIdol: "jai053", name: "Kokone Mizutani" }],
   },
@@ -2055,8 +2053,7 @@ const File18 = [
   {
     code: "MCDV-21",
     title: `MERCI BEAUCOUP DV 21 AIEKI SPLASH !`,
-    poster:
-      "https://img201.imagetwist.com/i/26910/k39fsf5etzd3.jpg/MCDV-21.jpg",
+    poster: MCDV21,
     type: "Uncensored",
     idols: [{ idIdol: "jai078", name: "Mitsuki Akai" }],
   },

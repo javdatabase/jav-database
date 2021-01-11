@@ -238,6 +238,12 @@ import SKYHD137 from "./SKYHD-137.jpg";
 import SKYHD087 from "./SKYHD-087.jpg";
 import SKYHD039 from "./SKYHD-039.jpg";
 import SKYHD029 from "./SKYHD-029.png";
+import CWDV32 from "./CWDV-32.jpg";
+import CWP147 from "./CWP-147.jpeg";
+import DVPRN038 from "./DVPRN-038.jpg";
+import MKDS145 from "./MKD-S145.jpg";
+import SMD162 from "./SMD-162.jpg";
+import MCDV21 from "./MCDV-21.jpg";
 
 export {
   CWP49,
@@ -480,4 +486,10 @@ export {
   SKYHD039,
   SKYHD087,
   SKYHD137,
+  CWDV32,
+  CWP147,
+  DVPRN038,
+  MKDS145,
+  SMD162,
+  MCDV21
 };
