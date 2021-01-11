@@ -256,6 +256,13 @@ import MCDV43 from "./MCDV-43.jpeg";
 import MKDS150 from "./MKD-S150.jpeg";
 import PT125 from "./PT-125.jpeg";
 import SKY224 from "./SKY-224.jpg";
+import BT146 from "./BT-146.jpeg";
+import CWP120 from "./CWP-120.jpeg";
+import LAF41 from "./LAF-41.jpeg";
+import MKDS151 from "./MKD-S151.jpeg";
+import PT155 from "./PT-155.jpeg";
+import SMD115 from "./SMD-115.jpg";
+import SMD136 from "./SMD-136.jpeg";
 
 export {
   CWP49,
@@ -516,4 +523,11 @@ export {
   MKDS150,
   PT125,
   SKY224,
+  BT146,
+  CWP120,
+  LAF41,
+  MKDS151,
+  PT155,
+  SMD115,
+  SMD136,
 };

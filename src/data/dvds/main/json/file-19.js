@@ -11,6 +11,13 @@ import {
   SKY224,
   MCDV43,
   PT125,
+  PT155,
+  BT146,
+  MKDS151,
+  SMD115,
+  SMD136,
+  LAF41,
+  CWP120,
 } from "../images";
 
 const File19 = [
@@ -685,8 +692,7 @@ const File19 = [
   {
     code: "PT-155",
     title: `HOT SPRING ROMANCE`,
-    poster:
-      "https://img117.imagetwist.com/i/26971/icma5izvjqq9.jpeg/PT-155.jpeg",
+    poster: PT155,
     type: "Uncensored",
     idols: [{ idIdol: "jai036", name: "Akari Asagiri" }],
   },
@@ -700,8 +706,7 @@ const File19 = [
   {
     code: "BT-146",
     title: `YES , LET'S GO TO THE HOTSPRING WITH A MARRIED WOMAN`,
-    poster:
-      "https://img117.imagetwist.com/i/26971/evayehkcd3wb.jpeg/BT-146.jpeg",
+    poster: BT146,
     type: "Uncensored",
     idols: [{ idIdol: "jai036", name: "Akari Asagiri" }],
   },
@@ -722,8 +727,7 @@ const File19 = [
   {
     code: "MKD-S151",
     title: `KIRARI 151 THE BEST AKARI ASAGIRI 3 HOURS`,
-    poster:
-      "https://img117.imagetwist.com/i/26971/102zt716qdg1.jpeg/MKD-S151.jpeg",
+    poster: MKDS151,
     type: "Uncensored",
     idols: [{ idIdol: "jai036", name: "Akari Asagiri" }],
   },
@@ -1326,32 +1330,28 @@ const File19 = [
   {
     code: "SMD-115",
     title: `S MODEL 115 CREAM PIE LESSON`,
-    poster:
-      "https://img201.imagetwist.com/i/26973/railb71xub02.jpg/SMD-115.jpg",
+    poster: SMD115,
     type: "Uncensored",
     idols: [{ idIdol: "jai099", name: "Miku Ohashi" }],
   },
   {
     code: "SMD-136",
     title: `S MODEL 136 MIKU OHASHI BEST 3HOURS`,
-    poster:
-      "https://img201.imagetwist.com/i/26973/75dsd55wxefn.jpeg/SMD-136.jpeg",
+    poster: SMD136,
     type: "Uncensored",
     idols: [{ idIdol: "jai099", name: "Miku Ohashi" }],
   },
   {
     code: "CWP-120",
     title: `CATWALK POISON 120 FINALLY GIVING UP HER CAREER`,
-    poster:
-      "https://img201.imagetwist.com/i/26973/vhrjf20m969y.jpeg/CWP-120.jpeg",
+    poster: CWP120,
     type: "Uncensored",
     idols: [{ idIdol: "jai099", name: "Miku Ohashi" }],
   },
   {
     code: "LAF-41",
     title: `LAFORET GIRL 41 ANGEL AND DEVIL`,
-    poster:
-      "https://img201.imagetwist.com/i/26973/i2w7p31hxho3.jpeg/LAF-41.jpeg",
+    poster: LAF41,
     type: "Uncensored",
     idols: [{ idIdol: "jai099", name: "Miku Ohashi" }],
   },
