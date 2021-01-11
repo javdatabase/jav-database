@@ -17,6 +17,7 @@ import {
   N0659,
   MKD03,
   SKY335,
+  LL015,
 } from "../images";
 
 const File23 = [
@@ -2578,7 +2579,7 @@ const File23 = [
     code: "LL-015",
     title: `SWEET COHABITATION LIFE`,
     poster:
-      "https://img30.imagetwist.com/i/27165/9j6qy6b1dmyo.jpeg/LL-015.jpeg",
+      LL015,
     type: "Uncensored",
     idols: [{ idIdol: "jai114", name: "Nozomi Aso" }],
   },

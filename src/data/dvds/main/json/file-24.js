@@ -1,4 +1,12 @@
-import { DRC145, LAF84, MCDV15, ONED168 } from "../images";
+import {
+  DRC145,
+  LAF84,
+  MCDV15,
+  MKDS73,
+  ONED003,
+  ONED014,
+  ONED168,
+} from "../images";
 
 const File24 = [
   {
@@ -1851,24 +1859,21 @@ const File24 = [
   {
     code: "MKD-S73",
     title: `KIRARI 73 SQUIRTING BEAUTIFUL GIRL`,
-    poster:
-      "https://img67.imagetwist.com/i/27678/d2ozgmumjdwv.jpeg/MKD-S73.jpeg",
+    poster: MKDS73,
     type: "Uncensored",
     idols: [{ idIdol: "jai004", name: "Nana Ninomiya" }],
   },
   {
     code: "ONED-003",
     title: `BARELY SORA AOI'S FIRST CELL`,
-    poster:
-      "https://img201.imagetwist.com/i/27679/76xwodbmelju.jpg/ONED-003.jpg",
+    poster: ONED003,
     type: "Censored",
     idols: [{ idIdol: "jai118", name: "Sora Aoi" }],
   },
   {
     code: "ONED-014",
     title: `HEALING SCHOOL GIRLS AND CUTE FEMALE TEACHER NASTY SLUT SCHOOLGIRL SORA AOI × FEMALE TEACHER`,
-    poster:
-      "https://img201.imagetwist.com/i/27679/guic7syawb1e.jpg/ONED-014.jpg",
+    poster: ONED014,
     type: "Censored",
     idols: [{ idIdol: "jai118", name: "Sora Aoi" }],
   },
