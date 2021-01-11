@@ -277,6 +277,11 @@ import CWP148 from "./CWP-148.jpeg";
 import MKDS118 from "./MKD-S118.jpeg";
 import SMD145 from "./SMD-145.jpeg";
 import SMD160 from "./SMD-160.jpeg";
+import HODV20325 from "./HODV-20325.jpg";
+import HODV20336 from "./HODV-20336.jpg";
+import HODV20342 from "./HODV-20342.jpg";
+import SMD70 from "./SMD-70.jpeg";
+import SMDV29 from "./SMDV-29.jpeg";
 
 export {
   CWP49,
@@ -558,4 +563,9 @@ export {
   MKDS118,
   SMD145,
   SMD160,
+  HODV20325,
+  HODV20336,
+  HODV20342,
+  SMD70,
+  SMDV29,
 };
