@@ -287,6 +287,11 @@ import HODV20355 from "./HODV-20355.jpg";
 import MIAD185 from "./MIAD-185.jpg";
 import MIAD210 from "./MIAD-210.jpg";
 import MIAD237 from "./MIAD-237.jpg";
+import MIAD256 from "./MIAD-256.jpg";
+import SKY100 from "./SKY-100.jpeg";
+import SKY132 from "./SKY-132.jpeg";
+import TRP049 from "./TRP-049.jpeg";
+import TRP055 from "./TRP-055.jpeg";
 
 export {
   CWP49,
@@ -578,4 +583,9 @@ export {
   MIAD185,
   MIAD210,
   MIAD237,
+  MIAD256,
+  SKY100,
+  SKY132,
+  TRP049,
+  TRP055,
 };

@@ -30,6 +30,8 @@ import {
   MIAD185,
   MIAD210,
   MIAD237,
+  MIAD256,
+  SKY100,
 } from "../images";
 
 const File22 = [
@@ -1523,8 +1525,7 @@ const File22 = [
   {
     code: "MIAD-256",
     title: `SERINA HAYAKAWA INTRINSIC HYPER DIGITAL MOSAIC SHAVED PIES`,
-    poster:
-      "https://img201.imagetwist.com/i/27068/q39r798ll5rs.jpg/MIAD-256.jpg",
+    poster: MIAD256,
     type: "Censored",
     idols: [{ idIdol: "jai030", name: "Serina Hayakawa" }],
   },
@@ -1874,8 +1875,7 @@ const File22 = [
   {
     code: "SKY-100",
     title: `GOLD ANGEL VOL.10`,
-    poster:
-      "https://img117.imagetwist.com/i/27069/qgnoxdm4sz7g.jpeg/SKY-100.jpeg",
+    poster: SKY100,
     type: "Uncensored",
     idols: [{ idIdol: "jai030", name: "Serina Hayakawa" }],
   },
