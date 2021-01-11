@@ -12,6 +12,11 @@ import {
   TRP049,
   TRP055,
   SKY132,
+  CWDV02,
+  N0646,
+  N0659,
+  MKD03,
+  SKY335,
 } from "../images";
 
 const File23 = [
@@ -202,8 +207,7 @@ const File23 = [
   {
     code: "CWDV-02",
     title: `CATWALK POISON DV 02`,
-    poster:
-      "https://img163.imagetwist.com/i/27124/vbqphv0s5vk4.jpeg/CWDV-02.jpeg",
+    poster: CWDV02,
     type: "Uncensored",
     idols: [{ idIdol: "jai104", name: "Maria Ozawa" }],
   },
@@ -1422,16 +1426,14 @@ const File23 = [
   {
     code: "N-0646",
     title: `TOKYO HOT - INSULT ! SUPER MODEL - AMERI ICHINOSE`,
-    poster:
-      "https://img117.imagetwist.com/i/27156/4suwkdp0dujy.jpeg/N-0646.jpeg",
+    poster: N0646,
     type: "Uncensored",
     idols: [{ idIdol: "jai101", name: "Ameri Ichinose" }],
   },
   {
     code: "N-0659",
     title: `TOKYO HOT - SUPERB BODY SINK - AMERI ICHINOSE`,
-    poster:
-      "https://img117.imagetwist.com/i/27156/dh2vhr3mmjhr.jpeg/N-0659.jpeg",
+    poster: N0659,
     type: "Uncensored",
     idols: [{ idIdol: "jai101", name: "Ameri Ichinose" }],
   },
@@ -1452,8 +1454,7 @@ const File23 = [
   {
     code: "MKD-03",
     title: `KIRARI 03 AMERI ICHINOSE`,
-    poster:
-      "https://img117.imagetwist.com/i/27156/bln1d9uf71qi.jpeg/MKD-03.jpeg",
+    poster: MKD03,
     type: "Uncensored",
     idols: [{ idIdol: "jai101", name: "Ameri Ichinose" }],
   },
@@ -2569,8 +2570,7 @@ const File23 = [
   {
     code: "SKY-335",
     title: `SKY ANGEL VOL.200`,
-    poster:
-      "https://img30.imagetwist.com/i/27165/ni5tfgz9l9z6.jpeg/SKY-335.jpeg",
+    poster: SKY335,
     type: "Uncensored",
     idols: [{ idIdol: "jai114", name: "Nozomi Aso" }],
   },

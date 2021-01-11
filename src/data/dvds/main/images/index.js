@@ -292,6 +292,11 @@ import SKY100 from "./SKY-100.jpeg";
 import SKY132 from "./SKY-132.jpeg";
 import TRP049 from "./TRP-049.jpeg";
 import TRP055 from "./TRP-055.jpeg";
+import CWDV02 from "./CWDV-02.jpeg";
+import MKD03 from "./MKD-03.jpeg";
+import N0646 from "./N-0646.jpeg";
+import N0659 from "./N-0659.jpeg";
+import SKY335 from "./SKY-335.jpeg";
 
 export {
   CWP49,
@@ -588,4 +593,9 @@ export {
   SKY132,
   TRP049,
   TRP055,
+  CWDV02,
+  MKD03,
+  N0646,
+  N0659,
+  SKY335,
 };
