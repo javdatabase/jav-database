@@ -17,6 +17,11 @@ import {
   ONED269,
   ONED293,
   ONED314,
+  ONED335,
+  ONED356,
+  ONED404,
+  ONED433,
+  ONED539,
 } from "../images";
 
 const File24 = [
@@ -1975,40 +1980,35 @@ const File24 = [
   {
     code: "ONED-335",
     title: `COMMUNITY LIFE AND THE SKY IS ZANMAI SEX BARELY 24 HOURS ! SORA AOI`,
-    poster:
-      "https://img201.imagetwist.com/i/27679/5fo6b6bzesow.jpg/ONED-335.jpg",
+    poster: ONED335,
     type: "Censored",
     idols: [{ idIdol: "jai118", name: "Sora Aoi" }],
   },
   {
     code: "ONED-356",
     title: `SORA AOI PAKOPAKO EMPTY NURSING NURSE NOVICE BARELY`,
-    poster:
-      "https://img201.imagetwist.com/i/27679/2w02d0tg59ew.jpg/ONED-356.jpg",
+    poster: ONED356,
     type: "Censored",
     idols: [{ idIdol: "jai118", name: "Sora Aoi" }],
   },
   {
     code: "ONED-404",
     title: `BARELY TWO SORA AOI FUCKING GEKI`,
-    poster:
-      "https://img201.imagetwist.com/i/27679/4zj1vas0w4jg.jpg/ONED-404.jpg",
+    poster: ONED404,
     type: "Censored",
     idols: [{ idIdol: "jai118", name: "Sora Aoi" }],
   },
   {
     code: "ONED-433",
     title: `BARELY WIFE SORA AOI SORA IS A YOUNG NEIGHBOR`,
-    poster:
-      "https://img201.imagetwist.com/i/27679/hyzxhkebejbg.jpg/ONED-433.jpg",
+    poster: ONED433,
     type: "Censored",
     idols: [{ idIdol: "jai118", name: "Sora Aoi" }],
   },
   {
     code: "ONED-539",
     title: `SORA AOI ORGY BARELY 15 BAKOBAKO`,
-    poster:
-      "https://img201.imagetwist.com/i/27679/e90yzm6dj8p2.jpg/ONED-539.jpg",
+    poster: ONED539,
     type: "Censored",
     idols: [{ idIdol: "jai118", name: "Sora Aoi" }],
   },

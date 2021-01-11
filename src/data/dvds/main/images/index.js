@@ -312,6 +312,11 @@ import ONED238 from "./ONED-238.jpg";
 import ONED269 from "./ONED-269.jpg";
 import ONED293 from "./ONED-293.jpg";
 import ONED314 from "./ONED-314.jpg";
+import ONED335 from "./ONED-335.jpg";
+import ONED356 from "./ONED-356.jpg";
+import ONED404 from "./ONED-404.jpg";
+import ONED433 from "./ONED-433.jpg";
+import ONED539 from "./ONED-539.jpg";
 
 export {
   CWP49,
@@ -628,4 +633,9 @@ export {
   ONED269,
   ONED293,
   ONED314,
+  ONED335,
+  ONED356,
+  ONED404,
+  ONED433,
+  ONED539,
 };
