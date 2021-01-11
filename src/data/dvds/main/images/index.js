@@ -273,6 +273,10 @@ import GRDV033 from "./GRDV-033.jpg";
 import LAF44 from "./LAF-44.jpg";
 import N1049 from "./N-1049.jpg";
 import N1063 from "./N-1063.jpeg";
+import CWP148 from "./CWP-148.jpeg";
+import MKDS118 from "./MKD-S118.jpeg";
+import SMD145 from "./SMD-145.jpeg";
+import SMD160 from "./SMD-160.jpeg";
 
 export {
   CWP49,
@@ -550,4 +554,8 @@ export {
   LAF44,
   N1049,
   N1063,
+  CWP148,
+  MKDS118,
+  SMD145,
+  SMD160,
 };
