@@ -1,4 +1,4 @@
-import { IPTD071, SUPD012 } from "../images";
+import { DVPRN038, IPTD071, SUPD012 } from "../images";
 
 const File12 = [
   {
@@ -1722,7 +1722,7 @@ const File12 = [
   {
     code: `DVPRN-038`,
     title: `AYA KOIZUMI - CHINA ACME TRANSFORMER - SQUIRTING MY DANCE`,
-    poster: `https://img201.imagetwist.com/i/27065/9xo2kur4d0l1.jpg/DVPRN-038.jpg`,
+    poster: DVPRN038,
     type: `Censored`,
     idols: [{ idIdol: `jai061`, name: "Yuria Satomi" }],
   },

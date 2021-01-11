@@ -2641,22 +2641,6 @@ const File2 = [
         picture:
           "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/39000/39529/large/wapdb-mizuho-uehara-pornostar-asiatique.warashi-asian-pornstars.fr-39529-001.jpg",
       },
-      {
-        picture:
-          "https://img201.imagetwist.com/i/26881/enc347ftapmo.jpg/mizuho-uehara-2.jpg",
-      },
-      {
-        picture:
-          "https://img201.imagetwist.com/i/26881/sfm7ys226oz9.jpg/mizuho-uehara-1.jpg",
-      },
-      {
-        picture:
-          "https://img201.imagetwist.com/i/26881/8nn2z5iwbgfe.jpg/mizuho-uehara-4.jpg",
-      },
-      {
-        picture:
-          "https://img201.imagetwist.com/i/26881/h4v0a7glt47b.jpg/mizuho-uehara-3.jpg",
-      },
     ],
   },
   {

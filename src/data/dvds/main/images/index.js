@@ -238,6 +238,31 @@ import SKYHD137 from "./SKYHD-137.jpg";
 import SKYHD087 from "./SKYHD-087.jpg";
 import SKYHD039 from "./SKYHD-039.jpg";
 import SKYHD029 from "./SKYHD-029.png";
+import CWDV32 from "./CWDV-32.jpg";
+import CWP147 from "./CWP-147.jpeg";
+import DVPRN038 from "./DVPRN-038.jpg";
+import MKDS145 from "./MKD-S145.jpg";
+import SMD162 from "./SMD-162.jpg";
+import MCDV21 from "./MCDV-21.jpg";
+import CWP112 from "./CWP-112.jpeg";
+import DRG19 from "./DRG-19.jpeg";
+import HEY086 from "./HEY-086.jpg";
+import MCDV44 from "./MCDV-44.jpg";
+import MCDV45 from "./MCDV-45.jpg";
+import PT173 from "./PT-173.jpeg";
+import DSAM100 from "./DSAM-100.jpg";
+import HEY105 from "./HEY-105.jpeg";
+import MCDV43 from "./MCDV-43.jpeg";
+import MKDS150 from "./MKD-S150.jpeg";
+import PT125 from "./PT-125.jpeg";
+import SKY224 from "./SKY-224.jpg";
+import BT146 from "./BT-146.jpeg";
+import CWP120 from "./CWP-120.jpeg";
+import LAF41 from "./LAF-41.jpeg";
+import MKDS151 from "./MKD-S151.jpeg";
+import PT155 from "./PT-155.jpeg";
+import SMD115 from "./SMD-115.jpg";
+import SMD136 from "./SMD-136.jpeg";
 
 export {
   CWP49,
@@ -480,4 +505,29 @@ export {
   SKYHD039,
   SKYHD087,
   SKYHD137,
+  CWDV32,
+  CWP147,
+  DVPRN038,
+  MKDS145,
+  SMD162,
+  MCDV21,
+  CWP112,
+  DRG19,
+  HEY086,
+  MCDV44,
+  MCDV45,
+  PT173,
+  DSAM100,
+  HEY105,
+  MCDV43,
+  MKDS150,
+  PT125,
+  SKY224,
+  BT146,
+  CWP120,
+  LAF41,
+  MKDS151,
+  PT155,
+  SMD115,
+  SMD136,
 };

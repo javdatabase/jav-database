@@ -1,3 +1,19 @@
+import {
+  CWDV32,
+  CWP112,
+  CWP147,
+  DRG19,
+  DSAM100,
+  HEY086,
+  MCDV21,
+  MCDV44,
+  MCDV45,
+  MKDS145,
+  MKDS150,
+  PT173,
+  SMD162,
+} from "../images";
+
 const File18 = [
   {
     code: "DV-1304",
@@ -1378,32 +1394,28 @@ const File18 = [
   {
     code: "CWP-147",
     title: `CATWALK POISON 147 KOKONE MIZUTANI'S FIRST`,
-    poster:
-      "https://img201.imagetwist.com/i/26881/plfk56d5kv7v.jpeg/CWP-147.jpeg",
+    poster: CWP147,
     type: "Uncensored",
     idols: [{ idIdol: "jai053", name: "Kokone Mizutani" }],
   },
   {
     code: "CWDV-32",
     title: `CATWALK POISON DV 32 EXTREME ERO WOMAN COMING`,
-    poster:
-      "https://img201.imagetwist.com/i/26881/43hry7eoj9j8.jpg/CWDV-32.jpg",
+    poster: CWDV32,
     type: "Uncensored",
     idols: [{ idIdol: "jai053", name: "Kokone Mizutani" }],
   },
   {
     code: "SMD-162",
     title: `S MODEL 162 EXTREMELY ERO CREAM PIE`,
-    poster:
-      "https://img201.imagetwist.com/i/26881/jd8b5x8dwap2.jpg/SMD-162.jpg",
+    poster: SMD162,
     type: "Uncensored",
     idols: [{ idIdol: "jai053", name: "Kokone Mizutani" }],
   },
   {
     code: "MKD-S145",
     title: `KIRARI 145 BIG TITS GAL'S 6 REAL SEX`,
-    poster:
-      "https://img201.imagetwist.com/i/26881/ovhmfckua18k.jpg/MKD-S145.jpg",
+    poster: MKDS145,
     type: "Uncensored",
     idols: [{ idIdol: "jai053", name: "Kokone Mizutani" }],
   },
@@ -2055,72 +2067,63 @@ const File18 = [
   {
     code: "MCDV-21",
     title: `MERCI BEAUCOUP DV 21 AIEKI SPLASH !`,
-    poster:
-      "https://img201.imagetwist.com/i/26910/k39fsf5etzd3.jpg/MCDV-21.jpg",
+    poster: MCDV21,
     type: "Uncensored",
     idols: [{ idIdol: "jai078", name: "Mitsuki Akai" }],
   },
   {
     code: "MCDV-44",
     title: `MERCI BEAUCOUP DV 44 CREAM PIE WITH BIG TITS HOUSEKEEPER`,
-    poster:
-      "https://img201.imagetwist.com/i/26910/uspikiidt4q2.jpg/MCDV-44.jpg",
+    poster: MCDV44,
     type: "Uncensored",
     idols: [{ idIdol: "jai078", name: "Mitsuki Akai" }],
   },
   {
     code: "MCDV-45",
     title: `MERCI BEAUCOUP DV 45 TOO REAL TO BE EROTIC`,
-    poster:
-      "https://img201.imagetwist.com/i/26910/zoh3roinmkmv.jpg/MCDV-45.jpg",
+    poster: MCDV45,
     type: "Uncensored",
     idols: [{ idIdol: "jai078", name: "Mitsuki Akai" }],
   },
   {
     code: "CWP-112",
     title: `CATWALK POISON 112 FULFILLED SEXUAL DESIRE`,
-    poster:
-      "https://img201.imagetwist.com/i/26910/fp6930catd5v.jpeg/CWP-112.jpeg",
+    poster: CWP112,
     type: "Uncensored",
     idols: [{ idIdol: "jai078", name: "Mitsuki Akai" }],
   },
   {
     code: "DRG-19",
     title: `NATURAL H-CUP WORKING WOMAN`,
-    poster:
-      "https://img201.imagetwist.com/i/26910/onsgrd429ls4.jpeg/DRG-19.jpeg",
+    poster: DRG19,
     type: "Uncensored",
     idols: [{ idIdol: "jai078", name: "Mitsuki Akai" }],
   },
   {
     code: "HEY-086",
     title: `Z SEXUAL NEGOTIATION WITH BUSTY ANGEL`,
-    poster:
-      "https://img201.imagetwist.com/i/26910/5jjs3xecq4ju.jpg/HEY-086.jpg",
+    poster: HEY086,
     type: "Uncensored",
     idols: [{ idIdol: "jai078", name: "Mitsuki Akai" }],
   },
   {
     code: "PT-173",
     title: `KOUKOTSU`,
-    poster:
-      "https://img201.imagetwist.com/i/26910/olmef3pa2r2w.jpeg/PT-173.jpeg",
+    poster: PT173,
     type: "Uncensored",
     idols: [{ idIdol: "jai078", name: "Mitsuki Akai" }],
   },
   {
     code: "DSAM-100",
     title: `MAGIC MIRROR GUILLOTINE – LICKING YOUR EXTREMITY OF GUESS ~`,
-    poster:
-      "https://img201.imagetwist.com/i/26910/mnx3dz2xxczi.jpg/DSAM-100.jpg",
+    poster: DSAM100,
     type: "Uncensored",
     idols: [{ idIdol: "jai078", name: "Mitsuki Akai" }],
   },
   {
     code: "MKD-S150",
     title: `KIRARI 150 MEGAMARA SEX MIZUKI AKAI SPECIAL BEST 3 HOURS`,
-    poster:
-      "https://img201.imagetwist.com/i/26910/w09c2d4z6p27.jpeg/MKD-S150.jpeg",
+    poster: MKDS150,
     type: "Uncensored",
     idols: [{ idIdol: "jai078", name: "Mitsuki Akai" }],
   },
