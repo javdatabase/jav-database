@@ -327,6 +327,8 @@ import CWP123 from "./CWP-123.jpg";
 import MCDV30 from "./MCDV-30.jpg";
 import MKDS99 from "./MKD-S99.jpg";
 import SMD139 from "./SMD-139.jpg";
+import SSKP12 from "./SSKP-12.jpg";
+import PT74 from "./PT-74.jpg";
 
 export {
   CWP49,
@@ -658,4 +660,6 @@ export {
   MCDV30,
   MKDS99,
   SMD139,
+  SSKP12,
+  PT74,
 };
