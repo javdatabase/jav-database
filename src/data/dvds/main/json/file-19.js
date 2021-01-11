@@ -23,6 +23,7 @@ import {
   VFDV074,
   VFDV077,
   VFDV080,
+  GRDV033,
 } from "../images";
 
 const File19 = [
@@ -1807,7 +1808,7 @@ const File19 = [
     code: "GRDV-033",
     title: `AOYAMA VEGETABLES EACH CLASS A OFFENSES MILK`,
     poster:
-      "https://img117.imagetwist.com/i/26991/at5i78rtg1cl.jpg/GRDV-033.jpg",
+     GRDV033,
     type: "Censored",
     idols: [{ idIdol: "jai080", name: "Nana Aoyama" }],
   },

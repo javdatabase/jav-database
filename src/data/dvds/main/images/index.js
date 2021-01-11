@@ -268,6 +268,11 @@ import VFDV071 from "./VFDV-071.jpg";
 import VFDV074 from "./VFDV-074.jpg";
 import VFDV077 from "./VFDV-077.jpg";
 import VFDV080 from "./VFDV-080.jpg";
+import CWP117 from "./CWP-117.jpg";
+import GRDV033 from "./GRDV-033.jpg";
+import LAF44 from "./LAF-44.jpg";
+import N1049 from "./N-1049.jpg";
+import N1063 from "./N-1063.jpeg";
 
 export {
   CWP49,
@@ -540,4 +545,9 @@ export {
   VFDV074,
   VFDV077,
   VFDV080,
+  CWP117,
+  GRDV033,
+  LAF44,
+  N1049,
+  N1063,
 };
