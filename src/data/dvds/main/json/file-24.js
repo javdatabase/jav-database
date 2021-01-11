@@ -10,7 +10,13 @@ import {
   ONED047,
   ONED065,
   ONED104,
+  ONED136,
   ONED168,
+  ONED201,
+  ONED238,
+  ONED269,
+  ONED293,
+  ONED314,
 } from "../images";
 
 const File24 = [
@@ -1920,8 +1926,7 @@ const File24 = [
   {
     code: "ONED-136",
     title: `SPECIAL BARELY TITS SORA AOI`,
-    poster:
-      "https://img201.imagetwist.com/i/27679/5mob4locbhjm.jpg/ONED-136.jpg",
+    poster: ONED136,
     type: "Censored",
     idols: [{ idIdol: "jai118", name: "Sora Aoi" }],
   },
@@ -1935,40 +1940,35 @@ const File24 = [
   {
     code: "ONED-201",
     title: `SORA AOI SEX BARELY ENCOURAGEMENT`,
-    poster:
-      "https://img201.imagetwist.com/i/27679/arqg3pr3aqc3.jpg/ONED-201.jpg",
+    poster: ONED201,
     type: "Censored",
     idols: [{ idIdol: "jai118", name: "Sora Aoi" }],
   },
   {
     code: "ONED-238",
     title: `SORA AOI ~ TSU'LL SHOW CAREFULLY HOW EMPTY SEX BARELY`,
-    poster:
-      "https://img201.imagetwist.com/i/27679/05txcq7viirl.jpg/ONED-238.jpg",
+    poster: ONED238,
     type: "Censored",
     idols: [{ idIdol: "jai118", name: "Sora Aoi" }],
   },
   {
     code: "ONED-269",
     title: `~ TSU Π TO H ~ LEE IN BARELY ~ TSU COSPLAY ! SORA AOI`,
-    poster:
-      "https://img201.imagetwist.com/i/27679/7q26ahq5besz.jpg/ONED-269.jpg",
+    poster: ONED269,
     type: "Censored",
     idols: [{ idIdol: "jai118", name: "Sora Aoi" }],
   },
   {
     code: "ONED-293",
     title: `SORA AOI BARELY NEIGHBOR ETCH`,
-    poster:
-      "https://img201.imagetwist.com/i/27679/rr4crxzhms27.jpg/ONED-293.jpg",
+    poster: ONED293,
     type: "Censored",
     idols: [{ idIdol: "jai118", name: "Sora Aoi" }],
   },
   {
     code: "ONED-314",
     title: `SORA AOI THIS NOMINATION DELUSIONAL SPECIAL BATH BARELY`,
-    poster:
-      "https://img201.imagetwist.com/i/27679/s07rxn4lwl1q.jpg/ONED-314.jpg",
+    poster: ONED314,
     type: "Censored",
     idols: [{ idIdol: "jai118", name: "Sora Aoi" }],
   },
