@@ -10,6 +10,9 @@ import {
   CWP166,
   LAF88,
   SSDV08,
+  CCDV02,
+  CWP128,
+  LAF62,
 } from "../images";
 
 const File25 = [
@@ -516,8 +519,7 @@ const File25 = [
   {
     code: "CCDV-02",
     title: `CATWALK POISON CCDV 02 JYONETSU`,
-    poster:
-      "https://img201.imagetwist.com/i/27782/alof1nyyq11b.jpg/CCDV-02.jpg",
+    poster: CCDV02,
     type: "Uncensored",
     idols: [{ idIdol: "jai086", name: "Mika Sumire" }],
   },
@@ -2484,15 +2486,14 @@ const File25 = [
   {
     code: "CWP-128",
     title: `CATWALK POISON 128 MISS CON GIRL JAPORN CREAM PIE DEBUT`,
-    poster:
-      "https://img201.imagetwist.com/i/27937/a0m8t3oa0c9o.jpg/CWP-128.jpg",
+    poster: CWP128,
     type: "Uncensored",
     idols: [{ idIdol: "jai124", name: "Airi Miyazaki" }],
   },
   {
     code: "LAF-62",
     title: `LAFORET GIRL 62 WIDOW'S BEAUTIFUL SOFT SKIN`,
-    poster: "https://img201.imagetwist.com/i/27937/e45jyu6db0z1.jpg/LAF-62.jpg",
+    poster: LAF62,
     type: "Uncensored",
     idols: [{ idIdol: "jai124", name: "Airi Miyazaki" }],
   },
