@@ -301,6 +301,11 @@ import LL015 from "./LL-015.jpeg";
 import MKDS73 from "./MKD-S73.jpeg";
 import ONED003 from "./ONED-003.jpg";
 import ONED014 from "./ONED-014.jpg";
+import ONED025 from "./ONED-025.jpg";
+import ONED036 from "./ONED-036.jpg";
+import ONED047 from "./ONED-047.jpg";
+import ONED065 from "./ONED-065.jpg";
+import ONED104 from "./ONED-104.jpg";
 
 export {
   CWP49,
@@ -606,4 +611,9 @@ export {
   MKDS73,
   ONED003,
   ONED014,
+  ONED025,
+  ONED036,
+  ONED047,
+  ONED065,
+  ONED104,
 };

@@ -5,6 +5,11 @@ import {
   MKDS73,
   ONED003,
   ONED014,
+  ONED025,
+  ONED036,
+  ONED047,
+  ONED065,
+  ONED104,
   ONED168,
 } from "../images";
 
@@ -1880,40 +1885,35 @@ const File24 = [
   {
     code: "ONED-025",
     title: `PLAY EROTIC WOMAN RINA RINA SORA AOI`,
-    poster:
-      "https://img201.imagetwist.com/i/27679/18bhax3h68bq.jpg/ONED-025.jpg",
+    poster: ONED025,
     type: "Censored",
     idols: [{ idIdol: "jai118", name: "Sora Aoi" }],
   },
   {
     code: "ONED-036",
     title: `SORA AOI SORA AOI RISKY MOSAIC OF ONLY I`,
-    poster:
-      "https://img201.imagetwist.com/i/27679/xmmguds51whu.jpg/ONED-036.jpg",
+    poster: ONED036,
     type: "Censored",
     idols: [{ idIdol: "jai118", name: "Sora Aoi" }],
   },
   {
     code: "ONED-047",
     title: `SPECIAL BARELY KISSING SORA AOI`,
-    poster:
-      "https://img201.imagetwist.com/i/27679/rgrd1695zoji.jpg/ONED-047.jpg",
+    poster: ONED047,
     type: "Censored",
     idols: [{ idIdol: "jai118", name: "Sora Aoi" }],
   },
   {
     code: "ONED-065",
     title: `SORA AOI SORA BARELY IS THE MERCY OF YOUR TOY`,
-    poster:
-      "https://img201.imagetwist.com/i/27679/7w71kfjckdzs.jpg/ONED-065.jpg",
+    poster: ONED065,
     type: "Censored",
     idols: [{ idIdol: "jai118", name: "Sora Aoi" }],
   },
   {
     code: "ONED-104",
     title: `SORA AOI SEX BARELY THICK STICKY EMPTY`,
-    poster:
-      "https://img201.imagetwist.com/i/27679/ctf8jpqxz640.jpg/ONED-104.jpg",
+    poster: ONED104,
     type: "Censored",
     idols: [{ idIdol: "jai118", name: "Sora Aoi" }],
   },
