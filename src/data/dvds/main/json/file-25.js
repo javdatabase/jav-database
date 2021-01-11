@@ -7,6 +7,16 @@ import {
   MCDV05,
   LAF08,
   MKDS71,
+  CWP166,
+  LAF88,
+  SSDV08,
+  CCDV02,
+  CWP128,
+  LAF62,
+  SMD139,
+  MCDV30,
+  CWP123,
+  MKDS99,
 } from "../images";
 
 const File25 = [
@@ -52,15 +62,14 @@ const File25 = [
   {
     code: "CWP-166",
     title: `CATWALK POISON 166 DEBUT`,
-    poster:
-      "https://img201.imagetwist.com/i/27773/n3bg2tr3b0yd.jpg/CWP-166.jpg",
+    poster: CWP166,
     type: "Uncensored",
     idols: [{ idIdol: "jai051", name: "Ruri Tachibana" }],
   },
   {
     code: "LAF-88",
     title: `LAFORET GIRL 88 HOT NYMPHO'S WET SEX`,
-    poster: "https://img201.imagetwist.com/i/27773/xo7i3udzw5dy.jpg/LAF-88.jpg",
+    poster: LAF88,
     type: "Uncensored",
     idols: [{ idIdol: "jai051", name: "Ruri Tachibana" }],
   },
@@ -507,16 +516,14 @@ const File25 = [
   {
     code: "SSDV-08",
     title: `S MODEL SSDV 08 BIG BAZOOKAS OF BOMBSHELL PROSTITUTE`,
-    poster:
-      "https://img201.imagetwist.com/i/27782/7y9dew80x8di.jpg/SSDV-08.jpg",
+    poster: SSDV08,
     type: "Uncensored",
     idols: [{ idIdol: "jai086", name: "Mika Sumire" }],
   },
   {
     code: "CCDV-02",
     title: `CATWALK POISON CCDV 02 JYONETSU`,
-    poster:
-      "https://img201.imagetwist.com/i/27782/alof1nyyq11b.jpg/CCDV-02.jpg",
+    poster: CCDV02,
     type: "Uncensored",
     idols: [{ idIdol: "jai086", name: "Mika Sumire" }],
   },
@@ -2483,31 +2490,28 @@ const File25 = [
   {
     code: "CWP-128",
     title: `CATWALK POISON 128 MISS CON GIRL JAPORN CREAM PIE DEBUT`,
-    poster:
-      "https://img201.imagetwist.com/i/27937/a0m8t3oa0c9o.jpg/CWP-128.jpg",
+    poster: CWP128,
     type: "Uncensored",
     idols: [{ idIdol: "jai124", name: "Airi Miyazaki" }],
   },
   {
     code: "LAF-62",
     title: `LAFORET GIRL 62 WIDOW'S BEAUTIFUL SOFT SKIN`,
-    poster: "https://img201.imagetwist.com/i/27937/e45jyu6db0z1.jpg/LAF-62.jpg",
+    poster: LAF62,
     type: "Uncensored",
     idols: [{ idIdol: "jai124", name: "Airi Miyazaki" }],
   },
   {
     code: "SMD-139",
     title: `S MODEL 139 QUEEN OF SOAP`,
-    poster:
-      "https://img201.imagetwist.com/i/27937/e4eia79jroou.jpg/SMD-139.jpg",
+    poster: SMD139,
     type: "Uncensored",
     idols: [{ idIdol: "jai124", name: "Airi Miyazaki" }],
   },
   {
     code: "MCDV-30",
     title: `MERCI BEAUCOUP DV 30 SHE , ME AND ABONORMAL`,
-    poster:
-      "https://img201.imagetwist.com/i/27937/vbiz1npshm9r.jpg/MCDV-30.jpg",
+    poster: MCDV30,
     type: "Uncensored",
     idols: [{ idIdol: "jai124", name: "Airi Miyazaki" }],
   },
@@ -2596,16 +2600,14 @@ const File25 = [
   {
     code: "CWP-123",
     title: `CATWALK POISON 123 NAMAIKI !`,
-    poster:
-      "https://img201.imagetwist.com/i/27937/fh3ioc95v0n6.jpg/CWP-123.jpg",
+    poster: CWP123,
     type: "Uncensored",
     idols: [{ idIdol: "jai125", name: "Yukina Saeki" }],
   },
   {
     code: "MKD-S99",
     title: `KIRARI 99 FALL IN LOVE WITH YUKINA SAEKI`,
-    poster:
-      "https://img201.imagetwist.com/i/27937/fxg69m9ihxm0.jpg/MKD-S99.jpg",
+    poster: MKDS99,
     type: "Uncensored",
     idols: [{ idIdol: "jai125", name: "Yukina Saeki" }],
   },

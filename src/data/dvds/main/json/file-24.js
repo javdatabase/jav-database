@@ -1,4 +1,28 @@
-import { DRC145, LAF84, MCDV15, ONED168 } from "../images";
+import {
+  DRC145,
+  LAF84,
+  MCDV15,
+  MKDS73,
+  ONED003,
+  ONED014,
+  ONED025,
+  ONED036,
+  ONED047,
+  ONED065,
+  ONED104,
+  ONED136,
+  ONED168,
+  ONED201,
+  ONED238,
+  ONED269,
+  ONED293,
+  ONED314,
+  ONED335,
+  ONED356,
+  ONED404,
+  ONED433,
+  ONED539,
+} from "../images";
 
 const File24 = [
   {
@@ -1851,72 +1875,63 @@ const File24 = [
   {
     code: "MKD-S73",
     title: `KIRARI 73 SQUIRTING BEAUTIFUL GIRL`,
-    poster:
-      "https://img67.imagetwist.com/i/27678/d2ozgmumjdwv.jpeg/MKD-S73.jpeg",
+    poster: MKDS73,
     type: "Uncensored",
     idols: [{ idIdol: "jai004", name: "Nana Ninomiya" }],
   },
   {
     code: "ONED-003",
     title: `BARELY SORA AOI'S FIRST CELL`,
-    poster:
-      "https://img201.imagetwist.com/i/27679/76xwodbmelju.jpg/ONED-003.jpg",
+    poster: ONED003,
     type: "Censored",
     idols: [{ idIdol: "jai118", name: "Sora Aoi" }],
   },
   {
     code: "ONED-014",
     title: `HEALING SCHOOL GIRLS AND CUTE FEMALE TEACHER NASTY SLUT SCHOOLGIRL SORA AOI × FEMALE TEACHER`,
-    poster:
-      "https://img201.imagetwist.com/i/27679/guic7syawb1e.jpg/ONED-014.jpg",
+    poster: ONED014,
     type: "Censored",
     idols: [{ idIdol: "jai118", name: "Sora Aoi" }],
   },
   {
     code: "ONED-025",
     title: `PLAY EROTIC WOMAN RINA RINA SORA AOI`,
-    poster:
-      "https://img201.imagetwist.com/i/27679/18bhax3h68bq.jpg/ONED-025.jpg",
+    poster: ONED025,
     type: "Censored",
     idols: [{ idIdol: "jai118", name: "Sora Aoi" }],
   },
   {
     code: "ONED-036",
     title: `SORA AOI SORA AOI RISKY MOSAIC OF ONLY I`,
-    poster:
-      "https://img201.imagetwist.com/i/27679/xmmguds51whu.jpg/ONED-036.jpg",
+    poster: ONED036,
     type: "Censored",
     idols: [{ idIdol: "jai118", name: "Sora Aoi" }],
   },
   {
     code: "ONED-047",
     title: `SPECIAL BARELY KISSING SORA AOI`,
-    poster:
-      "https://img201.imagetwist.com/i/27679/rgrd1695zoji.jpg/ONED-047.jpg",
+    poster: ONED047,
     type: "Censored",
     idols: [{ idIdol: "jai118", name: "Sora Aoi" }],
   },
   {
     code: "ONED-065",
     title: `SORA AOI SORA BARELY IS THE MERCY OF YOUR TOY`,
-    poster:
-      "https://img201.imagetwist.com/i/27679/7w71kfjckdzs.jpg/ONED-065.jpg",
+    poster: ONED065,
     type: "Censored",
     idols: [{ idIdol: "jai118", name: "Sora Aoi" }],
   },
   {
     code: "ONED-104",
     title: `SORA AOI SEX BARELY THICK STICKY EMPTY`,
-    poster:
-      "https://img201.imagetwist.com/i/27679/ctf8jpqxz640.jpg/ONED-104.jpg",
+    poster: ONED104,
     type: "Censored",
     idols: [{ idIdol: "jai118", name: "Sora Aoi" }],
   },
   {
     code: "ONED-136",
     title: `SPECIAL BARELY TITS SORA AOI`,
-    poster:
-      "https://img201.imagetwist.com/i/27679/5mob4locbhjm.jpg/ONED-136.jpg",
+    poster: ONED136,
     type: "Censored",
     idols: [{ idIdol: "jai118", name: "Sora Aoi" }],
   },
@@ -1930,80 +1945,70 @@ const File24 = [
   {
     code: "ONED-201",
     title: `SORA AOI SEX BARELY ENCOURAGEMENT`,
-    poster:
-      "https://img201.imagetwist.com/i/27679/arqg3pr3aqc3.jpg/ONED-201.jpg",
+    poster: ONED201,
     type: "Censored",
     idols: [{ idIdol: "jai118", name: "Sora Aoi" }],
   },
   {
     code: "ONED-238",
     title: `SORA AOI ~ TSU'LL SHOW CAREFULLY HOW EMPTY SEX BARELY`,
-    poster:
-      "https://img201.imagetwist.com/i/27679/05txcq7viirl.jpg/ONED-238.jpg",
+    poster: ONED238,
     type: "Censored",
     idols: [{ idIdol: "jai118", name: "Sora Aoi" }],
   },
   {
     code: "ONED-269",
     title: `~ TSU Π TO H ~ LEE IN BARELY ~ TSU COSPLAY ! SORA AOI`,
-    poster:
-      "https://img201.imagetwist.com/i/27679/7q26ahq5besz.jpg/ONED-269.jpg",
+    poster: ONED269,
     type: "Censored",
     idols: [{ idIdol: "jai118", name: "Sora Aoi" }],
   },
   {
     code: "ONED-293",
     title: `SORA AOI BARELY NEIGHBOR ETCH`,
-    poster:
-      "https://img201.imagetwist.com/i/27679/rr4crxzhms27.jpg/ONED-293.jpg",
+    poster: ONED293,
     type: "Censored",
     idols: [{ idIdol: "jai118", name: "Sora Aoi" }],
   },
   {
     code: "ONED-314",
     title: `SORA AOI THIS NOMINATION DELUSIONAL SPECIAL BATH BARELY`,
-    poster:
-      "https://img201.imagetwist.com/i/27679/s07rxn4lwl1q.jpg/ONED-314.jpg",
+    poster: ONED314,
     type: "Censored",
     idols: [{ idIdol: "jai118", name: "Sora Aoi" }],
   },
   {
     code: "ONED-335",
     title: `COMMUNITY LIFE AND THE SKY IS ZANMAI SEX BARELY 24 HOURS ! SORA AOI`,
-    poster:
-      "https://img201.imagetwist.com/i/27679/5fo6b6bzesow.jpg/ONED-335.jpg",
+    poster: ONED335,
     type: "Censored",
     idols: [{ idIdol: "jai118", name: "Sora Aoi" }],
   },
   {
     code: "ONED-356",
     title: `SORA AOI PAKOPAKO EMPTY NURSING NURSE NOVICE BARELY`,
-    poster:
-      "https://img201.imagetwist.com/i/27679/2w02d0tg59ew.jpg/ONED-356.jpg",
+    poster: ONED356,
     type: "Censored",
     idols: [{ idIdol: "jai118", name: "Sora Aoi" }],
   },
   {
     code: "ONED-404",
     title: `BARELY TWO SORA AOI FUCKING GEKI`,
-    poster:
-      "https://img201.imagetwist.com/i/27679/4zj1vas0w4jg.jpg/ONED-404.jpg",
+    poster: ONED404,
     type: "Censored",
     idols: [{ idIdol: "jai118", name: "Sora Aoi" }],
   },
   {
     code: "ONED-433",
     title: `BARELY WIFE SORA AOI SORA IS A YOUNG NEIGHBOR`,
-    poster:
-      "https://img201.imagetwist.com/i/27679/hyzxhkebejbg.jpg/ONED-433.jpg",
+    poster: ONED433,
     type: "Censored",
     idols: [{ idIdol: "jai118", name: "Sora Aoi" }],
   },
   {
     code: "ONED-539",
     title: `SORA AOI ORGY BARELY 15 BAKOBAKO`,
-    poster:
-      "https://img201.imagetwist.com/i/27679/e90yzm6dj8p2.jpg/ONED-539.jpg",
+    poster: ONED539,
     type: "Censored",
     idols: [{ idIdol: "jai118", name: "Sora Aoi" }],
   },
