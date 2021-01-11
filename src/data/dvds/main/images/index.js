@@ -317,6 +317,9 @@ import ONED356 from "./ONED-356.jpg";
 import ONED404 from "./ONED-404.jpg";
 import ONED433 from "./ONED-433.jpg";
 import ONED539 from "./ONED-539.jpg";
+import CWP166 from "./CWP-166.jpg";
+import LAF88 from "./LAF-88.jpg";
+import SSDV08 from "./SSDV-08.jpg";
 
 export {
   CWP49,
@@ -637,5 +640,5 @@ export {
   ONED356,
   ONED404,
   ONED433,
-  ONED539,
+  ONED539,CWP166,LAF88,SSDV08
 };

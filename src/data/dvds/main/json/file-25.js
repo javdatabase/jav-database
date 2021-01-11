@@ -7,6 +7,9 @@ import {
   MCDV05,
   LAF08,
   MKDS71,
+  CWP166,
+  LAF88,
+  SSDV08,
 } from "../images";
 
 const File25 = [
@@ -52,15 +55,14 @@ const File25 = [
   {
     code: "CWP-166",
     title: `CATWALK POISON 166 DEBUT`,
-    poster:
-      "https://img201.imagetwist.com/i/27773/n3bg2tr3b0yd.jpg/CWP-166.jpg",
+    poster: CWP166,
     type: "Uncensored",
     idols: [{ idIdol: "jai051", name: "Ruri Tachibana" }],
   },
   {
     code: "LAF-88",
     title: `LAFORET GIRL 88 HOT NYMPHO'S WET SEX`,
-    poster: "https://img201.imagetwist.com/i/27773/xo7i3udzw5dy.jpg/LAF-88.jpg",
+    poster: LAF88,
     type: "Uncensored",
     idols: [{ idIdol: "jai051", name: "Ruri Tachibana" }],
   },
@@ -507,8 +509,7 @@ const File25 = [
   {
     code: "SSDV-08",
     title: `S MODEL SSDV 08 BIG BAZOOKAS OF BOMBSHELL PROSTITUTE`,
-    poster:
-      "https://img201.imagetwist.com/i/27782/7y9dew80x8di.jpg/SSDV-08.jpg",
+    poster: SSDV08,
     type: "Uncensored",
     idols: [{ idIdol: "jai086", name: "Mika Sumire" }],
   },
