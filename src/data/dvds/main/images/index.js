@@ -244,6 +244,12 @@ import DVPRN038 from "./DVPRN-038.jpg";
 import MKDS145 from "./MKD-S145.jpg";
 import SMD162 from "./SMD-162.jpg";
 import MCDV21 from "./MCDV-21.jpg";
+import CWP112 from "./CWP-112.jpeg";
+import DRG19 from "./DRG-19.jpeg";
+import HEY086 from "./HEY-086.jpg";
+import MCDV44 from "./MCDV-44.jpg";
+import MCDV45 from "./MCDV-45.jpg";
+import PT173 from "./PT-173.jpeg";
 
 export {
   CWP49,
@@ -491,5 +497,11 @@ export {
   DVPRN038,
   MKDS145,
   SMD162,
-  MCDV21
+  MCDV21,
+  CWP112,
+  DRG19,
+  HEY086,
+  MCDV44,
+  MCDV45,
+  PT173,
 };

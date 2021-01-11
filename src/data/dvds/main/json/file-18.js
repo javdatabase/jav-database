@@ -1,4 +1,16 @@
-import { CWDV32, CWP147, MCDV21, MKDS145, SMD162 } from "../images";
+import {
+  CWDV32,
+  CWP112,
+  CWP147,
+  DRG19,
+  HEY086,
+  MCDV21,
+  MCDV44,
+  MCDV45,
+  MKDS145,
+  PT173,
+  SMD162,
+} from "../images";
 
 const File18 = [
   {
@@ -2060,48 +2072,42 @@ const File18 = [
   {
     code: "MCDV-44",
     title: `MERCI BEAUCOUP DV 44 CREAM PIE WITH BIG TITS HOUSEKEEPER`,
-    poster:
-      "https://img201.imagetwist.com/i/26910/uspikiidt4q2.jpg/MCDV-44.jpg",
+    poster: MCDV44,
     type: "Uncensored",
     idols: [{ idIdol: "jai078", name: "Mitsuki Akai" }],
   },
   {
     code: "MCDV-45",
     title: `MERCI BEAUCOUP DV 45 TOO REAL TO BE EROTIC`,
-    poster:
-      "https://img201.imagetwist.com/i/26910/zoh3roinmkmv.jpg/MCDV-45.jpg",
+    poster: MCDV45,
     type: "Uncensored",
     idols: [{ idIdol: "jai078", name: "Mitsuki Akai" }],
   },
   {
     code: "CWP-112",
     title: `CATWALK POISON 112 FULFILLED SEXUAL DESIRE`,
-    poster:
-      "https://img201.imagetwist.com/i/26910/fp6930catd5v.jpeg/CWP-112.jpeg",
+    poster: CWP112,
     type: "Uncensored",
     idols: [{ idIdol: "jai078", name: "Mitsuki Akai" }],
   },
   {
     code: "DRG-19",
     title: `NATURAL H-CUP WORKING WOMAN`,
-    poster:
-      "https://img201.imagetwist.com/i/26910/onsgrd429ls4.jpeg/DRG-19.jpeg",
+    poster: DRG19,
     type: "Uncensored",
     idols: [{ idIdol: "jai078", name: "Mitsuki Akai" }],
   },
   {
     code: "HEY-086",
     title: `Z SEXUAL NEGOTIATION WITH BUSTY ANGEL`,
-    poster:
-      "https://img201.imagetwist.com/i/26910/5jjs3xecq4ju.jpg/HEY-086.jpg",
+    poster: HEY086,
     type: "Uncensored",
     idols: [{ idIdol: "jai078", name: "Mitsuki Akai" }],
   },
   {
     code: "PT-173",
     title: `KOUKOTSU`,
-    poster:
-      "https://img201.imagetwist.com/i/26910/olmef3pa2r2w.jpeg/PT-173.jpeg",
+    poster: PT173,
     type: "Uncensored",
     idols: [{ idIdol: "jai078", name: "Mitsuki Akai" }],
   },
