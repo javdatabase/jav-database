@@ -18,6 +18,12 @@ import {
   SMD136,
   LAF41,
   CWP120,
+  VFDV067,
+  VFDV071,
+  VFDV074,
+  VFDV077,
+  VFDV080,
+  GRDV033,
 } from "../images";
 
 const File19 = [
@@ -1561,40 +1567,35 @@ const File19 = [
   {
     code: "VFDV-067",
     title: `AOYAMA PEOPLE LADEN FRUIT VEGETABLES`,
-    poster:
-      "https://img30.imagetwist.com/i/26991/k5n8j91okk21.jpg/VFDV-067.jpg",
+    poster: VFDV067,
     type: "Censored",
     idols: [{ idIdol: "jai080", name: "Nana Aoyama" }],
   },
   {
     code: "VFDV-071",
     title: `AOYAMA OUR WAITRESS VEGETABLES PURURUN`,
-    poster:
-      "https://img201.imagetwist.com/i/26991/3hh3vwpl8m6p.jpg/VFDV-071.jpg",
+    poster: VFDV071,
     type: "Censored",
     idols: [{ idIdol: "jai080", name: "Nana Aoyama" }],
   },
   {
     code: "VFDV-074",
     title: `AOYAMA VEGETABLE MILK EVERY WOMAN`,
-    poster:
-      "https://img117.imagetwist.com/i/26991/p7onmmktikfc.jpg/VFDV-074.jpg",
+    poster: VFDV074,
     type: "Censored",
     idols: [{ idIdol: "jai080", name: "Nana Aoyama" }],
   },
   {
     code: "VFDV-077",
     title: `AOYAMA I HAVE RAISED MANY VEGETABLES`,
-    poster:
-      "https://img117.imagetwist.com/i/26991/qswspnymd1k9.jpg/VFDV-077.jpg",
+    poster: VFDV077,
     type: "Censored",
     idols: [{ idIdol: "jai080", name: "Nana Aoyama" }],
   },
   {
     code: "VFDV-080",
     title: `AOYAMA VEGETABLES EVERY SERVANT COSPLAY`,
-    poster:
-      "https://img117.imagetwist.com/i/26991/v3f0l3p7iu5z.jpg/VFDV-080.jpg",
+    poster: VFDV080,
     type: "Censored",
     idols: [{ idIdol: "jai080", name: "Nana Aoyama" }],
   },
@@ -1807,7 +1808,7 @@ const File19 = [
     code: "GRDV-033",
     title: `AOYAMA VEGETABLES EACH CLASS A OFFENSES MILK`,
     poster:
-      "https://img117.imagetwist.com/i/26991/at5i78rtg1cl.jpg/GRDV-033.jpg",
+     GRDV033,
     type: "Censored",
     idols: [{ idIdol: "jai080", name: "Nana Aoyama" }],
   },
