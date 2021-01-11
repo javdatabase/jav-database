@@ -323,6 +323,10 @@ import SSDV08 from "./SSDV-08.jpg";
 import CCDV02 from "./CCDV-02.jpg";
 import CWP128 from "./CWP-128.jpg";
 import LAF62 from "./LAF-62.jpg";
+import CWP123 from "./CWP-123.jpg";
+import MCDV30 from "./MCDV-30.jpg";
+import MKDS99 from "./MKD-S99.jpg";
+import SMD139 from "./SMD-139.jpg";
 
 export {
   CWP49,
@@ -650,4 +654,8 @@ export {
   CCDV02,
   CWP128,
   LAF62,
+  CWP123,
+  MCDV30,
+  MKDS99,
+  SMD139,
 };

@@ -13,6 +13,10 @@ import {
   CCDV02,
   CWP128,
   LAF62,
+  SMD139,
+  MCDV30,
+  CWP123,
+  MKDS99,
 } from "../images";
 
 const File25 = [
@@ -2500,16 +2504,14 @@ const File25 = [
   {
     code: "SMD-139",
     title: `S MODEL 139 QUEEN OF SOAP`,
-    poster:
-      "https://img201.imagetwist.com/i/27937/e4eia79jroou.jpg/SMD-139.jpg",
+    poster: SMD139,
     type: "Uncensored",
     idols: [{ idIdol: "jai124", name: "Airi Miyazaki" }],
   },
   {
     code: "MCDV-30",
     title: `MERCI BEAUCOUP DV 30 SHE , ME AND ABONORMAL`,
-    poster:
-      "https://img201.imagetwist.com/i/27937/vbiz1npshm9r.jpg/MCDV-30.jpg",
+    poster: MCDV30,
     type: "Uncensored",
     idols: [{ idIdol: "jai124", name: "Airi Miyazaki" }],
   },
@@ -2598,16 +2600,14 @@ const File25 = [
   {
     code: "CWP-123",
     title: `CATWALK POISON 123 NAMAIKI !`,
-    poster:
-      "https://img201.imagetwist.com/i/27937/fh3ioc95v0n6.jpg/CWP-123.jpg",
+    poster: CWP123,
     type: "Uncensored",
     idols: [{ idIdol: "jai125", name: "Yukina Saeki" }],
   },
   {
     code: "MKD-S99",
     title: `KIRARI 99 FALL IN LOVE WITH YUKINA SAEKI`,
-    poster:
-      "https://img201.imagetwist.com/i/27937/fxg69m9ihxm0.jpg/MKD-S99.jpg",
+    poster: MKDS99,
     type: "Uncensored",
     idols: [{ idIdol: "jai125", name: "Yukina Saeki" }],
   },
