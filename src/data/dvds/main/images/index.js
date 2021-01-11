@@ -282,6 +282,11 @@ import HODV20336 from "./HODV-20336.jpg";
 import HODV20342 from "./HODV-20342.jpg";
 import SMD70 from "./SMD-70.jpeg";
 import SMDV29 from "./SMDV-29.jpeg";
+import HODV20347 from "./HODV-20347.jpg";
+import HODV20355 from "./HODV-20355.jpg";
+import MIAD185 from "./MIAD-185.jpg";
+import MIAD210 from "./MIAD-210.jpg";
+import MIAD237 from "./MIAD-237.jpg";
 
 export {
   CWP49,
@@ -568,4 +573,9 @@ export {
   HODV20342,
   SMD70,
   SMDV29,
+  HODV20347,
+  HODV20355,
+  MIAD185,
+  MIAD210,
+  MIAD237,
 };

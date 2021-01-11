@@ -25,6 +25,11 @@ import {
   HODV20325,
   HODV20336,
   HODV20342,
+  HODV20347,
+  HODV20355,
+  MIAD185,
+  MIAD210,
+  MIAD237,
 } from "../images";
 
 const File22 = [
@@ -1483,40 +1488,35 @@ const File22 = [
   {
     code: "HODV-20347",
     title: `SERINA HAYAKAWA MY DEGREE RAPE LEWD DELUSION`,
-    poster:
-      "https://img201.imagetwist.com/i/27068/2vbygb7lqsa1.jpg/HODV-20347.jpg",
+    poster: HODV20347,
     type: "Censored",
     idols: [{ idIdol: "jai030", name: "Serina Hayakawa" }],
   },
   {
     code: "HODV-20355",
     title: `SERINA HAYAKAWA TAKING EXPOSURE FISHNET STOCKINGS SLUT`,
-    poster:
-      "https://img201.imagetwist.com/i/27068/47b5oa2wrjoj.jpg/HODV-20355.jpg",
+    poster: HODV20355,
     type: "Censored",
     idols: [{ idIdol: "jai030", name: "Serina Hayakawa" }],
   },
   {
     code: "MIAD-185",
     title: `SERINA HAYAKAWA M DISPOSABLE SLAVE`,
-    poster:
-      "https://img201.imagetwist.com/i/27068/mocfeqhtpa6y.jpg/MIAD-185.jpg",
+    poster: MIAD185,
     type: "Censored",
     idols: [{ idIdol: "jai030", name: "Serina Hayakawa" }],
   },
   {
     code: "MIAD-210",
     title: `SERINA HAYAKAWA 6 EROTIC TOYS CUM SPERM STRENGTH`,
-    poster:
-      "https://img201.imagetwist.com/i/27068/k9ei5nper3xp.jpg/MIAD-210.jpg",
+    poster: MIAD210,
     type: "Censored",
     idols: [{ idIdol: "jai030", name: "Serina Hayakawa" }],
   },
   {
     code: "MIAD-237",
     title: `SERINA HAYAKAWA GANGBANG EXPOSURE TORTURE`,
-    poster:
-      "https://img201.imagetwist.com/i/27068/ccu6wg4pw3uf.jpg/MIAD-237.jpg",
+    poster: MIAD237,
     type: "Censored",
     idols: [{ idIdol: "jai030", name: "Serina Hayakawa" }],
   },
