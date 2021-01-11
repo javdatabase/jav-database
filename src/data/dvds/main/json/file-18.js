@@ -3,11 +3,13 @@ import {
   CWP112,
   CWP147,
   DRG19,
+  DSAM100,
   HEY086,
   MCDV21,
   MCDV44,
   MCDV45,
   MKDS145,
+  MKDS150,
   PT173,
   SMD162,
 } from "../images";
@@ -2114,16 +2116,14 @@ const File18 = [
   {
     code: "DSAM-100",
     title: `MAGIC MIRROR GUILLOTINE – LICKING YOUR EXTREMITY OF GUESS ~`,
-    poster:
-      "https://img201.imagetwist.com/i/26910/mnx3dz2xxczi.jpg/DSAM-100.jpg",
+    poster: DSAM100,
     type: "Uncensored",
     idols: [{ idIdol: "jai078", name: "Mitsuki Akai" }],
   },
   {
     code: "MKD-S150",
     title: `KIRARI 150 MEGAMARA SEX MIZUKI AKAI SPECIAL BEST 3 HOURS`,
-    poster:
-      "https://img201.imagetwist.com/i/26910/w09c2d4z6p27.jpeg/MKD-S150.jpeg",
+    poster: MKDS150,
     type: "Uncensored",
     idols: [{ idIdol: "jai078", name: "Mitsuki Akai" }],
   },

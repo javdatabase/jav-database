@@ -250,6 +250,12 @@ import HEY086 from "./HEY-086.jpg";
 import MCDV44 from "./MCDV-44.jpg";
 import MCDV45 from "./MCDV-45.jpg";
 import PT173 from "./PT-173.jpeg";
+import DSAM100 from "./DSAM-100.jpg";
+import HEY105 from "./HEY-105.jpeg";
+import MCDV43 from "./MCDV-43.jpeg";
+import MKDS150 from "./MKD-S150.jpeg";
+import PT125 from "./PT-125.jpeg";
+import SKY224 from "./SKY-224.jpg";
 
 export {
   CWP49,
@@ -504,4 +510,10 @@ export {
   MCDV44,
   MCDV45,
   PT173,
+  DSAM100,
+  HEY105,
+  MCDV43,
+  MKDS150,
+  PT125,
+  SKY224,
 };
