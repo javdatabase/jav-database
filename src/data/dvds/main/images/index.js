@@ -263,6 +263,11 @@ import MKDS151 from "./MKD-S151.jpeg";
 import PT155 from "./PT-155.jpeg";
 import SMD115 from "./SMD-115.jpg";
 import SMD136 from "./SMD-136.jpeg";
+import VFDV067 from "./VFDV-067.jpg";
+import VFDV071 from "./VFDV-071.jpg";
+import VFDV074 from "./VFDV-074.jpg";
+import VFDV077 from "./VFDV-077.jpg";
+import VFDV080 from "./VFDV-080.jpg";
 
 export {
   CWP49,
@@ -530,4 +535,9 @@ export {
   PT155,
   SMD115,
   SMD136,
+  VFDV067,
+  VFDV071,
+  VFDV074,
+  VFDV077,
+  VFDV080,
 };
