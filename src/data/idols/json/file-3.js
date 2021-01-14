@@ -2292,7 +2292,7 @@ const File3 = [
     idIdol: "jai165",
     avatar: kanon_yano.kanon_yano_1,
     name: "Kanon Yano",
-    other: "",
+    other: "Konoha Narumi",
     born: "30/03/1999",
     height: "170 cm",
     breast: "90 cm",

@@ -64,15 +64,25 @@ function getBonusEarnings(id) {
     "jai038",
     "jai041",
     "jai048",
+    "jai057",
     "jai062",
     "jai073",
     "jai147",
+    "jai154",
     "jai158",
+    "jai165",
     "jai166",
     "jai179",
     "jai181",
   ];
-  const topPointGrowth = ["jai147"];
+  const topPointGrowth = [
+    "jai001",
+    "jai048",
+    "jai147",
+    "jai165",
+    "jai169",
+    "jai185",
+  ];
   const sweetNight = ["jai001", "jai016", "jai038", "jai158"];
   const bestIdol = [
     "jai001",
@@ -80,11 +90,15 @@ function getBonusEarnings(id) {
     "jai038",
     "jai041",
     "jai048",
+    "jai057",
     "jai062",
     "jai073",
     "jai147",
+    "jai154",
     "jai158",
+    "jai165",
     "jai166",
+    "jai169",
     "jai179",
     "jai181",
   ];
@@ -100,17 +114,24 @@ function getBonusEarnings(id) {
   ];
   const hasDvd = [
     "jai001",
+    "jai013",
     "jai016",
     "jai038",
     "jai041",
     "jai048",
+    "jai056",
+    "jai057",
     "jai062",
     "jai073",
     "jai147",
+    "jai154",
     "jai158",
+    "jai165",
     "jai166",
+    "jai169",
     "jai179",
     "jai181",
+    "jai185",
   ];
   const newbie = [];
 

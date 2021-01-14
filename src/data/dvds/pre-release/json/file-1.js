@@ -120,6 +120,21 @@ const File1 = [
     type: "Censored",
     idols: [{ idIdol: "jai139", name: "Mana Sakura" }],
   },
+  {
+    code: "KNMB-009",
+    title: `COMPLETE RAW STYLE @ THIS IS # 171CM G-CUP BEAUTIFUL LEGS OL # FORMER MODEL GOD STYLE # GODDESS BODY # RUBBER IS ABSOLUTELY NG # RAW OL ENKO # PANTYHOSE WITHOUT TAKING OFF NARUMI THIS IS`,
+    poster:
+      "http://pics.dmm.co.jp/mono/movie/adult/h_491knmb009/h_491knmb009pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai165", name: "Kanon Yano" }],
+  },
+  {
+    code: "CJOD-277",
+    title: `CREAMPIE OK WHISPERING REJUVENATION ESTE NARUMI KONOHA`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/cjod277/cjod277pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai165", name: "Kanon Yano" }],
+  },
 ];
 
 export default File1;
