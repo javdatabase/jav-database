@@ -56,13 +56,6 @@ const File1 = [
     idols: [{ idIdol: "jai185", name: "Nene Tanaka" }],
   },
   {
-    code: "MDBK-152",
-    title: `I'LL COMMIT A BUSINESS TRIP VISIT SLUT COUNSELOR COMPLETELY SEXUAL HEALTH CARE FOR MEN AT HOME`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/84mdbk152/84mdbk152pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai061", name: "Yuria Satomi" }],
-  },
-  {
     code: "HZGD-175",
     title: `WHEN I HUGGED MY SENIOR'S WIFE BECAUSE I COULDN'T STAND IT , I WAS ATTACKED AND CONFINED AND I GOT CAUGHT UP IN MY OWN WAY ... SATOMI YURIA`,
     poster:
@@ -98,13 +91,6 @@ const File1 = [
     poster: "http://pics.dmm.co.jp/mono/movie/adult/mimk083/mimk083pl.jpg",
     type: "Censored",
     idols: [{ idIdol: "jai181", name: "Haru Kawamura" }],
-  },
-  {
-    code: "ABW-049",
-    title: `BEAUTIFUL OLDER SISTER'S COMPLETE ESCORT SEX DOCUMENT THAT RELEASES YOUNGER KUN FROM SEXUAL TROUBLE MARIA AINE`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/118abw049/118abw049pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai072", name: "Maria Aine" }],
   },
   {
     code: "STARS-322",

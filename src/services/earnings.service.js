@@ -58,81 +58,12 @@ function getPriceOneNight(earnings) {
 }
 
 function getBonusEarnings(id) {
-  const bestDvd = [
-    "jai001",
-    "jai016",
-    "jai038",
-    "jai041",
-    "jai048",
-    "jai057",
-    "jai062",
-    "jai073",
-    "jai147",
-    "jai154",
-    "jai158",
-    "jai165",
-    "jai166",
-    "jai179",
-    "jai181",
-  ];
-  const topPointGrowth = [
-    "jai001",
-    "jai048",
-    "jai147",
-    "jai165",
-    "jai169",
-    "jai185",
-  ];
-  const sweetNight = ["jai001", "jai016", "jai038", "jai158"];
-  const bestIdol = [
-    "jai001",
-    "jai016",
-    "jai038",
-    "jai041",
-    "jai048",
-    "jai057",
-    "jai062",
-    "jai073",
-    "jai147",
-    "jai154",
-    "jai158",
-    "jai165",
-    "jai166",
-    "jai169",
-    "jai179",
-    "jai181",
-  ];
-  const topIdol = [
-    "jai048",
-    "jai062",
-    "jai070",
-    "jai073",
-    "jai151",
-    "jai158",
-    "jai171",
-    "jai172",
-  ];
-  const hasDvd = [
-    "jai001",
-    "jai013",
-    "jai016",
-    "jai038",
-    "jai041",
-    "jai048",
-    "jai056",
-    "jai057",
-    "jai062",
-    "jai073",
-    "jai147",
-    "jai154",
-    "jai158",
-    "jai165",
-    "jai166",
-    "jai169",
-    "jai179",
-    "jai181",
-    "jai185",
-  ];
+  const bestDvd = ["jai072"];
+  const topPointGrowth = [];
+  const sweetNight = [];
+  const bestIdol = ["jai061", "jai072", "jai113"];
+  const topIdol = [];
+  const hasDvd = ["jai061", "jai072", "jai113"];
   const newbie = [];
 
   let bonus = 0;

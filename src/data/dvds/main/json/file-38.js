@@ -1651,6 +1651,27 @@ const File38 = [
     type: "Censored",
     idols: [{ idIdol: "jai165", name: "Kanon Yano" }],
   },
+  {
+    code: "ABW-049",
+    title: `BEAUTIFUL OLDER SISTER'S COMPLETE ESCORT SEX DOCUMENT THAT RELEASES YOUNGER KUN FROM SEXUAL TROUBLE MARIA AINE`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/118abw049/118abw049pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai072", name: "Maria Aine" }],
+  },
+  {
+    code: "MDBK-152",
+    title: `I'LL COMMIT A BUSINESS TRIP VISIT SLUT COUNSELOR COMPLETELY SEXUAL HEALTH CARE FOR MEN AT HOME`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/84mdbk152/84mdbk152pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai061", name: "Yuria Satomi" }],
+  },
+  {
+    code: "PPT-104",
+    title: `AIRI SUZUMURA 8 HOURS BEST PRESTIGE PREMIUM TREASURE VOL.11 A PERMANENT PRESERVATION BOARD THAT TRACES THE TRAJECTORY OF " AIRI SUZUMURA " WITH ALL 6 WORKS + UNRELEASED VIDEO ! ! !`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/118ppt104/118ppt104pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai113", name: "Airi Suzumura" }],
+  },
 ];
 
 export default File38;
