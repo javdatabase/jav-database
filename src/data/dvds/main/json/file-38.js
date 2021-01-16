@@ -1717,6 +1717,20 @@ const File38 = [
     type: "Censored",
     idols: [{ idIdol: "jai012", name: "Aimi Yoshikawa" }],
   },
+  {
+    code: "SCOP-703",
+    title: `FINALLY DISCOVERED ! ! ! IT SEEMS THAT YOU CAN EXPERIENCE CONTINUOUS EJACULATION UNTIL THE SPERM IS EXHAUSTED WITH UNLIMITED TIME AND THE STANDARD EQUIPMENT OF VAGINAL CUM SHOT OPTION BETWEEN THE ULTIMATE CHONS THAT OPERATE QUIETLY IN A DEPOPULATED AREA FORGOTTEN BY THE WORLD ! ! ! THOROUGH SCOOP ! ! ! 4TH`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/84scop703/84scop703pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai057", name: "Yumi Maeda" }],
+  },
+  {
+    code: "UMSO-365",
+    title: `I WAS A SINGLE FATHER WHO ESCAPED FROM MY WIFE AND BECAME A SINGLE FATHER . ? ? I WAS ADDICTED TO AN AFFAIR FROM NOON WITH MY NEIGHBOR'S MOM FRIENDS WHO SYMPATHIZE WITH MY PITIFUL FATHER AND SON'S FAMILY AND TAKE CARE OF ME VOL.14`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/84umso365/84umso365pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai148", name: "Nozomi Arimura" }],
+  },
 ];
 
 export default File38;
