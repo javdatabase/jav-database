@@ -42,20 +42,6 @@ const File1 = [
     idols: [{ idIdol: "jai016", name: "Kanako Iioka" }],
   },
   {
-    code: "PPPD-896",
-    title: `HITOMI WHO WAS ABLE TO HAVE HER FOR THE FIRST TIME BUT WAS EATEN BY A BIG TITS SISTER WHO LIVES NEXT DOOR AND DID NOT GET UP UNLESS HER BOOBS WERE BIG`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/pppd896/pppd896pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai065", name: "Hitomi Tanaka" }],
-  },
-  {
-    code: "PPPD-898",
-    title: `HER OLDER SISTER SEDUCES ME WITH BIG TITS AND VAGINAL CUM SHOT OK TANAKA`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/pppd898/pppd898pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai185", name: "Nene Tanaka" }],
-  },
-  {
     code: "HZGD-175",
     title: `WHEN I HUGGED MY SENIOR'S WIFE BECAUSE I COULDN'T STAND IT , I WAS ATTACKED AND CONFINED AND I GOT CAUGHT UP IN MY OWN WAY ... SATOMI YURIA`,
     poster:
@@ -70,20 +56,6 @@ const File1 = [
       "http://pics.dmm.co.jp/mono/movie/adult/h_1100hzgd176/h_1100hzgd176pl.jpg",
     type: "Censored",
     idols: [{ idIdol: "jai185", name: "Nene Tanaka" }],
-  },
-  {
-    code: "SSNI-964",
-    title: `" I'M SORRY FOR YOU ... " AOI TSUKASA , A SLUTTY SECRET MEETING WITH A LANDLORD WHO REPEATS TO PROTECT HER FAMILY`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/ssni964/ssni964pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai069", name: "Tsukasa Aoi" }],
-  },
-  {
-    code: "SSNI-963",
-    title: `JAPAN'S NO.1 SEX COSPLAYER YUA MIKAMI`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/ssni963/ssni963pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai070", name: "Yua Mikami" }],
   },
   {
     code: "MIMK-083",
