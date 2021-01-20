@@ -448,7 +448,10 @@ const File36 = [
     title: `EROTIC MASSAGE ! VOL.THREE`,
     poster: CT38,
     type: "Uncensored",
-    idols: [{ idIdol: "jai147", name: "Satomi Suzuki" }],
+    idols: [
+      { idIdol: "jai147", name: "Satomi Suzuki" },
+      { idIdol: "jai186", name: "Risa Onodera" },
+    ],
   },
   {
     code: "MDB-797",
