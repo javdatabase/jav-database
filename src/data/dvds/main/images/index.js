@@ -330,7 +330,9 @@ import SMD139 from "./SMD-139.jpg";
 import SSKP12 from "./SSKP-12.jpg";
 import PT74 from "./PT-74.jpg";
 import SSDV34 from "./SSDV-34.jpg";
-import HEY129 from './HEY-129.jpg'
+import HEY129 from "./HEY-129.jpg";
+import HEY156 from "./HEY-156.jpg";
+import MMDV72 from "./MMDV-72.jpg";
 
 export {
   CWP49,
@@ -665,5 +667,7 @@ export {
   SSKP12,
   PT74,
   SSDV34,
-  HEY129
+  HEY129,
+  HEY156,
+  MMDV72
 };

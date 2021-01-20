@@ -1,4 +1,4 @@
-import { HEY129, PT74, SSDV34, SSKP12 } from "../images";
+import { HEY129, HEY156, MMDV72, PT74, SSDV34, SSKP12 } from "../images";
 
 const File38 = [
   {
@@ -2436,30 +2436,16 @@ const File38 = [
     idols: [{ idIdol: "jai186", name: "Risa Onodera" }],
   },
   {
-    code: "",
-    title: ``,
-    poster: "",
-    type: "Censored",
+    code: "HEY-156",
+    title: `THE STORY OF A WOMAN TEACHER AND SEMEN`,
+    poster: HEY156,
+    type: "Uncensored",
     idols: [{ idIdol: "jai186", name: "Risa Onodera" }],
   },
   {
-    code: "",
-    title: ``,
-    poster: "",
-    type: "Censored",
-    idols: [{ idIdol: "jai186", name: "Risa Onodera" }],
-  },
-  {
-    code: "",
-    title: ``,
-    poster: "",
-    type: "Censored",
-    idols: [{ idIdol: "jai186", name: "Risa Onodera" }],
-  },
-  {
-    code: "",
-    title: ``,
-    poster: "",
+    code: "MMDV-72",
+    title: `KIRARI MMDV 72 RAN CHAOS`,
+    poster: MMDV72,
     type: "Censored",
     idols: [{ idIdol: "jai186", name: "Risa Onodera" }],
   },
