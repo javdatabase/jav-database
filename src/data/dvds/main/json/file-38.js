@@ -1,4 +1,12 @@
-import { HEY129, HEY156, MMDV72, PT74, SSDV34, SSKP12 } from "../images";
+import {
+  HEY129,
+  HEY156,
+  MMDV72,
+  PT74,
+  SSDV19,
+  SSDV34,
+  SSKP12,
+} from "../images";
 
 const File38 = [
   {
@@ -2422,6 +2430,13 @@ const File38 = [
     idols: [{ idIdol: "jai186", name: "Risa Onodera" }],
   },
   {
+    code: "SSDV-19",
+    title: `S MODEL SSDV 19 HOT ERO SEX`,
+    poster: SSDV19,
+    type: "Uncensored",
+    idols: [{ idIdol: "jai186", name: "Risa Onodera" }],
+  },
+  {
     code: "SSDV-34",
     title: `S MODEL SSDV 34 MAXIMAL IMPULSE AFTER 10 DAYS OF ABSTINENCY`,
     poster: SSDV34,
@@ -2446,7 +2461,7 @@ const File38 = [
     code: "MMDV-72",
     title: `KIRARI MMDV 72 RAN CHAOS`,
     poster: MMDV72,
-    type: "Censored",
+    type: "Uncensored",
     idols: [{ idIdol: "jai186", name: "Risa Onodera" }],
   },
 ];
