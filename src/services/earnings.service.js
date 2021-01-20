@@ -59,41 +59,30 @@ function getPriceOneNight(earnings) {
 
 function getBonusEarnings(id) {
   const bestDvd = [
-    "jai057",
-    "jai065",
-    "jai069",
-    "jai070",
-    "jai072",
-    "jai102",
-    "jai154",
-    "jai165",
-  ];
-  const topPointGrowth = ["jai016"];
-  const sweetNight = [
     "jai001",
     "jai016",
-    "jai065",
-    "jai065",
-    "jai070",
-    "jai154",
-    "jai154",
+    "jai055",
+    "jai057",
+    "jai123",
+    "jai133",
+    "jai139",
+    "jai179",
+    "jai182",
+    "jai185",
   ];
+  const topPointGrowth = [];
+  const sweetNight = [];
   const bestIdol = [
     "jai001",
-    "jai011",
-    "jai012",
     "jai016",
-    "jai049",
-    "jai052",
+    "jai055",
     "jai057",
-    "jai061",
-    "jai065",
-    "jai069",
-    "jai070",
-    "jai072",
-    "jai102",
-    "jai113",
-    "jai154",
+    "jai123",
+    "jai133",
+    "jai139",
+    "jai179",
+    "jai182",
+    "jai185",
   ];
   const topIdol = [
     "jai048",
@@ -108,23 +97,14 @@ function getBonusEarnings(id) {
   ];
   const hasDvd = [
     "jai001",
-    "jai011",
-    "jai012",
     "jai016",
-    "jai049",
-    "jai052",
+    "jai055",
     "jai057",
-    "jai061",
-    "jai065",
-    "jai069",
-    "jai070",
-    "jai072",
-    "jai102",
-    "jai113",
-    "jai147",
-    "jai148",
-    "jai154",
-    "jai165",
+    "jai123",
+    "jai133",
+    "jai139",
+    "jai179",
+    "jai182",
     "jai185",
   ];
   const newbie = [];
