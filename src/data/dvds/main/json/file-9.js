@@ -928,6 +928,7 @@ const File9 = [
     idols: [
       { idIdol: `jai015`, name: "Mao Kurata" },
       { idIdol: `jai053`, name: "Kokone Mizutani" },
+      { idIdol: "jai186", name: "Risa Onodera" },
     ],
   },
   {

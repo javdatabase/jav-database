@@ -1389,7 +1389,10 @@ const File4 = [
     title: `IT HAD BEEN FORCED TO FULL ERECTION IN A SHOW OF UNDERWEAR CHEST CHIRA !`,
     poster: `http://pics.dmm.co.jp/mono/movie/adult/miae024/miae024pl.jpg`,
     type: `Censored`,
-    idols: [{ idIdol: `jai011`, name: "Asahi Mizuno" }],
+    idols: [
+      { idIdol: `jai011`, name: "Asahi Mizuno" },
+      { idIdol: "jai186", name: "Risa Onodera" },
+    ],
   },
   {
     code: `MIAE-074`,

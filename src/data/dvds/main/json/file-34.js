@@ -2199,7 +2199,10 @@ const File34 = [
     title: `" YOU SHOULD NOT TOUCH IT ! ! " A SOMEWHAT CHEEKY SISTER IN LAW IS TOUCHED BY A NIPPLE I FEEL LIKE SHRIMP WARPED CONTINUOUSLY IKI IKI ! ! MY PARENTS REMARRIED AND MY SISTER IN LAW WAS SUPER CUTE ! ! IN THE HOUSE IS SUPER DEFENSELESS AND ALWAYS BEING A NOBLER SO THE SHAPE OF THE NIPPLE IS OBVIOUS ...`,
     poster: `http://pics.dmm.co.jp/mono/movie/adult/hunta400/hunta400pl.jpg`,
     type: `Censored`,
-    idols: [{ idIdol: "jai164", name: "Kotone Suzumiya" }],
+    idols: [
+      { idIdol: "jai164", name: "Kotone Suzumiya" },
+      { idIdol: "jai186", name: "Risa Onodera" },
+    ],
   },
   {
     code: `GRCH-259`,
