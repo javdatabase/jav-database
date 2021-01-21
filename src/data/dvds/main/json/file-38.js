@@ -2524,7 +2524,7 @@ const File38 = [
     code: "IESP-675",
     title: `THROAT BOCCO ! ! ! DEEP THROAT THROAT KITSUMA CO ○ CREAMPIE RUI HIZUKI`,
     poster:
-      "THROAT BOCCO ! ! ! DEEP THROAT THROAT KITSUMA CO ○ CREAMPIE RUI HIZUKI",
+      "http://pics.dmm.co.jp/mono/movie/adult/1iesp675/1iesp675pl.jpg",
     type: "Censored",
     idols: [{ idIdol: "jai056", name: "Rui Hiduki" }],
   },
