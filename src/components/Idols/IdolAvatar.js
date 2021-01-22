@@ -31,7 +31,8 @@ function IdolAvatar({ src, lazy, ...props }) {
 
   const handleError = useCallback(() => {
     setSource(SexyShadowImage);
-  }, []);
+    console.log(src);
+  }, [src]);
 
   return (
     <Fragment>

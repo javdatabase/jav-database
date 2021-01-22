@@ -31,7 +31,8 @@ function DvdPoster({ src, lazy, ...props }) {
 
   const handleError = useCallback(() => {
     setSource(SexyShadowBackground);
-  }, []);
+    console.log(src);
+  }, [src]);
 
   return (
     <Fragment>
