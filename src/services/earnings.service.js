@@ -74,7 +74,7 @@ function getBonusEarnings(id) {
     "jai179",
   ];
   const topPointGrowth = ["jai048", "jai078", "jai165", "jai185"];
-  const sweetNight = [];
+  const sweetNight = ["jai011", "jai015", "jai041", "jai041", "jai078"];
   const bestIdol = [
     "jai011",
     "jai015",
@@ -91,7 +91,18 @@ function getBonusEarnings(id) {
     "jai172",
     "jai179",
   ];
-  const topIdol = [];
+  const topIdol = [
+    "jai048",
+    "jai062",
+    "jai070",
+    "jai073",
+    "jai151",
+    "jai158",
+    "jai165",
+    "jai170",
+    "jai175",
+    "jai185",
+  ];
   const hasDvd = [
     "jai011",
     "jai014",
