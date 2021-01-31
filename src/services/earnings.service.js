@@ -82,9 +82,14 @@ function getBonusEarnings(id) {
     "jai015",
     "jai041",
     "jai041",
+    "jai057",
+    "jai057",
     "jai061",
     "jai067",
     "jai078",
+    "jai136",
+    "jai141",
+    "jai158",
   ];
   const bestIdol = [
     "jai011",
