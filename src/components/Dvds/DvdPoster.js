@@ -17,9 +17,10 @@ const Dummy = styled.div`
   }
 `;
 
-function DvdPoster({ src, lazy, ...props }) {
+function DvdPoster({ src, ...props }) {
   const [source, setSource] = useState(src || SexyShadowBackground);
   const [dummy, setDummy] = useState(true);
+  const [reload, setReload] = useState(false);
 
   useEffect(() => {
     setSource(src || SexyShadowBackground);
@@ -30,9 +31,13 @@ function DvdPoster({ src, lazy, ...props }) {
   }, []);
 
   const handleError = useCallback(() => {
-    setSource(SexyShadowBackground);
-    console.log(src);
-  }, [src]);
+    if (reload) {
+      setSource(SexyShadowBackground);
+    } else {
+      setSource(src || SexyShadowBackground);
+      setReload(true);
+    }
+  }, [reload, src]);
 
   return (
     <Fragment>
