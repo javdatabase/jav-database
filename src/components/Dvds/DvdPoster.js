@@ -34,8 +34,9 @@ function DvdPoster({ src, ...props }) {
     if (reload) {
       setSource(SexyShadowBackground);
     } else {
-      setSource(src || SexyShadowBackground);
+      setDummy(true);
       setReload(true);
+      setSource(src || SexyShadowBackground);
     }
   }, [reload, src]);
 
