@@ -20,6 +20,7 @@ const Dummy = styled.div`
 function IdolAvatar({ src, lazy, ...props }) {
   const [source, setSource] = useState(src || SexyShadowImage);
   const [dummy, setDummy] = useState(true);
+  const [reload, setReload] = useState(false);
 
   useEffect(() => {
     setSource(src || SexyShadowImage);
@@ -30,9 +31,17 @@ function IdolAvatar({ src, lazy, ...props }) {
   }, []);
 
   const handleError = useCallback(() => {
-    setSource(SexyShadowImage);
-    console.log(src);
-  }, [src]);
+    if (reload) {
+      setSource(SexyShadowImage);
+    } else {
+      setSource("");
+      setDummy(true);
+      setReload(true);
+      setTimeout(() => {
+        setSource(src || SexyShadowImage);
+      }, 500);
+    }
+  }, [reload, src]);
 
   return (
     <Fragment>
