@@ -21,20 +21,6 @@ const File1 = [
     idols: [{ idIdol: "jai069", name: "Tsukasa Aoi" }],
   },
   {
-    code: "MIDE-875",
-    title: `THAT SWIMMING CLUB TEACHER UNKNOWINGLY SHOWED OFF HER BIG TITS AND LET THE UNEQUALED GREEDY BOY DO ALL-YOU-CAN-EAT FROM SUPER MUKATSUKU`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/mide875/mide875pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai141", name: "Shoko Takahashi" }],
-  },
-  {
-    code: "MIDE-880",
-    title: `SUPER LUXURY SEXY LINGERIE SALESPERSON SHOW OFF TEMPTATION SALES NAO JINGUJI`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/mide880/mide880pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai158", name: "Nao Jinguji" }],
-  },
-  {
     code: "MIDE-882",
     title: `TOKYO THOUGHT DATE LIFE-SIZE ME AND NONFICTION SEXUAL INTERCOURSE RIKKA ONO`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/mide882/mide882pl.jpg",
@@ -96,20 +82,6 @@ const File1 = [
     poster: "http://pics.dmm.co.jp/mono/movie/adult/118abw054/118abw054pl.jpg",
     type: "Censored",
     idols: [{ idIdol: "jai151", name: "Remu Suzumori" }],
-  },
-  {
-    code: "WAAA-029",
-    title: `PHEROMONE MUNMUN MARRIED WOMAN AND INTENTLY RAW CREAMPIE CHEATING COPULATION RIHO FUJIMORI`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/waaa029/waaa029pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai057", name: "Yumi Maeda" }],
-  },
-  {
-    code: "WAAA-030",
-    title: `J-CUP CHEATING WIFE VOYEUR CREAMPIE HOT WATER JULIA`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/waaa030/waaa030pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai041", name: "Julia" }],
   },
   {
     code: "CEAD-330",
