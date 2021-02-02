@@ -2916,13 +2916,6 @@ const File38 = [
     type: "Censored",
     idols: [{ idIdol: "jai057", name: "Yumi Maeda" }],
   },
-  {
-    code: "GVH-186",
-    title: `BOYNE LOVES SHOTA-KUN'S H MISCHIEF MIO KIMISHIMA / HONOKA TSUJII`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/13gvh186/13gvh186pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai048", name: "Honoka Tsuji" }],
-  },
 ];
 
 export default File38;
