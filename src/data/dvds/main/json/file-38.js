@@ -2916,6 +2916,13 @@ const File38 = [
     type: "Censored",
     idols: [{ idIdol: "jai057", name: "Yumi Maeda" }],
   },
+  {
+    code: "MSFH-049",
+    title: `BODY FLUIDS SERIOUS JUICE DADA LEAKING SLOPPY THAIMAN SEXUAL INTERCOURSE KONOMI YOSHINAGA`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/1msfh049/1msfh049pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai175", name: "Konomi Yoshinaga" }],
+  },
 ];
 
 export default File38;

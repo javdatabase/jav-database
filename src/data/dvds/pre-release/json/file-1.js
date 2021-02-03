@@ -49,13 +49,6 @@ const File1 = [
     idols: [{ idIdol: "jai026", name: "Ayaka Tomoda" }],
   },
   {
-    code: "MSFH-049",
-    title: `BODY FLUIDS SERIOUS JUICE DADA LEAKING SLOPPY THAIMAN SEXUAL INTERCOURSE KONOMI YOSHINAGA`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/1msfh049/1msfh049pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai175", name: "Konomi Yoshinaga" }],
-  },
-  {
     code: "GVH-192",
     title: `FORBIDDEN CARE KANA MORISAWA`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/13gvh192/13gvh192pl.jpg",
