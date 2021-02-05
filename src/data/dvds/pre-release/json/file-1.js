@@ -49,27 +49,6 @@ const File1 = [
     idols: [{ idIdol: "jai026", name: "Ayaka Tomoda" }],
   },
   {
-    code: "GVH-192",
-    title: `FORBIDDEN CARE KANA MORISAWA`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/13gvh192/13gvh192pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai016", name: "Kanako Iioka" }],
-  },
-  {
-    code: "GVH-195",
-    title: `ACTIVE STRONGEST EXTREME ANAL RUI HIZUKI`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/13gvh195/13gvh195pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai056", name: "Rui Hiduki" }],
-  },
-  {
-    code: "ABW-054",
-    title: `ANOTHER WORLD ACTIVITY OF ME AND REMU ACT.07 THE STRONGEST SEXY EQUIPMENT BREAKS THROUGH THE EROTIC LIMIT ! ! ! ! ! REMU SUZUMORI`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/118abw054/118abw054pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai151", name: "Remu Suzumori" }],
-  },
-  {
     code: "CEAD-330",
     title: `I'M A PLEASURE MAD NASTY ONANIST 11 YUI HATANO`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/cead330/cead330pl.jpg",

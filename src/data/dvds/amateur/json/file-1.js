@@ -48,6 +48,13 @@ const File1 = [
     type: `Censored`,
     idols: [{ idIdol: "jai000", name: "Hikari Imai" }],
   },
+  {
+    code: "CHN-197",
+    title: `I WILL LEND YOU A NEW AMATEUR GIRL. 95 PSEUDONYM SUZUNE AKIMOTO ( SUPERMARKET / CLERK ) 20 YEARS OLD`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/118chn197/118chn197pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai000", name: "Suzune Akimoto" }],
+  },
 ];
 
 export default File1;

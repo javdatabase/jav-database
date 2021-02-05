@@ -2923,6 +2923,41 @@ const File38 = [
     type: "Censored",
     idols: [{ idIdol: "jai175", name: "Konomi Yoshinaga" }],
   },
+  {
+    code: "ABW-054",
+    title: `ANOTHER WORLD ACTIVITY OF ME AND REMU ACT.07 THE STRONGEST SEXY EQUIPMENT BREAKS THROUGH THE EROTIC LIMIT ! ! ! ! ! REMU SUZUMORI`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/118abw054/118abw054pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai151", name: "Remu Suzumori" }],
+  },
+  {
+    code: "GVH-192",
+    title: `FORBIDDEN CARE KANA MORISAWA`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/13gvh192/13gvh192pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai016", name: "Kanako Iioka" }],
+  },
+  {
+    code: "GVH-195",
+    title: `ACTIVE STRONGEST EXTREME ANAL RUI HIZUKI`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/13gvh195/13gvh195pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai056", name: "Rui Hiduki" }],
+  },
+  {
+    code: "PPT-105",
+    title: `MINAMO NAGASE 8 HOURS BEST PRESTIGE PREMIUM TREASURE VOL.03 A PERMANENT PRESERVATION BOARD THAT TRACES THE TRAJECTORY OF " MINAMO NAGASE " WITH ALL 6 WORKS ! ! !`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/118ppt105/118ppt105pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai152", name: "Minamo Nagase" }],
+  },
+  {
+    code: "NITR-505",
+    title: `EVIL EROGAKI BIG BREASTS WIFE HUNTING VII TANAKA NENE`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/49nitr505/49nitr505pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai185", name: "Nene Tanaka" }],
+  },
 ];
 
 export default File38;
