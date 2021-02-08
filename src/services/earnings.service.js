@@ -76,7 +76,23 @@ function getBonusEarnings(id) {
     "jai187",
   ];
   const topPointGrowth = ["jai057", "jai168", "jai185", "jai187"];
-  const sweetNight = [];
+  const sweetNight = [
+    "jai057",
+    "jai069",
+    "jai069",
+    "jai075",
+    "jai153",
+    "jai158",
+    "jai168",
+    "jai168",
+    "jai168",
+    "jai170",
+    "jai170",
+    "jai181",
+    "jai181",
+    "jai187",
+    "jai187",
+  ];
   const bestIdol = [
     "jai054",
     "jai057",
