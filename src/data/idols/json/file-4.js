@@ -1,3 +1,5 @@
+import * as tsubaki_sannomiya from "../images/tsubaki-sannomiya";
+
 const File4 = [
   {
     idIdol: "jai185",
@@ -108,6 +110,51 @@ const File4 = [
       {
         picture:
           "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/39000/39847/large/wapdb-risa-onodera-pornostar-asiatique.warashi-asian-pornstars.fr-39847-008.jpg",
+      },
+    ],
+  },
+  {
+    idIdol: "jai187",
+    avatar: tsubaki_sannomiya.tsubaki_sannomiya_9,
+    name: "Tsubaki Sannomiya",
+    other: "",
+    born: "04/05/1998",
+    height: "150 cm",
+    breast: "89 cm",
+    cup: "G-Cup",
+    waist: "54 cm",
+    hips: "83 cm",
+    styles: [{ tag: "Cute" }, { tag: "Beautiful Breasts" }, { tag: "Slender" }],
+    album: [
+      {
+        picture: tsubaki_sannomiya.tsubaki_sannomiya_10,
+      },
+      {
+        picture: tsubaki_sannomiya.tsubaki_sannomiya_11,
+      },
+      {
+        picture: tsubaki_sannomiya.tsubaki_sannomiya_1,
+      },
+      {
+        picture: tsubaki_sannomiya.tsubaki_sannomiya_2,
+      },
+      {
+        picture: tsubaki_sannomiya.tsubaki_sannomiya_3,
+      },
+      {
+        picture: tsubaki_sannomiya.tsubaki_sannomiya_4,
+      },
+      {
+        picture: tsubaki_sannomiya.tsubaki_sannomiya_5,
+      },
+      {
+        picture: tsubaki_sannomiya.tsubaki_sannomiya_6,
+      },
+      {
+        picture: tsubaki_sannomiya.tsubaki_sannomiya_7,
+      },
+      {
+        picture: tsubaki_sannomiya.tsubaki_sannomiya_8,
       },
     ],
   },

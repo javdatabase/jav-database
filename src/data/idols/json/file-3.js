@@ -2404,7 +2404,7 @@ const File3 = [
     idIdol: "jai168",
     avatar: mirei_imada.mirei_imada_2,
     name: "Mirei Imada",
-    other: "",
+    other: "Kotono Nanasaki",
     born: "30/03/1985",
     height: "164 cm",
     breast: "88 cm",
