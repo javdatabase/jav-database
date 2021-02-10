@@ -1,3 +1,5 @@
+import { CCDV88 } from "../../main/images";
+
 const File1 = [
   {
     code: "MIDE-882",
@@ -82,6 +84,13 @@ const File1 = [
     poster: "http://pics.dmm.co.jp/mono/movie/adult/ssni989/ssni989pl.jpg",
     type: "Censored",
     idols: [{ idIdol: "jai070", name: "Yua Mikami" }],
+  },
+  {
+    code: "CCDV-88",
+    title: `CATWALK POISON CCDV 88 A LESBIAN COUPLE WHO WANTS EVERYTHING !`,
+    poster: CCDV88,
+    type: "Uncensored",
+    idols: [{ idIdol: "jai078", name: "Mitsuki Akai" }],
   },
 ];
 

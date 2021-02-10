@@ -1,3 +1,5 @@
+import { HEY112 } from "../../main/images";
+
 const File1 = [
   {
     code: `CHRV-102`,
@@ -54,6 +56,13 @@ const File1 = [
     poster: "http://pics.dmm.co.jp/mono/movie/adult/118chn197/118chn197pl.jpg",
     type: "Censored",
     idols: [{ idIdol: "jai000", name: "Suzune Akimoto" }],
+  },
+  {
+    code: "HEY-112",
+    title: `CHEATING ON MY BOYFRIEND WITH HIS FRIEND`,
+    poster: HEY112,
+    type: "Uncensored",
+    idols: [{ idIdol: "jai000", name: "Rin Sakita" }],
   },
 ];
 

@@ -334,6 +334,8 @@ import SSDV34 from "./SSDV-34.jpg";
 import HEY129 from "./HEY-129.jpg";
 import HEY156 from "./HEY-156.jpg";
 import MMDV72 from "./MMDV-72.jpg";
+import HEY112 from "./HEY-112.jpg";
+import CCDV88 from "./CCDV-88.jpg";
 
 export {
   CWP49,
@@ -672,4 +674,6 @@ export {
   HEY129,
   HEY156,
   MMDV72,
+  HEY112,
+  CCDV88,
 };
