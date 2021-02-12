@@ -9,20 +9,6 @@ const File1 = [
     idols: [{ idIdol: "jai166", name: "Rikka Ono" }],
   },
   {
-    code: "FSDSS-168",
-    title: `SEXUAL ACTIVITY GUIDANCE OF A FORNICATION TEACHER WHO DEVOURS A STUDENT JI ○ PORT WITH SEXUAL DESIRE LIKE A VIRGIN MINO SUZUME`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/1fsdss168/1fsdss168pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai157", name: "Suzume Mino" }],
-  },
-  {
-    code: "FSDSS-170",
-    title: `REPRODUCTIVE BODY INSTINCT SEX TO SEEK COMPLETE UNCUT RECORDING AYAKA TOMODA`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/1fsdss170/1fsdss170pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai026", name: "Ayaka Tomoda" }],
-  },
-  {
     code: "CEAD-330",
     title: `I'M A PLEASURE MAD NASTY ONANIST 11 YUI HATANO`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/cead330/cead330pl.jpg",
@@ -49,23 +35,6 @@ const File1 = [
     poster: "http://pics.dmm.co.jp/mono/movie/adult/ipx620/ipx620pl.jpg",
     type: "Censored",
     idols: [{ idIdol: "jai073", name: "Minami Aizawa" }],
-  },
-  {
-    code: "MKMP-380",
-    title: `IN THE APARTMENT I MOVED TO , I WAS SEDUCED BY TWO MARRIED WOMEN ON BOTH SIDES EVERY DAY AT THE FRONT DOOR AND I HAVE NO TIME TO DRY JI ● PO I HAVE BEEN MADE VAGINAL CUM SHOT FROM THE MORNING AT THE WOMAN ON TOP POSTURE KAHO IMAI MISUZU KAWANA`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/84mkmp380/84mkmp380pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai179", name: "Kaho Imai" }],
-  },
-  {
-    code: "MKMP-381",
-    title: `BIG BREASTS FEMALE DOCTOR COUNSELING ROOM THAT MAKES A MAN LUST WITH AN OBSCENE BODY RIHO FUJIMORI MAO HAMASAKI TSUBASA HACHINO`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/84mkmp381/84mkmp381pl.jpg",
-    type: "Censored",
-    idols: [
-      { idIdol: "jai007", name: "Mao Hamasaki" },
-      { idIdol: "jai057", name: "Yumi Maeda" },
-    ],
   },
   {
     code: "MKMP-382",
