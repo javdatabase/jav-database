@@ -289,7 +289,7 @@ const File39 = [
   {
     code: "WAR-002",
     title: `FEMALE TEACHER STRONG ● BEST 4 HOURS 16 PEOPLE`,
-    poster: "",
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/h_1564war002/h_1564war002pl.jpg",
     type: "Censored",
     idols: [
       { idIdol: "jai001", name: "Yui Hatano" },
