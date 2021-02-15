@@ -289,7 +289,8 @@ const File39 = [
   {
     code: "WAR-002",
     title: `FEMALE TEACHER STRONG ● BEST 4 HOURS 16 PEOPLE`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/h_1564war002/h_1564war002pl.jpg",
+    poster:
+      "http://pics.dmm.co.jp/mono/movie/adult/h_1564war002/h_1564war002pl.jpg",
     type: "Censored",
     idols: [
       { idIdol: "jai001", name: "Yui Hatano" },
@@ -315,6 +316,20 @@ const File39 = [
       { idIdol: "jai011", name: "Asahi Mizuno" },
       { idIdol: "jai050", name: "Yuri Nikaido" },
     ],
+  },
+  {
+    code: "NSPS-967",
+    title: `A WIFE AND A COUPLE HOSTAGE CRISIS THAT WAS USED AS A TOOL OF LIBIDO BY MEN FROM MORNING TILL NIGHT ON THEIR HONEYMOON REIWA`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/nsps967so/nsps967sopl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai123", name: "Miku Akari" }],
+  },
+  {
+    code: "NSPS-969",
+    title: `HUSBAND OFFICIAL RECOGNITION ! PLEASE SATISFY MY WIFE BEST EDITION`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/nsps969so/nsps969sopl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai185", name: "Nene Tanaka" }],
   },
 ];
 
