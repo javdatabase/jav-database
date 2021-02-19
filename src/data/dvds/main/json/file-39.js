@@ -418,6 +418,20 @@ const File39 = [
       { idIdol: "jai165", name: "Kanon Yano" },
     ],
   },
+  {
+    code: "SIM-109",
+    title: `MY DAD'S FUCKING YOUNG REMARRIAGE PARTNER IS A CONVENIENT TADAMAN SON JI PO AND A BITCH MOTHER-IN-LAW WHO SPREES ALL THE TIME`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/118sim109/118sim109pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai172", name: "Maron Natsuki" }],
+  },
+  {
+    code: "HUNBL-034",
+    title: `HAIR EAGLE GRAB AND DRAG AROUND THE HOUSE FOR CONTINUOUS FERTILIZATION`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/hunbl034/hunbl034pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai148", name: "Nozomi Arimura" }],
+  },
 ];
 
 export default File39;

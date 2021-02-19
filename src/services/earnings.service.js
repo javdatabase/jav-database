@@ -57,7 +57,7 @@ function getPriceOneNight(earnings) {
   return Math.ceil(earnings / 6);
 }
 
-const STAR_IDOL_ID = "";
+const STAR_IDOL_ID = "jai070";
 const BEST_DVD_IDS = [
   "jai061",
   "jai065",
@@ -84,8 +84,17 @@ const BEST_IDOL_IDS = [
   "jai172",
   "jai182",
 ];
-const SWEET_NIGHT_IDS = [];
-const TOP_POINT_GROWTH_IDS = ["jai185"];
+const SWEET_NIGHT_IDS = [
+  "jai016",
+  "jai065",
+  "jai065",
+  "jai069",
+  "jai070",
+  "jai070",
+  "jai070",
+  "jai185",
+];
+const TOP_POINT_GROWTH_IDS = ["jai148", "jai172", "jai185"];
 const TOP_IDOL_IDS = [];
 const HAS_DVD_IDS = [
   "jai061",
