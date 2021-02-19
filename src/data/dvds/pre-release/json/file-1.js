@@ -2,13 +2,6 @@ import { CCDV88 } from "../../main/images";
 
 const File1 = [
   {
-    code: "SSNI-989",
-    title: `IN A SHARED ROOM WITH A SEXUAL HARASSMENT BOSS WHO HATES AT A BUSINESS TRIP DESTINATION INN ... BIG TITS OL MIKAMI YUA WHO CONTINUED TO BE SQUID ALL NIGHT WITH A STICKY PISTON THAT IS TOO UNEQUALED`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/ssni989/ssni989pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai070", name: "Yua Mikami" }],
-  },
-  {
     code: "CCDV-88",
     title: `CATWALK POISON CCDV 88 A LESBIAN COUPLE WHO WANTS EVERYTHING !`,
     poster: CCDV88,
@@ -28,13 +21,6 @@ const File1 = [
     poster: "http://pics.dmm.co.jp/mono/movie/adult/mide892/mide892pl.jpg",
     type: "Censored",
     idols: [{ idIdol: "jai158", name: "Nao Jinguji" }],
-  },
-  {
-    code: "PPPD-903",
-    title: `NASTY DIRTY LITTLE BIG TITS TUTOR'S TEMPTATION SLUT SEX INCREASED BY THE DEVIATION OF H HITOMI`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/pppd903/pppd903pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai065", name: "Hitomi Tanaka" }],
   },
   {
     code: "CESD-979",
