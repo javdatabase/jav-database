@@ -432,6 +432,13 @@ const File39 = [
     type: "Censored",
     idols: [{ idIdol: "jai148", name: "Nozomi Arimura" }],
   },
+  {
+    code: "JAC-015",
+    title: `GAL SHIBE CHOJA [ CREAMPIE GAL X BEADS ] 08 SELECTED EROTIC GALS FROM " GAL SHIBE CHOJA " WHO CONTINUE TO INTRODUCE EROTIC GALS TO EROTIC GALS 250 MINUTES`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/118jac015/118jac015pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai007", name: "Mao Hamasaki" }],
+  },
 ];
 
 export default File39;
