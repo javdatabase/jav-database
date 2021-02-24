@@ -136,18 +136,11 @@ const File1 = [
     idols: [{ idIdol: "jai179", name: "Kaho Imai" }],
   },
   {
-    code: "STARS-330",
-    title: `WELCOME TO A HEALING PARADISE . TROPICAL EROTIC SPA HONJO SUZU`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/1stars330/1stars330pl.jpg",
+    code: "STARS-342",
+    title: `A STORY ABOUT ONE AFFAIR BEING CAUGHT ... IORI FURUKAWA , WHO WAS SO IMPATIENT THAT HER HUSBAND WHO WENT OUT OF CONTROL WITH JEALOUSY SEEMED TO GO CRAZY , AND CONTINUED TO BE SQUID WITH MAN JUICE MANY TIMES`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/1stars342/1stars342pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai133", name: "Suzu Honjo" }],
-  },
-  {
-    code: "STARS-331",
-    title: `A WIFE WHO IS TIRED OF A MARRIED WOMAN WHO IS TOO DANGEROUS TO INVITE LEX PU HAS A DE M METAMORPHOSIS DESIRE WHO WANTS TO SEDUCE OTHER MEN AND GET FUCKED`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/1stars331/1stars331pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai139", name: "Mana Sakura" }],
+    idols: [{ idIdol: "jai059", name: "Iori Kogawa" }],
   },
 ];
 
