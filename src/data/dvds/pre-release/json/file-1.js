@@ -23,13 +23,6 @@ const File1 = [
     idols: [{ idIdol: "jai158", name: "Nao Jinguji" }],
   },
   {
-    code: "CESD-979",
-    title: `KANAKO IIOKA , A YOUNG WIFE WHO WAS KISSED AND TRAINED BY HER HUSBAND'S FORMER BOSS`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/cesd979/cesd979pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai016", name: "Kanako Iioka" }],
-  },
-  {
     code: "ZMAR-037",
     title: `MARUTTO ! KANA MORISAWA`,
     poster:
@@ -94,13 +87,6 @@ const File1 = [
     idols: [{ idIdol: "jai185", name: "Nene Tanaka" }],
   },
   {
-    code: "JUL-475",
-    title: `MADONNA RESURRECTION EXCLUSIVE 3RD ! ! ! I CAN'T TELL MY WIFE EVEN IF MY MOUTH IS TORN , I CAN'T SAY THAT MY MOTHER-IN-LAW WAS CONCEIVED ... - 1 NIGHT 2 DAYS HOT SPRING TRIP , I FORGOT ABOUT MYSELF AND MADE VAGINAL CUM SHOT . - - ASAHI MIZUNO`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/jul475/jul475pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai011", name: "Asahi Mizuno" }],
-  },
-  {
     code: "MIAA-398",
     title: `THE FATHER I HATE THAT DERIHERU WAS BANNED IS A RAINY DAY FATHER-IN-LAW NEWLYWED LIFE NTR STRONG ● OPTION COMPLIANT I'M SQUID MANY TIMES WITH CREAMPIE HONOKA TSUJII`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/miaa398/miaa398pl.jpg",
@@ -113,13 +99,6 @@ const File1 = [
     poster: "http://pics.dmm.co.jp/mono/movie/adult/miaa400/miaa400pl.jpg",
     type: "Censored",
     idols: [{ idIdol: "jai057", name: "Yumi Maeda" }],
-  },
-  {
-    code: "HND-947",
-    title: `WHY DON'T YOU PLAY CHEATING WITH YOUR AUNT ? SHE WAS SEDUCED BY HER J-CUP BUSTY MOM AND BECAME CRAZY WITH A VAGINAL CUM SHOT AFFAIR`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/hnd947/hnd947pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai041", name: "Julia" }],
   },
   {
     code: "MIMK-085",

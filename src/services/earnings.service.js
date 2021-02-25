@@ -58,12 +58,42 @@ function getPriceOneNight(earnings) {
 }
 
 const STAR_IDOL_ID = "";
-const BEST_DVD_IDS = ["jai133"];
-const BEST_IDOL_IDS = ["jai133"];
+const BEST_DVD_IDS = [
+  "jai011",
+  "jai015",
+  "jai016",
+  "jai034",
+  "jai041",
+  "jai049",
+  "jai054",
+  "jai133",
+];
+const BEST_IDOL_IDS = [
+  "jai011",
+  "jai015",
+  "jai016",
+  "jai034",
+  "jai041",
+  "jai049",
+  "jai054",
+  "jai133",
+];
 const SWEET_NIGHT_IDS = [];
-const TOP_POINT_GROWTH_IDS = [];
-const TOP_IDOL_IDS = ["jai133"];
-const HAS_DVD_IDS = ["jai133", "jai139"];
+const TOP_POINT_GROWTH_IDS = ["jai016"];
+const TOP_IDOL_IDS = [];
+const HAS_DVD_IDS = [
+  "jai011",
+  "jai015",
+  "jai016",
+  "jai034",
+  "jai041",
+  "jai049",
+  "jai054",
+  "jai133",
+  "jai139",
+  "jai140",
+  "jai185",
+];
 const NEWBIE_IDS = [];
 
 function getBonusEarnings(id) {
