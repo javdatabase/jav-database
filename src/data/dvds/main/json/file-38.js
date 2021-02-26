@@ -1,4 +1,5 @@
 import {
+  DHRY11,
   HEY129,
   HEY156,
   MMDV72,
@@ -2556,7 +2557,7 @@ const File38 = [
   {
     code: "DHRY-11",
     title: `DOUJIN HEROINE 11 SAINT FOUR THREAD SHAMEFUL FALL MAO KURATA`,
-    poster: "http://img50.pixhost.to/images/44/184090617_dhry-11pl.jpg",
+    poster: DHRY11,
     type: "Censored",
     idols: [{ idIdol: "jai015", name: "Mao Kurata" }],
   },
