@@ -1,27 +1,4 @@
-import { CCDV88 } from "../../main/images";
-
 const File1 = [
-  {
-    code: "CCDV-88",
-    title: `CATWALK POISON CCDV 88 A LESBIAN COUPLE WHO WANTS EVERYTHING !`,
-    poster: CCDV88,
-    type: "Uncensored",
-    idols: [{ idIdol: "jai078", name: "Mitsuki Akai" }],
-  },
-  {
-    code: "MIDE-889",
-    title: `BIG TITS YOUNG LANDLADY WHO WAS FORCED TO ENTERTAIN PHYSICALLY UNTIL MORNING I TURNED INTO A MEAT URINAL AT A DEVIL BIG BANQUET WITH THE WORST FATHERS`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/mide889/mide889pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai141", name: "Shoko Takahashi" }],
-  },
-  {
-    code: "MIDE-892",
-    title: `REVERSAL OF POSITION! INVESTIGATOR NAO JINGUJI NAO WHO CONTINUED TO BE VIOLATED BY OVERWHELMING ZAKO`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/mide892/mide892pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai158", name: "Nao Jinguji" }],
-  },
   {
     code: "ZMAR-037",
     title: `MARUTTO ! KANA MORISAWA`,
@@ -87,20 +64,6 @@ const File1 = [
     idols: [{ idIdol: "jai185", name: "Nene Tanaka" }],
   },
   {
-    code: "MIAA-398",
-    title: `THE FATHER I HATE THAT DERIHERU WAS BANNED IS A RAINY DAY FATHER-IN-LAW NEWLYWED LIFE NTR STRONG ● OPTION COMPLIANT I'M SQUID MANY TIMES WITH CREAMPIE HONOKA TSUJII`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/miaa398/miaa398pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai048", name: "Honoka Tsuji" }],
-  },
-  {
-    code: "MIAA-400",
-    title: `GIVE UP NG UNTIL 10 SHOTS ! SLUT SISTER BREAKS THROUGH THE LIMIT OF EJACULATION & M SEXUAL FEELING SOAPLAND THAT MAKES A MAN SQUIRT RIHO FUJIMORI`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/miaa400/miaa400pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai057", name: "Yumi Maeda" }],
-  },
-  {
     code: "MIMK-085",
     title: `SEX WITH A SUPER-DEEP MARRIED WOMAN BOSS ON A BUSINESS TRIP ! ALWAYS SCARY WHY SHE BECAME JUST A WOMAN JULIA`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/mimk085/mimk085pl.jpg",
@@ -120,6 +83,27 @@ const File1 = [
     poster: "http://pics.dmm.co.jp/mono/movie/adult/1stars342/1stars342pl.jpg",
     type: "Censored",
     idols: [{ idIdol: "jai059", name: "Iori Kogawa" }],
+  },
+  {
+    code: "MIDE-896",
+    title: `MOIST WHISPERING REJUVENATION BEAUTY TREATMENT SALON THAT WILL GIVE YOU A NUI EVEN IF YOU EJACULATE ONCE RIKKA ONO`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/mide896/mide896pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai166", name: "Rikka Ono" }],
+  },
+  {
+    code: "IPX-629",
+    title: `LINGERIE REJUVENATED SLUT ESTHETICS THAT GENTLY IRRITATES WITH POLITE DIRTY WORDS KANA MOMONOGI WHO DOES NOT RETURN UNTIL EJACULATION`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/ipx629/ipx629pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai062", name: "Kana Momonogi" }],
+  },
+  {
+    code: "IPX-630",
+    title: `SEQUEL THIS TIME , I WAS EXCITED TO INVITE A MAN WHO WASN'T ME , NO PANTIES , NO BRAS , " PAIPAN " , AND I WAS CRAZY ABOUT JEALOUSY . .. .. AMAMI TSUBASA`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/ipx630/ipx630pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai038", name: "Tsubasa Amami" }],
   },
 ];
 
