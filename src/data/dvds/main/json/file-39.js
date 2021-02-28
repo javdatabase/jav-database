@@ -562,14 +562,6 @@ const File39 = [
     idols: [{ idIdol: "jai165", name: "Kanon Yano" }],
   },
   {
-    code: "GZAP-043",
-    title: `NORI IS TOO LIGHT W JI ● PO IS TOO FOND OF W MOUNTAIN GIRL 3 PEOPLE NAMPA ! MUD RAISED IN THE OPEN-AIR BATH ● TAKE AWAY RAW SQUIRREL FROM THE ORGY !`,
-    poster:
-      "http://pics.dmm.co.jp/mono/movie/adult/118gzap043/118gzap043pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai148", name: "Nozomi Arimura" }],
-  },
-  {
     code: "DOCP-277",
     title: `" OLDER BROTHER , YOUR DICK GETS UP EARLY ◆ " MY YOUNGER SISTER WHO GOT ESTRUS IN THE MORNING ERECTION OF HER OLDER BROTHER WHO HAS A HABIT OF OVERSLEEPING SUDDENLY SNAPPED ! MEZAMASHI SISTER BLOW CLOCK FOR ONII-CHAN !`,
     poster:
