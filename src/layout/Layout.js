@@ -37,6 +37,8 @@ function Layout() {
       return `${BEST_IDOL_IDS.length} Best Idols`;
     } else if (matchPath(path, { path: "/ranking", exact: true })) {
       return "Ranking";
+    } else if (matchPath(path, { path: "/top-earnings", exact: true })) {
+      return "Top Earnings";
     } else if (matchPath(path, { path: "/idols", exact: true })) {
       return "Idols";
     } else if (matchPath(path, { path: "/idol/:id", exact: false })) {

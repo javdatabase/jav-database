@@ -25,6 +25,7 @@ import {
   White,
   LightPurple,
   DarkPurple,
+  Grey,
 } from "../../themes/colors";
 import { center } from "../../themes/styled";
 import { Large, XLarge } from "../../themes/font";
@@ -70,13 +71,15 @@ const ButtonContainer = styled.div`
   margin-bottom: 20px;
 `;
 
-const Button = styled(Link)`
+const ButtonBest = styled(Link)`
+  width: 150px;
   background: linear-gradient(to right, ${LightPurple}, ${DarkPurple});
   padding: 10px 30px;
   border-radius: 6px;
   box-shadow: none;
   white-space: nowrap;
   color: ${White};
+  text-align: center;
   text-decoration: none;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
@@ -85,6 +88,10 @@ const Button = styled(Link)`
     transform: translateY(-5px);
     box-shadow: 0px 15px 10px -10px ${Black};
   }
+`;
+
+const ButtonEarnings = styled(ButtonBest)`
+  background: linear-gradient(to right, ${Grey}, ${Black});
 `;
 
 const Navigate = styled(Link)`
@@ -171,10 +178,16 @@ function Navbar({ show, toggleMenu }) {
           <CompanyName>JAV Database Official</CompanyName>
         </LogoContainer>
         <ButtonContainer>
-          <Button to={"/best-idols"} onClick={toggleMenu}>
+          <ButtonBest to={"/best-idols"} onClick={toggleMenu}>
             <span style={{ fontSize: Large }}>☿</span> Best Idols{" "}
             <span style={{ fontSize: Large }}>☿</span>
-          </Button>
+          </ButtonBest>
+        </ButtonContainer>
+        <ButtonContainer>
+          <ButtonEarnings to={"/top-earnings"} onClick={toggleMenu}>
+            <span style={{ fontSize: Large }}>$</span> Top Earnings{" "}
+            <span style={{ fontSize: Large }}>$</span>
+          </ButtonEarnings>
         </ButtonContainer>
         {navigate.map((item, index) => (
           <Navigate

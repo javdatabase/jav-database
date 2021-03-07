@@ -56,6 +56,8 @@ const Home = lazy(() => import("../containers/Home/Home"));
 
 const BestIdols = lazy(() => import("../containers/Idols/BestIdols"));
 
+const TopEarnings = lazy(() => import("../containers/Idols/TopEarnings"));
+
 const Ranking = lazy(() => import("../containers/Idols/Ranking"));
 
 const Idols = lazy(() => import("../containers/Idols/Idols"));
@@ -79,6 +81,7 @@ function Routes() {
         />
         <Route path={"/home"} exact={true} component={Home} />
         <Route path={"/best-idols"} exact={true} component={BestIdols} />
+        <Route path={"/top-earnings"} exact={true} component={TopEarnings} />
         <Route path={"/ranking"} exact={true} component={Ranking} />
         <Route path={"/idols"} exact={true} component={Idols} />
         <Route path={"/idol/:id"} exact={false} component={Idol} />

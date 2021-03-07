@@ -1,14 +1,15 @@
 import React, { Fragment, memo, useState, useMemo, useCallback } from "react";
+import { get } from "lodash";
 import styled from "styled-components";
 import { Link, useLocation } from "react-router-dom";
 
-import { dvdPoints } from "../../helpers/render-color";
+import { priceCurrency } from "../../helpers/render-price";
 import { checkBestIdol } from "../../services/common.service";
+import { getPriceOneNight } from "../../services/earnings.service";
 import IdolAvatar from "./IdolAvatar";
 import IdolCup from "./IdolCup";
 import IdolStyle from "./IdolStyle";
-import DvdPoster from "../Dvds/DvdPoster";
-import DvdDetail from "../Dvds/DvdDetail";
+import IdolPicture from "../../components/Idols/IdolPicture";
 
 import {
   Black,
@@ -16,9 +17,9 @@ import {
   Orange,
   White,
   Yellow,
+  DarkBlue,
   LightBlue,
   Grey,
-  Red,
   LightPurple,
   DarkPurple,
 } from "../../themes/colors";
@@ -32,15 +33,10 @@ const Container = styled.div`
   padding: 10px;
   margin: 20px 0px;
   box-sizing: border-box;
-  background: ${(props) =>
-    props.queen
-      ? `linear-gradient(to right, ${Yellow}, ${Red})`
-      : props.runnerUp
-      ? `linear-gradient(to right, ${LightBlue}, ${Pink})`
-      : `linear-gradient(to right,  ${Orange}, ${Pink})`};
+  background: linear-gradient(to right, ${White}, ${Grey});
 `;
 
-const RankingIdol = styled.div`
+const PositionIdol = styled.div`
   ${center}
   align-self: center;
   width: 50px;
@@ -98,12 +94,12 @@ const IdolInformationContainer = styled.div`
 `;
 
 const NameIdol = styled.div`
-  color: ${Black};
+  color: ${Pink};
   font-size: ${XXLarge};
 `;
 
 const InformationIdol = styled.div`
-  color: ${White};
+  color: ${Black};
 `;
 
 const StylesIdolContainer = styled.div`
@@ -116,8 +112,9 @@ const StyleIdol = styled(IdolStyle)`
   margin-top: 10px;
 `;
 
-const DvdsContainer = styled.div`
-  width: auto;
+const PicturesContainer = styled.div`
+  width: calc(25vw + 50px);
+  min-width: calc(25vw + 50px);
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -125,43 +122,67 @@ const DvdsContainer = styled.div`
   margin-right: 10px;
 `;
 
-const DvdItem = styled.div`
+const PictureBorder = styled.div`
   ${center}
-  flex-direction: column;
-  margin: 5px;
+  padding: 0px;
+  border-radius: 12px;
+  border: solid 5px transparent;
+  overflow: hidden;
   cursor: pointer;
-  transform: translateY(0px);
-  transition: transform 0.3s ease-in-out;
+  transition: border 0.3s ease-in-out;
 
   &:hover {
-    transform: translateY(-10px);
+    border: solid 5px ${Pink};
   }
 `;
 
-const PosterDvd = styled(DvdPoster)`
-  width: 7.5vw;
-  max-width: 7.5vw;
-  height: 5vw;
-  max-height: 5vw;
+const Picture = styled(IdolAvatar)`
+  width: 5vw;
+  min-width: 5vw;
+  height: 7.5vw;
 `;
 
-const CodeDvd = styled.div`
-  margin-top: 5px;
-  font-size: ${Regular};
-  color: ${(props) => (props.uncensored ? Grey : Black)};
+const EarningContainer = styled.div`
+  flex: 1;
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 `;
 
-const Points = styled.div`
-  ${center}
-  width: 90px;
-  min-width: 90px;
-  height: auto;
-  margin: -10px -10px -10px 0px;
-  border-radius: 0px 18px 18px 0px;
-  box-sizing: border-box;
-  background-color: ${White};
-  color: ${(props) => props.color};
-  font-size: ${XXLarge};
+const PriceIdol = styled.div`
+  border: solid 6px ${Grey};
+  padding: 10px 20px;
+  border-radius: 12px;
+  background: linear-gradient(to right, ${LightBlue}, ${DarkBlue});
+  color: ${White};
+  font-size: ${XLarge};
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: ${Black};
+`;
+
+const BonusContainer = styled.div`
+  color: transparent;
+  font-size: ${XLarge};
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: ${Black};
+`;
+
+const BonusIdol = styled(PriceIdol)`
+  border: solid 6px ${(props) => (props.bonus === "true" ? Black : Grey)};
+  background: linear-gradient(to right, ${LightPurple}, ${DarkPurple});
+  color: ${White};
+  margin-top: 10px;
+  font-size: ${XLarge};
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: ${Black};
+`;
+
+const TotalIdol = styled(BonusIdol)`
+  border: solid 6px ${(props) => (props.bonus === "false" ? Black : Grey)};
+  background: linear-gradient(to right, ${Yellow}, ${Orange});
+  color: ${White};
+  font-size: ${XLarge};
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: ${Black};
 `;
@@ -175,12 +196,7 @@ const ViewProfile = styled(Link)`
   overflow: hidden;
   border-radius: 0px 0px 18px 18px;
   box-sizing: border-box;
-  background: ${(props) =>
-    props.queen === "true"
-      ? `linear-gradient(to right, ${Yellow}, ${Red})`
-      : props.runner === "true"
-      ? `linear-gradient(to right, ${LightBlue}, ${Pink})`
-      : `linear-gradient(to right,  ${Orange}, ${Pink})`};
+  background: linear-gradient(to right, ${White}, ${Grey});
   text-decoration: none;
   color: ${Black};
   font-size: ${Regular};
@@ -192,31 +208,37 @@ const ViewProfile = styled(Link)`
   }
 `;
 
-function IdolRanking({ data }) {
+function IdolEarning({ data }) {
   const location = useLocation();
   const [show, setShow] = useState(false);
-  const [dvd, setDvd] = useState(null);
+  const [picture, setPicture] = useState(null);
 
-  const dvds = useMemo(
-    () =>
-      data.dvds
-        .filter((item, index) => index > data.dvds.length - 13)
-        .reverse(),
-    [data.dvds]
-  );
+  const price = useMemo(() => {
+    return getPriceOneNight(data.earnings);
+  }, [data.earnings]);
 
-  const color = useMemo(() => dvdPoints(data.points), [data.points]);
+  const total = useMemo(() => {
+    return data.bonus + data.earnings;
+  }, [data.bonus, data.earnings]);
+
+  const fee = useMemo(() => {
+    return getPriceOneNight(total);
+  }, [total]);
 
   const toggleModal = useCallback(() => {
     setShow(!show);
   }, [show]);
 
-  const handleChangeDvd = useCallback(
+  const handleChangePicture = useCallback((value) => {
+    setPicture(value);
+  }, []);
+
+  const handleModal = useCallback(
     (value) => {
       if (value) {
-        setDvd(value);
+        setPicture(value);
       } else {
-        setDvd(null);
+        setPicture(null);
       }
       toggleModal();
     },
@@ -225,8 +247,8 @@ function IdolRanking({ data }) {
 
   return (
     <Fragment>
-      <Container queen={data.rank === 1} runnerUp={data.rank === 2}>
-        <RankingIdol>{data.rank}</RankingIdol>
+      <Container>
+        <PositionIdol>{data.position}</PositionIdol>
         <div style={{ display: "flex", width: "100%" }}>
           <AvatarContainer>
             {checkBestIdol(data.idIdol) && (
@@ -244,13 +266,7 @@ function IdolRanking({ data }) {
               </BadgeIdol>
             )}
             <AvatarIdol src={data.avatar} />
-            <ViewProfile
-              to={`/idol/${data.idIdol}`}
-              queen={(data.rank === 1).toString()}
-              runner={(data.rank === 2).toString()}
-            >
-              View
-            </ViewProfile>
+            <ViewProfile to={`/idol/${data.idIdol}`}>View</ViewProfile>
           </AvatarContainer>
           <IdolInformationContainer>
             <NameIdol>
@@ -270,24 +286,51 @@ function IdolRanking({ data }) {
               ))}
             </StylesIdolContainer>
           </IdolInformationContainer>
-          <DvdsContainer>
-            {dvds.map((item) => (
-              <DvdItem key={item.idDvd} onClick={() => handleChangeDvd(item)}>
-                <PosterDvd src={item.poster} />
-                <CodeDvd uncensored={item.type === "Uncensored"}>
-                  {item.code}
-                </CodeDvd>
-              </DvdItem>
+          <PicturesContainer>
+            {data.album.map((item) => (
+              <PictureBorder key={item.picture}>
+                <Picture
+                  src={item.picture}
+                  onClick={() => handleModal(item.picture)}
+                  alt={""}
+                />
+              </PictureBorder>
             ))}
-          </DvdsContainer>
+          </PicturesContainer>
+          <EarningContainer>
+            <PriceIdol>
+              ${priceCurrency(data.earnings)} ({priceCurrency(price)})
+            </PriceIdol>
+            {!!data.bonus && (
+              <BonusContainer>
+                +
+                <BonusIdol
+                  bonus={get(location.state, "bonus", false).toString()}
+                >
+                  ${priceCurrency(data.bonus)}
+                </BonusIdol>
+                =
+                <TotalIdol
+                  bonus={get(location.state, "bonus", false).toString()}
+                >
+                  ${priceCurrency(total)} ({priceCurrency(fee)})
+                </TotalIdol>
+              </BonusContainer>
+            )}
+          </EarningContainer>
         </div>
-        <Points color={color}>{data.points}p</Points>
       </Container>
-      <DvdDetail show={show} toggleModal={toggleModal} data={dvd} />
+      <IdolPicture
+        show={show}
+        toggleModal={toggleModal}
+        listData={data.album.map((item) => item.picture)}
+        data={picture}
+        setData={handleChangePicture}
+      />
     </Fragment>
   );
 }
 
-const MemoIdolRanking = memo(IdolRanking);
+const MemoIdolEarning = memo(IdolEarning);
 
-export default MemoIdolRanking;
+export default MemoIdolEarning;
