@@ -1,7 +1,7 @@
 import * as tsubaki_sannomiya from "../images/tsubaki-sannomiya";
 import * as karen_kaede from "../images/karen-kaede";
 import * as saeko_matsushita from "../images/saeko-matsushita";
-import * as jun_aizawa from "../images/jun-aizawa";
+// import * as jun_aizawa from "../images/jun-aizawa";
 
 const File4 = [
   {
@@ -208,7 +208,7 @@ const File4 = [
   },
   {
     idIdol: "jai189",
-    avatar: "",
+    avatar: saeko_matsushita.saeko_matsushita_10,
     name: "Saeko Matsushita",
     other: "",
     born: "30/09/1990",
@@ -220,13 +220,41 @@ const File4 = [
     styles: [{ tag: "Retired" }, { tag: "Beautiful Breasts" }],
     album: [
       {
-        picture: "",
+        picture: saeko_matsushita.saeko_matsushita_1,
+      },
+      {
+        picture: saeko_matsushita.saeko_matsushita_2,
+      },
+      {
+        picture: saeko_matsushita.saeko_matsushita_3,
+      },
+      {
+        picture: saeko_matsushita.saeko_matsushita_4,
+      },
+      {
+        picture: saeko_matsushita.saeko_matsushita_5,
+      },
+      {
+        picture: saeko_matsushita.saeko_matsushita_6,
+      },
+      {
+        picture: saeko_matsushita.saeko_matsushita_7,
+      },
+      {
+        picture: saeko_matsushita.saeko_matsushita_8,
+      },
+      {
+        picture: saeko_matsushita.saeko_matsushita_9,
+      },
+      {
+        picture: saeko_matsushita.saeko_matsushita_11,
       },
     ],
   },
   {
     idIdol: "jai190",
-    avatar: "",
+    avatar:
+      "https://www.japanesebeauties.net/japanese/miri-mizuki/3/miri-mizuki-10.jpg",
     name: "Miri Mizuki",
     other: "Sumire Mizukawa",
     born: "03/02/1995",
@@ -238,7 +266,44 @@ const File4 = [
     styles: [{ tag: "Cute" }, { tag: "Slender" }],
     album: [
       {
-        picture: "",
+        picture:
+          "https://www.japanesebeauties.net/japanese/miri-mizuki/5/miri-mizuki-11.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/japanese/miri-mizuki/9/miri-mizuki-2.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/japanese/miri-mizuki/7/miri-mizuki-12.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/japanese/miri-mizuki/7/miri-mizuki-2.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/japanese/miri-mizuki/2/miri-mizuki-3.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/japanese/miri-mizuki/2/miri-mizuki-7.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/japanese/miri-mizuki/8/miri-mizuki-2.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/japanese/miri-mizuki/4/miri-mizuki-8.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/japanese/miri-mizuki/4/miri-mizuki-11.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/japanese/miri-mizuki/5/miri-mizuki-3.jpg",
       },
     ],
   },
