@@ -344,6 +344,10 @@ import CCDV10 from "./CCDV-10.jpg";
 import MXX16 from "./MXX-16.jpg";
 import CCDV31 from "./CCDV-31.jpg";
 import MXX45 from "./MXX-45.jpg";
+import SSDV54 from "./SSDV-54.jpg";
+import SSDV64 from "./SSDV-64.jpg";
+import MMDV86 from "./MMDV-86.jpg";
+import MMDV89 from "./MMDV-89.jpg";
 
 export {
   CWP49,
@@ -692,4 +696,8 @@ export {
   MXX16,
   CCDV31,
   MXX45,
+  SSDV54,
+  SSDV64,
+  MMDV86,
+  MMDV89,
 };
