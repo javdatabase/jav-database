@@ -183,7 +183,10 @@ const File36 = [
     title: `CA ON THE WAY BACK FROM THE FLIGHT IS DYING FOR JI PO ! ! ! VISITED THE HOME OF AN ACTIVE CABIN ATTENDANT . CONTINUE TO BE OVERTAKEN BY THE BITCH CA AND DEPLETE KI * TAMA ! ! !`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/118sim096/118sim096pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai146", name: "Harua Narumiya" }],
+    idols: [
+      { idIdol: "jai146", name: "Harua Narumiya" },
+      { idIdol: "jai190", name: "Miri Mizuki" },
+    ],
   },
   {
     code: "MDTM-666",
@@ -280,6 +283,7 @@ const File36 = [
     idols: [
       { idIdol: "jai163", name: "Mana Minami" },
       { idIdol: "jai185", name: "Nene Tanaka" },
+      { idIdol: "jai190", name: "Miri Mizuki" },
     ],
   },
   {

@@ -339,6 +339,9 @@ import CCDV88 from "./CCDV-88.jpg";
 import GHMT42 from "./GHMT-42.jpg";
 import GHMT44 from "./GHMT-44.jpg";
 import DHRY11 from "./DHRY-11.jpg";
+import LLDV05 from "./LLDV-05.jpg";
+import CCDV10 from "./CCDV-10.jpg";
+import MXX16 from './MXX-16.jpg'
 
 export {
   CWP49,
@@ -682,4 +685,6 @@ export {
   GHMT42,
   GHMT44,
   DHRY11,
+  LLDV05,
+  CCDV10,MXX16
 };

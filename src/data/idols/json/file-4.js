@@ -1,7 +1,6 @@
 import * as tsubaki_sannomiya from "../images/tsubaki-sannomiya";
 import * as karen_kaede from "../images/karen-kaede";
 import * as saeko_matsushita from "../images/saeko-matsushita";
-// import * as jun_aizawa from "../images/jun-aizawa";
 
 const File4 = [
   {
@@ -256,7 +255,7 @@ const File4 = [
     avatar:
       "https://www.japanesebeauties.net/japanese/miri-mizuki/3/miri-mizuki-10.jpg",
     name: "Miri Mizuki",
-    other: "Sumire Mizukawa",
+    other: "Emiri Momota",
     born: "03/02/1995",
     height: "155 cm",
     breast: "83 cm",
@@ -309,7 +308,8 @@ const File4 = [
   },
   {
     idIdol: "jai191",
-    avatar: "",
+    avatar:
+      "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/22000/22566/large/wapdb-jun-aizawa-pornostar-asiatique.warashi-asian-pornstars.fr-22566-002.jpg",
     name: "Jun Aizawa",
     other: "",
     born: "17/11/1994",
@@ -326,7 +326,16 @@ const File4 = [
     ],
     album: [
       {
-        picture: "",
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/22000/22566/large/wapdb-jun-aizawa-pornostar-asiatique.warashi-asian-pornstars.fr-22566-003.jpg",
+      },
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/22000/22566/large/wapdb-jun-aizawa-pornostar-asiatique.warashi-asian-pornstars.fr-22566-004.jpg",
+      },
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/22000/22565/large/wapdb-jun-aizawa-pornostar-asiatique.warashi-asian-pornstars.fr-22565-001.jpg",
       },
     ],
   },

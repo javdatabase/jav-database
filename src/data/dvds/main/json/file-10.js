@@ -2946,7 +2946,10 @@ const File10 = [
     title: `LIFTING BANNED LIFTING ! ! 04`,
     poster: `http://pics.dmm.co.jp/mono/movie/adult/h_479gne212/h_479gne212pl.jpg`,
     type: `Censored`,
-    idols: [{ idIdol: `jai072`, name: "Maria Aine" }],
+    idols: [
+      { idIdol: `jai072`, name: "Maria Aine" },
+      { idIdol: "jai190", name: "Miri Mizuki" },
+    ],
   },
   {
     code: `GNE-207`,
@@ -2956,6 +2959,7 @@ const File10 = [
     idols: [
       { idIdol: `jai071`, name: "Mion Sonoda" },
       { idIdol: `jai072`, name: "Maria Aine" },
+      { idIdol: "jai190", name: "Miri Mizuki" },
     ],
   },
   {

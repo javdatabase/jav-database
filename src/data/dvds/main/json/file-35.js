@@ -1128,6 +1128,7 @@ const File35 = [
       { idIdol: "jai021", name: "Aki Sasaki" },
       { idIdol: "jai049", name: "Hikari Anzai" },
       { idIdol: "jai184", name: "Yurara Sasamoto" },
+      { idIdol: "jai190", name: "Miri Mizuki" },
     ],
   },
   {
@@ -2188,7 +2189,10 @@ const File35 = [
     poster:
       "http://pics.dmm.co.jp/mono/movie/adult/118docp244/118docp244pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai172", name: "Maron Natsuki" }],
+    idols: [
+      { idIdol: "jai172", name: "Maron Natsuki" },
+      { idIdol: "jai190", name: "Miri Mizuki" },
+    ],
   },
   {
     code: "SVDVD-815",

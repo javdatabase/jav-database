@@ -1163,7 +1163,10 @@ const File38 = [
     title: `" EH , YOU'RE TEMPTED ! ? " THE TEMPTATION OF A BIG-BREASTED BROTHER-IN-LAW IS NOT ODD ! I CAN'T TELL MY BIG BROTHER W I'VE BEEN KNOCKED DOWN BY MY BROTHER'S WIFE ...`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/118sim099/118sim099pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai146", name: "Harua Narumiya" }],
+    idols: [
+      { idIdol: "jai146", name: "Harua Narumiya" },
+      { idIdol: "jai190", name: "Miri Mizuki" },
+    ],
   },
   {
     code: "HONB-195",
