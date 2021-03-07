@@ -177,7 +177,7 @@ function Navbar({ show, toggleMenu }) {
           <ImageLogo src={DvdsIcon} alt={""} />
           <CompanyName>JAV Database Official</CompanyName>
         </LogoContainer>
-        <ButtonContainer>
+        <ButtonContainer style={{ marginBottom: "5px" }}>
           <ButtonBest to={"/best-idols"} onClick={toggleMenu}>
             <span style={{ fontSize: Large }}>☿</span> Best Idols{" "}
             <span style={{ fontSize: Large }}>☿</span>

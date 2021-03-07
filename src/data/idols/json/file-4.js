@@ -1,4 +1,7 @@
 import * as tsubaki_sannomiya from "../images/tsubaki-sannomiya";
+import * as karen_kaede from "../images/karen-kaede";
+import * as saeko_matsushita from "../images/saeko-matsushita";
+import * as jun_aizawa from "../images/jun-aizawa";
 
 const File4 = [
   {
@@ -155,6 +158,110 @@ const File4 = [
       },
       {
         picture: tsubaki_sannomiya.tsubaki_sannomiya_8,
+      },
+    ],
+  },
+  {
+    idIdol: "jai188",
+    avatar: karen_kaede.karen_kaede_5,
+    name: "Karen Kaede",
+    other: "",
+    born: "25/08/1999",
+    height: "162 cm",
+    breast: "82 cm",
+    cup: "D-Cup",
+    waist: "59 cm",
+    hips: "81 cm",
+    styles: [{ tag: "Cute" }],
+    album: [
+      {
+        picture: karen_kaede.karen_kaede_1,
+      },
+      {
+        picture: karen_kaede.karen_kaede_2,
+      },
+      {
+        picture: karen_kaede.karen_kaede_3,
+      },
+      {
+        picture: karen_kaede.karen_kaede_4,
+      },
+      {
+        picture: karen_kaede.karen_kaede_8,
+      },
+      {
+        picture: karen_kaede.karen_kaede_6,
+      },
+      {
+        picture: karen_kaede.karen_kaede_7,
+      },
+      {
+        picture: karen_kaede.karen_kaede_9,
+      },
+      {
+        picture: karen_kaede.karen_kaede_10,
+      },
+      {
+        picture: karen_kaede.karen_kaede_11,
+      },
+    ],
+  },
+  {
+    idIdol: "jai189",
+    avatar: "",
+    name: "Saeko Matsushita",
+    other: "",
+    born: "30/09/1990",
+    height: "165 cm",
+    breast: "88 cm",
+    cup: "F-Cup",
+    waist: "57 cm",
+    hips: "86 cm",
+    styles: [{ tag: "Retired" }, { tag: "Beautiful Breasts" }],
+    album: [
+      {
+        picture: "",
+      },
+    ],
+  },
+  {
+    idIdol: "jai190",
+    avatar: "",
+    name: "Miri Mizuki",
+    other: "Sumire Mizukawa",
+    born: "03/02/1995",
+    height: "155 cm",
+    breast: "83 cm",
+    cup: "D-Cup",
+    waist: "58 cm",
+    hips: "88 cm",
+    styles: [{ tag: "Cute" }, { tag: "Slender" }],
+    album: [
+      {
+        picture: "",
+      },
+    ],
+  },
+  {
+    idIdol: "jai191",
+    avatar: "",
+    name: "Jun Aizawa",
+    other: "",
+    born: "17/11/1994",
+    height: "154 cm",
+    breast: "84 cm",
+    cup: "D-Cup",
+    waist: "59 cm",
+    hips: "83 cm",
+    styles: [
+      { tag: "Retired" },
+      { tag: "Cute" },
+      { tag: "Beautiful Breasts" },
+      { tag: "Slender" },
+    ],
+    album: [
+      {
+        picture: "",
       },
     ],
   },

@@ -84,6 +84,8 @@ const BEST_DVD_IDS = [
   "jai187",
   "jai188",
   "jai189",
+  "jai190",
+  "jai191",
 ];
 const BEST_IDOL_IDS = [
   "jai001",
@@ -111,6 +113,8 @@ const BEST_IDOL_IDS = [
   "jai187",
   "jai188",
   "jai189",
+  "jai190",
+  "jai191",
 ];
 const SWEET_NIGHT_IDS = [
   "jai001",
@@ -142,6 +146,8 @@ const TOP_POINT_GROWTH_IDS = [
   "jai185",
   "jai188",
   "jai189",
+  "jai190",
+  "jai191",
 ];
 const TOP_IDOL_IDS = [
   "jai062",
@@ -187,8 +193,10 @@ const HAS_DVD_IDS = [
   "jai187",
   "jai188",
   "jai189",
+  "jai190",
+  "jai191",
 ];
-const NEWBIE_IDS = ["jai188", "jai189"];
+const NEWBIE_IDS = ["jai188", "jai189", "jai190", "jai191"];
 
 function getBonusEarnings(id) {
   let bonus = 0;
