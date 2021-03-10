@@ -1,12 +1,5 @@
 const File1 = [
   {
-    code: "STARS-342",
-    title: `A STORY ABOUT ONE AFFAIR BEING CAUGHT ... IORI FURUKAWA , WHO WAS SO IMPATIENT THAT HER HUSBAND WHO WENT OUT OF CONTROL WITH JEALOUSY SEEMED TO GO CRAZY , AND CONTINUED TO BE SQUID WITH MAN JUICE MANY TIMES`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/1stars342/1stars342pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai059", name: "Iori Kogawa" }],
-  },
-  {
     code: "MIDE-896",
     title: `MOIST WHISPERING REJUVENATION BEAUTY TREATMENT SALON THAT WILL GIVE YOU A NUI EVEN IF YOU EJACULATE ONCE RIKKA ONO`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/mide896/mide896pl.jpg",
@@ -120,13 +113,6 @@ const File1 = [
     poster: "http://pics.dmm.co.jp/mono/movie/adult/mide905/mide905pl.jpg",
     type: "Censored",
     idols: [{ idIdol: "jai158", name: "Nao Jinguji" }],
-  },
-  {
-    code: "STARS-342",
-    title: `A STORY ABOUT ONE AFFAIR BEING CAUGHT ... IORI FURUKAWA , WHO WAS SO IMPATIENT THAT HER HUSBAND WHO WENT OUT OF CONTROL WITH JEALOUSY SEEMED TO GO CRAZY , AND CONTINUED TO BE SQUID WITH MAN JUICE MANY TIMES`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/1stars342/1stars342pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai059", name: "Iori Kogawa" }],
   },
   {
     code: "STARS-343",

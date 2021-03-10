@@ -2453,6 +2453,20 @@ const File39 = [
     type: "Censored",
     idols: [{ idIdol: "jai015", name: "Mao Kurata" }],
   },
+  {
+    code: "STARS-342",
+    title: `A STORY ABOUT ONE AFFAIR BEING CAUGHT ... IORI FURUKAWA , WHO WAS SO IMPATIENT THAT HER HUSBAND WHO WENT OUT OF CONTROL WITH JEALOUSY SEEMED TO GO CRAZY , AND CONTINUED TO BE SQUID WITH MAN JUICE MANY TIMES`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/1stars342/1stars342pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai059", name: "Iori Kogawa" }],
+  },
+  {
+    code: "MSFH-052",
+    title: `THE NIGHT WHEN I WAS TOSSED BY THE UNCONSCIOUS TEMPTATION OF A JUNIOR OFFICE LADY ... KONOMI YOSHINAGA WHO WAS BEGGED MANY TIMES DURING LATE NIGHT OVERTIME AND SPEARED UNTIL SPERM DIED`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/1msfh052/1msfh052pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai175", name: "Konomi Yoshinaga" }],
+  },
 ];
 
 export default File39;
