@@ -57,7 +57,7 @@ function getPriceOneNight(earnings) {
   return Math.ceil(earnings / 10);
 }
 
-const STAR_IDOL_ID = "";
+const STAR_IDOL_ID = "jai002";
 const BEST_DVD_IDS = [
   "jai002",
   "jai015",
