@@ -57,97 +57,21 @@ function getPriceOneNight(earnings) {
   return Math.ceil(earnings / 10);
 }
 
-const STAR_IDOL_ID = "jai002";
-const BEST_DVD_IDS = [
-  "jai002",
-  "jai015",
-  "jai048",
-  "jai054",
-  "jai065",
-  "jai070",
-  "jai072",
-  "jai113",
-  "jai117",
-  "jai131",
-  "jai133",
-  "jai139",
-  "jai151",
-  "jai165",
-  "jai176",
-  "jai181",
-];
-const BEST_IDOL_IDS = [
-  "jai002",
-  "jai015",
-  "jai048",
-  "jai054",
-  "jai065",
-  "jai070",
-  "jai072",
-  "jai113",
-  "jai117",
-  "jai131",
-  "jai133",
-  "jai139",
-  "jai151",
-  "jai165",
-  "jai176",
-  "jai181",
-];
+const STAR_IDOL_ID = "";
+const BEST_DVD_IDS = ["jai011", "jai067", "jai075", "jai165"];
+const BEST_IDOL_IDS = ["jai011", "jai067", "jai075", "jai165"];
 const SWEET_NIGHT_IDS = [
-  "jai002",
-  "jai002",
-  "jai002",
-  "jai002",
-  "jai002",
-  "jai002",
-  "jai002",
-  "jai002",
-  "jai002",
-  "jai031",
-  "jai065",
-  "jai065",
-  "jai070",
-  "jai070",
-  "jai117",
-  "jai117",
-];
-const TOP_POINT_GROWTH_IDS = ["jai148"];
-const TOP_IDOL_IDS = [
-  "jai062",
-  "jai069",
-  "jai070",
-  "jai073",
-  "jai151",
-  "jai158",
+  "jai011",
+  "jai067",
+  "jai067",
+  "jai075",
+  "jai075",
+  "jai075",
   "jai165",
-  "jai172",
-  "jai187",
-  "jai188",
 ];
-const HAS_DVD_IDS = [
-  "jai002",
-  "jai015",
-  "jai031",
-  "jai048",
-  "jai054",
-  "jai056",
-  "jai065",
-  "jai070",
-  "jai072",
-  "jai113",
-  "jai117",
-  "jai131",
-  "jai133",
-  "jai139",
-  "jai145",
-  "jai148",
-  "jai151",
-  "jai165",
-  "jai176",
-  "jai181",
-  "jai185",
-];
+const TOP_POINT_GROWTH_IDS = [];
+const TOP_IDOL_IDS = [];
+const HAS_DVD_IDS = ["jai011", "jai067", "jai075", "jai165"];
 const NEWBIE_IDS = [];
 
 function getBonusEarnings(id) {
