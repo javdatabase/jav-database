@@ -2795,13 +2795,6 @@ const File39 = [
     type: "Censored",
     idols: [{ idIdol: "jai007", name: "Mao Hamasaki" }],
   },
-  {
-    code: "MSFH-056",
-    title: `" THAT BODY , LET ME SPEAR AS MUCH AS YOU WANT . " KONOMI YOSHINAGA , A GREEDY MAN AND A WOMAN SPRINKLE WITH INSTINCT`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/1msfh056/1msfh056pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai175", name: "Konomi Yoshinaga" }],
-  },
 ];
 
 export default File39;
