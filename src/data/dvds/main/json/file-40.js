@@ -1,12 +1,5 @@
 const File40 = [
   {
-    code: "SORA-304",
-    title: `[ J-CUP X SHAVED ] EVEN THOUGH SHE IS A MOTHER OF 3 AND 5 YEARS OLD , SHE LIKES EXPOSURE . AUNT EXPOSED SUKEHEI RENTAL YOUNG CHI ● VULGAR WIFE ARISA HANYU WHO RENTS A POPPET FOR 900 YEN PER HOUR`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/sora304/sora304pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai054", name: "Arisa Hanyu" }],
-  },
-  {
     code: "BF-629",
     title: `NEXT SISTER'S TEMPTATION SLUT CREAMPIE COWGIRL SPERM SQUEEZING PRESS RIHO FUJIMORI`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/bf629/bf629pl.jpg",
@@ -89,6 +82,48 @@ const File40 = [
     poster: "http://pics.dmm.co.jp/mono/movie/adult/nkkd202/nkkd202pl.jpg",
     type: "Censored",
     idols: [{ idIdol: "jai144", name: "Kanna Misaki" }],
+  },
+  {
+    code: "MEYD-668",
+    title: `THE WIFE OF THE FEMALE TEACHER NTR GRADE CHIEF WENT TO PREVIEW THE SCHOOL TRIP WITH THE VICE-PRINCIPAL TEACHER ... JULIA`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/meyd668/meyd668pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai041", name: "Julia" }],
+  },
+  {
+    code: "MKMP-391",
+    title: `I WANT TO SPEND THE NIGHT AND CONTINUE TO HAVE SEX WITH KAHO IMAI UNTIL THE MORNING SUN RISES`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/mkmp391so/mkmp391sopl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai179", name: "Kaho Imai" }],
+  },
+  {
+    code: "MKMP-393",
+    title: `MY YOUNGER BROTHER WITHDRAWAL KEEPS VAGINAL CUM SHOT EVERY DAY AT HOME . HAMAZAKI MAO`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/mkmp393so/mkmp393sopl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai007", name: "Mao Hamasaki" }],
+  },
+  {
+    code: "UMD-774",
+    title: `THIS WOMAN CONVINCED CRIMINAL ! ! ! REGULAR CUSTOMERS BEGGING FOR IMMEDIATE ENTRY ! ! ! SUDDEN OIL MASSAGE`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/125umd774/125umd774pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai057", name: "Yumi Maeda" }],
+  },
+  {
+    code: "SW-767",
+    title: `LIVING TOGETHER WITH MY SISTER-IN-LAW AND A DREAM ! MY FATHER'S REMARRIAGE PARTNER'S STEPCHILDREN ARE RIDICULOUS LITTLE DEVILS , SHOWING OFF MINISKIRT PANCHIRA AND CHANGING CLOTHES AND WAITING FOR US TO ATTACK`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/1sw767/1sw767pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai148", name: "Nozomi Arimura" }],
+  },
+  {
+    code: "CESD-991",
+    title: `KANA MORISAWA TRIED TO SHOOT ONLY WHAT SHE WANTED TO DO KANA MORISAWA`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/cesd991/cesd991pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai016", name: "Kanako Iioka" }],
   },
 ];
 
