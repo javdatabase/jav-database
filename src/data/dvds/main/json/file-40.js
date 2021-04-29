@@ -432,6 +432,49 @@ const File40 = [
     type: "Censored",
     idols: [{ idIdol: "jai014", name: "Rika Mari" }],
   },
+  {
+    code: "FLAV-266",
+    title: `HYPER FETISH HIGHLEG NASTY QUEEN KAHO IMAI`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/flav266so/flav266sopl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai179", name: "Kaho Imai" }],
+  },
+  {
+    code: "NSPS-986",
+    title: `DO YOU BELIEVE IN YOUR WIFE ? THE CUCKOLD VERIFICATION SATOMI SUZUKI`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/nsps986so/nsps986sopl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai147", name: "Satomi Suzuki" }],
+  },
+  {
+    code: "NSPS-988",
+    title: `CUCKOLD VERIFICATION I MADE AN ACQUAINTANCE PERSUADE MY WIFE , AS A RESULT ... THE BEST`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/nsps988so/nsps988sopl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai056", name: "Rui Hiduki" }],
+  },
+  {
+    code: "JUKF-060",
+    title: `MY PARENTS TOLD ME THAT I WENT TO SCHOOL AND WENT TO TOKYO AND STARTED WORKING ON A MATCHING APP LIKE A PART-TIME JOB . [ DADDY ACTIVITY ] FEMALE COLLEGE STUDENT MAO HAMASAKI`,
+    poster:
+      "http://pics.dmm.co.jp/mono/movie/adult/h_227jukf060/h_227jukf060pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai007", name: "Mao Hamasaki" }],
+  },
+  {
+    code: "APAE-068",
+    title: `NENE TANAKA , 260 MINUTES OF ROLLING UP !`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/apae068so/apae068sopl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai185", name: "Nene Tanaka" }],
+  },
+  {
+    code: "AVSA-164",
+    title: `SUPER FISHEYE FETISHISM NEW FEELING TRANCE EROTIC AV EMOTIONAL BUTT FEMALE MEAT ASS KANA MORISAWA`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/avsa164/avsa164pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai016", name: "Kanako Iioka" },],
+  },
 ];
 
 export default File40;

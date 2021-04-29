@@ -90,6 +90,20 @@ const File1 = [
     type: "Censored",
     idols: [{ idIdol: "jai158", name: "Nao Jinguji" }],
   },
+  {
+    code: "GVH-234",
+    title: `DIRTY LITTLE BODY'S BRILLIANT FEMALE PRESIDENT AND H SON YUI HATANO`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/13gvh234/13gvh234pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai001", name: "Yui Hatano" }],
+  },
+  {
+    code: "NGOD-147",
+    title: `CONVENIENCE STORE HEADQUARTERS WOMAN 5 YUI HATANO`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/ngod147/ngod147pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai001", name: "Yui Hatano" }],
+  },
 ];
 
 export default File1;
