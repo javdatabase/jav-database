@@ -438,7 +438,10 @@ const File39 = [
     title: `MY DAD'S FUCKING YOUNG REMARRIAGE PARTNER IS A CONVENIENT TADAMAN SON JI PO AND A BITCH MOTHER-IN-LAW WHO SPREES ALL THE TIME`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/118sim109/118sim109pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai172", name: "Maron Natsuki" }],
+    idols: [
+      { idIdol: "jai172", name: "Maron Natsuki" },
+      { idIdol: "jai177", name: "Momoka Tachibana" },
+    ],
   },
   {
     code: "HUNBL-034",

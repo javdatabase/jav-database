@@ -1980,7 +1980,7 @@ const File2 = [
     cup: "I-Cup",
     waist: "60 cm",
     hips: "88 cm",
-    styles: [{ tag: "Killer Tits" }, { tag: "Slender" }],
+    styles: [{ tag: "Retired" }, { tag: "Killer Tits" }, { tag: "Slender" }],
     album: [
       {
         picture:

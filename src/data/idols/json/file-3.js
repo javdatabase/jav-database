@@ -535,7 +535,11 @@ const File3 = [
     cup: "G-Cup",
     waist: "58 cm",
     hips: "90 cm",
-    styles: [{ tag: "Beautiful Breasts" }, { tag: "Long Legs" }],
+    styles: [
+      { tag: "Retired" },
+      { tag: "Beautiful Breasts" },
+      { tag: "Long Legs" },
+    ],
     album: [
       {
         picture:
@@ -2780,6 +2784,7 @@ const File3 = [
     waist: "59 cm",
     hips: "90 cm",
     styles: [
+      { tag: "Retired" },
       { tag: "6 Stars JAV" },
       { tag: "Cute" },
       { tag: "Beautiful Breasts" },
