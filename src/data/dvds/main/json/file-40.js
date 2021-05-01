@@ -926,8 +926,7 @@ const File40 = [
   {
     code: "SIV-030",
     title: `SHIROUT TV × PRESTIGE FEMALE COLLEGE SELECTION SELECTION 01`,
-    poster:
-      "http://pics.dmm.co.jp/mono/movie/adult/h_244saba287/h_244saba287pl.jpg",
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/118siv030/118siv030pl.jpg",
     type: "Censored",
     idols: [{ idIdol: "jai155", name: "Reira Kitagawa" }],
   },
