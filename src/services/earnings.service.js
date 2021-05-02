@@ -93,7 +93,7 @@ const BEST_IDOL_IDS = [
   "jai187",
   "jai190",
 ];
-const SWEET_NIGHT_IDS = ["jai057"];
+const SWEET_NIGHT_IDS = ["jai057", "jai170", "jai170"];
 const TOP_POINT_GROWTH_IDS = [
   "jai016",
   "jai054",
