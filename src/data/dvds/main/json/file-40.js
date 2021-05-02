@@ -981,6 +981,34 @@ const File40 = [
     type: "Censored",
     idols: [{ idIdol: "jai184", name: "Yurara Sasamoto" }],
   },
+  {
+    code: "SSIS-057",
+    title: `PANTYHOSE MANIA TSUBAKI SANNOMIYA , AN EXQUISITE OFFICE LADY WHO HAS BEEN COMMITTED BY MIDDLE-AGED MEN MANY TIMES`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/ssis057/ssis057pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai187", name: "Tsubaki Sannomiya" }],
+  },
+  {
+    code: "SSIS-058",
+    title: `SHARED ROOM NTR MIDDLE-AGED SEXUAL HARASSMENT BOSS AND NEW EMPLOYEE WHO HATE HATE FROM MORNING TILL NIGHT , NIGHT OF BUSINESS TRIP DESTINATION WHERE AFFAIR SEX WAS DEVOTED RIRI NANATSUMORI`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/ssis058/ssis058pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai170", name: "Riri Nanatsumori" }],
+  },
+  {
+    code: "SSIS-059",
+    title: `HIGHEST GRADE J-CUP AKA ASUKA'HOSPITABLE FULL COURSE OF GOD MILK CUSTOMS LAND`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/ssis059/ssis059pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai171", name: "Aka Asuka" }],
+  },
+  {
+    code: "ADN-318",
+    title: `I WORK OVERTIME WITH MY MARRIED WOMAN'S SUBORDINATES EVERY DAY AT MIDNIGHT`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/adn318/adn318pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai153", name: "Hikari Ninomiya" }],
+  },
 ];
 
 export default File40;
