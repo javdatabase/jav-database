@@ -93,7 +93,14 @@ const BEST_IDOL_IDS = [
   "jai176",
   "jai188",
 ];
-const SWEET_NIGHT_IDS = [];
+const SWEET_NIGHT_IDS = [
+  "jai001",
+  "jai057",
+  "jai057",
+  "jai078",
+  "jai078",
+  "jai151",
+];
 const TOP_POINT_GROWTH_IDS = ["jai048", "jai057", "jai176"];
 const TOP_IDOL_IDS = [
   "jai062",
@@ -133,31 +140,31 @@ function getBonusEarnings(id) {
   let bonus = 0;
 
   if (STAR_IDOL_ID === id) {
-    bonus = bonus + 100000000;
+    bonus = bonus + 1000000000;
   }
   if (BEST_DVD_IDS.includes(id)) {
-    bonus = bonus + 12000000;
+    bonus = bonus + 120000000;
   }
   if (BEST_IDOL_IDS.includes(id)) {
-    bonus = bonus + 6000000;
+    bonus = bonus + 60000000;
   }
   if (SWEET_NIGHT_IDS.includes(id)) {
     bonus =
       bonus +
-      10000000 *
+      100000000 *
         SWEET_NIGHT_IDS.reduce((acc, val) => (val === id ? acc + 1 : acc), 0);
   }
   if (TOP_POINT_GROWTH_IDS.includes(id)) {
-    bonus = bonus + 1800000;
+    bonus = bonus + 18000000;
   }
   if (TOP_IDOL_IDS.includes(id)) {
-    bonus = bonus + 800000;
+    bonus = bonus + 8000000;
   }
   if (HAS_DVD_IDS.includes(id)) {
-    bonus = bonus + 500000;
+    bonus = bonus + 5000000;
   }
   if (NEWBIE_IDS.includes(id)) {
-    bonus = bonus + 120000;
+    bonus = bonus + 1200000;
   }
 
   return bonus;
