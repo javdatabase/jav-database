@@ -1187,6 +1187,13 @@ const File40 = [
     type: "Uncensored",
     idols: [{ idIdol: "jai086", name: "Mika Sumire" }],
   },
+  {
+    code: "MIDE-922",
+    title: `CELEBRATION / DEBUT 1ST ANNIVERSARY BEGINNING WITH A KISS AND MASTERING A KISS RIKATAN BIG GROWTH 4SEX RIKKA ONO`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/mide922/mide922pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai166", name: "Rikka Ono" }],
+  },
 ];
 
 export default File40;

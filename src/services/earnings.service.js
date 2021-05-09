@@ -57,7 +57,7 @@ function getPriceOneNight(earnings) {
   return Math.ceil(earnings / 8);
 }
 
-const STAR_IDOL_ID = "";
+const STAR_IDOL_ID = "jai057";
 const BEST_DVD_IDS = [
   "jai001",
   "jai011",
@@ -70,6 +70,7 @@ const BEST_DVD_IDS = [
   "jai078",
   "jai086",
   "jai151",
+  "jai166",
   "jai188",
 ];
 const BEST_IDOL_IDS = [
@@ -89,17 +90,22 @@ const BEST_IDOL_IDS = [
   "jai151",
   "jai157",
   "jai158",
+  "jai166",
   "jai172",
   "jai176",
   "jai188",
 ];
 const SWEET_NIGHT_IDS = [
   "jai001",
+  "jai038",
   "jai057",
   "jai057",
+  "jai057",
+  "jai073",
   "jai078",
   "jai078",
   "jai151",
+  "jai166",
 ];
 const TOP_POINT_GROWTH_IDS = ["jai048", "jai057", "jai176"];
 const TOP_IDOL_IDS = [
@@ -129,6 +135,7 @@ const HAS_DVD_IDS = [
   "jai151",
   "jai157",
   "jai158",
+  "jai166",
   "jai172",
   "jai176",
   "jai185",
