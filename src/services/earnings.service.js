@@ -1,47 +1,94 @@
-function getEarningIdol(rank, points, styles, uncensored, best) {
-  const rankEarnings = Math.ceil(300000000 / rank);
+import {
+  MonthEarnings,
+  OneNightRatio,
+  WeekEarnings,
+} from "../helpers/earning-values";
 
-  let pointEarnings = 200000 * points;
+const STAR_IDOL_ID = "";
+const BEST_DVD_IDS = [
+  "jai057",
+  "jai069",
+  "jai070",
+  "jai133",
+  "jai146",
+  "jai154",
+];
+const BEST_IDOL_IDS = [
+  "jai016",
+  "jai021",
+  "jai034",
+  "jai054",
+  "jai057",
+  "jai059",
+  "jai069",
+  "jai070",
+  "jai133",
+  "jai146",
+  "jai154",
+];
+const SWEET_NIGHT_IDS = [];
+const TOP_POINT_GROWTH_IDS = ["jai054", "jai057", "jai146", "jai185"];
+const TOP_IDOL_IDS = [];
+const HAS_DVD_IDS = [
+  "jai016",
+  "jai021",
+  "jai034",
+  "jai054",
+  "jai057",
+  "jai059",
+  "jai069",
+  "jai070",
+  "jai133",
+  "jai146",
+  "jai154",
+  "jai185",
+];
+const NEWBIE_IDS = [];
+
+function getEarningIdol(rank, points, styles, uncensored, best) {
+  const rankEarnings = Math.ceil(MonthEarnings.ranking / rank);
+
+  let pointEarnings = MonthEarnings.censoredDvds * points;
   if (points >= 1000) {
-    pointEarnings = pointEarnings + 10000000;
+    pointEarnings = pointEarnings + MonthEarnings.point1000;
   } else if (points < 1000 && points >= 500) {
-    pointEarnings = pointEarnings + 6000000;
+    pointEarnings = pointEarnings + MonthEarnings.point500;
   } else if (points < 500 && points >= 200) {
-    pointEarnings = pointEarnings + 3000000;
+    pointEarnings = pointEarnings + MonthEarnings.point200;
   } else if (points < 200 && points >= 100) {
-    pointEarnings = pointEarnings + 1000000;
+    pointEarnings = pointEarnings + MonthEarnings.point100;
   } else if (points < 100 && points >= 50) {
-    pointEarnings = pointEarnings + 900000;
+    pointEarnings = pointEarnings + MonthEarnings.point50;
   } else if (points < 50 && points >= 20) {
-    pointEarnings = pointEarnings + 300000;
+    pointEarnings = pointEarnings + MonthEarnings.point20;
   } else if (points < 20 && points >= 10) {
-    pointEarnings = pointEarnings + 180000;
+    pointEarnings = pointEarnings + MonthEarnings.point10;
   } else if (points < 10 && points >= 5) {
-    pointEarnings = pointEarnings + 160000;
+    pointEarnings = pointEarnings + MonthEarnings.point5;
   } else {
-    pointEarnings = pointEarnings + 100000;
+    pointEarnings = pointEarnings + MonthEarnings.point0;
   }
 
-  let styleEarning = 900000;
+  let styleEarning = MonthEarnings.status.active;
   if (styles.find((item) => item.tag === "Retired")) {
-    styleEarning = 300000;
+    styleEarning = MonthEarnings.status.retired;
   }
   if (styles.find((item) => item.tag === "6 Stars JAV")) {
-    styleEarning = styleEarning + 1000000;
+    styleEarning = styleEarning + MonthEarnings.sixStar;
   }
   if (styles.find((item) => item.tag === "Killer Tits")) {
-    styleEarning = styleEarning + 600000;
+    styleEarning = styleEarning + MonthEarnings.killerTits;
   }
   if (styles.find((item) => item.tag === "Beautiful Breasts")) {
-    styleEarning = styleEarning + 600000;
+    styleEarning = styleEarning + MonthEarnings.beautifulBreasts;
   }
 
-  const uncensoredEarnings = 1000000 * uncensored;
+  const uncensoredEarnings = MonthEarnings.uncensoredDvds * uncensored;
 
   let bestEarnings = 0;
 
   if (best) {
-    bestEarnings = 9000000;
+    bestEarnings = MonthEarnings.best;
   }
 
   return (
@@ -54,124 +101,38 @@ function getEarningIdol(rank, points, styles, uncensored, best) {
 }
 
 function getPriceOneNight(earnings) {
-  return Math.ceil(earnings / 8);
+  return Math.ceil(earnings / OneNightRatio);
 }
-
-const STAR_IDOL_ID = "jai057";
-const BEST_DVD_IDS = [
-  "jai001",
-  "jai011",
-  "jai015",
-  "jai038",
-  "jai057",
-  "jai062",
-  "jai072",
-  "jai073",
-  "jai078",
-  "jai086",
-  "jai151",
-  "jai166",
-  "jai188",
-];
-const BEST_IDOL_IDS = [
-  "jai001",
-  "jai011",
-  "jai015",
-  "jai038",
-  "jai048",
-  "jai054",
-  "jai057",
-  "jai062",
-  "jai072",
-  "jai073",
-  "jai078",
-  "jai086",
-  "jai146",
-  "jai151",
-  "jai157",
-  "jai158",
-  "jai166",
-  "jai172",
-  "jai176",
-  "jai188",
-];
-const SWEET_NIGHT_IDS = [
-  "jai001",
-  "jai038",
-  "jai057",
-  "jai057",
-  "jai057",
-  "jai073",
-  "jai078",
-  "jai078",
-  "jai151",
-  "jai166",
-];
-const TOP_POINT_GROWTH_IDS = ["jai048", "jai057", "jai176"];
-const TOP_IDOL_IDS = [
-  "jai062",
-  "jai069",
-  "jai070",
-  "jai073",
-  "jai171",
-  "jai185",
-  "jai188",
-];
-const HAS_DVD_IDS = [
-  "jai001",
-  "jai011",
-  "jai015",
-  "jai038",
-  "jai048",
-  "jai054",
-  "jai056",
-  "jai057",
-  "jai062",
-  "jai072",
-  "jai073",
-  "jai078",
-  "jai086",
-  "jai146",
-  "jai151",
-  "jai157",
-  "jai158",
-  "jai166",
-  "jai172",
-  "jai176",
-  "jai185",
-  "jai188",
-];
-const NEWBIE_IDS = [];
 
 function getBonusEarnings(id) {
   let bonus = 0;
 
   if (STAR_IDOL_ID === id) {
-    bonus = bonus + 1000000000;
+    bonus = bonus + WeekEarnings.starIdol;
   }
   if (BEST_DVD_IDS.includes(id)) {
-    bonus = bonus + 120000000;
+    bonus = bonus + WeekEarnings.bestDvd;
   }
   if (BEST_IDOL_IDS.includes(id)) {
-    bonus = bonus + 60000000;
+    bonus = bonus + WeekEarnings.bestIdol;
   }
   if (SWEET_NIGHT_IDS.includes(id)) {
     bonus =
       bonus +
-      100000000 *
+      WeekEarnings.sweetNight *
         SWEET_NIGHT_IDS.reduce((acc, val) => (val === id ? acc + 1 : acc), 0);
   }
   if (TOP_POINT_GROWTH_IDS.includes(id)) {
-    bonus = bonus + 18000000;
+    bonus = bonus + WeekEarnings.topGrowth;
   }
   if (TOP_IDOL_IDS.includes(id)) {
-    bonus = bonus + 8000000;
+    bonus = bonus + WeekEarnings.topIdol;
   }
   if (HAS_DVD_IDS.includes(id)) {
-    bonus = bonus + 5000000;
+    bonus = bonus + WeekEarnings.hasDvd;
   }
   if (NEWBIE_IDS.includes(id)) {
-    bonus = bonus + 1200000;
+    bonus = bonus + WeekEarnings.newbie;
   }
 
   return bonus;

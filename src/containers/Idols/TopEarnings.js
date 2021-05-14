@@ -19,7 +19,7 @@ import {
 import Checkbox from "../../components/UI/Checkbox/Checkbox";
 import IdolEarning from "../../components/Idols/IdolEarning";
 
-import { Orange, Pink, Grey, Black } from "../../themes/colors";
+import { Orange, Pink, LightPurple, DarkPurple } from "../../themes/colors";
 import { center, fadeIn } from "../../themes/styled";
 
 const FilterIdolsContainer = styled.div`
@@ -120,7 +120,7 @@ function TopEarnings() {
             label={"Bonus"}
             value={get(location.state, "bonus", false)}
             onChange={handleChangeBonus}
-            customColor={`linear-gradient(to right, ${Grey}, ${Black})`}
+            customColor={`linear-gradient(to right, ${LightPurple}, ${DarkPurple})`}
           />
         </CheckboxGroup>
       </FilterIdolsContainer>
