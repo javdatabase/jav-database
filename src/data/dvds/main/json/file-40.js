@@ -1,4 +1,4 @@
-import { DRC199, MXX91 } from "../images";
+import { DRC199, HEY112, MXX91 } from "../images";
 
 const File40 = [
   {
@@ -1387,6 +1387,13 @@ const File40 = [
     poster: "http://pics.dmm.co.jp/mono/movie/adult/1oks109/1oks109pl.jpg",
     type: "Censored",
     idols: [{ idIdol: "jai193", name: "Suzune Akimoto" }],
+  },
+  {
+    code: "HEY-112",
+    title: `CHEATING ON MY BOYFRIEND WITH HIS FRIEND`,
+    poster: HEY112,
+    type: "Uncensored",
+    idols: [{ idIdol: "jai194", name: "Rin Sakita" }],
   },
 ];
 

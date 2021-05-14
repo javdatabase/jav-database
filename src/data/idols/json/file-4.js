@@ -3,6 +3,7 @@ import * as karen_kaede from "../images/karen-kaede";
 import * as saeko_matsushita from "../images/saeko-matsushita";
 import * as hiro_shirasawa from "../images/hiro-shirasawa";
 import * as suzune_akimoto from "../images/suzune-akimoto";
+import * as rin_sakita from "../images/rin-sakita";
 
 const File4 = [
   {
@@ -394,7 +395,7 @@ const File4 = [
   },
   {
     idIdol: "jai194",
-    avatar: suzune_akimoto.suzune_akimoto_2,
+    avatar: rin_sakita.rin_sakita_2,
     name: "Rin Sakita",
     other: "",
     born: "27/11/1993",
@@ -411,7 +412,10 @@ const File4 = [
     ],
     album: [
       {
-        picture: suzune_akimoto.suzune_akimoto_1,
+        picture: rin_sakita.rin_sakita_1,
+      },
+      {
+        picture: rin_sakita.rin_sakita_3,
       },
     ],
   },

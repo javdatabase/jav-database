@@ -455,6 +455,7 @@ const File36 = [
     idols: [
       { idIdol: "jai147", name: "Satomi Suzuki" },
       { idIdol: "jai186", name: "Risa Onodera" },
+      { idIdol: "jai194", name: "Rin Sakita" },
     ],
   },
   {
