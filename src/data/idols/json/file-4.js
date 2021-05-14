@@ -2,6 +2,7 @@ import * as tsubaki_sannomiya from "../images/tsubaki-sannomiya";
 import * as karen_kaede from "../images/karen-kaede";
 import * as saeko_matsushita from "../images/saeko-matsushita";
 import * as hiro_shirasawa from "../images/hiro-shirasawa";
+import * as suzune_akimoto from "../images/suzune-akimoto";
 
 const File4 = [
   {
@@ -353,6 +354,7 @@ const File4 = [
     hips: "84 cm",
     styles: [
       { tag: "Retired" },
+      { tag: "Cute" },
       { tag: "Teens" },
       { tag: "Small Tits" },
       { tag: "Long Legs" },
@@ -368,27 +370,48 @@ const File4 = [
   },
   {
     idIdol: "jai193",
-    avatar: hiro_shirasawa.hiro_shirasawa_1,
+    avatar: suzune_akimoto.suzune_akimoto_2,
     name: "Suzune Akimoto",
     other: "",
-    born: "09/06/2000",
-    height: "168 cm",
-    breast: "80 cm",
-    cup: "C-Cup",
-    waist: "59 cm",
-    hips: "84 cm",
+    born: "21/02/2000",
+    height: "155 cm",
+    breast: "86 cm",
+    cup: "D-Cup",
+    waist: "57 cm",
+    hips: "82 cm",
     styles: [
       { tag: "Retired" },
+      { tag: "Cute" },
       { tag: "Teens" },
-      { tag: "Small Tits" },
+      { tag: "Beautiful Breasts" },
+      { tag: "Slender" },
+    ],
+    album: [
+      {
+        picture: suzune_akimoto.suzune_akimoto_1,
+      },
+    ],
+  },
+  {
+    idIdol: "jai194",
+    avatar: suzune_akimoto.suzune_akimoto_2,
+    name: "Rin Sakita",
+    other: "",
+    born: "27/11/1993",
+    height: "165 cm",
+    breast: "85 cm",
+    cup: "E-Cup",
+    waist: "57 cm",
+    hips: "86 cm",
+    styles: [
+      { tag: "Retired" },
+      { tag: "Cute" },
+      { tag: "Beautiful Breasts" },
       { tag: "Long Legs" },
     ],
     album: [
       {
-        picture: hiro_shirasawa.hiro_shirasawa_2,
-      },
-      {
-        picture: hiro_shirasawa.hiro_shirasawa_3,
+        picture: suzune_akimoto.suzune_akimoto_1,
       },
     ],
   },
