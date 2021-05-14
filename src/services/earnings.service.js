@@ -26,7 +26,7 @@ const BEST_IDOL_IDS = [
   "jai146",
   "jai154",
 ];
-const SWEET_NIGHT_IDS = [];
+const SWEET_NIGHT_IDS = ["jai057", "jai057"];
 const TOP_POINT_GROWTH_IDS = [
   "jai054",
   "jai057",
