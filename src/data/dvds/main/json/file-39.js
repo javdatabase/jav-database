@@ -2636,7 +2636,10 @@ const File39 = [
     poster:
       "http://pics.dmm.co.jp/mono/movie/adult/118docp281/118docp281pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai181", name: "Haru Kawamura" }],
+    idols: [
+      { idIdol: "jai181", name: "Haru Kawamura" },
+      { idIdol: "jai193", name: "Suzune Akimoto" },
+    ],
   },
   {
     code: "YNPS-003",

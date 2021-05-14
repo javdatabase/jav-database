@@ -27,7 +27,14 @@ const BEST_IDOL_IDS = [
   "jai154",
 ];
 const SWEET_NIGHT_IDS = [];
-const TOP_POINT_GROWTH_IDS = ["jai054", "jai057", "jai146", "jai185"];
+const TOP_POINT_GROWTH_IDS = [
+  "jai054",
+  "jai057",
+  "jai146",
+  "jai185",
+  "jai192",
+  "jai193",
+];
 const TOP_IDOL_IDS = [];
 const HAS_DVD_IDS = [
   "jai016",
@@ -42,8 +49,10 @@ const HAS_DVD_IDS = [
   "jai146",
   "jai154",
   "jai185",
+  "jai192",
+  "jai193",
 ];
-const NEWBIE_IDS = [];
+const NEWBIE_IDS = ["jai192", "jai193"];
 
 function getEarningIdol(rank, points, styles, uncensored, best) {
   const rankEarnings = Math.ceil(MonthEarnings.ranking / rank);

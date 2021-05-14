@@ -1,6 +1,7 @@
 import * as tsubaki_sannomiya from "../images/tsubaki-sannomiya";
 import * as karen_kaede from "../images/karen-kaede";
 import * as saeko_matsushita from "../images/saeko-matsushita";
+import * as hiro_shirasawa from "../images/hiro-shirasawa";
 
 const File4 = [
   {
@@ -336,6 +337,58 @@ const File4 = [
       {
         picture:
           "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/22000/22565/large/wapdb-jun-aizawa-pornostar-asiatique.warashi-asian-pornstars.fr-22565-001.jpg",
+      },
+    ],
+  },
+  {
+    idIdol: "jai192",
+    avatar: hiro_shirasawa.hiro_shirasawa_1,
+    name: "Hiro Shirasawa",
+    other: "",
+    born: "09/06/2000",
+    height: "168 cm",
+    breast: "80 cm",
+    cup: "C-Cup",
+    waist: "59 cm",
+    hips: "84 cm",
+    styles: [
+      { tag: "Retired" },
+      { tag: "Teens" },
+      { tag: "Small Tits" },
+      { tag: "Long Legs" },
+    ],
+    album: [
+      {
+        picture: hiro_shirasawa.hiro_shirasawa_2,
+      },
+      {
+        picture: hiro_shirasawa.hiro_shirasawa_3,
+      },
+    ],
+  },
+  {
+    idIdol: "jai193",
+    avatar: hiro_shirasawa.hiro_shirasawa_1,
+    name: "Suzune Akimoto",
+    other: "",
+    born: "09/06/2000",
+    height: "168 cm",
+    breast: "80 cm",
+    cup: "C-Cup",
+    waist: "59 cm",
+    hips: "84 cm",
+    styles: [
+      { tag: "Retired" },
+      { tag: "Teens" },
+      { tag: "Small Tits" },
+      { tag: "Long Legs" },
+    ],
+    album: [
+      {
+        picture: hiro_shirasawa.hiro_shirasawa_2,
+      },
+      {
+        picture: hiro_shirasawa.hiro_shirasawa_3,
       },
     ],
   },

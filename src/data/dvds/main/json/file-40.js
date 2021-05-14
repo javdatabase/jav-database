@@ -1324,6 +1324,70 @@ const File40 = [
     type: "Censored",
     idols: [{ idIdol: "jai185", name: "Nene Tanaka" }],
   },
+  {
+    code: `USAG-016`,
+    title: `" I MASTURBATED WITH AN ANAL FROM A STUDENT . I WANT TO HAVE ANAL SEX BUT I CAN NOT TELL ANYONE ... " THE FIRST ANAL SEX BORN IN A SELF-DEVELOPED ASSHOLE THAT I FEEL MORE THAN MA ○ KO! KITAKYUSHU DIALECT'S ' SIMPLE ' SOBER GIRL 19 YEARS OLD WHO BARES HER WHITE EYES AND CULMINATES IN HER ASS !`,
+    poster: `http://pics.dmm.co.jp/mono/movie/adult/usag016/usag016pl.jpg`,
+    type: `Censored`,
+    idols: [{ idIdol: "jai192", name: "Hiro Shirasawa" }],
+  },
+  {
+    code: `GNAB-028`,
+    title: `REAL MONEY AT ATM ! ! 6 INDEFINITE WIFE WHO GET INTO DEBT WITH CASHING LOAN GETZ ! ! IMMEDIATELY SADDLE CREAMPIES ! ?`,
+    poster: `http://pics.dmm.co.jp/mono/movie/adult/118gnab028/118gnab028pl.jpg`,
+    type: `Censored`,
+    idols: [{ idIdol: "jai192", name: "Hiro Shirasawa" }],
+  },
+  {
+    code: `SOAN-048`,
+    title: `JUVENILE ANAL ADDICTION KENDO WAS A STREAK , BUT HE IS A PERVERTED 19-YEAR-OLD WHO IS DREAMING OF ANAL MASTURBATION AND STRANGLES 2 HOLES FUCK FROM A YOUNG AGE`,
+    poster: `http://pics.dmm.co.jp/mono/movie/adult/soan048/soan048pl.jpg`,
+    type: `Censored`,
+    idols: [{ idIdol: "jai192", name: "Hiro Shirasawa" }],
+  },
+  {
+    code: `GZAP-031`,
+    title: `J-TYPE WHO IS FAMILIAR WITH THE SELF-DEFENSE DOJO AS A COUNTERMEASURE AGAINST IDIOTS , IS FULL OF SKIES AND TRIES TO BE SEXUALLY HARASSED WHILE HE IS PRACTICING W`,
+    poster: `http://pics.dmm.co.jp/mono/movie/adult/118gzap031/118gzap031pl.jpg`,
+    type: `Censored`,
+    idols: [{ idIdol: "jai192", name: "Hiro Shirasawa" }],
+  },
+  {
+    code: `GGEN-007`,
+    title: `ACTUALLY , MY WIFE ( 28 ) WAS NTR BY A YOGA SCHOOL TEACHER ( 22 ) ... PLEASE RELEASE ANAL 3P AV BECAUSE IT IS TOO MUCH`,
+    poster: `http://pics.dmm.co.jp/mono/movie/adult/118ggen007/118ggen007pl.jpg`,
+    type: `Censored`,
+    idols: [{ idIdol: "jai192", name: "Hiro Shirasawa" }],
+  },
+  {
+    code: `DROP-044`,
+    title: `AMATEUR DAUGHTER'S FIRST " JI PO WASH " PART-TIME JOB 3`,
+    poster: `http://pics.dmm.co.jp/mono/movie/adult/h_139drop044/h_139drop044pl.jpg`,
+    type: `Censored`,
+    idols: [{ idIdol: "jai192", name: "Hiro Shirasawa" }],
+  },
+  {
+    code: "CHN-197",
+    title: `I WILL LEND YOU A NEW AMATEUR GIRL. 95 PSEUDONYM SUZUNE AKIMOTO ( SUPERMARKET / CLERK ) 20 YEARS OLD`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/118chn197/118chn197pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai193", name: "Suzune Akimoto" }],
+  },
+  {
+    code: "SKMJ-149",
+    title: `I WILL LEND YOU A NEW AMATEUR GIRL. 95 PSEUDONYM SUZUNE AKIMOTO ( SUPERMARKET / CLERK ) 20 YEARS OLDAN AMATEUR FEMALE COLLEGE STUDENT SMILES AND SHOOTS ANOTHER FACE ! ! ! A LARGE AMOUNT OF DOPYUDOPYU SPERM IS RECEIVED BY THE FACE AND OMA CO ○ IS BLUSHING ESTRUS ! CONTINUOUS PACIFIER AS IT IS ! EXTREMELY LIVELY SEX WITH A PURE WHITE DIRTY FACE ! ! !`,
+    poster:
+      "http://pics.dmm.co.jp/mono/movie/adult/h_1324skmj149/h_1324skmj149pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai193", name: "Suzune Akimoto" }],
+  },
+  {
+    code: "OKS-109",
+    title: `WET AND SHINY , PERFECT FIT GOD SWIMSUIT SUZUNE AKIMOTO ENJOY THE CUTE GIRLS' SCHOOL SWIMSUITS ! AV THAT STARTS WITH CHANGING CLOTHES VOYEUR AND ENJOYS FETISH CLOSE-UPS SUCH AS SHAVED BREASTS , HAMI HAIR , JORIWAKI , LOTION SOAP PLAY , SWIMSUIT BUKKAKE , ETC . FROM SMALL BREASTS TO BIG BREASTS`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/1oks109/1oks109pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai193", name: "Suzune Akimoto" }],
+  },
 ];
 
 export default File40;
