@@ -1395,6 +1395,14 @@ const File40 = [
     type: "Uncensored",
     idols: [{ idIdol: "jai194", name: "Rin Sakita" }],
   },
+  {
+    code: "BANK-037",
+    title: `MAN JUICE CLOUDY SHAVED GAL ! DOCHAKUSO CUTE H LOVE DIRTY BIG TITS BITCH KAHO IMAI`,
+    poster:
+      "http://pics.dmm.co.jp/mono/movie/adult/h_1495bank037/h_1495bank037pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai179", name: "Kaho Imai" }],
+  },
 ];
 
 export default File40;
