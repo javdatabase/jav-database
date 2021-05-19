@@ -35,7 +35,7 @@ const Container = styled.div`
 `;
 
 const VideoContainer = styled.div`
-  margin: 30px 0px 20px;
+  margin: 30px 0px;
 `;
 
 const Title = styled.div`
