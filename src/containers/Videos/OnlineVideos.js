@@ -17,7 +17,7 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px 0px;
+  padding: 30px 0px;
   box-sizing: border-box;
   animation: ${fadeIn} 0.8s ease-in-out;
   overflow: auto;
@@ -35,7 +35,7 @@ const Container = styled.div`
 `;
 
 const VideoContainer = styled.div`
-  margin: 30px 0px;
+  margin-bottom: 30px;
 `;
 
 const Title = styled.div`
