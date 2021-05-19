@@ -109,6 +109,7 @@ const Navigate = styled(Link)`
 `;
 
 const ButtonOnlineVideos = styled(ButtonBest)`
+  color: ${Black};
   background: linear-gradient(to right, ${Yellow}, ${Red});
 `;
 
