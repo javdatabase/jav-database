@@ -191,7 +191,7 @@ const File40 = [
   {
     code: "ABW-081",
     title: `OVERWHELMING ASS PRESSURE PISTON ! ! ! KAMIJIRI STAKEOUT COWGIRL FEMALE TOP ! ! ! ALL COWGIRL POSITIONS`,
-    poster: "http://img53.pixhost.to/images/65/199386889_1618293ll.jpg", // TODO: Change URL Image HD
+    poster: "http://img53.pixhost.to/images/65/199386889_1618293ll.jpg",
     type: "Censored",
     idols: [{ idIdol: "jai072", name: "Maria Aine" }],
   },
@@ -1426,6 +1426,34 @@ const File40 = [
       { idIdol: "jai016", name: "Kanako Iioka" },
       { idIdol: "jai054", name: "Arisa Hanyu" },
     ],
+  },
+  {
+    code: "HUNTB-009",
+    title: `" STOP YOUR SISTER ... " " I'M SORRY ... " A SUPER-FRIENDLY OLDER SISTER WHO CAN'T GO AGAINST THE ORDERS OF THE BULLY IS STRONG WITH MY COCK ● INCEST ! 2`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/huntb009/huntb009pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai148", name: "Nozomi Arimura" }],
+  },
+  {
+    code: "HUNTB-019",
+    title: `" YOU'RE STILL UP , RIGHT ? " " NEXT ME ! " " NEXT TIME I AM AGAIN ! " I WANT TO ETCH MORE AND MORE ! 』 THE STRONGEST EROTIC TWO SPEAR MAN CHILDHOOD FRIENDS ARE TRANSCENDENTAL PREMATURE EJACULATION MA ○ KO ...`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/huntb019/huntb019pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai148", name: "Nozomi Arimura" }],
+  },
+  {
+    code: "BDA-139",
+    title: `BLACK GIANT MARA DESTRUCTION BLACK GIANT CANNON HONOKA TSUJII`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/bda139/bda139pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai048", name: "Honoka Tsuji" }],
+  },
+  {
+    code: "KSBJ-135",
+    title: `I WAS MISTAKEN FOR MISS DELI BY MY HUSBAND'S STEPCHILD WHO MET FOR THE FIRST TIME AND ALLOWED VAGINAL CUM SHOT`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/ksbj135/ksbj135pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai002", name: "Hibiki Otsuki" }],
   },
 ];
 

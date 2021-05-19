@@ -13,7 +13,7 @@ import {
   Black,
   White,
   DarkBlue,
-  LightBlue
+  LightBlue,
 } from "../../themes/colors";
 import { center, fadeIn } from "../../themes/styled";
 import { Large } from "../../themes/font";
@@ -34,7 +34,7 @@ const ButtonLeft = styled.div`
   ${center}
   padding: 5px;
   border-radius: 6px;
-  background: ${props =>
+  background: ${(props) =>
     props.active
       ? `linear-gradient(to right, ${Pink}, ${Orange})`
       : "transparent"};
@@ -44,7 +44,7 @@ const ButtonLeft = styled.div`
   z-index: 2;
   cursor: pointer;
   font-size: ${Large};
-  color: ${props => (props.active ? Black : White)};
+  color: ${(props) => (props.active ? Black : White)};
 
   &:hover {
     background: linear-gradient(to right, ${Pink}, ${Orange});
@@ -56,7 +56,7 @@ const ButtonRight = styled.div`
   ${center}
   padding: 5px;
   border-radius: 6px;
-  background: ${props =>
+  background: ${(props) =>
     props.active
       ? `linear-gradient(to right, ${Pink}, ${Orange})`
       : "transparent"};
@@ -66,7 +66,7 @@ const ButtonRight = styled.div`
   z-index: 2;
   cursor: pointer;
   font-size: ${Large};
-  color: ${props => (props.active ? Black : White)};
+  color: ${(props) => (props.active ? Black : White)};
 
   &:hover {
     background: linear-gradient(to right, ${Pink}, ${Orange});
@@ -90,11 +90,11 @@ function Home() {
   const [highlight, setHighlight] = useState(0);
   const [data, setData] = useState(NEW_DVDS_RELEASE_DETAIL);
 
-  const changeHighlight = useCallback(value => {
+  const changeHighlight = useCallback((value) => {
     setHighlight(value);
   }, []);
 
-  const changeType = useCallback(value => {
+  const changeType = useCallback((value) => {
     if (value === "new") {
       setData(NEW_DVDS_RELEASE_DETAIL);
     } else {
@@ -121,7 +121,7 @@ function Home() {
           height={"calc(14vw + 40px)"}
           onSelect={changeHighlight}
           customColor={
-            data[highlight].type === "Uncensored"
+            data[highlight] && data[highlight].type === "Uncensored"
               ? `linear-gradient(to right, ${DarkBlue}, ${LightBlue})`
               : `linear-gradient(to right, ${Pink}, ${Orange})`
           }

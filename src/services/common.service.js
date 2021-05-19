@@ -86,6 +86,9 @@ function getDvdsRandom() {
     return dvds;
   }
 
+  // TODO: Comment this line
+  // return [];
+
   return randomDvds().map((dvd) => ({
     ...dvd,
     idols: dvd.idols.map((idol) => getIdolDetail(idol.idIdol)),

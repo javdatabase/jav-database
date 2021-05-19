@@ -10,6 +10,7 @@ const SIZE_MAIN_DVDS = MainDvds.length;
 const SIZE_AMATEUR_DVDS = AmateurDvds.length;
 const SIZE_PRE_RELEASE_DVDS = PreReleaseDvds.length;
 
+ // TODO: Clear comment
 const NEW_DVDS_RELEASE = [
   MainDvds[SIZE_MAIN_DVDS - 1],
   MainDvds[SIZE_MAIN_DVDS - 2],

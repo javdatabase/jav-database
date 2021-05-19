@@ -70,6 +70,8 @@ const PreReleaseDvds = lazy(() => import("../containers/Dvds/PreReleaseDvds"));
 
 const AmateurDvds = lazy(() => import("../containers/Dvds/AmateurDvds"));
 
+const OnlineVideos = lazy(() => import("../containers/Online/OnlineVideos"));
+
 function Routes() {
   return (
     <Suspense fallback={<Loading />}>
@@ -92,6 +94,7 @@ function Routes() {
           component={PreReleaseDvds}
         />
         <Route path={"/amateur-dvds"} exact={true} component={AmateurDvds} />
+        <Route path={"/online-videos"} exact={true} component={OnlineVideos} />
         <Route path={"*"} component={NotFound} />
       </Switch>
     </Suspense>

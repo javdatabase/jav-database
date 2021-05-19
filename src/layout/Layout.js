@@ -49,6 +49,8 @@ function Layout() {
       return "Pre Release Dvds";
     } else if (matchPath(path, { path: "/amateur-dvds", exact: true })) {
       return "Amateur Dvds";
+    } else if (matchPath(path, { path: "/online-videos", exact: true })) {
+      return "Online Videos";
     } else {
       return "Not Found";
     }

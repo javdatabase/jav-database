@@ -13,4 +13,7 @@ const response = [].concat(File1, File2, File3, File4).map((item) => ({
       : moment(item.born, "dd/MM/YYYY").fromNow().replace(" years ago", ""),
 }));
 
+// TODO: Comment this line
+// export default [];
+
 export default response;

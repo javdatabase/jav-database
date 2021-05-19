@@ -2910,7 +2910,7 @@ const File39 = [
   {
     code: "ABW-073",
     title: `CHEST FECES NTR WORST DEPRESSIVE ERECTION VIDEO MY FAVORITE GIRLFRIEND WHO PROMISED HAPPINESS WAS TAKEN DOWN BY AN OLD MAN AND DESTROYED`,
-    poster: "http://img52.pixhost.to/images/235/197754257_1614780l.jpg", // TODO: Change URL Image HD
+    poster: "http://img52.pixhost.to/images/235/197754257_1614780l.jpg",
     type: "Censored",
     idols: [{ idIdol: "jai113", name: "Airi Suzumura" }],
   },
@@ -2976,7 +2976,7 @@ const File39 = [
   {
     code: "ABW-076",
     title: `AOHARU SEX SPRING 3SEX TO SPEND WITH A UNIFORM BEAUTIFUL GIRL COMPLETELY SUBJECTIVELY . #04 170 MINUTES TO EXPERIENCE ALL THE SWEET AND SOUR YOUTH GRAFFITI WITH A SUPERB ETCH FROM YOUR POINT OF VIEW`,
-    poster: "http://img52.pixhost.to/images/236/197765180_1615967l.jpg", // TODO: Change URL Image HD
+    poster: "http://img52.pixhost.to/images/236/197765180_1615967l.jpg",
     type: "Censored",
     idols: [{ idIdol: "jai151", name: "Remu Suzumori" }],
   },

@@ -26,6 +26,8 @@ import {
   LightPurple,
   DarkPurple,
   Grey,
+  Yellow,
+  Red,
 } from "../../themes/colors";
 import { center } from "../../themes/styled";
 import { Large, XLarge } from "../../themes/font";
@@ -104,6 +106,10 @@ const Navigate = styled(Link)`
   &:hover {
     background: ${Black};
   }
+`;
+
+const ButtonOnlineVideos = styled(ButtonBest)`
+  background: linear-gradient(to right, ${Yellow}, ${Red});
 `;
 
 const ContentNavigate = styled.div`
@@ -208,6 +214,11 @@ function Navbar({ show, toggleMenu }) {
             </ContentNavigate>
           </Navigate>
         ))}
+        <ButtonContainer style={{ marginTop: "20px" }}>
+          <ButtonOnlineVideos to={"/online-videos"} onClick={toggleMenu}>
+            Online Videos
+          </ButtonOnlineVideos>
+        </ButtonContainer>
       </Container>
     </Fragment>
   );
