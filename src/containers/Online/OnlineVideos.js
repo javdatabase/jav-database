@@ -35,8 +35,7 @@ const Container = styled.div`
 `;
 
 const VideoContainer = styled.div`
-  margin-top: 30px;
-  margin-bottom: 20px;
+  margin: 30px 0px 20px;
 `;
 
 const Title = styled.div`
@@ -45,9 +44,9 @@ const Title = styled.div`
 `;
 
 const IdolsContainer = styled.div`
-  margin-bottom: 30px;
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 30px;
 `;
 
 const TagIdol = styled(IdolTag)`
