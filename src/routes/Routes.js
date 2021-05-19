@@ -70,7 +70,7 @@ const PreReleaseDvds = lazy(() => import("../containers/Dvds/PreReleaseDvds"));
 
 const AmateurDvds = lazy(() => import("../containers/Dvds/AmateurDvds"));
 
-const OnlineVideos = lazy(() => import("../containers/Online/OnlineVideos"));
+const OnlineVideos = lazy(() => import("../containers/Videos/OnlineVideos"));
 
 function Routes() {
   return (
