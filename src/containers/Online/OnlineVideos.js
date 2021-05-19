@@ -7,7 +7,7 @@ import { SIZE_VIDEOS, ALL_VIDEOS } from "../../services/videos.service";
 import Pagination from "../../components/UI/Pagination/Pagination";
 import IdolTag from "../../components/Idols/IdolTag";
 
-import { White, Grey, Pink, Orange } from "../../themes/colors";
+import { White, Black, Grey, Pink, Orange } from "../../themes/colors";
 import { center, fadeIn } from "../../themes/styled";
 import { XLarge } from "../../themes/font";
 
@@ -52,10 +52,9 @@ const IdolsContainer = styled.div`
 const TagIdol = styled(IdolTag)`
   cursor: pointer;
   margin-top: 10px;
+  color: ${Black};
   background: ${Grey};
 `;
-
-const Content = styled.div``;
 
 const PaginationContainer = styled.div`
   ${center}
@@ -87,7 +86,7 @@ function OnlineVideos() {
             <TagIdol key={item} name={item} />
           ))}
         </IdolsContainer>
-        <Content
+        <div
           dangerouslySetInnerHTML={{
             __html: get(ALL_VIDEOS[highlight], "content", ""),
           }}
