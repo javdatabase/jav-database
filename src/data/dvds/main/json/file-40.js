@@ -1455,6 +1455,34 @@ const File40 = [
     type: "Censored",
     idols: [{ idIdol: "jai002", name: "Hibiki Otsuki" }],
   },
+  {
+    code: "GVH-233",
+    title: `W BUSTY GUY ● MAO HAMASAKI / AKARI NIIMURA`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/13gvh233/13gvh233pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai007", name: "Mao Hamasaki" }],
+  },
+  {
+    code: "GVH-234",
+    title: `DIRTY LITTLE BODY'S BRILLIANT FEMALE PRESIDENT AND H SON YUI HATANO`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/13gvh234/13gvh234pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai001", name: "Yui Hatano" }],
+  },
+  {
+    code: "FSDSS-230",
+    title: `MIRACULOUS RESURRECTION SEX FOR THE FIRST TIME IN 300 DAYS , MOMENT OF ABSTINENCE SUPER OPENING IMMEDIATELY NONSTOP IKI TOO CUM ORGASM 3 PRODUCTION YUKO ONO`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/1fsdss230/1fsdss230pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai068", name: "Aoi" }],
+  },
+  {
+    code: "DOCP-295",
+    title: `BOOBS HARLEM 3P SANDWICHED BETWEEN A BIG-BREASTED SISTER AND HER BIG-BREASTED FRIEND WHOSE BROTHER COMPLEX PASSES ! !`,
+    poster: "http://img53.pixhost.to/images/226/202617084_1620927ll.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai145", name: "Moa Hoshizora" }],
+  },
 ];
 
 export default File40;

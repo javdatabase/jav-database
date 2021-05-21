@@ -593,12 +593,7 @@ const File2 = [
     cup: "H-Cup",
     waist: "58 cm",
     hips: "88 cm",
-    styles: [
-      { tag: "Retired" },
-      { tag: "6 Stars JAV" },
-      { tag: "Cute" },
-      { tag: "Killer Tits" },
-    ],
+    styles: [{ tag: "6 Stars JAV" }, { tag: "Cute" }, { tag: "Killer Tits" }],
     album: [
       { picture: "https://www.japanesebeauties.net/japanese/aoi/31/aoi-2.jpg" },
       { picture: "https://www.japanesebeauties.net/japanese/aoi/23/aoi-2.jpg" },

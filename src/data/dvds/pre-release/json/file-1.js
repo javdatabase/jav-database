@@ -1,12 +1,5 @@
 const File1 = [
   {
-    code: "GVH-234",
-    title: `DIRTY LITTLE BODY'S BRILLIANT FEMALE PRESIDENT AND H SON YUI HATANO`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/13gvh234/13gvh234pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai001", name: "Yui Hatano" }],
-  },
-  {
     code: "MIDE-928",
     title: `THAT SUMMER , I WAS MINGLING WITH A BIG-BREASTED SENIOR DURING A STAKEOUT INVESTIGATION ... SHOKO TAKAHASHI`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/mide928/mide928pl.jpg",
@@ -124,13 +117,6 @@ const File1 = [
     poster: "http://pics.dmm.co.jp/mono/movie/adult/2dfdm021/2dfdm021pl.jpg",
     type: "Censored",
     idols: [{ idIdol: "jai057", name: "Yumi Maeda" }],
-  },
-  {
-    code: "ABW-092",
-    title: `NAKED HOUSEKEEPER NEW SENSATION VIRTUAL SEX SEXUAL ACTIVITY FOR YOU . STAFF.01 MARIA AINE`,
-    poster: "http://img53.pixhost.to/images/226/202618216_1620922ll.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai072", name: "Maria Aine" }],
   },
   {
     code: "ABW-096",
