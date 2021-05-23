@@ -6,6 +6,7 @@ import { useHistory, useLocation } from "react-router-dom";
 import { SIZE_VIDEOS, ALL_VIDEOS } from "../../services/videos.service";
 import Pagination from "../../components/UI/Pagination/Pagination";
 import IdolTag from "../../components/Idols/IdolTag";
+import RollingIcon from "../../assets/images/ic_rolling/ic_rolling.svg";
 
 import { White, Black, Grey, Pink, Orange } from "../../themes/colors";
 import { center, fadeIn } from "../../themes/styled";
@@ -56,6 +57,12 @@ const TagIdol = styled(IdolTag)`
   background: ${Grey};
 `;
 
+const VideoContent = styled.div`
+  width: 1200px;
+  border: solid 1px ${White};
+  background: url(${RollingIcon}) center center no-repeat;
+`;
+
 const PaginationContainer = styled.div`
   ${center}
   margin-bottom: 5px;
@@ -86,7 +93,7 @@ function OnlineVideos() {
             <TagIdol key={item} name={item} />
           ))}
         </IdolsContainer>
-        <div
+        <VideoContent
           dangerouslySetInnerHTML={{
             __html: get(ALL_VIDEOS[highlight], "content", ""),
           }}
