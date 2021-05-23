@@ -1483,6 +1483,70 @@ const File40 = [
     type: "Censored",
     idols: [{ idIdol: "jai145", name: "Moa Hoshizora" }],
   },
+  {
+    code: "DASD-863",
+    title: `MY MOTHER-IN-LAW IS REALLY IRRITATED . A GOOD IDEA FOR A YOUNG WIFE WHO WANTS TO REVENGE . " IS IT OKAY TO ENJOY MY FATHER-IN-LAW'S CROTCH AS MUCH AS I WANT ? " RIHO FUJIMORI`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/dasd863/dasd863pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai057", name: "Yumi Maeda" }],
+  },
+  {
+    code: "JUL-575",
+    title: `THE DAYS OF VAGINAL CUM SHOT ● THAT NEVER END`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/jul575/jul575pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai067", name: "Marina Shiraishi" }],
+  },
+  {
+    code: "JUL-578",
+    title: `MADONNA " DENGEKI TRANSFER " 2ND ! ! ! AFTER HAVING SEX WITH MY HUSBAND , MY FATHER-IN-LAW ALWAYS KEEPS VAGINAL CUM SHOT ... YUAI KANA`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/jul578/jul578pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai143", name: "Kana Yume" }],
+  },
+  {
+    code: "JUL-579",
+    title: `I WAS SQUID MANY TIMES WITHOUT MAKING A VOICE ... ~ SWEATY EROTIC MASSAGE THAT SENSITIVELY DEVELOPS THE BODY OF A MARRIED WOMAN ~ MINORI HATSUNE`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/jul579/jul579pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai075", name: "Minori Hatsune" }],
+  },
+  {
+    code: "JUL-587",
+    title: `MY BEAUTIFUL OLDER SISTER AND I , WHO SHOULD NEVER BE OUT OF HAND , ARE CHILDREN WHO HAVE NO BLOOD CONNECTION . A SUMMER DAY WHEN TWO SIBLINGS WHO LOST THEIR BONDAGE DROWNED IN A FORBIDDEN VAGINAL CUM SHOT AFFAIR . RIHO FUJIMORI`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/jul587/jul587pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai057", name: "Yumi Maeda" }],
+  },
+  {
+    code: "CJOD-295",
+    title: `A MARRIED WOMAN WHO IS BORING IN FREE TIME MY NEIGHBOR WHO WAS TEMPTED BY NO BRA NO PANTIES BY JULIA WHO CAME TO THE COUNTRYSIDE DUE TO HER HUSBAND'S TRANSFER WAS MADE TO CUM MANY TIMES ... JULIA`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/cjod295/cjod295pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai041", name: "Julia" }],
+  },
+  {
+    code: "HND-991",
+    title: `LIFTING OF THE BAN GOD MILK I-CUP FEMALE COLLEGE STUDENT FIRST RAW VAGINAL CUM SHOT MAEDA MOMOKYOU`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/hnd991/hnd991pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai154", name: "Momoko Maeda" }],
+  },
+  {
+    code: "HND-993",
+    title: `IT SEEMS THAT YOUR DAUGHTER-IN-LAW AND HUSBAND ARE BEING MADE VAGINAL CUM SHOT BY A RICH FATHER WHILE HIS HUSBAND IS ABSENT , RIGHT ? JULIA`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/hnd993/hnd993pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai041", name: "Julia" }],
+  },
+  {
+    code: "JUKF-063",
+    title: `AN UNFORTUNATE FEMALE COLLEGE STUDENT WHO WAS FORCED TO TAKE OVER THE DEBT THAT HER FATHER MADE WITH DARK MONEY KANNA MISAKI , THE DAUGHTER OF A DEBTOR`,
+    poster:
+      "http://pics.dmm.co.jp/mono/movie/adult/h_227jukf063/h_227jukf063pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai144", name: "Kanna Misaki" }],
+  },
 ];
 
 export default File40;
