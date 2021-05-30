@@ -1689,6 +1689,13 @@ const File40 = [
     type: "Censored",
     idols: [{ idIdol: "jai057", name: "Yumi Maeda" }],
   },
+  {
+    code: "OVG-173",
+    title: `ABSTINENCE JI PO IMMEDIATELY ERECTS WHEN SHE SEES HER BOOBS ( BIG BREASTS ) PEEKING FROM HER UNPROTECTED CHEST OF HER AUNT WHO CAME TO VISIT HER! BIG TITS AUNT WHO SQUEEZES ALL SPERM IN A DEVOTED COWGIRL`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/13ovg173/13ovg173pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai001", name: "Yui Hatano" }],
+  },
 ];
 
 export default File40;
