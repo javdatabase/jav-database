@@ -44,6 +44,10 @@ const Title = styled.div`
   font-size: ${XLarge};
 `;
 
+const Type = styled.span`
+  color: ${Orange};
+`;
+
 const IdolsContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
@@ -87,7 +91,10 @@ function OnlineVideos() {
   return (
     <Container>
       <VideoContainer>
-        <Title>{get(ALL_VIDEOS[highlight], "title", "")}</Title>
+        <Title>
+          {get(ALL_VIDEOS[highlight], "title", "")}{" "}
+          <Type>[{get(ALL_VIDEOS[highlight], "type", "")}]</Type>
+        </Title>
         <IdolsContainer>
           {get(ALL_VIDEOS[highlight], "idols", []).map((item) => (
             <TagIdol key={item} name={item} />

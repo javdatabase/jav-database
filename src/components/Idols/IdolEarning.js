@@ -13,13 +13,14 @@ import IdolPicture from "../../components/Idols/IdolPicture";
 
 import {
   Black,
+  White,
+  Grey,
+  Red,
   Pink,
   Orange,
-  White,
   Yellow,
   DarkBlue,
   LightBlue,
-  Grey,
   LightPurple,
   DarkPurple,
 } from "../../themes/colors";
@@ -151,7 +152,7 @@ const EarningContainer = styled.div`
 `;
 
 const PriceIdol = styled.div`
-  border: solid 6px ${Grey};
+  border: solid 6px ${White};
   padding: 10px 20px;
   border-radius: 12px;
   background: linear-gradient(to right, ${LightBlue}, ${DarkBlue});
@@ -169,7 +170,7 @@ const BonusContainer = styled.div`
 `;
 
 const BonusIdol = styled(PriceIdol)`
-  border: solid 6px ${(props) => (props.bonus === "true" ? Black : Grey)};
+  border: solid 6px ${(props) => (props.bonus === "true" ? Red : White)};
   background: linear-gradient(to right, ${LightPurple}, ${DarkPurple});
   color: ${White};
   margin-top: 10px;
@@ -179,7 +180,7 @@ const BonusIdol = styled(PriceIdol)`
 `;
 
 const TotalIdol = styled(BonusIdol)`
-  border: solid 6px ${(props) => (props.bonus === "false" ? Black : Grey)};
+  border: solid 6px ${(props) => (props.bonus === "false" ? Red : White)};
   background: linear-gradient(to right, ${Yellow}, ${Orange});
   color: ${White};
   font-size: ${XLarge};
