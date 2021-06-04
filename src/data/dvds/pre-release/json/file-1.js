@@ -111,37 +111,6 @@ const File1 = [
     type: "Censored",
     idols: [{ idIdol: "jai026", name: "Ayaka Tomoda" }],
   },
-  {
-    code: "XVSR-594",
-    title: `YUKEMURI JOURNEY CREAMPIE SHAME HOT SPRING TRIP KOTONE SUZUMIYA`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/xvsr594so/xvsr594sopl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai164", name: "Kotone Suzumiya" }],
-  },
-  {
-    code: "XVSR-595",
-    title: `AWAHIME TOGENKYO ARISA HANYU , A SERVICE SOAP LADY WHO CAN MAKE VAGINAL CUM SHOT`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/xvsr595so/xvsr595sopl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai054", name: "Arisa Hanyu" }],
-  },
-  {
-    code: "XVSR-596",
-    title: `FASCINATE IN CUSTOMS SITUATIONS ! ! ! CREAMPIE PILE DRIVING COWGIRL SEX WITH DIRTY TALK HIBIKI OTSUKI`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/xvsr596so/xvsr596sopl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai002", name: "Hibiki Otsuki" }],
-  },
-  {
-    code: "XVSR-597",
-    title: `MASKED COUPLE-A WOMAN WHO IS DECEIVED AND A WOMAN WHO IS DECEIVED - YUI HATANO`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/xvsr597so/xvsr597sopl.jpg",
-    type: "Censored",
-    idols: [
-      { idIdol: "jai001", name: "Yui Hatano" },
-      { idIdol: "jai002", name: "Hibiki Otsuki" },
-    ],
-  },
 ];
 
 export default File1;
