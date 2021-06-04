@@ -15,7 +15,7 @@ const BEST_IDOL_IDS = [
   "jai176",
   "jai179",
 ];
-const SWEET_NIGHT_IDS = [];
+const SWEET_NIGHT_IDS = ["jai001", "jai002", "jai002", "jai179"];
 const TOP_POINT_GROWTH_IDS = ["jai001", "jai002", "jai185"];
 const TOP_IDOL_IDS = [];
 const HAS_DVD_IDS = [
