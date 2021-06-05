@@ -1808,6 +1808,35 @@ const File40 = [
     type: "Censored",
     idols: [{ idIdol: "jai185", name: "Nene Tanaka" }],
   },
+  {
+    code: "SSIS-082",
+    title: `TSUBAKI SANNOMIYA FOR 2 DAYS MESSED UP UNTIL I GOT TIRED OF DE M MAID WHO COMPLETELY AGREED TO DO WHAT TO DO`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/ssis082/ssis082pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai187", name: "Tsubaki Sannomiya" }],
+  },
+  {
+    code: "SSIS-083",
+    title: `RIRI NANATSUMORI , A WHISPERING DIRTY SISTER WHO SEDUCES HER WITH SEX APPEAL EVEN THOUGH SHE IS RIGHT NEXT TO HER`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/ssis083/ssis083pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai170", name: "Riri Nanatsumori" }],
+  },
+  {
+    code: "SSIS-084",
+    title: `[ * ABNORMAL BIG CLIMAX ] EROS MAXIMUM AWAKENING ! RAGING NON-STOP SERIOUS SEXUAL INTERCOURSE UNTIL SEXUAL DESIRE IS EXHAUSTED AKA ASUKA`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/ssis084/ssis084pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai171", name: "Aka Asuka" }],
+  },
+  {
+    code: "HODV-21580",
+    title: `THE BEST HUGE BREASTS AND THE BEST SEX HONOKA TSUJII`,
+    poster:
+      "http://pics.dmm.co.jp/mono/movie/adult/41hodv21580/41hodv21580pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai048", name: "Honoka Tsuji" }],
+  },
 ];
 
 export default File40;

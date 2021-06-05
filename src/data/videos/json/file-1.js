@@ -17,6 +17,12 @@ const File1 = [
     type: 'US/EU',
     idols: ["Melody Marks"],
   },
+  {
+    title: `STRIPPER WITH DOUBLE D'S HOPS`,
+    content: `<iframe width="1200" height="674.4" src="https://www.pornoeggs.com/embed?v=s0r9NsS-r0y" frameborder="0" allowfullscreen />`,
+    type: 'US/EU',
+    idols: ["Skylar Vox"],
+  },
 ];
 
 export default File1;
