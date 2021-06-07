@@ -4,7 +4,7 @@ import {
   WeekEarnings,
 } from "../helpers/earning-values";
 
-const STAR_IDOL_ID = "";
+const STAR_IDOL_ID = "jai002";
 const BEST_DVD_IDS = [
   "jai001",
   "jai002",
@@ -26,7 +26,14 @@ const BEST_IDOL_IDS = [
   "jai179",
   "jai187",
 ];
-const SWEET_NIGHT_IDS = ["jai001", "jai002", "jai002", "jai170", "jai179"];
+const SWEET_NIGHT_IDS = [
+  "jai001",
+  "jai002",
+  "jai002",
+  "jai170",
+  "jai171",
+  "jai179",
+];
 const TOP_POINT_GROWTH_IDS = ["jai001", "jai002", "jai048", "jai185"];
 const TOP_IDOL_IDS = [
   "jai062",
