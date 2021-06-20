@@ -73,6 +73,8 @@ const BEST_IDOL_IDS = [
   "jai188",
 ];
 const SWEET_NIGHT_IDS = [
+  "jai011",
+  "jai011",
   "jai015",
   "jai016",
   "jai016",
