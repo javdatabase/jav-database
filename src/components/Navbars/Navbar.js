@@ -8,14 +8,17 @@ import {
   SIZE_AMATEUR_DVDS,
 } from "../../services/dvds.service";
 import { SIZE_IDOLS } from "../../services/idols.service";
+import { SIZE_VIDEOS } from "../../services/videos.service";
 import Backdrop from "../UI/Backdrop/Backdrop";
 import DvdsIcon from "../../assets/images/ic_dvds/ic_dvds.svg";
 import HomeIcon from "../../assets/images/ic_home/ic_home.svg";
 import RankingIcon from "../../assets/images/ic_ranking/ic_ranking.svg";
+import LineChartIcon from "../../assets/images/ic_line_chart/ic_line_chart.svg";
 import WomanIcon from "../../assets/images/ic_woman/ic_woman.svg";
 import PlaylistIcon from "../../assets/images/ic_playlist/ic_playlist.svg";
 import AlbumIcon from "../../assets/images/ic_album/ic_album.svg";
 import ClipboardIcon from "../../assets/images/ic_clipboard/ic_clipboard.svg";
+import OnlineVideoIcon from "../../assets/images/ic_online_video/ic_online_video.svg";
 import NextIcon from "../../assets/images/ic_next/ic_next.svg";
 
 import {
@@ -25,9 +28,6 @@ import {
   White,
   LightPurple,
   DarkPurple,
-  Grey,
-  Yellow,
-  Red,
 } from "../../themes/colors";
 import { center } from "../../themes/styled";
 import { Large, XLarge } from "../../themes/font";
@@ -92,10 +92,6 @@ const ButtonBest = styled(Link)`
   }
 `;
 
-const ButtonEarnings = styled(ButtonBest)`
-  background: linear-gradient(to right, ${Grey}, ${Black});
-`;
-
 const Navigate = styled(Link)`
   padding: 20px 30px;
   background: ${(props) => (props.active === 1 ? Black : "transparent")};
@@ -106,11 +102,6 @@ const Navigate = styled(Link)`
   &:hover {
     background: ${Black};
   }
-`;
-
-const ButtonOnlineVideos = styled(ButtonBest)`
-  color: ${Black};
-  background: linear-gradient(to right, ${Yellow}, ${Red});
 `;
 
 const ContentNavigate = styled.div`
@@ -146,6 +137,11 @@ const navigate = [
     icon: RankingIcon,
   },
   {
+    path: "/top-earnings",
+    title: "Top Earnings",
+    icon: LineChartIcon,
+  },
+  {
     path: "/idols",
     title: `Idols (${SIZE_IDOLS})`,
     icon: WomanIcon,
@@ -164,6 +160,11 @@ const navigate = [
     path: "/amateur-dvds",
     title: `Amateur Dvds (${SIZE_AMATEUR_DVDS})`,
     icon: ClipboardIcon,
+  },
+  {
+    path: "/online-videos",
+    title: `Online Videos (${SIZE_VIDEOS})`,
+    icon: OnlineVideoIcon,
   },
 ];
 
@@ -184,17 +185,11 @@ function Navbar({ show, toggleMenu }) {
           <ImageLogo src={DvdsIcon} alt={""} />
           <CompanyName>JAV Database Official</CompanyName>
         </LogoContainer>
-        <ButtonContainer style={{ marginBottom: "5px" }}>
+        <ButtonContainer>
           <ButtonBest to={"/best-idols"} onClick={toggleMenu}>
             <span style={{ fontSize: Large }}>☿</span> Best Idols{" "}
             <span style={{ fontSize: Large }}>☿</span>
           </ButtonBest>
-        </ButtonContainer>
-        <ButtonContainer>
-          <ButtonEarnings to={"/top-earnings"} onClick={toggleMenu}>
-            <span style={{ fontSize: Large }}>$</span> Top Earnings{" "}
-            <span style={{ fontSize: Large }}>$</span>
-          </ButtonEarnings>
         </ButtonContainer>
         {navigate.map((item, index) => (
           <Navigate
@@ -215,11 +210,6 @@ function Navbar({ show, toggleMenu }) {
             </ContentNavigate>
           </Navigate>
         ))}
-        <ButtonContainer style={{ marginTop: "20px" }}>
-          <ButtonOnlineVideos to={"/online-videos"} onClick={toggleMenu}>
-            Online Videos
-          </ButtonOnlineVideos>
-        </ButtonContainer>
       </Container>
     </Fragment>
   );

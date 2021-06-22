@@ -239,13 +239,6 @@ const File1 = [
     idols: [{ idIdol: "jai158", name: "Nao Jinguji" }],
   },
   {
-    code: "OIGS-039",
-    title: `TOXIDROME MARRIED WOMAN WHILE MY HUSBAND IS ON A BUSINESS TRIP , I AM A FORMER LOVER'S BONDAGE GUY ● .... KANA MORISAWA`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/oigs039/oigs039pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai016", name: "Kanako Iioka" }],
-  },
-  {
     code: "MSFH-064",
     title: `THE POWER HARASSMENT SECTION CHIEF PUT UP AN APHRODISIAC ... I BECAME A SHARED ROOM AT A HOT SPRING INN ON A BUSINESS TRIP`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/1msfh064/1msfh064pl.jpg",

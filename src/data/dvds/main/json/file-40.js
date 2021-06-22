@@ -2620,6 +2620,13 @@ const File40 = [
     type: "Censored",
     idols: [{ idIdol: "jai180", name: "Yuria Kanae" }],
   },
+  {
+    code: "OIGS-039",
+    title: `TOXIDROME MARRIED WOMAN WHILE MY HUSBAND IS ON A BUSINESS TRIP , I AM A FORMER LOVER'S BONDAGE GUY ● .... KANA MORISAWA`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/oigs039/oigs039pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai016", name: "Kanako Iioka" }],
+  },
 ];
 
 export default File40;
