@@ -5,12 +5,12 @@ import {
 } from "../helpers/earning-values";
 
 const STAR_IDOL_ID = "";
-const BEST_DVD_IDS = ["jai016"];
-const BEST_IDOL_IDS = ["jai016"];
+const BEST_DVD_IDS = ["jai016", "jai068", "jai152"];
+const BEST_IDOL_IDS = ["jai016", "jai068", "jai152"];
 const SWEET_NIGHT_IDS = [];
 const TOP_POINT_GROWTH_IDS = [];
 const TOP_IDOL_IDS = [];
-const HAS_DVD_IDS = ["jai016"];
+const HAS_DVD_IDS = ["jai016", "jai056", "jai068", "jai139", "jai152"];
 const NEWBIE_IDS = [];
 
 function getEarningIdol(rank, points, styles, uncensored, best) {
