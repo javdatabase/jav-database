@@ -256,13 +256,6 @@ const File1 = [
     idols: [{ idIdol: "jai176", name: "Miyabi Midorikawa" }],
   },
   {
-    code: "KUM-026",
-    title: `[ YUI HATANO ] JUST BEING FUCKED ( ;'Д' ) MENHERA GIRL WHO UNKNOWINGLY ATTRACTS A BAD MAN !`,
-    poster: "http://img56.pixhost.to/images/16/212544058_1627121l.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai001", name: "Yui Hatano" }],
-  },
-  {
     code: "WFR-016",
     title: `AN OLDER SISTER WHO HAS A SEXUAL DESIRE ON THE WAY HOME FROM WORK GETS WET ALL THE WAY TO THE BACK AND GOES CRAZY RIHO FUJIMORI`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/2wfr016/2wfr016pl.jpg",

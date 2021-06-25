@@ -2648,6 +2648,27 @@ const File40 = [
     type: "Censored",
     idols: [{ idIdol: "jai056", name: "Rui Hiduki" }],
   },
+  {
+    code: "KUM-026",
+    title: `[ YUI HATANO ] JUST BEING FUCKED ( ;'Д' ) MENHERA GIRL WHO UNKNOWINGLY ATTRACTS A BAD MAN !`,
+    poster: "http://img56.pixhost.to/images/16/212544058_1627121l.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai001", name: "Yui Hatano" }],
+  },
+  {
+    code: "MDBK-184",
+    title: `SUPER CLOSE-UP ! ULTIMATE BOOBS 4 HOURS FULL COMPLETE BEST`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/mdbk184so/mdbk184sopl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai007", name: "Mao Hamasaki" }],
+  },
+  {
+    code: "MGMQ-075",
+    title: `MARY TACHIBANA , AN ANAL BLAME THAT IS TOO PLEASANT FOR MUCHIMUCHI-SENSEI WHO TAUGHT ME THE PLEASURE OF ASS`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/mgmq075/mgmq075pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai034", name: "Mary Tachibana" }],
+  },
 ];
 
 export default File40;
