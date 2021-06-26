@@ -2663,11 +2663,12 @@ const File40 = [
     idols: [{ idIdol: "jai007", name: "Mao Hamasaki" }],
   },
   {
-    code: "MGMQ-075",
-    title: `MARY TACHIBANA , AN ANAL BLAME THAT IS TOO PLEASANT FOR MUCHIMUCHI-SENSEI WHO TAUGHT ME THE PLEASURE OF ASS`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/mgmq075/mgmq075pl.jpg",
+    code: "SGKX-004",
+    title: `GAL SUTA GRAM #004 [ GAL BEADS CONNECTING DOCUMENT ]`,
+    poster:
+      "http://pics.dmm.co.jp/mono/movie/adult/h_1571sgkx004/h_1571sgkx004pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai034", name: "Mary Tachibana" }],
+    idols: [{ idIdol: "jai057", name: "Yumi Maeda" }],
   },
 ];
 
