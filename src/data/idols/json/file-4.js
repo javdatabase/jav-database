@@ -4,6 +4,7 @@ import * as saeko_matsushita from "../images/saeko-matsushita";
 import * as hiro_shirasawa from "../images/hiro-shirasawa";
 import * as suzune_akimoto from "../images/suzune-akimoto";
 import * as rin_sakita from "../images/rin-sakita";
+import * as rin_natsuki from "../images/rin-natsuki";
 
 const File4 = [
   {
@@ -416,6 +417,51 @@ const File4 = [
       },
       {
         picture: rin_sakita.rin_sakita_3,
+      },
+    ],
+  },
+  {
+    idIdol: "jai195",
+    avatar: rin_natsuki.rin_natsuki_1,
+    name: "Rin Natsuki",
+    other: "",
+    born: "16/11/1998",
+    height: "166 cm",
+    breast: "88 cm",
+    cup: "E-Cup",
+    waist: "63 cm",
+    hips: "92 cm",
+    styles: [{ tag: "Cute" }, { tag: "Beautiful Breasts" }],
+    album: [
+      {
+        picture: rin_natsuki.rin_natsuki_2,
+      },
+      {
+        picture: rin_natsuki.rin_natsuki_3,
+      },
+      {
+        picture: rin_natsuki.rin_natsuki_4,
+      },
+      {
+        picture: rin_natsuki.rin_natsuki_5,
+      },
+      {
+        picture: rin_natsuki.rin_natsuki_6,
+      },
+      {
+        picture: rin_natsuki.rin_natsuki_7,
+      },
+      {
+        picture: rin_natsuki.rin_natsuki_8,
+      },
+      {
+        picture: rin_natsuki.rin_natsuki_9,
+      },
+      {
+        picture: rin_natsuki.rin_natsuki_10,
+      },
+      {
+        picture: rin_natsuki.rin_natsuki_11,
       },
     ],
   },
