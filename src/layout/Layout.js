@@ -6,6 +6,7 @@ import { getIdolName } from "../services/common.service";
 import { BEST_IDOL_IDS } from "../services/idols.service";
 import Navbar from "../components/Navbars/Navbar";
 import Header from "../components/Headers/Header";
+import ErrorBoundary from "../components/ErrorBoundary/ErrorBoundary";
 import Routes from "../routes/Routes";
 
 import { Black } from "../themes/colors";
@@ -69,7 +70,9 @@ function Layout() {
       <Navbar show={show} toggleMenu={toggleMenu} />
       <Header title={title} toggleMenu={toggleMenu} />
       <Body>
-        <Routes />
+        <ErrorBoundary>
+          <Routes />
+        </ErrorBoundary>
       </Body>
     </Container>
   );

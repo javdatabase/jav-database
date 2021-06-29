@@ -2712,6 +2712,14 @@ const File40 = [
     type: "Censored",
     idols: [{ idIdol: "jai001", name: "Yui Hatano" }],
   },
+  {
+    code: "BANK-043",
+    title: `BIG BREASTS MARRIED WOMAN HOT SPRING DATE I-CUP KEIKO 31 YEARS OLD`,
+    poster:
+      "http://pics.dmm.co.jp/mono/movie/adult/h_1495bank043/h_1495bank043pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai054", name: "Arisa Hanyu" }],
+  },
 ];
 
 export default File40;

@@ -52,25 +52,65 @@ function NotFound() {
   );
 }
 
-const Home = lazy(() => import("../containers/Home/Home"));
+function componentLoader(lazyComponent, attemptsLeft = 3) {
+  return new Promise((resolve, reject) => {
+    lazyComponent()
+      .then(resolve)
+      .catch((error) => {
+        // let us retry after 500 ms
+        setTimeout(() => {
+          if (attemptsLeft === 1) {
+            reject(error);
+            return;
+          }
+          componentLoader(lazyComponent, attemptsLeft - 1).then(
+            resolve,
+            reject
+          );
+        }, 500);
+      });
+  });
+}
 
-const BestIdols = lazy(() => import("../containers/Idols/BestIdols"));
+const Home = lazy(() =>
+  componentLoader(() => import("../containers/Home/Home"))
+);
 
-const TopEarnings = lazy(() => import("../containers/Idols/TopEarnings"));
+const BestIdols = lazy(() =>
+  componentLoader(() => import("../containers/Idols/BestIdols"))
+);
 
-const Ranking = lazy(() => import("../containers/Idols/Ranking"));
+const TopEarnings = lazy(() =>
+  componentLoader(() => import("../containers/Idols/TopEarnings"))
+);
 
-const Idols = lazy(() => import("../containers/Idols/Idols"));
+const Ranking = lazy(() =>
+  componentLoader(() => import("../containers/Idols/Ranking"))
+);
 
-const Idol = lazy(() => import("../containers/Idols/Idol"));
+const Idols = lazy(() =>
+  componentLoader(() => import("../containers/Idols/Idols"))
+);
 
-const Dvds = lazy(() => import("../containers/Dvds/Dvds"));
+const Idol = lazy(() =>
+  componentLoader(() => import("../containers/Idols/Idol"))
+);
 
-const PreReleaseDvds = lazy(() => import("../containers/Dvds/PreReleaseDvds"));
+const Dvds = lazy(() =>
+  componentLoader(() => import("../containers/Dvds/Dvds"))
+);
 
-const AmateurDvds = lazy(() => import("../containers/Dvds/AmateurDvds"));
+const PreReleaseDvds = lazy(() =>
+  componentLoader(() => import("../containers/Dvds/PreReleaseDvds"))
+);
 
-const OnlineVideos = lazy(() => import("../containers/Videos/OnlineVideos"));
+const AmateurDvds = lazy(() =>
+  componentLoader(() => import("../containers/Dvds/AmateurDvds"))
+);
+
+const OnlineVideos = lazy(() =>
+  componentLoader(() => import("../containers/Videos/OnlineVideos"))
+);
 
 function Routes() {
   return (
