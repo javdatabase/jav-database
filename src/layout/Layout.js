@@ -52,6 +52,8 @@ function Layout() {
       return "Amateur Dvds";
     } else if (matchPath(path, { path: "/online-videos", exact: true })) {
       return "Online Videos";
+    } else if (matchPath(path, { path: "/debug", exact: true })) {
+      return "Debug";
     } else {
       return "Not Found";
     }

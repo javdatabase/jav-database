@@ -1,13 +1,10 @@
-import { SIZE_MAIN_DVDS } from "../services/dvds.service";
-import { SIZE_IDOLS } from "../services/idols.service";
-
 import MainDvds from "../data/dvds/main";
 import Idols from "../data/idols";
 
-function CheckAlreadyExistDvd() {
+function checkAlreadyExistDvd() {
   let count = 0;
   let response = [];
-  for (let i = 1; i < SIZE_MAIN_DVDS; i++) {
+  for (let i = 1; i < MainDvds.length; i++) {
     for (let j = 0; j < i; j++) {
       if (MainDvds[i].code === MainDvds[j].code && MainDvds[i].code !== "") {
         count++;
@@ -22,12 +19,10 @@ function CheckAlreadyExistDvd() {
   }
 }
 
-const RESULT_CHECK_ALREADY_EXIST_DVD = CheckAlreadyExistDvd();
-
-function CheckAlreadyExistPoster() {
+function checkAlreadyExistPoster() {
   let count = 0;
   let response = [];
-  for (let i = 1; i < SIZE_MAIN_DVDS; i++) {
+  for (let i = 1; i < MainDvds.length; i++) {
     for (let j = 0; j < i; j++) {
       if (
         MainDvds[i].poster === MainDvds[j].poster &&
@@ -45,11 +40,11 @@ function CheckAlreadyExistPoster() {
   }
 }
 
-const RESULT_CHECK_ALREADY_EXIST_POSTER = CheckAlreadyExistPoster();
-
-function CheckPosterIsFalsy() {
-  const data = MainDvds.filter(item => item.poster === "" && item.code !== "");
-  const response = data.map(item => item.code);
+function checkPosterIsFalsy() {
+  const data = MainDvds.filter(
+    (item) => item.poster === "" && item.code !== ""
+  );
+  const response = data.map((item) => item.code);
   if (data.length > 0) {
     return response;
   } else {
@@ -57,12 +52,10 @@ function CheckPosterIsFalsy() {
   }
 }
 
-const RESULT_CHECK_POSTER_FALSY = CheckPosterIsFalsy();
-
-function CheckAlreadyExistIdols() {
+function checkAlreadyExistIdols() {
   let count = 0;
   let response = [];
-  for (let i = 1; i < SIZE_IDOLS; i++) {
+  for (let i = 1; i < Idols.length; i++) {
     for (let j = 0; j < i; j++) {
       if (Idols[i].name === Idols[j].name && Idols[i].name !== "") {
         count++;
@@ -77,12 +70,10 @@ function CheckAlreadyExistIdols() {
   }
 }
 
-const RESULT_CHECK_ALREADY_EXIST_IDOLS = CheckAlreadyExistIdols();
-
-function CheckAlreadyExistIdIdols() {
+function checkAlreadyExistIdIdols() {
   let count = 0;
   let response = [];
-  for (let i = 1; i < SIZE_IDOLS; i++) {
+  for (let i = 1; i < Idols.length; i++) {
     for (let j = 0; j < i; j++) {
       if (Idols[i].idIdol === Idols[j].idIdol) {
         count++;
@@ -97,12 +88,10 @@ function CheckAlreadyExistIdIdols() {
   }
 }
 
-const RESULT_CHECK_ALREADY_EXIST_ID_IDOLS = CheckAlreadyExistIdIdols();
-
 export {
-  RESULT_CHECK_ALREADY_EXIST_DVD,
-  RESULT_CHECK_ALREADY_EXIST_POSTER,
-  RESULT_CHECK_POSTER_FALSY,
-  RESULT_CHECK_ALREADY_EXIST_IDOLS,
-  RESULT_CHECK_ALREADY_EXIST_ID_IDOLS
+  checkAlreadyExistDvd,
+  checkAlreadyExistPoster,
+  checkPosterIsFalsy,
+  checkAlreadyExistIdols,
+  checkAlreadyExistIdIdols,
 };

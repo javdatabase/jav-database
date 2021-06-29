@@ -1,16 +1,16 @@
 import React, { PureComponent } from "react";
 import styled from "styled-components";
 
-import { White, Black, Red } from "../../themes/colors";
+import { White, Red } from "../../themes/colors";
+import { fadeIn } from "../../themes/styled";
 import { Large, XXLarge } from "../../themes/font";
 
 const Container = styled.div`
   width: 100%;
-  height: calc(100vh - 100px);
-  padding: 50px 320px 30px;
-  background-color: ${Black};
-  overflow: auto;
+  height: 100%;
+  padding: 35px 320px;
   box-sizing: border-box;
+  animation: ${fadeIn} 0.8s ease-in-out;
 `;
 
 const Title = styled.h3`
@@ -18,6 +18,7 @@ const Title = styled.h3`
   font-weight: bold;
   color: ${Red};
   text-align-center;
+  margin-bottom: 50px;
 `;
 
 const Content = styled.p`
