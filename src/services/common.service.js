@@ -3,21 +3,46 @@ import { get, omit, random } from "lodash";
 import Idols from "../data/idols";
 import MainDvds from "../data/dvds/main";
 
-import { ALL_IDOLS_DETAIL, BEST_IDOL_IDS } from "./idols.service";
+import { SIZE_IDOLS, ALL_IDOLS_DETAIL, BEST_IDOL_IDS } from "./idols.service";
 import { SIZE_MAIN_DVDS } from "./dvds.service";
 
+function findIdolById(id) {
+  let detail = undefined;
+  for (let i = 0; i < SIZE_IDOLS; i++) {
+    if (Idols[i].idIdol === id) {
+      detail = Idols[i];
+    }
+  }
+  return detail;
+}
+
 function getIdolDetail(id) {
-  const detail = Idols.find((idol) => idol.idIdol === id);
+  const detail = findIdolById(id);
   return omit(detail, ["album"]);
 }
 
 function getIdolName(id) {
-  const detail = Idols.find((idol) => idol.idIdol === id);
+  let detail = undefined;
+  for (let i = 0; i < SIZE_IDOLS; i++) {
+    if (Idols[i].idIdol === id) {
+      detail = Idols[i];
+    }
+  }
   return get(detail, "name", "");
 }
 
+function findIdolDetail(id) {
+  let detail = undefined;
+  for (let i = 0; i < ALL_IDOLS_DETAIL.length; i++) {
+    if (ALL_IDOLS_DETAIL[i].idIdol === id) {
+      detail = ALL_IDOLS_DETAIL[i];
+    }
+  }
+  return detail;
+}
+
 function getIdolRank(id) {
-  const detail = ALL_IDOLS_DETAIL.find((idol) => idol.idIdol === id);
+  const detail = findIdolDetail(id);
   return get(detail, "rank", "");
 }
 
@@ -79,20 +104,13 @@ function getDvdsByIdol(id) {
 function getDvdsRandom() {
   function randomDvds() {
     let dvds = Array(15).fill(0);
-    dvds.forEach((item, index) => {
-      const temp = MainDvds[random(SIZE_MAIN_DVDS - 1)];
-      dvds[index] = temp;
-    });
+    for (let i = 0; i < dvds.length; i++) {
+      dvds[i] = MainDvds[random(SIZE_MAIN_DVDS - 1)];
+    }
     return dvds;
   }
 
-  // TODO: Comment this line
-  // return [];
-
-  return randomDvds().map((dvd) => ({
-    ...dvd,
-    idols: dvd.idols.map((idol) => getIdolDetail(idol.idIdol)),
-  }));
+  return randomDvds();
 }
 
 function sortDvds(dvds) {
@@ -107,6 +125,7 @@ function sortDvds(dvds) {
 }
 
 export {
+  findIdolDetail,
   getIdolDetail,
   getIdolName,
   getIdolRank,

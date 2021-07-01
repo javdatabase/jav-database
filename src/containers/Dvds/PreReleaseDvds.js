@@ -3,7 +3,7 @@ import styled from "styled-components";
 import LazyLoad from "react-lazyload";
 
 import {
-  ALL_DVDS_PRE_RELEASE_DETAIL_BY_PAGE,
+  ALL_DVDS_PRE_RELEASE_BY_PAGE,
   SIZE_PRE_RELEASE_DVDS,
 } from "../../services/dvds.service";
 import Pagination from "../../components/UI/Pagination/Pagination";
@@ -65,7 +65,7 @@ function PreReleaseDvds() {
   const [data, setData] = useState(null);
 
   const dvds = useMemo(() => {
-    return ALL_DVDS_PRE_RELEASE_DETAIL_BY_PAGE(page, 30);
+    return ALL_DVDS_PRE_RELEASE_BY_PAGE(page, 30);
   }, [page]);
 
   const handleChangePage = useCallback((page) => {

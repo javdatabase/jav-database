@@ -5,7 +5,4 @@ const response = File1.concat([]).map((item, index) => ({
   idDvd: `prd${index}`,
 }));
 
-// TODO: Comment this line
-// export default [];
-
 export default response;

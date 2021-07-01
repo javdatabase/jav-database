@@ -2,7 +2,7 @@ import React, { useState, useCallback } from "react";
 import styled from "styled-components";
 
 import { getDvdsRandom } from "../../services/common.service";
-import { NEW_DVDS_RELEASE_DETAIL } from "../../services/dvds.service";
+import { NEW_DVDS_RELEASE } from "../../services/dvds.service";
 import WaterWheelSlider from "../../components/UI/Slider/WaterWheelSlider/Slider";
 import NewDvdReleaseCard from "../../components/Dvds/NewDvdReleaseCard";
 import NewDvdReleaseDetail from "../../components/Dvds/NewDvdReleaseDetail";
@@ -88,7 +88,7 @@ const DetailContainer = styled.div`
 function Home() {
   const [type, setType] = useState("new");
   const [highlight, setHighlight] = useState(0);
-  const [data, setData] = useState(NEW_DVDS_RELEASE_DETAIL);
+  const [data, setData] = useState(NEW_DVDS_RELEASE);
 
   const changeHighlight = useCallback((value) => {
     setHighlight(value);
@@ -96,7 +96,7 @@ function Home() {
 
   const changeType = useCallback((value) => {
     if (value === "new") {
-      setData(NEW_DVDS_RELEASE_DETAIL);
+      setData(NEW_DVDS_RELEASE);
     } else {
       setData(getDvdsRandom());
     }

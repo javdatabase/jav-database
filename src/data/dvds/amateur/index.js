@@ -2,10 +2,7 @@ import File1 from "./json/file-1";
 
 const response = [].concat(File1).map((item, index) => ({
   ...item,
-  idDvd: `acd${index}`
+  idDvd: `acd${index}`,
 }));
-
-// TODO: Comment this line
-// export default [];
 
 export default response;

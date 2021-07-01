@@ -1,7 +1,7 @@
-import React, { Fragment,memo, useState, useCallback } from "react";
+import React, { Fragment, memo, useState, useCallback } from "react";
 import styled from "styled-components";
 
-import { getIdolRank } from "../../services/common.service";
+import { getIdolDetail, getIdolRank } from "../../services/common.service";
 import DvdPoster from "./DvdPoster";
 import IdolTag from "../Idols/IdolTag";
 import IdolDetail from "../Idols/IdolDetail";
@@ -90,7 +90,8 @@ function NewDvdReleaseDetail({ data, active }) {
   const handleChangeIdol = useCallback(
     (value) => {
       if (value) {
-        setIdol(value);
+        const response = getIdolDetail(value.idIdol);
+        setIdol(response);
       } else {
         setIdol(null);
       }
@@ -127,7 +128,7 @@ function NewDvdReleaseDetail({ data, active }) {
           </DetailContainer>
         </Container>
       )}
-      <IdolDetail show={show} toggleModal={toggleModal} data={idol} />
+      {show && <IdolDetail show={show} toggleModal={toggleModal} data={idol} />}
     </Fragment>
   );
 }

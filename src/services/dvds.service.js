@@ -4,13 +4,10 @@ import MainDvds from "../data/dvds/main";
 import PreReleaseDvds from "../data/dvds/pre-release";
 import AmateurDvds from "../data/dvds/amateur";
 
-import { getIdolDetail } from "./common.service";
-
 const SIZE_MAIN_DVDS = MainDvds.length;
 const SIZE_AMATEUR_DVDS = AmateurDvds.length;
 const SIZE_PRE_RELEASE_DVDS = PreReleaseDvds.length;
 
-// TODO: Clear comment
 const NEW_DVDS_RELEASE = [
   MainDvds[SIZE_MAIN_DVDS - 1],
   MainDvds[SIZE_MAIN_DVDS - 2],
@@ -29,12 +26,7 @@ const NEW_DVDS_RELEASE = [
   MainDvds[SIZE_MAIN_DVDS - 15],
 ];
 
-const NEW_DVDS_RELEASE_DETAIL = NEW_DVDS_RELEASE.map((dvd) => ({
-  ...dvd,
-  idols: dvd.idols.map((idol) => getIdolDetail(idol.idIdol)),
-}));
-
-const ALL_DVDS_RELEASE_DETAIL_BY_PAGE = (code, type, idols, page, pageSize) => {
+const ALL_DVDS_RELEASE_BY_PAGE = (code, type, idols, page, pageSize) => {
   let temp = MainDvds;
   if (code) {
     temp = temp.filter((item) =>
@@ -64,30 +56,18 @@ const ALL_DVDS_RELEASE_DETAIL_BY_PAGE = (code, type, idols, page, pageSize) => {
       index < size - (page - 1) * pageSize && index > size - 1 - page * pageSize
     );
   });
-  const response = [...temp].reverse().map((dvd) => ({
-    ...dvd,
-    idols: dvd.idols.map((idol) => getIdolDetail(idol.idIdol)),
-  }));
+  const response = temp.reverse();
   return { data: response, size: size };
 };
 
-const ALL_DVDS_PRE_RELEASE_DETAIL_BY_PAGE = (page, pageSize) => {
+const ALL_DVDS_PRE_RELEASE_BY_PAGE = (page, pageSize) => {
   const temp = PreReleaseDvds.filter((item, index) => {
     return (
       index < SIZE_PRE_RELEASE_DVDS - (page - 1) * pageSize &&
       index > SIZE_PRE_RELEASE_DVDS - 1 - page * pageSize
     );
   });
-  const response = [...temp].reverse().map((dvd) => ({
-    ...dvd,
-    idols: dvd.idols.map((idol) => {
-      if (idol.idIdol === "jai000") {
-        return idol;
-      } else {
-        return getIdolDetail(idol.idIdol);
-      }
-    }),
-  }));
+  const response = temp.reverse();
   return response;
 };
 
@@ -98,7 +78,7 @@ const ALL_DVDS_AMATEUR_BY_PAGE = (page, pageSize) => {
       index > SIZE_AMATEUR_DVDS - 1 - page * pageSize
     );
   });
-  const response = [...temp].reverse();
+  const response = temp.reverse();
   return response;
 };
 
@@ -107,8 +87,7 @@ export {
   SIZE_AMATEUR_DVDS,
   SIZE_PRE_RELEASE_DVDS,
   NEW_DVDS_RELEASE,
-  NEW_DVDS_RELEASE_DETAIL,
-  ALL_DVDS_RELEASE_DETAIL_BY_PAGE,
-  ALL_DVDS_PRE_RELEASE_DETAIL_BY_PAGE,
+  ALL_DVDS_RELEASE_BY_PAGE,
+  ALL_DVDS_PRE_RELEASE_BY_PAGE,
   ALL_DVDS_AMATEUR_BY_PAGE,
 };

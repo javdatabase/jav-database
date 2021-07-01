@@ -14,6 +14,7 @@ const InputCustom = styled.input`
   box-sizing: border-box;
   font-family: Fredoka One;
   font-size: ${Large};
+  outline: none;
 
   ::placeholder {
     color: ${Grey};

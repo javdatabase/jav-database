@@ -3,6 +3,7 @@ import { toUpper, trim } from "lodash";
 import Idols from "../data/idols";
 
 import {
+  findIdolDetail,
   getAllIdolsDetail,
   sortIdols,
   sortDvds,
@@ -176,7 +177,7 @@ const ALL_IDOLS_BY_PAGE = (
 };
 
 const IDOL_PROFILE = (id) => {
-  let idol = ALL_IDOLS_DETAIL.find((item) => item.idIdol === id);
+  let idol = findIdolDetail(id);
   if (idol) {
     idol = {
       ...idol,

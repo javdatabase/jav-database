@@ -5,7 +5,4 @@ const response = [].concat(File1).map((item, index) => ({
   idVideo: `oov${index}`,
 }));
 
-// TODO: Comment this line
-// export default [];
-
 export default response;
