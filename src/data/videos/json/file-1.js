@@ -71,6 +71,14 @@ const File1 = [
     type: "US/EU",
     idols: ["Aubrey Gold"],
   },
+  {
+    title: `BUT SHE HELPS ME STUDY !`,
+    source: `BRAZZERS`,
+    link: "https://www.brazzers.com",
+    content: `<iframe width="943" height="530" src="https://fapster.xxx/embed/5678" frameborder="0" allowfullscreen></iframe>`,
+    type: "US/EU",
+    idols: ["Lily Jordan"],
+  },
 ];
 
 export default File1;
