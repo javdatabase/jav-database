@@ -142,31 +142,7 @@ function Idols() {
       get(state, "page", 1),
       20
     );
-    let idolData = [];
-    result.data.forEach((item, index) => {
-      let found = idolData.findIndex((data) => data.id.includes(item.idIdol));
-      if (found > -1) {
-        const newData = {
-          ...idolData[found],
-          idols: [...idolData[found].idols, item],
-        };
-        idolData[found] = newData;
-      } else {
-        const newData = {
-          id: `${item.idIdol}${
-            result.data[index + 1] ? result.data[index + 1].idIdol : ""
-          }${result.data[index + 2] ? result.data[index + 2].idIdol : ""}${
-            result.data[index + 3] ? result.data[index + 3].idIdol : ""
-          }${result.data[index + 4] ? result.data[index + 4].idIdol : ""}`,
-          idols: [item],
-        };
-        idolData.push(newData);
-      }
-    });
-    return {
-      size: result.size,
-      data: idolData,
-    };
+    return result;
   }, [location.state]);
 
   const changeFilterHeight = useCallback(() => {
@@ -421,19 +397,14 @@ function Idols() {
           <IdolContainer>
             {idols.data.map((item) => (
               <LazyLoad
-                key={item.id}
-                height={"calc(22vw + 50px)"}
+                key={item.idIdol}
+                height={200}
                 once={true}
                 overflow={true}
               >
-                {item.idols.map((idol) => (
-                  <IdolItem key={idol.idIdol}>
-                    <IdolCard
-                      data={idol}
-                      click={() => handleChangeData(idol)}
-                    />
-                  </IdolItem>
-                ))}
+                <IdolItem>
+                  <IdolCard data={item} click={() => handleChangeData(item)} />
+                </IdolItem>
               </LazyLoad>
             ))}
           </IdolContainer>
