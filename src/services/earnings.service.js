@@ -12,7 +12,10 @@ const BEST_DVD_IDS = [
   "jai057",
   "jai151",
   "jai154",
+  "jai170",
+  "jai171",
   "jai175",
+  "jai187",
 ];
 const BEST_IDOL_IDS = [
   "jai001",
@@ -24,11 +27,14 @@ const BEST_IDOL_IDS = [
   "jai057",
   "jai151",
   "jai154",
+  "jai170",
+  "jai171",
   "jai175",
   "jai176",
   "jai179",
+  "jai187",
 ];
-const SWEET_NIGHT_IDS = [];
+const SWEET_NIGHT_IDS = ["jai001", "jai001", "jai001", "jai002", "jai002"];
 const TOP_POINT_GROWTH_IDS = ["jai007", "jai048", "jai057"];
 const TOP_IDOL_IDS = [
   "jai062",
@@ -51,10 +57,13 @@ const HAS_DVD_IDS = [
   "jai139",
   "jai151",
   "jai154",
+  "jai170",
+  "jai171",
   "jai175",
   "jai176",
   "jai179",
   "jai185",
+  "jai187",
 ];
 const NEWBIE_IDS = [];
 
@@ -113,6 +122,10 @@ function getEarningIdol(rank, points, styles, uncensored, best) {
   );
 }
 
+function getEarningStar(points) {
+  return points * MonthEarnings.usuk;
+}
+
 function getPriceOneNight(earnings) {
   return Math.ceil(earnings / OneNightRatio);
 }
@@ -151,4 +164,4 @@ function getBonusEarnings(id) {
   return bonus;
 }
 
-export { getEarningIdol, getPriceOneNight, getBonusEarnings };
+export { getEarningIdol, getEarningStar, getPriceOneNight, getBonusEarnings };

@@ -141,6 +141,7 @@ const Picture = styled(IdolAvatar)`
   width: 5vw;
   min-width: 5vw;
   height: 7.5vw;
+  object-fit: cover;
 `;
 
 const EarningContainer = styled.div`

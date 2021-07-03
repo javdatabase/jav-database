@@ -1,7 +1,7 @@
 import React, { useMemo, useCallback } from "react";
 import { get } from "lodash";
 import styled from "styled-components";
-import { useHistory, useLocation } from "react-router-dom";
+import { Link, useHistory, useLocation } from "react-router-dom";
 
 import { SIZE_VIDEOS, ALL_VIDEOS } from "../../services/videos.service";
 import Pagination from "../../components/UI/Pagination/Pagination";
@@ -70,7 +70,7 @@ const IdolsContainer = styled.div`
   margin-bottom: 30px;
 `;
 
-const TagIdol = styled(IdolTag)`
+const TagStar = styled(IdolTag)`
   cursor: pointer;
   margin-top: 10px;
   color: ${Black};
@@ -123,8 +123,14 @@ function OnlineVideos() {
           </Studio>
         </Source>
         <IdolsContainer>
-          {get(ALL_VIDEOS[highlight], "idols", []).map((item) => (
-            <TagIdol key={item} name={item} />
+          {get(ALL_VIDEOS[highlight], "stars", []).map((item) => (
+            <Link
+              key={item.idStar}
+              to={`/star/${item.idStar}`}
+              style={{ textDecoration: "none", color: Black }}
+            >
+              <TagStar name={item.name} />
+            </Link>
           ))}
         </IdolsContainer>
         <VideoContent

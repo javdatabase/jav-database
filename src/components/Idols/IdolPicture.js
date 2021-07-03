@@ -16,6 +16,7 @@ const AvatarIdol = styled(IdolAvatar)`
   transform: translate(-50%, -50%);
   display: ${(props) => (props.show === "true" ? "block" : "none")};
   height: 90vh;
+  object-fit: cover;
   border-radius: 12px;
   animation: ${fadeIn} 0.3s ease-in-out;
 `;

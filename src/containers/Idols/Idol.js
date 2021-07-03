@@ -243,6 +243,7 @@ const PictureBorder = styled.div`
 
 const Picture = styled(IdolAvatar)`
   width: 18vw;
+  object-fit: cover;
 `;
 
 const EarningContainer = styled.div`

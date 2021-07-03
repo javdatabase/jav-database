@@ -112,6 +112,10 @@ const OnlineVideos = lazy(() =>
   componentLoader(() => import("../containers/Videos/OnlineVideos"))
 );
 
+const Star = lazy(() =>
+  componentLoader(() => import("../containers/Stars/Star"))
+);
+
 const Debug = lazy(() =>
   componentLoader(() => import("../containers/Common/Debug"))
 );
@@ -139,6 +143,7 @@ function Routes() {
         />
         <Route path={"/amateur-dvds"} exact={true} component={AmateurDvds} />
         <Route path={"/online-videos"} exact={true} component={OnlineVideos} />
+        <Route path={"/star/:id"} exact={false} component={Star} />
         <Route path={"/debug"} exact={true} component={Debug} />
         <Route path={"*"} component={NotFound} />
       </Switch>

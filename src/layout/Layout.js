@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from "react";
-import { matchPath, useLocation } from "react-router-dom";
+import { matchPath, useLocation, Link } from "react-router-dom";
 import styled from "styled-components";
 
 import { getIdolName } from "../services/common.service";
@@ -9,9 +9,12 @@ import Header from "../components/Headers/Header";
 import ErrorBoundary from "../components/ErrorBoundary/ErrorBoundary";
 import Routes from "../routes/Routes";
 
-import { Black } from "../themes/colors";
+import { Black, White, Grey } from "../themes/colors";
+import { center } from "../themes/styled";
+import BugIcon from "../assets/images/ic_bug/ic_bug.svg";
 
 const Container = styled.div`
+  position: relative;
   width: 100vw;
   height: 100vh;
   overflow: hidden;
@@ -23,6 +26,27 @@ const Body = styled.div`
   width: 100vw;
   height: 100vh;
   background-color: ${Black};
+`;
+
+const ButtonLink = styled(Link)`
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  ${center};
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: ${White};
+  box-shadow: 0px 0px 20px 0px ${Black};
+
+  &:hover {
+    box-shadow: 0px 0px 20px 0px ${Grey};
+  }
+
+  img {
+    width: 30px;
+    height: 30px;
+  }
 `;
 
 function Layout() {
@@ -76,6 +100,9 @@ function Layout() {
           <Routes />
         </ErrorBoundary>
       </Body>
+      <ButtonLink to={"/debug"}>
+        <img src={BugIcon} alt={""} />
+      </ButtonLink>
     </Container>
   );
 }

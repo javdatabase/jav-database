@@ -50,27 +50,6 @@ const File1 = [
     idols: [{ idIdol: "jai016", name: "Kanako Iioka" }],
   },
   {
-    code: "SSIS-109",
-    title: `THE SINGLE FATHER-IN-LAW WHO PRETENDED TO BE OUT OF FOCUS WAS AN UNEQUALED MONSTER WEARING THE SKIN OF AN OLD MAN WITH A STRONG LIBIDO`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/ssis109/ssis109pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai187", name: "Tsubaki Sannomiya" }],
-  },
-  {
-    code: "SSIS-110",
-    title: `CELEBRITY'S LATENT LEWD DESIRE BIG EXPLOSION ! 180 MINUTES I'M GOING TO GET IT AND I'M GOING TO BREAK THROUGH THE LIMIT 4 PRODUCTION RIRI NANATSUMORI`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/ssis110/ssis110pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai170", name: "Riri Nanatsumori" }],
-  },
-  {
-    code: "SSIS-111",
-    title: `BEAUTIFUL BREASTS PORORI GOD MILK BEAUTY LUCKY BOOBS HAPPENING SP AKA ASUKA`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/ssis111/ssis111pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai171", name: "Aka Asuka" }],
-  },
-  {
     code: "SSIS-116",
     title: `FROM THE PAST TO THE FUTURE NOW , EXPOSE EVERYTHING ... ULTIMATE SEXUAL INTERCOURSE MEMORIAL 5 PRODUCTION YUA MIKAMI`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/ssis116/ssis116pl.jpg",
@@ -97,13 +76,6 @@ const File1 = [
     poster: "http://pics.dmm.co.jp/mono/movie/adult/pppd942/pppd942pl.jpg",
     type: "Censored",
     idols: [{ idIdol: "jai065", name: "Hitomi Tanaka" }],
-  },
-  {
-    code: "MMKZ-098",
-    title: `MY SISTER'S BIG BUTT IS TOO OBSCENE AND SHE IS KILLED IN SECONDS ! ! ! HONOKA TSUJII`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/mmkz098so/mmkz098sopl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai048", name: "Honoka Tsuji" }],
   },
   {
     code: "IPX-689",

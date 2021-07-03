@@ -5,7 +5,7 @@ const File1 = [
     link: "https://5kporn.com",
     content: `<iframe width="943" height="530" src="https://fapster.xxx/embed/24471" frameborder="0" allowfullscreen />`,
     type: "US/EU",
-    idols: ["Gabbie Carter"],
+    stars: [{ idStar: "ups001", name: "Gabbie Carter" }],
   },
   {
     title: `THE BIKINI THIEF IN KARUPS`,
@@ -13,7 +13,7 @@ const File1 = [
     link: "https://karups.com",
     content: `<iframe width="943" height="530" src="https://fapster.xxx/embed/116501" frameborder="0" allowfullscreen />`,
     type: "US/EU",
-    idols: ["Melody Marks"],
+    stars: [{ idStar: "ups002", name: "Melody Marks" }],
   },
   {
     title: `STRIPPER WITH DOUBLE D’S HOPS ON THE BUS`,
@@ -21,7 +21,7 @@ const File1 = [
     link: "https://bangbros.com",
     content: `<iframe width="943" height="530" src="https://www.pornoeggs.com/embed?v=s0r9NsS-r0y" frameborder="0" allowfullscreen />`,
     type: "US/EU",
-    idols: ["Skylar Vox"],
+    stars: [{ idStar: "ups003", name: "Skylar Vox" }],
   },
   {
     title: `PUBLIC DISPLAY IN EROTICAX`,
@@ -29,7 +29,7 @@ const File1 = [
     link: "https://eroticax.com",
     content: `<iframe width="943" height="530" src="https://fapster.xxx/embed/11739" frameborder="0" allowfullscreen></iframe>`,
     type: "US/EU",
-    idols: ["Leah Gotti"],
+    stars: [{ idStar: "ups004", name: "Leah Gotti" }],
   },
   {
     title: `GIRLSDOPORN E409 18 YEARS OLD CREAMPIE AND ANAL RETURN`,
@@ -37,7 +37,7 @@ const File1 = [
     link: "",
     content: `<iframe width="943" height="530" src="https://www.peekvids.com/embed?v=hUSbu9Xk7IK" frameborder="0" allowfullscreen></iframe>`,
     type: "US/EU",
-    idols: ["Hannah Harrell"],
+    stars: [{ idStar: "ups005", name: "Hannah Harrell" }],
   },
   {
     title: `BAD BABYSITTER EPISODE 1`,
@@ -45,7 +45,7 @@ const File1 = [
     link: "https://www.digitalplayground.com",
     content: `<iframe width="943" height="530" src="https://fapster.xxx/embed/177109" frameborder="0" allowfullscreen></iframe>`,
     type: "US/EU",
-    idols: ["Dolly Leigh"],
+    stars: [{ idStar: "ups006", name: "Dolly Leigh" }],
   },
   {
     title: `STEP SON CREAMPIES HIS SNEAKY BLONDE MOM`,
@@ -53,7 +53,7 @@ const File1 = [
     link: "https://www.missax.com",
     content: `<iframe width="943" height="530" src="https://www.fpo.xxx/embed/71455" frameborder="0" allowfullscreen></iframe>`,
     type: "US/EU",
-    idols: ["Josette Duval"],
+    stars: [{ idStar: "ups007", name: "Josette Duval" }],
   },
   {
     title: `FATHERS DAY`,
@@ -61,7 +61,7 @@ const File1 = [
     link: "https://www.familystrokes.com",
     content: `<iframe width="943" height="530" src="https://pornwild.to/embed/130917" frameborder="0" allowfullscreen></iframe>`,
     type: "US/EU",
-    idols: ["Malina Mars"],
+    stars: [{ idStar: "ups008", name: "Malina Mars" }],
   },
   {
     title: `COCK CONCENTRATION`,
@@ -69,7 +69,7 @@ const File1 = [
     link: "https://www.innocenthigh.com",
     content: `<iframe width="943" height="530" src="https://fapster.xxx/embed/150021" frameborder="0" allowfullscreen></iframe>`,
     type: "US/EU",
-    idols: ["Aubrey Gold"],
+    stars: [{ idStar: "ups009", name: "Aubrey Gold" }],
   },
   {
     title: `BUT SHE HELPS ME STUDY !`,
@@ -77,7 +77,7 @@ const File1 = [
     link: "https://www.brazzers.com",
     content: `<iframe width="943" height="530" src="https://fapster.xxx/embed/5678" frameborder="0" allowfullscreen></iframe>`,
     type: "US/EU",
-    idols: ["Lily Jordan"],
+    stars: [{ idStar: "ups010", name: "Lily Jordan" }],
   },
 ];
 
