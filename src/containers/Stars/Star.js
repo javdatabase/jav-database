@@ -13,15 +13,7 @@ import Tabs from "../../components/UI/Tabs/Tabs";
 import IdolAvatar from "../../components/Idols/IdolAvatar";
 import StarPicture from "../../components/Idols/IdolPicture";
 
-import {
-  Orange,
-  Pink,
-  White,
-  LightBlue,
-  Yellow,
-  Red,
-  Black,
-} from "../../themes/colors";
+import { Black, Grey, Orange, Pink, DarkBlue } from "../../themes/colors";
 import { center, fadeIn } from "../../themes/styled";
 import { Large, XLarge, XXLarge } from "../../themes/font";
 
@@ -70,7 +62,7 @@ const AvatarContainer = styled.div`
   transition: border 0.3s ease-in-out;
 
   &:hover {
-    border: solid 5px ${Pink};
+    border: solid 5px ${Grey};
   }
 `;
 
@@ -82,21 +74,14 @@ const AvatarStar = styled(IdolAvatar)`
 
 const Information = styled.div`
   margin-left: 10px;
-  color: ${White};
+  color: ${DarkBlue};
   font-size: ${Large};
   line-height: 35px;
 `;
 
 const NameStar = styled.div`
   font-size: ${XXLarge};
-  background: ${(props) =>
-    props.queen
-      ? `linear-gradient(to right, ${Yellow}, ${Red})`
-      : props.runnerUp
-      ? `linear-gradient(to right, ${LightBlue}, ${Pink})`
-      : `linear-gradient(to right, ${Orange}, ${Pink})`};
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: ${Grey};
 `;
 
 const PointsStar = styled.div`
@@ -105,7 +90,7 @@ const PointsStar = styled.div`
   margin-top: 10px;
   margin-bottom: 50px;
   border-radius: 18px;
-  background: linear-gradient(to right, ${Orange}, ${Pink});
+  background: ${Grey};
   color: ${Black};
   font-size: ${XLarge};
 `;
@@ -126,7 +111,7 @@ const Content = styled.div`
   }
 
   &::-webkit-scrollbar-thumb {
-    background: linear-gradient(${Orange}, ${Pink});
+    background: ${Grey};
     border-radius: 10px;
   }
 `;
@@ -155,7 +140,7 @@ const PictureBorder = styled.div`
   transition: border 0.3s ease-in-out;
 
   &:hover {
-    border: solid 5px ${Pink};
+    border: solid 5px ${Grey};
   }
 `;
 
@@ -175,7 +160,7 @@ const EarningContainer = styled.div`
 const PriceIdol = styled.div`
   padding: 5px 10px;
   border-radius: 12px;
-  background-color: ${White};
+  background-color: ${Grey};
   color: ${Black};
   font-size: ${Large};
 `;
@@ -256,7 +241,12 @@ function Star() {
         </ProfileContainer>
         <ProductContainer>
           <div style={{ width: "100%" }}>
-            <Tabs data={tabs} active={tab} onChange={handleChangeTab} />
+            <Tabs
+              data={tabs}
+              active={tab}
+              color={Grey}
+              onChange={handleChangeTab}
+            />
             <Content>
               <PictureContainer>
                 {get(data, "album", []).map((item) => (

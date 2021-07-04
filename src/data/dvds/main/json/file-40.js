@@ -2885,6 +2885,20 @@ const File40 = [
     type: "Censored",
     idols: [{ idIdol: "jai171", name: "Aka Asuka" }],
   },
+  {
+    code: "JUL-637",
+    title: `I CAN'T BE AN OKURI-INU NAO JINGUJI`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/jul637/jul637pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai158", name: "Nao Jinguji" }],
+  },
+  {
+    code: "SHKD-953",
+    title: `WET PANTYHOSE OF A DOUBLE-INCOME HOUSEWIFE KANNA MISAKI`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/shkd953/shkd953pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai144", name: "Kanna Misaki" }],
+  },
 ];
 
 export default File40;

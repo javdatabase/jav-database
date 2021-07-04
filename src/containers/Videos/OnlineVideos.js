@@ -123,15 +123,23 @@ function OnlineVideos() {
           </Studio>
         </Source>
         <IdolsContainer>
-          {get(ALL_VIDEOS[highlight], "stars", []).map((item) => (
-            <Link
-              key={item.idStar}
-              to={`/star/${item.idStar}`}
-              style={{ textDecoration: "none", color: Black }}
-            >
-              <TagStar name={item.name} />
-            </Link>
-          ))}
+          {get(ALL_VIDEOS[highlight], "stars", []).map((item) =>
+            item.idStar === "ups000" ? (
+              <TagStar
+                key={item.idStar}
+                name={item.name}
+                style={{ cursor: "auto" }}
+              />
+            ) : (
+              <Link
+                key={item.idStar}
+                to={`/star/${item.idStar}`}
+                style={{ textDecoration: "none", color: Black }}
+              >
+                <TagStar name={item.name} />
+              </Link>
+            )
+          )}
         </IdolsContainer>
         <VideoContent
           dangerouslySetInnerHTML={{

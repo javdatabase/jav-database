@@ -16,7 +16,8 @@ const Tab = styled.div`
   ${center}
   padding: 10px;
   font-size: ${XLarge};
-  background: linear-gradient(to right, ${Pink}, ${Orange});
+  background: ${(props) =>
+    props.color || `linear-gradient(to right, ${Pink}, ${Orange})`};
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: background 0.3s ease-in-out;
@@ -29,20 +30,22 @@ const Bar = styled.div`
   left: ${(props) => `calc(100% * ${props.active} / ${props.size})`};
   width: calc(100% / ${(props) => props.size});
   height: 5px;
-  background: linear-gradient(${Orange}, ${Pink});
+  background: ${(props) =>
+    props.color || `linear-gradient(${Orange}, ${Pink})`};
   transition: left 0.3s ease-in-out;
 `;
 
-function Tabs({ data, active, onChange }) {
+function Tabs({ data, active, onChange, color }) {
   const size = data.length;
 
   return (
     <Container>
-      <Bar size={size} active={active} />
+      <Bar size={size} active={active} color={color} />
       {data.map((item, index) => (
         <Tab
           key={`tab-${index}`}
           activated={index === active}
+          color={color}
           onClick={() => onChange(index)}
         >
           {item}

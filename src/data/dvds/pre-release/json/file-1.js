@@ -28,13 +28,6 @@ const File1 = [
     idols: [{ idIdol: "jai176", name: "Miyabi Midorikawa" }],
   },
   {
-    code: "SHKD-953",
-    title: `WET PANTYHOSE OF A DOUBLE-INCOME HOUSEWIFE KANNA MISAKI`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/shkd953/shkd953pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai144", name: "Kanna Misaki" }],
-  },
-  {
     code: "HZGD-193",
     title: `LOST PARADISE SEXUAL INTERCOURSE-REPEATING SECRET MEETINGS , DEEPENING LOVE ... FORBIDDEN AFFAIR-KANAKO IIOKA`,
     poster:
@@ -104,13 +97,6 @@ const File1 = [
     poster: "http://pics.dmm.co.jp/mono/movie/adult/ipx697/ipx697pl.jpg",
     type: "Censored",
     idols: [{ idIdol: "jai073", name: "Minami Aizawa" }],
-  },
-  {
-    code: "JUL-637",
-    title: `I CAN'T BE AN OKURI-INU NAO JINGUJI`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/jul637/jul637pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai158", name: "Nao Jinguji" }],
   },
   {
     code: "WFR-016",
