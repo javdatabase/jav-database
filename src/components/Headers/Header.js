@@ -1,10 +1,12 @@
-import React, {memo, useCallback } from "react";
+import React, { memo, useCallback } from "react";
 import styled from "styled-components";
-import { useHistory } from "react-router-dom";
+import { useHistory, useLocation } from "react-router-dom";
 
 import DvdsIcon from "../../assets/images/ic_dvds/ic_dvds.svg";
 
-import { Pink, Orange, White, Black } from "../../themes/colors";
+import { isMain } from "../../helpers/router-type";
+
+import { White, Black, Grey, Blue, Pink, Orange } from "../../themes/colors";
 import { center } from "../../themes/styled";
 import { XXLarge } from "../../themes/font";
 
@@ -19,7 +21,10 @@ const Container = styled.div`
   padding: 0 50px;
   position: relative;
   z-index: 100;
-  background-image: linear-gradient(to right, ${Pink}, ${Orange});
+  background: ${(props) =>
+    props.main
+      ? `linear-gradient(to right, ${Pink}, ${Orange})`
+      : `linear-gradient(to right, ${Blue}, ${Grey})`};
 `;
 
 const ElementsGroup = styled.div`
@@ -75,13 +80,14 @@ const Title = styled.span`
 
 function Header({ title, toggleMenu }) {
   const history = useHistory();
+  const location = useLocation();
 
   const handleClickLogo = useCallback(() => {
     history.push("/home");
   }, [history]);
 
   return (
-    <Container>
+    <Container main={isMain(location.pathname)}>
       <ElementsGroup>
         <MenuButton onClick={toggleMenu}>
           <Bar />
@@ -100,6 +106,6 @@ function Header({ title, toggleMenu }) {
   );
 }
 
-const MemoHeader = memo(Header)
+const MemoHeader = memo(Header);
 
 export default MemoHeader;

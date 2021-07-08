@@ -8,7 +8,14 @@ import Pagination from "../../components/UI/Pagination/Pagination";
 import IdolTag from "../../components/Idols/IdolTag";
 import RollingIcon from "../../assets/images/ic_rolling/ic_rolling.svg";
 
-import { White, Black, Grey, Pink, Orange } from "../../themes/colors";
+import {
+  White,
+  Black,
+  Grey,
+  Blue,
+  DarkBlue,
+  LightBlue,
+} from "../../themes/colors";
 import { center, fadeIn } from "../../themes/styled";
 import { XLarge, Regular } from "../../themes/font";
 
@@ -30,7 +37,7 @@ const Container = styled.div`
   }
 
   &::-webkit-scrollbar-thumb {
-    background: linear-gradient(${Orange}, ${Pink});
+    background: linear-gradient(${Blue}, ${Grey});
     border-radius: 10px;
   }
 `;
@@ -46,7 +53,7 @@ const Title = styled.div`
 `;
 
 const Type = styled.span`
-  color: ${Orange};
+  color: ${Grey};
 `;
 
 const Source = styled.div`
@@ -56,11 +63,11 @@ const Source = styled.div`
 
 const Studio = styled.a`
   font-size: ${Regular};
-  color: ${Pink};
+  color: ${DarkBlue};
   text-decoration: underline;
 
   &:hover {
-    color: ${Orange};
+    color: ${LightBlue};
   }
 `;
 
@@ -74,7 +81,7 @@ const TagStar = styled(IdolTag)`
   cursor: pointer;
   margin-top: 10px;
   color: ${Black};
-  background: ${Grey};
+  background: ${Blue};
 `;
 
 const VideoContent = styled.div`

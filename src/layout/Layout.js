@@ -4,6 +4,7 @@ import styled from "styled-components";
 
 import { getIdolName } from "../services/common.service";
 import { BEST_IDOL_IDS } from "../services/idols.service";
+import { STAR_PROFILE } from "../services/stars.service";
 import Navbar from "../components/Navbars/Navbar";
 import Header from "../components/Headers/Header";
 import ErrorBoundary from "../components/ErrorBoundary/ErrorBoundary";
@@ -76,6 +77,8 @@ function Layout() {
       return "Amateur Dvds";
     } else if (matchPath(path, { path: "/online-videos", exact: true })) {
       return "Online Videos";
+    } else if (matchPath(path, { path: "/star/:id", exact: true })) {
+      return STAR_PROFILE(path.replace("/star/", "")).name;
     } else if (matchPath(path, { path: "/debug", exact: true })) {
       return "Debug";
     } else {

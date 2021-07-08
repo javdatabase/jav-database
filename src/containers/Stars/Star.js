@@ -13,7 +13,7 @@ import Tabs from "../../components/UI/Tabs/Tabs";
 import IdolAvatar from "../../components/Idols/IdolAvatar";
 import StarPicture from "../../components/Idols/IdolPicture";
 
-import { Black, Grey, Orange, Pink, DarkBlue } from "../../themes/colors";
+import { Black, Grey, Blue } from "../../themes/colors";
 import { center, fadeIn } from "../../themes/styled";
 import { Large, XLarge, XXLarge } from "../../themes/font";
 
@@ -34,7 +34,7 @@ const Container = styled.div`
   }
 
   &::-webkit-scrollbar-thumb {
-    background: linear-gradient(${Orange}, ${Pink});
+    background: linear-gradient(${Blue}, ${Grey});
     border-radius: 10px;
   }
 `;
@@ -62,7 +62,7 @@ const AvatarContainer = styled.div`
   transition: border 0.3s ease-in-out;
 
   &:hover {
-    border: solid 5px ${Grey};
+    border: solid 5px ${Blue};
   }
 `;
 
@@ -74,14 +74,14 @@ const AvatarStar = styled(IdolAvatar)`
 
 const Information = styled.div`
   margin-left: 10px;
-  color: ${DarkBlue};
+  color: ${Grey};
   font-size: ${Large};
   line-height: 35px;
 `;
 
 const NameStar = styled.div`
   font-size: ${XXLarge};
-  color: ${Grey};
+  color: ${Blue};
 `;
 
 const PointsStar = styled.div`
@@ -90,7 +90,7 @@ const PointsStar = styled.div`
   margin-top: 10px;
   margin-bottom: 50px;
   border-radius: 18px;
-  background: ${Grey};
+  background: ${Blue};
   color: ${Black};
   font-size: ${XLarge};
 `;
@@ -111,7 +111,7 @@ const Content = styled.div`
   }
 
   &::-webkit-scrollbar-thumb {
-    background: ${Grey};
+    background: ${Blue};
     border-radius: 10px;
   }
 `;
@@ -140,7 +140,7 @@ const PictureBorder = styled.div`
   transition: border 0.3s ease-in-out;
 
   &:hover {
-    border: solid 5px ${Grey};
+    border: solid 5px ${Blue};
   }
 `;
 
@@ -244,7 +244,7 @@ function Star() {
             <Tabs
               data={tabs}
               active={tab}
-              color={Grey}
+              color={Blue}
               onChange={handleChangeTab}
             />
             <Content>

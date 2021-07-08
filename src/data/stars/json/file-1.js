@@ -1492,6 +1492,35 @@ const File1 = [
       },
     ],
   },
+  {
+    idStar: "ups006",
+    avatar:
+      "https://cdni.pornpics.com/1280/5/230/61103203/61103203_010_9a21.jpg",
+    name: "Malina Mars",
+    born: "21/11/1997",
+    height: "161 cm",
+    breast: "81 cm",
+    waist: "61 cm",
+    hips: "86 cm",
+    album: [
+      {
+        picture:
+          "https://cdni.pornpics.com/1280/5/230/61103203/61103203_012_caf1.jpg",
+      },
+      {
+        picture:
+          "https://cdni.pornpics.com/1280/5/230/61103203/61103203_006_4ee1.jpg",
+      },
+      {
+        picture:
+          "https://cdni.pornpics.com/1280/5/230/61103203/61103203_005_4a61.jpg",
+      },
+      {
+        picture:
+          "https://cdni.pornpics.com/1280/5/230/61103203/61103203_014_86bb.jpg",
+      },
+    ],
+  },
 ];
 
 export default File1;

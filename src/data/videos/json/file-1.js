@@ -53,7 +53,7 @@ const File1 = [
     link: "https://www.missax.com",
     content: `<iframe width="943" height="530" src="https://www.fpo.xxx/embed/71455" frameborder="0" allowfullscreen></iframe>`,
     type: "US/EU",
-    stars: [{ idStar: "ups006", name: "Josette Duval" }],
+    stars: [{ idStar: "ups000", name: "Josette Duval" }],
   },
   {
     title: `FATHERS DAY`,
@@ -61,7 +61,7 @@ const File1 = [
     link: "https://www.familystrokes.com",
     content: `<iframe width="943" height="530" src="https://pornwild.to/embed/130917" frameborder="0" allowfullscreen></iframe>`,
     type: "US/EU",
-    stars: [{ idStar: "ups007", name: "Malina Mars" }],
+    stars: [{ idStar: "ups006", name: "Malina Mars" }],
   },
   {
     title: `COCK CONCENTRATION`,
@@ -69,7 +69,7 @@ const File1 = [
     link: "https://www.innocenthigh.com",
     content: `<iframe width="943" height="530" src="https://fapster.xxx/embed/150021" frameborder="0" allowfullscreen></iframe>`,
     type: "US/EU",
-    stars: [{ idStar: "ups008", name: "Aubrey Gold" }],
+    stars: [{ idStar: "ups007", name: "Aubrey Gold" }],
   },
   {
     title: `BUT SHE HELPS ME STUDY !`,
@@ -77,7 +77,7 @@ const File1 = [
     link: "https://www.brazzers.com",
     content: `<iframe width="943" height="530" src="https://fapster.xxx/embed/5678" frameborder="0" allowfullscreen></iframe>`,
     type: "US/EU",
-    stars: [{ idStar: "ups009", name: "Lily Jordan" }],
+    stars: [{ idStar: "ups008", name: "Lily Jordan" }],
   },
 ];
 

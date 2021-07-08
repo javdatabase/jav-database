@@ -9,6 +9,7 @@ import {
 } from "../../services/dvds.service";
 import { SIZE_IDOLS } from "../../services/idols.service";
 import { SIZE_VIDEOS } from "../../services/videos.service";
+import { isMain } from "../../helpers/router-type";
 import Backdrop from "../UI/Backdrop/Backdrop";
 import DvdsIcon from "../../assets/images/ic_dvds/ic_dvds.svg";
 import HomeIcon from "../../assets/images/ic_home/ic_home.svg";
@@ -23,9 +24,11 @@ import NextIcon from "../../assets/images/ic_next/ic_next.svg";
 
 import {
   Black,
+  White,
+  Grey,
+  Blue,
   Pink,
   Orange,
-  White,
   LightPurple,
   DarkPurple,
 } from "../../themes/colors";
@@ -39,7 +42,10 @@ const Container = styled.div`
   z-index: 300;
   top: 0;
   left: ${(props) => (props.show ? 0 : -300)}px;
-  background-image: linear-gradient(${Pink}, ${Orange});
+  background: ${(props) =>
+    props.main
+      ? `linear-gradient(to right, ${Pink}, ${Orange})`
+      : `linear-gradient(to right, ${Blue}, ${Grey})`};
   overflow: hidden;
   transition: 0.3s;
   display: flex;
@@ -180,7 +186,7 @@ function Navbar({ show, toggleMenu }) {
   return (
     <Fragment>
       <Backdrop show={show} hiddenModal={toggleMenu} />
-      <Container show={show}>
+      <Container show={show} main={isMain(location.pathname)}>
         <LogoContainer onClick={handleClickLogo}>
           <ImageLogo src={DvdsIcon} alt={""} />
           <CompanyName>JAV Database Official</CompanyName>
