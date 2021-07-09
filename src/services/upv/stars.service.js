@@ -14,18 +14,20 @@ const SWEET_STAR_IDS = [
   "ups004",
   "ups004",
   "ups005",
+  "ups005",
   "ups006",
   "ups006",
   "ups007",
   "ups007",
+  "ups007",
+  "ups007",
+  "ups008",
+  "ups008",
   "ups008",
   "ups008",
   "ups009",
   "ups009",
   "ups009",
-  "ups010",
-  "ups010",
-  "ups010",
 ];
 
 const STAR_PROFILE = (id) => {

@@ -79,6 +79,14 @@ const File1 = [
     type: "US/EU",
     stars: [{ idStar: "ups008", name: "Lily Jordan" }],
   },
+  {
+    title: `TEACHIN A LIL LESSON`,
+    source: `MOFOS`,
+    link: "https://www.mofos.com",
+    content: `<iframe width="943" height="530" src="https://www.playvids.com/embed/23vvA0hoD5N" frameborder="0" allowfullscreen></iframe>`,
+    type: "US/EU",
+    stars: [{ idStar: "ups009", name: "Abigaile Johnson" }],
+  },
 ];
 
 export default File1;

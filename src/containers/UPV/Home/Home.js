@@ -13,6 +13,7 @@ import {
   Black,
   Grey,
   Blue,
+  Orange,
   DarkBlue,
   LightBlue,
 } from "../../../themes/colors";
@@ -53,7 +54,7 @@ const Title = styled.div`
 `;
 
 const Type = styled.span`
-  color: ${Grey};
+  color: ${Orange};
 `;
 
 const Source = styled.div`
@@ -135,7 +136,7 @@ function Home() {
               <TagStar
                 key={item.idStar}
                 name={item.name}
-                style={{ cursor: "auto" }}
+                style={{ cursor: "auto", background: Grey }}
               />
             ) : (
               <Link

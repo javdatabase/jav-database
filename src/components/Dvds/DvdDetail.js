@@ -11,6 +11,7 @@ import IdolTag from "../Idols/IdolTag";
 import {
   Pink,
   White,
+  Grey,
   Orange,
   Black,
   DarkBlue,
@@ -95,7 +96,11 @@ function DvdDetail({ show, toggleModal, data }) {
           <IdolsContainer>
             {get(data, "idols", []).map((item) =>
               item.idIdol === "jai000" ? (
-                <TagIdol key={item.idIdol} name={item.name} />
+                <TagIdol
+                  style={{ background: Grey }}
+                  key={item.idIdol}
+                  name={item.name}
+                />
               ) : (
                 <Link
                   key={item.idIdol}

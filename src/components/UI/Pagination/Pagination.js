@@ -1,4 +1,4 @@
-import React, { memo, useMemo, useCallback, useRef } from "react";
+import React, { memo, useMemo, useEffect, useCallback, useRef } from "react";
 import styled from "styled-components";
 import { useLocation } from "react-router-dom";
 
@@ -87,18 +87,17 @@ function Pagination({ count, page, size, handleChangePage }) {
     return result;
   }, [count, size]);
 
+  useEffect(() => {
+    const scroll = (page - 1) * 35;
+    pageContainerRef.current.scrollTo(scroll < 0 ? 0 : scroll, 0);
+  }, [page]);
+
   const handleChange = useCallback(
-    (value, auto = false) => {
-      let scroll = 0;
+    (value) => {
       if (value < 1 || value > pages.length) {
         handleChangePage(page);
-        scroll = (page - 1) * 35;
       } else {
         handleChangePage(value);
-        scroll = (value - 1) * 35;
-      }
-      if (auto) {
-        pageContainerRef.current.scrollTo(scroll, 0);
       }
     },
     [pages, page, handleChangePage]
@@ -108,11 +107,11 @@ function Pagination({ count, page, size, handleChangePage }) {
     <Container>
       <PageOtherItem
         main={String(!isNotMain(location.pathname))}
-        onClick={() => handleChange(1, true)}
+        onClick={() => handleChange(1)}
       >{`<<`}</PageOtherItem>
       <PageOtherItem
         main={String(!isNotMain(location.pathname))}
-        onClick={() => handleChange(page - 1, true)}
+        onClick={() => handleChange(page - 1)}
       >{`<`}</PageOtherItem>
       <PageContainer
         ref={pageContainerRef}
@@ -131,11 +130,11 @@ function Pagination({ count, page, size, handleChangePage }) {
       </PageContainer>
       <PageOtherItem
         main={String(!isNotMain(location.pathname))}
-        onClick={() => handleChange(page + 1, true)}
+        onClick={() => handleChange(page + 1)}
       >{`>`}</PageOtherItem>
       <PageOtherItem
         main={String(!isNotMain(location.pathname))}
-        onClick={() => handleChange(pages.length, true)}
+        onClick={() => handleChange(pages.length)}
       >{`>>`}</PageOtherItem>
     </Container>
   );
