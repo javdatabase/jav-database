@@ -7,8 +7,8 @@ import { priceCurrency } from "../../../helpers/render-price";
 import {
   getEarningStar,
   getPriceOneNight,
-} from "../../../services/earnings.service";
-import { STAR_PROFILE } from "../../../services/stars.service";
+} from "../../../services/jav/earnings.service";
+import { STAR_PROFILE } from "../../../services/upv/stars.service";
 import Tabs from "../../../components/UI/Tabs/Tabs";
 import IdolAvatar from "../../../components/Idols/IdolAvatar";
 import StarPicture from "../../../components/Idols/IdolPicture";

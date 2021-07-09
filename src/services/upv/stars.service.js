@@ -1,4 +1,4 @@
-import Stars from "../data/stars";
+import Stars from "../../data/upv/stars";
 
 const SIZE_STARS = Stars.length;
 

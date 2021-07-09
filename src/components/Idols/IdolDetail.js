@@ -3,7 +3,7 @@ import { get } from "lodash";
 import styled from "styled-components";
 import { Link, useLocation } from "react-router-dom";
 
-import { getIdolRank, checkBestIdol } from "../../services/common.service";
+import { getIdolRank, checkBestIdol } from "../../services/jav/common.service";
 import Backdrop from "../UI/Backdrop/Backdrop";
 import IdolAvatar from "./IdolAvatar";
 import IdolCup from "./IdolCup";

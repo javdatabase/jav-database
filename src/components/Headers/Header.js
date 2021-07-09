@@ -83,8 +83,8 @@ function Header({ title, toggleMenu }) {
   const location = useLocation();
 
   const handleClickLogo = useCallback(() => {
-    history.push("/home");
-  }, [history]);
+    history.push(!isNotMain(location.pathname) ? "/jav" : "/upv");
+  }, [history, location.pathname]);
 
   return (
     <Container main={!isNotMain(location.pathname)}>

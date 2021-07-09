@@ -3,7 +3,7 @@ import { get } from "lodash";
 import styled from "styled-components";
 import { Link, useHistory, useLocation } from "react-router-dom";
 
-import { SIZE_VIDEOS, ALL_VIDEOS } from "../../../services/videos.service";
+import { SIZE_VIDEOS, ALL_VIDEOS } from "../../../services/upv/videos.service";
 import Pagination from "../../../components/UI/Pagination/Pagination";
 import IdolTag from "../../../components/Idols/IdolTag";
 import RollingIcon from "../../../assets/images/ic_rolling/ic_rolling.svg";

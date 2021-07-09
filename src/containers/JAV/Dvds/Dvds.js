@@ -12,8 +12,8 @@ import LazyLoad from "react-lazyload";
 import ElementResizeEvent from "element-resize-event";
 
 import ShortIdols from "../../../helpers/short-idols";
-import { getIdolRank } from "../../../services/common.service";
-import { ALL_DVDS_RELEASE_BY_PAGE } from "../../../services/dvds.service";
+import { getIdolRank } from "../../../services/jav/common.service";
+import { ALL_DVDS_RELEASE_BY_PAGE } from "../../../services/jav/dvds.service";
 import Input from "../../../components/UI/Input/Input";
 import Select from "../../../components/UI/Select/Select";
 import Pagination from "../../../components/UI/Pagination/Pagination";

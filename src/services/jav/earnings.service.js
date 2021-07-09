@@ -2,7 +2,7 @@ import {
   MonthEarnings,
   OneNightRatio,
   WeekEarnings,
-} from "../helpers/earning-values";
+} from "../../helpers/earning-values";
 
 const STAR_IDOL_ID = "jai001";
 const BEST_DVD_IDS = [

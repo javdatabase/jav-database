@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { Link, useLocation } from "react-router-dom";
 
 import { dvdPoints } from "../../helpers/render-color";
-import { checkBestIdol } from "../../services/common.service";
+import { checkBestIdol } from "../../services/jav/common.service";
 import IdolAvatar from "./IdolAvatar";
 import IdolCup from "./IdolCup";
 import IdolStyle from "./IdolStyle";

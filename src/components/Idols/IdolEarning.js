@@ -4,8 +4,8 @@ import styled from "styled-components";
 import { Link, useLocation } from "react-router-dom";
 
 import { priceCurrency } from "../../helpers/render-price";
-import { checkBestIdol } from "../../services/common.service";
-import { getPriceOneNight } from "../../services/earnings.service";
+import { checkBestIdol } from "../../services/jav/common.service";
+import { getPriceOneNight } from "../../services/jav/earnings.service";
 import IdolAvatar from "./IdolAvatar";
 import IdolCup from "./IdolCup";
 import IdolStyle from "./IdolStyle";

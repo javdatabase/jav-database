@@ -1,8 +1,8 @@
 import { toUpper, trim } from "lodash";
 
-import MainDvds from "../data/dvds/main";
-import PreReleaseDvds from "../data/dvds/pre-release";
-import AmateurDvds from "../data/dvds/amateur";
+import MainDvds from "../../data/jav/dvds/main";
+import PreReleaseDvds from "../../data/jav/dvds/pre-release";
+import AmateurDvds from "../../data/jav/dvds/amateur";
 
 const SIZE_MAIN_DVDS = MainDvds.length;
 const SIZE_AMATEUR_DVDS = AmateurDvds.length;

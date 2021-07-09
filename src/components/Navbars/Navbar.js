@@ -6,9 +6,9 @@ import {
   SIZE_MAIN_DVDS,
   SIZE_PRE_RELEASE_DVDS,
   SIZE_AMATEUR_DVDS,
-} from "../../services/dvds.service";
-import { SIZE_IDOLS } from "../../services/idols.service";
-// import { SIZE_VIDEOS } from "../../services/videos.service";
+} from "../../services/jav/dvds.service";
+import { SIZE_IDOLS } from "../../services/jav/idols.service";
+// import { SIZE_VIDEOS } from "../../services/upv/videos.service";
 import { isNotMain } from "../../helpers/router-type";
 import Backdrop from "../UI/Backdrop/Backdrop";
 import DvdsIcon from "../../assets/images/ic_dvds/ic_dvds.svg";
@@ -194,9 +194,9 @@ function Navbar({ show, toggleMenu }) {
   );
 
   const handleClickLogo = useCallback(() => {
-    history.push("/home");
+    history.push(!isNotMain(location.pathname) ? "/jav" : "/upv");
     toggleMenu();
-  }, [history, toggleMenu]);
+  }, [history, location.pathname, toggleMenu]);
 
   return (
     <Fragment>

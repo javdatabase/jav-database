@@ -1,7 +1,7 @@
 import { get, omit, random } from "lodash";
 
-import Idols from "../data/idols";
-import MainDvds from "../data/dvds/main";
+import Idols from "../../data/jav/idols";
+import MainDvds from "../../data/jav/dvds/main";
 
 import { SIZE_IDOLS, ALL_IDOLS_DETAIL, BEST_IDOL_IDS } from "./idols.service";
 import { SIZE_MAIN_DVDS } from "./dvds.service";

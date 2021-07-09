@@ -1,8 +1,8 @@
 import React, { useState, useCallback } from "react";
 import styled from "styled-components";
 
-import { getDvdsRandom } from "../../../services/common.service";
-import { NEW_DVDS_RELEASE } from "../../../services/dvds.service";
+import { getDvdsRandom } from "../../../services/jav/common.service";
+import { NEW_DVDS_RELEASE } from "../../../services/jav/dvds.service";
 import WaterWheelSlider from "../../../components/UI/Slider/WaterWheelSlider/Slider";
 import NewDvdReleaseCard from "../../../components/Dvds/NewDvdReleaseCard";
 import NewDvdReleaseDetail from "../../../components/Dvds/NewDvdReleaseDetail";

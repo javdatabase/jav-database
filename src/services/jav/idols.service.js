@@ -1,6 +1,6 @@
 import { toUpper, trim } from "lodash";
 
-import Idols from "../data/idols";
+import Idols from "../../data/jav/idols";
 
 import {
   findIdolDetail,

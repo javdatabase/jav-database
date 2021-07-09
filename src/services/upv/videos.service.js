@@ -1,4 +1,4 @@
-import Videos from "../data/videos";
+import Videos from "../../data/upv/videos";
 
 const SIZE_VIDEOS = Videos.length;
 

@@ -2,7 +2,7 @@ import React, { memo } from "react";
 import { get } from "lodash";
 import styled from "styled-components";
 
-import { getIdolRank } from "../../services/common.service";
+import { getIdolRank } from "../../services/jav/common.service";
 import IdolAvatar from "../Idols/IdolAvatar";
 
 import { Pink, Orange, LightBlue, Yellow, Red } from "../../themes/colors";

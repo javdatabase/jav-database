@@ -4,7 +4,7 @@ import styled from "styled-components";
 import Cookies from "js-cookie";
 import LazyLoad from "react-lazyload";
 
-import { ALL_IDOLS_DETAIL } from "../../../services/idols.service";
+import { ALL_IDOLS_DETAIL } from "../../../services/jav/idols.service";
 import IdolRanking from "../../../components/Idols/IdolRanking";
 
 import { Orange, Pink } from "../../../themes/colors";

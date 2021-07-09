@@ -14,7 +14,7 @@ import ElementResizeEvent from "element-resize-event";
 import SizesCup from "../../../helpers/sizes-cup";
 import ModelStyles from "../../../helpers/model-styles";
 import { sizeCup, modelStyle } from "../../../helpers/render-color";
-import { ALL_IDOLS_BY_PAGE } from "../../../services/idols.service";
+import { ALL_IDOLS_BY_PAGE } from "../../../services/jav/idols.service";
 import Input from "../../../components/UI/Input/Input";
 import Select from "../../../components/UI/Select/Select";
 import Checkbox from "../../../components/UI/Checkbox/Checkbox";

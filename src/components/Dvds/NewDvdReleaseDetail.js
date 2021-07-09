@@ -1,7 +1,7 @@
 import React, { Fragment, memo, useState, useCallback } from "react";
 import styled from "styled-components";
 
-import { getIdolDetail, getIdolRank } from "../../services/common.service";
+import { getIdolDetail, getIdolRank } from "../../services/jav/common.service";
 import DvdPoster from "./DvdPoster";
 import IdolTag from "../Idols/IdolTag";
 import IdolDetail from "../Idols/IdolDetail";

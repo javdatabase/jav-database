@@ -5,7 +5,7 @@ import LazyLoad from "react-lazyload";
 import {
   ALL_DVDS_PRE_RELEASE_BY_PAGE,
   SIZE_PRE_RELEASE_DVDS,
-} from "../../../services/dvds.service";
+} from "../../../services/jav/dvds.service";
 import Pagination from "../../../components/UI/Pagination/Pagination";
 import DvdCard from "../../../components/Dvds/DvdCard";
 import DvdDetail from "../../../components/Dvds/DvdDetail";

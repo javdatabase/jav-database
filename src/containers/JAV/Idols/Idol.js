@@ -5,13 +5,13 @@ import { Link, useLocation, useParams } from "react-router-dom";
 import LazyLoad from "react-lazyload";
 
 import { priceCurrency } from "../../../helpers/render-price";
-import { checkBestIdol } from "../../../services/common.service";
+import { checkBestIdol } from "../../../services/jav/common.service";
 import {
   getEarningIdol,
   getPriceOneNight,
   getBonusEarnings,
-} from "../../../services/earnings.service";
-import { IDOL_PROFILE } from "../../../services/idols.service";
+} from "../../../services/jav/earnings.service";
+import { IDOL_PROFILE } from "../../../services/jav/idols.service";
 import Tabs from "../../../components/UI/Tabs/Tabs";
 import IdolAvatar from "../../../components/Idols/IdolAvatar";
 import IdolCup from "../../../components/Idols/IdolCup";

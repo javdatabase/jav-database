@@ -15,7 +15,7 @@ import LazyLoad from "react-lazyload";
 import {
   ALL_EARNING_IDOLS,
   ALL_BONUS_IDOLS,
-} from "../../../services/idols.service";
+} from "../../../services/jav/idols.service";
 import Checkbox from "../../../components/UI/Checkbox/Checkbox";
 import IdolEarning from "../../../components/Idols/IdolEarning";
 

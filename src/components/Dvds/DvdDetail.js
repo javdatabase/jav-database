@@ -3,7 +3,7 @@ import { get } from "lodash";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
-import { getIdolRank } from "../../services/common.service";
+import { getIdolRank } from "../../services/jav/common.service";
 import Backdrop from "../UI/Backdrop/Backdrop";
 import DvdPoster from "./DvdPoster";
 import IdolTag from "../Idols/IdolTag";

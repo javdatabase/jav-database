@@ -2,9 +2,9 @@ import React, { useState, useEffect, useCallback } from "react";
 import { matchPath, useLocation, Link } from "react-router-dom";
 import styled from "styled-components";
 
-import { getIdolName } from "../services/common.service";
-import { BEST_IDOL_IDS } from "../services/idols.service";
-import { STAR_PROFILE } from "../services/stars.service";
+import { getIdolName } from "../services/jav/common.service";
+import { BEST_IDOL_IDS } from "../services/jav/idols.service";
+import { STAR_PROFILE } from "../services/upv/stars.service";
 import Navbar from "../components/Navbars/Navbar";
 import Header from "../components/Headers/Header";
 import ErrorBoundary from "../components/ErrorBoundary/ErrorBoundary";
