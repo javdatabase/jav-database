@@ -15,12 +15,12 @@ import LazyLoad from "react-lazyload";
 import {
   ALL_EARNING_IDOLS,
   ALL_BONUS_IDOLS,
-} from "../../services/idols.service";
-import Checkbox from "../../components/UI/Checkbox/Checkbox";
-import IdolEarning from "../../components/Idols/IdolEarning";
+} from "../../../services/idols.service";
+import Checkbox from "../../../components/UI/Checkbox/Checkbox";
+import IdolEarning from "../../../components/Idols/IdolEarning";
 
-import { Orange, Pink, LightPurple, DarkPurple } from "../../themes/colors";
-import { center, fadeIn } from "../../themes/styled";
+import { Orange, Pink, LightPurple, DarkPurple } from "../../../themes/colors";
+import { center, fadeIn } from "../../../themes/styled";
 
 const FilterIdolsContainer = styled.div`
   position: relative;

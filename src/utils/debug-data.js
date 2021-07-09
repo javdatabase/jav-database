@@ -85,7 +85,7 @@ function checkAlreadyExistIdIdols() {
         IdolsStars[i].idStar === IdolsStars[j].idStar
       ) {
         count++;
-        response.push(Idols[i].idIdol || IdolsStars[j].idStar);
+        response.push(IdolsStars[i].idIdol || IdolsStars[j].idStar);
       }
     }
   }

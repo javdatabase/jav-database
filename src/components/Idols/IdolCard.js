@@ -84,7 +84,7 @@ function IdolCard({ data, click }) {
         {checkBestIdol(get(data, "idIdol", "")) && (
           <BadgeIdol
             to={{
-              pathname: "/idols",
+              pathname: "/jav/idols",
               state: {
                 ...location.state,
                 best: true,

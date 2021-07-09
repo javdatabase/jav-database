@@ -144,7 +144,7 @@ function IdolDetail({ show, toggleModal, data }) {
           {checkBestIdol(get(data, "idIdol", "")) && (
             <BadgeIdol
               to={{
-                pathname: "/idols",
+                pathname: "/jav/idols",
                 state: {
                   ...location.state,
                   best: true,
@@ -157,7 +157,7 @@ function IdolDetail({ show, toggleModal, data }) {
           )}
           <AvatarIdol src={get(data, "avatar", null)} />
           <ViewProfile
-            to={`/idol/${get(data, "idIdol", "")}`}
+            to={`/jav/idol/${get(data, "idIdol", "")}`}
             queen={(getIdolRank(get(data, "idIdol", "")) === 1).toString()}
             runner={(getIdolRank(get(data, "idIdol", "")) === 2).toString()}
           >

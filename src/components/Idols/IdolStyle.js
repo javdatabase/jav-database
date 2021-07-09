@@ -24,7 +24,7 @@ function IdolStyle({ tag, ...props }) {
     <Link
       style={{ textDecoration: "none", color: Black }}
       to={{
-        pathname: "/idols",
+        pathname: "/jav/idols",
         state: {
           ...location.state,
           styles: [

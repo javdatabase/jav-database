@@ -256,7 +256,7 @@ function IdolEarning({ data }) {
             {checkBestIdol(data.idIdol) && (
               <BadgeIdol
                 to={{
-                  pathname: "/idols",
+                  pathname: "/jav/idols",
                   state: {
                     ...location.state,
                     best: true,
@@ -268,7 +268,7 @@ function IdolEarning({ data }) {
               </BadgeIdol>
             )}
             <AvatarIdol src={data.avatar} />
-            <ViewProfile to={`/idol/${data.idIdol}`}>View</ViewProfile>
+            <ViewProfile to={`/jav/idol/${data.idIdol}`}>View</ViewProfile>
           </AvatarContainer>
           <IdolInformationContainer>
             <NameIdol>

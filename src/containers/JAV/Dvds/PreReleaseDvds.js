@@ -3,15 +3,15 @@ import styled from "styled-components";
 import LazyLoad from "react-lazyload";
 
 import {
-  ALL_DVDS_AMATEUR_BY_PAGE,
-  SIZE_AMATEUR_DVDS,
-} from "../../services/dvds.service";
-import Pagination from "../../components/UI/Pagination/Pagination";
-import DvdCard from "../../components/Dvds/DvdCard";
-import DvdDetail from "../../components/Dvds/DvdDetail";
+  ALL_DVDS_PRE_RELEASE_BY_PAGE,
+  SIZE_PRE_RELEASE_DVDS,
+} from "../../../services/dvds.service";
+import Pagination from "../../../components/UI/Pagination/Pagination";
+import DvdCard from "../../../components/Dvds/DvdCard";
+import DvdDetail from "../../../components/Dvds/DvdDetail";
 
-import { Pink, Orange, White } from "../../themes/colors";
-import { center, fadeIn } from "../../themes/styled";
+import { Pink, Orange, White } from "../../../themes/colors";
+import { center, fadeIn } from "../../../themes/styled";
 
 const Container = styled.div`
   position: relative;
@@ -36,7 +36,7 @@ const DvdContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(14vw, 1fr));
   gap: 10px;
-  padding: 50px 20px 30px;
+  padding: 30px 20px;
   box-sizing: border-box;
 `;
 
@@ -59,13 +59,13 @@ const NotFound = styled.div`
   font-style: italic;
 `;
 
-function AmateurDvds() {
+function PreReleaseDvds() {
   const [page, setPage] = useState(1);
   const [show, setShow] = useState(false);
   const [data, setData] = useState(null);
 
   const dvds = useMemo(() => {
-    return ALL_DVDS_AMATEUR_BY_PAGE(page, 30);
+    return ALL_DVDS_PRE_RELEASE_BY_PAGE(page, 30);
   }, [page]);
 
   const handleChangePage = useCallback((page) => {
@@ -91,7 +91,7 @@ function AmateurDvds() {
   return (
     <Fragment>
       <Container>
-        {SIZE_AMATEUR_DVDS === 0 ? (
+        {SIZE_PRE_RELEASE_DVDS === 0 ? (
           <NotFound>Not Found</NotFound>
         ) : (
           <DvdContainer>
@@ -111,7 +111,7 @@ function AmateurDvds() {
         )}
         <PaginationContainer>
           <Pagination
-            count={SIZE_AMATEUR_DVDS}
+            count={SIZE_PRE_RELEASE_DVDS}
             page={page}
             size={30}
             handleChangePage={handleChangePage}
@@ -123,4 +123,4 @@ function AmateurDvds() {
   );
 }
 
-export default AmateurDvds;
+export default PreReleaseDvds;

@@ -99,13 +99,6 @@ const File1 = [
     idols: [{ idIdol: "jai073", name: "Minami Aizawa" }],
   },
   {
-    code: "WFR-016",
-    title: `AN OLDER SISTER WHO HAS A SEXUAL DESIRE ON THE WAY HOME FROM WORK GETS WET ALL THE WAY TO THE BACK AND GOES CRAZY RIHO FUJIMORI`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/2wfr016/2wfr016pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai057", name: "Yumi Maeda" }],
-  },
-  {
     code: "MIAA-470",
     title: `I WAS CALLED BY A SENIOR WHO WAS ESTRUS ON A BUSINESS TRIP AND KNEADED MY NIPPLES UNTIL MORNING`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/miaa470/miaa470pl.jpg",

@@ -99,7 +99,7 @@ function DvdDetail({ show, toggleModal, data }) {
               ) : (
                 <Link
                   key={item.idIdol}
-                  to={`/idol/${item.idIdol}`}
+                  to={`/jav/idol/${item.idIdol}`}
                   style={{ textDecoration: "none", color: Black }}
                 >
                   <TagIdol

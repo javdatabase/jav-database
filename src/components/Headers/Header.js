@@ -4,7 +4,7 @@ import { useHistory, useLocation } from "react-router-dom";
 
 import DvdsIcon from "../../assets/images/ic_dvds/ic_dvds.svg";
 
-import { isMain } from "../../helpers/router-type";
+import { isNotMain } from "../../helpers/router-type";
 
 import { White, Black, Grey, Blue, Pink, Orange } from "../../themes/colors";
 import { center } from "../../themes/styled";
@@ -87,7 +87,7 @@ function Header({ title, toggleMenu }) {
   }, [history]);
 
   return (
-    <Container main={isMain(location.pathname)}>
+    <Container main={!isNotMain(location.pathname)}>
       <ElementsGroup>
         <MenuButton onClick={toggleMenu}>
           <Bar />
@@ -96,7 +96,9 @@ function Header({ title, toggleMenu }) {
         </MenuButton>
         <LogoContainer onClick={handleClickLogo}>
           <ImageLogo src={DvdsIcon} alt={""} />
-          <CompanyName>JAV Database Official</CompanyName>
+          <CompanyName>
+            {!isNotMain(location.pathname) ? "JAV" : "UPV"} Database Official
+          </CompanyName>
         </LogoContainer>
       </ElementsGroup>
       <ElementsGroup>

@@ -57,28 +57,30 @@ function Layout() {
 
   const renderTitle = useCallback(() => {
     const path = location.pathname;
-    if (matchPath(path, { path: "/home", exact: true })) {
+    if (matchPath(path, { path: "/jav/home", exact: true })) {
       return "Home";
-    } else if (matchPath(path, { path: "/best-idols", exact: true })) {
+    } else if (matchPath(path, { path: "/jav/best-idols", exact: true })) {
       return `${BEST_IDOL_IDS.length} Best Idols`;
-    } else if (matchPath(path, { path: "/ranking", exact: true })) {
+    } else if (matchPath(path, { path: "/jav/ranking", exact: true })) {
       return "Ranking";
-    } else if (matchPath(path, { path: "/top-earnings", exact: true })) {
+    } else if (matchPath(path, { path: "/jav/top-earnings", exact: true })) {
       return "Top Earnings";
-    } else if (matchPath(path, { path: "/idols", exact: true })) {
+    } else if (matchPath(path, { path: "/jav/idols", exact: true })) {
       return "Idols";
-    } else if (matchPath(path, { path: "/idol/:id", exact: false })) {
-      return getIdolName(path.replace("/idol/", ""));
-    } else if (matchPath(path, { path: "/dvds", exact: true })) {
+    } else if (matchPath(path, { path: "/jav/idol/:id", exact: false })) {
+      return getIdolName(path.replace("/jav/idol/", ""));
+    } else if (matchPath(path, { path: "/jav/dvds", exact: true })) {
       return "Dvds";
-    } else if (matchPath(path, { path: "/pre-release-dvds", exact: true })) {
+    } else if (
+      matchPath(path, { path: "/jav/pre-release-dvds", exact: true })
+    ) {
       return "Pre Release Dvds";
-    } else if (matchPath(path, { path: "/amateur-dvds", exact: true })) {
+    } else if (matchPath(path, { path: "/jav/amateur-dvds", exact: true })) {
       return "Amateur Dvds";
-    } else if (matchPath(path, { path: "/online-videos", exact: true })) {
-      return "Online Videos";
-    } else if (matchPath(path, { path: "/star/:id", exact: true })) {
-      return STAR_PROFILE(path.replace("/star/", "")).name;
+    } else if (matchPath(path, { path: "/upv/home", exact: true })) {
+      return "Home";
+    } else if (matchPath(path, { path: "/upv/star/:id", exact: true })) {
+      return STAR_PROFILE(path.replace("/upv/star/", "")).name;
     } else if (matchPath(path, { path: "/debug", exact: true })) {
       return "Debug";
     } else {

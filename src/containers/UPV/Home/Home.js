@@ -3,10 +3,10 @@ import { get } from "lodash";
 import styled from "styled-components";
 import { Link, useHistory, useLocation } from "react-router-dom";
 
-import { SIZE_VIDEOS, ALL_VIDEOS } from "../../services/videos.service";
-import Pagination from "../../components/UI/Pagination/Pagination";
-import IdolTag from "../../components/Idols/IdolTag";
-import RollingIcon from "../../assets/images/ic_rolling/ic_rolling.svg";
+import { SIZE_VIDEOS, ALL_VIDEOS } from "../../../services/videos.service";
+import Pagination from "../../../components/UI/Pagination/Pagination";
+import IdolTag from "../../../components/Idols/IdolTag";
+import RollingIcon from "../../../assets/images/ic_rolling/ic_rolling.svg";
 
 import {
   White,
@@ -15,9 +15,9 @@ import {
   Blue,
   DarkBlue,
   LightBlue,
-} from "../../themes/colors";
-import { center, fadeIn } from "../../themes/styled";
-import { XLarge, Regular } from "../../themes/font";
+} from "../../../themes/colors";
+import { center, fadeIn } from "../../../themes/styled";
+import { XLarge, Regular } from "../../../themes/font";
 
 const Container = styled.div`
   width: 100%;
@@ -96,7 +96,7 @@ const PaginationContainer = styled.div`
   margin-bottom: 5px;
 `;
 
-function OnlineVideos() {
+function Home() {
   const history = useHistory();
   const location = useLocation();
 
@@ -140,7 +140,7 @@ function OnlineVideos() {
             ) : (
               <Link
                 key={item.idStar}
-                to={`/star/${item.idStar}`}
+                to={`/upv/star/${item.idStar}`}
                 style={{ textDecoration: "none", color: Black }}
               >
                 <TagStar name={item.name} />
@@ -166,4 +166,4 @@ function OnlineVideos() {
   );
 }
 
-export default OnlineVideos;
+export default Home;

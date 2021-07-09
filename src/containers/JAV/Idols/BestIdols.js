@@ -1,14 +1,14 @@
 import React, { useState, useMemo, useCallback } from "react";
 import styled from "styled-components";
 
-import { getIdolRank } from "../../services/common.service";
-import { BEST_IDOLS } from "../../services/idols.service";
-import WaterWheelSlider from "../../components/UI/Slider/WaterWheelSlider/Slider";
-import BestIdolCard from "../../components/Idols/BestIdolCard";
-import BestIdolDetail from "../../components/Idols/BestIdolDetail";
+import { getIdolRank } from "../../../services/common.service";
+import { BEST_IDOLS } from "../../../services/idols.service";
+import WaterWheelSlider from "../../../components/UI/Slider/WaterWheelSlider/Slider";
+import BestIdolCard from "../../../components/Idols/BestIdolCard";
+import BestIdolDetail from "../../../components/Idols/BestIdolDetail";
 
-import { Pink, Orange, LightBlue, Yellow, Red } from "../../themes/colors";
-import { center, fadeIn } from "../../themes/styled";
+import { Pink, Orange, LightBlue, Yellow, Red } from "../../../themes/colors";
+import { center, fadeIn } from "../../../themes/styled";
 
 const Container = styled.div`
   position: relative;
@@ -40,7 +40,7 @@ function BestIdols() {
     return BEST_IDOLS || [];
   }, []);
 
-  const changeHighlight = useCallback(value => {
+  const changeHighlight = useCallback((value) => {
     setHighlight(value);
   }, []);
 

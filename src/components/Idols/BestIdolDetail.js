@@ -211,7 +211,7 @@ function BestIdolDetail({ data, active }) {
             <AvatarContainer>
               <AvatarIdol src={data.avatar} />
               <ViewProfile
-                to={`/idol/${data.idIdol}`}
+                to={`/jav/idol/${data.idIdol}`}
                 queen={(getIdolRank(data.idIdol) === 1).toString()}
                 runner={(getIdolRank(data.idIdol) === 2).toString()}
               >

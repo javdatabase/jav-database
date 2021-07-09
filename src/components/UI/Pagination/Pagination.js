@@ -2,7 +2,7 @@ import React, { memo, useMemo, useCallback, useRef } from "react";
 import styled from "styled-components";
 import { useLocation } from "react-router-dom";
 
-import { isMain } from "../../../helpers/router-type";
+import { isNotMain } from "../../../helpers/router-type";
 
 import { White, Grey, Blue, Pink, Orange } from "../../../themes/colors";
 import { center } from "../../../themes/styled";
@@ -107,18 +107,21 @@ function Pagination({ count, page, size, handleChangePage }) {
   return (
     <Container>
       <PageOtherItem
-        main={isMain(location.pathname)}
+        main={!isNotMain(location.pathname)}
         onClick={() => handleChange(1, true)}
       >{`<<`}</PageOtherItem>
       <PageOtherItem
-        main={isMain(location.pathname)}
+        main={!isNotMain(location.pathname)}
         onClick={() => handleChange(page - 1, true)}
       >{`<`}</PageOtherItem>
-      <PageContainer ref={pageContainerRef} main={isMain(location.pathname)}>
+      <PageContainer
+        ref={pageContainerRef}
+        main={!isNotMain(location.pathname)}
+      >
         {pages.map((item) => (
           <PageItem
             key={`page-${item}`}
-            main={isMain(location.pathname)}
+            main={!isNotMain(location.pathname)}
             active={item === page}
             onClick={() => handleChange(item)}
           >
@@ -127,11 +130,11 @@ function Pagination({ count, page, size, handleChangePage }) {
         ))}
       </PageContainer>
       <PageOtherItem
-        main={isMain(location.pathname)}
+        main={!isNotMain(location.pathname)}
         onClick={() => handleChange(page + 1, true)}
       >{`>`}</PageOtherItem>
       <PageOtherItem
-        main={isMain(location.pathname)}
+        main={!isNotMain(location.pathname)}
         onClick={() => handleChange(pages.length, true)}
       >{`>>`}</PageOtherItem>
     </Container>

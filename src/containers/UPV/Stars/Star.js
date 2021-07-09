@@ -3,19 +3,19 @@ import { get } from "lodash";
 import styled from "styled-components";
 import { useParams } from "react-router-dom";
 
-import { priceCurrency } from "../../helpers/render-price";
+import { priceCurrency } from "../../../helpers/render-price";
 import {
   getEarningStar,
   getPriceOneNight,
-} from "../../services/earnings.service";
-import { STAR_PROFILE } from "../../services/stars.service";
-import Tabs from "../../components/UI/Tabs/Tabs";
-import IdolAvatar from "../../components/Idols/IdolAvatar";
-import StarPicture from "../../components/Idols/IdolPicture";
+} from "../../../services/earnings.service";
+import { STAR_PROFILE } from "../../../services/stars.service";
+import Tabs from "../../../components/UI/Tabs/Tabs";
+import IdolAvatar from "../../../components/Idols/IdolAvatar";
+import StarPicture from "../../../components/Idols/IdolPicture";
 
-import { Black, Grey, Blue } from "../../themes/colors";
-import { center, fadeIn } from "../../themes/styled";
-import { Large, XLarge, XXLarge } from "../../themes/font";
+import { Black, Grey, Blue } from "../../../themes/colors";
+import { center, fadeIn } from "../../../themes/styled";
+import { Large, XLarge, XXLarge } from "../../../themes/font";
 
 const Container = styled.div`
   position: relative;

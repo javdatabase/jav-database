@@ -4,11 +4,11 @@ import styled from "styled-components";
 import Cookies from "js-cookie";
 import LazyLoad from "react-lazyload";
 
-import { ALL_IDOLS_DETAIL } from "../../services/idols.service";
-import IdolRanking from "../../components/Idols/IdolRanking";
+import { ALL_IDOLS_DETAIL } from "../../../services/idols.service";
+import IdolRanking from "../../../components/Idols/IdolRanking";
 
-import { Orange, Pink } from "../../themes/colors";
-import { center, fadeIn } from "../../themes/styled";
+import { Orange, Pink } from "../../../themes/colors";
+import { center, fadeIn } from "../../../themes/styled";
 
 const Container = styled.div`
   position: relative;

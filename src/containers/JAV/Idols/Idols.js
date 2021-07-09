@@ -11,16 +11,16 @@ import { useHistory, useLocation } from "react-router-dom";
 import LazyLoad from "react-lazyload";
 import ElementResizeEvent from "element-resize-event";
 
-import SizesCup from "../../helpers/sizes-cup";
-import ModelStyles from "../../helpers/model-styles";
-import { sizeCup, modelStyle } from "../../helpers/render-color";
-import { ALL_IDOLS_BY_PAGE } from "../../services/idols.service";
-import Input from "../../components/UI/Input/Input";
-import Select from "../../components/UI/Select/Select";
-import Checkbox from "../../components/UI/Checkbox/Checkbox";
-import Pagination from "../../components/UI/Pagination/Pagination";
-import IdolCard from "../../components/Idols/IdolCard";
-import IdolDetail from "../../components/Idols/IdolDetail";
+import SizesCup from "../../../helpers/sizes-cup";
+import ModelStyles from "../../../helpers/model-styles";
+import { sizeCup, modelStyle } from "../../../helpers/render-color";
+import { ALL_IDOLS_BY_PAGE } from "../../../services/idols.service";
+import Input from "../../../components/UI/Input/Input";
+import Select from "../../../components/UI/Select/Select";
+import Checkbox from "../../../components/UI/Checkbox/Checkbox";
+import Pagination from "../../../components/UI/Pagination/Pagination";
+import IdolCard from "../../../components/Idols/IdolCard";
+import IdolDetail from "../../../components/Idols/IdolDetail";
 
 import {
   Pink,
@@ -31,9 +31,9 @@ import {
   DarkBlue,
   LightBlue,
   Grey,
-} from "../../themes/colors";
-import { Regular } from "../../themes/font";
-import { center, fadeIn } from "../../themes/styled";
+} from "../../../themes/colors";
+import { Regular } from "../../../themes/font";
+import { center, fadeIn } from "../../../themes/styled";
 
 const FilterIdolsContainer = styled.div`
   position: relative;

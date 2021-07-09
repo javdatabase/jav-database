@@ -1,4 +1,4 @@
-import React, { Fragment, memo, useCallback } from "react";
+import React, { Fragment, memo, useMemo, useCallback } from "react";
 import styled from "styled-components";
 import { Link, useHistory, useLocation } from "react-router-dom";
 
@@ -8,8 +8,8 @@ import {
   SIZE_AMATEUR_DVDS,
 } from "../../services/dvds.service";
 import { SIZE_IDOLS } from "../../services/idols.service";
-import { SIZE_VIDEOS } from "../../services/videos.service";
-import { isMain } from "../../helpers/router-type";
+// import { SIZE_VIDEOS } from "../../services/videos.service";
+import { isNotMain } from "../../helpers/router-type";
 import Backdrop from "../UI/Backdrop/Backdrop";
 import DvdsIcon from "../../assets/images/ic_dvds/ic_dvds.svg";
 import HomeIcon from "../../assets/images/ic_home/ic_home.svg";
@@ -19,21 +19,14 @@ import WomanIcon from "../../assets/images/ic_woman/ic_woman.svg";
 import PlaylistIcon from "../../assets/images/ic_playlist/ic_playlist.svg";
 import AlbumIcon from "../../assets/images/ic_album/ic_album.svg";
 import ClipboardIcon from "../../assets/images/ic_clipboard/ic_clipboard.svg";
-import OnlineVideoIcon from "../../assets/images/ic_online_video/ic_online_video.svg";
+import MedalIcon from "../../assets/images/ic_medal/ic_medal.svg";
+// import OnlineVideoIcon from "../../assets/images/ic_online_video/ic_online_video.svg";
 import NextIcon from "../../assets/images/ic_next/ic_next.svg";
+import SwapIcon from "../../assets/images/ic_swap/ic_swap.svg";
 
-import {
-  Black,
-  White,
-  Grey,
-  Blue,
-  Pink,
-  Orange,
-  LightPurple,
-  DarkPurple,
-} from "../../themes/colors";
+import { Black, White, Grey, Blue, Pink, Orange } from "../../themes/colors";
 import { center } from "../../themes/styled";
-import { Large, XLarge } from "../../themes/font";
+import { XLarge } from "../../themes/font";
 
 const Container = styled.div`
   width: 300px;
@@ -79,9 +72,13 @@ const ButtonContainer = styled.div`
   margin-bottom: 20px;
 `;
 
-const ButtonBest = styled(Link)`
+const ButtonSwitch = styled(Link)`
+  ${center};
   width: 150px;
-  background: linear-gradient(to right, ${LightPurple}, ${DarkPurple});
+  background: ${(props) =>
+    props.main
+      ? `linear-gradient(to right, ${Blue}, ${Grey})`
+      : `linear-gradient(to right, ${Pink}, ${Orange})`};
   padding: 10px 30px;
   border-radius: 6px;
   box-shadow: none;
@@ -95,6 +92,12 @@ const ButtonBest = styled(Link)`
   &:hover {
     transform: translateY(-5px);
     box-shadow: 0px 15px 10px -10px ${Black};
+  }
+
+  img {
+    width: 20px;
+    height: 20px;
+    margin: 0px 10px;
   }
 `;
 
@@ -131,52 +134,64 @@ const Arrow = styled.img`
   height: 15px;
 `;
 
-const navigate = [
-  {
-    path: "/home",
-    title: "Home",
-    icon: HomeIcon,
-  },
-  {
-    path: "/ranking",
-    title: "Ranking",
-    icon: RankingIcon,
-  },
-  {
-    path: "/top-earnings",
-    title: "Top Earnings",
-    icon: LineChartIcon,
-  },
-  {
-    path: "/idols",
-    title: `Idols (${SIZE_IDOLS})`,
-    icon: WomanIcon,
-  },
-  {
-    path: "/dvds",
-    title: `Dvds (${SIZE_MAIN_DVDS})`,
-    icon: PlaylistIcon,
-  },
-  {
-    path: "/pre-release-dvds",
-    title: `Pre Release Dvds (${SIZE_PRE_RELEASE_DVDS})`,
-    icon: AlbumIcon,
-  },
-  {
-    path: "/amateur-dvds",
-    title: `Amateur Dvds (${SIZE_AMATEUR_DVDS})`,
-    icon: ClipboardIcon,
-  },
-  {
-    path: "/online-videos",
-    title: `Online Videos (${SIZE_VIDEOS})`,
-    icon: OnlineVideoIcon,
-  },
-];
-
 function Navbar({ show, toggleMenu }) {
   const history = useHistory();
   const location = useLocation();
+
+  const navigate = useMemo(
+    () =>
+      !isNotMain(location.pathname)
+        ? [
+            {
+              path: "/jav/home",
+              title: "Home",
+              icon: HomeIcon,
+            },
+            {
+              path: "/jav/ranking",
+              title: "Ranking",
+              icon: RankingIcon,
+            },
+            {
+              path: "/jav/top-earnings",
+              title: "Top Earnings",
+              icon: LineChartIcon,
+            },
+            {
+              path: "/jav/best-idols",
+              title: "Best Idols",
+              icon: MedalIcon,
+            },
+            {
+              path: "/jav/idols",
+              title: `Idols (${SIZE_IDOLS})`,
+              icon: WomanIcon,
+            },
+            {
+              path: "/jav/dvds",
+              title: `Dvds (${SIZE_MAIN_DVDS})`,
+              icon: PlaylistIcon,
+            },
+            {
+              path: "/jav/pre-release-dvds",
+              title: `Pre Release Dvds (${SIZE_PRE_RELEASE_DVDS})`,
+              icon: AlbumIcon,
+            },
+            {
+              path: "/jav/amateur-dvds",
+              title: `Amateur Dvds (${SIZE_AMATEUR_DVDS})`,
+              icon: ClipboardIcon,
+            },
+          ]
+        : [
+            {
+              path: "/upv/home",
+              title: `Home`,
+              icon: HomeIcon,
+            },
+          ],
+    [location.pathname]
+  );
 
   const handleClickLogo = useCallback(() => {
     history.push("/home");
@@ -186,16 +201,23 @@ function Navbar({ show, toggleMenu }) {
   return (
     <Fragment>
       <Backdrop show={show} hiddenModal={toggleMenu} />
-      <Container show={show} main={isMain(location.pathname)}>
+      <Container show={show} main={!isNotMain(location.pathname)}>
         <LogoContainer onClick={handleClickLogo}>
           <ImageLogo src={DvdsIcon} alt={""} />
-          <CompanyName>JAV Database Official</CompanyName>
+          <CompanyName>
+            {!isNotMain(location.pathname) ? "JAV" : "UPV"} Database Official
+          </CompanyName>
         </LogoContainer>
         <ButtonContainer>
-          <ButtonBest to={"/best-idols"} onClick={toggleMenu}>
-            <span style={{ fontSize: Large }}>☿</span> Best Idols{" "}
-            <span style={{ fontSize: Large }}>☿</span>
-          </ButtonBest>
+          <ButtonSwitch
+            to={isNotMain(location.pathname) ? "/jav" : "/upv"}
+            main={!isNotMain(location.pathname)}
+            onClick={toggleMenu}
+          >
+            <img src={SwapIcon} alt={""} /> Switch to{" "}
+            {isNotMain(location.pathname) ? "JAV" : "UPV"}{" "}
+            <img src={SwapIcon} alt={""} />
+          </ButtonSwitch>
         </ButtonContainer>
         {navigate.map((item, index) => (
           <Navigate

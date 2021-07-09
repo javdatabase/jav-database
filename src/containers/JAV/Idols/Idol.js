@@ -4,21 +4,21 @@ import styled from "styled-components";
 import { Link, useLocation, useParams } from "react-router-dom";
 import LazyLoad from "react-lazyload";
 
-import { priceCurrency } from "../../helpers/render-price";
-import { checkBestIdol } from "../../services/common.service";
+import { priceCurrency } from "../../../helpers/render-price";
+import { checkBestIdol } from "../../../services/common.service";
 import {
   getEarningIdol,
   getPriceOneNight,
   getBonusEarnings,
-} from "../../services/earnings.service";
-import { IDOL_PROFILE } from "../../services/idols.service";
-import Tabs from "../../components/UI/Tabs/Tabs";
-import IdolAvatar from "../../components/Idols/IdolAvatar";
-import IdolCup from "../../components/Idols/IdolCup";
-import IdolStyle from "../../components/Idols/IdolStyle";
-import IdolPicture from "../../components/Idols/IdolPicture";
-import DvdPoster from "../../components/Dvds/DvdPoster";
-import DvdDetail from "../../components/Dvds/DvdDetail";
+} from "../../../services/earnings.service";
+import { IDOL_PROFILE } from "../../../services/idols.service";
+import Tabs from "../../../components/UI/Tabs/Tabs";
+import IdolAvatar from "../../../components/Idols/IdolAvatar";
+import IdolCup from "../../../components/Idols/IdolCup";
+import IdolStyle from "../../../components/Idols/IdolStyle";
+import IdolPicture from "../../../components/Idols/IdolPicture";
+import DvdPoster from "../../../components/Dvds/DvdPoster";
+import DvdDetail from "../../../components/Dvds/DvdDetail";
 
 import {
   Orange,
@@ -31,9 +31,9 @@ import {
   Black,
   LightPurple,
   DarkPurple,
-} from "../../themes/colors";
-import { center, fadeIn } from "../../themes/styled";
-import { Large, XLarge, XXLarge } from "../../themes/font";
+} from "../../../themes/colors";
+import { center, fadeIn } from "../../../themes/styled";
+import { Large, XLarge, XXLarge } from "../../../themes/font";
 
 const Container = styled.div`
   position: relative;
@@ -420,7 +420,7 @@ function Idol() {
               {checkBestIdol(data.idIdol) && (
                 <BadgeIdol
                   to={{
-                    pathname: "/idols",
+                    pathname: "/jav/idols",
                     state: {
                       ...location.state,
                       best: true,

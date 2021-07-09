@@ -72,30 +72,29 @@ function componentLoader(lazyComponent, attemptsLeft = 3) {
   });
 }
 
-const Jav = lazy(() => componentLoader(() => import("./JRoutes")));
-
-const Upv = lazy(() => componentLoader(() => import("./URoutes")));
-
-const Debug = lazy(() =>
-  componentLoader(() => import("../containers/Common/Debug"))
+const Home = lazy(() =>
+  componentLoader(() => import("../containers/UPV/Home/Home"))
 );
 
-function Routes() {
+const Star = lazy(() =>
+  componentLoader(() => import("../containers/UPV/Stars/Star"))
+);
+
+function URoutes() {
   return (
     <Suspense fallback={<Loading />}>
       <Switch>
         <Route
-          path={"/"}
+          path={"/upv"}
           exact={true}
-          render={() => <Redirect to={"/jav"} />}
+          render={() => <Redirect to={"/upv/home"} exact={true} />}
         />
-        <Route path={"/jav"} component={Jav} />
-        <Route path={"/upv"} component={Upv} />
-        <Route path={"/debug"} exact={true} component={Debug} />
+        <Route path={"/upv/home"} exact={true} component={Home} />
+        <Route path={"/upv/star/:id"} exact={false} component={Star} />
         <Route path={"*"} component={NotFound} />
       </Switch>
     </Suspense>
   );
 }
 
-export default Routes;
+export default URoutes;

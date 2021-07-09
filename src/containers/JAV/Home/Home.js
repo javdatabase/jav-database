@@ -1,11 +1,11 @@
 import React, { useState, useCallback } from "react";
 import styled from "styled-components";
 
-import { getDvdsRandom } from "../../services/common.service";
-import { NEW_DVDS_RELEASE } from "../../services/dvds.service";
-import WaterWheelSlider from "../../components/UI/Slider/WaterWheelSlider/Slider";
-import NewDvdReleaseCard from "../../components/Dvds/NewDvdReleaseCard";
-import NewDvdReleaseDetail from "../../components/Dvds/NewDvdReleaseDetail";
+import { getDvdsRandom } from "../../../services/common.service";
+import { NEW_DVDS_RELEASE } from "../../../services/dvds.service";
+import WaterWheelSlider from "../../../components/UI/Slider/WaterWheelSlider/Slider";
+import NewDvdReleaseCard from "../../../components/Dvds/NewDvdReleaseCard";
+import NewDvdReleaseDetail from "../../../components/Dvds/NewDvdReleaseDetail";
 
 import {
   Pink,
@@ -14,9 +14,9 @@ import {
   White,
   DarkBlue,
   LightBlue,
-} from "../../themes/colors";
-import { center, fadeIn } from "../../themes/styled";
-import { Large } from "../../themes/font";
+} from "../../../themes/colors";
+import { center, fadeIn } from "../../../themes/styled";
+import { Large } from "../../../themes/font";
 
 const Container = styled.div`
   position: relative;
