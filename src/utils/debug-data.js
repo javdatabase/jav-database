@@ -1,14 +1,21 @@
 import MainDvds from "../data/dvds/main";
+import PreReleaseDvds from "../data/dvds/pre-release";
+import AmateurDvds from "../data/dvds/amateur";
 import Idols from "../data/idols";
+import Stars from "../data/stars";
+
+const Dvds = MainDvds.concat(PreReleaseDvds, AmateurDvds);
+
+const IdolsStars = Idols.concat(Stars);
 
 function checkAlreadyExistDvd() {
   let count = 0;
   let response = [];
-  for (let i = 1; i < MainDvds.length; i++) {
+  for (let i = 1; i < Dvds.length; i++) {
     for (let j = 0; j < i; j++) {
-      if (MainDvds[i].code === MainDvds[j].code && MainDvds[i].code !== "") {
+      if (Dvds[i].code === Dvds[j].code && Dvds[i].code !== "") {
         count++;
-        response.push(MainDvds[i].code);
+        response.push(Dvds[i].code);
       }
     }
   }
@@ -22,14 +29,11 @@ function checkAlreadyExistDvd() {
 function checkAlreadyExistPoster() {
   let count = 0;
   let response = [];
-  for (let i = 1; i < MainDvds.length; i++) {
+  for (let i = 1; i < Dvds.length; i++) {
     for (let j = 0; j < i; j++) {
-      if (
-        MainDvds[i].poster === MainDvds[j].poster &&
-        MainDvds[i].poster !== ""
-      ) {
+      if (Dvds[i].poster === Dvds[j].poster && Dvds[i].poster !== "") {
         count++;
-        response.push(MainDvds[i].code);
+        response.push(Dvds[i].code);
       }
     }
   }
@@ -41,9 +45,7 @@ function checkAlreadyExistPoster() {
 }
 
 function checkPosterIsFalsy() {
-  const data = MainDvds.filter(
-    (item) => item.poster === "" && item.code !== ""
-  );
+  const data = Dvds.filter((item) => item.poster === "" && item.code !== "");
   const response = data.map((item) => item.code);
   if (data.length > 0) {
     return response;
@@ -55,11 +57,14 @@ function checkPosterIsFalsy() {
 function checkAlreadyExistIdols() {
   let count = 0;
   let response = [];
-  for (let i = 1; i < Idols.length; i++) {
+  for (let i = 1; i < IdolsStars.length; i++) {
     for (let j = 0; j < i; j++) {
-      if (Idols[i].name === Idols[j].name && Idols[i].name !== "") {
+      if (
+        IdolsStars[i].name === IdolsStars[j].name &&
+        IdolsStars[i].name !== ""
+      ) {
         count++;
-        response.push(Idols[i].name);
+        response.push(IdolsStars[i].name);
       }
     }
   }
@@ -73,11 +78,14 @@ function checkAlreadyExistIdols() {
 function checkAlreadyExistIdIdols() {
   let count = 0;
   let response = [];
-  for (let i = 1; i < Idols.length; i++) {
+  for (let i = 1; i < IdolsStars.length; i++) {
     for (let j = 0; j < i; j++) {
-      if (Idols[i].idIdol === Idols[j].idIdol) {
+      if (
+        IdolsStars[i].idIdol === IdolsStars[j].idIdol ||
+        IdolsStars[i].idStar === IdolsStars[j].idStar
+      ) {
         count++;
-        response.push(Idols[i].idIdol);
+        response.push(Idols[i].idIdol || IdolsStars[j].idStar);
       }
     }
   }
