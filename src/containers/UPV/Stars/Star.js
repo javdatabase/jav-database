@@ -11,6 +11,7 @@ import {
 import { STAR_PROFILE } from "../../../services/upv/stars.service";
 import Tabs from "../../../components/UI/Tabs/Tabs";
 import IdolAvatar from "../../../components/Idols/IdolAvatar";
+import StarCup from "../../../components/Idols/IdolCup";
 import StarPicture from "../../../components/Idols/IdolPicture";
 
 import { Black, Grey, Blue } from "../../../themes/colors";
@@ -233,7 +234,10 @@ function Star() {
               <PointsStar>{get(data, "points", 0)} points</PointsStar>● Born:{" "}
               {get(data, "born", "")} ({get(data, "age", "")} year olds)
               <br />● Height: {get(data, "height", "")}
-              <br />● Breast: {get(data, "breast", "")}
+              <br />● Breast: {get(data, "breast", "")}{" "}
+              <StarCup cup={get(data, "cup", "")}>
+                ({get(data, "cup", "")})
+              </StarCup>
               <br />● Waist: {get(data, "waist", "")}
               <br />● Hips: {get(data, "hips", "")}
             </Information>

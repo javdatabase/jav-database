@@ -22,7 +22,7 @@ const Container = styled.div`
   position: relative;
   z-index: 100;
   background: ${(props) =>
-    props.main
+    props.main === "true"
       ? `linear-gradient(to right, ${Pink}, ${Orange})`
       : `linear-gradient(to right, ${Blue}, ${Grey})`};
 `;
@@ -87,7 +87,7 @@ function Header({ title, toggleMenu }) {
   }, [history, location.pathname]);
 
   return (
-    <Container main={!isNotMain(location.pathname)}>
+    <Container main={String(!isNotMain(location.pathname))}>
       <ElementsGroup>
         <MenuButton onClick={toggleMenu}>
           <Bar />

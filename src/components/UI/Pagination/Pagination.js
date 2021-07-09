@@ -32,7 +32,7 @@ const PageContainer = styled.div`
 
   &::-webkit-scrollbar-thumb {
     background: ${(props) =>
-      props.main
+      props.main === "true"
         ? `linear-gradient(to right, ${Pink}, ${Orange})`
         : `linear-gradient(to right, ${Blue}, ${Grey})`};
     border-radius: 10px;
@@ -49,7 +49,7 @@ const PageItem = styled.div`
   cursor: ${(props) => (props.active ? "default" : "pointer")};
   background: ${(props) =>
     props.active
-      ? props.main
+      ? props.main === "true"
         ? `linear-gradient(to right, ${Pink}, ${Orange})`
         : `linear-gradient(to right, ${Blue}, ${Grey})`
       : "transparent"};
@@ -63,7 +63,7 @@ const PageItem = styled.div`
       : `&:hover {
     background: 
        ${
-         props.main
+         props.main === "true"
            ? `linear-gradient(to right, ${Pink}, ${Orange})`
            : `linear-gradient(to right, ${Blue}, ${Grey})`
        };
@@ -107,21 +107,21 @@ function Pagination({ count, page, size, handleChangePage }) {
   return (
     <Container>
       <PageOtherItem
-        main={!isNotMain(location.pathname)}
+        main={String(!isNotMain(location.pathname))}
         onClick={() => handleChange(1, true)}
       >{`<<`}</PageOtherItem>
       <PageOtherItem
-        main={!isNotMain(location.pathname)}
+        main={String(!isNotMain(location.pathname))}
         onClick={() => handleChange(page - 1, true)}
       >{`<`}</PageOtherItem>
       <PageContainer
         ref={pageContainerRef}
-        main={!isNotMain(location.pathname)}
+        main={String(!isNotMain(location.pathname))}
       >
         {pages.map((item) => (
           <PageItem
             key={`page-${item}`}
-            main={!isNotMain(location.pathname)}
+            main={String(!isNotMain(location.pathname))}
             active={item === page}
             onClick={() => handleChange(item)}
           >
@@ -130,11 +130,11 @@ function Pagination({ count, page, size, handleChangePage }) {
         ))}
       </PageContainer>
       <PageOtherItem
-        main={!isNotMain(location.pathname)}
+        main={String(!isNotMain(location.pathname))}
         onClick={() => handleChange(page + 1, true)}
       >{`>`}</PageOtherItem>
       <PageOtherItem
-        main={!isNotMain(location.pathname)}
+        main={String(!isNotMain(location.pathname))}
         onClick={() => handleChange(pages.length, true)}
       >{`>>`}</PageOtherItem>
     </Container>

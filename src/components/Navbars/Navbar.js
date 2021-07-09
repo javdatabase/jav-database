@@ -36,7 +36,7 @@ const Container = styled.div`
   top: 0;
   left: ${(props) => (props.show ? 0 : -300)}px;
   background: ${(props) =>
-    props.main
+    props.main === "true"
       ? `linear-gradient(to right, ${Pink}, ${Orange})`
       : `linear-gradient(to right, ${Blue}, ${Grey})`};
   overflow: hidden;
@@ -76,7 +76,7 @@ const ButtonSwitch = styled(Link)`
   ${center};
   width: 150px;
   background: ${(props) =>
-    props.main
+    props.main === "true"
       ? `linear-gradient(to right, ${Blue}, ${Grey})`
       : `linear-gradient(to right, ${Pink}, ${Orange})`};
   padding: 10px 30px;
@@ -201,7 +201,7 @@ function Navbar({ show, toggleMenu }) {
   return (
     <Fragment>
       <Backdrop show={show} hiddenModal={toggleMenu} />
-      <Container show={show} main={!isNotMain(location.pathname)}>
+      <Container show={show} main={String(!isNotMain(location.pathname))}>
         <LogoContainer onClick={handleClickLogo}>
           <ImageLogo src={DvdsIcon} alt={""} />
           <CompanyName>
@@ -211,7 +211,7 @@ function Navbar({ show, toggleMenu }) {
         <ButtonContainer>
           <ButtonSwitch
             to={isNotMain(location.pathname) ? "/jav" : "/upv"}
-            main={!isNotMain(location.pathname)}
+            main={String(!isNotMain(location.pathname))}
             onClick={toggleMenu}
           >
             <img src={SwapIcon} alt={""} /> Switch to{" "}

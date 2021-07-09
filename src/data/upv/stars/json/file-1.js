@@ -6,9 +6,10 @@ const File1 = [
     name: "Gabbie Carter",
     born: "04/08/2000",
     height: "170 cm",
-    breast: "86 cm",
-    waist: "56 cm",
-    hips: "97 cm",
+    breast: "34 in",
+    cup: "E-Cup",
+    waist: "22 in",
+    hips: "38 in",
     album: [
       {
         picture:
@@ -131,9 +132,10 @@ const File1 = [
     name: "Melody Marks",
     born: "29/02/2000",
     height: "160 cm",
-    breast: "81 cm",
-    waist: "66 cm",
-    hips: "86 cm",
+    breast: "32 in",
+    cup: "D-Cup",
+    waist: "26 in",
+    hips: "34 in",
     album: [
       {
         picture:
@@ -428,9 +430,10 @@ const File1 = [
     name: "Skylar Vox",
     born: "09/01/2000",
     height: "158 cm",
-    breast: "86 cm",
-    waist: "61 cm",
-    hips: "86 cm",
+    breast: "34 in",
+    cup: "E-Cup",
+    waist: "24 in",
+    hips: "34 in",
     album: [
       {
         picture:
@@ -585,9 +588,10 @@ const File1 = [
     name: "Leah Gotti",
     born: "04/10/1997",
     height: "157 cm",
-    breast: "86 cm",
-    waist: "56 cm",
-    hips: "81 cm",
+    breast: "34 in",
+    cup: "C-Cup",
+    waist: "22 in",
+    hips: "32 in",
     album: [
       {
         picture:
@@ -918,9 +922,10 @@ const File1 = [
     name: "Dolly Leigh",
     born: "13/08/1991",
     height: "166 cm",
-    breast: "86 cm",
-    waist: "61 cm",
-    hips: "91 cm",
+    breast: "34 in",
+    cup: "B-Cup",
+    waist: "26 in",
+    hips: "36 in",
     album: [
       {
         picture:
@@ -1499,9 +1504,10 @@ const File1 = [
     name: "Malina Mars",
     born: "21/11/1997",
     height: "161 cm",
-    breast: "81 cm",
-    waist: "61 cm",
-    hips: "86 cm",
+    breast: "32 in",
+    cup: "B-Cup",
+    waist: "24 in",
+    hips: "34 in",
     album: [
       {
         picture:
@@ -1518,6 +1524,56 @@ const File1 = [
       {
         picture:
           "https://cdni.pornpics.com/1280/5/230/61103203/61103203_014_86bb.jpg",
+      },
+    ],
+  },
+  {
+    idStar: "ups007",
+    avatar: "",
+    name: "",
+    born: "21/11/1997",
+    height: "161 cm",
+    breast: "81 cm",
+    cup: "B-Cup",
+    waist: "61 cm",
+    hips: "86 cm",
+    album: [
+      {
+        picture: "",
+      },
+      {
+        picture: "",
+      },
+      {
+        picture: "",
+      },
+      {
+        picture: "",
+      },
+    ],
+  },
+  {
+    idStar: "ups008",
+    avatar: "",
+    name: "",
+    born: "21/11/1997",
+    height: "161 cm",
+    breast: "81 cm",
+    cup: "B-Cup",
+    waist: "61 cm",
+    hips: "86 cm",
+    album: [
+      {
+        picture: "",
+      },
+      {
+        picture: "",
+      },
+      {
+        picture: "",
+      },
+      {
+        picture: "",
       },
     ],
   },
