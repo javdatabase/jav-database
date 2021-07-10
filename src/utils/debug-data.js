@@ -81,11 +81,18 @@ function checkAlreadyExistIdIdols() {
   for (let i = 1; i < IdolsStars.length; i++) {
     for (let j = 0; j < i; j++) {
       if (
-        IdolsStars[i].idIdol === IdolsStars[j].idIdol ||
+        IdolsStars[i].idIdol &&
+        IdolsStars[i].idIdol === IdolsStars[j].idIdol
+      ) {
+        count++;
+        response.push(IdolsStars[i].idIdol);
+      }
+      if (
+        IdolsStars[i].idStar &&
         IdolsStars[i].idStar === IdolsStars[j].idStar
       ) {
         count++;
-        response.push(IdolsStars[i].idIdol || IdolsStars[j].idStar);
+        response.push(IdolsStars[j].idStar);
       }
     }
   }

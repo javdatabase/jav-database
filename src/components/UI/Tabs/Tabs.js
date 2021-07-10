@@ -17,7 +17,7 @@ const Tab = styled.div`
   padding: 10px;
   font-size: ${XLarge};
   background: ${(props) =>
-    props.color || `linear-gradient(to right, ${Pink}, ${Orange})`};
+    props.tabColor || `linear-gradient(to right, ${Pink}, ${Orange})`};
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: background 0.3s ease-in-out;
@@ -31,21 +31,21 @@ const Bar = styled.div`
   width: calc(100% / ${(props) => props.size});
   height: 5px;
   background: ${(props) =>
-    props.color || `linear-gradient(${Orange}, ${Pink})`};
+    props.barColor || `linear-gradient(${Orange}, ${Pink})`};
   transition: left 0.3s ease-in-out;
 `;
 
-function Tabs({ data, active, onChange, color }) {
+function Tabs({ data, active, onChange, tabColor, barColor }) {
   const size = data.length;
 
   return (
     <Container>
-      <Bar size={size} active={active} color={color} />
+      <Bar size={size} active={active} barColor={barColor} />
       {data.map((item, index) => (
         <Tab
           key={`tab-${index}`}
           activated={index === active}
-          color={color}
+          tabColor={tabColor}
           onClick={() => onChange(index)}
         >
           {item}

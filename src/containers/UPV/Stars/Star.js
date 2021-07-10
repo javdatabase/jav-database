@@ -35,7 +35,7 @@ const Container = styled.div`
   }
 
   &::-webkit-scrollbar-thumb {
-    background: linear-gradient(${Blue}, ${Grey});
+    background: linear-gradient(${Grey}, ${Blue});
     border-radius: 10px;
   }
 `;
@@ -82,7 +82,9 @@ const Information = styled.div`
 
 const NameStar = styled.div`
   font-size: ${XXLarge};
-  color: ${Blue};
+  background: linear-gradient(to right, ${Grey}, ${Blue});
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 `;
 
 const PointsStar = styled.div`
@@ -91,7 +93,7 @@ const PointsStar = styled.div`
   margin-top: 10px;
   margin-bottom: 50px;
   border-radius: 18px;
-  background: ${Blue};
+  background: linear-gradient(to right, ${Grey}, ${Blue});
   color: ${Black};
   font-size: ${XLarge};
 `;
@@ -248,7 +250,8 @@ function Star() {
             <Tabs
               data={tabs}
               active={tab}
-              color={Blue}
+              tabColor={`linear-gradient(${Blue}, ${Grey})`}
+              barColor={`linear-gradient(${Grey}, ${Blue})`}
               onChange={handleChangeTab}
             />
             <Content>

@@ -22,25 +22,13 @@ import { XLarge, Regular } from "../../../themes/font";
 
 const Container = styled.div`
   width: 100%;
-  height: calc(100vh - 100px);
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 30px 0px;
   box-sizing: border-box;
   animation: ${fadeIn} 0.8s ease-in-out;
-  overflow: auto;
-
-  &::-webkit-scrollbar {
-    width: 6px;
-    background: transparent;
-    border-radius: 12px;
-  }
-
-  &::-webkit-scrollbar-thumb {
-    background: linear-gradient(${Blue}, ${Grey});
-    border-radius: 10px;
-  }
 `;
 
 const VideoContainer = styled.div`
@@ -82,7 +70,7 @@ const TagStar = styled(IdolTag)`
   cursor: pointer;
   margin-top: 10px;
   color: ${Black};
-  background: ${Blue};
+  background: linear-gradient(to right, ${Grey}, ${Blue});
 `;
 
 const VideoContent = styled.div`

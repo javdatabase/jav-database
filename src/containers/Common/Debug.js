@@ -9,18 +9,30 @@ import {
   checkAlreadyExistIdIdols,
 } from "../../utils/debug-data";
 
-import { White, Orange, Yellow } from "../../themes/colors";
+import { White, Orange, Pink, Yellow } from "../../themes/colors";
 import { center, fadeIn } from "../../themes/styled";
 import { Large, XXLarge } from "../../themes/font";
 
 const Container = styled.div`
   width: 100%;
-  height: 100%;
+  height: calc(100vh - 100px);
   display: flex;
   flex-direction: column;
   padding: 35px 320px;
   box-sizing: border-box;
   animation: ${fadeIn} 0.8s ease-in-out;
+  overflow: auto;
+
+  &::-webkit-scrollbar {
+    width: 6px;
+    background: transparent;
+    border-radius: 12px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: linear-gradient(${Orange}, ${Pink});
+    border-radius: 10px;
+  }
 `;
 
 const Title = styled.div`
