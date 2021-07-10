@@ -1,8 +1,8 @@
-import MainDvds from "../data/dvds/main";
-import PreReleaseDvds from "../data/dvds/pre-release";
-import AmateurDvds from "../data/dvds/amateur";
-import Idols from "../data/idols";
-import Stars from "../data/stars";
+import MainDvds from "../data/jav/dvds/main";
+import PreReleaseDvds from "../data/jav/dvds/pre-release";
+import AmateurDvds from "../data/jav/dvds/amateur";
+import Idols from "../data/jav/idols";
+import Stars from "../data/upv/stars";
 
 const Dvds = MainDvds.concat(PreReleaseDvds, AmateurDvds);
 
