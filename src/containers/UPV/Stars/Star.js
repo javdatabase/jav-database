@@ -2,6 +2,7 @@ import React, { Fragment, useState, useMemo, useCallback } from "react";
 import { get } from "lodash";
 import styled from "styled-components";
 import { useParams } from "react-router-dom";
+import LazyLoad from "react-lazyload";
 
 import { priceCurrency } from "../../../helpers/render-price";
 import {
@@ -141,6 +142,7 @@ const PictureBorder = styled.div`
   overflow: hidden;
   cursor: pointer;
   transition: border 0.3s ease-in-out;
+  animation: ${fadeIn} 0.8s ease-in-out;
 
   &:hover {
     border: solid 5px ${Blue};
@@ -257,13 +259,20 @@ function Star() {
             <Content>
               <PictureContainer>
                 {get(data, "album", []).map((item) => (
-                  <PictureBorder key={item.picture}>
-                    <Picture
-                      src={item.picture}
-                      onClick={() => handleModalPicture(item.picture)}
-                      alt={""}
-                    />
-                  </PictureBorder>
+                  <LazyLoad
+                    key={item.picture}
+                    height={450}
+                    once={true}
+                    overflow={true}
+                  >
+                    <PictureBorder>
+                      <Picture
+                        src={item.picture}
+                        onClick={() => handleModalPicture(item.picture)}
+                        alt={""}
+                      />
+                    </PictureBorder>
+                  </LazyLoad>
                 ))}
               </PictureContainer>
             </Content>
