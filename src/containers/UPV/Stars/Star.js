@@ -6,9 +6,9 @@ import LazyLoad from "react-lazyload";
 
 import { priceCurrency } from "../../../helpers/render-price";
 import {
-  getEarningStar,
+  getSalaryStar,
   getPriceOneNight,
-} from "../../../services/jav/earnings.service";
+} from "../../../services/upv/salary.service";
 import { STAR_PROFILE } from "../../../services/upv/stars.service";
 import Tabs from "../../../components/UI/Tabs/Tabs";
 import IdolAvatar from "../../../components/Idols/IdolAvatar";
@@ -187,7 +187,7 @@ function Star() {
   }, [data]);
 
   const earnings = useMemo(() => {
-    return getEarningStar(get(data, "points", 0));
+    return getSalaryStar(get(data, "points", 0));
   }, [data]);
 
   const price = useMemo(() => {

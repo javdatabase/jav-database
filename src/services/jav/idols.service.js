@@ -194,7 +194,7 @@ const ALL_EARNING_IDOLS = ALL_IDOLS_DETAIL.map((item) => ({
     item.points,
     item.styles,
     item.dvds.filter((item) => item.type === "Uncensored").length,
-    BEST_IDOLS.includes(item.idIdol)
+    BEST_IDOL_IDS.includes(item.idIdol)
   ),
   bonus: getBonusEarnings(item.idIdol),
 }))

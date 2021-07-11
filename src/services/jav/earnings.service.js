@@ -4,7 +4,7 @@ import {
   WeekEarnings,
 } from "../../helpers/earning-values";
 
-const STAR_IDOL_ID = "";
+const STAR_IDOL_ID = "jai041";
 const BEST_DVD_IDS = [
   "jai016",
   "jai038",
@@ -15,7 +15,6 @@ const BEST_DVD_IDS = [
   "jai153",
   "jai157",
   "jai166",
-  "jai184",
   "jai188",
 ];
 const BEST_IDOL_IDS = [
@@ -35,10 +34,21 @@ const BEST_IDOL_IDS = [
   "jai157",
   "jai165",
   "jai166",
-  "jai184",
   "jai188",
 ];
-const SWEET_NIGHT_IDS = ["jai041", "jai041", "jai041", "jai057"];
+const SWEET_NIGHT_IDS = [
+  "jai038",
+  "jai041",
+  "jai041",
+  "jai041",
+  "jai057",
+  "jai057",
+  "jai057",
+  "jai062",
+  "jai166",
+  "jai166",
+  "jai166",
+];
 const TOP_POINT_GROWTH_IDS = ["jai057"];
 const TOP_IDOL_IDS = [
   "jai062",
@@ -128,10 +138,6 @@ function getEarningIdol(rank, points, styles, uncensored, best) {
   );
 }
 
-function getEarningStar(points) {
-  return points * MonthEarnings.usuk;
-}
-
 function getPriceOneNight(earnings) {
   return Math.ceil(earnings / OneNightRatio);
 }
@@ -170,4 +176,4 @@ function getBonusEarnings(id) {
   return bonus;
 }
 
-export { getEarningIdol, getEarningStar, getPriceOneNight, getBonusEarnings };
+export { getEarningIdol, getPriceOneNight, getBonusEarnings };
