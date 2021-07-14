@@ -7,13 +7,6 @@ const File1 = [
     idols: [{ idIdol: "jai016", name: "Kanako Iioka" }],
   },
   {
-    code: "CEAD-347",
-    title: `I'M A PLEASURE MAD NASTY ONANIST 16 MIYABI MIDORIKAWA`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/cead347/cead347pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai176", name: "Miyabi Midorikawa" }],
-  },
-  {
     code: "HZGD-193",
     title: `LOST PARADISE SEXUAL INTERCOURSE-REPEATING SECRET MEETINGS , DEEPENING LOVE ... FORBIDDEN AFFAIR-KANAKO IIOKA`,
     poster:

@@ -4,82 +4,49 @@ import {
   WeekEarnings,
 } from "../../helpers/earning-values";
 
-const STAR_IDOL_ID = "jai041";
-const BEST_DVD_IDS = [
-  "jai016",
-  "jai038",
-  "jai041",
-  "jai057",
-  "jai062",
-  "jai073",
-  "jai153",
-  "jai157",
-  "jai166",
-  "jai188",
-];
+const STAR_IDOL_ID = "";
+const BEST_DVD_IDS = ["jai007", "jai034", "jai154", "jai179"];
 const BEST_IDOL_IDS = [
   "jai007",
-  "jai016",
-  "jai026",
+  "jai013",
+  "jai015",
+  "jai021",
   "jai034",
-  "jai038",
-  "jai041",
-  "jai057",
-  "jai062",
-  "jai072",
-  "jai073",
-  "jai145",
-  "jai148",
-  "jai153",
-  "jai157",
-  "jai165",
-  "jai166",
-  "jai188",
-];
-const SWEET_NIGHT_IDS = [
-  "jai038",
-  "jai041",
-  "jai041",
-  "jai041",
-  "jai057",
-  "jai057",
-  "jai057",
-  "jai062",
-  "jai166",
-  "jai166",
-  "jai166",
-];
-const TOP_POINT_GROWTH_IDS = ["jai057"];
-const TOP_IDOL_IDS = [
-  "jai062",
-  "jai068",
-  "jai069",
-  "jai070",
-  "jai151",
+  "jai054",
+  "jai133",
+  "jai146",
+  "jai154",
   "jai158",
-  "jai187",
-  "jai188",
-  "jai195",
+  "jai162",
+  "jai176",
+  "jai179",
 ];
+const SWEET_NIGHT_IDS = [];
+const TOP_POINT_GROWTH_IDS = [
+  "jai007",
+  "jai013",
+  "jai054",
+  "jai140",
+  "jai162",
+  "jai176",
+];
+const TOP_IDOL_IDS = [];
 const HAS_DVD_IDS = [
   "jai007",
-  "jai016",
-  "jai026",
+  "jai013",
+  "jai015",
+  "jai021",
   "jai034",
-  "jai038",
-  "jai041",
-  "jai057",
-  "jai062",
-  "jai072",
-  "jai073",
-  "jai145",
-  "jai148",
-  "jai153",
-  "jai157",
-  "jai165",
-  "jai166",
-  "jai184",
-  "jai188",
+  "jai054",
+  "jai133",
+  "jai140",
+  "jai146",
+  "jai154",
+  "jai158",
+  "jai162",
+  "jai176",
+  "jai179",
+  "jai185",
 ];
 const NEWBIE_IDS = [];
 
