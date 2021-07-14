@@ -1,34 +1,7 @@
 import Stars from "../../data/upv/stars";
+import { SWEET_STAR_POINTS_BY_IDS } from "./salary.service";
 
 const SIZE_STARS = Stars.length;
-
-const SWEET_STAR_IDS = [
-  "ups001",
-  "ups001",
-  "ups001",
-  "ups002",
-  "ups002",
-  "ups002",
-  "ups003",
-  "ups003",
-  "ups004",
-  "ups004",
-  "ups005",
-  "ups005",
-  "ups006",
-  "ups006",
-  "ups007",
-  "ups007",
-  "ups007",
-  "ups007",
-  "ups008",
-  "ups008",
-  "ups008",
-  "ups008",
-  "ups009",
-  "ups009",
-  "ups009",
-];
 
 const STAR_PROFILE = (id) => {
   let star = undefined;
@@ -37,10 +10,7 @@ const STAR_PROFILE = (id) => {
       star = Stars[i];
     }
   }
-  const points = SWEET_STAR_IDS.reduce(
-    (acc, val) => (val === id ? acc + 1 : acc),
-    0
-  );
+  const points = SWEET_STAR_POINTS_BY_IDS[id] || 0;
   return { ...star, points: points };
 };
 
