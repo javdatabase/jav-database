@@ -426,7 +426,7 @@ function Idol() {
         <ProfileContainer>
           <InformationContainer>
             <AvatarContainer>
-              {checkBestIdol(data.idIdol) && (
+              {checkBestIdol(id) && (
                 <BadgeIdol
                   to={{
                     pathname: "/jav/idols",

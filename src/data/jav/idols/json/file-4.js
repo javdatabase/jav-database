@@ -5,6 +5,7 @@ import * as hiro_shirasawa from "../images/hiro-shirasawa";
 import * as suzune_akimoto from "../images/suzune-akimoto";
 import * as rin_sakita from "../images/rin-sakita";
 import * as rin_natsuki from "../images/rin-natsuki";
+import * as mina_kitano from "../images/mina-kitano";
 
 const File4 = [
   {
@@ -462,6 +463,51 @@ const File4 = [
       },
       {
         picture: rin_natsuki.rin_natsuki_11,
+      },
+    ],
+  },
+  {
+    idIdol: "jai196",
+    avatar: mina_kitano.mina_kitano_4,
+    name: "Mina Kitano",
+    other: "",
+    born: "20/05/2000",
+    height: "160 cm",
+    breast: "92 cm",
+    cup: "H-Cup",
+    waist: "59 cm",
+    hips: "89 cm",
+    styles: [{ tag: "Cute" }, { tag: "Killer Tits" }, { tag: "Slender" }],
+    album: [
+      {
+        picture: mina_kitano.mina_kitano_1,
+      },
+      {
+        picture: mina_kitano.mina_kitano_2,
+      },
+      {
+        picture: mina_kitano.mina_kitano_3,
+      },
+      {
+        picture: mina_kitano.mina_kitano_5,
+      },
+      {
+        picture: mina_kitano.mina_kitano_6,
+      },
+      {
+        picture: mina_kitano.mina_kitano_7,
+      },
+      {
+        picture: mina_kitano.mina_kitano_8,
+      },
+      {
+        picture: mina_kitano.mina_kitano_9,
+      },
+      {
+        picture: mina_kitano.mina_kitano_10,
+      },
+      {
+        picture: mina_kitano.mina_kitano_11,
       },
     ],
   },
