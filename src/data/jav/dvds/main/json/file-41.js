@@ -234,6 +234,13 @@ const File41 = [
     type: "Censored",
     idols: [{ idIdol: "jai196", name: "Mina Kitano" }],
   },
+  {
+    code: "ADN-330",
+    title: `A METAMORPHOSIS TEACHER WHO CONTINUED TO HAVE SEX WITH A STUDENT WHO RETURNED TO HIS MOTHER'S SCHOOL FOR TWO WEEKS FOR EDUCATIONAL TRAINING`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/adn330/adn330pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai153", name: "Hikari Ninomiya" }],
+  },
 ];
 
 export default File41;

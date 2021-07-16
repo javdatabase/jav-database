@@ -14,11 +14,11 @@ const File1 = [
     idols: [{ idIdol: "jai000", name: "Hikari Imai" }],
   },
   {
-    code: "EBOD-841",
-    title: `IN THE ABSENCE OF MOM ... A BUSTY HOSTESS CONTINUES TO BE SQUID BY A BIG CUSTOMER'S UNEQUALED JI ● PO WITH CORONA SEXUAL ENTERTAINMENT ... MINA KITANO`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/ebod841/ebod841pl.jpg",
+    code: "DLDSS-014",
+    title: `A BIG TITS WIFE WHO WAS COMPLETELY FALLEN BY THE KIMEKISKAN OF A FORMER PHARMACIST'S FATHER-IN-LAW FOR A WEEK WHILE HER HUSBAND WAS HOSPITALIZED - I BECAME AN APHRODISIAC AND KISSING ADDICTION - RIHO AGATSUMA`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/1dldss014/1dldss014pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai000", name: "Mina Kitano" }],
+    idols: [{ idIdol: "jai000", name: "Riho Agatsuma" }],
   },
 ];
 
