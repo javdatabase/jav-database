@@ -76,6 +76,10 @@ const Home = lazy(() =>
   componentLoader(() => import("../containers/UPV/Home/Home"))
 );
 
+const Stars = lazy(() =>
+  componentLoader(() => import("../containers/UPV/Stars/Stars"))
+);
+
 const Star = lazy(() =>
   componentLoader(() => import("../containers/UPV/Stars/Star"))
 );
@@ -99,6 +103,7 @@ function URoutes() {
           exact={true}
           component={TopEarnings}
         />
+        <Route path={"/upv/stars"} exact={true} component={Stars} />
         <Route path={"/upv/star/:id"} exact={false} component={Star} />
         <Route path={"*"} component={NotFound} />
       </Switch>

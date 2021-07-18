@@ -18,7 +18,7 @@ import {
   DarkPurple,
 } from "../../themes/colors";
 import { center } from "../../themes/styled";
-import { Large, XLarge } from "../../themes/font";
+import { XLarge } from "../../themes/font";
 
 const Container = styled.div`
   ${center}
@@ -66,7 +66,6 @@ const AvatarIdol = styled(Image)`
 
 const TagIdol = styled(IdolTag)`
   margin-top: 15px;
-  font-size: ${Large};
   background: ${(props) =>
     props.queen
       ? `linear-gradient(to right, ${Yellow}, ${Red})`

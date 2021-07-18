@@ -8,7 +8,7 @@ import {
   SIZE_AMATEUR_DVDS,
 } from "../../services/jav/dvds.service";
 import { SIZE_IDOLS } from "../../services/jav/idols.service";
-// import { SIZE_VIDEOS } from "../../services/upv/videos.service";
+import { SIZE_STARS } from "../../services/upv/stars.service";
 import { isNotMain } from "../../helpers/router-type";
 import Backdrop from "../UI/Backdrop/Backdrop";
 import DvdsIcon from "../../assets/images/ic_dvds/ic_dvds.svg";
@@ -20,7 +20,6 @@ import PlaylistIcon from "../../assets/images/ic_playlist/ic_playlist.svg";
 import AlbumIcon from "../../assets/images/ic_album/ic_album.svg";
 import ClipboardIcon from "../../assets/images/ic_clipboard/ic_clipboard.svg";
 import MedalIcon from "../../assets/images/ic_medal/ic_medal.svg";
-// import OnlineVideoIcon from "../../assets/images/ic_online_video/ic_online_video.svg";
 import NextIcon from "../../assets/images/ic_next/ic_next.svg";
 import SwapIcon from "../../assets/images/ic_swap/ic_swap.svg";
 
@@ -193,6 +192,11 @@ function Navbar({ show, toggleMenu }) {
               path: "/upv/top-earnings",
               title: "Top Earnings",
               icon: LineChartIcon,
+            },
+            {
+              path: "/upv/stars",
+              title: `Stars (${SIZE_STARS})`,
+              icon: WomanIcon,
             },
           ],
     [location.pathname]

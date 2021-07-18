@@ -14,8 +14,8 @@ import {
   Blue,
   LightBlue,
   Yellow,
-  LightPurple,
-  DarkPurple,
+  Red,
+  Pink,
 } from "../../themes/colors";
 import { center } from "../../themes/styled";
 import { Regular, XLarge, XXLarge } from "../../themes/font";
@@ -124,7 +124,7 @@ const PriceStar = styled.div`
   border: solid 6px ${White};
   padding: 10px 20px;
   border-radius: 12px;
-  background: linear-gradient(to right, ${LightPurple}, ${DarkPurple});
+  background: linear-gradient(to right, ${Pink}, ${Red});
   color: ${White};
   font-size: ${XLarge};
   -webkit-text-stroke-width: 2px;

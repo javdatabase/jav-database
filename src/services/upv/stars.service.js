@@ -1,7 +1,44 @@
+import { toUpper, trim } from "lodash";
+
 import Stars from "../../data/upv/stars";
+import { sortIdols } from "../jav/common.service";
 import { getSalaryStar, SWEET_STAR_POINTS_BY_IDS } from "./salary.service";
 
 const SIZE_STARS = Stars.length;
+
+const ALL_STARS_BY_PAGE = (name, cup, height, breast, hips, page, pageSize) => {
+  let temp = sortIdols(Stars);
+  if (name) {
+    temp = temp.filter((item) =>
+      toUpper(item.name + " " + item.other).includes(toUpper(trim(name)))
+    );
+  }
+  if (cup && cup.length > 0) {
+    temp = temp.filter(
+      (item) => !!cup.find((filter) => filter.value === item.cup)
+    );
+  }
+  if (height) {
+    temp = temp.filter(
+      (item) => Number(item.height.replace(" cm", "")) >= height
+    );
+  }
+  if (breast) {
+    temp = temp.filter(
+      (item) => Number(item.breast.replace(" cm", "")) >= breast
+    );
+  }
+  if (hips) {
+    temp = temp.filter((item) => Number(item.hips.replace(" cm", "")) >= hips);
+  }
+  const size = temp.length;
+  const response = temp.filter((item, index) => {
+    return (
+      index < size - (page - 1) * pageSize && index > size - 1 - page * pageSize
+    );
+  });
+  return { data: [...response].reverse(), size: size };
+};
 
 const STAR_PROFILE = (id) => {
   let star = undefined;
@@ -21,4 +58,4 @@ const ALL_EARNING_STARS = Stars.map((item) => ({
   .sort((a, b) => b.earnings - a.earnings)
   .map((item, index) => ({ ...item, position: index + 1 }));
 
-export { SIZE_STARS, STAR_PROFILE, ALL_EARNING_STARS };
+export { SIZE_STARS, ALL_STARS_BY_PAGE, STAR_PROFILE, ALL_EARNING_STARS };

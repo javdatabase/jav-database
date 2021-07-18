@@ -82,6 +82,8 @@ function Layout() {
       return "Amateur Dvds";
     } else if (matchPath(path, { path: "/upv/home", exact: true })) {
       return "Home";
+    } else if (matchPath(path, { path: "/upv/stars", exact: true })) {
+      return "Stars";
     } else if (matchPath(path, { path: "/upv/star/:id", exact: true })) {
       return STAR_PROFILE(path.replace("/upv/star/", "")).name;
     } else if (matchPath(path, { path: "/debug", exact: true })) {
