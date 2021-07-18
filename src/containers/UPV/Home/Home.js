@@ -5,14 +5,13 @@ import { Link, useHistory, useLocation } from "react-router-dom";
 
 import { SIZE_VIDEOS, ALL_VIDEOS } from "../../../services/upv/videos.service";
 import Pagination from "../../../components/UI/Pagination/Pagination";
-import IdolTag from "../../../components/Idols/IdolTag";
+import StarTag from "../../../components/Stars/StarTag";
 import RollingIcon from "../../../assets/images/ic_rolling/ic_rolling.svg";
 
 import {
   White,
   Black,
   Grey,
-  Blue,
   Orange,
   DarkBlue,
   LightBlue,
@@ -60,17 +59,15 @@ const Studio = styled.a`
   }
 `;
 
-const IdolsContainer = styled.div`
+const StarsContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 30px;
 `;
 
-const TagStar = styled(IdolTag)`
+const TagStar = styled(StarTag)`
   cursor: pointer;
   margin-top: 10px;
-  color: ${Black};
-  background: linear-gradient(to right, ${Grey}, ${Blue});
 `;
 
 const VideoContent = styled.div`
@@ -118,7 +115,7 @@ function Home() {
             {get(ALL_VIDEOS[highlight], "source", "")}
           </Studio>
         </Source>
-        <IdolsContainer>
+        <StarsContainer>
           {get(ALL_VIDEOS[highlight], "stars", []).map((item) =>
             item.idStar === "ups000" ? (
               <TagStar
@@ -136,7 +133,7 @@ function Home() {
               </Link>
             )
           )}
-        </IdolsContainer>
+        </StarsContainer>
         <VideoContent
           dangerouslySetInnerHTML={{
             __html: get(ALL_VIDEOS[highlight], "content", ""),

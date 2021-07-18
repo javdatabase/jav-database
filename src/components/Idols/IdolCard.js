@@ -4,7 +4,7 @@ import styled from "styled-components";
 import { Link, useLocation } from "react-router-dom";
 
 import { getIdolRank, checkBestIdol } from "../../services/jav/common.service";
-import IdolAvatar from "./IdolAvatar";
+import Image from "../Image/Image";
 import IdolTag from "./IdolTag";
 
 import {
@@ -57,7 +57,7 @@ const BadgeIdol = styled(Link)`
   color: ${White};
 `;
 
-const AvatarIdol = styled(IdolAvatar)`
+const AvatarIdol = styled(Image)`
   width: 16vw;
   height: 22vw;
   border-radius: 18px;

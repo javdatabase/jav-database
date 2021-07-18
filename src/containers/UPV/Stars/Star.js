@@ -11,9 +11,9 @@ import {
 } from "../../../services/upv/salary.service";
 import { STAR_PROFILE } from "../../../services/upv/stars.service";
 import Tabs from "../../../components/UI/Tabs/Tabs";
-import IdolAvatar from "../../../components/Idols/IdolAvatar";
-import StarCup from "../../../components/Idols/IdolCup";
-import StarPicture from "../../../components/Idols/IdolPicture";
+import Image from "../../../components/Image/Image";
+import StarCup from "../../../components/Stars/StarCup";
+import StarPicture from "../../../components/Stars/StarPicture";
 
 import { Black, Grey, Blue } from "../../../themes/colors";
 import { center, fadeIn } from "../../../themes/styled";
@@ -68,7 +68,7 @@ const AvatarContainer = styled.div`
   }
 `;
 
-const AvatarStar = styled(IdolAvatar)`
+const AvatarStar = styled(Image)`
   width: 18vw;
   height: 25vw;
   object-fit: cover;
@@ -149,7 +149,7 @@ const PictureBorder = styled.div`
   }
 `;
 
-const Picture = styled(IdolAvatar)`
+const Picture = styled(Image)`
   width: 18vw;
   object-fit: cover;
 `;
@@ -162,7 +162,7 @@ const EarningContainer = styled.div`
   flex-direction: column;
 `;
 
-const PriceIdol = styled.div`
+const PriceStar = styled.div`
   padding: 5px 10px;
   border-radius: 12px;
   background-color: ${Grey};
@@ -279,9 +279,9 @@ function Star() {
           </div>
         </ProductContainer>
         <EarningContainer>
-          <PriceIdol>
+          <PriceStar>
             ${priceCurrency(earnings)} ({priceCurrency(price)})
-          </PriceIdol>
+          </PriceStar>
         </EarningContainer>
       </Container>
       <StarPicture

@@ -97,9 +97,9 @@ function DvdDetail({ show, toggleModal, data }) {
             {get(data, "idols", []).map((item) =>
               item.idIdol === "jai000" ? (
                 <TagIdol
-                  style={{ background: Grey }}
                   key={item.idIdol}
                   name={item.name}
+                  style={{ background: Grey }}
                 />
               ) : (
                 <Link

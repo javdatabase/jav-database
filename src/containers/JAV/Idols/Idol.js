@@ -13,7 +13,7 @@ import {
 } from "../../../services/jav/earnings.service";
 import { IDOL_PROFILE } from "../../../services/jav/idols.service";
 import Tabs from "../../../components/UI/Tabs/Tabs";
-import IdolAvatar from "../../../components/Idols/IdolAvatar";
+import Image from "../../../components/Image/Image";
 import IdolCup from "../../../components/Idols/IdolCup";
 import IdolStyle from "../../../components/Idols/IdolStyle";
 import IdolPicture from "../../../components/Idols/IdolPicture";
@@ -99,7 +99,7 @@ const BadgeIdol = styled(Link)`
   color: ${White};
 `;
 
-const AvatarIdol = styled(IdolAvatar)`
+const AvatarIdol = styled(Image)`
   width: 18vw;
   height: 25vw;
   object-fit: cover;
@@ -243,7 +243,7 @@ const PictureBorder = styled.div`
   }
 `;
 
-const Picture = styled(IdolAvatar)`
+const Picture = styled(Image)`
   width: 18vw;
   object-fit: cover;
 `;

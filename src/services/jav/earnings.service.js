@@ -8,7 +8,6 @@ const STAR_IDOL_ID = "";
 const BEST_DVD_IDS = [
   "jai007",
   "jai016",
-  "jai034",
   "jai065",
   "jai069",
   "jai070",
@@ -24,7 +23,6 @@ const BEST_IDOL_IDS = [
   "jai015",
   "jai016",
   "jai021",
-  "jai034",
   "jai054",
   "jai065",
   "jai069",
@@ -81,7 +79,6 @@ const HAS_DVD_IDS = [
   "jai013",
   "jai015",
   "jai021",
-  "jai034",
   "jai054",
   "jai065",
   "jai069",

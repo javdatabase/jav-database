@@ -4,11 +4,11 @@ import styled from "styled-components";
 import Backdrop from "../UI/Backdrop/Backdrop";
 import Image from "../Image/Image";
 
-import { White, Black, Pink, Orange } from "../../themes/colors";
+import { White, Black, Grey, Blue } from "../../themes/colors";
 import { fadeIn, center } from "../../themes/styled";
 import { XXLarge } from "../../themes/font";
 
-const AvatarIdol = styled(Image)`
+const AvatarStar = styled(Image)`
   position: fixed;
   z-index: 300;
   top: 50%;
@@ -31,7 +31,7 @@ const PrevButton = styled.div`
   display: ${(props) => (props.show === "true" ? "flex" : "none")};
   width: 40px;
   height: 40px;
-  background-color: ${Orange};
+  background-color: ${Grey};
   border-radius: 12px;
   color: ${Black};
   font-size: ${XXLarge};
@@ -41,7 +41,7 @@ const PrevButton = styled.div`
   user-select: none;
 
   &:hover {
-    background-color: ${Pink};
+    background-color: ${Blue};
     color: ${White};
   }
 `;
@@ -56,7 +56,7 @@ const NextButton = styled.div`
   display: ${(props) => (props.show === "true" ? "flex" : "none")};
   width: 40px;
   height: 40px;
-  background-color: ${Orange};
+  background-color: ${Grey};
   border-radius: 12px;
   color: ${Black};
   font-size: ${XXLarge};
@@ -66,12 +66,12 @@ const NextButton = styled.div`
   user-select: none;
 
   &:hover {
-    background-color: ${Pink};
+    background-color: ${Blue};
     color: ${White};
   }
 `;
 
-function IdolPicture({ show, toggleModal, listData, data, setData }) {
+function StarPicture({ show, toggleModal, listData, data, setData }) {
   const current = useMemo(() => {
     return listData.indexOf(data);
   }, [listData, data]);
@@ -98,7 +98,7 @@ function IdolPicture({ show, toggleModal, listData, data, setData }) {
       <PrevButton show={show.toString()} onClick={prevImage}>
         {"<"}
       </PrevButton>
-      <AvatarIdol show={show.toString()} src={data} />
+      <AvatarStar show={show.toString()} src={data} />
       <NextButton show={show.toString()} onClick={nextImage}>
         {">"}
       </NextButton>
@@ -106,6 +106,6 @@ function IdolPicture({ show, toggleModal, listData, data, setData }) {
   );
 }
 
-const MemoIdolPicture = memo(IdolPicture);
+const MemoStarPicture = memo(StarPicture);
 
-export default MemoIdolPicture;
+export default MemoStarPicture;

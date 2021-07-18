@@ -4,7 +4,7 @@ import { Link, useLocation } from "react-router-dom";
 
 import { dvdPoints } from "../../helpers/render-color";
 import { checkBestIdol } from "../../services/jav/common.service";
-import IdolAvatar from "./IdolAvatar";
+import Image from "../Image/Image";
 import IdolCup from "./IdolCup";
 import IdolStyle from "./IdolStyle";
 import DvdPoster from "../Dvds/DvdPoster";
@@ -79,7 +79,7 @@ const BadgeIdol = styled(Link)`
   color: ${White};
 `;
 
-const AvatarIdol = styled(IdolAvatar)`
+const AvatarIdol = styled(Image)`
   width: 10vw;
   min-width: 10vw;
   height: 15vw;

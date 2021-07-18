@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 import { dvdPoints } from "../../helpers/render-color";
 import { getIdolRank } from "../../services/jav/common.service";
-import IdolAvatar from "./IdolAvatar";
+import Image from "../Image/Image";
 import IdolCup from "./IdolCup";
 import IdolStyle from "./IdolStyle";
 import DvdPoster from "../Dvds/DvdPoster";
@@ -59,7 +59,7 @@ const AvatarContainer = styled.div`
   height: 15vw;
 `;
 
-const AvatarIdol = styled(IdolAvatar)`
+const AvatarIdol = styled(Image)`
   width: 10vw;
   min-width: 10vw;
   height: 15vw;

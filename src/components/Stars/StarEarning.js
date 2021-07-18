@@ -1,26 +1,19 @@
 import React, { Fragment, memo, useState, useMemo, useCallback } from "react";
-import { get } from "lodash";
 import styled from "styled-components";
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import { priceCurrency } from "../../helpers/render-price";
-import { checkBestIdol } from "../../services/jav/common.service";
-import { getPriceOneNight } from "../../services/jav/earnings.service";
+import { getPriceOneNight } from "../../services/upv/salary.service";
 import Image from "../Image/Image";
-import IdolCup from "./IdolCup";
-import IdolStyle from "./IdolStyle";
-import IdolPicture from "./IdolPicture";
+import StarCup from "./StarCup";
+import StarPicture from "./StarPicture";
 
 import {
   Black,
   White,
-  Grey,
-  Red,
-  Pink,
-  Orange,
-  Yellow,
-  DarkBlue,
+  Blue,
   LightBlue,
+  Yellow,
   LightPurple,
   DarkPurple,
 } from "../../themes/colors";
@@ -34,10 +27,10 @@ const Container = styled.div`
   padding: 10px;
   margin: 20px 0px;
   box-sizing: border-box;
-  background: linear-gradient(to right, ${White}, ${Grey});
+  background: linear-gradient(to right, ${Yellow}, ${LightBlue});
 `;
 
-const PositionIdol = styled.div`
+const PositionStar = styled.div`
   ${center}
   align-self: center;
   width: 50px;
@@ -61,22 +54,7 @@ const AvatarContainer = styled.div`
   overflow: hidden;
 `;
 
-const BadgeIdol = styled(Link)`
-  position: absolute;
-  top: -5px;
-  left: -35px;
-  ${center}
-  width: 100px;
-  height: 40px;
-  background: linear-gradient(to right, ${LightPurple}, ${DarkPurple});
-  transform: rotate(135deg);
-  text-align: center;
-  text-decoration: none;
-  font-size: ${XLarge};
-  color: ${White};
-`;
-
-const AvatarIdol = styled(Image)`
+const AvatarStar = styled(Image)`
   width: 10vw;
   min-width: 10vw;
   height: 15vw;
@@ -84,7 +62,7 @@ const AvatarIdol = styled(Image)`
   object-fit: cover;
 `;
 
-const IdolInformationContainer = styled.div`
+const StarInformationContainer = styled.div`
   position: relative;
   width: 450px;
   min-width: 450px;
@@ -94,23 +72,13 @@ const IdolInformationContainer = styled.div`
   margin-left: 10px;
 `;
 
-const NameIdol = styled.div`
-  color: ${Pink};
+const NameStar = styled.div`
+  color: ${Blue};
   font-size: ${XXLarge};
 `;
 
-const InformationIdol = styled.div`
+const InformationStar = styled.div`
   color: ${Black};
-`;
-
-const StylesIdolContainer = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-`;
-
-const StyleIdol = styled(IdolStyle)`
-  border: solid 2px ${Black};
-  margin-top: 10px;
 `;
 
 const PicturesContainer = styled.div`
@@ -133,7 +101,7 @@ const PictureBorder = styled.div`
   transition: border 0.3s ease-in-out;
 
   &:hover {
-    border: solid 5px ${Pink};
+    border: solid 5px ${Blue};
   }
 `;
 
@@ -152,37 +120,11 @@ const EarningContainer = styled.div`
   justify-content: center;
 `;
 
-const PriceIdol = styled.div`
+const PriceStar = styled.div`
   border: solid 6px ${White};
   padding: 10px 20px;
   border-radius: 12px;
-  background: linear-gradient(to right, ${LightBlue}, ${DarkBlue});
-  color: ${White};
-  font-size: ${XLarge};
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: ${Black};
-`;
-
-const BonusContainer = styled.div`
-  color: transparent;
-  font-size: ${XLarge};
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: ${Black};
-`;
-
-const BonusIdol = styled(PriceIdol)`
-  border: solid 6px ${(props) => (props.bonus === "true" ? Red : White)};
   background: linear-gradient(to right, ${LightPurple}, ${DarkPurple});
-  color: ${White};
-  margin-top: 10px;
-  font-size: ${XLarge};
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: ${Black};
-`;
-
-const TotalIdol = styled(BonusIdol)`
-  border: solid 6px ${(props) => (props.bonus === "false" ? Red : White)};
-  background: linear-gradient(to right, ${Yellow}, ${Orange});
   color: ${White};
   font-size: ${XLarge};
   -webkit-text-stroke-width: 2px;
@@ -198,7 +140,7 @@ const ViewProfile = styled(Link)`
   overflow: hidden;
   border-radius: 0px 0px 18px 18px;
   box-sizing: border-box;
-  background: linear-gradient(to right, ${White}, ${Grey});
+  background: linear-gradient(to right, ${Yellow}, ${LightBlue});
   text-decoration: none;
   color: ${Black};
   font-size: ${Regular};
@@ -210,22 +152,13 @@ const ViewProfile = styled(Link)`
   }
 `;
 
-function IdolEarning({ data }) {
-  const location = useLocation();
+function StarEarning({ data }) {
   const [show, setShow] = useState(false);
   const [picture, setPicture] = useState(null);
 
   const price = useMemo(() => {
     return getPriceOneNight(data.earnings);
   }, [data.earnings]);
-
-  const total = useMemo(() => {
-    return data.bonus + data.earnings;
-  }, [data.bonus, data.earnings]);
-
-  const fee = useMemo(() => {
-    return getPriceOneNight(total);
-  }, [total]);
 
   const toggleModal = useCallback(() => {
     setShow(!show);
@@ -250,44 +183,26 @@ function IdolEarning({ data }) {
   return (
     <Fragment>
       <Container>
-        <PositionIdol>{data.position}</PositionIdol>
+        <PositionStar>{data.position}</PositionStar>
         <div style={{ display: "flex", width: "100%" }}>
           <AvatarContainer>
-            {checkBestIdol(data.idIdol) && (
-              <BadgeIdol
-                to={{
-                  pathname: "/jav/idols",
-                  state: {
-                    ...location.state,
-                    best: true,
-                    page: 1,
-                  },
-                }}
-              >
-                ☿
-              </BadgeIdol>
-            )}
-            <AvatarIdol src={data.avatar} />
-            <ViewProfile to={`/jav/idol/${data.idIdol}`}>View</ViewProfile>
+            <AvatarStar src={data.avatar} />
+            <ViewProfile to={`/upv/star/${data.idStar}`}>View</ViewProfile>
           </AvatarContainer>
-          <IdolInformationContainer>
-            <NameIdol>
+          <StarInformationContainer>
+            <NameStar>
               {data.name} {data.other ? `(${data.other})` : ""}
-            </NameIdol>
-            <InformationIdol>
+            </NameStar>
+            <InformationStar>
               ● Born: {data.born} ({data.age} year olds)
               <br />● Height: {data.height}
               <br />● Breast: {data.breast}{" "}
-              <IdolCup cup={data.cup}>({data.cup})</IdolCup>
+              <StarCup cup={data.cup}>({data.cup})</StarCup>
               <br />● Waist: {data.waist}
               <br />● Hips: {data.hips}
-            </InformationIdol>
-            <StylesIdolContainer>
-              {data.styles.map((item) => (
-                <StyleIdol key={item.tag} tag={item.tag} />
-              ))}
-            </StylesIdolContainer>
-          </IdolInformationContainer>
+            </InformationStar>
+            <div style={{ height: 46 }} />
+          </StarInformationContainer>
           <PicturesContainer>
             {data.album
               .filter((item, index) => index < 10)
@@ -302,29 +217,13 @@ function IdolEarning({ data }) {
               ))}
           </PicturesContainer>
           <EarningContainer>
-            <PriceIdol>
+            <PriceStar>
               ${priceCurrency(data.earnings)} ({priceCurrency(price)})
-            </PriceIdol>
-            {!!data.bonus && (
-              <BonusContainer>
-                +
-                <BonusIdol
-                  bonus={get(location.state, "bonus", false).toString()}
-                >
-                  ${priceCurrency(data.bonus)}
-                </BonusIdol>
-                =
-                <TotalIdol
-                  bonus={get(location.state, "bonus", false).toString()}
-                >
-                  ${priceCurrency(total)} ({priceCurrency(fee)})
-                </TotalIdol>
-              </BonusContainer>
-            )}
+            </PriceStar>
           </EarningContainer>
         </div>
       </Container>
-      <IdolPicture
+      <StarPicture
         show={show}
         toggleModal={toggleModal}
         listData={data.album
@@ -337,6 +236,6 @@ function IdolEarning({ data }) {
   );
 }
 
-const MemoIdolEarning = memo(IdolEarning);
+const MemoStarEarning = memo(StarEarning);
 
-export default MemoIdolEarning;
+export default MemoStarEarning;

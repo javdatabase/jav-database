@@ -63,7 +63,10 @@ function Layout() {
       return `${BEST_IDOL_IDS.length} Best Idols`;
     } else if (matchPath(path, { path: "/jav/ranking", exact: true })) {
       return "Ranking";
-    } else if (matchPath(path, { path: "/jav/top-earnings", exact: true })) {
+    } else if (
+      matchPath(path, { path: "/jav/top-earnings", exact: true }) ||
+      matchPath(path, { path: "/upv/top-earnings", exact: true })
+    ) {
       return "Top Earnings";
     } else if (matchPath(path, { path: "/jav/idols", exact: true })) {
       return "Idols";

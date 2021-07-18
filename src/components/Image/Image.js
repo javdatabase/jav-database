@@ -17,7 +17,7 @@ const Dummy = styled.div`
   }
 `;
 
-function IdolAvatar({ src, lazy, ...props }) {
+function Avatar({ src, lazy, ...props }) {
   const [source, setSource] = useState(src || SexyShadowImage);
   const [dummy, setDummy] = useState(true);
   const [reload, setReload] = useState(false);
@@ -62,6 +62,6 @@ function IdolAvatar({ src, lazy, ...props }) {
   );
 }
 
-const MemoIdolAvatar = memo(IdolAvatar);
+const MemoAvatar = memo(Avatar);
 
-export default MemoIdolAvatar;
+export default MemoAvatar;

@@ -189,6 +189,11 @@ function Navbar({ show, toggleMenu }) {
               title: `Home`,
               icon: HomeIcon,
             },
+            {
+              path: "/upv/top-earnings",
+              title: "Top Earnings",
+              icon: LineChartIcon,
+            },
           ],
     [location.pathname]
   );

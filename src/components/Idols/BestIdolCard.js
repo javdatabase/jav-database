@@ -3,7 +3,7 @@ import { get } from "lodash";
 import styled from "styled-components";
 
 import { getIdolRank } from "../../services/jav/common.service";
-import IdolAvatar from "../Idols/IdolAvatar";
+import Image from "../Image/Image";
 
 import { Pink, Orange, LightBlue, Yellow, Red } from "../../themes/colors";
 import { center } from "../../themes/styled";
@@ -34,7 +34,7 @@ const AvatarContainer = styled.div`
   border-radius: 18px;
 `;
 
-const AvatarIdol = styled(IdolAvatar)`
+const AvatarIdol = styled(Image)`
   width: 14vw;
   height: 19.25vw;
   border-radius: 18px;

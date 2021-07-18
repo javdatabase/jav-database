@@ -1,5 +1,5 @@
 import Stars from "../../data/upv/stars";
-import { SWEET_STAR_POINTS_BY_IDS } from "./salary.service";
+import { getSalaryStar, SWEET_STAR_POINTS_BY_IDS } from "./salary.service";
 
 const SIZE_STARS = Stars.length;
 
@@ -14,4 +14,11 @@ const STAR_PROFILE = (id) => {
   return { ...star, points: points };
 };
 
-export { SIZE_STARS, STAR_PROFILE };
+const ALL_EARNING_STARS = Stars.map((item) => ({
+  ...item,
+  earnings: getSalaryStar(SWEET_STAR_POINTS_BY_IDS[item.idStar] || 0),
+}))
+  .sort((a, b) => b.earnings - a.earnings)
+  .map((item, index) => ({ ...item, position: index + 1 }));
+
+export { SIZE_STARS, STAR_PROFILE, ALL_EARNING_STARS };

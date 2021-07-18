@@ -86,13 +86,6 @@ const File41 = [
     ],
   },
   {
-    code: "MOPT-009",
-    title: `M MAN IS A CREATURE TO BE RESTRAINED . SLUT RESTRAINT , M SWITCH`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/mopt009so/mopt009sopl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai034", name: "Mary Tachibana" }],
-  },
-  {
     code: "MIMK-091",
     title: `CUMULATIVE SALES OF OKANEDAISKI EXCEED 20,000 ! A LIVE-ACTION VERSION OF THE ORIGINAL MEMEYA , A NICE BUSTY GIRL WHO CAN DO ANYTHING WITHOUT NG AND A SQUIRREL-ROLLED MANGA ! MAEDA MOMOKYOU`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/mimk091/mimk091pl.jpg",

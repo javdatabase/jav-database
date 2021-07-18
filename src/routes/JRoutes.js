@@ -2,7 +2,7 @@ import React, { Suspense, lazy } from "react";
 import styled from "styled-components";
 import { Switch, Route, Redirect } from "react-router-dom";
 
-import LoadingIcon from "../assets/images/ic_loading/ic_loading.svg";
+import LoadingIcon from "../assets/images/ic_loading_jav/ic_loading_jav.svg";
 
 import { Black, White } from "../themes/colors";
 import { center } from "../themes/styled";
