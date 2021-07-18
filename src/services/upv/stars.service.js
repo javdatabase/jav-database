@@ -25,11 +25,11 @@ const ALL_STARS_BY_PAGE = (name, cup, height, breast, hips, page, pageSize) => {
   }
   if (breast) {
     temp = temp.filter(
-      (item) => Number(item.breast.replace(" cm", "")) >= breast
+      (item) => Number(item.breast.replace(" in", "")) >= breast
     );
   }
   if (hips) {
-    temp = temp.filter((item) => Number(item.hips.replace(" cm", "")) >= hips);
+    temp = temp.filter((item) => Number(item.hips.replace(" in", "")) >= hips);
   }
   const size = temp.length;
   const response = temp.filter((item, index) => {

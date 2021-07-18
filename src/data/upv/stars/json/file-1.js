@@ -1744,10 +1744,10 @@ const File1 = [
     name: "Lily Jordan",
     born: "16/01/1998",
     height: "155 cm",
-    breast: "32 cm",
+    breast: "32 in",
     cup: "B-Cup",
-    waist: "24 cm",
-    hips: "28 cm",
+    waist: "24 in",
+    hips: "28 in",
     album: [
       {
         picture:
