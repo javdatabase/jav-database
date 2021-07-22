@@ -103,6 +103,14 @@ const File1 = [
     type: "US/EU",
     stars: [{ idStar: "ups011", name: "Kendra Sunderland" }],
   },
+  {
+    title: `HOTWIFE STELLA GETS PERMISSION TO PLAY`,
+    source: `NEW SENSTATIONS`,
+    link: "https://www.newsensations.com",
+    content: `<iframe width="943" height="530" src="https://fapster.xxx/embed/159531" frameborder="0" allowfullscreen></iframe>`,
+    type: "US/EU",
+    stars: [{ idStar: "ups012", name: "Stella Cox" }],
+  },
 ];
 
 export default File1;

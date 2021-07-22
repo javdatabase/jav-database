@@ -1,17 +1,18 @@
 import { Salary, OneNightRatio } from "../../helpers/salary-values";
 
 const SWEET_STAR_POINTS_BY_IDS = {
-  ups001: 3,
-  ups002: 3,
+  ups001: 4,
+  ups002: 4,
   ups003: 2,
-  ups004: 2,
+  ups004: 3,
   ups005: 2,
-  ups006: 2,
-  ups007: 4,
-  ups008: 4,
-  ups009: 3,
-  ups010: 2,
-  ups011: 1,
+  ups006: 3,
+  ups007: 5,
+  ups008: 5,
+  ups009: 4,
+  ups010: 3,
+  ups011: 3,
+  ups012: 6,
 };
 
 function getSalaryStar(points) {

@@ -7,7 +7,7 @@ import {
 const STAR_IDOL_ID = "";
 const BEST_DVD_IDS = ["jai068", "jai195"];
 const BEST_IDOL_IDS = ["jai059", "jai068", "jai152", "jai195"];
-const SWEET_NIGHT_IDS = ["jai068"];
+const SWEET_NIGHT_IDS = ["jai068", "jai068"];
 const TOP_POINT_GROWTH_IDS = [];
 const TOP_IDOL_IDS = [];
 const HAS_DVD_IDS = ["jai059", "jai068", "jai152", "jai195"];
