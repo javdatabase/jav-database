@@ -28,27 +28,6 @@ const File1 = [
     idols: [{ idIdol: "jai158", name: "Nao Jinguji" }],
   },
   {
-    code: "FSDSS-256",
-    title: `FALENO MEMBERS ONLY NATIONAL TREASURE-CLASS HOSPITALITY SOAPLAND MINAMO NAGASE`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/1fsdss256/1fsdss256pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai152", name: "Minamo Nagase" }],
-  },
-  {
-    code: "FSDSS-257",
-    title: `SLUT MEN'S ESTHETICS WHO PLAY WITH NIPPLES AND MAKE STUPID JI ○ PORT MANY TIMES WITH A SMALL DEVILISH CUSTOMER SERVICE YUKO ONO`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/1fsdss257/1fsdss257pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai068", name: "Aoi" }],
-  },
-  {
-    code: "FSDSS-258",
-    title: `CONTINUOUS EROTIC SEX WITH BODY FLUIDS RIN NATSUKI`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/1fsdss258/1fsdss258pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai195", name: "Rin Natsuki" }],
-  },
-  {
     code: "GVH-273",
     title: `MOM'S REAL SEX EDUCATION YUI HATANO`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/13gvh273/13gvh273pl.jpg",
