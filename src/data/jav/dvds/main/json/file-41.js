@@ -353,6 +353,35 @@ const File41 = [
     type: "Censored",
     idols: [{ idIdol: "jai195", name: "Rin Natsuki" }],
   },
+  {
+    code: "JUFE-315",
+    title: `RESTRAINT SUITE ROOM BEAUTIFUL W SLUT RINNE TOKA SATOMI YURIA WHO COMMITS A MAN AND MAKES IT CRAZY`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/jufe315/jufe315pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai061", name: "Yuria Satomi" }],
+  },
+  {
+    code: "GHNU-05",
+    title: `HEROINE HUNTING A GRUDGE AGAINST THE PRINCESS WHO STRIPS HER FANGS! TARGETED SPANDEXER SUN ANGEL RUI HIZUKI`,
+    poster:
+      "http://pics.dmm.co.jp/mono/movie/adult/h_173ghnu05/h_173ghnu05pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai056", name: "Rui Hiduki" }],
+  },
+  {
+    code: "ABW-118",
+    title: `SUZUMURA MUSOU NONSTOP 10P ORGY & ULTIMATE ONE-ON-ONE SEX [ 100 WORKS COMMEMORATIVE SPECIAL PROJECT ]`,
+    poster: "http://img57.pixhost.to/images/93/219788249_1631334l.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai113", name: "Airi Suzumura" }],
+  },
+  {
+    code: "SW-788",
+    title: `THE BIG ASS WIFE IN THE NEIGHBORHOOD IS SULLENLY LEWD TO SEDUCE WITH A MINISKIRT BLACK PANTYHOSE ! I'M WAITING FOR A FUCK WITH A TRANSPARENT PANCHIRA , SO I BROKE THE PANTYHOSE AND SCREWED IN A HARD COCK`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/1sw788/1sw788pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai054", name: "Arisa Hanyu" }],
+  },
 ];
 
 export default File41;
