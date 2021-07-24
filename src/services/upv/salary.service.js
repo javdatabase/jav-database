@@ -2,11 +2,11 @@ import { Salary, OneNightRatio } from "../../helpers/salary-values";
 
 const SWEET_STAR_POINTS_BY_IDS = {
   ups001: 4,
-  ups002: 4,
+  ups002: 5,
   ups003: 2,
-  ups004: 3,
+  ups004: 4,
   ups005: 2,
-  ups006: 3,
+  ups006: 5,
   ups007: 5,
   ups008: 5,
   ups009: 4,
