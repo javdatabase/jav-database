@@ -462,6 +462,20 @@ const File41 = [
     type: "Censored",
     idols: [{ idIdol: "jai041", name: "Julia" }],
   },
+  {
+    code: "KATU-086",
+    title: `SKIPJACK PRODUCT COLLECTION 4`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/katu086/katu086pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai054", name: "Arisa Hanyu" }],
+  },
+  {
+    code: "SABA-715",
+    title: `I JUST WANT TO SPEAR WITH AMATEUR GIRLS ALL OVER THE COUNTRY ... I WANT TO FUCK! AMATEUR GONZO TOKAI REGION EDITION`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/saba715so/saba715sopl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai185", name: "Nene Tanaka" }],
+  },
 ];
 
 export default File41;
