@@ -1,3 +1,5 @@
+import { MXX98, SSDV98 } from "../../main/images";
+
 const File1 = [
   {
     code: "MIDE-953",
@@ -56,20 +58,6 @@ const File1 = [
     idols: [{ idIdol: "jai196", name: "Mina Kitano" }],
   },
   {
-    code: "JUL-672",
-    title: `MY HUSBAND WASN'T SATISFIED ... A MARRIED WOMAN WHO FELL INTO A BIG COCK STORE MANAGER AT A PART-TIME JOB NAO JINGUJI`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/jul672/jul672pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai158", name: "Nao Jinguji" }],
-  },
-  {
-    code: "JUL-675",
-    title: `CREAMPIE PREGNANCY ACTIVITY EXCHANGE OF SWEATY SISTER-IN-LAW WHO MISLEADS ME WHO RETURNED HOME RIHO FUJIMORI`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/jul675/jul675pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai057", name: "Yumi Maeda" }],
-  },
-  {
     code: "IPX-706",
     title: `EROS PROBABILITY ORGASM OF A WOMAN WHO IS IMPATIENT , IMPATIENT , CUMS A LIFELONG TRANSCENDENCE FUCK KAEDE KAREN`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/ipx706/ipx706pl.jpg",
@@ -119,39 +107,18 @@ const File1 = [
     idols: [{ idIdol: "jai026", name: "Ayaka Tomoda" }],
   },
   {
-    code: "MSFH-066",
-    title: `ONE SUMMER DAY , TWO CHILDHOOD FRIENDS WHO REUNITED FOR THE FIRST TIME IN A LONG TIME AND BURNED UP ... A FLEETING COHABITATION LIFE THAT I SWEATED FOR THREE DAYS WITHOUT HER KONOMI YOSHINAGA`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/1msfh066/1msfh066pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai175", name: "Konomi Yoshinaga" }],
+    code: "SSDV-98",
+    title: `S MODEL SSDV 98 THE TEMPTATION OF A BEAUTIFUL GIRL WITH HUGE BREASTS`,
+    poster: SSDV98,
+    type: "Uncensored",
+    idols: [{ idIdol: "jai078", name: "Mitsuki Akai" }],
   },
   {
-    code: "SSIS-136",
-    title: `ASMR SUBJECTIVITY , GOD'S MILK SPECIAL THAT FILLS THE BRAIN WITH EROS OF ANZAI ET AL.'S CHEWY SUPPORT LUXURY J-CUP THAT STIMULATES YOUR FIVE SENSES `,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/ssis136/ssis136pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai117", name: "Shion Utsunomiya" }],
-  },
-  {
-    code: "SSIS-137",
-    title: `TSUBAKI SANNOMIYA , A VIRGIN SERVANT WHO COULDN'T STAND THE TECH OF HER COUSIN WHO MET FOR THE FIRST TIME IN 10 YEARS AND WAS MADE TO EJACULATE 15 SHOTS IN 3 DAYS AND 3 NIGHTS`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/ssis137/ssis137pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai187", name: "Tsubaki Sannomiya" }],
-  },
-  {
-    code: "SSIS-138",
-    title: `NO SCRIPT AT ALL ! ! ! GONZO ! NO MAKEUP ! ANYTHING ANTS ! RIRI NANATSUMORI'S LEWD NATURE BARE SEX ! ! ! IN COMMEMORATION OF THE 1ST ANNIVERSARY OF DEBUT , A SUPER RARE EROS 200% VIDEO THAT IS TOO RAW AND SPOILED DURING A HOT SPRING TRIP`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/ssis138/ssis138pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai170", name: "Riri Nanatsumori" }],
-  },
-  {
-    code: "SSIS-139",
-    title: `AKA ASUKA AKA ARISU , THE NIGHT OF UNEQUALED SEXUAL INTERCOURSE WHEN I FELL ASLEEP AT A HOTEL ON A BUSINESS TRIP`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/ssis139/ssis139pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai171", name: "Aka Asuka" }],
+    code: "MXX-98",
+    title: `MERCI BEAUCOUP MXX 98 SEX WITH TWO EXTREME BEAUTIFUL GIRLS IN A JAPANESE STYLE ROOM`,
+    poster: MXX98,
+    type: "Uncensored",
+    idols: [{ idIdol: "jai086", name: "Mika Sumire" }],
   },
 ];
 

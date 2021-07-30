@@ -351,6 +351,8 @@ import MMDV89 from "./MMDV-89.jpg";
 import DRC199 from "./DRC-199.jpg";
 import MXX91 from "./MXX-91.jpg";
 import LLDV96 from "./LLDV-96.jpeg";
+import SSDV98 from "./SSDV-98.jpg";
+import MXX98 from "./MXX-98.jpg";
 
 export {
   CWP49,
@@ -706,4 +708,6 @@ export {
   DRC199,
   MXX91,
   LLDV96,
+  SSDV98,
+  MXX98,
 };
