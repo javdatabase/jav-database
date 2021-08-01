@@ -2,20 +2,6 @@ import { MXX98, SSDV98 } from "../../main/images";
 
 const File1 = [
   {
-    code: "MIDE-953",
-    title: `A MIDDLE-AGED FATHER WHO WAS DISMISSED FROM THE COMPANY CONFINED THE PRESIDENT'S DAUGHTER A YEAR LATER , A SWEATY GIANT PRESS SHOKO TAKAHASHI IN A GARBAGE ROOM IN MIDSUMMER FOR A WEEK`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/mide953/mide953pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai141", name: "Shoko Takahashi" }],
-  },
-  {
-    code: "MIDE-957",
-    title: `CUCKOLD BBQ ALUMNI ASSOCIATION NAO JINGUJI`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/mide957/mide957pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai158", name: "Nao Jinguji" }],
-  },
-  {
     code: "MIDE-959",
     title: `" TEACHER IS SUPER SENSITIVE TO BING ! " I'M BLAMED FOR MY NIPPLES BY A GOOD TEASING STUDENT AND EJACULATE MANY TIMES ... RIKKA ONO`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/mide959/mide959pl.jpg",
