@@ -19,7 +19,7 @@ import { center, fadeIn } from "../../../themes/styled";
 const Container = styled.div`
   position: relative;
   width: 100%;
-  height: calc(100vh - 183px);
+  height: calc(100vh - 100px);
   overflow: auto;
   box-sizing: border-box;
 
