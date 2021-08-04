@@ -12,7 +12,7 @@ const SWEET_STAR_POINTS_BY_IDS = {
   ups009: 4,
   ups010: 3,
   ups011: 3,
-  ups012: 6,
+  ups012: 8,
 };
 
 function getSalaryStar(points) {
