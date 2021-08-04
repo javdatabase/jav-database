@@ -4,73 +4,14 @@ import {
   WeekEarnings,
 } from "../../helpers/earning-values";
 
-const STAR_IDOL_ID = "jai057";
-const BEST_DVD_IDS = [
-  "jai057",
-  "jai117",
-  "jai141",
-  "jai154",
-  "jai158",
-  "jai170",
-  "jai171",
-  "jai175",
-  "jai187",
-  "jai197",
-];
-const BEST_IDOL_IDS = [
-  "jai054",
-  "jai057",
-  "jai117",
-  "jai141",
-  "jai154",
-  "jai158",
-  "jai169",
-  "jai170",
-  "jai171",
-  "jai172",
-  "jai175",
-  "jai187",
-  "jai197",
-];
-const SWEET_NIGHT_IDS = [
-  "jai057",
-  "jai057",
-  "jai117",
-  "jai158",
-  "jai170",
-  "jai171",
-  "jai171",
-  "jai175",
-  "jai187",
-  "jai197",
-];
-const TOP_POINT_GROWTH_IDS = ["jai048", "jai057", "jai158", "jai172"];
-const TOP_IDOL_IDS = [
-  "jai062",
-  "jai068",
-  "jai151",
-  "jai157",
-  "jai187",
-  "jai188",
-  "jai195",
-];
-const HAS_DVD_IDS = [
-  "jai054",
-  "jai057",
-  "jai117",
-  "jai141",
-  "jai154",
-  "jai158",
-  "jai169",
-  "jai170",
-  "jai171",
-  "jai172",
-  "jai175",
-  "jai185",
-  "jai187",
-  "jai197",
-];
-const NEWBIE_IDS = ["jai197"];
+const STAR_IDOL_ID = "";
+const BEST_DVD_IDS = [];
+const BEST_IDOL_IDS = ["jai147"];
+const SWEET_NIGHT_IDS = [];
+const TOP_POINT_GROWTH_IDS = [];
+const TOP_IDOL_IDS = [];
+const HAS_DVD_IDS = ["jai147"];
+const NEWBIE_IDS = [];
 
 function getEarningIdol(rank, points, styles, uncensored, best) {
   const rankEarnings = Math.ceil(MonthEarnings.ranking / rank);

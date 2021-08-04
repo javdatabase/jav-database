@@ -577,6 +577,13 @@ const File41 = [
     type: "Censored",
     idols: [{ idIdol: "jai057", name: "Yumi Maeda" }],
   },
+  {
+    code: "PKPL-008",
+    title: `1K ROOM SWALLOWING DOCUMENT ETERNAL EROTIC HEALING SISTER SUZUKI SATOMI AND I TRIED TO SADDLE FOR A DAY IN THE ROOM`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/pkpl008/pkpl008pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai147", name: "Satomi Suzuki" }],
+  },
 ];
 
 export default File41;
