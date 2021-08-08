@@ -2699,6 +2699,7 @@ const File37 = [
     idols: [
       { idIdol: "jai172", name: "Maron Natsuki" },
       { idIdol: "jai180", name: "Yuria Kanae" },
+      { idIdol: "jai197", name: "Wan Horikita" },
     ],
   },
   {

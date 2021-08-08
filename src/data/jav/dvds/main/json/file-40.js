@@ -767,14 +767,20 @@ const File40 = [
     poster:
       "http://pics.dmm.co.jp/mono/movie/adult/h_1324skmj142/h_1324skmj142pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai177", name: "Momoka Tachibana" }],
+    idols: [
+      { idIdol: "jai177", name: "Momoka Tachibana" },
+      { idIdol: "jai197", name: "Wan Horikita" },
+    ],
   },
   {
     code: "TUS-092",
     title: `120% REAL GACHI NAMPA LEGEND VOL.92 BREASTS ARE BIG AND SMALL, BUT NO ROYALTIES ! 245 MINUTES TO LOVE TOGETHER !`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/118tus092/118tus092pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai177", name: "Momoka Tachibana" }],
+    idols: [
+      { idIdol: "jai177", name: "Momoka Tachibana" },
+      { idIdol: "jai197", name: "Wan Horikita" },
+    ],
   },
   {
     code: "T28-598",
@@ -803,7 +809,10 @@ const File40 = [
     poster:
       "http://pics.dmm.co.jp/mono/movie/adult/h_021nps409/h_021nps409pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai177", name: "Momoka Tachibana" }],
+    idols: [
+      { idIdol: "jai177", name: "Momoka Tachibana" },
+      { idIdol: "jai197", name: "Wan Horikita" },
+    ],
   },
   {
     code: "JUL-482",

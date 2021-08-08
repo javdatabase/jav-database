@@ -6,6 +6,7 @@ import * as suzune_akimoto from "../images/suzune-akimoto";
 import * as rin_sakita from "../images/rin-sakita";
 import * as rin_natsuki from "../images/rin-natsuki";
 import * as mina_kitano from "../images/mina-kitano";
+import * as wan_horikita from "../images/wan-horikita";
 
 const File4 = [
   {
@@ -358,8 +359,8 @@ const File4 = [
     styles: [
       { tag: "Retired" },
       { tag: "Cute" },
-      { tag: "Teens" },
       { tag: "Small Tits" },
+      { tag: "Teens" },
       { tag: "Long Legs" },
     ],
     album: [
@@ -385,9 +386,9 @@ const File4 = [
     styles: [
       { tag: "Retired" },
       { tag: "Cute" },
-      { tag: "Teens" },
       { tag: "Beautiful Breasts" },
       { tag: "Slender" },
+      { tag: "Teens" },
     ],
     album: [
       {
@@ -477,7 +478,12 @@ const File4 = [
     cup: "H-Cup",
     waist: "59 cm",
     hips: "89 cm",
-    styles: [{ tag: "Cute" }, { tag: "Killer Tits" }, { tag: "Slender" }],
+    styles: [
+      { tag: "Cute" },
+      { tag: "Killer Tits" },
+      { tag: "Slender" },
+      { tag: "Teens" },
+    ],
     album: [
       {
         picture: mina_kitano.mina_kitano_1,
@@ -508,6 +514,36 @@ const File4 = [
       },
       {
         picture: mina_kitano.mina_kitano_11,
+      },
+    ],
+  },
+  {
+    idIdol: "jai197",
+    avatar: wan_horikita.wan_horikita_5,
+    name: "Wan Horikita",
+    other: "",
+    born: "04/01/2000",
+    height: "150 cm",
+    breast: "78 cm",
+    cup: "A-Cup",
+    waist: "54 cm",
+    hips: "84 cm",
+    styles: [{ tag: "Small Tits" }, { tag: "Slender" }, { tag: "Teens" }],
+    album: [
+      {
+        picture: wan_horikita.wan_horikita_1,
+      },
+      {
+        picture: wan_horikita.wan_horikita_2,
+      },
+      {
+        picture: wan_horikita.wan_horikita_3,
+      },
+      {
+        picture: wan_horikita.wan_horikita_4,
+      },
+      {
+        picture: wan_horikita.wan_horikita_6,
       },
     ],
   },
