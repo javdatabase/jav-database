@@ -111,6 +111,22 @@ const File1 = [
     type: "US/EU",
     stars: [{ idStar: "ups012", name: "Stella Cox" }],
   },
+  {
+    title: `PRIMAL INSTINCTS`,
+    source: `PORN FIDELITY`,
+    link: "https://www.pornfidelity.com",
+    content: `<iframe width="943" height="530" src="https://www.porntrex.com/embed/194616" frameborder="0" allowfullscreen></iframe>`,
+    type: "US/EU",
+    stars: [{ idStar: "ups013", name: "Katrina Jade" }],
+  },
+  {
+    title: `GRADUATING SUMMA CUM LOUD`,
+    source: `SCORE LAND`,
+    link: "https://www.scoreland.com",
+    content: `<iframe width="943" height="530" src="https://www.porntrex.com/embed/1120321" frameborder="0" allowfullscreen></iframe>`,
+    type: "US/EU",
+    stars: [{ idStar: "ups014", name: "Mia Khalifa" }],
+  },
 ];
 
 export default File1;
