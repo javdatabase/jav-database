@@ -64,6 +64,7 @@ const HAS_DVD_IDS = [
   "jai065",
   "jai073",
   "jai113",
+  "jai144",
   "jai146",
   "jai147",
   "jai151",
