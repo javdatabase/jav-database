@@ -1,13 +1,13 @@
 import { toUpper, trim } from "lodash";
 
 import Stars from "../../data/upv/stars";
-import { sortIdols } from "../jav/common.service";
+import { sortStars, getPicturesRandom } from "./common.service";
 import { getSalaryStar, SWEET_STAR_POINTS_BY_IDS } from "./salary.service";
 
 const SIZE_STARS = Stars.length;
 
 const ALL_STARS_BY_PAGE = (name, cup, height, breast, hips, page, pageSize) => {
-  let temp = sortIdols(Stars);
+  let temp = sortStars(Stars);
   if (name) {
     temp = temp.filter((item) =>
       toUpper(item.name + " " + item.other).includes(toUpper(trim(name)))
@@ -56,6 +56,10 @@ const ALL_EARNING_STARS = Stars.map((item) => ({
   earnings: getSalaryStar(SWEET_STAR_POINTS_BY_IDS[item.idStar] || 0),
 }))
   .sort((a, b) => b.earnings - a.earnings)
-  .map((item, index) => ({ ...item, position: index + 1 }));
+  .map((item, index) => ({
+    ...item,
+    album: getPicturesRandom(item.album),
+    position: index + 1,
+  }));
 
 export { SIZE_STARS, ALL_STARS_BY_PAGE, STAR_PROFILE, ALL_EARNING_STARS };
