@@ -2,13 +2,6 @@ import { MXX98, SSDV98 } from "../../main/images";
 
 const File1 = [
   {
-    code: "CEMD-044",
-    title: `SLUT TAXI DRIVER HONOKA TSUJII SUCK ALL SPERM ! TOUR THE CITY FOR PREY TODAY !`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/cemd044/cemd044pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai048", name: "Honoka Tsuji" }],
-  },
-  {
     code: "DLDSS-020",
     title: `A SUPER-LUXURY INN THAT ROBS THE FIVE SENSES OF A YOUNG LANDLADY'S SOGGY PARADISE LIP ENTERTAINMENT SUZUME MINO`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/1dldss020/1dldss020pl.jpg",
@@ -156,13 +149,6 @@ const File1 = [
     idols: [{ idIdol: "jai196", name: "Mina Kitano" }],
   },
   {
-    code: "CEAD-354",
-    title: `BIG BREASTS GIRLS' LIVELY FACE GLASSES SEX ! BIG TITS H-CUP THAT IS PIERCED FROM BEHIND, PIERCED FROM BELOW AND SHAKES VIOLENTLY UP , DOWN , LEFT AND RIGHT ! NEVER TAKE OFF YOUR GLASSES . MIDORIKAWA MIYABI`,
-    poster: "https://pics.dmm.co.jp/mono/movie/adult/cead354/cead354pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai176", name: "Miyabi Midorikawa" }],
-  },
-  {
     code: "CEAD-357",
     title: `GLASSES SEX ・ 3 PRODUCTION ! HORIKITA WAN BLACK BUCHI GLASSES SEX , UNIFORM GLASSES SEX , RECRUIT SUIT & GLASSES SEX ...`,
     poster: "https://pics.dmm.co.jp/mono/movie/adult/cead357/cead357pl.jpg",
@@ -175,13 +161,6 @@ const File1 = [
     poster: "https://pics.dmm.co.jp/mono/movie/adult/shkd964/shkd964pl.jpg",
     type: "Censored",
     idols: [{ idIdol: "jai153", name: "Hikari Ninomiya" }],
-  },
-  {
-    code: "STARS-418",
-    title: `MAGIC MIRROR IS GOOD ! ! ! PREMATURE EJACULATION KUN WELCOME TO THE OUTBURST IMPROVEMENT REVERSE PICK-UP SUZU HONJO IT SHOULD BE A TROUBLE CONSULTATION PLAN , BUT IT IS TOO KIND AND EVEN INSERTS RAW ! ? ?`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/1stars418/1stars418pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai133", name: "Suzu Honjo" }],
   },
 ];
 
