@@ -52,11 +52,24 @@ const BEST_IDOL_IDS = [
 ];
 const SWEET_NIGHT_IDS = [
   "jai067",
+  "jai067",
+  "jai068",
   "jai068",
   "jai069",
   "jai070",
+  "jai070",
+  "jai070",
+  "jai070",
+  "jai070",
+  "jai075",
+  "jai075",
   "jai075",
   "jai157",
+  "jai157",
+  "jai157",
+  "jai196",
+  "jai196",
+  "jai196",
 ];
 const TOP_POINT_GROWTH_IDS = ["jai007", "jai054", "jai146", "jai176", "jai179"];
 const TOP_IDOL_IDS = [
