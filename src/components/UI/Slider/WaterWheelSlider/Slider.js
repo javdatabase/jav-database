@@ -42,7 +42,15 @@ const Dot = styled.div`
   cursor: pointer;
 `;
 
-function Slider({ highlight, width, height, onSelect, customColor, ...props }) {
+function Slider({
+  highlight,
+  width,
+  height,
+  onSelect,
+  customColor,
+  endLoop,
+  ...props
+}) {
   const [current, setCurrent] = useState(highlight);
 
   const dots = useMemo(() => {
@@ -66,8 +74,11 @@ function Slider({ highlight, width, height, onSelect, customColor, ...props }) {
       changeCurrent(current + 1);
     } else {
       changeCurrent(0);
+      if (endLoop) {
+        endLoop();
+      }
     }
-  }, [current, changeCurrent, props.children]);
+  }, [current, changeCurrent, endLoop, props.children]);
 
   useEffect(() => {
     const id = setInterval(autoNext, 6000);
