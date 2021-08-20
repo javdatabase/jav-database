@@ -103,6 +103,12 @@ function Home() {
     setType(value);
   }, []);
 
+  const endLoop = useCallback(() => {
+    if (type !== "new") {
+      setData(getDvdsRandom());
+    }
+  }, [type]);
+
   return (
     <Container>
       <WaterWheelSliderContainer>
@@ -120,6 +126,7 @@ function Home() {
           width={"21vw"}
           height={"calc(14vw + 40px)"}
           onSelect={changeHighlight}
+          endLoop={endLoop}
           customColor={
             data[highlight] && data[highlight].type === "Uncensored"
               ? `linear-gradient(to right, ${DarkBlue}, ${LightBlue})`
