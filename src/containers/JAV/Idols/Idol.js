@@ -259,7 +259,7 @@ const EarningContainer = styled.div`
 const PriceIdol = styled.div`
   padding: 5px 10px;
   border-radius: 12px;
-  background-color: ${White};
+  background: ${White};
   color: ${Black};
   font-size: ${Large};
 `;

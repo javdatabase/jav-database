@@ -15,7 +15,7 @@ const ContainerLoading = styled.div`
   height: 100vh;
   top: 0px;
   left: 0px;
-  background-color: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.5);
   ${center}
 `;
 
@@ -27,7 +27,7 @@ const ContainerNotFound = styled.div`
   width: 100%;
   height: 100%;
   ${center};
-  background-color: ${Black};
+  background: ${Black};
   color: ${White};
   font-size: ${XXLarge};
   line-height: 50px;

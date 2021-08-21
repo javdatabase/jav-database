@@ -22,12 +22,7 @@ function getIdolDetail(id) {
 }
 
 function getIdolName(id) {
-  let detail = undefined;
-  for (let i = 0; i < SIZE_IDOLS; i++) {
-    if (Idols[i].idIdol === id) {
-      detail = Idols[i];
-    }
-  }
+  const detail = findIdolById(id);
   return get(detail, "name", "");
 }
 
@@ -102,15 +97,43 @@ function getDvdsByIdol(id) {
 }
 
 function getDvdsRandom() {
+  function generateNewDvd(array, temp) {
+    if (!!array.find((item) => item.idDvd === temp.idDvd)) {
+      return generateNewDvd(array, MainDvds[random(SIZE_MAIN_DVDS - 1)]);
+    }
+    return temp;
+  }
+
   function randomDvds() {
-    let dvds = Array(15).fill(0);
+    let dvds = Array(10).fill(0);
     for (let i = 0; i < dvds.length; i++) {
-      dvds[i] = MainDvds[random(SIZE_MAIN_DVDS - 1)];
+      dvds[i] = generateNewDvd(dvds, MainDvds[random(SIZE_MAIN_DVDS - 1)]);
     }
     return dvds;
   }
 
   return randomDvds();
+}
+
+function getIdolsRandom() {
+  const allIdolsDetail = getAllIdolsDetail();
+
+  function generateNewIdol(array, temp) {
+    if (!!array.find((item) => item.idIdol === temp.idIdol)) {
+      return generateNewIdol(array, allIdolsDetail[random(SIZE_IDOLS - 1)]);
+    }
+    return temp;
+  }
+
+  function randomIdols() {
+    let idols = Array(10).fill(0);
+    for (let i = 0; i < idols.length; i++) {
+      idols[i] = generateNewIdol(idols, allIdolsDetail[random(SIZE_IDOLS - 1)]);
+    }
+    return idols;
+  }
+
+  return randomIdols();
 }
 
 function sortDvds(dvds) {
@@ -135,5 +158,6 @@ export {
   sortIdols,
   getDvdsByIdol,
   getDvdsRandom,
+  getIdolsRandom,
   sortDvds,
 };

@@ -13,13 +13,15 @@ import {
   Black,
   Grey,
   Orange,
+  Blue,
   DarkBlue,
   LightBlue,
 } from "../../../themes/colors";
 import { center, fadeIn } from "../../../themes/styled";
-import { XLarge, Regular } from "../../../themes/font";
+import { XLarge, Large, Regular } from "../../../themes/font";
 
 const Container = styled.div`
+  position: relative;
   width: 100%;
   height: 100%;
   display: flex;
@@ -28,6 +30,46 @@ const Container = styled.div`
   padding: 30px 0px;
   box-sizing: border-box;
   animation: ${fadeIn} 0.8s ease-in-out;
+`;
+
+const ButtonLeft = styled.div`
+  ${center}
+  padding: 5px;
+  border-radius: 6px;
+  background: linear-gradient(to right, ${Blue}, ${Grey});
+  position: absolute;
+  top: 20px;
+  left: 45px;
+  z-index: 2;
+  cursor: pointer;
+  font-size: ${Large};
+  color: ${Black};
+
+  &:hover {
+    background: linear-gradient(to right, ${Blue}, ${Grey});
+    color: ${Black};
+  }
+`;
+
+const ButtonRight = styled(Link)`
+  ${center}
+  padding: 5px;
+  border-radius: 6px;
+  background: transparent;
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  z-index: 2;
+  cursor: pointer;
+  font-size: ${Large};
+  text-decoration: none;
+  color: ${White};
+
+  &:hover {
+    background: linear-gradient(to right, ${Blue}, ${Grey});
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 `;
 
 const VideoContainer = styled.div`
@@ -100,6 +142,8 @@ function Home() {
 
   return (
     <Container>
+      <ButtonLeft>NEW ADDED</ButtonLeft>
+      <ButtonRight to={"/upv/lucky-box"}>LUCKY BOX</ButtonRight>
       <VideoContainer>
         <Title>
           {get(ALL_VIDEOS[highlight], "title", "")}{" "}

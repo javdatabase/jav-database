@@ -50,7 +50,7 @@ const RankingIdol = styled.div`
   border-radius: 50px;
   margin-right: 10px;
   box-sizing: border-box;
-  background-color: ${White};
+  background: ${White};
   color: ${Black};
   font-size: ${XXLarge};
 `;
@@ -159,7 +159,7 @@ const Points = styled.div`
   margin: -10px -10px -10px 0px;
   border-radius: 0px 18px 18px 0px;
   box-sizing: border-box;
-  background-color: ${White};
+  background: ${White};
   color: ${(props) => props.color};
   font-size: ${XXLarge};
   -webkit-text-stroke-width: 2px;

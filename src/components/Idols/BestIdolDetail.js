@@ -30,11 +30,12 @@ const Container = styled.div`
   padding: 10px;
   box-sizing: border-box;
   background: ${(props) =>
-    props.queen
+    props.customColor ||
+    (props.queen
       ? `linear-gradient(to right, ${Yellow}, ${Red})`
       : props.runnerUp
       ? `linear-gradient(to right, ${LightBlue}, ${Pink})`
-      : `linear-gradient(to right,  ${Orange}, ${Pink})`};
+      : `linear-gradient(to right,  ${Orange}, ${Pink})`)};
   animation: ${fadeIn} 1s linear;
 `;
 
@@ -48,7 +49,7 @@ const RankingIdol = styled.div`
   border-radius: 50px;
   margin-right: 10px;
   box-sizing: border-box;
-  background-color: ${White};
+  background: ${White};
   color: ${Black};
   font-size: ${XXLarge};
 `;
@@ -139,7 +140,7 @@ const Points = styled.div`
   margin: -10px -10px -10px 0px;
   border-radius: 0px 18px 18px 0px;
   box-sizing: border-box;
-  background-color: ${White};
+  background: ${White};
   color: ${(props) => props.color};
   font-size: ${XXLarge};
   -webkit-text-stroke-width: 2px;
@@ -156,11 +157,12 @@ const ViewProfile = styled(Link)`
   border-radius: 0px 0px 18px 18px;
   box-sizing: border-box;
   background: ${(props) =>
-    props.queen === "true"
+    props.customColor ||
+    (props.queen === "true"
       ? `linear-gradient(to right, ${Yellow}, ${Red})`
       : props.runner === "true"
       ? `linear-gradient(to right, ${LightBlue}, ${Pink})`
-      : `linear-gradient(to right,  ${Orange}, ${Pink})`};
+      : `linear-gradient(to right,  ${Orange}, ${Pink})`)};
   text-decoration: none;
   color: ${Black};
   font-size: ${Regular};
@@ -172,7 +174,7 @@ const ViewProfile = styled(Link)`
   }
 `;
 
-function BestIdolDetail({ data, active }) {
+function BestIdolDetail({ data, active, customColor }) {
   const [show, setShow] = useState(false);
   const [dvd, setDvd] = useState(null);
 
@@ -205,7 +207,11 @@ function BestIdolDetail({ data, active }) {
   return (
     <Fragment>
       {active && (
-        <Container queen={data.rank === 1} runnerUp={data.rank === 2}>
+        <Container
+          queen={data.rank === 1}
+          runnerUp={data.rank === 2}
+          customColor={customColor}
+        >
           <RankingIdol>{data.rank}</RankingIdol>
           <div style={{ display: "flex", width: "100%" }}>
             <AvatarContainer>
@@ -214,6 +220,7 @@ function BestIdolDetail({ data, active }) {
                 to={`/jav/idol/${data.idIdol}`}
                 queen={(getIdolRank(data.idIdol) === 1).toString()}
                 runner={(getIdolRank(data.idIdol) === 2).toString()}
+                customColor={customColor}
               >
                 View
               </ViewProfile>
