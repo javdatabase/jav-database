@@ -1,21 +1,29 @@
-import React, { useState, useCallback } from "react";
+import React, { useState, useMemo, useEffect, useCallback } from "react";
+import { get } from "lodash";
+import { Link, useHistory, useLocation } from "react-router-dom";
 import styled from "styled-components";
 
-import { getDvdsRandom } from "../../../services/jav/common.service";
+import {
+  getVideoRandom,
+  getStarsRandom,
+} from "../../../services/upv/common.service";
+import StarTag from "../../../components/Stars/StarTag";
 import WaterWheelSlider from "../../../components/UI/Slider/WaterWheelSlider/Slider";
-import NewDvdReleaseCard from "../../../components/Dvds/NewDvdReleaseCard";
-import NewDvdReleaseDetail from "../../../components/Dvds/NewDvdReleaseDetail";
+import BestStarCard from "../../../components/Stars/BestStarCard";
+import BestStarDetail from "../../../components/Stars/BestStarDetail";
+import RollingIcon from "../../../assets/images/ic_rolling/ic_rolling.svg";
 
 import {
-  Pink,
-  Orange,
   Black,
   White,
+  Grey,
+  Orange,
+  Blue,
   DarkBlue,
   LightBlue,
 } from "../../../themes/colors";
 import { center, fadeIn } from "../../../themes/styled";
-import { Large } from "../../../themes/font";
+import { Large, Regular, XLarge } from "../../../themes/font";
 
 const Container = styled.div`
   position: relative;
@@ -24,7 +32,7 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 35px 0px;
+  padding: 20px 0px;
   box-sizing: border-box;
   animation: ${fadeIn} 0.8s ease-in-out;
 `;
@@ -35,7 +43,7 @@ const ButtonLeft = styled.div`
   border-radius: 6px;
   background: ${(props) =>
     props.active
-      ? `linear-gradient(to right, ${Pink}, ${Orange})`
+      ? `linear-gradient(to right, ${Blue}, ${Grey})`
       : "transparent"};
   position: absolute;
   top: 20px;
@@ -46,7 +54,7 @@ const ButtonLeft = styled.div`
   color: ${(props) => (props.active ? Black : White)};
 
   &:hover {
-    background: linear-gradient(to right, ${Pink}, ${Orange});
+    background: linear-gradient(to right, ${Blue}, ${Grey});
     color: ${Black};
   }
 `;
@@ -57,7 +65,7 @@ const ButtonRight = styled.div`
   border-radius: 6px;
   background: ${(props) =>
     props.active
-      ? `linear-gradient(to right, ${Pink}, ${Orange})`
+      ? `linear-gradient(to right, ${Blue}, ${Grey})`
       : "transparent"};
   position: absolute;
   top: 20px;
@@ -68,91 +76,197 @@ const ButtonRight = styled.div`
   color: ${(props) => (props.active ? Black : White)};
 
   &:hover {
-    background: linear-gradient(to right, ${Pink}, ${Orange});
+    background: linear-gradient(to right, ${Blue}, ${Grey});
     color: ${Black};
   }
 `;
 
+const VideoContainer = styled.div`
+  margin: 10px 0px 30px;
+`;
+
+const Title = styled.div`
+  color: ${White};
+  font-size: ${XLarge};
+  margin-bottom: 5px;
+`;
+
+const Type = styled.span`
+  color: ${Orange};
+`;
+
+const Source = styled.div`
+  font-size: ${Regular};
+  color: ${White};
+`;
+
+const Studio = styled.a`
+  font-size: ${Regular};
+  color: ${DarkBlue};
+  text-decoration: underline;
+
+  &:hover {
+    color: ${LightBlue};
+  }
+`;
+
+const StarsContainer = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+`;
+
+const TagStar = styled(StarTag)`
+  cursor: pointer;
+  margin-top: 10px;
+`;
+
+const VideoContent = styled.div`
+  width: 943px;
+  height: 530px;
+  border: solid 1px ${White};
+  background: url(${RollingIcon}) center center no-repeat;
+`;
+
 const WaterWheelSliderContainer = styled.div`
-  width: calc(21vw + 800px);
-  height: calc(14vw + 100px);
+  width: calc(14vw + 800px);
+  height: calc(19.25vw + 100px);
 `;
 
 const DetailContainer = styled.div`
   ${center}
   margin-top: 20px;
-  width: calc(60vw + 50px);
+  width: calc(100vw - 40px);
 `;
 
 function LuckyBox() {
-  const [type, setType] = useState("videos");
+  const history = useHistory();
+  const location = useLocation();
+  const [first, setFirst] = useState(true);
   const [highlight, setHighlight] = useState(0);
-  const [data, setData] = useState(getDvdsRandom());
+  const [data, setData] = useState([]);
+
+  const type = useMemo(() => {
+    const state = location.state;
+    return get(state, "type", "videos");
+  }, [location.state]);
+
+  useEffect(() => {
+    if (first) {
+      if (type === "videos") {
+        setData(getVideoRandom());
+      } else {
+        setData(getStarsRandom());
+      }
+      setFirst(false);
+    }
+  }, [first, type]);
 
   const changeHighlight = useCallback((value) => {
     setHighlight(value);
   }, []);
 
-  const changeType = useCallback((value) => {
-    if (value === "videos") {
-      setData(getDvdsRandom());
-    } else {
-      setData(getDvdsRandom());
-    }
-    setType(value);
-  }, []);
+  const changeType = useCallback(
+    (value) => {
+      if (value === "videos") {
+        setData(getVideoRandom());
+      } else {
+        setData(getStarsRandom());
+      }
+      history.push(location.pathname, { type: value });
+    },
+    [history, location.pathname]
+  );
 
   const endLoop = useCallback(() => {
-    if (type === "videos") {
-      setData(getDvdsRandom());
-    }
-  }, [type]);
+    setData(getStarsRandom());
+  }, []);
 
   return (
     <Container>
-      <WaterWheelSliderContainer>
-        <ButtonLeft
-          active={type === "videos"}
-          onClick={() => changeType("videos")}
-        >
-          VIDEOS
-        </ButtonLeft>
-        <ButtonRight
-          active={type === "stars"}
-          onClick={() => changeType("stars")}
-        >
-          STARS
-        </ButtonRight>
-        <WaterWheelSlider
-          highlight={highlight}
-          width={"21vw"}
-          height={"calc(14vw + 40px)"}
-          onSelect={changeHighlight}
-          endLoop={endLoop}
-          customColor={
-            data[highlight] && data[highlight].type === "Uncensored"
-              ? `linear-gradient(to right, ${DarkBlue}, ${LightBlue})`
-              : `linear-gradient(to right, ${Pink}, ${Orange})`
-          }
-        >
-          {data.map((item, index) => (
-            <NewDvdReleaseCard
-              key={item.idDvd}
-              data={item}
-              active={index === highlight}
-            />
-          ))}
-        </WaterWheelSlider>
-      </WaterWheelSliderContainer>
-      <DetailContainer>
-        {data.map((item, index) => (
-          <NewDvdReleaseDetail
-            key={item.idDvd}
-            data={item}
-            active={index === highlight}
+      <ButtonLeft
+        active={type === "videos"}
+        onClick={() => changeType("videos")}
+      >
+        VIDEOS
+      </ButtonLeft>
+      <ButtonRight
+        active={type === "stars"}
+        onClick={() => changeType("stars")}
+      >
+        STARS
+      </ButtonRight>
+      {type === "videos" ? (
+        <VideoContainer>
+          <Title>
+            {get(data, "title", "")} <Type>[{get(data, "type", "")}]</Type>
+          </Title>
+          <Source>
+            in{" "}
+            <Studio
+              href={get(data, "link", "")}
+              target={"_blank"}
+              rel={"noreferrer noopener"}
+            >
+              {get(data, "source", "")}
+            </Studio>
+          </Source>
+          <StarsContainer>
+            {get(data, "stars", []).map((item) =>
+              item.idStar === "ups000" ? (
+                <TagStar
+                  key={item.idStar}
+                  name={item.name}
+                  style={{ cursor: "auto", background: Grey }}
+                />
+              ) : (
+                <Link
+                  key={item.idStar}
+                  to={`/upv/star/${item.idStar}`}
+                  style={{ textDecoration: "none", color: Black }}
+                >
+                  <TagStar name={item.name} />
+                </Link>
+              )
+            )}
+          </StarsContainer>
+          <VideoContent
+            dangerouslySetInnerHTML={{
+              __html: get(data, "content", ""),
+            }}
           />
-        ))}
-      </DetailContainer>
+        </VideoContainer>
+      ) : (
+        <>
+          <WaterWheelSliderContainer type={type}>
+            <WaterWheelSlider
+              highlight={highlight}
+              width={"14vw"}
+              height={"calc(19.25vw + 40px)"}
+              onSelect={changeHighlight}
+              endLoop={endLoop}
+              customColor={`linear-gradient(to right, ${Blue}, ${Grey})`}
+            >
+              {data.map((item, index) => (
+                <BestStarCard
+                  key={item.idStar}
+                  data={item}
+                  active={index === highlight}
+                />
+              ))}
+            </WaterWheelSlider>
+          </WaterWheelSliderContainer>
+          <DetailContainer>
+            {data.map((item, index) => (
+              <BestStarDetail
+                key={item.idStar}
+                data={item}
+                active={index === highlight}
+              />
+            ))}
+          </DetailContainer>
+        </>
+      )}
     </Container>
   );
 }

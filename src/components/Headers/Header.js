@@ -42,7 +42,7 @@ const MenuButton = styled.div`
   cursor: pointer;
 
   &:hover {
-    background-color: ${Black};
+    background: ${Black};
   }
 `;
 
@@ -50,7 +50,7 @@ const Bar = styled.div`
   width: 50px;
   height: 6px;
   border-radius: 12px;
-  background-color: ${White};
+  background: ${White};
   margin: 5px 0px;
   transition: 0.3s;
 `;

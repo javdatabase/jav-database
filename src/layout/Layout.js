@@ -3,8 +3,8 @@ import { matchPath, useLocation, Link } from "react-router-dom";
 import styled from "styled-components";
 
 import { getIdolName } from "../services/jav/common.service";
+import { getStarName } from "../services/upv/common.service";
 import { BEST_IDOL_IDS } from "../services/jav/idols.service";
-import { STAR_PROFILE } from "../services/upv/stars.service";
 import Navbar from "../components/Navbars/Navbar";
 import Header from "../components/Headers/Header";
 import ErrorBoundary from "../components/ErrorBoundary/ErrorBoundary";
@@ -26,7 +26,7 @@ const Body = styled.div`
   flex-direction: column;
   width: 100vw;
   height: 100vh;
-  background-color: ${Black};
+  background: ${Black};
 `;
 
 const ButtonLink = styled(Link)`
@@ -37,7 +37,7 @@ const ButtonLink = styled(Link)`
   width: 50px;
   height: 50px;
   border-radius: 50px;
-  background-color: ${White};
+  background: ${White};
   box-shadow: 0px 0px 20px 0px ${Black};
 
   &:hover {
@@ -85,7 +85,7 @@ function Layout() {
     } else if (matchPath(path, { path: "/upv/stars", exact: true })) {
       return "Stars";
     } else if (matchPath(path, { path: "/upv/star/:id", exact: true })) {
-      return STAR_PROFILE(path.replace("/upv/star/", "")).name;
+      return getStarName(path.replace("/upv/star/", ""));
     } else if (matchPath(path, { path: "/debug", exact: true })) {
       return "Debug";
     } else {

@@ -47,7 +47,7 @@ const PositionIdol = styled.div`
   border-radius: 50px;
   margin-right: 10px;
   box-sizing: border-box;
-  background-color: ${White};
+  background: ${White};
   color: ${Black};
   font-size: ${XXLarge};
 `;

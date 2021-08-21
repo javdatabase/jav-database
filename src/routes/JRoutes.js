@@ -15,7 +15,7 @@ const ContainerLoading = styled.div`
   height: 100vh;
   top: 0px;
   left: 0px;
-  background-color: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.5);
   ${center}
 `;
 
@@ -27,7 +27,7 @@ const ContainerNotFound = styled.div`
   width: 100%;
   height: 100%;
   ${center};
-  background-color: ${Black};
+  background: ${Black};
   color: ${White};
   font-size: ${XXLarge};
   line-height: 50px;
@@ -76,6 +76,10 @@ const Home = lazy(() =>
   componentLoader(() => import("../containers/JAV/Home/Home"))
 );
 
+const LuckyBox = lazy(() =>
+  componentLoader(() => import("../containers/JAV/Home/LuckyBox"))
+);
+
 const BestIdols = lazy(() =>
   componentLoader(() => import("../containers/JAV/Idols/BestIdols"))
 );
@@ -118,6 +122,7 @@ function JRoutes() {
           render={() => <Redirect to={"/jav/home"} exact={true} />}
         />
         <Route path={"/jav/home"} exact={true} component={Home} />
+        <Route path={"/jav/lucky-box"} exact={true} component={LuckyBox} />
         <Route path={"/jav/best-idols"} exact={true} component={BestIdols} />
         <Route
           path={"/jav/top-earnings"}
