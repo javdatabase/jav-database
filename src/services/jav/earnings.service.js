@@ -8,6 +8,7 @@ const STAR_IDOL_ID = "jai196";
 const BEST_DVD_IDS = [
   "jai016",
   "jai026",
+  "jai048",
   "jai065",
   "jai067",
   "jai068",
@@ -51,6 +52,7 @@ const BEST_IDOL_IDS = [
   "jai197",
 ];
 const SWEET_NIGHT_IDS = [
+  "jai016",
   "jai067",
   "jai067",
   "jai068",
@@ -70,9 +72,12 @@ const SWEET_NIGHT_IDS = [
   "jai196",
   "jai196",
   "jai196",
+  "jai196",
 ];
 const TOP_POINT_GROWTH_IDS = [
   "jai007",
+  "jai016",
+  "jai048",
   "jai054",
   "jai146",
   "jai176",
