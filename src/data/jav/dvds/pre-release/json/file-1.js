@@ -190,6 +190,13 @@ const File1 = [
     type: "Censored",
     idols: [{ idIdol: "jai171", name: "Aka Asuka" }],
   },
+  {
+    code: "PRED-343",
+    title: `" DON'T FORGET THE TEACHER'S BODY ... " DAYS LIKE A MIRACLE THAT I MADE VAGINAL CUM SHOT TO THE TEACHER MANY TIMES WHILE RUBBING MY BOOBS`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/pred343/pred343pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai041", name: "Julia" }],
+  },
 ];
 
 export default File1;
