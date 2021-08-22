@@ -73,6 +73,7 @@ const SWEET_NIGHT_IDS = [
   "jai196",
   "jai196",
   "jai196",
+  "jai196",
 ];
 const TOP_POINT_GROWTH_IDS = [
   "jai007",
