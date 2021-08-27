@@ -547,6 +547,126 @@ const File4 = [
       },
     ],
   },
+  {
+    idIdol: "jai198",
+    avatar:
+      "https://www.japanesebeauties.net/japanese/miharu-usa/9/miharu-usa-2.jpg",
+    name: "Miharu Usa",
+    other: "",
+    born: "03/03/1992",
+    height: "151 cm",
+    breast: "86 cm",
+    cup: "F-Cup",
+    waist: "59 cm",
+    hips: "84 cm",
+    styles: [
+      { tag: "Cute" },
+      { tag: "Slender" },
+      { tag: "Former Gravure Model" },
+    ],
+    album: [
+      {
+        picture:
+          "https://www.japanesebeauties.net/japanese/miharu-usa/4/miharu-usa-12.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/japanese/miharu-usa/2/miharu-usa-7.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/japanese/miharu-usa/7/miharu-usa-9.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/japanese/miharu-usa/5/miharu-usa-12.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/japanese/miharu-usa/12/miharu-usa-1.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/japanese/miharu-usa/12/miharu-usa-8.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/japanese/miharu-usa/10/miharu-usa-3.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/japanese/miharu-usa/1/miharu-usa-2.jpg",
+      },
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/39000/39424/large/wapdb-miharu-usa-pornostar-asiatique.warashi-asian-pornstars.fr-39424-009.jpg",
+      },
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/46000/46213/large/wapdb-miharu-usa-pornostar-asiatique.warashi-asian-pornstars.fr-46213-006.jpg",
+      },
+    ],
+  },
+  {
+    idIdol: "jai199",
+    avatar:
+      "https://www.japanesebeauties.net/japanese/momo-sakura/4/momo-sakura-1.jpg",
+    name: "Momo Sakura",
+    other: "",
+    born: "03/12/1996",
+    height: "160 cm",
+    breast: "90 cm",
+    cup: "G-Cup",
+    waist: "55 cm",
+    hips: "86 cm",
+    styles: [
+      { tag: "6 Stars JAV" },
+      { tag: "Cute" },
+      { tag: "Beautiful Breasts" },
+    ],
+    album: [
+      {
+        picture:
+          "https://www.japanesebeauties.net/japanese/momo-sakura/19/momo-sakura-8.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/japanese/momo-sakura/20/momo-sakura-9.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/japanese/momo-sakura/11/momo-sakura-9.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/japanese/momo-sakura/2/momo-sakura-7.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/japanese/momo-sakura/13/momo-sakura-7.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/japanese/momo-sakura/16/momo-sakura-12.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/japanese/momo-sakura/10/momo-sakura-6.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/japanese/momo-sakura/21/momo-sakura-11.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/japanese/momo-sakura/15/momo-sakura-8.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/japanese/momo-sakura/14/momo-sakura-7.jpg",
+      },
+    ],
+  },
 ];
 
 export default File4;
