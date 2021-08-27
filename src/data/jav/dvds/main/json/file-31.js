@@ -752,7 +752,10 @@ const File31 = [
     title: `BEAUTY VENUS 6`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/ipx350/ipx350pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: `jai038`, name: "Tsubasa Amami" }],
+    idols: [
+      { idIdol: `jai038`, name: "Tsubasa Amami" },
+      { idIdol: "jai198", name: "Miharu Usa" },
+    ],
   },
   {
     code: "IPX-369",
