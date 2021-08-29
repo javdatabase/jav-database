@@ -5,14 +5,15 @@ import styled from "styled-components";
 import { getIdolName } from "../services/jav/common.service";
 import { getStarName } from "../services/upv/common.service";
 import { BEST_IDOL_IDS } from "../services/jav/idols.service";
+import Routes from "../routes/Routes";
 import Navbar from "../components/Navbars/Navbar";
 import Header from "../components/Headers/Header";
 import ErrorBoundary from "../components/ErrorBoundary/ErrorBoundary";
-import Routes from "../routes/Routes";
+import BugIcon from "../assets/images/ic_bug/ic_bug.svg";
+import ToolsIcon from "../assets/images/ic_tools/ic_tools.svg";
 
 import { Black, White, Grey } from "../themes/colors";
 import { center } from "../themes/styled";
-import BugIcon from "../assets/images/ic_bug/ic_bug.svg";
 
 const Container = styled.div`
   position: relative;
@@ -33,6 +34,7 @@ const ButtonLink = styled(Link)`
   position: fixed;
   bottom: 20px;
   right: 20px;
+  z-index: 500;
   ${center};
   width: 50px;
   height: 50px;
@@ -112,6 +114,9 @@ function Layout() {
       </Body>
       <ButtonLink to={"/debug"}>
         <img src={BugIcon} alt={""} />
+      </ButtonLink>
+      <ButtonLink to={"/tools"} style={{ left: "20px" }}>
+        <img src={ToolsIcon} alt={""} />
       </ButtonLink>
     </Container>
   );
