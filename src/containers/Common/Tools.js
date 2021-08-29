@@ -7,7 +7,7 @@ import ClipboardGreenIcon from "../../assets/images/ic_clipboard_green/ic_clipbo
 
 import { White, Orange, Pink, LightPurple } from "../../themes/colors";
 import { center, fadeIn } from "../../themes/styled";
-import { XLarge, XXLarge } from "../../themes/font";
+import { Large, XXLarge } from "../../themes/font";
 
 const Container = styled.div`
   width: 100%;
@@ -47,7 +47,7 @@ const Content = styled.div`
 `;
 
 const Label = styled.div`
-  font-size: ${XLarge};
+  font-size: ${Large};
   font-weight: bold;
   color: ${White};
   margin-bottom: 10px;
