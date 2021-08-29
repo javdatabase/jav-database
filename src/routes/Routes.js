@@ -80,6 +80,10 @@ const Debug = lazy(() =>
   componentLoader(() => import("../containers/Common/Debug"))
 );
 
+const Tools = lazy(() =>
+  componentLoader(() => import("../containers/Common/Tools"))
+);
+
 function Routes() {
   return (
     <Suspense fallback={<Loading />}>
@@ -92,6 +96,7 @@ function Routes() {
         <Route path={"/jav"} component={Jav} />
         <Route path={"/upv"} component={Upv} />
         <Route path={"/debug"} exact={true} component={Debug} />
+        <Route path={"/tools"} exact={true} component={Tools} />
         <Route path={"*"} component={NotFound} />
       </Switch>
     </Suspense>

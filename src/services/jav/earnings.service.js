@@ -4,20 +4,35 @@ import {
   WeekEarnings,
 } from "../../helpers/earning-values";
 
-const STAR_IDOL_ID = "";
+const STAR_IDOL_ID = "jai078";
 const BEST_DVD_IDS = [
+  "jai007",
+  "jai034",
+  "jai036",
+  "jai048",
   "jai070",
   "jai078",
   "jai086",
   "jai151",
+  "jai170",
+  "jai171",
+  "jai179",
   "jai198",
   "jai199",
 ];
 const BEST_IDOL_IDS = [
+  "jai007",
+  "jai034",
+  "jai036",
+  "jai048",
   "jai070",
   "jai078",
   "jai086",
+  "jai147",
   "jai151",
+  "jai170",
+  "jai171",
+  "jai179",
   "jai197",
   "jai198",
   "jai199",
@@ -33,7 +48,7 @@ const SWEET_NIGHT_IDS = [
   "jai199",
   "jai199",
 ];
-const TOP_POINT_GROWTH_IDS = ["jai198", "jai199"];
+const TOP_POINT_GROWTH_IDS = ["jai048", "jai198", "jai199"];
 const TOP_IDOL_IDS = [
   "jai062",
   "jai070",
@@ -45,10 +60,19 @@ const TOP_IDOL_IDS = [
   "jai197",
 ];
 const HAS_DVD_IDS = [
+  "jai007",
+  "jai034",
+  "jai036",
+  "jai048",
   "jai070",
   "jai078",
   "jai086",
+  "jai140",
+  "jai147",
   "jai151",
+  "jai170",
+  "jai171",
+  "jai179",
   "jai197",
   "jai198",
   "jai199",
