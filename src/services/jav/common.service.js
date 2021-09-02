@@ -2,6 +2,7 @@ import { get, omit, random } from "lodash";
 
 import Idols from "../../data/jav/idols";
 import MainDvds from "../../data/jav/dvds/main";
+import Videos from "../../data/jav/videos";
 
 import { SIZE_IDOLS, ALL_IDOLS_DETAIL, BEST_IDOL_IDS } from "./idols.service";
 import { SIZE_MAIN_DVDS } from "./dvds.service";
@@ -147,6 +148,10 @@ function sortDvds(dvds) {
   return response;
 }
 
+function checkLeakedVideo(code) {
+  return !!Videos.find((item) => item.code === code);
+}
+
 export {
   findIdolDetail,
   getIdolDetail,
@@ -160,4 +165,5 @@ export {
   getDvdsRandom,
   getIdolsRandom,
   sortDvds,
+  checkLeakedVideo,
 };

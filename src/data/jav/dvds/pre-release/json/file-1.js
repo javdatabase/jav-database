@@ -14,13 +14,6 @@ const File1 = [
     idols: [{ idIdol: "jai158", name: "Nao Jinguji" }],
   },
   {
-    code: "GVH-283",
-    title: `ANAL COLLAPSE ANAL COLLAPSE RUI HIZUKI`,
-    poster: "https://pics.dmm.co.jp/mono/movie/adult/13gvh283/13gvh283pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai056", name: "Rui Hiduki" }],
-  },
-  {
     code: "GVH-288",
     title: `FORBIDDEN CARE HONOKA TSUJII`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/13gvh288/13gvh288pl.jpg",

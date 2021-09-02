@@ -73,6 +73,7 @@ const ButtonRight = styled(Link)`
 `;
 
 const VideoContainer = styled.div`
+  max-width: 930px;
   margin-bottom: 30px;
 `;
 
