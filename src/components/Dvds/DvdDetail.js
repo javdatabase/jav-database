@@ -3,7 +3,10 @@ import { get } from "lodash";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
-import { getIdolRank } from "../../services/jav/common.service";
+import {
+  getIdolRank,
+  checkLeakedVideo,
+} from "../../services/jav/common.service";
 import Backdrop from "../UI/Backdrop/Backdrop";
 import DvdPoster from "./DvdPoster";
 import IdolTag from "../Idols/IdolTag";
@@ -79,6 +82,25 @@ const TagIdol = styled(IdolTag)`
       : `linear-gradient(to right,  ${Orange}, ${Pink})`};
 `;
 
+const LeakedVideoButtonLink = styled(Link)`
+  position: absolute;
+  right: 0px;
+  top: 5.5px;
+  z-index: 500;
+  ${center};
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  background: ${Yellow};
+`;
+
+const Dot = styled.span`
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background: ${Black};
+`;
+
 function DvdDetail({ show, toggleModal, data }) {
   return (
     <Fragment>
@@ -89,8 +111,15 @@ function DvdDetail({ show, toggleModal, data }) {
       >
         <PosterDvd src={get(data, "poster", null)} />
         <DetailContainer>
-          <div>
+          <div style={{ position: "relative" }}>
             <CodeDvd>{get(data, "code", "")}</CodeDvd>
+            {checkLeakedVideo(get(data, "code", null)) && (
+              <LeakedVideoButtonLink
+                to={`/jav/leaked-video/${get(data, "code", "")}`}
+              >
+                <Dot />
+              </LeakedVideoButtonLink>
+            )}
           </div>
           <Title>{get(data, "title", "")}</Title>
           <IdolsContainer>

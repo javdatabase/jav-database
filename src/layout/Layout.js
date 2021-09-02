@@ -82,6 +82,12 @@ function Layout() {
       return "Pre Release Dvds";
     } else if (matchPath(path, { path: "/jav/amateur-dvds", exact: true })) {
       return "Amateur Dvds";
+    } else if (matchPath(path, { path: "/jav/leaked-videos", exact: true })) {
+      return "Leaked Videos";
+    } else if (
+      matchPath(path, { path: "/jav/leaked-video/:code", exact: true })
+    ) {
+      return path.replace("/jav/leaked-video/", "");
     } else if (matchPath(path, { path: "/upv/home", exact: true })) {
       return "Home";
     } else if (matchPath(path, { path: "/upv/stars", exact: true })) {

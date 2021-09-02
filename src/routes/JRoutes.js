@@ -112,6 +112,14 @@ const AmateurDvds = lazy(() =>
   componentLoader(() => import("../containers/JAV/Dvds/AmateurDvds"))
 );
 
+const LeakedVideos = lazy(() =>
+  componentLoader(() => import("../containers/JAV/Videos/LeakedVideos"))
+);
+
+const LeakedVideo = lazy(() =>
+  componentLoader(() => import("../containers/JAV/Videos/LeakedVideo"))
+);
+
 function JRoutes() {
   return (
     <Suspense fallback={<Loading />}>
@@ -142,6 +150,16 @@ function JRoutes() {
           path={"/jav/amateur-dvds"}
           exact={true}
           component={AmateurDvds}
+        />
+        <Route
+          path={"/jav/leaked-videos"}
+          exact={true}
+          component={LeakedVideos}
+        />
+        <Route
+          path={"/jav/leaked-video/:code"}
+          exact={true}
+          component={LeakedVideo}
         />
         <Route path={"*"} component={NotFound} />
       </Switch>
