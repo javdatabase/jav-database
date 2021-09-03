@@ -250,12 +250,6 @@ const File1 = [
     ],
   },
   {
-    code: `AVOP-210`,
-    content: [
-      `<iframe width="943" height="530" src="https://javideo.pw/v/kyx86c3-rnkr7qj" frameborder="0" allowfullscreen></iframe>`,
-    ],
-  },
-  {
     code: `SOE-422`,
     content: [
       `<iframe width="943" height="530" src="https://javideo.pw/v/dw9r55j03po" frameborder="0" allowfullscreen></iframe>`,
