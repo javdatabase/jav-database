@@ -10,6 +10,7 @@ const Yellow = "#f7ff00";
 const Red = "#f12711";
 const LightPurple = "#DA22FF";
 const DarkPurple = "#9733EE";
+const Green = "#17bf44";
 
 export {
   Pink,
@@ -24,4 +25,5 @@ export {
   Red,
   LightPurple,
   DarkPurple,
+  Green,
 };

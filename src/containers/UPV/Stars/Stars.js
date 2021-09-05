@@ -42,6 +42,7 @@ const RowFilter = styled.div`
 `;
 
 const SelectCustom = styled(Select)`
+  width: 300px;
   margin-left: 30px;
 `;
 
