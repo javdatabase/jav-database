@@ -150,7 +150,7 @@ function JAVDvdDataTool() {
           ?.map((item) => `{ idIdol: "${item.value}", name: "${item.label}" }`)
           .join(", ") || ""
       }],
-}`;
+},`;
   }, [code, title, poster, type, idols]);
 
   useEffect(() => {

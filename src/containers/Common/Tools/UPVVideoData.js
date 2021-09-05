@@ -153,7 +153,7 @@ function UPVVideoDataTool() {
             )
             .join(", ") || ""
         }],
-  }`;
+  },`;
   }, [title, source, link, content, stars]);
 
   useEffect(() => {

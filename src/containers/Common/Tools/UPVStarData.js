@@ -214,7 +214,7 @@ function UPVStarDataTool() {
               .map((item) => `{ picture: "${item}" }`)
               .join(", ") || ""
           }],
-  }`;
+  },`;
   }, [avatar, name, born, height, breast, cup, waist, hips, album]);
 
   const shortResult = useMemo(() => {
@@ -223,7 +223,7 @@ function UPVStarDataTool() {
     }
     return `{ idStar: "jai${Array(3 - String(SIZE_STARS + 1).length)
       .fill("0")
-      .join("")}${SIZE_STARS + 1}", name: "${name}" }`;
+      .join("")}${SIZE_STARS + 1}", name: "${name}" },`;
   }, [name]);
 
   useEffect(() => {

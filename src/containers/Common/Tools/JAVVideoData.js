@@ -133,7 +133,7 @@ function JAVVideoDataTool() {
     return `{
         code: "${code}",
         content: \`<iframe width="943" height="530" src="${content}" frameborder="0" allowfullscreen></iframe>\`,
-}`;
+},`;
   }, [code, content]);
 
   useEffect(() => {
