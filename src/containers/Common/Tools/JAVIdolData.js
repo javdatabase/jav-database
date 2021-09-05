@@ -227,7 +227,7 @@ function JAVIdolDataTool() {
             .map((item) => `{ picture: "${item}" }`)
             .join(", ") || ""
         }],
-}`;
+},`;
   }, [
     avatar,
     name,
@@ -248,7 +248,7 @@ function JAVIdolDataTool() {
     }
     return `{ idIdol: "jai${Array(3 - String(SIZE_IDOLS + 1).length)
       .fill("0")
-      .join("")}${SIZE_IDOLS + 1}", name: "${name}" }`;
+      .join("")}${SIZE_IDOLS + 1}", name: "${name}" },`;
   }, [name]);
 
   useEffect(() => {
