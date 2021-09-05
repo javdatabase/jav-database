@@ -14,6 +14,8 @@ import { SIZE_IDOLS } from "../../../services/jav/idols.service";
 import Input from "../../../components/UI/Input/Input";
 import Textarea from "../../../components/UI/Textarea/Textarea";
 import Select from "../../../components/UI/Select/Select";
+import ClipboardPurpleIcon from "../../../assets/images/ic_clipboard_purple/ic_clipboard_purple.svg";
+import ClipboardGreenIcon from "../../../assets/images/ic_clipboard_green/ic_clipboard_green.svg";
 
 import {
   White,
@@ -132,6 +134,16 @@ const ButtonRemove = styled(ButtonAdd)`
   }
 `;
 
+const ButtonImage = styled.img`
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  width: 20px;
+  height: 20px;
+  cursor: ${(props) => (props.disabled ? "not-allowed" : "pointer")};
+  opacity: ${(props) => (props.disabled ? 0.6 : 1)};
+`;
+
 const ButtonCopy = styled.div`
   ${center};
   background: ${(props) =>
@@ -230,6 +242,15 @@ function JAVIdolDataTool() {
     album,
   ]);
 
+  const shortResult = useMemo(() => {
+    if (!name) {
+      return "";
+    }
+    return `{ idIdol: "jai${Array(3 - String(SIZE_IDOLS + 1).length)
+      .fill("0")
+      .join("")}${SIZE_IDOLS + 1}", name: "${name}" }`;
+  }, [name]);
+
   useEffect(() => {
     return () => {
       if (timer.current) {
@@ -260,6 +281,29 @@ function JAVIdolDataTool() {
       }, 1000);
     }
   }, [result, copied]);
+
+  const shortToClipboard = useCallback(() => {
+    if (shortResult && !copied) {
+      const textarea = document.createElement("textarea");
+      textarea.style.position = "fixed";
+      textarea.style.left = "0";
+      textarea.style.top = "0";
+      textarea.style.opacity = "0";
+      textarea.value = shortResult;
+      document.body.appendChild(textarea);
+      textarea.focus();
+      textarea.select();
+      document.execCommand("copy");
+      document.body.removeChild(textarea);
+      setCopied(true);
+      if (timer.current) {
+        clearTimeout(timer.current);
+      }
+      timer.current = setTimeout(() => {
+        setCopied(false);
+      }, 1000);
+    }
+  }, [shortResult, copied]);
 
   return (
     <Container>
@@ -387,6 +431,18 @@ function JAVIdolDataTool() {
               rows={12}
               placeholder={"Result..."}
               value={result}
+            />
+          </Content>
+          <Content>
+            <InputCustom
+              readOnly={true}
+              placeholder={"Short..."}
+              value={shortResult}
+            />
+            <ButtonImage
+              disabled={!shortResult}
+              src={copied ? ClipboardGreenIcon : ClipboardPurpleIcon}
+              onClick={shortToClipboard}
             />
           </Content>
           <ButtonCopy
