@@ -42,7 +42,7 @@ const selectStyle = {
 };
 
 function Selectable(props) {
-  return <Select {...props} styles={{ ...selectStyle, ...props.styles }} />;
+  return <Select {...props} styles={selectStyle} />;
 }
 
 const MemoSelectable = memo(Selectable);
