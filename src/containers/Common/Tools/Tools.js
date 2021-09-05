@@ -100,13 +100,13 @@ function Tools() {
       </Content>
       <Content>
         <ButtonType
-          to={"/tools/jav-upv-data"}
+          to={"/tools/upv-video-data"}
           background={`linear-gradient(to right, ${Grey}, ${Blue})`}
         >
           UPV Video Data
         </ButtonType>
         <ButtonType
-          to={"/tools/jav-star-data"}
+          to={"/tools/upv-star-data"}
           background={`linear-gradient(to right, ${LightBlue}, ${Yellow})`}
         >
           UPV Star Data

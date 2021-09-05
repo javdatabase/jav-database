@@ -88,8 +88,20 @@ const JAVDvdDataTool = lazy(() =>
   componentLoader(() => import("../containers/Common/Tools/JAVDvdData"))
 );
 
+const JAVIdolDataTool = lazy(() =>
+  componentLoader(() => import("../containers/Common/Tools/JAVIdolData"))
+);
+
 const JAVVideoDataTool = lazy(() =>
   componentLoader(() => import("../containers/Common/Tools/JAVVideoData"))
+);
+
+const UPVVideoDataTool = lazy(() =>
+  componentLoader(() => import("../containers/Common/Tools/UPVVideoData"))
+);
+
+const UPVStarDataTool = lazy(() =>
+  componentLoader(() => import("../containers/Common/Tools/UPVStarData"))
 );
 
 function Routes() {
@@ -111,9 +123,24 @@ function Routes() {
           component={JAVDvdDataTool}
         />
         <Route
+          path={"/tools/jav-idol-data"}
+          exact={true}
+          component={JAVIdolDataTool}
+        />
+        <Route
           path={"/tools/jav-video-data"}
           exact={true}
           component={JAVVideoDataTool}
+        />
+        <Route
+          path={"/tools/upv-video-data"}
+          exact={true}
+          component={UPVVideoDataTool}
+        />
+        <Route
+          path={"/tools/upv-star-data"}
+          exact={true}
+          component={UPVStarDataTool}
         />
         <Route path={"*"} component={NotFound} />
       </Switch>

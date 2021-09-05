@@ -108,7 +108,6 @@ const ButtonCopy = styled.div`
   color: ${White};
   font-size: ${Large};
   text-align: center;
-  text-decoration: none;
   cursor: ${(props) => (props.disabled ? "not-allowed" : "pointer")};
   transition: background 0.3s ease-in-out;
 
@@ -144,16 +143,15 @@ function JAVDvdDataTool() {
     return `{
       code: "${code}",
       title: \`${title}\`,
-      poster:
-        "${poster}",
+      poster: "${poster}",
       type: "${type?.label || ""}",
       idols: [${
         idols
           ?.map((item) => `{ idIdol: "${item.value}", name: "${item.label}" }`)
           .join(", ") || ""
       }],
-    }`;
-  }, [code, poster, title, type, idols]);
+}`;
+  }, [code, title, poster, type, idols]);
 
   useEffect(() => {
     return () => {
@@ -216,20 +214,18 @@ function JAVDvdDataTool() {
           </Content>
           <Content>
             <SelectCustom
-              placeholder={"Type..."}
-              value={type}
               options={[
                 { label: "Censored", value: "Censored" },
                 { label: "Uncensored", value: "Uncensored" },
               ]}
+              placeholder={"Type..."}
+              value={type}
               onChange={(value) => setType(value)}
             />
           </Content>
           <Content>
             <SelectCustom
               isMulti={true}
-              placeholder={"Idols..."}
-              value={idols}
               options={ShortIdols.map((item) => ({
                 label: item.name,
                 value: item.idIdol,
@@ -240,6 +236,8 @@ function JAVDvdDataTool() {
                     ? [LightBlue, Pink]
                     : [Pink, Orange],
               }))}
+              placeholder={"Idols..."}
+              value={idols}
               onChange={(values) => setIdols(values)}
             />
           </Content>

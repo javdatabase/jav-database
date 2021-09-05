@@ -8,7 +8,6 @@ const selectStyle = {
   control: (styles) => ({
     ...styles,
     width: "100%",
-    minWidth: "100%",
     minHeight: "40px",
     borderRadius: "6px",
     border: "none",
