@@ -96,6 +96,10 @@ function Layout() {
       return getStarName(path.replace("/upv/star/", ""));
     } else if (matchPath(path, { path: "/debug", exact: true })) {
       return "Debug";
+    } else if (matchPath(path, { path: "/tools", exact: true })) {
+      return "Tools";
+    } else if (matchPath(path, { path: "/tools/:type", exact: true })) {
+      return "Tools";
     } else {
       return "Not Found";
     }

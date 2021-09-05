@@ -81,7 +81,15 @@ const Debug = lazy(() =>
 );
 
 const Tools = lazy(() =>
-  componentLoader(() => import("../containers/Common/Tools"))
+  componentLoader(() => import("../containers/Common/Tools/Tools"))
+);
+
+const JAVDvdDataTool = lazy(() =>
+  componentLoader(() => import("../containers/Common/Tools/JAVDvdData"))
+);
+
+const JAVVideoDataTool = lazy(() =>
+  componentLoader(() => import("../containers/Common/Tools/JAVVideoData"))
 );
 
 function Routes() {
@@ -97,6 +105,16 @@ function Routes() {
         <Route path={"/upv"} component={Upv} />
         <Route path={"/debug"} exact={true} component={Debug} />
         <Route path={"/tools"} exact={true} component={Tools} />
+        <Route
+          path={"/tools/jav-dvd-data"}
+          exact={true}
+          component={JAVDvdDataTool}
+        />
+        <Route
+          path={"/tools/jav-video-data"}
+          exact={true}
+          component={JAVVideoDataTool}
+        />
         <Route path={"*"} component={NotFound} />
       </Switch>
     </Suspense>
