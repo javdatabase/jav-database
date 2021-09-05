@@ -7,8 +7,10 @@ import React, {
 } from "react";
 import styled from "styled-components";
 
+import ShortStars from "../../../helpers/short-stars";
 import Input from "../../../components/UI/Input/Input";
 import Textarea from "../../../components/UI/Textarea/Textarea";
+import Select from "../../../components/UI/Select/Select";
 
 import {
   White,
@@ -17,8 +19,10 @@ import {
   Orange,
   Pink,
   LightPurple,
+  Yellow,
   DarkBlue,
   LightBlue,
+  Blue,
   Green,
 } from "../../../themes/colors";
 import { center, fadeIn } from "../../../themes/styled";
@@ -89,10 +93,14 @@ const InputCustom = styled(Input)`
   width: 100%;
 `;
 
+const SelectCustom = styled(Select)`
+  width: 100%;
+`;
+
 const ButtonCopy = styled.div`
   ${center};
   background: ${(props) =>
-    props.disabled ? Grey : props.active ? DarkBlue : LightBlue};
+    props.disabled ? Grey : props.active ? Green : Blue};
   padding: 10px 30px;
   border-radius: 6px;
   box-shadow: none;
@@ -105,7 +113,7 @@ const ButtonCopy = styled.div`
 
   &:hover {
     background: ${(props) =>
-      props.disabled ? Grey : props.active ? Green : LightBlue};
+      props.disabled ? Grey : props.active ? Green : DarkBlue};
   }
 `;
 
@@ -119,22 +127,34 @@ const ButtonReset = styled(ButtonCopy)`
   }
 `;
 
-function JAVVideoDataTool() {
-  const [code, setCode] = useState("");
+function UPVVideoDataTool() {
+  const [title, setTitle] = useState("");
+  const [source, setSource] = useState("");
+  const [link, setLink] = useState("");
   const [content, setContent] = useState("");
+  const [stars, setStars] = useState(null);
   const [copied, setCopied] = useState(false);
   const timer = useRef();
 
   const result = useMemo(() => {
-    if (!code && !content) {
+    if (!title && !source && !link && !content && (!stars || !stars.length)) {
       return "";
     }
-
     return `{
-        code: "${code}",
+        title: \`${title}\`,
+        source: "${source}",
+        link: "${link}",
         content: \`<iframe width="943" height="530" src="${content}" frameborder="0" allowfullscreen></iframe>\`,
-}`;
-  }, [code, content]);
+        type: "US/EU",
+        stars: [${
+          stars
+            ?.map(
+              (item) => `{ idStar: "${item.value}", name: "${item.label}" }`
+            )
+            .join(", ") || ""
+        }],
+  }`;
+  }, [title, source, link, content, stars]);
 
   useEffect(() => {
     return () => {
@@ -169,15 +189,30 @@ function JAVVideoDataTool() {
 
   return (
     <Container>
-      <Title>JAV VIDEO DATA TOOL</Title>
+      <Title>UPV VIDEO DATA TOOL</Title>
       <Row>
         <Column>
-          <Label style={{ color: DarkBlue }}>FORM</Label>
+          <Label style={{ color: Grey }}>FORM</Label>
           <Content>
+            <TextareaCustom
+              rows={6}
+              placeholder={"Title..."}
+              value={title}
+              onChange={(e) => setTitle(e.target.value.trim().toUpperCase())}
+            />
+          </Content>
+          <Content style={{ flexDirection: "row" }}>
             <InputCustom
-              placeholder={"Code..."}
-              value={code}
-              onChange={(e) => setCode(e.target.value.trim().toUpperCase())}
+              style={{ width: "50%", minWidth: "unset", marginRight: "30px" }}
+              placeholder={"Source..."}
+              value={source}
+              onChange={(e) => setSource(e.target.value.trim().toUpperCase())}
+            />
+            <InputCustom
+              style={{ width: "50%", minWidth: "unset" }}
+              placeholder={"Link..."}
+              value={link}
+              onChange={(e) => setLink(e.target.value.trim())}
             />
           </Content>
           <Content>
@@ -187,9 +222,22 @@ function JAVVideoDataTool() {
               onChange={(e) => setContent(e.target.value.trim())}
             />
           </Content>
+          <Content>
+            <SelectCustom
+              isMulti={true}
+              options={ShortStars.map((item) => ({
+                label: item.name,
+                value: item.idStar,
+                colors: [Yellow, LightBlue],
+              }))}
+              placeholder={"Stars..."}
+              value={stars}
+              onChange={(values) => setStars(values)}
+            />
+          </Content>
         </Column>
         <Column>
-          <Label style={{ color: LightBlue }}>RESULT</Label>
+          <Label style={{ color: Blue }}>RESULT</Label>
           <Content>
             <TextareaCustom
               readOnly={true}
@@ -210,8 +258,11 @@ function JAVVideoDataTool() {
             disabled={!result}
             type="button"
             onClick={() => {
-              setCode("");
+              setTitle("");
+              setSource("");
+              setLink("");
               setContent("");
+              setStars(null);
             }}
           >
             Reset
@@ -222,4 +273,4 @@ function JAVVideoDataTool() {
   );
 }
 
-export default JAVVideoDataTool;
+export default UPVVideoDataTool;

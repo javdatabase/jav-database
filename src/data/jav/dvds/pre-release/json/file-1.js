@@ -1,19 +1,5 @@
 const File1 = [
   {
-    code: "MIDE-964",
-    title: `I CAN'T STAND THE TEASING TITS TEMPTATION OF A BIG TITS FEMALE BOSS ON A BUSINESS TRIP`,
-    poster: "https://pics.dmm.co.jp/mono/movie/adult/mide964/mide964pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai141", name: "Shoko Takahashi" }],
-  },
-  {
-    code: "MIDE-967",
-    title: `" CAN I CALL YOU A DE M STORE MANAGER ? " AFTER THE STORE WAS CLOSED , AN ESTRUS BITTER PART-TIME JOB SEDUCED ME WITH A DEVIL'S WHISPERING IDIOM . JINGUJI NAO`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/mide967/mide967pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai158", name: "Nao Jinguji" }],
-  },
-  {
     code: "GVH-288",
     title: `FORBIDDEN CARE HONOKA TSUJII`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/13gvh288/13gvh288pl.jpg",
@@ -61,13 +47,6 @@ const File1 = [
     poster: "https://pics.dmm.co.jp/mono/movie/adult/xvsr611so/xvsr611sopl.jpg",
     type: "Censored",
     idols: [{ idIdol: "jai007", name: "Mao Hamasaki" }],
-  },
-  {
-    code: "SHKD-964",
-    title: `A MARRIED WOMAN WHO WOULD DIE IF SHE DIDN'T INJECT FRESH SPERM INTO HER VAGINA WITHIN 48 HOURS DECIDED TO BE VAGINAL CUM SHOT BY THAT MAN WHO HATES TO LIVE`,
-    poster: "https://pics.dmm.co.jp/mono/movie/adult/shkd964/shkd964pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai153", name: "Hikari Ninomiya" }],
   },
   {
     code: "MIAA-503",

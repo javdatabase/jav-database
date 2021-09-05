@@ -2434,6 +2434,27 @@ const File41 = [
     type: "Censored",
     idols: [{ idIdol: "jai113", name: "Airi Suzumura" }],
   },
+  {
+    code: "SHKD-964",
+    title: `A MARRIED WOMAN WHO WOULD DIE IF SHE DIDN'T INJECT FRESH SPERM INTO HER VAGINA WITHIN 48 HOURS DECIDED TO BE VAGINAL CUM SHOT BY THAT MAN WHO HATES TO LIVE`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/shkd964/shkd964pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai153", name: "Hikari Ninomiya" }],
+  },
+  {
+    code: "MIDE-964",
+    title: `I CAN'T STAND THE TEASING TITS TEMPTATION OF A BIG TITS FEMALE BOSS ON A BUSINESS TRIP`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/mide964/mide964pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai141", name: "Shoko Takahashi" }],
+  },
+  {
+    code: "MIDE-967",
+    title: `" CAN I CALL YOU A DE M STORE MANAGER ? " AFTER THE STORE WAS CLOSED , AN ESTRUS BITTER PART-TIME JOB SEDUCED ME WITH A DEVIL'S WHISPERING IDIOM . JINGUJI NAO`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/mide967/mide967pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai158", name: "Nao Jinguji" }],
+  },
 ];
 
 export default File41;
