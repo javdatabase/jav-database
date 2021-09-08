@@ -2831,7 +2831,7 @@ const File1 = [
   {
     idIdol: "jai057",
     avatar:
-      "https://www.japanesebeauties.net/hardcore/caribbeancom/yumi-maeda/080917-476/yumi-maeda-7.jpg",
+      "https://www.japanesebeauties.net/hardcore/caribbeancompr/yumi-maeda/100314_971/yumi-maeda-2.jpg",
     name: "Yumi Maeda",
     other: "Riho Fujimori",
     born: "30/11/1994",
@@ -2864,7 +2864,7 @@ const File1 = [
       },
       {
         picture:
-          "https://www.japanesebeauties.net/hardcore/caribbeancompr/yumi-maeda/100314_971/yumi-maeda-2.jpg",
+          "https://www.japanesebeauties.net/hardcore/caribbeancom/yumi-maeda/080917-476/yumi-maeda-7.jpg",
       },
       {
         picture:
