@@ -91,13 +91,6 @@ const File1 = [
     idols: [{ idIdol: "jai048", name: "Honoka Tsuji" }],
   },
   {
-    code: "CEMD-054",
-    title: `I TRIED BREEDING A SEXUAL PROCESSING DOLL THAT I WANTED VOL.5 YUI HATANO`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/cemd054/cemd054pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai001", name: "Yui Hatano" }],
-  },
-  {
     code: "SSIS-168",
     title: `MIHARU USA I'VE SEEN A YOUNG , BEAUTIFUL AND GENTLE MOTHER WHO IS PROUD OF BEING RAPED BY BAD SENIORS`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/ssis168/ssis168pl.jpg",
@@ -189,18 +182,11 @@ const File1 = [
     idols: [{ idIdol: "jai048", name: "Honoka Tsuji" }],
   },
   {
-    code: "DLDSS-025",
-    title: `" HEY , I WANT TO LICK A PENI . " I CAN'T KEEP COMPLIANCE. A NYMPHO BEAUTY IN THE WORKPLACE WHO IS ALWAYS CALM`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/1dldss025/1dldss025pl.jpg",
+    code: "MKMP-416",
+    title: `SUPER COMPLETE BEST MAO HAMASAKI`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/mkmp416so/mkmp416sopl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai157", name: "Suzume Mino" }],
-  },
-  {
-    code: "DLDSS-027",
-    title: `I DON'T WANT TO BE KNOWN ONLY TO YOU ... ON THE DAY MY SISTER CAME TO REPORT HER MARRIAGE WITH A LOVELY SMILE, MY SISTER , I , WAS ATTACKED BY A MAN WHO HAD JUST BECOME A BROTHER-IN-LAW`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/1dldss027/1dldss027pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai026", name: "Ayaka Tomoda" }],
+    idols: [{ idIdol: "jai007", name: "Mao Hamasaki" }],
   },
 ];
 
