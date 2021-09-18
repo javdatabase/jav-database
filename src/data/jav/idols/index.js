@@ -10,7 +10,7 @@ const response = [].concat(File1, File2, File3, File4).map((item) => ({
   age:
     item.born === "--/--/----"
       ? "??"
-      : moment(item.born, "dd/MM/YYYY").fromNow().replace(" years ago", ""),
+      : moment().diff(moment(item.born, "DD/MM/YYYY", true), "years"),
 }));
 
 export default response;
