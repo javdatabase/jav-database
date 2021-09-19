@@ -2690,13 +2690,6 @@ const File41 = [
     ],
   },
   {
-    code: "JNT-006",
-    title: `LEE ● THE GIRL WHO DID THE STAR . [ NEW ERA SNS BEAUTY PICK-UP ! ! ! ] 6 AIM AT THE BEAUTY BODY BITCH THAT INFESTS SNS ! ! !`,
-    poster: "http://img60.pixhost.to/images/72/231097112_1637563l.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai057", name: "Yumi Maeda" }],
-  },
-  {
     code: "PPPD-960",
     title: `REUNITED WITH A CHILDHOOD FRIEND'S MARRIED WOMAN WHO HAD A CRUSH ON HER HOMETOWN IN THE COUNTRYSIDE ... 3 DAYS HITOMI IMMERSED IN THE SWEATY AFFAIR SEX OF MIDSUMMER RIDING THE TEMPTATION OF POPPING BIG BREASTS`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/pppd960/pppd960pl.jpg",

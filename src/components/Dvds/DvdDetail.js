@@ -85,7 +85,7 @@ const TagIdol = styled(IdolTag)`
 const LeakedVideoButtonLink = styled(Link)`
   position: absolute;
   right: 0px;
-  top: 5.5px;
+  top: 3px;
   z-index: 500;
   ${center};
   width: 20px;
