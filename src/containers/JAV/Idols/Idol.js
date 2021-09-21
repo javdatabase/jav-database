@@ -250,8 +250,8 @@ const Picture = styled(Image)`
 
 const EarningContainer = styled.div`
   position: absolute;
-  left: 20px;
-  bottom: 20px;
+  left: 50px;
+  bottom: 100px;
   display: flex;
   flex-direction: column;
 `;
