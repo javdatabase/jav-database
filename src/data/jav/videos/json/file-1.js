@@ -220,7 +220,7 @@ const File1 = [
     ],
   },
   {
-    code: `ZMIN-005`,
+    code: `ZMIN-05`,
     content: [
       `<iframe width="943" height="530" src="https://javideo.pw/v/j-y84udjwplq7l7" frameborder="0" allowfullscreen></iframe>`,
     ],
