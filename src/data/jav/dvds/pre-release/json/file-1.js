@@ -289,6 +289,20 @@ const File1 = [
     type: "Censored",
     idols: [{ idIdol: "jai151", name: "Remu Suzumori" }],
   },
+  {
+    code: "MIAA-504",
+    title: `THE MOST BEAUTIFUL AND THE MOST VULGAR NO.1 LUXURY HOSTESS MISS AND JI ● PO BECOMES STUPID AFFAIR CREAMPIE MINA KITANO`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/miaa504/miaa504pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai196", name: "Mina Kitano" }],
+  },
+  {
+    code: "MIAA-508",
+    title: `" MANAGER , I CAN'T LET YOU GO HOME TODAY ... " SHORT-TIME BUSINESS REVERSE NTR AFTER THE STORE CLOSES , THE TWO PEOPLE HIDE BEHIND THEIR WIVES AND BECOME DENSE . I RUBBED IT ON MY WOMB AND MADE A VAGINAL CUM SHOT OVER AND OVER AGAIN FOR A CRAZY WAIST ERRAND ... RIHO FUJIMORI`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/miaa508/miaa508pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai057", name: "Yumi Maeda" }],
+  },
 ];
 
 export default File1;
