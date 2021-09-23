@@ -282,6 +282,13 @@ const File1 = [
     type: "Censored",
     idols: [{ idIdol: "jai026", name: "Ayaka Tomoda" }],
   },
+  {
+    code: "ABW-153",
+    title: `" SMOOTH " OIL-COVERED 3 PRODUCTION`,
+    poster: "https://img61.pixhost.to/images/107/237717249_1641567l.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai151", name: "Remu Suzumori" }],
+  },
 ];
 
 export default File1;
