@@ -282,13 +282,6 @@ const File1 = [
     type: "Censored",
     idols: [{ idIdol: "jai026", name: "Ayaka Tomoda" }],
   },
-  {
-    code: "FCDSS-015",
-    title: `MINO SUZUME FALENO EXCLUSIVE APPEARANCE 15 TITLES COMPLETE RECORDING BEST 12 HOURS`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/1fcdss015/1fcdss015pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai157", name: "Suzume Mino" }],
-  },
 ];
 
 export default File1;
