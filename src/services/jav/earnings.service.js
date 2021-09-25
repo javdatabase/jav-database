@@ -5,12 +5,63 @@ import {
 } from "../../helpers/earning-values";
 
 const STAR_IDOL_ID = "";
-const BEST_DVD_IDS = ["jai113", "jai157", "jai158"];
-const BEST_IDOL_IDS = ["jai113", "jai144", "jai157", "jai158"];
-const SWEET_NIGHT_IDS = [];
-const TOP_POINT_GROWTH_IDS = [];
-const TOP_IDOL_IDS = [];
-const HAS_DVD_IDS = ["jai113", "jai144", "jai157", "jai158"];
+const SWEET_NIGHT_IDS = [
+  "jai002",
+  "jai007",
+  "jai007",
+  "jai011",
+  "jai057",
+  "jai069",
+  "jai070",
+  "jai075",
+];
+const BEST_DVD_IDS = [
+  "jai002",
+  "jai007",
+  "jai011",
+  "jai057",
+  "jai069",
+  "jai070",
+  "jai075",
+  "jai113",
+  "jai157",
+  "jai158",
+];
+const BEST_IDOL_IDS = [
+  "jai002",
+  "jai007",
+  "jai011",
+  "jai057",
+  "jai069",
+  "jai070",
+  "jai075",
+  "jai113",
+  "jai144",
+  "jai157",
+  "jai158",
+];
+const TOP_POINT_GROWTH_IDS = ["jai002", "jai007"];
+const TOP_IDOL_IDS = [
+  "jai062",
+  "jai068",
+  "jai070",
+  "jai151",
+  "jai188",
+  "jai196",
+];
+const HAS_DVD_IDS = [
+  "jai002",
+  "jai007",
+  "jai011",
+  "jai057",
+  "jai069",
+  "jai070",
+  "jai075",
+  "jai113",
+  "jai144",
+  "jai157",
+  "jai158",
+];
 const NEWBIE_IDS = [];
 
 function getEarningIdol(rank, points, styles, uncensored, best) {
@@ -78,17 +129,17 @@ function getBonusEarnings(id) {
   if (STAR_IDOL_ID === id) {
     bonus = bonus + WeekEarnings.starIdol;
   }
-  if (BEST_DVD_IDS.includes(id)) {
-    bonus = bonus + WeekEarnings.bestDvd;
-  }
-  if (BEST_IDOL_IDS.includes(id)) {
-    bonus = bonus + WeekEarnings.bestIdol;
-  }
   if (SWEET_NIGHT_IDS.includes(id)) {
     bonus =
       bonus +
       WeekEarnings.sweetNight *
         SWEET_NIGHT_IDS.reduce((acc, val) => (val === id ? acc + 1 : acc), 0);
+  }
+  if (BEST_DVD_IDS.includes(id)) {
+    bonus = bonus + WeekEarnings.bestDvd;
+  }
+  if (BEST_IDOL_IDS.includes(id)) {
+    bonus = bonus + WeekEarnings.bestIdol;
   }
   if (TOP_POINT_GROWTH_IDS.includes(id)) {
     bonus = bonus + WeekEarnings.topGrowth;
