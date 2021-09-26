@@ -2920,6 +2920,34 @@ const File41 = [
     type: "Censored",
     idols: [{ idIdol: "jai007", name: "Mao Hamasaki" }],
   },
+  {
+    code: "URE-071",
+    title: `WHEN IT COMES TO CHINA: ORIGINAL FEMALE TEACHER REIKO ~ APHRODISIAC CLASS ~ DROWNING A STRICT AND BEAUTIFUL LADY IN PLEASURE ! ! ! MARINA SHIRAISHI`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/ure071/ure071pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai067", name: "Marina Shiraishi" }],
+  },
+  {
+    code: "CEMD-059",
+    title: `THERE ARE GIRLS WHO FEEL LIKE TEASING A MAN ! 2 MIYABI MIDORIKAWA-THE PLEASURE OF THE WOMAN IS BORN FROM THE TEARS AND SCREAMS OF M MAN !`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/cemd059/cemd059pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai176", name: "Miyabi Midorikawa" }],
+  },
+  {
+    code: "CEMD-060",
+    title: `DIRTY TALK COUNSELING BAR WITH A NASTY SNAKE TONGUE HONOKA TSUJII-YOUR PERVERTED WORRIES WILL BE SOLVED WITH THIS SNAKE TONGUE !`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/cemd060/cemd060pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai048", name: "Honoka Tsuji" }],
+  },
+  {
+    code: "BLB-011",
+    title: `BLACK GIANT MARA CRIMINAL ● JAPANESE BEAUTY WHO WAS BROKEN FROM A TRIVIAL DEBT AND A LIE ... A MARRIED WOMAN WHO CONTINUED TO BETRAY FELL TO A TOMB ● 4P WHEEL ● HELL MAO HAMASAKI`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/blb011so/blb011sopl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai007", name: "Mao Hamasaki" }],
+  },
 ];
 
 export default File41;
