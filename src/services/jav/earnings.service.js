@@ -7,14 +7,22 @@ import {
 const STAR_IDOL_ID = "";
 const SWEET_NIGHT_IDS = [
   "jai002",
+  "jai002",
+  "jai007",
   "jai007",
   "jai007",
   "jai007",
   "jai011",
+  "jai011",
+  "jai057",
+  "jai057",
   "jai057",
   "jai067",
   "jai069",
   "jai070",
+  "jai070",
+  "jai070",
+  "jai075",
   "jai075",
 ];
 const BEST_DVD_IDS = [
