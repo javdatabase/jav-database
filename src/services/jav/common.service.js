@@ -116,6 +116,27 @@ function getDvdsRandom() {
   return randomDvds();
 }
 
+function getVideosRandom() {
+  const videos = MainDvds.filter((item) => checkVideo(item.code));
+
+  function generateNewVideo(array, temp) {
+    if (!!array.find((item) => item.idDvd === temp.idDvd)) {
+      return generateNewVideo(array, videos[random(videos.length - 1)]);
+    }
+    return temp;
+  }
+
+  function randomDvds() {
+    let dvds = Array(10).fill(0);
+    for (let i = 0; i < dvds.length; i++) {
+      dvds[i] = generateNewVideo(dvds, videos[random(videos.length - 1)]);
+    }
+    return dvds;
+  }
+
+  return randomDvds();
+}
+
 function getIdolsRandom() {
   const allIdolsDetail = getAllIdolsDetail();
 
@@ -163,6 +184,7 @@ export {
   sortIdols,
   getDvdsByIdol,
   getDvdsRandom,
+  getVideosRandom,
   getIdolsRandom,
   sortDvds,
   checkVideo,
