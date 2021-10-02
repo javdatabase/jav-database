@@ -36,7 +36,6 @@ import ONED624 from "./ONED-624.jpg";
 import ONED662 from "./ONED-662.jpg";
 import ONED686 from "./ONED-686.jpg";
 import TRP052 from "./TRP-052.jpg";
-import SKYHD022 from "./SKYHD-022.jpg";
 import S2M020 from "./S2M-020.jpg";
 import CWP143 from "./CWP-143.jpg";
 import LAF75 from "./LAF-75.jpg";
@@ -353,6 +352,7 @@ import MXX91 from "./MXX-91.jpg";
 import LLDV96 from "./LLDV-96.jpeg";
 import SSDV98 from "./SSDV-98.jpg";
 import MXX98 from "./MXX-98.jpg";
+import RHJ104 from "./RHJ-104.jpg";
 
 export {
   CWP49,
@@ -393,7 +393,6 @@ export {
   ONED662,
   ONED686,
   TRP052,
-  SKYHD022,
   S2M020,
   CWP143,
   LAF75,
@@ -710,4 +709,5 @@ export {
   LLDV96,
   SSDV98,
   MXX98,
+  RHJ104,
 };

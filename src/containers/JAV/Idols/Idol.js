@@ -5,7 +5,10 @@ import { Link, useLocation, useParams } from "react-router-dom";
 import LazyLoad from "react-lazyload";
 
 import { priceCurrency } from "../../../helpers/render-price";
-import { checkBestIdol } from "../../../services/jav/common.service";
+import {
+  checkBestIdol,
+  checkVideo,
+} from "../../../services/jav/common.service";
 import {
   getEarningIdol,
   getPriceOneNight,
@@ -303,7 +306,8 @@ function Idol() {
       get(data, "points", 0),
       get(data, "styles", []),
       uncensored.length,
-      checkBestIdol(get(data, "idIdol", ""))
+      checkBestIdol(get(data, "idIdol", "")),
+      get(data, "dvds", []).filter((item) => checkVideo(item.code)).length
     );
   }, [data]);
 

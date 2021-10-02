@@ -19,7 +19,7 @@ import {
   DarkBlue,
   LightBlue,
 } from "../../../themes/colors";
-import { fadeIn } from "../../../themes/styled";
+import { center, fadeIn } from "../../../themes/styled";
 import { XXLarge, Large } from "../../../themes/font";
 
 const Container = styled.div`
@@ -86,13 +86,14 @@ const TagIdol = styled(IdolTag)`
 `;
 
 const VideoContent = styled.div`
+  ${center};
   width: 943px;
   height: 530px;
   border: solid 1px ${White};
   background: url(${RollingIcon}) center center no-repeat;
 `;
 
-function LeakedVideo() {
+function Video() {
   const { code } = useParams();
 
   const data = useMemo(() => {
@@ -130,18 +131,15 @@ function LeakedVideo() {
             )
           )}
         </StarsContainer>
-        {get(data, "content", []).map((item, index) => (
-          <VideoContent
-            key={item}
-            dangerouslySetInnerHTML={{
-              __html: item,
-            }}
-            style={{ marginTop: index > 0 ? "50px" : "30px" }}
-          />
-        ))}
+        <VideoContent>
+          <video width={"943px"} height={"530px"} controls>
+            <source src={get(data, "content", "")} type={"video/mp4"} />
+            Your browser does not support the video tag.
+          </video>
+        </VideoContent>
       </VideoContainer>
     </Container>
   );
 }
 
-export default LeakedVideo;
+export default Video;

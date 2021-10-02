@@ -1,6 +1,5 @@
 import {
   TRP052,
-  SKYHD022,
   S2M020,
   HODV20387,
   HODV20392,
@@ -195,13 +194,6 @@ const File23 = [
     code: "SKY-132",
     title: `SKY ANGEL VOL.87`,
     poster: SKY132,
-    type: "Uncensored",
-    idols: [{ idIdol: "jai104", name: "Maria Ozawa" }],
-  },
-  {
-    code: "SKYHD-022",
-    title: `SKYANGEL BLUE VOL.22`,
-    poster: SKYHD022,
     type: "Uncensored",
     idols: [{ idIdol: "jai104", name: "Maria Ozawa" }],
   },
@@ -2578,8 +2570,7 @@ const File23 = [
   {
     code: "LL-015",
     title: `SWEET COHABITATION LIFE`,
-    poster:
-      LL015,
+    poster: LL015,
     type: "Uncensored",
     idols: [{ idIdol: "jai114", name: "Nozomi Aso" }],
   },

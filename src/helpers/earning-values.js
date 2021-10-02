@@ -19,6 +19,7 @@ const MonthEarnings = {
   censoredDvds: 900000,
   uncensoredDvds: 4000000,
   best: 60000000,
+  video: 26000000,
 };
 
 const OneNightRatio = 3;

@@ -8,6 +8,7 @@ import {
   sortIdols,
   sortDvds,
   checkUncensoredIdol,
+  checkVideo,
 } from "./common.service";
 import { getEarningIdol, getBonusEarnings } from "./earnings.service";
 
@@ -197,7 +198,8 @@ const ALL_EARNING_IDOLS = ALL_IDOLS_DETAIL.map((item) => ({
     item.points,
     item.styles,
     item.dvds.filter((item) => item.type === "Uncensored").length,
-    BEST_IDOL_IDS.includes(item.idIdol)
+    BEST_IDOL_IDS.includes(item.idIdol),
+    item.dvds.filter((item) => checkVideo(item.code)).length
   ),
   bonus: getBonusEarnings(item.idIdol),
 }))

@@ -99,7 +99,7 @@ const NotFound = styled.div`
   font-style: italic;
 `;
 
-function LeakedVideos() {
+function Videos() {
   const history = useHistory();
   const location = useLocation();
   const [filterHeight, setFilterHeight] = useState(80);
@@ -233,4 +233,4 @@ function LeakedVideos() {
   );
 }
 
-export default LeakedVideos;
+export default Videos;
