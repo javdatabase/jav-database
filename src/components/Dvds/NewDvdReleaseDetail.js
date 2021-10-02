@@ -1,14 +1,20 @@
 import React, { Fragment, memo, useState, useCallback } from "react";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
-import { getIdolDetail, getIdolRank } from "../../services/jav/common.service";
+import {
+  checkVideo,
+  getIdolDetail,
+  getIdolRank,
+} from "../../services/jav/common.service";
 import DvdPoster from "./DvdPoster";
 import IdolTag from "../Idols/IdolTag";
 import IdolDetail from "../Idols/IdolDetail";
 
 import {
-  Pink,
+  Black,
   White,
+  Pink,
   Orange,
   DarkBlue,
   LightBlue,
@@ -19,6 +25,7 @@ import { center, fadeIn } from "../../themes/styled";
 import { Regular, XLarge } from "../../themes/font";
 
 const Container = styled.div`
+  position: relative;
   ${center}
   animation: ${fadeIn} 1s linear;
 `;
@@ -79,6 +86,27 @@ const TagIdol = styled(IdolTag)`
       : `linear-gradient(to right,  ${Orange}, ${Pink})`};
 `;
 
+const VideoButtonLink = styled(Link)`
+  position: absolute;
+  right: 0px;
+  top: 3px;
+  z-index: 500;
+  ${center};
+  width: 25px;
+  height: 25px;
+  border-radius: 25px;
+  background: ${Yellow};
+`;
+
+const Dot = styled.span`
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-left: 10px solid ${Black};
+  margin-left: 3px;
+`;
+
 function NewDvdReleaseDetail({ data, active }) {
   const [show, setShow] = useState(false);
   const [idol, setIdol] = useState(null);
@@ -104,6 +132,11 @@ function NewDvdReleaseDetail({ data, active }) {
     <Fragment>
       {active && (
         <Container>
+          {checkVideo(data.code) && (
+            <VideoButtonLink to={`/jav/video/${data.code}`}>
+              <Dot />
+            </VideoButtonLink>
+          )}
           <PosterDvdContainer uncensored={data.type === "Uncensored"}>
             <PosterDvd src={data.poster} />
           </PosterDvdContainer>

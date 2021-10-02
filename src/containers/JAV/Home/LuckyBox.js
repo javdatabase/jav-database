@@ -5,6 +5,7 @@ import styled from "styled-components";
 
 import {
   getDvdsRandom,
+  getVideosRandom,
   getIdolsRandom,
   getIdolRank,
   checkBestIdol,
@@ -87,9 +88,15 @@ const ButtonRight = styled.div`
 `;
 
 const WaterWheelSliderContainer = styled.div`
-  width: calc(${(props) => (props.type === "dvds" ? "21vw" : "14vw")} + 800px);
+  width: calc(
+    ${(props) =>
+        props.type === "dvds" || props.type === "videos" ? "21vw" : "14vw"} +
+      800px
+  );
   height: calc(
-    ${(props) => (props.type === "dvds" ? "14vw" : "19.25vw")} + 100px
+    ${(props) =>
+        props.type === "dvds" || props.type === "videos" ? "14vw" : "19.25vw"} +
+      100px
   );
 `;
 
@@ -135,6 +142,8 @@ function LuckyBox() {
     if (first) {
       if (type === "dvds") {
         setData(getDvdsRandom());
+      } else if (type === "videos") {
+        setData(getVideosRandom());
       } else {
         setData(getIdolsRandom());
       }
@@ -150,6 +159,8 @@ function LuckyBox() {
     (value) => {
       if (value === "dvds") {
         setData(getDvdsRandom());
+      } else if (value === "videos") {
+        setData(getVideosRandom());
       } else {
         setData(getIdolsRandom());
       }
@@ -161,6 +172,8 @@ function LuckyBox() {
   const endLoop = useCallback(() => {
     if (type === "dvds") {
       setData(getDvdsRandom());
+    } else if (type === "videos") {
+      setData(getVideosRandom());
     } else {
       setData(getIdolsRandom());
     }
@@ -172,6 +185,13 @@ function LuckyBox() {
         <ButtonLeft active={type === "dvds"} onClick={() => changeType("dvds")}>
           DVDS
         </ButtonLeft>
+        <ButtonLeft
+          style={{ left: "125px" }}
+          active={type === "videos"}
+          onClick={() => changeType("videos")}
+        >
+          VIDEOS
+        </ButtonLeft>
         <ButtonRight
           active={type === "idols"}
           onClick={() => changeType("idols")}
@@ -180,16 +200,18 @@ function LuckyBox() {
         </ButtonRight>
         <WaterWheelSlider
           highlight={highlight}
-          width={type === "dvds" ? "21vw" : "14vw"}
+          width={type === "dvds" || type === "videos" ? "21vw" : "14vw"}
           height={
-            type === "dvds" ? "calc(14vw + 40px)" : "calc(19.25vw + 40px)"
+            type === "dvds" || type === "videos"
+              ? "calc(14vw + 40px)"
+              : "calc(19.25vw + 40px)"
           }
           onSelect={changeHighlight}
           endLoop={endLoop}
           customColor={customColor}
         >
           {data.map((item, index) =>
-            type === "dvds" ? (
+            type === "dvds" || type === "videos" ? (
               <NewDvdReleaseCard
                 key={item.idDvd}
                 data={item}
@@ -213,7 +235,7 @@ function LuckyBox() {
       </WaterWheelSliderContainer>
       <DetailContainer>
         {data.map((item, index) =>
-          type === "dvds" ? (
+          type === "dvds" || type === "videos" ? (
             <NewDvdReleaseDetail
               key={item.idDvd}
               data={item}
