@@ -148,7 +148,7 @@ function sortDvds(dvds) {
   return response;
 }
 
-function checkLeakedVideo(code) {
+function checkVideo(code) {
   return !!Videos.find((item) => item.code === code);
 }
 
@@ -165,5 +165,5 @@ export {
   getDvdsRandom,
   getIdolsRandom,
   sortDvds,
-  checkLeakedVideo,
+  checkVideo,
 };

@@ -184,8 +184,8 @@ function Navbar({ show, toggleMenu }) {
               icon: ClipboardIcon,
             },
             {
-              path: "/jav/leaked-videos",
-              title: `Leaked Videos (${SIZE_VIDEOS})`,
+              path: "/jav/videos",
+              title: `Videos (${SIZE_VIDEOS})`,
               icon: OnlineVideoIcon,
             },
           ]
