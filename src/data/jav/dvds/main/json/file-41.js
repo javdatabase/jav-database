@@ -1,4 +1,4 @@
-import { MXX98, RHJ104, SSDV98 } from "../images";
+import { MXX98, RHJ104, SKY097, SSDV98 } from "../images";
 
 const File41 = [
   {
@@ -3018,6 +3018,13 @@ const File41 = [
     poster: RHJ104,
     type: "Uncensored",
     idols: [{ idIdol: "jai104", name: "Maria Ozawa" }],
+  },
+  {
+    code: "SKY-097",
+    title: `SKY ANGEL VOL.60`,
+    poster: SKY097,
+    type: "Uncensored",
+    idols: [{ idIdol: "jai030", name: "Serina Hayakawa" }],
   },
 ];
 

@@ -5,7 +5,6 @@ import PB178 from "./PB-178.jpg";
 import RDT180 from "./RDT-180.jpg";
 import SMD55 from "./SMD-55.jpg";
 import DRG21 from "./DRG-21.jpg";
-import SKYHD071 from "./SKYHD-071.jpg";
 import SKY244 from "./SKY-244.jpg";
 import BT137 from "./BT-137.jpg";
 import MCDV41 from "./MCDV-41.jpg";
@@ -17,8 +16,6 @@ import CWDV20 from "./CWDV-20.jpg";
 import MIDD142 from "./MIDD-142.jpg";
 import MIDD170 from "./MIDD-170.jpg";
 import MIID197 from "./MIID-197.jpg";
-import SKYHD002 from "./SKYHD-002.jpg";
-import SKYHD032 from "./SKYHD-032.jpg";
 import ONED268 from "./ONED-268.jpg";
 import ONED302 from "./ONED-302.jpg";
 import ONED312 from "./ONED-312.jpg";
@@ -88,7 +85,6 @@ import CT34 from "./CT-34.jpg";
 import DRC020 from "./DRC-020.jpg";
 import DRC160 from "./DRC-160.jpg";
 import PT172 from "./PT-172.jpg";
-import SKYHD078 from "./SKYHD-078.jpg";
 import HEY021 from "./HEY-021.jpg";
 import HEY046 from "./HEY-046.jpg";
 import BT141 from "./BT-141.jpg";
@@ -117,8 +113,6 @@ import HEY014 from "./HEY-014.jpg";
 import SKY160 from "./SKY-160.jpg";
 import SKY173 from "./SKY-173.jpg";
 import SKY255 from "./SKY-255.jpg";
-import SKYHD040 from "./SKYHD-040.jpg";
-import SKYHD048 from "./SKYHD-048.jpg";
 import CWP25 from "./CWP-25.jpg";
 import MXX20 from "./MXX-20.jpg";
 import SSDV05 from "./SSDV-05.jpg";
@@ -353,6 +347,7 @@ import LLDV96 from "./LLDV-96.jpeg";
 import SSDV98 from "./SSDV-98.jpg";
 import MXX98 from "./MXX-98.jpg";
 import RHJ104 from "./RHJ-104.jpg";
+import SKY097 from "./SKY-097.jpeg";
 
 export {
   CWP49,
@@ -362,7 +357,6 @@ export {
   RDT180,
   SMD55,
   DRG21,
-  SKYHD071,
   SKY244,
   BT137,
   MCDV41,
@@ -374,8 +368,6 @@ export {
   MIDD142,
   MIDD170,
   MIID197,
-  SKYHD002,
-  SKYHD032,
   ONED268,
   ONED302,
   ONED312,
@@ -445,7 +437,6 @@ export {
   DRC020,
   DRC160,
   PT172,
-  SKYHD078,
   HEY021,
   HEY046,
   BT141,
@@ -474,8 +465,6 @@ export {
   SKY160,
   SKY173,
   SKY255,
-  SKYHD040,
-  SKYHD048,
   CWP25,
   MXX20,
   SSDV05,
@@ -710,4 +699,5 @@ export {
   SSDV98,
   MXX98,
   RHJ104,
+  SKY097,
 };

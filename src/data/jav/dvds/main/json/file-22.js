@@ -3,8 +3,6 @@ import {
   MIDD142,
   MIDD170,
   MIID197,
-  SKYHD002,
-  SKYHD032,
   ONED268,
   ONED302,
   ONED312,
@@ -1856,20 +1854,6 @@ const File22 = [
     poster:
       "http://pics.dmm.co.jp/mono/movie/adult/h_172hmnf047/h_172hmnf047pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai030", name: "Serina Hayakawa" }],
-  },
-  {
-    code: "SKYHD-002",
-    title: `SKY ANGEL BLUE VOL.2`,
-    poster: SKYHD002,
-    type: "Uncensored",
-    idols: [{ idIdol: "jai030", name: "Serina Hayakawa" }],
-  },
-  {
-    code: "SKYHD-032",
-    title: `SKY ANGEL BLUE VOL.32`,
-    poster: SKYHD032,
-    type: "Uncensored",
     idols: [{ idIdol: "jai030", name: "Serina Hayakawa" }],
   },
   {
