@@ -1,4 +1,4 @@
-import { MXX98, RHJ104, SKY097, SSDV98 } from "../images";
+import { MXX98, SSDV98 } from "../images";
 
 const File41 = [
   {
@@ -3004,27 +3004,6 @@ const File41 = [
     poster: "http://pics.dmm.co.jp/mono/movie/adult/125umd754/125umd754pl.jpg",
     type: "Censored",
     idols: [{ idIdol: "jai016", name: "Kanako Iioka" }],
-  },
-  {
-    code: "REAL-764",
-    title: `I BROKE THE THREE-WEEK ABSTINENCE LIFE I HAD WITH MY HUSBAND AND WAS CRAZY WITH MY FATHER-IN-LAW'S ICHIMOTSU RIHO FUJIMORI`,
-    poster: "http://pics.dmm.co.jp/mono/movie/adult/84real764/84real764pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai057", name: "Yumi Maeda" }],
-  },
-  {
-    code: "RHJ-104",
-    title: `RED HOT JAM VOL.104`,
-    poster: RHJ104,
-    type: "Uncensored",
-    idols: [{ idIdol: "jai104", name: "Maria Ozawa" }],
-  },
-  {
-    code: "SKY-097",
-    title: `SKY ANGEL VOL.60`,
-    poster: SKY097,
-    type: "Uncensored",
-    idols: [{ idIdol: "jai030", name: "Serina Hayakawa" }],
   },
 ];
 

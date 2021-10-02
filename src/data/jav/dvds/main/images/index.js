@@ -227,10 +227,6 @@ import S2M007 from "./S2M-007.jpg";
 import SKY266 from "./SKY-266.jpg";
 import SKY236 from "./SKY-236.jpg";
 import SKY140 from "./SKY-140.jpg";
-import SKYHD137 from "./SKYHD-137.jpg";
-import SKYHD087 from "./SKYHD-087.jpg";
-import SKYHD039 from "./SKYHD-039.jpg";
-import SKYHD029 from "./SKYHD-029.png";
 import CWDV32 from "./CWDV-32.jpg";
 import CWP147 from "./CWP-147.jpeg";
 import DVPRN038 from "./DVPRN-038.jpg";
@@ -348,6 +344,7 @@ import SSDV98 from "./SSDV-98.jpg";
 import MXX98 from "./MXX-98.jpg";
 import RHJ104 from "./RHJ-104.jpg";
 import SKY097 from "./SKY-097.jpeg";
+import SHX004 from "./SHX-004.jpeg";
 
 export {
   CWP49,
@@ -579,10 +576,6 @@ export {
   SKY140,
   SKY236,
   SKY266,
-  SKYHD029,
-  SKYHD039,
-  SKYHD087,
-  SKYHD137,
   CWDV32,
   CWP147,
   DVPRN038,
@@ -700,4 +693,5 @@ export {
   MXX98,
   RHJ104,
   SKY097,
+  SHX004,
 };
