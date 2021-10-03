@@ -123,6 +123,14 @@ const File42 = [
     type: "Censored",
     idols: [{ idIdol: "jai057", name: "Yumi Maeda" }],
   },
+  {
+    code: "MILK-122",
+    title: `EAT A MAN WITH BARE INSTINCT ! NO SCRIPT OR PRODUCTION! PLEASURE CRAZY SWEATY JUICE COVERED CLIMAX SEXUAL INTERCOURSE ! ! ! MINAMI RINA`,
+    poster:
+      "http://pics.dmm.co.jp/mono/movie/adult/h_1240milk122/h_1240milk122pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai140", name: "Riona Minami" }],
+  },
 ];
 
 export default File42;
