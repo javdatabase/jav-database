@@ -61,6 +61,8 @@ function Layout() {
     const path = location.pathname;
     if (matchPath(path, { path: "/jav/home", exact: true })) {
       return "Home";
+    } else if (matchPath(path, { path: "/jav/lucky-box", exact: true })) {
+      return "Lucky Box";
     } else if (matchPath(path, { path: "/jav/best-idols", exact: true })) {
       return `${BEST_IDOL_IDS.length} Best Idols`;
     } else if (matchPath(path, { path: "/jav/ranking", exact: true })) {
@@ -88,6 +90,8 @@ function Layout() {
       return path.replace("/jav/video/", "");
     } else if (matchPath(path, { path: "/upv/home", exact: true })) {
       return "Home";
+    } else if (matchPath(path, { path: "/upv/lucky-box", exact: true })) {
+      return "Lucky Box";
     } else if (matchPath(path, { path: "/upv/stars", exact: true })) {
       return "Stars";
     } else if (matchPath(path, { path: "/upv/star/:id", exact: true })) {
