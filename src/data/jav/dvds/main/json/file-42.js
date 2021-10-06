@@ -131,6 +131,52 @@ const File42 = [
     type: "Censored",
     idols: [{ idIdol: "jai140", name: "Riona Minami" }],
   },
+  {
+    code: "USBA-035",
+    title: `APHRODISIAC BDSM PLEASURE FAINTING HELL WITH POWERFUL APHRODISIAC AND BUKKAKE APHRODISIAC TRAINING FILE13 OL 24 YEARS OLD BIG TITS , FAIR-SKINNED , STRONG MANAGER RIHO FUJIMORI`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/usba035/usba035pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai057", name: "Yumi Maeda" }],
+  },
+  {
+    code: "SSPD-166",
+    title: `TWO BEAUTIFUL GIRLS WHO WORK PART-TIME AS A GUY ● HARLEM PLAN NANAMI KAWAKAMI HIKARI NINOMIYA`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/sspd166/sspd166pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai153", name: "Hikari Ninomiya" }],
+  },
+  {
+    code: "NNPJ-473",
+    title: `I WANT TO HOLD A HIGH-SPEC GIRL H-CUP MINATO-KU GIRLS AND TOO EROTIC RESORT POOL DATE 4 SHOTS OF CARNIVOROUS CUM SHOT THAT I LIKE SEX TO DEATH`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/nnpj473/nnpj473pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai196", name: "Mina Kitano" }],
+  },
+  {
+    code: "MIRD-213",
+    title: `A DIFFERENT WORLD HAREM SOAP THAT IS SQUEEZED BY A SUCCUBUS , A BEASTMAN , AND AN ELF WITH A VAGINAL CUM SHOT`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/mird213/mird213pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai048", name: "Honoka Tsuji" }],
+  },
+  {
+    code: "LULU-098",
+    title: `WITHDRAWAL BIG COCK SON WHO BECAME A " CHILD UNCLE " WHO CAN NOT SEPARATE BREASTS I AM STILL CONTINUING SEXUAL PROCESSING WITH MY LONG TONGUE`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/lulu098/lulu098pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai048", name: "Honoka Tsuji" }],
+  },
+  {
+    code: "BF-642",
+    title: `IT FEELS SO GOOD THAT MY HIPS MOVE FREELY . GANGAN STAKEOUT PISTON COWGIRL 4 HOURS`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/bf642/bf642pl.jpg",
+    type: "Censored",
+    idols: [
+      { idIdol: "jai011", name: "Asahi Mizuno" },
+      { idIdol: "jai057", name: "Yumi Maeda" },
+      { idIdol: "jai189", name: "Saeko Matsushita" },
+    ],
+  },
 ];
 
 export default File42;
