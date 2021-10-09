@@ -121,20 +121,17 @@ const ButtonReset = styled(ButtonCopy)`
 
 function JAVVideoDataTool() {
   const [code, setCode] = useState("");
-  const [content, setContent] = useState("");
+  const [xid, setXid] = useState("");
   const [copied, setCopied] = useState(false);
   const timer = useRef();
 
   const result = useMemo(() => {
-    if (!code && !content) {
+    if (!code && !xid) {
       return "";
     }
 
-    return `{
-        code: "${code}",
-        content: "${content}",
-},`;
-  }, [code, content]);
+    return `{ code: "${code}", xid: "${xid}" },`;
+  }, [code, xid]);
 
   useEffect(() => {
     return () => {
@@ -182,9 +179,9 @@ function JAVVideoDataTool() {
           </Content>
           <Content>
             <InputCustom
-              placeholder={"Content..."}
-              value={content}
-              onChange={(e) => setContent(e.target.value.trim())}
+              placeholder={"Xid..."}
+              value={xid}
+              onChange={(e) => setXid(e.target.value.trim())}
             />
           </Content>
         </Column>
@@ -211,7 +208,7 @@ function JAVVideoDataTool() {
             type="button"
             onClick={() => {
               setCode("");
-              setContent("");
+              setXid("");
             }}
           >
             Reset

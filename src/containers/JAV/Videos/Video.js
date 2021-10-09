@@ -1,8 +1,9 @@
-import React, { useMemo } from "react";
+import React, { useState, useMemo, useEffect } from "react";
 import { get } from "lodash";
 import styled from "styled-components";
 import { Link, useParams } from "react-router-dom";
 
+import request from "../../../apis/request";
 import { getIdolRank } from "../../../services/jav/common.service";
 import { VIDEO_CONTENT } from "../../../services/jav/videos.service";
 import IdolTag from "../../../components/Idols/IdolTag";
@@ -95,10 +96,27 @@ const VideoContent = styled.div`
 
 function Video() {
   const { code } = useParams();
+  const [video, setVideo] = useState("");
 
   const data = useMemo(() => {
     return VIDEO_CONTENT(code);
   }, [code]);
+
+  useEffect(() => {
+    const form = new FormData();
+    form.append("vlxx_download", "1");
+    form.append("id", get(data, "xid", ""));
+    request
+      .post("https://vlxx.sex/ajax.php", form)
+      .then((response) => {
+        const temp = response?.data?.split('href="') || [];
+        const newTemp = temp[temp.length - 1]?.split('"')[0];
+        setVideo(newTemp || "");
+      })
+      .catch((e) => {
+        console.log(e);
+      });
+  });
 
   return (
     <Container>
@@ -132,8 +150,8 @@ function Video() {
           )}
         </StarsContainer>
         <VideoContent>
-          <video width={"943px"} height={"530px"} controls>
-            <source src={get(data, "content", "")} type={"video/mp4"} />
+          <video key={video} width={"943px"} height={"530px"} controls>
+            <source src={video} type={"video/mp4"} />
             Your browser does not support the video tag.
           </video>
         </VideoContent>
