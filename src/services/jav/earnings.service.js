@@ -5,7 +5,15 @@ import {
 } from "../../helpers/earning-values";
 
 const STAR_IDOL_ID = "";
-const SWEET_NIGHT_IDS = [];
+const SWEET_NIGHT_IDS = [
+  "jai032",
+  "jai062",
+  "jai068",
+  "jai158",
+  "jai158",
+  "jai196",
+  "jai199",
+];
 const BEST_DVD_IDS = [
   "jai001",
   "jai002",
