@@ -6,9 +6,16 @@ import {
 
 const STAR_IDOL_ID = "jai196";
 const SWEET_NIGHT_IDS = [
+  "jai001",
+  "jai001",
+  "jai001",
+  "jai001",
   "jai007",
   "jai015",
+  "jai057",
+  "jai057",
   "jai065",
+  "jai196",
   "jai196",
   "jai196",
   "jai196",
