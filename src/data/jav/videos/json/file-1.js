@@ -135,6 +135,8 @@ const File1 = [
   { code: "MEYD-286", xid: "1890-2" },
   { code: "MEYD-115", xid: "1892-2" },
   { code: "MEYD-163", xid: "1891-2" },
+  { code: "NKKD-178", xid: "1896-2" },
+  { code: "SSIS-063", xid: "1897-2" },
 ];
 
 export default File1;
