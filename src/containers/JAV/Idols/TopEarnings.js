@@ -12,20 +12,30 @@ import { useHistory, useLocation } from "react-router-dom";
 import Cookies from "js-cookie";
 import LazyLoad from "react-lazyload";
 
+import { priceCurrency } from "../../../helpers/render-price";
 import {
   ALL_EARNING_IDOLS,
   ALL_BONUS_IDOLS,
+  TOTAL_EARNINGS,
 } from "../../../services/jav/idols.service";
 import Checkbox from "../../../components/UI/Checkbox/Checkbox";
 import IdolEarning from "../../../components/Idols/IdolEarning";
 
-import { Orange, Pink, LightPurple, DarkPurple } from "../../../themes/colors";
+import {
+  White,
+  Orange,
+  Pink,
+  LightPurple,
+  DarkPurple,
+} from "../../../themes/colors";
 import { center, fadeIn } from "../../../themes/styled";
+import { XLarge } from "../../../themes/font";
 
 const FilterIdolsContainer = styled.div`
   position: relative;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   width: 100%;
   height: 80px;
   border-bottom: solid 3px ${Pink};
@@ -35,6 +45,17 @@ const FilterIdolsContainer = styled.div`
 const CheckboxGroup = styled.div`
   display: flex;
   margin-left: 30px;
+`;
+
+const Total = styled.div`
+  align-self: center;
+  color: ${White};
+  font-size: ${XLarge};
+  margin-right: 30px;
+`;
+
+const Value = styled.span`
+  color: ${Pink};
 `;
 
 const Container = styled.div`
@@ -123,6 +144,9 @@ function TopEarnings() {
             customColor={`linear-gradient(to right, ${LightPurple}, ${DarkPurple})`}
           />
         </CheckboxGroup>
+        <Total>
+          Total: <Value>${priceCurrency(TOTAL_EARNINGS)}</Value>
+        </Total>
       </FilterIdolsContainer>
       <Container ref={containerRef} onScroll={handleScroll}>
         <TopEarningsContainer>
