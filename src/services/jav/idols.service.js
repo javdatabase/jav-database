@@ -210,6 +210,11 @@ const ALL_BONUS_IDOLS = ALL_EARNING_IDOLS.filter((item) => !!item.bonus)
   .sort((a, b) => b.bonus - a.bonus)
   .map((item, index) => ({ ...item, position: index + 1 }));
 
+const TOTAL_EARNINGS = ALL_EARNING_IDOLS.reduce(
+  (acc, item) => acc + item.earnings + (item.bonus || 0),
+  0
+);
+
 export {
   SIZE_IDOLS,
   ALL_IDOLS_BY_PAGE,
@@ -219,4 +224,5 @@ export {
   IDOL_PROFILE,
   ALL_EARNING_IDOLS,
   ALL_BONUS_IDOLS,
+  TOTAL_EARNINGS,
 };
