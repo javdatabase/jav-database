@@ -667,6 +667,34 @@ const File4 = [
       },
     ],
   },
+  {
+    idIdol: "jai200",
+    avatar:
+      "https://www.japanesebeauties.net/r18/miu-shiramine/ipvr00121/miu-shiramine-2.jpg",
+    name: "Miu Shiramine",
+    other: "",
+    born: "16/02/1997",
+    height: "170 cm",
+    breast: "90 cm",
+    cup: "F-Cup",
+    waist: "60 cm",
+    hips: "94 cm",
+    styles: [{ tag: "Killer Tits" }, { tag: "Long Legs" }],
+    album: [
+      {
+        picture:
+          "https://www.japanesebeauties.net/r18/miu-shiramine/ipx00589/miu-shiramine-1.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/r18/miu-shiramine/ipx00589/miu-shiramine-9.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/r18/miu-shiramine/ipx00589/miu-shiramine-10.jpg",
+      },
+    ],
+  },
 ];
 
 export default File4;

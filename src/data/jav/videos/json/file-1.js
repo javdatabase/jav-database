@@ -141,6 +141,10 @@ const File1 = [
   { code: "SSIS-032", xid: "1901-2" },
   { code: "IPX-732", xid: "1905-2" },
   { code: "IPX-758", xid: "1908-2" },
+  { code: "IPX-652", xid: "1820-1" },
+  { code: "IPX-683", xid: "1836-1" },
+  { code: "IPX-736", xid: "1895-1" },
+  { code: "IPX-753", xid: "1909-2" },
 ];
 
 export default File1;
