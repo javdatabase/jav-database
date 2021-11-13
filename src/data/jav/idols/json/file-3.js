@@ -1992,7 +1992,7 @@ const File3 = [
     cup: "C-Cup",
     waist: "57 cm",
     hips: "84 cm",
-    styles: [{ tag: "Retired" }, { tag: "Cute" }, { tag: "Small Tits" }],
+    styles: [{ tag: "Cute" }, { tag: "Small Tits" }],
     album: [
       {
         picture:

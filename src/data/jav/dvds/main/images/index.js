@@ -345,6 +345,8 @@ import MXX98 from "./MXX-98.jpg";
 import RHJ104 from "./RHJ-104.jpg";
 import SKY097 from "./SKY-097.jpeg";
 import SHX004 from "./SHX-004.jpeg";
+import CCDV106 from "./CCDV-106.jpeg";
+import HEY210 from "./HEY-210.jpeg";
 
 export {
   CWP49,
@@ -694,4 +696,6 @@ export {
   RHJ104,
   SKY097,
   SHX004,
+  CCDV106,
+  HEY210,
 };
