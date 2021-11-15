@@ -1150,6 +1150,13 @@ const File42 = [
     type: "Censored",
     idols: [{ idIdol: "jai200", name: "Miu Shiromine" }],
   },
+  {
+    code: "MMKZ-104",
+    title: `MY SISTER'S BIG BUTT IS TOO OBSCENE AND SHE IS KILLED IN SECONDS ! ! ! MINA KITANO`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/mmkz104so/mmkz104sopl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai196", name: "Mina Kitano" }],
+  },
 ];
 
 export default File42;
