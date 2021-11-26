@@ -1325,6 +1325,20 @@ const File42 = [
     type: "Censored",
     idols: [{ idIdol: "jai016", name: "Kanako Iioka" }],
   },
+  {
+    code: "29ID-033",
+    title: `HORSE RIDING NASTY RIDER COSPLAYER HONOKA`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/5529id033/5529id033pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai048", name: "Honoka Tsuji" }],
+  },
+  {
+    code: "SW-814",
+    title: `" THANK YOU FOR ADDING THE OPTION ! " WHEN I ASKED FOR A HOUSEKEEPER , WAS IT A NAUGHTY HOUSEKEEPING SERVICE ? ! ! WHEN I ASKED FOR A HOUSEKEEPING SERVICE THAT I HAD BEEN INTERESTED IN FOR A LONG TIME BECAUSE CLEANING IS TROUBLESOME , A SUPER CUTE GIRL CAME OVER ! MOREOVER, YOU CAN SEE THE PANCHIRA ! BUT AFTER 5 MINUTES , IF YOU WANT TO SEE MORE , LEAVE YOUR PANTS ...`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/1sw814/1sw814pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai007", name: "Mao Hamasaki" }],
+  },
 ];
 
 export default File42;
