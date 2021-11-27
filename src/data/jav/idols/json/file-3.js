@@ -1169,6 +1169,7 @@ const File3 = [
     waist: "58 cm",
     hips: "88 cm",
     styles: [
+      { tag: "Retired" },
       { tag: "6 Stars JAV" },
       { tag: "Cute" },
       { tag: "Beautiful Breasts" },
@@ -2230,7 +2231,7 @@ const File3 = [
     cup: "D-Cup",
     waist: "58 cm",
     hips: "83 cm",
-    styles: [{ tag: "Slender" }],
+    styles: [{ tag: "Retired" }, { tag: "Slender" }],
     album: [
       {
         picture: mana_minami.mana_minami_2,
@@ -2383,7 +2384,7 @@ const File3 = [
     cup: "J-Cup",
     waist: "57 cm",
     hips: "86 cm",
-    styles: [{ tag: "Killer Tits" }],
+    styles: [{ tag: "Retired" }, { tag: "Killer Tits" }],
     album: [
       {
         picture: nozomi_takei.nozomi_takei_6,
@@ -2416,7 +2417,12 @@ const File3 = [
     cup: "F-Cup",
     waist: "60 cm",
     hips: "90 cm",
-    styles: [{ tag: "Cute" }, { tag: "Beautiful Breasts" }, { tag: "Slender" }],
+    styles: [
+      { tag: "Retired" },
+      { tag: "Cute" },
+      { tag: "Beautiful Breasts" },
+      { tag: "Slender" },
+    ],
     album: [
       {
         picture: mirei_imada.mirei_imada_1,
@@ -2435,7 +2441,12 @@ const File3 = [
     cup: "F-Cup",
     waist: "60 cm",
     hips: "89 cm",
-    styles: [{ tag: "Cute" }, { tag: "Beautiful Breasts" }, { tag: "Slender" }],
+    styles: [
+      { tag: "Retired" },
+      { tag: "Cute" },
+      { tag: "Beautiful Breasts" },
+      { tag: "Slender" },
+    ],
     album: [
       {
         picture:
@@ -2619,7 +2630,7 @@ const File3 = [
     cup: "J-Cup",
     waist: "70 cm",
     hips: "108 cm",
-    styles: [{ tag: "Killer Tits" }],
+    styles: [{ tag: "Retired" }, { tag: "Killer Tits" }],
     album: [
       {
         picture:
@@ -2926,7 +2937,7 @@ const File3 = [
     cup: "H-Cup",
     waist: "62 cm",
     hips: "88 cm",
-    styles: [{ tag: "Killer Tits" }, { tag: "Long Legs" }],
+    styles: [{ tag: "Retired" }, { tag: "Killer Tits" }, { tag: "Long Legs" }],
     album: [
       {
         picture: haru_kawamura.haru_kawamura_2,
