@@ -34,6 +34,14 @@ const File1 = [
     type: "Censored",
     idols: [{ idIdol: "jai000", name: "Miyu Sakuraka" }],
   },
+  {
+    code: "NAPK-007",
+    title: `NAMPACO NO.07 A BEAUTIFUL WOMAN WHO CAN UNDERSTAND EVEN IF SHE IS MASKED AND CAN BE IDENTIFIED EVEN FROM THE TOP OF HER CLOTHES`,
+    poster:
+      "http://pics.dmm.co.jp/mono/movie/adult/h_491napk007/h_491napk007pl.jpg",
+    type: "Censored",
+    idols: [],
+  },
 ];
 
 export default File1;

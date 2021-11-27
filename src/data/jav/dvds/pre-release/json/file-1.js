@@ -254,6 +254,13 @@ const File1 = [
     idols: [{ idIdol: "jai016", name: "Kanako Iioka" }],
   },
   {
+    code: "JUFE-349",
+    title: `THE CURVACEOUS BEAUTY OF A WET G-CUP BODY ! ! ! FORMER LOCAL STATION ANNOUNCER YUURI NAO S-SHAPED LINE CUM 3 PRODUCTION`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/jufe349/jufe349pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai201", name: "Nao Yuri" }],
+  },
+  {
     code: "JUFE-355",
     title: `THE ULTIMATE SUBJECTIVE JOI KAHO IMAI WHERE A BROWN SLUT IS DOMINATED BY EJACULATION FROM AN ABSOLUTE TOP`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/jufe355/jufe355pl.jpg",
@@ -303,6 +310,13 @@ const File1 = [
     poster: "http://pics.dmm.co.jp/mono/movie/adult/midv016/midv016pl.jpg",
     type: "Censored",
     idols: [{ idIdol: "jai166", name: "Rikka Ono" }],
+  },
+  {
+    code: "FSDSS-341",
+    title: `" THE RUMOR THAT THE NURSE ALSO MANAGES EJACULATION WAS TRUE ... " I CAN'T EXPERIENCE IT IN A NORMAL HOSPITALIZATION . A SPECIAL PRIVATE ROOM IN A CERTAIN HOSPITAL`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/1fsdss341/1fsdss341pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai202", name: "Kaname Momojiri" }],
   },
 ];
 

@@ -7,6 +7,7 @@ import * as rin_sakita from "../images/rin-sakita";
 import * as rin_natsuki from "../images/rin-natsuki";
 import * as mina_kitano from "../images/mina-kitano";
 import * as wan_horikita from "../images/wan-horikita";
+import * as nao_yuri from "../images/nao-yuri";
 
 const File4 = [
   {
@@ -692,6 +693,76 @@ const File4 = [
       {
         picture:
           "https://www.japanesebeauties.net/r18/miu-shiramine/ipx00589/miu-shiramine-10.jpg",
+      },
+    ],
+  },
+  {
+    idIdol: "jai201",
+    avatar: nao_yuri.nao_yuri_1,
+    name: "Nao Yuri",
+    other: "",
+    born: "29/06/1995",
+    height: "156 cm",
+    breast: "91 cm",
+    cup: "G-Cup",
+    waist: "60 cm",
+    hips: "89 cm",
+    styles: [{ tag: "Killer Tits" }],
+    album: [
+      {
+        picture: nao_yuri.nao_yuri_2,
+      },
+      {
+        picture: nao_yuri.nao_yuri_3,
+      },
+      {
+        picture: nao_yuri.nao_yuri_4,
+      },
+      {
+        picture: nao_yuri.nao_yuri_5,
+      },
+      {
+        picture: nao_yuri.nao_yuri_6,
+      },
+      {
+        picture: nao_yuri.nao_yuri_7,
+      },
+      {
+        picture: nao_yuri.nao_yuri_8,
+      },
+      {
+        picture: nao_yuri.nao_yuri_9,
+      },
+      {
+        picture: nao_yuri.nao_yuri_10,
+      },
+      {
+        picture: nao_yuri.nao_yuri_11,
+      },
+    ],
+  },
+  {
+    idIdol: "jai202",
+    avatar:
+      "https://www.japanesebeauties.net/r18/kaname-momojiri/1fsdss00043/kaname-momojiri-5.jpg",
+    name: "Kaname Momojiri",
+    other: "",
+    born: "08/08/2000",
+    height: "152 cm",
+    breast: "90 cm",
+    cup: "G-Cup",
+    waist: "56 cm",
+    hips: "86 cm",
+    styles: [
+      { tag: "Cute" },
+      { tag: "Killer Tits" },
+      { tag: "Slender" },
+      { tag: "Former Gravure Model" },
+    ],
+    album: [
+      {
+        picture:
+          "https://www.japanesebeauties.net/r18/kaname-momojiri/1fsdss00120/kaname-momojiri-9.jpg",
       },
     ],
   },
