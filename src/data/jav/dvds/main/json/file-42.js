@@ -1736,6 +1736,22 @@ const File42 = [
     type: "Censored",
     idols: [{ idIdol: "jai202", name: "Kaname Momojiri" }],
   },
+  {
+    code: "NACR-486",
+    title: `BEHIND THE SCENES OF CELEBRITY LIFE MIO KIMISHIMA KANAKO IIOKA`,
+    poster:
+      "http://pics.dmm.co.jp/mono/movie/adult/h_237nacr486/h_237nacr486pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai016", name: "Kanako Iioka" }],
+  },
+  {
+    code: "NACR-488",
+    title: `NENE TANAKA FOR 3 DAYS TOSSED BY HER COUSIN WHO IS TOO ROUGH FOR A BIG PIE`,
+    poster:
+      "http://pics.dmm.co.jp/mono/movie/adult/h_237nacr488/h_237nacr488pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai185", name: "Nene Tanaka" }],
+  },
 ];
 
 export default File42;
