@@ -905,14 +905,14 @@ const File42 = [
   {
     code: "STARS-436",
     title: `UNEQUALED BUSTY SISTER ( MARRIED WOMAN ) IN THE OPPOSITE ROOM AND PRACTICING COWGIRL EARNESTLY KONOMI YOSHINAGA`,
-    poster: "http://img63.pixhost.to/images/57/245130261_1648134l.jpg",
+    poster: "https://img63.pixhost.to/images/57/245130261_1648134l.jpg",
     type: "Censored",
     idols: [{ idIdol: "jai175", name: "Konomi Yoshinaga" }],
   },
   {
     code: "STARS-464",
     title: `CHANGE YOUR DESTINY AT THE CLIMAX! EVEN THOUGH I MADE A TIME LEAP WHEN I WAS A STUDENT TO CONFESS TO MY BELOVED BOYFRIEND , I TEND TO HAVE SEX WITH HIS CLASSMATES . IORI FURUKAWA`,
-    poster: "http://img63.pixhost.to/images/57/245130264_1648140l.jpg",
+    poster: "https://img63.pixhost.to/images/57/245130264_1648140l.jpg",
     type: "Censored",
     idols: [{ idIdol: "jai059", name: "Iori Kogawa" }],
   },
@@ -1409,7 +1409,7 @@ const File42 = [
   {
     code: "STARS-472",
     title: `REAL SPERM LADDER DRINKING SPECIAL ! AMATEUR MALE CUM SWALLOWING CLOSE-UP DOCUMENT ! ! ! MANA SAKURA`,
-    poster: "http://www.javlibrary.com/img/noimagepl.gif", // TODO: Change image error
+    poster: "https://img63.pixhost.to/images/57/245130274_1648147l.jpg",
     type: "Censored",
     idols: [{ idIdol: "jai139", name: "Mana Sakura" }],
   },
@@ -1751,6 +1751,97 @@ const File42 = [
       "http://pics.dmm.co.jp/mono/movie/adult/h_237nacr488/h_237nacr488pl.jpg",
     type: "Censored",
     idols: [{ idIdol: "jai185", name: "Nene Tanaka" }],
+  },
+  {
+    code: "WAAA-123",
+    title: `CREAMPIE ADDICTION PUBLIC FLIGHT WOMAN WHO CAN QUEUE A THICK FATHER'S PURSUIT SEEDING PRESS 20 BARRAGE GANGBANG YUME KANA`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/waaa123/waaa123pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai143", name: "Kana Yume" }],
+  },
+  {
+    code: "WAAA-124",
+    title: `I HATE STICKY BOSS'S SEXUAL FEELING BOOBS HARASSMENT WAS A STRIKE ... I WAS CHARGED WITH PREMATURE EJACULATION IKUIKU SENSITIVE M MILK WOMAN AND RUBBED AND VAGINAL CUM SHOT JULIA`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/waaa124/waaa124pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai041", name: "Julia" }],
+  },
+  {
+    code: "SHKD-977",
+    title: `MY FAVORITE SISTER WAS MESSED UP BY MY CLASSMATES WHO TEASED ME ... ( CRYING ) I COULD ONLY PRETEND I DIDN'T SEE IT`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/shkd977/shkd977pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai153", name: "Hikari Ninomiya" }],
+  },
+  {
+    code: "SHKD-979",
+    title: `THE FEMALE MANAGER OF THE SOCCER CLUB IS FORCED TO SEXUALLY TREAT HER ADVISOR TEACHER EVERY DAY`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/shkd979/shkd979pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai197", name: "Wan Horikita" }],
+  },
+  {
+    code: "MILK-129",
+    title: `RIONA MINAMI 10TH ANNIVERSARY WORK - THE TRAJECTORY OF WALKING WITH FANS - MAY EVERYONE THANK YOU FOR 10 YEARS`,
+    poster:
+      "http://pics.dmm.co.jp/mono/movie/adult/h_1240milk129/h_1240milk129pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai140", name: "Riona Minami" }],
+  },
+  {
+    code: "HODV-21635",
+    title: `VOYEUR MONITORING A CELEBRITY WIFE WHO BECAME A MESS AFTER SEEING A HANDSOME ESTHETICIAN'S BIG ERECTION IN A CLOSED ROOM`,
+    poster:
+      "http://pics.dmm.co.jp/mono/movie/adult/41hodv21635/41hodv21635pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai048", name: "Honoka Tsuji" }],
+  },
+  {
+    code: "HODV-21636",
+    title: `HMP HEISEI GODDESS LEGEND 2`,
+    poster:
+      "http://pics.dmm.co.jp/mono/movie/adult/41hodv21636/41hodv21636pl.jpg",
+    type: "Censored",
+    idols: [
+      { idIdol: "jai001", name: "Yui Hatano" },
+      { idIdol: "jai021", name: "Aki Sasaki" },
+      { idIdol: "jai039", name: "Kokomi Naruse" },
+    ],
+  },
+  {
+    code: "STARS-468",
+    title: `KIMESEKU SHARED ROOM NTR I HATE THE WORST AND THE WORST UNEQUALED EX-BOYFRIEND ... I WAS GIVEN AN APHRODISIAC ... ××× . HONJO SUZU`,
+    poster: "https://img63.pixhost.to/images/57/245130283_1648144l.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai133", name: "Suzu Honjo" }],
+  },
+  {
+    code: "XVSR-625",
+    title: `I LIKE BOTH AND CAN'T CHOOSE ! TWO TOO CUTE SPEAR ROLLING SEXUAL ACTIVITY COMPETING FOR MY CHEEKS ! ! ! HIKARU KONNO & YUI HATANO`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/xvsr625so/xvsr625sopl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai001", name: "Yui Hatano" }],
+  },
+  {
+    code: "XVSR-626",
+    title: `IN PRIVATE , YUI HATANO IS ADDICTED !`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/xvsr626so/xvsr626sopl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai001", name: "Yui Hatano" }],
+  },
+  {
+    code: "JUFE-349",
+    title: `THE CURVACEOUS BEAUTY OF A WET G-CUP BODY ! ! ! FORMER LOCAL STATION ANNOUNCER YUURI NAO S-SHAPED LINE CUM 3 PRODUCTION`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/jufe349/jufe349pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai201", name: "Nao Yuri" }],
+  },
+  {
+    code: "KTB-056",
+    title: `BUKKAKE ! OL SUIT CLUB 23 SISTER GAL KAHO'S TEMPTATION CHIKUPOCHI PANTY LINE ! KAHO IMAI`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/ktb056/ktb056pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai179", name: "Kaho Imai" }],
   },
 ];
 
