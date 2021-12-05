@@ -16,6 +16,13 @@ const File1 = [
     idols: [{ idIdol: "jai026", name: "Ayaka Tomoda" }],
   },
   {
+    code: "IPX-770",
+    title: `HUMILIATION RE X PU WHO IS SQUID MANY TIMES BY THE BIG COCK OF A BOSS WHO FEELS UNCOMFORTABLE TO DEATH`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/ipx770/ipx770pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai203", name: "Mai Kanami" }],
+  },
+  {
     code: "IPX-771",
     title: `MY FAVORITE FIANCEE'S BROTHER WAS MIU SHIRAMINE , A STICKY STALKER WHO USED TO COMMIT ME A LONG TIME AGO`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/ipx771/ipx771pl.jpg",
