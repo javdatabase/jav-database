@@ -8,6 +8,8 @@ import * as rin_natsuki from "../images/rin-natsuki";
 import * as mina_kitano from "../images/mina-kitano";
 import * as wan_horikita from "../images/wan-horikita";
 import * as nao_yuri from "../images/nao-yuri";
+import * as kaname_momojiri from "../images/kaname_momojiri";
+import * as mai_kanami from "../images/mai_kanami";
 
 const File4 = [
   {
@@ -743,8 +745,7 @@ const File4 = [
   },
   {
     idIdol: "jai202",
-    avatar:
-      "https://www.japanesebeauties.net/r18/kaname-momojiri/1fsdss00043/kaname-momojiri-5.jpg",
+    avatar: kaname_momojiri.kaname_momojiri_5,
     name: "Kaname Momojiri",
     other: "",
     born: "08/08/2000",
@@ -761,8 +762,79 @@ const File4 = [
     ],
     album: [
       {
-        picture:
-          "https://www.japanesebeauties.net/r18/kaname-momojiri/1fsdss00120/kaname-momojiri-9.jpg",
+        picture: kaname_momojiri.kaname_momojiri_2,
+      },
+      {
+        picture: kaname_momojiri.kaname_momojiri_3,
+      },
+      {
+        picture: kaname_momojiri.kaname_momojiri_4,
+      },
+      {
+        picture: kaname_momojiri.kaname_momojiri_1,
+      },
+      {
+        picture: kaname_momojiri.kaname_momojiri_6,
+      },
+      {
+        picture: kaname_momojiri.kaname_momojiri_7,
+      },
+      {
+        picture: kaname_momojiri.kaname_momojiri_8,
+      },
+      {
+        picture: kaname_momojiri.kaname_momojiri_9,
+      },
+      {
+        picture: kaname_momojiri.kaname_momojiri_10,
+      },
+      {
+        picture: kaname_momojiri.kaname_momojiri_11,
+      },
+    ],
+  },
+  {
+    idIdol: "jai203",
+    avatar: mai_kanami.mai_kanami_5,
+    name: "Mai Kanami",
+    other: "",
+    born: "15/05/1997",
+    height: "171 cm",
+    breast: "88 cm",
+    cup: "D-Cup",
+    waist: "62 cm",
+    hips: "93 cm",
+    styles: [{ tag: "Beautiful Breasts" }, { tag: "Long Legs" }],
+    album: [
+      {
+        picture: mai_kanami.mai_kanami_2,
+      },
+      {
+        picture: mai_kanami.mai_kanami_3,
+      },
+      {
+        picture: mai_kanami.mai_kanami_1,
+      },
+      {
+        picture: mai_kanami.mai_kanami_4,
+      },
+      {
+        picture: mai_kanami.mai_kanami_6,
+      },
+      {
+        picture: mai_kanami.mai_kanami_7,
+      },
+      {
+        picture: mai_kanami.mai_kanami_8,
+      },
+      {
+        picture: mai_kanami.mai_kanami_9,
+      },
+      {
+        picture: mai_kanami.mai_kanami_10,
+      },
+      {
+        picture: mai_kanami.mai_kanami_11,
       },
     ],
   },
