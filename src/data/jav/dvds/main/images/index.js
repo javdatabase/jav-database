@@ -347,6 +347,7 @@ import SKY097 from "./SKY-097.jpeg";
 import SHX004 from "./SHX-004.jpeg";
 import CCDV106 from "./CCDV-106.jpeg";
 import HEY210 from "./HEY-210.jpeg";
+import DSAM175 from "./DSAM-175.jpg";
 
 export {
   CWP49,
@@ -698,4 +699,5 @@ export {
   SHX004,
   CCDV106,
   HEY210,
+  DSAM175,
 };
