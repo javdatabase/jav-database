@@ -42,6 +42,13 @@ const File1 = [
     idols: [{ idIdol: "jai000", name: "Miyu Sakuraka" }],
   },
   {
+    code: "XRLE-024",
+    title: `TATTOOED GAL BITCH GIRLS ○ RAW BURI BURI MA ○ SEMEN IS PUT OUT UNTIL YOU GET TIRED OF THIS AND IT BECOMES A MEAT URINAL MIYU SAKURAKA`,
+    poster: "http://pics.dmm.co.jp/mono/movie/adult/xrle024so/xrle024sopl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai000", name: "Miyu Sakuraka" }],
+  },
+  {
     code: "NAPK-007",
     title: `NAMPACO NO.07 A BEAUTIFUL WOMAN WHO CAN UNDERSTAND EVEN IF SHE IS MASKED AND CAN BE IDENTIFIED EVEN FROM THE TOP OF HER CLOTHES`,
     poster:
