@@ -2237,7 +2237,10 @@ const File36 = [
     title: `STREET CORNER AMATEUR PICK-UP ! VOL.69 TOKYO 23 WARD WOMEN 3`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/118mgt094/118mgt094pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai179", name: "Kaho Imai" }],
+    idols: [
+      { idIdol: "jai179", name: "Kaho Imai" },
+      { idIdol: "jai206", name: "Reona Kirishima" },
+    ],
   },
   {
     code: "FLAV-231",

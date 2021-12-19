@@ -10,6 +10,7 @@ import * as wan_horikita from "../images/wan-horikita";
 import * as nao_yuri from "../images/nao-yuri";
 import * as kaname_momojiri from "../images/kaname_momojiri";
 import * as mai_kanami from "../images/mai_kanami";
+import * as karen_yuzuriha from "../images/karen-yuzuriha";
 
 const File4 = [
   {
@@ -835,6 +836,119 @@ const File4 = [
       },
       {
         picture: mai_kanami.mai_kanami_11,
+      },
+    ],
+  },
+  {
+    idIdol: "jai204",
+    avatar:
+      "https://japanesebeauties.net/japanese/aika-yamagishi/5/aika-yamagishi-9.jpg",
+    name: "Aika Yamagishi",
+    other: "",
+    born: "30/11/1992",
+    height: "160 cm",
+    breast: "82 cm",
+    cup: "C-Cup",
+    waist: "59 cm",
+    hips: "81 cm",
+    styles: [{ tag: "Cute" }, { tag: "Small Tits" }],
+    album: [
+      {
+        picture:
+          "https://japanesebeauties.net/japanese/aika-yamagishi/6/aika-yamagishi-6.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.net/japanese/aika-yamagishi/10/aika-yamagishi-12.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.net/japanese/aika-yamagishi/10/aika-yamagishi-2.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.net/japanese/aika-yamagishi/4/aika-yamagishi-2.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.net/japanese/aika-yamagishi/3/aika-yamagishi-4.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.net/japanese/aika-yamagishi/8/aika-yamagishi-9.jpg",
+      },
+    ],
+  },
+  {
+    idIdol: "jai205",
+    avatar: karen_yuzuriha.karen_yuzuriha_10,
+    name: "Karen Yuzuriha",
+    other: "",
+    born: "28/03/2001",
+    height: "148 cm",
+    breast: "96 cm",
+    cup: "H-Cup",
+    waist: "58 cm",
+    hips: "85 cm",
+    styles: [{ tag: "Killer Tits" }, { tag: "Slender" }, { tag: "Teens" }],
+    album: [
+      {
+        picture: karen_yuzuriha.karen_yuzuriha_2,
+      },
+      {
+        picture: karen_yuzuriha.karen_yuzuriha_3,
+      },
+      {
+        picture: karen_yuzuriha.karen_yuzuriha_4,
+      },
+      {
+        picture: karen_yuzuriha.karen_yuzuriha_5,
+      },
+      {
+        picture: karen_yuzuriha.karen_yuzuriha_6,
+      },
+      {
+        picture: karen_yuzuriha.karen_yuzuriha_7,
+      },
+      {
+        picture: karen_yuzuriha.karen_yuzuriha_8,
+      },
+      {
+        picture: karen_yuzuriha.karen_yuzuriha_9,
+      },
+      {
+        picture: karen_yuzuriha.karen_yuzuriha_1,
+      },
+      {
+        picture: karen_yuzuriha.karen_yuzuriha_11,
+      },
+    ],
+  },
+  {
+    idIdol: "jai206",
+    avatar:
+      "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/48000/48548/large/wapdb-reona-kirishima-pornostar-asiatique.warashi-asian-pornstars.fr-48548-001.jpg",
+    name: "Reona Kirishima",
+    other: "Karen Ishida",
+    born: "10/06/1996",
+    height: "151 cm",
+    breast: "84 cm",
+    cup: "D-Cup",
+    waist: "56 cm",
+    hips: "85 cm",
+    styles: [{ tag: "Beautiful Breasts" }, { tag: "Slender" }],
+    album: [
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/48000/48547/large/wapdb-reona-kirishima-pornostar-asiatique.warashi-asian-pornstars.fr-48547-004.jpg",
+      },
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/48000/48545/large/wapdb-reona-kirishima-pornostar-asiatique.warashi-asian-pornstars.fr-48545-001.jpg",
+      },
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/48000/48549/large/wapdb-reona-kirishima-pornostar-asiatique.warashi-asian-pornstars.fr-48549-001.jpg",
       },
     ],
   },

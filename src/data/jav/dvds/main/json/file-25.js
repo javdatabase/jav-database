@@ -176,7 +176,10 @@ const File25 = [
     title: `BEAUTY VENUS 5`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/ipx219/ipx219pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai073", name: "Minami Aizawa" }],
+    idols: [
+      { idIdol: "jai073", name: "Minami Aizawa" },
+      { idIdol: "jai204", name: "Aika Yamagishi" },
+    ],
   },
   {
     code: "AVOP-201",
