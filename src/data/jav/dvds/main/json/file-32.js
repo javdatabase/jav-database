@@ -1302,7 +1302,10 @@ const File32 = [
     title: `GOD IKI AMATEUR GACHINANPA HIDDEN SPEAR MAN SURVEY 1`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/118dnw053/118dnw053pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai148", name: "Nozomi Arimura" }],
+    idols: [
+      { idIdol: "jai148", name: "Nozomi Arimura" },
+      { idIdol: "jai206", name: "Reona Kirishima" },
+    ],
   },
   {
     code: "MMKZ-067",
