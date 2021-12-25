@@ -1356,7 +1356,7 @@ const File42 = [
   {
     code: "PPT-118",
     title: `AIRI SUZUMURA 8 HOURS BEST PRESTIGE PREMIUM TREASURE VOL. 13 A PERMANENT PRESERVATION BOARD THAT TRACES THE TRAJECTORY OF " AIRI SUZUMURA " WITH ALL 6 WORKS + UNRELEASED VIDEO ! ! !`,
-    poster: "http://img64.pixhost.to/images/3/247048159_1649745l.jpg",
+    poster: "https://img64.pixhost.to/images/3/247048159_1649745l.jpg",
     type: "Censored",
     idols: [{ idIdol: "jai113", name: "Airi Suzumura" }],
   },
