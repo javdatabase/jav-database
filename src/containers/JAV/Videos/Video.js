@@ -1,4 +1,4 @@
-import React, { useState, useMemo, useEffect } from "react";
+import React, { useState, useMemo, useCallback, useEffect } from "react";
 import { get } from "lodash";
 import styled from "styled-components";
 import { Link, useParams } from "react-router-dom";
@@ -102,20 +102,30 @@ function Video() {
     return VIDEO_CONTENT(code);
   }, [code]);
 
+  const getVideo = useCallback(
+    (retry) => {
+      if (retry <= 3) {
+        const form = new FormData();
+        form.append("vlxx_download", "1");
+        form.append("id", `${get(data, "xid", "")}-${retry}`);
+        request
+          .post("https://vlxx.sex/ajax.php", form)
+          .then((response) => {
+            const temp = response?.data?.split('href="') || [];
+            const newTemp = temp[temp.length - 1]?.split('"')[0];
+            setVideo(newTemp || "");
+          })
+          .catch((e) => {
+            getVideo(retry + 1);
+            console.log(e);
+          });
+      }
+    },
+    [data]
+  );
+
   useEffect(() => {
-    const form = new FormData();
-    form.append("vlxx_download", "1");
-    form.append("id", get(data, "xid", ""));
-    request
-      .post("https://vlxx.sex/ajax.php", form)
-      .then((response) => {
-        const temp = response?.data?.split('href="') || [];
-        const newTemp = temp[temp.length - 1]?.split('"')[0];
-        setVideo(newTemp || "");
-      })
-      .catch((e) => {
-        console.log(e);
-      });
+    getVideo(1);
   });
 
   return (
