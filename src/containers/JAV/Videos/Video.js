@@ -126,7 +126,7 @@ function Video() {
 
   useEffect(() => {
     getVideo(1);
-  });
+  }, [getVideo]);
 
   return (
     <Container>

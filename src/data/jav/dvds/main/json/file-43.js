@@ -252,6 +252,41 @@ const File43 = [
     type: "Censored",
     idols: [{ idIdol: "jai176", name: "Miyabi Midorikawa" }],
   },
+  {
+    code: "NATR-672",
+    title: `MARUMARU ! RIN ASUKA`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/natr672so/natr672sopl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai102", name: "Rin Asuka" }],
+  },
+  {
+    code: "HUNTB-166",
+    title: `" NO ... I'M GONNA GET CAUGHT ! " THE APPEARANCE OF MY SISTER WHO IS TELEWORKING AT HOME IS TOO EROTIC ! THE TOP IS A SUIT AND THE BOTTOM IS UNDERWEAR! IF I CONTINUE TO MISCHIEF MY SISTER WHO CAN'T MAKE A VOICE AT WORK ...`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/huntb166/huntb166pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai146", name: "Harua Narumiya" }],
+  },
+  {
+    code: "HUNTB-168",
+    title: `INSTEAD OF DOING HOUSEWORK , YOU CAN MASSAGE YOUR SISTER'S BOOBS THAT ARE TOO BIG FOR 1 MINUTE ! I LIVE WITH MY SUPER-ZUBORA SISTER , BUT I DO MOST OF THE HOUSE WORK ! HOWEVER…`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/huntb168/huntb168pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai185", name: "Nene Tanaka" }],
+  },
+  {
+    code: "HUNTB-174",
+    title: `" I'LL KEEP IT A SECRET FROM YESTERDAY ... DO YOU WANT TO DO IT AGAIN ? " A BUSTY BEAUTY WHO SHOULD NEVER TOUCH ME NEXT TO ME WHEN I WAKE UP IN THE MORNING ( MY BEST FRIEND'S GIRLFRIEND , BROTHER-IN-LAW , COMPANY SENIOR , ETC. )`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/huntb174/huntb174pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai048", name: "Honoka Tsuji" }],
+  },
+  {
+    code: "AVKH-191",
+    title: `I'M SORRY YOU BIG PIE WIFE LIKES SEX . I'M GOING TO MAKE YOU SQUID WITH A MARRIED WOMAN TECH THAT I HAVEN'T EVEN DONE TO MY HUSBAND !`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/avkh0191/avkh0191pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai048", name: "Honoka Tsuji" }],
+  },
 ];
 
 export default File43;
