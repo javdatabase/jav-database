@@ -6,6 +6,13 @@ import {
 
 const STAR_IDOL_ID = "jai158";
 const SWEET_NIGHT_IDS = [
+  "jai001",
+  "jai002",
+  "jai016",
+  "jai057",
+  "jai141",
+  "jai153",
+  "jai153",
   "jai158",
   "jai158",
   "jai158",
@@ -18,12 +25,51 @@ const SWEET_NIGHT_IDS = [
   "jai158",
   "jai158",
   "jai158",
+  "jai196",
+  "jai201",
 ];
-const BEST_DVD_IDS = ["jai048", "jai102", "jai146"];
-const BEST_IDOL_IDS = ["jai048", "jai102", "jai146"];
-const TOP_POINT_GROWTH_IDS = ["jai048"];
+const BEST_DVD_IDS = [
+  "jai001",
+  "jai002",
+  "jai016",
+  "jai048",
+  "jai057",
+  "jai102",
+  "jai141",
+  "jai146",
+  "jai153",
+  "jai196",
+  "jai201",
+];
+const BEST_IDOL_IDS = [
+  "jai001",
+  "jai002",
+  "jai016",
+  "jai048",
+  "jai057",
+  "jai102",
+  "jai141",
+  "jai146",
+  "jai153",
+  "jai196",
+  "jai201",
+];
+const TOP_POINT_GROWTH_IDS = ["jai048", "jai158"];
 const TOP_IDOL_IDS = [];
-const HAS_DVD_IDS = ["jai048", "jai102", "jai146", "jai185"];
+const HAS_DVD_IDS = [
+  "jai001",
+  "jai002",
+  "jai016",
+  "jai048",
+  "jai057",
+  "jai102",
+  "jai141",
+  "jai146",
+  "jai153",
+  "jai185",
+  "jai196",
+  "jai201",
+];
 const NEWBIE_IDS = [];
 
 function getEarningIdol(rank, points, styles, uncensored, best, video) {
