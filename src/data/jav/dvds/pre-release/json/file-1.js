@@ -28,16 +28,6 @@ const File1 = [
     idols: [{ idIdol: "jai171", name: "Aka Asuka" }],
   },
   {
-    code: "GVH-338",
-    title: `W MA ○ KO DEVICE BONDAGE IRON RESTRAINT MA ○ KO TORTURE YUI HATANO / HIBIKI OTSUKI`,
-    poster: "https://pics.dmm.co.jp/mono/movie/adult/gvh338so/gvh338sopl.jpg",
-    type: "Censored",
-    idols: [
-      { idIdol: "jai001", name: "Yui Hatano" },
-      { idIdol: "jai002", name: "Hibiki Otsuki" },
-    ],
-  },
-  {
     code: "JUL-826",
     title: `AFFAIR TRIP NAMED BUSINESS TRIP NAO JINGUJI`,
     poster: "https://pics.dmm.co.jp/mono/movie/adult/jul826/jul826pl.jpg",
@@ -57,20 +47,6 @@ const File1 = [
     poster: "https://pics.dmm.co.jp/mono/movie/adult/jul834/jul834pl.jpg",
     type: "Censored",
     idols: [{ idIdol: "jai016", name: "Kanako Iioka" }],
-  },
-  {
-    code: "MIDV-023",
-    title: `APHRODISIAC PICKLED CONFINEMENT RESTRAINT SQUIRTING ACME FOR MY BELOVED SISTER ... IMMEDIATELY ACCEPTING THE EXTREME PISTON OF AN UNEQUALED FATHER SHOKO TAKAHASHI`,
-    poster: "https://pics.dmm.co.jp/mono/movie/adult/midv023/midv023pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai141", name: "Shoko Takahashi" }],
-  },
-  {
-    code: "MIDV-028",
-    title: `VULGAR ANAL DEVELOPMENT OF BEAUTIFUL FEMALE BOSS MESUIKI M MAN TRAINING SUITE ROOM NAO JINGUJI`,
-    poster: "https://pics.dmm.co.jp/mono/movie/adult/midv028/midv028pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai158", name: "Nao Jinguji" }],
   },
   {
     code: "FSDSS-348",
@@ -101,25 +77,11 @@ const File1 = [
     idols: [{ idIdol: "jai151", name: "Remu Suzumori" }],
   },
   {
-    code: "JUFE-357",
-    title: `SHOW OFF THE HAMI OUT BODY AND TEMPTATION ! MY WIFE'S BEST FRIEND IS A FEMALE ANNOUNCER WHO LOVES CREAMPIE YURI NAO`,
-    poster: "https://pics.dmm.co.jp/mono/movie/adult/jufe357/jufe357pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai201", name: "Nao Yuri" }],
-  },
-  {
     code: "CEMD-111",
     title: `LET'S HAVE SEX WITH A CAMPER ! 3 YUI HATANO-BOLD SEX ! TWO INDECENT PEOPLE WHO DROWN IN SEXUAL DESIRE REGARDLESS OF WHETHER THEY ARE INSIDE OR OUTSIDE THE CAR !`,
     poster: "https://pics.dmm.co.jp/mono/movie/adult/cemd111/cemd111pl.jpg",
     type: "Censored",
     idols: [{ idIdol: "jai001", name: "Yui Hatano" }],
-  },
-  {
-    code: "ADN-364",
-    title: `UNCONTROLLABLE LUST KANAKO IIOKA`,
-    poster: "https://pics.dmm.co.jp/mono/movie/adult/adn364/adn364pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai016", name: "Kanako Iioka" }],
   },
   {
     code: "DASD-955",
@@ -130,13 +92,6 @@ const File1 = [
       { idIdol: "jai007", name: "Mao Hamasaki" },
       { idIdol: "jai148", name: "Nozomi Arimura" },
     ],
-  },
-  {
-    code: "MIAA-552",
-    title: `STRONG TO THE OLD SPERM LEFT IN THE BACK OF THE BALL ● BIG ASS BUSTY SLUT MEN'S ESTHETICS THAT SQUEEZE OUT WITH CONTINUOUS SHOOTING MINA KITANO`,
-    poster: "https://pics.dmm.co.jp/mono/movie/adult/miaa552/miaa552pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai196", name: "Mina Kitano" }],
   },
   {
     code: "IPX-789",

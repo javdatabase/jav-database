@@ -1256,6 +1256,7 @@ const File31 = [
     idols: [
       { idIdol: `jai069`, name: "Tsukasa Aoi" },
       { idIdol: `jai070`, name: "Yua Mikami" },
+      { idIdol: "jai207", name: "Miru Sakamichi" },
     ],
   },
   {

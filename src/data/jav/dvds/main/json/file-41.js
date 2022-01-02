@@ -1702,7 +1702,10 @@ const File41 = [
     title: `I MONOPOLIZE 4 BEAUTIFUL GIRLS ! SUPER HARLEM 5P SPECIAL`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/ssni673/ssni673pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai198", name: "Miharu Usa" }],
+    idols: [
+      { idIdol: "jai198", name: "Miharu Usa" },
+      { idIdol: "jai207", name: "Miru Sakamichi" },
+    ],
   },
   {
     code: "SSNI-691",
