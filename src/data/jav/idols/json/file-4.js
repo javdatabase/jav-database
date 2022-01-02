@@ -952,6 +952,118 @@ const File4 = [
       },
     ],
   },
+  {
+    idIdol: "jai207",
+    avatar:
+      "https://japanesebeauties.net/japanese/miru-sakamichi/22/miru-sakamichi-4.jpg",
+    name: "Miru Sakamichi",
+    other: "",
+    born: "29/11/1999",
+    height: "157 cm",
+    breast: "82 cm",
+    cup: "E-Cup",
+    waist: "54 cm",
+    hips: "82 cm",
+    styles: [{ tag: "Cute" }, { tag: "Beautiful Breasts" }],
+    album: [
+      {
+        picture:
+          "https://japanesebeauties.net/japanese/miru-sakamichi/24/miru-sakamichi-10.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/japanese/miru-sakamichi/11/miru-sakamichi-4.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.net/japanese/miru-sakamichi/20/miru-sakamichi-10.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.net/japanese/miru-sakamichi/23/miru-sakamichi-6.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.net/japanese/miru-sakamichi/23/miru-sakamichi-1.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.net/japanese/miru-sakamichi/16/miru-sakamichi-2.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.net/japanese/miru-sakamichi/18/miru-sakamichi-4.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/japanese/miru-sakamichi/1/miru-sakamichi-11.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/japanese/miru-sakamichi/9/miru-sakamichi-10.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/japanese/miru-sakamichi/7/miru-sakamichi-10.jpg",
+      },
+    ],
+  },
+  {
+    idIdol: "jai208",
+    avatar:
+      "https://japanesebeauties.net/japanese/tsumugi-akari/50/tsumugi-akari-9.jpg",
+    name: "Tsumugi Akari",
+    other: "",
+    born: "31/03/1998",
+    height: "155 cm",
+    breast: "80 cm",
+    cup: "B-Cup",
+    waist: "58 cm",
+    hips: "83 cm",
+    styles: [{ tag: "Cute" }, { tag: "Small Tits" }, { tag: "Slender" }],
+    album: [
+      {
+        picture:
+          "https://japanesebeauties.net/japanese/tsumugi-akari/37/tsumugi-akari-10.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.net/japanese/tsumugi-akari/35/tsumugi-akari-2.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/japanese/tsumugi-akari/14/tsumugi-akari-6.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/japanese/tsumugi-akari/28/tsumugi-akari-7.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/japanese/tsumugi-akari/27/tsumugi-akari-1.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.net/japanese/tsumugi-akari/32/tsumugi-akari-7.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.net/japanese/tsumugi-akari/49/tsumugi-akari-3.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/japanese/tsumugi-akari/11/tsumugi-akari-7.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.net/japanese/tsumugi-akari/33/tsumugi-akari-12.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.net/japanese/tsumugi-akari/30/tsumugi-akari-10.jpg",
+      },
+    ],
+  },
 ];
 
 export default File4;

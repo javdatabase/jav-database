@@ -160,6 +160,8 @@ const File1 = [
   { code: "PRED-233", xid: "1712" },
   { code: "PRED-221", xid: "1800" },
   { code: "MEYD-651", xid: "1886" },
+  { code: "SSNI-633", xid: "1680" },
+  { code: "SSNI-901", xid: "1764" },
 ];
 
 export default File1;
