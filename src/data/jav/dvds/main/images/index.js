@@ -348,6 +348,9 @@ import SHX004 from "./SHX-004.jpeg";
 import CCDV106 from "./CCDV-106.jpeg";
 import HEY210 from "./HEY-210.jpeg";
 import DSAM175 from "./DSAM-175.jpg";
+import N0716 from "./N-0716.jpeg";
+import MKDS11 from "./MKD-S11.jpg";
+import CWP62 from "./CWP-62.jpg";
 
 export {
   CWP49,
@@ -700,4 +703,7 @@ export {
   CCDV106,
   HEY210,
   DSAM175,
+  N0716,
+  MKDS11,
+  CWP62,
 };

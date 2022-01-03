@@ -1064,6 +1064,62 @@ const File4 = [
       },
     ],
   },
+  {
+    idIdol: "jai209",
+    avatar:
+      "https://www.japanesebeauties.net/hardcore/caribbeancompr/nozomi-nishiyama/011014_745/nozomi-nishiyama-6.jpg",
+    name: "Nozomi Nishiyama",
+    other: "",
+    born: "01/05/1991",
+    height: "155 cm",
+    breast: "84 cm",
+    cup: "D-Cup",
+    waist: "59 cm",
+    hips: "85 cm",
+    styles: [{ tag: "Cute" }, { tag: "Beautiful Breasts" }, { tag: "Slender" }],
+    album: [
+      {
+        picture:
+          "https://www.japanesebeauties.net/japanese/nozomi-nishiyama/10/nozomi-nishiyama-6.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/hardcore/caribbeancompr/nozomi-nishiyama/051712_316/nozomi-nishiyama-7.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/japanese/nozomi-nishiyama/12/nozomi-nishiyama-11.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/japanese/nozomi-nishiyama/13/nozomi-nishiyama-4.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/hardcore/1pondo/nozomi-nishiyama/052312_344/nozomi-nishiyama-5.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/hardcore/1pondo/nozomi-nishiyama/052312_344/nozomi-nishiyama-7.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/hardcore/caribbeancom/nozomi-nishiyama/020412-934/nozomi-nishiyama-3.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/japanese/nozomi-nishiyama/1/nozomi-nishiyama-10.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/hardcore/caribbeancom/nozomi-nishiyama/051112-019/nozomi-nishiyama-3.jpg",
+      },
+      {
+        picture:
+          "https://www.japanesebeauties.net/hardcore/caribbeancompr/nozomi-nishiyama/011014_745/nozomi-nishiyama-3.jpg",
+      },
+    ],
+  },
 ];
 
 export default File4;
