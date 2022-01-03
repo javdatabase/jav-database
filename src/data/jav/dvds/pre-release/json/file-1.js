@@ -122,6 +122,13 @@ const File1 = [
     idols: [{ idIdol: "jai038", name: "Tsubasa Amami" }],
   },
   {
+    code: "IPX-799",
+    title: `WAIT 2 YEARS FOR RESERVATION ! BEAUTIFUL LEGS SLENDER BEAUTY PURSUIT 3 LAUNCH NUKI! DELIVERY MEN'S ESTHETICS ALL CORNERS ARE FIRED ! AKARI TSUMUGI`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/ipx799/ipx799pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai208", name: "Tsumugi Akari" }],
+  },
+  {
     code: "IPX-801",
     title: `" IT'S GOOD JUST TO SLEEP " GO STRAIGHT TO WORK! ADDICTIVE DIRTY LITTLE SLEEPING REFRE [ COMPLETELY PASSIVE TYPE ] ALL-YOU-CAN-EAT PLEASURE EJACULATION SHOP MINAMI AIZAWA`,
     poster: "https://pics.dmm.co.jp/mono/movie/adult/ipx801/ipx801pl.jpg",
