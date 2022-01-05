@@ -1576,6 +1576,27 @@ const File43 = [
     type: "Uncensored",
     idols: [{ idIdol: "jai209", name: "Nozomi Nishiyama" }],
   },
+  {
+    code: "FSDSS-348",
+    title: `SQUIRTING AND SEXUAL INTERCOURSE RETIREMENT UNTIL IT BURNS OUT MINAMO NAGASE`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/1fsdss348/1fsdss348pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai152", name: "Minamo Nagase" }],
+  },
+  {
+    code: "FSDSS-349",
+    title: `BE CAREFUL TOO MUCH ! YUKO ONO , A GOD CUSTOMS WHO TALKS ABOUT THE SERVICE THAT THE BIG BUNNY REVERSE BUNNY IS TOO LIVELY`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/1fsdss349/1fsdss349pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai068", name: "Aoi" }],
+  },
+  {
+    code: "FSDSS-350",
+    title: `SLUT MEN'S ESTHETICS WHO PLAY WITH NIPPLES AND MAKE STUPID JI ○ PORT MANY TIMES WITH A SMALL DEVILISH CUSTOMER SERVICE RIN NATSUKI`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/1fsdss350/1fsdss350pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai195", name: "Rin Natsuki" }],
+  },
 ];
 
 export default File43;
