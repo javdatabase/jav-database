@@ -8,7 +8,7 @@ const SWEET_STAR_POINTS_BY_IDS = {
   ups005: 2,
   ups006: 6,
   ups007: 5,
-  ups008: 5,
+  ups008: 9,
   ups009: 4,
   ups010: 3,
   ups011: 3,
