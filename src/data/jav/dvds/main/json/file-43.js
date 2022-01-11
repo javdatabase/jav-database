@@ -1747,6 +1747,64 @@ const File43 = [
     type: "Censored",
     idols: [{ idIdol: "jai151", name: "Remu Suzumori" }],
   },
+  {
+    code: "MOPP-047",
+    title: `A STORY ABOUT BEING MADE TO LOOK LIKE A GIRL AND BEING MISCHIEVOUS WITH BOTH BINKAN NIPPLES AND ANALMA CO ○ . HAMAZAKI MAO`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/mopp047so/mopp047sopl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai007", name: "Mao Hamasaki" }],
+  },
+  {
+    code: "NSFS-058",
+    title: `CUCKOLD POWER BEST-WIFE NAKED AT WORK FOR HER HUSBAND`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/nsfs058so/nsfs058sopl.jpg",
+    type: "Censored",
+    idols: [
+      { idIdol: "jai007", name: "Mao Hamasaki" },
+      { idIdol: "jai169", name: "Momoe Takanashi" },
+    ],
+  },
+  {
+    code: "NDRA-094",
+    title: `I'M SECRETLY TALKING TO HER WITH HER MOTHER ... KANAKO IIOKA`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/ndra094/ndra094pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai016", name: "Kanako Iioka" }],
+  },
+  {
+    code: "HUNTB-181",
+    title: `THE SINGLE MOTHER WHO MOVED NEXT TO THE APARTMENT WAS ALWAYS LONELY WHILE GIVING A BRIGHT ATMOSPHERE ... THE NEWLY MOVED NEIGHBOR WAS A BEAUTIFUL SINGLE MOTHER ...`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/huntb181/huntb181pl.jpg",
+    type: "Censored",
+    idols: [
+      { idIdol: "jai078", name: "Mitsuki Akai" },
+      { idIdol: "jai148", name: "Nozomi Arimura" },
+    ],
+  },
+  {
+    code: "HUNTB-184",
+    title: `SUPER UBU VIRGIN SISTER-IN-LAW X YARIMAN SISTER-IN-LAW AND MIRACULOUS 3P ! " I WANT TO HAVE SEX WITH MY SISTER ! " SUPER UBU SISTER-IN-LAW ASKS YARIMAN SISTER-IN-LAW ! MY SISTER-IN-LAW IS MY JI ○ PORT ...`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/huntb184/huntb184pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai148", name: "Nozomi Arimura" }],
+  },
+  {
+    code: "CEMD-111",
+    title: `LET'S HAVE SEX WITH A CAMPER ! 3 YUI HATANO-BOLD SEX ! TWO INDECENT PEOPLE WHO DROWN IN SEXUAL DESIRE REGARDLESS OF WHETHER THEY ARE INSIDE OR OUTSIDE THE CAR !`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/cemd111/cemd111pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai001", name: "Yui Hatano" }],
+  },
+  {
+    code: "MKMP-433",
+    title: `NASTY AFFAIR HAREM SEXUAL INTERCOURSE TAME THE MAN OF CELEBRITY MARRIED WOMEN WHO HAVE SPARED TIME`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/mkmp433so/mkmp433sopl.jpg",
+    type: "Censored",
+    idols: [
+      { idIdol: "jai002", name: "Hibiki Otsuki" },
+      { idIdol: "jai016", name: "Kanako Iioka" },
+    ],
+  },
 ];
 
 export default File43;
