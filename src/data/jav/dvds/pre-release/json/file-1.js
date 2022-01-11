@@ -27,23 +27,6 @@ const File1 = [
     type: "Censored",
     idols: [{ idIdol: "jai026", name: "Ayaka Tomoda" }],
   },
-  {
-    code: "CEMD-111",
-    title: `LET'S HAVE SEX WITH A CAMPER ! 3 YUI HATANO-BOLD SEX ! TWO INDECENT PEOPLE WHO DROWN IN SEXUAL DESIRE REGARDLESS OF WHETHER THEY ARE INSIDE OR OUTSIDE THE CAR !`,
-    poster: "https://pics.dmm.co.jp/mono/movie/adult/cemd111/cemd111pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai001", name: "Yui Hatano" }],
-  },
-  {
-    code: "MKMP-433",
-    title: `NASTY AFFAIR HAREM SEXUAL INTERCOURSE TAME THE MAN OF CELEBRITY MARRIED WOMEN WHO HAVE SPARED TIME`,
-    poster: "https://pics.dmm.co.jp/mono/movie/adult/mkmp433so/mkmp433sopl.jpg",
-    type: "Censored",
-    idols: [
-      { idIdol: "jai002", name: "Hibiki Otsuki" },
-      { idIdol: "jai016", name: "Kanako Iioka" },
-    ],
-  },
 ];
 
 export default File1;
