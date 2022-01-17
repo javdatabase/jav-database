@@ -1936,6 +1936,35 @@ const File43 = [
     type: "Censored",
     idols: [{ idIdol: "jai048", name: "Honoka Tsuji" }],
   },
+  {
+    code: "DDOB-101",
+    title: `THROAT BOKO FUCK KANNAZUKI RENA`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/ddob101/ddob101pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai078", name: "Mitsuki Akai" }],
+  },
+  {
+    code: "AQSH-082",
+    title: `CLAIMER HOUSEWIFE SHAMEFUL CREAMPIE FOLD ● MARY TACHIBANA`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/aqsh082/aqsh082pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai034", name: "Mary Tachibana" }],
+  },
+  {
+    code: "BBTU-029",
+    title: `BOMBSHELL ! NENE TANAKA , A LAYER THAT LOOKS DOWN ON YOU`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/bbtu029/bbtu029pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai185", name: "Nene Tanaka" }],
+  },
+  {
+    code: "HODV-21643",
+    title: `AFFAIR WIFE THE SECRETS OF THE WIVES FORBIDDEN VIDEO ASKING " ONLY ONCE AGAIN ... "`,
+    poster:
+      "https://pics.dmm.co.jp/mono/movie/adult/41hodv21643/41hodv21643pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai021", name: "Aki Sasaki" }],
+  },
 ];
 
 export default File43;
