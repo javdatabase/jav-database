@@ -5,10 +5,56 @@ import {
 } from "../../helpers/earning-values";
 
 const STAR_IDOL_ID = "";
-const SWEET_NIGHT_IDS = [];
-const BEST_DVD_IDS = ["jai021", "jai034", "jai078"];
-const BEST_IDOL_IDS = ["jai021", "jai034", "jai078"];
-const TOP_POINT_GROWTH_IDS = [];
+const SWEET_NIGHT_IDS = [
+  "jai007",
+  "jai041",
+  "jai048",
+  "jai057",
+  "jai057",
+  "jai196",
+  "jai196",
+  "jai196",
+  "jai204",
+  "jai205",
+];
+const BEST_DVD_IDS = [
+  "jai007",
+  "jai021",
+  "jai034",
+  "jai041",
+  "jai048",
+  "jai055",
+  "jai057",
+  "jai078",
+  "jai179",
+  "jai196",
+  "jai197",
+  "jai204",
+  "jai205",
+];
+const BEST_IDOL_IDS = [
+  "jai007",
+  "jai021",
+  "jai034",
+  "jai041",
+  "jai048",
+  "jai055",
+  "jai057",
+  "jai078",
+  "jai179",
+  "jai196",
+  "jai197",
+  "jai204",
+  "jai205",
+];
+const TOP_POINT_GROWTH_IDS = [
+  "jai007",
+  "jai048",
+  "jai057",
+  "jai179",
+  "jai185",
+  "jai196",
+];
 const TOP_IDOL_IDS = [
   "jai062",
   "jai151",
@@ -17,7 +63,25 @@ const TOP_IDOL_IDS = [
   "jai203",
   "jai205",
 ];
-const HAS_DVD_IDS = ["jai021", "jai034", "jai078", "jai185"];
+const HAS_DVD_IDS = [
+  "jai007",
+  "jai021",
+  "jai034",
+  "jai041",
+  "jai048",
+  "jai055",
+  "jai057",
+  "jai078",
+  "jai148",
+  "jai164",
+  "jai174",
+  "jai179",
+  "jai185",
+  "jai196",
+  "jai197",
+  "jai204",
+  "jai205",
+];
 const NEWBIE_IDS = [];
 
 function getEarningIdol(rank, points, styles, uncensored, best, video) {

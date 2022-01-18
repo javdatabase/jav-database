@@ -28,34 +28,6 @@ const File1 = [
     idols: [{ idIdol: "jai069", name: "Tsukasa Aoi" }],
   },
   {
-    code: "PRED-367",
-    title: `I BECAME A BUTLER OF 3 SLUT SISTERS AND CONTINUED TO BE MADE VAGINAL CUM SHOT 365 DAYS A YEAR . PREMIUM EXCLUSIVE HARLEM SPECIAL - AIRI KIJIMA AIKA YAMAGISHI AI HOSHINA`,
-    poster: "https://pics.dmm.co.jp/mono/movie/adult/pred367/pred367pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai204", name: "Aika Yamagishi" }],
-  },
-  {
-    code: "PRED-368",
-    title: `EVEN THOUGH IT'S A PRODUCTION BAN, SHE SECRETLY ASKS FOR A VAGINAL CUM SHOT ! UNLIMITED LAUNCH REVERSE BUNNY CUSTOMS 5 PRODUCTION KAREN YUZURIHA`,
-    poster: "https://pics.dmm.co.jp/mono/movie/adult/pred368/pred368pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai205", name: "Karen Yuzuriha" }],
-  },
-  {
-    code: "PRED-371",
-    title: `" THAT WAS AN APHRODISIAC ... " MY FATHER-IN-LAW AND I WERE 100 TIMES MORE SENSITIVE . RICH VAGINAL CUM SHOT SEX MANY TIMES SO AS TO DEVOUR IN THE ABSENCE OF HER HUSBAND`,
-    poster: "https://pics.dmm.co.jp/mono/movie/adult/pred371/pred371pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai041", name: "Julia" }],
-  },
-  {
-    code: "PRED-372",
-    title: `I'VE BEEN HAVING SEX WITH MY BOYFRIEND AND A FEMALE BOSS WHO IS IN A STATE OF MALAISE MANY TIMES SINCE I HAD A FURIOUS ANAL CUNNILINGUS . RIHO FUJIMORI`,
-    poster: "https://pics.dmm.co.jp/mono/movie/adult/pred372/pred372pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai057", name: "Yumi Maeda" }],
-  },
-  {
     code: "JUL-842",
     title: `MY BELOVED MOTHER-IN-LAW WHO RAISED ME WITH ONE FEMALE HAND WAS TAKEN DOWN BY MY WORST FRIEND ... MARINA SHIRAISHI`,
     poster: "https://pics.dmm.co.jp/mono/movie/adult/jul842/jul842pl.jpg",
@@ -89,13 +61,6 @@ const File1 = [
     poster: "https://img66.pixhost.to/images/22/255181391_1656537l.jpg",
     type: "Censored",
     idols: [{ idIdol: "jai139", name: "Mana Sakura" }],
-  },
-  {
-    code: "GVH-344",
-    title: `FORBIDDEN CARE MINA KITANO`,
-    poster: "https://pics.dmm.co.jp/mono/movie/adult/gvh344so/gvh344sopl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai196", name: "Mina Kitano" }],
   },
 ];
 
