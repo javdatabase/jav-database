@@ -2224,6 +2224,20 @@ const File43 = [
     type: "Censored",
     idols: [{ idIdol: "jai196", name: "Mina Kitano" }],
   },
+  {
+    code: "UMD-808",
+    title: `ROOKIE OL 3 TARGETED ON A COMPANY TRIP`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/125umd808/125umd808pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai057", name: "Yumi Maeda" }],
+  },
+  {
+    code: "DVAJ-553",
+    title: `I'M ALMOST CERTAINLY HAVING AN AFFAIR , BUT I DON'T FEEL LIKE HAVING A WIFE WHO DOESN'T HAVE A TAIL . RIHO FUJIMORI`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/dvaj553so/dvaj553sopl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai057", name: "Yumi Maeda" }],
+  },
 ];
 
 export default File43;
