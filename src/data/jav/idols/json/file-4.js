@@ -1120,6 +1120,32 @@ const File4 = [
       },
     ],
   },
+  {
+    idIdol: "jai210",
+    avatar:
+      "https://www.japanesebeauties.net/r18/rio-kuriyama/ipx00544/rio-kuriyama-1.jpg",
+    name: "Rio Kuriyama",
+    other: "",
+    born: "02/08/1998",
+    height: "148 cm",
+    breast: "85 cm",
+    cup: "E-Cup",
+    waist: "54 cm",
+    hips: "83 cm",
+    styles: [
+      { tag: "6 Stars JAV" },
+      { tag: "Cute" },
+      { tag: "Beautiful Breasts" },
+      { tag: "Slender" },
+      { tag: "Teens" },
+    ],
+    album: [
+      {
+        picture:
+          "https://www.japanesebeauties.net/r18/rio-kuriyama/ipx00544/rio-kuriyama-12.jpg",
+      },
+    ],
+  },
 ];
 
 export default File4;
