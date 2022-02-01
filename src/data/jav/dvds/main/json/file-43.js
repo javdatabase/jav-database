@@ -2555,6 +2555,13 @@ const File43 = [
     type: "Censored",
     idols: [{ idIdol: "jai002", name: "Hibiki Otsuki" }],
   },
+  {
+    code: "SQTE-400",
+    title: `THIS CHILD IS DANGEROUS ! ! ! THE WOMAN THAT THE STAFF MADE A SIDE DISH MINA KITANO`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/sqte400so/sqte400sopl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai196", name: "Mina Kitano" }],
+  },
 ];
 
 export default File43;
