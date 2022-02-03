@@ -200,9 +200,9 @@ function UPVStarDataTool() {
           idStar: "ups${Array(3 - String(SIZE_STARS + 1).length)
             .fill("0")
             .join("")}${SIZE_STARS + 1}",
-          avatar: "${avatar}"
+          avatar: "${avatar}",
           name: "${name}",
-          born: "${born}"
+          born: "${born}",
           height: "${height} cm",
           breast: "${breast} in",
           cup: "${cup?.label || ""}",
@@ -324,7 +324,7 @@ function UPVStarDataTool() {
               onChange={(e) => setBreast(e.target.value)}
             />
             <SelectHalfCustom
-              placeholder={"Born..."}
+              placeholder={"Cup..."}
               options={SizesCup.map((item) => ({
                 label: item,
                 value: item,

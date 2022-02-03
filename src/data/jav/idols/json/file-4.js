@@ -11,6 +11,7 @@ import * as nao_yuri from "../images/nao-yuri";
 import * as kaname_momojiri from "../images/kaname_momojiri";
 import * as mai_kanami from "../images/mai_kanami";
 import * as karen_yuzuriha from "../images/karen-yuzuriha";
+import * as ren_usui from "../images/ren-usui";
 
 const File4 = [
   {
@@ -1143,6 +1144,87 @@ const File4 = [
       {
         picture:
           "https://www.japanesebeauties.net/r18/rio-kuriyama/ipx00544/rio-kuriyama-12.jpg",
+      },
+    ],
+  },
+  {
+    idIdol: "jai211",
+    avatar:
+      "https://www.japanesebeauties.net/r18/ren-usui/h_1116capi00161/ren-usui-9.jpg",
+    name: "Ren Usui",
+    other: "",
+    born: "29/09/1995",
+    height: "167 cm",
+    breast: "98 cm",
+    cup: "G-Cup",
+    waist: "64 cm",
+    hips: "98 cm",
+    styles: [{ tag: "Killer Tits" }, { tag: "Long Legs" }],
+    album: [
+      {
+        picture: ren_usui.ren_usui_2,
+      },
+      {
+        picture: ren_usui.ren_usui_1,
+      },
+      {
+        picture: ren_usui.ren_usui_3,
+      },
+    ],
+  },
+  {
+    idIdol: "jai212",
+    avatar:
+      "https://japanesebeauties.net/japanese/an-mitsumi/4/an-mitsumi-1.jpg",
+    name: "An Mitsumi",
+    other: "",
+    born: "15/11/2000",
+    height: "170 cm",
+    breast: "86 cm",
+    cup: "F-Cup",
+    waist: "58 cm",
+    hips: "89 cm",
+    styles: [{ tag: "Killer Tits" }, { tag: "Long Legs" }, { tag: "Teens" }],
+    album: [
+      {
+        picture:
+          "https://japanesebeauties.net/japanese/an-mitsumi/10/an-mitsumi-12.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.net/japanese/an-mitsumi/4/an-mitsumi-9.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.net/japanese/an-mitsumi/9/an-mitsumi-3.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.net/japanese/an-mitsumi/3/an-mitsumi-4.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.net/japanese/an-mitsumi/5/an-mitsumi-9.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.net/japanese/an-mitsumi/5/an-mitsumi-10.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.net/japanese/an-mitsumi/6/an-mitsumi-7.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.net/japanese/an-mitsumi/12/an-mitsumi-4.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.net/japanese/an-mitsumi/8/an-mitsumi-7.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.net/japanese/an-mitsumi/10/an-mitsumi-9.jpg",
       },
     ],
   },
