@@ -209,10 +209,10 @@ function JAVIdolDataTool() {
         idIdol: "jai${Array(3 - String(SIZE_IDOLS + 1).length)
           .fill("0")
           .join("")}${SIZE_IDOLS + 1}",
-        avatar: "${avatar}"
+        avatar: "${avatar}",
         name: "${name}",
         other: "${other}",
-        born: "${born}"
+        born: "${born}",
         height: "${height} cm",
         breast: "${breast} cm",
         cup: "${cup?.label || ""}",
@@ -356,7 +356,7 @@ function JAVIdolDataTool() {
               onChange={(e) => setBreast(e.target.value)}
             />
             <SelectHalfCustom
-              placeholder={"Born..."}
+              placeholder={"Cup..."}
               options={SizesCup.map((item) => ({
                 label: item,
                 value: item,
