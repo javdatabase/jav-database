@@ -107,6 +107,13 @@ const File1 = [
     type: "Censored",
     idols: [{ idIdol: "jai000", name: "Mirai Yagami" }],
   },
+  {
+    code: "GZAP-064",
+    title: `CLOSED ROOM KARAOKE APHRODISIAC MOLESTER GALS WHO CONTINUED TO BE FUCKED WHILE SHAKING IN SHAME IN FRONT OF THEIR FRIENDS ...`,
+    poster: "https://img66.pixhost.to/images/106/257981854_1658481l.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai000", name: "Miyu Sakuraka" }],
+  },
 ];
 
 export default File1;
