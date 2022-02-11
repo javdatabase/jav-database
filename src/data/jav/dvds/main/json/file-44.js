@@ -297,7 +297,7 @@ const File44 = [
   {
     code: "APAK-215",
     title: `DON'T DO IT UNTIL I GET IT ! SEX RECORD OF H-CUP HORNY BEAST THAT SEEMS TO EJACULATE JUST BY LOOKING MIYABI`,
-    poster: "https://pics.dmm.co.jp/mono/movie/adult/baze009so/baze009sopl.jpg",
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/apak215so/apak215sopl.jpg",
     type: "Censored",
     idols: [{ idIdol: "jai176", name: "Miyabi Midorikawa" }],
   },
@@ -391,13 +391,6 @@ const File44 = [
     poster: "https://pics.dmm.co.jp/mono/movie/adult/cemd134/cemd134pl.jpg",
     type: "Censored",
     idols: [{ idIdol: "jai001", name: "Yui Hatano" }],
-  },
-  {
-    code: "CEAD-391",
-    title: `YUNA SHIINA THE ULTIMATE BEST 8 HOURS`,
-    poster: "https://pics.dmm.co.jp/mono/movie/adult/cead391/cead391pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai009", name: "Yuna Shiina" }],
   },
   {
     code: "CEAD-393",

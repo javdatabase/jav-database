@@ -111,9 +111,13 @@ function Video() {
         request
           .post("https://vlxx.sex/ajax.php", form)
           .then((response) => {
-            const temp = response?.data?.split('href="') || [];
-            const newTemp = temp[temp.length - 1]?.split('"')[0];
-            setVideo(newTemp || "");
+            if (response?.data?.trim()) {
+              const temp = response?.data?.split('href="') || [];
+              const newTemp = temp[temp.length - 1]?.split('"')[0];
+              setVideo(newTemp || "");
+            } else {
+              getVideo(retry + 1);
+            }
           })
           .catch((e) => {
             getVideo(retry + 1);
