@@ -302,13 +302,6 @@ const File44 = [
     idols: [{ idIdol: "jai176", name: "Miyabi Midorikawa" }],
   },
   {
-    code: "PPPE-003",
-    title: `MISS KYABAKURA WITH OVER 80,000 FOLLOWERS OF THE SHORT MOVIE APP ! G-CUP'S BIG TITS INFLUENCER AV DEBUT ! NI NI ! EVERY TIME ! PON ! AKARI HIGASHI`,
-    poster: "https://pics.dmm.co.jp/mono/movie/adult/pppe003/pppe003pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai000", name: "Akari Higashi" }],
-  },
-  {
     code: "PPPE-005",
     title: `I WILL DISPATCH A BIG TITS BEAST MONOBITCH WHO WILL SUDDENLY GIVE A FUCKING BLOWJOB`,
     poster: "https://pics.dmm.co.jp/mono/movie/adult/pppe005/pppe005pl.jpg",
@@ -335,13 +328,6 @@ const File44 = [
     poster: "https://pics.dmm.co.jp/mono/movie/adult/pppe011/pppe011pl.jpg",
     type: "Censored",
     idols: [{ idIdol: "jai057", name: "Yumi Maeda" }],
-  },
-  {
-    code: "MEYD-738",
-    title: `10,000 SNS FOLLOWERS ! CONNECT ON THE NET ! YOU CAN MEET WITH A RESERVATION ! NG PEAR & SPERM CUM SWALLOW ! ACTIVE YOSHIWARA SOAP MISS AV DEBUT YUUKA`,
-    poster: "https://pics.dmm.co.jp/mono/movie/adult/meyd738/meyd738pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai000", name: "Yuka Yoshiwara" }],
   },
   {
     code: "MEYD-741",

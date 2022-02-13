@@ -114,6 +114,13 @@ const File1 = [
     type: "Censored",
     idols: [{ idIdol: "jai000", name: "Miyu Sakuraka" }],
   },
+  {
+    code: "PPPE-003",
+    title: `MISS KYABAKURA WITH OVER 80,000 FOLLOWERS OF THE SHORT MOVIE APP ! G-CUP'S BIG TITS INFLUENCER AV DEBUT ! NI NI ! EVERY TIME ! PON ! AKARI HIGASHI`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/pppe003/pppe003pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai000", name: "Akari Higashi" }],
+  },
 ];
 
 export default File1;
