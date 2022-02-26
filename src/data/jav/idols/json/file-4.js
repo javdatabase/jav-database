@@ -676,7 +676,7 @@ const File4 = [
     idIdol: "jai200",
     avatar:
       "https://www.japanesebeauties.net/r18/miu-shiramine/ipvr00121/miu-shiramine-2.jpg",
-    name: "Miu Shiramine",
+    name: "Miu Shiromine",
     other: "",
     born: "16/02/1997",
     height: "170 cm",

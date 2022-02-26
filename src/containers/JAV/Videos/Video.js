@@ -94,6 +94,22 @@ const VideoContent = styled.div`
   background: url(${RollingIcon}) center center no-repeat;
 `;
 
+const LinkVideoContainer = styled.div`
+  ${center};
+  margin-top: 30px;
+`;
+
+const LinkVideo = styled.a`
+  font-size: ${Large};
+  color: ${Yellow};
+  text-decoration: underline;
+  font-style: italic;
+
+  &:hover {
+    color: ${Red};
+  }
+`;
+
 function Video() {
   const { code } = useParams();
   const [video, setVideo] = useState("");
@@ -101,6 +117,10 @@ function Video() {
   const data = useMemo(() => {
     return VIDEO_CONTENT(code);
   }, [code]);
+
+  const link = useMemo(() => {
+    return `https://vlxx.link/${get(data, "xid", "")}`;
+  }, [data]);
 
   const getVideo = useCallback(
     (retry) => {
@@ -169,6 +189,11 @@ function Video() {
             Your browser does not support the video tag.
           </video>
         </VideoContent>
+        <LinkVideoContainer>
+          <LinkVideo href={link} target={"_blank"} rel={"noreferrer noopener"}>
+            {link}
+          </LinkVideo>
+        </LinkVideoContainer>
       </VideoContainer>
     </Container>
   );
