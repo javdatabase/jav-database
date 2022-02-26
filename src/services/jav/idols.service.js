@@ -218,6 +218,21 @@ const ALL_BONUS_IDOLS = ALL_EARNING_IDOLS.filter((item) => !!item.bonus)
   .sort((a, b) => b.bonus - a.bonus)
   .map((item, index) => ({ ...item, position: index + 1 }));
 
+const ALL_ORIGINAL_IDOLS = ALL_IDOLS_DETAIL.map((item) => ({
+  ...item,
+  earnings: getEarningIdol(
+    item.rank,
+    item.points,
+    item.styles,
+    item.dvds.filter((item) => item.type === "Uncensored").length,
+    BEST_IDOL_IDS.includes(item.idIdol),
+    item.dvds.filter((item) => checkVideo(item.code)).length
+  ),
+  bonus: getBonusEarnings(item.idIdol),
+}))
+  .sort((a, b) => b.earnings - a.earnings)
+  .map((item, index) => ({ ...item, position: index + 1 }));
+
 const TOTAL_EARNINGS = ALL_EARNING_IDOLS.reduce(
   (acc, item) => acc + item.earnings + (item.bonus || 0),
   0
@@ -232,5 +247,6 @@ export {
   IDOL_PROFILE,
   ALL_EARNING_IDOLS,
   ALL_BONUS_IDOLS,
+  ALL_ORIGINAL_IDOLS,
   TOTAL_EARNINGS,
 };
