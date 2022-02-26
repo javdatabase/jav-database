@@ -16,6 +16,7 @@ import { priceCurrency } from "../../../helpers/render-price";
 import {
   ALL_EARNING_IDOLS,
   ALL_BONUS_IDOLS,
+  ALL_ORIGINAL_IDOLS,
   TOTAL_EARNINGS,
 } from "../../../services/jav/idols.service";
 import Checkbox from "../../../components/UI/Checkbox/Checkbox";
@@ -27,6 +28,8 @@ import {
   Pink,
   LightPurple,
   DarkPurple,
+  LightBlue,
+  DarkBlue,
 } from "../../../themes/colors";
 import { center, fadeIn } from "../../../themes/styled";
 import { XLarge } from "../../../themes/font";
@@ -100,6 +103,8 @@ function TopEarnings() {
   const idols = useMemo(() => {
     if (get(location.state, "bonus", false)) {
       return ALL_BONUS_IDOLS;
+    } else if (get(location.state, "original", false)) {
+      return ALL_ORIGINAL_IDOLS;
     } else {
       return ALL_EARNING_IDOLS;
     }
@@ -129,21 +134,39 @@ function TopEarnings() {
 
   const handleChangeBonus = useCallback(() => {
     history.push(location.pathname, {
+      original: false,
       bonus: !get(location.state, "bonus", false),
+    });
+  }, [history, location]);
+
+  const handleChangeOriginal = useCallback(() => {
+    history.push(location.pathname, {
+      original: !get(location.state, "original", false),
+      bonus: false,
     });
   }, [history, location]);
 
   return (
     <Fragment>
       <FilterIdolsContainer>
-        <CheckboxGroup>
-          <Checkbox
-            label={"Bonus"}
-            value={get(location.state, "bonus", false)}
-            onChange={handleChangeBonus}
-            customColor={`linear-gradient(to right, ${LightPurple}, ${DarkPurple})`}
-          />
-        </CheckboxGroup>
+        <div style={{ display: "flex", alignItems: "center" }}>
+          <CheckboxGroup>
+            <Checkbox
+              label={"Bonus"}
+              value={get(location.state, "bonus", false)}
+              onChange={handleChangeBonus}
+              customColor={`linear-gradient(to right, ${LightPurple}, ${DarkPurple})`}
+            />
+          </CheckboxGroup>
+          <CheckboxGroup>
+            <Checkbox
+              label={"Original"}
+              value={get(location.state, "original", false)}
+              onChange={handleChangeOriginal}
+              customColor={`linear-gradient(to right, ${LightBlue}, ${DarkBlue})`}
+            />
+          </CheckboxGroup>
+        </div>
         <Total>
           Total: <Value>${priceCurrency(TOTAL_EARNINGS)}</Value>
         </Total>

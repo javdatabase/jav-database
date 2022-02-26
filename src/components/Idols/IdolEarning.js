@@ -153,7 +153,7 @@ const EarningContainer = styled.div`
 `;
 
 const PriceIdol = styled.div`
-  border: solid 6px ${White};
+  border: solid 6px ${(props) => (props.original === "true" ? Red : White)};
   padding: 10px 20px;
   border-radius: 12px;
   background: linear-gradient(to right, ${LightBlue}, ${DarkBlue});
@@ -181,7 +181,9 @@ const BonusIdol = styled(PriceIdol)`
 `;
 
 const TotalIdol = styled(BonusIdol)`
-  border: solid 6px ${(props) => (props.bonus === "false" ? Red : White)};
+  border: solid 6px
+    ${(props) =>
+      props.bonus === "false" && props.original === "false" ? Red : White};
   background: linear-gradient(to right, ${Yellow}, ${Orange});
   color: ${White};
   font-size: ${XLarge};
@@ -302,7 +304,9 @@ function IdolEarning({ data }) {
               ))}
           </PicturesContainer>
           <EarningContainer>
-            <PriceIdol>
+            <PriceIdol
+              original={get(location.state, "original", false).toString()}
+            >
               ${priceCurrency(data.earnings)} ({priceCurrency(price)})
             </PriceIdol>
             {!!data.bonus && (
@@ -316,6 +320,7 @@ function IdolEarning({ data }) {
                 =
                 <TotalIdol
                   bonus={get(location.state, "bonus", false).toString()}
+                  original={get(location.state, "original", false).toString()}
                 >
                   ${priceCurrency(total)} ({priceCurrency(fee)})
                 </TotalIdol>
