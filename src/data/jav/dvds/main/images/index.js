@@ -351,6 +351,8 @@ import DSAM175 from "./DSAM-175.jpg";
 import N0716 from "./N-0716.jpeg";
 import MKDS11 from "./MKD-S11.jpg";
 import CWP62 from "./CWP-62.jpg";
+import SOE141 from "./SOE-141.jpeg";
+import MXX111 from "./MXX-111.jpg";
 
 export {
   CWP49,
@@ -706,4 +708,6 @@ export {
   N0716,
   MKDS11,
   CWP62,
+  SOE141,
+  MXX111,
 };

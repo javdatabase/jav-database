@@ -1,4 +1,11 @@
-import React, { Fragment, memo, useState, useCallback } from "react";
+import React, {
+  Fragment,
+  memo,
+  useState,
+  useRef,
+  useEffect,
+  useCallback,
+} from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
@@ -10,6 +17,8 @@ import {
 import DvdPoster from "./DvdPoster";
 import IdolTag from "../Idols/IdolTag";
 import IdolDetail from "../Idols/IdolDetail";
+import ClipboardPurpleIcon from "../../assets/images/ic_clipboard_purple/ic_clipboard_purple.svg";
+import ClipboardGreenIcon from "../../assets/images/ic_clipboard_green/ic_clipboard_green.svg";
 
 import {
   Black,
@@ -55,7 +64,17 @@ const DetailContainer = styled.div`
   height: calc(20vw + 6px);
 `;
 
-const CodeDvd = styled.span`
+const CodeDvdContainer = styled.div`
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  &:hover img {
+    display: unset;
+  }
+`;
+
+const CodeDvd = styled.p`
   font-size: ${XLarge};
   background: ${(props) =>
     props.uncensored
@@ -63,6 +82,14 @@ const CodeDvd = styled.span`
       : `linear-gradient(to right, ${Pink}, ${Orange})`};
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  margin: 0px;
+`;
+
+const ButtonImage = styled.img`
+  display: none;
+  width: 15px;
+  height: 15px;
+  margin-left: 5px;
 `;
 
 const Title = styled.div`
@@ -89,7 +116,7 @@ const TagIdol = styled(IdolTag)`
 const VideoButtonLink = styled(Link)`
   position: absolute;
   right: 0px;
-  top: 3px;
+  top: 1px;
   z-index: 500;
   ${center};
   width: 25px;
@@ -110,6 +137,16 @@ const Dot = styled.span`
 function NewDvdReleaseDetail({ data, active }) {
   const [show, setShow] = useState(false);
   const [idol, setIdol] = useState(null);
+  const [copied, setCopied] = useState(false);
+  const timer = useRef();
+
+  useEffect(() => {
+    return () => {
+      if (timer.current) {
+        clearTimeout(timer.current);
+      }
+    };
+  }, []);
 
   const toggleModal = useCallback(() => {
     setShow(!show);
@@ -128,23 +165,58 @@ function NewDvdReleaseDetail({ data, active }) {
     [toggleModal]
   );
 
+  const copyToClipboard = useCallback(() => {
+    if (data.code && !copied) {
+      const textarea = document.createElement("textarea");
+      textarea.style.position = "fixed";
+      textarea.style.left = "0";
+      textarea.style.top = "0";
+      textarea.style.opacity = "0";
+      textarea.value = data.code;
+      document.body.appendChild(textarea);
+      textarea.focus();
+      textarea.select();
+      document.execCommand("copy");
+      document.body.removeChild(textarea);
+      setCopied(true);
+      if (timer.current) {
+        clearTimeout(timer.current);
+      }
+      timer.current = setTimeout(() => {
+        setCopied(false);
+      }, 1000);
+    }
+  }, [data, copied]);
+
   return (
     <Fragment>
       {active && (
         <Container>
-          {checkVideo(data.code) && (
-            <VideoButtonLink to={`/jav/video/${data.code}`}>
-              <Dot />
-            </VideoButtonLink>
-          )}
           <PosterDvdContainer uncensored={data.type === "Uncensored"}>
             <PosterDvd src={data.poster} />
           </PosterDvdContainer>
           <DetailContainer>
-            <div>
-              <CodeDvd uncensored={data.type === "Uncensored"}>
-                {data.code}
-              </CodeDvd>
+            <div
+              style={{
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "space-between",
+                position: "relative",
+              }}
+            >
+              <CodeDvdContainer onClick={copyToClipboard}>
+                <CodeDvd uncensored={data.type === "Uncensored"}>
+                  {data.code}
+                </CodeDvd>
+                <ButtonImage
+                  src={copied ? ClipboardGreenIcon : ClipboardPurpleIcon}
+                />
+              </CodeDvdContainer>
+              {checkVideo(data.code) && (
+                <VideoButtonLink to={`/jav/video/${data.code}`}>
+                  <Dot />
+                </VideoButtonLink>
+              )}
             </div>
             <Title>{data.title}</Title>
             <IdolsContainer>
