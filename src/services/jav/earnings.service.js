@@ -6,11 +6,17 @@ import {
 
 const STAR_IDOL_ID = "";
 const SWEET_NIGHT_IDS = [
+  "jai011",
+  "jai021",
   "jai038",
   "jai038",
   "jai062",
+  "jai069",
   "jai070",
+  "jai070",
+  "jai086",
   "jai151",
+  "jai154",
   "jai170",
   "jai171",
   "jai188",
