@@ -153,7 +153,7 @@ const EarningContainer = styled.div`
 `;
 
 const PriceIdol = styled.div`
-  border: solid 6px ${(props) => (props.original === "true" ? Red : White)};
+  border: solid 6px ${White};
   padding: 10px 20px;
   border-radius: 12px;
   background: linear-gradient(to right, ${LightBlue}, ${DarkBlue});
@@ -171,7 +171,7 @@ const BonusContainer = styled.div`
 `;
 
 const BonusIdol = styled(PriceIdol)`
-  border: solid 6px ${(props) => (props.bonus === "true" ? Red : White)};
+  border: solid 6px ${White};
   background: linear-gradient(to right, ${LightPurple}, ${DarkPurple});
   color: ${White};
   margin-top: 10px;
@@ -181,9 +181,7 @@ const BonusIdol = styled(PriceIdol)`
 `;
 
 const TotalIdol = styled(BonusIdol)`
-  border: solid 6px
-    ${(props) =>
-      props.bonus === "false" && props.original === "false" ? Red : White};
+  border: solid 6px ${Red};
   background: linear-gradient(to right, ${Yellow}, ${Orange});
   color: ${White};
   font-size: ${XLarge};
@@ -304,28 +302,24 @@ function IdolEarning({ data }) {
               ))}
           </PicturesContainer>
           <EarningContainer>
-            <PriceIdol
-              original={get(location.state, "original", false).toString()}
-            >
-              ${priceCurrency(data.earnings)} ({priceCurrency(price)})
-            </PriceIdol>
-            {!!data.bonus && (
-              <BonusContainer>
-                +
-                <BonusIdol
-                  bonus={get(location.state, "bonus", false).toString()}
-                >
-                  ${priceCurrency(data.bonus)}
-                </BonusIdol>
-                =
-                <TotalIdol
-                  bonus={get(location.state, "bonus", false).toString()}
-                  original={get(location.state, "original", false).toString()}
-                >
-                  ${priceCurrency(total)} ({priceCurrency(fee)})
-                </TotalIdol>
-              </BonusContainer>
+            {!get(location.state, "bonus", false) && (
+              <PriceIdol>
+                ${priceCurrency(data.earnings)} ({priceCurrency(price)})
+              </PriceIdol>
             )}
+            {!!data.bonus &&
+              (!get(location.state, "original", false) ||
+                !!get(location.state, "bonus", false)) &&
+              (!!get(location.state, "bonus", false) ? (
+                <BonusIdol>${priceCurrency(data.bonus)}</BonusIdol>
+              ) : (
+                <BonusContainer>
+                  +<BonusIdol>${priceCurrency(data.bonus)}</BonusIdol>=
+                  <TotalIdol>
+                    ${priceCurrency(total)} ({priceCurrency(fee)})
+                  </TotalIdol>
+                </BonusContainer>
+              ))}
           </EarningContainer>
         </div>
       </Container>

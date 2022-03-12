@@ -12,6 +12,7 @@ import * as kaname_momojiri from "../images/kaname_momojiri";
 import * as mai_kanami from "../images/mai_kanami";
 import * as karen_yuzuriha from "../images/karen-yuzuriha";
 import * as ren_usui from "../images/ren-usui";
+import * as saika_kawakita from "../images/saika-kawakita";
 
 const File4 = [
   {
@@ -1234,6 +1235,53 @@ const File4 = [
       {
         picture:
           "https://japanesebeauties.net/japanese/an-mitsumi/10/an-mitsumi-9.jpg",
+      },
+    ],
+  },
+  {
+    idIdol: "jai213",
+    avatar: saika_kawakita.saika_kawakita_2,
+    name: "Saika Kawakita",
+    other: "",
+    born: "30/11/1999",
+    height: "169 cm",
+    breast: "88 cm",
+    cup: "E-Cup",
+    waist: "59 cm",
+    hips: "89 cm",
+    styles: [{ tag: "Cute" }, { tag: "Beautiful Breasts" }],
+    album: [
+      {
+        picture:
+          "https://japanesebeauties.one/r18/saika-kawakita/oae00214/saika-kawakita-1.jpg",
+      },
+      {
+        picture: saika_kawakita.saika_kawakita_1,
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/r18/saika-kawakita/ofje00186/saika-kawakita-10.jpg",
+      },
+      {
+        picture: saika_kawakita.saika_kawakita_3,
+      },
+      {
+        picture: saika_kawakita.saika_kawakita_4,
+      },
+      {
+        picture: saika_kawakita.saika_kawakita_5,
+      },
+      {
+        picture: saika_kawakita.saika_kawakita_6,
+      },
+      {
+        picture: saika_kawakita.saika_kawakita_7,
+      },
+      {
+        picture: saika_kawakita.saika_kawakita_8,
+      },
+      {
+        picture: saika_kawakita.saika_kawakita_9,
       },
     ],
   },

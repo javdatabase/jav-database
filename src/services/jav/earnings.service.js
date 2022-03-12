@@ -5,43 +5,62 @@ import {
 } from "../../helpers/earning-values";
 
 const STAR_IDOL_ID = "";
-const SWEET_NIGHT_IDS = ["jai068", "jai196"];
+const SWEET_NIGHT_IDS = ["jai068", "jai068", "jai068", "jai196", "jai213"];
 const BEST_DVD_IDS = [
   "jai002",
   "jai007",
+  "jai026",
   "jai048",
   "jai053",
   "jai054",
   "jai068",
+  "jai075",
   "jai146",
+  "jai157",
+  "jai172",
   "jai195",
   "jai196",
+  "jai202",
+  "jai213",
 ];
 const BEST_IDOL_IDS = [
   "jai002",
   "jai007",
+  "jai026",
   "jai048",
   "jai053",
   "jai054",
   "jai068",
+  "jai075",
   "jai146",
+  "jai157",
+  "jai172",
   "jai195",
   "jai196",
+  "jai202",
+  "jai213",
 ];
-const TOP_POINT_GROWTH_IDS = ["jai048", "jai196"];
-const TOP_IDOL_IDS = [];
+const TOP_POINT_GROWTH_IDS = ["jai048", "jai196", "jai213"];
+const TOP_IDOL_IDS = ["jai213"];
 const HAS_DVD_IDS = [
   "jai002",
   "jai007",
+  "jai026",
   "jai048",
   "jai053",
   "jai054",
   "jai068",
+  "jai075",
   "jai146",
+  "jai148",
+  "jai157",
+  "jai172",
   "jai195",
   "jai196",
+  "jai202",
+  "jai213",
 ];
-const NEWBIE_IDS = [];
+const NEWBIE_IDS = ["jai213"];
 
 function getEarningIdol(rank, points, styles, uncensored, best, video) {
   const rankEarnings = Math.ceil(MonthEarnings.ranking / rank);

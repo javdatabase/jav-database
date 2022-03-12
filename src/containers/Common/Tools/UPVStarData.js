@@ -20,7 +20,6 @@ import {
   Black,
   Grey,
   Orange,
-  Pink,
   LightPurple,
   Yellow,
   Red,
@@ -49,7 +48,7 @@ const Container = styled.div`
   }
 
   &::-webkit-scrollbar-thumb {
-    background: linear-gradient(${Orange}, ${Pink});
+    background: linear-gradient(${Grey}, ${Blue});
     border-radius: 10px;
   }
 `;
