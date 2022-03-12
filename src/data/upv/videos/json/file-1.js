@@ -127,6 +127,14 @@ const File1 = [
     type: "US/EU",
     stars: [{ idStar: "ups014", name: "Mia Khalifa" }],
   },
+  {
+    title: `AMATEUR SEX TAPE WITH ARYA FAE AND OWEN GRAY`,
+    source: "PORNHUB",
+    link: "https://www.pornhub.com",
+    content: `<iframe width="943" height="530" src="https://fapster.xxx/embed/114481" frameborder="0" allowfullscreen></iframe>`,
+    type: "US/EU",
+    stars: [{ idStar: "jai015", name: "Arya Fae" }],
+  },
 ];
 
 export default File1;
