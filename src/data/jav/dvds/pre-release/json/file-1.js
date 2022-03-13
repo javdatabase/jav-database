@@ -157,6 +157,27 @@ const File1 = [
     type: "Censored",
     idols: [{ idIdol: "jai007", name: "Mao Hamasaki" }],
   },
+  {
+    code: "MIAA-606",
+    title: `KIMESEKU SWEATY SQUIRTING ACME MIZUKAWA VIOLET CONFINED IN A GARBAGE MANSION CONTINUES TO BE SQUID WITH APHRODISIAC`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/miaa606/miaa606pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai190", name: "Miri Mizuki" }],
+  },
+  {
+    code: "MIAA-611",
+    title: `I HATE METAMORPHOSIS BOSS'S NIPPLE KNEADING HARASSMENT EVERY DAY UNTIL I GET SICK ● I WAS ... MINA KITANO`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/miaa611/miaa611pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai196", name: "Mina Kitano" }],
+  },
+  {
+    code: "MIAA-612",
+    title: `A BIG ASS MARRIED WOMAN IN THE AFTERNOON WALKING AROUND THE APARTMENT WITH A SEDUCTIVE SHEER T-BACK NENE TANAKA`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/miaa612/miaa612pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai185", name: "Nene Tanaka" }],
+  },
 ];
 
 export default File1;
