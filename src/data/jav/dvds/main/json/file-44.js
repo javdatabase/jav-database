@@ -1285,6 +1285,13 @@ const File44 = [
     type: "Censored",
     idols: [{ idIdol: "jai016", name: "Kanako Iioka" }],
   },
+  {
+    code: "TIKB-134",
+    title: `[ GONZO ] WHEN I GAVE KANAKO IIOKA A DRINK , THE SPEAR MAN AURA WAS FULLY OPEN , SO I TOOK A GONZO AS IT WAS !`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/tikb134/tikb134pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai016", name: "Kanako Iioka" }],
+  },
 ];
 
 export default File44;
