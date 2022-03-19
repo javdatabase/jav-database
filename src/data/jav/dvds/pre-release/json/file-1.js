@@ -1,12 +1,5 @@
 const File1 = [
   {
-    code: "MIDV-068",
-    title: `AS A HOMEROOM TEACHER , I LOST THE TEMPTATION OF THE STUDENTS AND HAD SEX OVER AND OVER AGAIN AT A LOVE HOTEL AFTER SCHOOL ... RIKKA ONO`,
-    poster: "https://pics.dmm.co.jp/mono/movie/adult/midv068/midv068pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai166", name: "Rikka Ono" }],
-  },
-  {
     code: "MIDV-082",
     title: `IS IT OKAY TO GO HOME SUDDENLY ? ASSAULT DELIVERY SEX TO M MAN KUN'S HOUSE ! ! ! SLUTS ARE CRAZY UNTIL THE GOLD BALL EXPLODES ! ! ! JINGUJI TEMPLE NAO`,
     poster: "https://pics.dmm.co.jp/mono/movie/adult/midv082/midv082pl.jpg",
@@ -14,47 +7,11 @@ const File1 = [
     idols: [{ idIdol: "jai158", name: "Nao Jinguji" }],
   },
   {
-    code: "MXGS-1232",
-    title: `KIREKAWA BEAUTY CLOSE CONTACT LOVE SEX RIHO FUJIMORI`,
-    poster:
-      "https://pics.dmm.co.jp/mono/movie/adult/h_068mxgs1232/h_068mxgs1232pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai057", name: "Yumi Maeda" }],
-  },
-  {
-    code: "DASD-981",
-    title: `APHRODISIAC SLUT ○ TRAIN FEMALE TEACHER MARON NATSUKI WHO HAS TOO STRICT LUST FOR STUDENTS`,
-    poster: "https://pics.dmm.co.jp/mono/movie/adult/dasd981/dasd981pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai172", name: "Maron Natsuki" }],
-  },
-  {
-    code: "DASD-982",
-    title: `MY SON HAS AN ERECTION THAT DOES NOT FIT NO MATTER HOW MANY TIMES HE EJACULATES A SEXUAL MONSTER YARIMAN FEMALE EMPLOYEE . HONOKA TSUJII MIU ARIOKA`,
-    poster: "https://pics.dmm.co.jp/mono/movie/adult/dasd982/dasd982pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai172", name: "Maron Natsuki" }],
-  },
-  {
     code: "CEMD-145",
     title: `A BUSTY BEAUTY WHO LIVES IN A GARBAGE MANSION 2 YUI HATANO - A FOOLERY OF A BUSTY METAMORPHOSIS WOMAN WHO IS SURROUNDED BY GARBAGE AND GETS WET !`,
     poster: "https://pics.dmm.co.jp/mono/movie/adult/cemd145/cemd145pl.jpg",
     type: "Censored",
     idols: [{ idIdol: "jai001", name: "Yui Hatano" }],
-  },
-  {
-    code: "SSIS-352",
-    title: `APHRODISIAC IS PILED UP BY MY HATED FATHER-IN-LAW ... OTHERS STICK KIMESEKU NTR TSUKASA AOI`,
-    poster: "https://pics.dmm.co.jp/mono/movie/adult/ssis352/ssis352pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai069", name: "Tsukasa Aoi" }],
-  },
-  {
-    code: "SSIS-357",
-    title: `GOD'S MILK AND BEAUTIFUL FACE PROFICIENCY-WHOLE BODY LIP AND RICH KISS THAT LICKS ANZAI AND OTHERS`,
-    poster: "https://pics.dmm.co.jp/mono/movie/adult/ssis357/ssis357pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai117", name: "Shion Utsunomiya" }],
   },
   {
     code: "WAAA-153",
@@ -69,34 +26,6 @@ const File1 = [
     poster: "https://pics.dmm.co.jp/mono/movie/adult/hmn144/hmn144pl.jpg",
     type: "Censored",
     idols: [{ idIdol: "jai041", name: "Julia" }],
-  },
-  {
-    code: "JUL-899",
-    title: `BIRTH OF A NEXT-GENERATION DIAMOND A MARRIED WOMAN WHO SHINES BRIGHTER THAN 100 CARATS AOI ICHINO 32 YEARS OLD AV DEBUT`,
-    poster: "https://pics.dmm.co.jp/mono/movie/adult/jul899/jul899pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai000", name: "Aoi Ichino" }],
-  },
-  {
-    code: "JUL-904",
-    title: `A CHANCE REUNION WITH A SEXUAL HARASSMENT TEACHER WHEN I WAS A STUDENT AT DERIHERU . FROM THAT DAY ON , I WAS MADE TO BE A COMPLIANT PET`,
-    poster: "https://pics.dmm.co.jp/mono/movie/adult/jul904/jul904pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai210", name: "Rio Kuriyama" }],
-  },
-  {
-    code: "JUL-905",
-    title: `THIS IS A STORY THAT EVEN SEX WAS POSSIBLE INSTEAD OF GETTING ANGRY IF A SUBORDINATE WAS SEXUALLY HARASSED BY A STRICT FEMALE BOSS`,
-    poster: "https://pics.dmm.co.jp/mono/movie/adult/jul905/jul905pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai067", name: "Marina Shiraishi" }],
-  },
-  {
-    code: "JUL-909",
-    title: `THE DAYS OF A VAGINAL CUM SHOT THAT NEVER ENDS . MIZUNO CHAOYANG`,
-    poster: "https://pics.dmm.co.jp/mono/movie/adult/jul909/jul909pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai011", name: "Asahi Mizuno" }],
   },
   {
     code: "RBK-043",
