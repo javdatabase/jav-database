@@ -1307,13 +1307,6 @@ const File44 = [
     idols: [{ idIdol: "jai117", name: "Shion Utsunomiya" }],
   },
   {
-    code: "JUL-899",
-    title: `BIRTH OF A NEXT-GENERATION DIAMOND A MARRIED WOMAN WHO SHINES BRIGHTER THAN 100 CARATS AOI ICHINO 32 YEARS OLD AV DEBUT`,
-    poster: "https://pics.dmm.co.jp/mono/movie/adult/jul899/jul899pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai000", name: "Aoi Ichino" }],
-  },
-  {
     code: "JUL-904",
     title: `A CHANCE REUNION WITH A SEXUAL HARASSMENT TEACHER WHEN I WAS A STUDENT AT DERIHERU . FROM THAT DAY ON , I WAS MADE TO BE A COMPLIANT PET`,
     poster: "https://pics.dmm.co.jp/mono/movie/adult/jul904/jul904pl.jpg",
