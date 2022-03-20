@@ -121,6 +121,13 @@ const File1 = [
     type: "Censored",
     idols: [{ idIdol: "jai000", name: "Miyu Sakuraka" }],
   },
+  {
+    code: "JUL-899",
+    title: `BIRTH OF A NEXT-GENERATION DIAMOND A MARRIED WOMAN WHO SHINES BRIGHTER THAN 100 CARATS AOI ICHINO 32 YEARS OLD AV DEBUT`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/jul899/jul899pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai000", name: "Aoi Ichino" }],
+  },
 ];
 
 export default File1;
