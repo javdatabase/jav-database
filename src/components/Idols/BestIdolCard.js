@@ -25,7 +25,9 @@ const AvatarContainer = styled.div`
   height: calc(19.25vw + 6px);
   background: ${(props) =>
     props.active
-      ? props.queen
+      ? props.customColor
+        ? props.customColor
+        : props.queen
         ? `linear-gradient(to right, ${Yellow}, ${Red})`
         : props.runnerUp
         ? `linear-gradient(to right, ${LightBlue}, ${Pink})`
@@ -41,11 +43,13 @@ const AvatarIdol = styled(Image)`
   object-fit: cover;
 `;
 
-const CodeDvd = styled.div`
+const NameIdol = styled.div`
   margin-top: 10px;
   font-size: ${Large};
   background: ${(props) =>
-    props.queen
+    props.customColor
+      ? props.customColor
+      : props.queen
       ? `linear-gradient(to right, ${Yellow}, ${Red})`
       : props.runnerUp
       ? `linear-gradient(to right, ${LightBlue}, ${Pink})`
@@ -54,22 +58,24 @@ const CodeDvd = styled.div`
   -webkit-text-fill-color: transparent;
 `;
 
-function BestIdolCard({ data, active }) {
+function BestIdolCard({ data, active, customColor }) {
   return (
     <Container>
       <AvatarContainer
         active={active}
         queen={getIdolRank(get(data, "idIdol", "")) === 1}
         runnerUp={getIdolRank(get(data, "idIdol", "")) === 2}
+        customColor={customColor}
       >
         <AvatarIdol src={data.avatar} />
       </AvatarContainer>
-      <CodeDvd
+      <NameIdol
         queen={getIdolRank(get(data, "idIdol", "")) === 1}
         runnerUp={getIdolRank(get(data, "idIdol", "")) === 2}
+        customColor={customColor}
       >
         {data.name}
-      </CodeDvd>
+      </NameIdol>
     </Container>
   );
 }

@@ -15,7 +15,7 @@ const ContainerLoading = styled.div`
   height: 100vh;
   top: 0px;
   left: 0px;
-  background-color: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.5);
   ${center}
 `;
 
@@ -27,7 +27,7 @@ const ContainerNotFound = styled.div`
   width: 100%;
   height: 100%;
   ${center};
-  background-color: ${Black};
+  background: ${Black};
   color: ${White};
   font-size: ${XXLarge};
   line-height: 50px;
@@ -80,6 +80,30 @@ const Debug = lazy(() =>
   componentLoader(() => import("../containers/Common/Debug"))
 );
 
+const Tools = lazy(() =>
+  componentLoader(() => import("../containers/Common/Tools/Tools"))
+);
+
+const JAVDvdDataTool = lazy(() =>
+  componentLoader(() => import("../containers/Common/Tools/JAVDvdData"))
+);
+
+const JAVIdolDataTool = lazy(() =>
+  componentLoader(() => import("../containers/Common/Tools/JAVIdolData"))
+);
+
+const JAVVideoDataTool = lazy(() =>
+  componentLoader(() => import("../containers/Common/Tools/JAVVideoData"))
+);
+
+const UPVVideoDataTool = lazy(() =>
+  componentLoader(() => import("../containers/Common/Tools/UPVVideoData"))
+);
+
+const UPVStarDataTool = lazy(() =>
+  componentLoader(() => import("../containers/Common/Tools/UPVStarData"))
+);
+
 function Routes() {
   return (
     <Suspense fallback={<Loading />}>
@@ -92,6 +116,32 @@ function Routes() {
         <Route path={"/jav"} component={Jav} />
         <Route path={"/upv"} component={Upv} />
         <Route path={"/debug"} exact={true} component={Debug} />
+        <Route path={"/tools"} exact={true} component={Tools} />
+        <Route
+          path={"/tools/jav-dvd-data"}
+          exact={true}
+          component={JAVDvdDataTool}
+        />
+        <Route
+          path={"/tools/jav-idol-data"}
+          exact={true}
+          component={JAVIdolDataTool}
+        />
+        <Route
+          path={"/tools/jav-video-data"}
+          exact={true}
+          component={JAVVideoDataTool}
+        />
+        <Route
+          path={"/tools/upv-video-data"}
+          exact={true}
+          component={UPVVideoDataTool}
+        />
+        <Route
+          path={"/tools/upv-star-data"}
+          exact={true}
+          component={UPVStarDataTool}
+        />
         <Route path={"*"} component={NotFound} />
       </Switch>
     </Suspense>

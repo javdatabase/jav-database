@@ -15,7 +15,7 @@ const ContainerLoading = styled.div`
   height: 100vh;
   top: 0px;
   left: 0px;
-  background-color: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.5);
   ${center}
 `;
 
@@ -27,7 +27,7 @@ const ContainerNotFound = styled.div`
   width: 100%;
   height: 100%;
   ${center};
-  background-color: ${Black};
+  background: ${Black};
   color: ${White};
   font-size: ${XXLarge};
   line-height: 50px;
@@ -76,6 +76,10 @@ const Home = lazy(() =>
   componentLoader(() => import("../containers/UPV/Home/Home"))
 );
 
+const LuckyBox = lazy(() =>
+  componentLoader(() => import("../containers/UPV/Home/LuckyBox"))
+);
+
 const Stars = lazy(() =>
   componentLoader(() => import("../containers/UPV/Stars/Stars"))
 );
@@ -98,6 +102,7 @@ function URoutes() {
           render={() => <Redirect to={"/upv/home"} exact={true} />}
         />
         <Route path={"/upv/home"} exact={true} component={Home} />
+        <Route path={"/upv/lucky-box"} exact={true} component={LuckyBox} />
         <Route
           path={"/upv/top-earnings"}
           exact={true}

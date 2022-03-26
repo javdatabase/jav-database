@@ -1058,7 +1058,10 @@ const File39 = [
     title: `BEAUTY VENUS VII`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/ipx497/ipx497pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai188", name: "Karen Kaede" }],
+    idols: [
+      { idIdol: "jai188", name: "Karen Kaede" },
+      { idIdol: "jai207", name: "Miru Sakamichi" },
+    ],
   },
   {
     code: "IPX-515",

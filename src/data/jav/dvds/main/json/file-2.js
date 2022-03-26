@@ -13,10 +13,6 @@ import {
   SKY140,
   SKY236,
   SKY266,
-  SKYHD029,
-  SKYHD039,
-  SKYHD087,
-  SKYHD137,
 } from "../images";
 
 const File2 = [
@@ -1712,34 +1708,6 @@ const File2 = [
     title: `I , MY OLD FATHER'S OLD STICK BECAME A HABIT …`,
     poster: `http://pics.dmm.co.jp/mono/movie/adult/h_254ruko014/h_254ruko014pl.jpg`,
     type: `Censored`,
-    idols: [{ idIdol: `jai001`, name: "Yui Hatano" }],
-  },
-  {
-    code: `SKYHD-029`,
-    title: `SKY ANGEL BLUE VOL.29`,
-    poster: SKYHD029,
-    type: `Uncensored`,
-    idols: [{ idIdol: `jai001`, name: "Yui Hatano" }],
-  },
-  {
-    code: `SKYHD-039`,
-    title: `SKY ANGEL BLUE VOL.39`,
-    poster: SKYHD039,
-    type: `Uncensored`,
-    idols: [{ idIdol: `jai001`, name: "Yui Hatano" }],
-  },
-  {
-    code: `SKYHD-087`,
-    title: `SKY ANGEL BLUE VOL.87`,
-    poster: SKYHD087,
-    type: `Uncensored`,
-    idols: [{ idIdol: `jai001`, name: "Yui Hatano" }],
-  },
-  {
-    code: `SKYHD-137`,
-    title: `SKY ANGEL BLUE CONCENTRATED`,
-    poster: SKYHD137,
-    type: `Uncensored`,
     idols: [{ idIdol: `jai001`, name: "Yui Hatano" }],
   },
   {

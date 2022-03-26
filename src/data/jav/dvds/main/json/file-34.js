@@ -2659,7 +2659,7 @@ const File34 = [
     title: `MADONNA'S EXCLUSIVE 1ST ANNIVERSARY WORK ! ! RAW FUCKING HOT SPRINGS , A HOT SPRING TRIP , WHERE YOU GET CAUGHT UP IN A HOT SPRING AND SLEEP FOR TWO NIGHTS`,
     poster: `http://pics.dmm.co.jp/mono/movie/adult/jul243/jul243pl.jpg`,
     type: `Censored`,
-    idols: [{ idIdol: "jai158", name: "Nozomi Yuiki" }],
+    idols: [{ idIdol: "jai158", name: "Nao Jinguji" }],
   },
   {
     code: "HUNTA-784",

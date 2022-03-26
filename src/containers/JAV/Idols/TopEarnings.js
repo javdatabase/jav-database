@@ -12,20 +12,33 @@ import { useHistory, useLocation } from "react-router-dom";
 import Cookies from "js-cookie";
 import LazyLoad from "react-lazyload";
 
+import { priceCurrency } from "../../../helpers/render-price";
 import {
   ALL_EARNING_IDOLS,
   ALL_BONUS_IDOLS,
+  ALL_ORIGINAL_IDOLS,
+  TOTAL_EARNINGS,
 } from "../../../services/jav/idols.service";
 import Checkbox from "../../../components/UI/Checkbox/Checkbox";
 import IdolEarning from "../../../components/Idols/IdolEarning";
 
-import { Orange, Pink, LightPurple, DarkPurple } from "../../../themes/colors";
+import {
+  White,
+  Orange,
+  Pink,
+  LightPurple,
+  DarkPurple,
+  LightBlue,
+  DarkBlue,
+} from "../../../themes/colors";
 import { center, fadeIn } from "../../../themes/styled";
+import { XLarge } from "../../../themes/font";
 
 const FilterIdolsContainer = styled.div`
   position: relative;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   width: 100%;
   height: 80px;
   border-bottom: solid 3px ${Pink};
@@ -35,6 +48,17 @@ const FilterIdolsContainer = styled.div`
 const CheckboxGroup = styled.div`
   display: flex;
   margin-left: 30px;
+`;
+
+const Total = styled.div`
+  align-self: center;
+  color: ${White};
+  font-size: ${XLarge};
+  margin-right: 30px;
+`;
+
+const Value = styled.span`
+  color: ${Pink};
 `;
 
 const Container = styled.div`
@@ -79,6 +103,8 @@ function TopEarnings() {
   const idols = useMemo(() => {
     if (get(location.state, "bonus", false)) {
       return ALL_BONUS_IDOLS;
+    } else if (get(location.state, "original", false)) {
+      return ALL_ORIGINAL_IDOLS;
     } else {
       return ALL_EARNING_IDOLS;
     }
@@ -108,21 +134,42 @@ function TopEarnings() {
 
   const handleChangeBonus = useCallback(() => {
     history.push(location.pathname, {
+      original: false,
       bonus: !get(location.state, "bonus", false),
+    });
+  }, [history, location]);
+
+  const handleChangeOriginal = useCallback(() => {
+    history.push(location.pathname, {
+      original: !get(location.state, "original", false),
+      bonus: false,
     });
   }, [history, location]);
 
   return (
     <Fragment>
       <FilterIdolsContainer>
-        <CheckboxGroup>
-          <Checkbox
-            label={"Bonus"}
-            value={get(location.state, "bonus", false)}
-            onChange={handleChangeBonus}
-            customColor={`linear-gradient(to right, ${LightPurple}, ${DarkPurple})`}
-          />
-        </CheckboxGroup>
+        <div style={{ display: "flex", alignItems: "center" }}>
+          <CheckboxGroup>
+            <Checkbox
+              label={"Bonus"}
+              value={get(location.state, "bonus", false)}
+              onChange={handleChangeBonus}
+              customColor={`linear-gradient(to right, ${LightPurple}, ${DarkPurple})`}
+            />
+          </CheckboxGroup>
+          <CheckboxGroup>
+            <Checkbox
+              label={"Original"}
+              value={get(location.state, "original", false)}
+              onChange={handleChangeOriginal}
+              customColor={`linear-gradient(to right, ${LightBlue}, ${DarkBlue})`}
+            />
+          </CheckboxGroup>
+        </div>
+        <Total>
+          Total: <Value>${priceCurrency(TOTAL_EARNINGS)}</Value>
+        </Total>
       </FilterIdolsContainer>
       <Container ref={containerRef} onScroll={handleScroll}>
         <TopEarningsContainer>

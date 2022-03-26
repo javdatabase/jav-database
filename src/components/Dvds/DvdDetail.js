@@ -1,12 +1,21 @@
-import React, { Fragment, memo } from "react";
+import React, {
+  Fragment,
+  memo,
+  useState,
+  useRef,
+  useEffect,
+  useCallback,
+} from "react";
 import { get } from "lodash";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
-import { getIdolRank } from "../../services/jav/common.service";
+import { getIdolRank, checkVideo } from "../../services/jav/common.service";
 import Backdrop from "../UI/Backdrop/Backdrop";
 import DvdPoster from "./DvdPoster";
 import IdolTag from "../Idols/IdolTag";
+import ClipboardGreyIcon from "../../assets/images/ic_clipboard_grey/ic_clipboard_grey.svg";
+import ClipboardGreenIcon from "../../assets/images/ic_clipboard_green/ic_clipboard_green.svg";
 
 import {
   Pink,
@@ -53,9 +62,23 @@ const DetailContainer = styled.div`
   box-sizing: border-box;
 `;
 
-const CodeDvd = styled.span`
+const CodeDvd = styled.div`
+  display: flex;
+  align-items: center;
   color: ${Black};
   font-size: ${XXLarge};
+  cursor: pointer;
+
+  &:hover img {
+    display: unset;
+  }
+`;
+
+const ButtonImage = styled.img`
+  display: none;
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
 `;
 
 const Title = styled.div`
@@ -79,7 +102,62 @@ const TagIdol = styled(IdolTag)`
       : `linear-gradient(to right,  ${Orange}, ${Pink})`};
 `;
 
+const VideoButtonLink = styled(Link)`
+  position: absolute;
+  right: 0px;
+  top: 3px;
+  z-index: 500;
+  ${center};
+  width: 25px;
+  height: 25px;
+  border-radius: 25px;
+  background: ${Yellow};
+`;
+
+const Dot = styled.span`
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-left: 10px solid ${Black};
+  margin-left: 3px;
+`;
+
 function DvdDetail({ show, toggleModal, data }) {
+  const [copied, setCopied] = useState(false);
+  const timer = useRef();
+
+  useEffect(() => {
+    return () => {
+      if (timer.current) {
+        clearTimeout(timer.current);
+      }
+    };
+  }, []);
+
+  const copyToClipboard = useCallback(() => {
+    if (get(data, "code", "") && !copied) {
+      const textarea = document.createElement("textarea");
+      textarea.style.position = "fixed";
+      textarea.style.left = "0";
+      textarea.style.top = "0";
+      textarea.style.opacity = "0";
+      textarea.value = get(data, "code", "");
+      document.body.appendChild(textarea);
+      textarea.focus();
+      textarea.select();
+      document.execCommand("copy");
+      document.body.removeChild(textarea);
+      setCopied(true);
+      if (timer.current) {
+        clearTimeout(timer.current);
+      }
+      timer.current = setTimeout(() => {
+        setCopied(false);
+      }, 1000);
+    }
+  }, [data, copied]);
+
   return (
     <Fragment>
       <Backdrop show={show} hiddenModal={toggleModal} />
@@ -89,8 +167,25 @@ function DvdDetail({ show, toggleModal, data }) {
       >
         <PosterDvd src={get(data, "poster", null)} />
         <DetailContainer>
-          <div>
-            <CodeDvd>{get(data, "code", "")}</CodeDvd>
+          <div
+            style={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "space-between",
+              position: "relative",
+            }}
+          >
+            <CodeDvd onClick={copyToClipboard}>
+              {get(data, "code", "")}
+              <ButtonImage
+                src={copied ? ClipboardGreenIcon : ClipboardGreyIcon}
+              />
+            </CodeDvd>
+            {checkVideo(get(data, "code", null)) && (
+              <VideoButtonLink to={`/jav/video/${get(data, "code", "")}`}>
+                <Dot />
+              </VideoButtonLink>
+            )}
           </div>
           <Title>{get(data, "title", "")}</Title>
           <IdolsContainer>

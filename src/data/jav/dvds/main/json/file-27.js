@@ -1,12 +1,4 @@
-import {
-  DRC160,
-  PT172,
-  SKYHD078,
-  HEY021,
-  HEY046,
-  BT141,
-  SMD33,
-} from "../images";
+import { DRC160, PT172, HEY021, HEY046, BT141, SMD33 } from "../images";
 
 const File27 = [
   {
@@ -866,13 +858,6 @@ const File27 = [
     code: "PT-172",
     title: `ALL MATURE BEAUTIES`,
     poster: PT172,
-    type: "Uncensored",
-    idols: [{ idIdol: "jai036", name: "Akari Asagiri" }],
-  },
-  {
-    code: "SKYHD-078",
-    title: `SKY ANGEL BLUE VOL.78`,
-    poster: SKYHD078,
     type: "Uncensored",
     idols: [{ idIdol: "jai036", name: "Akari Asagiri" }],
   },

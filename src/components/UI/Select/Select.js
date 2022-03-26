@@ -7,8 +7,7 @@ import { Grey } from "../../../themes/colors";
 const selectStyle = {
   control: (styles) => ({
     ...styles,
-    width: "300px",
-    minWidth: "300px",
+    width: "100%",
     minHeight: "40px",
     borderRadius: "6px",
     border: "none",

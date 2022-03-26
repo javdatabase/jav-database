@@ -1,7 +1,7 @@
 import React, { useState, useCallback } from "react";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
-import { getDvdsRandom } from "../../../services/jav/common.service";
 import { NEW_DVDS_RELEASE } from "../../../services/jav/dvds.service";
 import WaterWheelSlider from "../../../components/UI/Slider/WaterWheelSlider/Slider";
 import NewDvdReleaseCard from "../../../components/Dvds/NewDvdReleaseCard";
@@ -34,17 +34,14 @@ const ButtonLeft = styled.div`
   ${center}
   padding: 5px;
   border-radius: 6px;
-  background: ${(props) =>
-    props.active
-      ? `linear-gradient(to right, ${Pink}, ${Orange})`
-      : "transparent"};
+  background: linear-gradient(to right, ${Pink}, ${Orange});
   position: absolute;
   top: 20px;
   left: 45px;
   z-index: 2;
   cursor: pointer;
   font-size: ${Large};
-  color: ${(props) => (props.active ? Black : White)};
+  color: ${Black};
 
   &:hover {
     background: linear-gradient(to right, ${Pink}, ${Orange});
@@ -52,25 +49,24 @@ const ButtonLeft = styled.div`
   }
 `;
 
-const ButtonRight = styled.div`
+const ButtonRight = styled(Link)`
   ${center}
   padding: 5px;
   border-radius: 6px;
-  background: ${(props) =>
-    props.active
-      ? `linear-gradient(to right, ${Pink}, ${Orange})`
-      : "transparent"};
+  background: transparent;
   position: absolute;
   top: 20px;
   right: 45px;
   z-index: 2;
   cursor: pointer;
   font-size: ${Large};
-  color: ${(props) => (props.active ? Black : White)};
+  text-decoration: none;
+  color: ${White};
 
   &:hover {
     background: linear-gradient(to right, ${Pink}, ${Orange});
-    color: ${Black};
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 `;
 
@@ -86,47 +82,30 @@ const DetailContainer = styled.div`
 `;
 
 function Home() {
-  const [type, setType] = useState("new");
   const [highlight, setHighlight] = useState(0);
-  const [data, setData] = useState(NEW_DVDS_RELEASE);
 
   const changeHighlight = useCallback((value) => {
     setHighlight(value);
   }, []);
 
-  const changeType = useCallback((value) => {
-    if (value === "new") {
-      setData(NEW_DVDS_RELEASE);
-    } else {
-      setData(getDvdsRandom());
-    }
-    setType(value);
-  }, []);
-
   return (
     <Container>
       <WaterWheelSliderContainer>
-        <ButtonLeft active={type === "new"} onClick={() => changeType("new")}>
-          NEW RELEASE
-        </ButtonLeft>
-        <ButtonRight
-          active={type === "random"}
-          onClick={() => changeType("random")}
-        >
-          RANDOM
-        </ButtonRight>
+        <ButtonLeft>NEW RELEASE</ButtonLeft>
+        <ButtonRight to={"/jav/lucky-box"}>LUCKY BOX</ButtonRight>
         <WaterWheelSlider
           highlight={highlight}
           width={"21vw"}
           height={"calc(14vw + 40px)"}
           onSelect={changeHighlight}
           customColor={
-            data[highlight] && data[highlight].type === "Uncensored"
+            NEW_DVDS_RELEASE[highlight] &&
+            NEW_DVDS_RELEASE[highlight].type === "Uncensored"
               ? `linear-gradient(to right, ${DarkBlue}, ${LightBlue})`
               : `linear-gradient(to right, ${Pink}, ${Orange})`
           }
         >
-          {data.map((item, index) => (
+          {NEW_DVDS_RELEASE.map((item, index) => (
             <NewDvdReleaseCard
               key={item.idDvd}
               data={item}
@@ -136,7 +115,7 @@ function Home() {
         </WaterWheelSlider>
       </WaterWheelSliderContainer>
       <DetailContainer>
-        {data.map((item, index) => (
+        {NEW_DVDS_RELEASE.map((item, index) => (
           <NewDvdReleaseDetail
             key={item.idDvd}
             data={item}

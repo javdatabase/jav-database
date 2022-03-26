@@ -739,7 +739,7 @@ const File1 = [
     cup: "D-Cup",
     waist: "56 cm",
     hips: "87 cm",
-    styles: [{ tag: "Cute" }, { tag: "Beautiful Breasts" }],
+    styles: [{ tag: "Retired" }, { tag: "Cute" }, { tag: "Beautiful Breasts" }],
     album: [
       {
         picture:
@@ -1552,7 +1552,7 @@ const File1 = [
     cup: "C-Cup",
     waist: "58 cm",
     hips: "89 cm",
-    styles: [{ tag: "Cute" }, { tag: "Slender" }],
+    styles: [{ tag: "Retired" }, { tag: "Cute" }, { tag: "Slender" }],
     album: [
       {
         picture:
@@ -1757,7 +1757,6 @@ const File1 = [
     waist: "59 cm",
     hips: "84 cm",
     styles: [
-      { tag: "Retired" },
       { tag: "Cute" },
       { tag: "Beautiful Breasts" },
       { tag: "Slender" },
@@ -1818,7 +1817,7 @@ const File1 = [
     cup: "F-Cup",
     waist: "58 cm",
     hips: "85 cm",
-    styles: [{ tag: "Beautiful Breasts" }],
+    styles: [{ tag: "Retired" }, { tag: "Beautiful Breasts" }],
     album: [
       {
         picture:
@@ -2565,7 +2564,7 @@ const File1 = [
     cup: "F-Cup",
     waist: "57 cm",
     hips: "87 cm",
-    styles: [{ tag: "Cute" }, { tag: "Beautiful Breasts" }],
+    styles: [{ tag: "Retired" }, { tag: "Cute" }, { tag: "Beautiful Breasts" }],
     album: [
       {
         picture:
@@ -2622,7 +2621,6 @@ const File1 = [
     waist: "58 cm",
     hips: "85 cm",
     styles: [
-      { tag: "Retired" },
       { tag: "6 Stars JAV" },
       { tag: "Cute" },
       { tag: "Beautiful Breasts" },
@@ -2831,7 +2829,7 @@ const File1 = [
   {
     idIdol: "jai057",
     avatar:
-      "https://www.japanesebeauties.net/hardcore/caribbeancom/yumi-maeda/080917-476/yumi-maeda-7.jpg",
+      "https://www.japanesebeauties.net/hardcore/caribbeancompr/yumi-maeda/100314_971/yumi-maeda-2.jpg",
     name: "Yumi Maeda",
     other: "Riho Fujimori",
     born: "30/11/1994",
@@ -2864,7 +2862,7 @@ const File1 = [
       },
       {
         picture:
-          "https://www.japanesebeauties.net/hardcore/caribbeancompr/yumi-maeda/100314_971/yumi-maeda-2.jpg",
+          "https://www.japanesebeauties.net/hardcore/caribbeancom/yumi-maeda/080917-476/yumi-maeda-7.jpg",
       },
       {
         picture:

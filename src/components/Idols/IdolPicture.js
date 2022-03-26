@@ -31,7 +31,7 @@ const PrevButton = styled.div`
   display: ${(props) => (props.show === "true" ? "flex" : "none")};
   width: 40px;
   height: 40px;
-  background-color: ${Orange};
+  background: ${Orange};
   border-radius: 12px;
   color: ${Black};
   font-size: ${XXLarge};
@@ -41,7 +41,7 @@ const PrevButton = styled.div`
   user-select: none;
 
   &:hover {
-    background-color: ${Pink};
+    background: ${Pink};
     color: ${White};
   }
 `;
@@ -56,7 +56,7 @@ const NextButton = styled.div`
   display: ${(props) => (props.show === "true" ? "flex" : "none")};
   width: 40px;
   height: 40px;
-  background-color: ${Orange};
+  background: ${Orange};
   border-radius: 12px;
   color: ${Black};
   font-size: ${XXLarge};
@@ -66,7 +66,7 @@ const NextButton = styled.div`
   user-select: none;
 
   &:hover {
-    background-color: ${Pink};
+    background: ${Pink};
     color: ${White};
   }
 `;

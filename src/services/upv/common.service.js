@@ -1,4 +1,30 @@
-import { uniqBy, random } from "lodash";
+import { get, uniqBy, random } from "lodash";
+
+import Stars from "../../data/upv/stars";
+import Videos from "../../data/upv/videos";
+
+import { ALL_EARNING_STARS, SIZE_STARS } from "./stars.service";
+import { SIZE_VIDEOS } from "./videos.service";
+
+function findStarById(id) {
+  let detail = undefined;
+  for (let i = 0; i < SIZE_STARS; i++) {
+    if (ALL_EARNING_STARS[i].idStar === id) {
+      detail = ALL_EARNING_STARS[i];
+    }
+  }
+  return detail;
+}
+
+function getStarName(id) {
+  const detail = findStarById(id);
+  return get(detail, "name", "");
+}
+
+function getStarRank(id) {
+  const detail = findStarById(id);
+  return get(detail, "position", "");
+}
 
 function sortStars(stars) {
   const response = [...stars].sort((a, b) => {
@@ -11,10 +37,10 @@ function sortStars(stars) {
   return response.reverse();
 }
 
-function getPicturesRandom(album) {
+function getPicturesRandom(album, size = 10) {
   function generateNewPicture(array, temp) {
     if (
-      album.length >= 10 &&
+      album.length >= size &&
       !!array.find((item) => item.picture === temp.picture)
     ) {
       return generateNewPicture(array, album[random(album.length - 1)]);
@@ -23,7 +49,7 @@ function getPicturesRandom(album) {
   }
 
   function randomPictures() {
-    let pictures = Array(10).fill(0);
+    let pictures = Array(size).fill(0);
     for (let i = 0; i < pictures.length; i++) {
       pictures[i] = generateNewPicture(
         pictures,
@@ -36,4 +62,39 @@ function getPicturesRandom(album) {
   return randomPictures();
 }
 
-export { sortStars, getPicturesRandom };
+function getVideoRandom() {
+  return Videos[random(SIZE_VIDEOS - 1)];
+}
+
+function getStarsRandom() {
+  function generateNewStar(array, temp) {
+    if (!!array.find((item) => item.idStar === temp.idStar)) {
+      return generateNewStar(array, Stars[random(SIZE_STARS - 1)]);
+    }
+    return {
+      ...temp,
+      position: getStarRank(temp.idStar),
+      album: getPicturesRandom(temp.album, 20),
+    };
+  }
+
+  function randomStars() {
+    let stars = Array(10).fill(0);
+    for (let i = 0; i < stars.length; i++) {
+      stars[i] = generateNewStar(stars, Stars[random(SIZE_STARS - 1)]);
+    }
+    return stars;
+  }
+
+  return randomStars();
+}
+
+export {
+  findStarById,
+  getStarName,
+  getStarRank,
+  sortStars,
+  getPicturesRandom,
+  getVideoRandom,
+  getStarsRandom,
+};

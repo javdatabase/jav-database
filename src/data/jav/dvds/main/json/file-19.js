@@ -5,7 +5,6 @@ import {
   SKY244,
   MCDV41,
   BT137,
-  SKYHD071,
   DRG21,
   HEY105,
   SKY224,
@@ -713,13 +712,6 @@ const File19 = [
     code: "BT-146",
     title: `YES , LET'S GO TO THE HOTSPRING WITH A MARRIED WOMAN`,
     poster: BT146,
-    type: "Uncensored",
-    idols: [{ idIdol: "jai036", name: "Akari Asagiri" }],
-  },
-  {
-    code: "SKYHD-071",
-    title: `SKY ANGEL BLUE VOL.71`,
-    poster: SKYHD071,
     type: "Uncensored",
     idols: [{ idIdol: "jai036", name: "Akari Asagiri" }],
   },
@@ -1807,8 +1799,7 @@ const File19 = [
   {
     code: "GRDV-033",
     title: `AOYAMA VEGETABLES EACH CLASS A OFFENSES MILK`,
-    poster:
-     GRDV033,
+    poster: GRDV033,
     type: "Censored",
     idols: [{ idIdol: "jai080", name: "Nana Aoyama" }],
   },

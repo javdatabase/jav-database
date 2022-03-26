@@ -568,7 +568,7 @@ const File32 = [
   },
   {
     code: "HUNTA-613",
-    title: `" PLEASE LEAVE ME!I'M BROKEN ~ ! ! " UNABLE TO PUT UP WITH THE UNPROTECTED SISTER-IN-LAW , IF YOU CONTINUE TO CUM MANY TIMES FROM THE BACK IN THE ANKLE LOCK PISTON IS STRANGE TO A SUPER SENSITIVE NASTY WOMAN ABOUT CONTINUOUS CONVULSIONS EXPLOSION IKI ! ! I'M A WITHDRAWAL , BUT I GOT A CUTE SISTER-IN-LAW BY MY PARENTS' REMARRIAGE ! SISTER-IN-LAW IS NOT ONLY CUTE BUT ALSO HAS GOOD CHARACTER ...`,
+    title: `" PLEASE LEAVE ME ! I'M BROKEN ~ ! ! " UNABLE TO PUT UP WITH THE UNPROTECTED SISTER-IN-LAW , IF YOU CONTINUE TO CUM MANY TIMES FROM THE BACK IN THE ANKLE LOCK PISTON IS STRANGE TO A SUPER SENSITIVE NASTY WOMAN ABOUT CONTINUOUS CONVULSIONS EXPLOSION IKI ! ! I'M A WITHDRAWAL , BUT I GOT A CUTE SISTER-IN-LAW BY MY PARENTS' REMARRIAGE ! SISTER-IN-LAW IS NOT ONLY CUTE BUT ALSO HAS GOOD CHARACTER ...`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/hunta613/hunta613pl.jpg",
     type: "Censored",
     idols: [{ idIdol: "jai102", name: "Rin Asuka" }],
@@ -1302,7 +1302,10 @@ const File32 = [
     title: `GOD IKI AMATEUR GACHINANPA HIDDEN SPEAR MAN SURVEY 1`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/118dnw053/118dnw053pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai148", name: "Nozomi Arimura" }],
+    idols: [
+      { idIdol: "jai148", name: "Nozomi Arimura" },
+      { idIdol: "jai206", name: "Reona Kirishima" },
+    ],
   },
   {
     code: "MMKZ-067",

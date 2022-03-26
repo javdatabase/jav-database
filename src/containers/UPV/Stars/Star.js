@@ -165,7 +165,7 @@ const EarningContainer = styled.div`
 const PriceStar = styled.div`
   padding: 5px 10px;
   border-radius: 12px;
-  background-color: ${Grey};
+  background: ${Grey};
   color: ${Black};
   font-size: ${Large};
 `;

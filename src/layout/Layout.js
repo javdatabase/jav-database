@@ -3,16 +3,17 @@ import { matchPath, useLocation, Link } from "react-router-dom";
 import styled from "styled-components";
 
 import { getIdolName } from "../services/jav/common.service";
+import { getStarName } from "../services/upv/common.service";
 import { BEST_IDOL_IDS } from "../services/jav/idols.service";
-import { STAR_PROFILE } from "../services/upv/stars.service";
+import Routes from "../routes/Routes";
 import Navbar from "../components/Navbars/Navbar";
 import Header from "../components/Headers/Header";
 import ErrorBoundary from "../components/ErrorBoundary/ErrorBoundary";
-import Routes from "../routes/Routes";
+import BugIcon from "../assets/images/ic_bug/ic_bug.svg";
+import ToolsIcon from "../assets/images/ic_tools/ic_tools.svg";
 
 import { Black, White, Grey } from "../themes/colors";
 import { center } from "../themes/styled";
-import BugIcon from "../assets/images/ic_bug/ic_bug.svg";
 
 const Container = styled.div`
   position: relative;
@@ -26,18 +27,19 @@ const Body = styled.div`
   flex-direction: column;
   width: 100vw;
   height: 100vh;
-  background-color: ${Black};
+  background: ${Black};
 `;
 
 const ButtonLink = styled(Link)`
   position: fixed;
   bottom: 20px;
   right: 20px;
+  z-index: 500;
   ${center};
   width: 50px;
   height: 50px;
   border-radius: 50px;
-  background-color: ${White};
+  background: ${White};
   box-shadow: 0px 0px 20px 0px ${Black};
 
   &:hover {
@@ -59,6 +61,8 @@ function Layout() {
     const path = location.pathname;
     if (matchPath(path, { path: "/jav/home", exact: true })) {
       return "Home";
+    } else if (matchPath(path, { path: "/jav/lucky-box", exact: true })) {
+      return "Lucky Box";
     } else if (matchPath(path, { path: "/jav/best-idols", exact: true })) {
       return `${BEST_IDOL_IDS.length} Best Idols`;
     } else if (matchPath(path, { path: "/jav/ranking", exact: true })) {
@@ -80,14 +84,24 @@ function Layout() {
       return "Pre Release Dvds";
     } else if (matchPath(path, { path: "/jav/amateur-dvds", exact: true })) {
       return "Amateur Dvds";
+    } else if (matchPath(path, { path: "/jav/videos", exact: true })) {
+      return "Videos";
+    } else if (matchPath(path, { path: "/jav/video/:code", exact: true })) {
+      return path.replace("/jav/video/", "");
     } else if (matchPath(path, { path: "/upv/home", exact: true })) {
       return "Home";
+    } else if (matchPath(path, { path: "/upv/lucky-box", exact: true })) {
+      return "Lucky Box";
     } else if (matchPath(path, { path: "/upv/stars", exact: true })) {
       return "Stars";
     } else if (matchPath(path, { path: "/upv/star/:id", exact: true })) {
-      return STAR_PROFILE(path.replace("/upv/star/", "")).name;
+      return getStarName(path.replace("/upv/star/", ""));
     } else if (matchPath(path, { path: "/debug", exact: true })) {
       return "Debug";
+    } else if (matchPath(path, { path: "/tools", exact: true })) {
+      return "Tools";
+    } else if (matchPath(path, { path: "/tools/:type", exact: true })) {
+      return "Tools";
     } else {
       return "Not Found";
     }
@@ -112,6 +126,9 @@ function Layout() {
       </Body>
       <ButtonLink to={"/debug"}>
         <img src={BugIcon} alt={""} />
+      </ButtonLink>
+      <ButtonLink to={"/tools"} style={{ left: "20px" }}>
+        <img src={ToolsIcon} alt={""} />
       </ButtonLink>
     </Container>
   );

@@ -11,7 +11,7 @@ const Component = styled.div`
   margin-right: 10px;
   padding: 5px 10px;
   border-radius: 6px;
-  background-color: ${(props) => props.color};
+  background: ${(props) => props.color};
   text-align: center;
   font-size: ${Large};
 `;

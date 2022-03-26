@@ -5,7 +5,10 @@ import { Link, useLocation, useParams } from "react-router-dom";
 import LazyLoad from "react-lazyload";
 
 import { priceCurrency } from "../../../helpers/render-price";
-import { checkBestIdol } from "../../../services/jav/common.service";
+import {
+  checkBestIdol,
+  checkVideo,
+} from "../../../services/jav/common.service";
 import {
   getEarningIdol,
   getPriceOneNight,
@@ -250,8 +253,8 @@ const Picture = styled(Image)`
 
 const EarningContainer = styled.div`
   position: absolute;
-  left: 20px;
-  bottom: 20px;
+  left: 50px;
+  bottom: 100px;
   display: flex;
   flex-direction: column;
 `;
@@ -259,7 +262,7 @@ const EarningContainer = styled.div`
 const PriceIdol = styled.div`
   padding: 5px 10px;
   border-radius: 12px;
-  background-color: ${White};
+  background: ${White};
   color: ${Black};
   font-size: ${Large};
 `;
@@ -303,7 +306,8 @@ function Idol() {
       get(data, "points", 0),
       get(data, "styles", []),
       uncensored.length,
-      checkBestIdol(get(data, "idIdol", ""))
+      checkBestIdol(get(data, "idIdol", "")),
+      get(data, "dvds", []).filter((item) => checkVideo(item.code)).length
     );
   }, [data]);
 

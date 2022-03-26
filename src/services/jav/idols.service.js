@@ -8,6 +8,7 @@ import {
   sortIdols,
   sortDvds,
   checkUncensoredIdol,
+  checkVideo,
 } from "./common.service";
 import { getEarningIdol, getBonusEarnings } from "./earnings.service";
 
@@ -22,6 +23,7 @@ const BEST_IDOL_IDS = [
   "jai004",
   "jai006",
   "jai008",
+  "jai009",
   "jai015",
   "jai016",
   "jai020",
@@ -61,13 +63,16 @@ const BEST_IDOL_IDS = [
   "jai087",
   "jai091",
   "jai098",
+  "jai099",
   "jai102",
   "jai103",
   "jai106",
+  "jai107",
   "jai108",
   "jai109",
   "jai110",
   "jai111",
+  "jai112",
   "jai116",
   "jai117",
   "jai118",
@@ -81,6 +86,7 @@ const BEST_IDOL_IDS = [
   "jai151",
   "jai155",
   "jai156",
+  "jai166",
   "jai168",
   "jai169",
   "jai170",
@@ -88,6 +94,11 @@ const BEST_IDOL_IDS = [
   "jai189",
   "jai191",
   "jai196",
+  "jai200",
+  "jai201",
+  "jai203",
+  "jai205",
+  "jai209",
 ];
 
 const BEST_IDOLS = ALL_IDOLS_DETAIL.filter((item) =>
@@ -195,7 +206,8 @@ const ALL_EARNING_IDOLS = ALL_IDOLS_DETAIL.map((item) => ({
     item.points,
     item.styles,
     item.dvds.filter((item) => item.type === "Uncensored").length,
-    BEST_IDOL_IDS.includes(item.idIdol)
+    BEST_IDOL_IDS.includes(item.idIdol),
+    item.dvds.filter((item) => checkVideo(item.code)).length
   ),
   bonus: getBonusEarnings(item.idIdol),
 }))
@@ -206,6 +218,26 @@ const ALL_BONUS_IDOLS = ALL_EARNING_IDOLS.filter((item) => !!item.bonus)
   .sort((a, b) => b.bonus - a.bonus)
   .map((item, index) => ({ ...item, position: index + 1 }));
 
+const ALL_ORIGINAL_IDOLS = ALL_IDOLS_DETAIL.map((item) => ({
+  ...item,
+  earnings: getEarningIdol(
+    item.rank,
+    item.points,
+    item.styles,
+    item.dvds.filter((item) => item.type === "Uncensored").length,
+    BEST_IDOL_IDS.includes(item.idIdol),
+    item.dvds.filter((item) => checkVideo(item.code)).length
+  ),
+  bonus: getBonusEarnings(item.idIdol),
+}))
+  .sort((a, b) => b.earnings - a.earnings)
+  .map((item, index) => ({ ...item, position: index + 1 }));
+
+const TOTAL_EARNINGS = ALL_EARNING_IDOLS.reduce(
+  (acc, item) => acc + item.earnings + (item.bonus || 0),
+  0
+);
+
 export {
   SIZE_IDOLS,
   ALL_IDOLS_BY_PAGE,
@@ -215,4 +247,6 @@ export {
   IDOL_PROFILE,
   ALL_EARNING_IDOLS,
   ALL_BONUS_IDOLS,
+  ALL_ORIGINAL_IDOLS,
+  TOTAL_EARNINGS,
 };

@@ -1,5 +1,5 @@
-const Salary = 90000000;
+const Salary = 793010000;
 
-const OneNightRatio = 5;
+const OneNightRatio = 8;
 
 export { Salary, OneNightRatio };
