@@ -115,7 +115,9 @@ const HAS_DVD_IDS = [
 const NEWBIE_IDS = ["jai214", "jai215", "jai216"];
 
 function getEarningIdol(rank, points, styles, uncensored, best, video) {
-  const rankEarnings = Math.ceil(MonthEarnings.ranking / rank);
+  const rankEarnings = Math.ceil(
+    MonthEarnings.ranking / (rank > 1 ? rank * 0.6 : rank)
+  );
 
   let pointEarnings = MonthEarnings.censoredDvds * points;
   if (points >= 1000) {
