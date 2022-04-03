@@ -13,6 +13,7 @@ import * as mai_kanami from "../images/mai_kanami";
 import * as karen_yuzuriha from "../images/karen-yuzuriha";
 import * as ren_usui from "../images/ren-usui";
 import * as saika_kawakita from "../images/saika-kawakita";
+import * as ria_yamate from "../images/ria-yamate";
 
 const File4 = [
   {
@@ -1282,6 +1283,145 @@ const File4 = [
       },
       {
         picture: saika_kawakita.saika_kawakita_9,
+      },
+    ],
+  },
+  {
+    idIdol: "jai214",
+    avatar: ria_yamate.ria_yamate_3,
+    name: "Ria Yamate",
+    other: "",
+    born: "23/02/2000",
+    height: "170 cm",
+    breast: "99 cm",
+    cup: "I-Cup",
+    waist: "58 cm",
+    hips: "88 cm",
+    styles: [
+      { tag: "6 Stars JAV" },
+      { tag: "Cute" },
+      { tag: "Killer Tits" },
+      { tag: "Long Legs" },
+    ],
+    album: [
+      {
+        picture: ria_yamate.ria_yamate_2,
+      },
+      {
+        picture: ria_yamate.ria_yamate_1,
+      },
+      {
+        picture: ria_yamate.ria_yamate_4,
+      },
+      {
+        picture: ria_yamate.ria_yamate_5,
+      },
+      {
+        picture: ria_yamate.ria_yamate_6,
+      },
+      {
+        picture: ria_yamate.ria_yamate_7,
+      },
+      {
+        picture: ria_yamate.ria_yamate_8,
+      },
+      {
+        picture: ria_yamate.ria_yamate_9,
+      },
+      {
+        picture: ria_yamate.ria_yamate_10,
+      },
+      {
+        picture: ria_yamate.ria_yamate_11,
+      },
+    ],
+  },
+  {
+    idIdol: "jai215",
+    avatar:
+      "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/53000/53928/large/wapdb-hikari-azusa-pornostar-asiatique.warashi-asian-pornstars.fr-53928-011.jpg",
+    name: "Hikari Azusa",
+    other: "",
+    born: "30/11/1999",
+    height: "155 cm",
+    breast: "89 cm",
+    cup: "F-Cup",
+    waist: "54 cm",
+    hips: "86 cm",
+    styles: [{ tag: "Killer Tits" }, { tag: "Slender" }],
+    album: [
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/51000/51409/large/wapdb-hikari-azusa-pornostar-asiatique.warashi-asian-pornstars.fr-51409-001.jpg",
+      },
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/53000/53927/large/wapdb-hikari-azusa-pornostar-asiatique.warashi-asian-pornstars.fr-53927-011.jpg",
+      },
+      {
+        picture:
+          "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/54000/54039/large/wapdb-hikari-azusa-pornostar-asiatique.warashi-asian-pornstars.fr-54039-001.jpg",
+      },
+    ],
+  },
+  {
+    idIdol: "jai216",
+    avatar:
+      "https://japanesebeauties.one/japanese/nene-yoshitaka/13/nene-yoshitaka-6.jpg",
+    name: "Nene Yoshitaka",
+    other: "",
+    born: "12/01/1995",
+    height: "155 cm",
+    breast: "84 cm",
+    cup: "C-Cup",
+    waist: "56 cm",
+    hips: "85 cm",
+    styles: [
+      { tag: "6 Stars JAV" },
+      { tag: "Cute" },
+      { tag: "Beautiful Breasts" },
+      { tag: "Slender" },
+    ],
+    album: [
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/nene-yoshitaka/10/nene-yoshitaka-8.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/nene-yoshitaka/4/nene-yoshitaka-10.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/nene-yoshitaka/4/nene-yoshitaka-2.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/nene-yoshitaka/13/nene-yoshitaka-12.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/nene-yoshitaka/13/nene-yoshitaka-2.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/nene-yoshitaka/9/nene-yoshitaka-1.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/nene-yoshitaka/6/nene-yoshitaka-6.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/nene-yoshitaka/8/nene-yoshitaka-5.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/nene-yoshitaka/7/nene-yoshitaka-7.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/nene-yoshitaka/1/nene-yoshitaka-6.jpg",
       },
     ],
   },
