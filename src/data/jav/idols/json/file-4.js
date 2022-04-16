@@ -1425,6 +1425,62 @@ const File4 = [
       },
     ],
   },
+  {
+    idIdol: "jai217",
+    avatar:
+      "https://japanesebeauties.one/japanese/sakura-miura/2/sakura-miura-10.jpg",
+    name: "Sakura Miura",
+    other: "",
+    born: "30/11/1997",
+    height: "152 cm",
+    breast: "79 cm",
+    cup: "G-Cup",
+    waist: "52 cm",
+    hips: "78 cm",
+    styles: [{ tag: "Cute" }, { tag: "Beautiful Breasts" }, { tag: "Slender" }],
+    album: [
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/sakura-miura/4/sakura-miura-9.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/sakura-miura/4/sakura-miura-1.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/sakura-miura/3/sakura-miura-1.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/sakura-miura/3/sakura-miura-10.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/sakura-miura/8/sakura-miura-5.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/sakura-miura/5/sakura-miura-10.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/sakura-miura/5/sakura-miura-6.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/sakura-miura/7/sakura-miura-2.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/sakura-miura/6/sakura-miura-5.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/sakura-miura/1/sakura-miura-6.jpg",
+      },
+    ],
+  },
 ];
 
 export default File4;

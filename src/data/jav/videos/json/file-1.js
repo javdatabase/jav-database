@@ -230,6 +230,14 @@ const File1 = [
   { code: "FSDSS-099", xid: "1741" },
   { code: "FSDSS-031", xid: "1742" },
   { code: "PRED-375", xid: "2029" },
+  { code: "DASD-990", xid: "2034" },
+  { code: "WAAA-088", xid: "2036" },
+  { code: "SSNI-025", xid: "657" },
+  { code: "MIDE-540", xid: "995" },
+  { code: "MIDE-761", xid: "1528" },
+  { code: "MIDE-775", xid: "1573" },
+  { code: "MIDE-800", xid: "1574" },
+  { code: "MIDE-872", xid: "1815" },
 ];
 
 export default File1;
