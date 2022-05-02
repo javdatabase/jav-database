@@ -353,6 +353,13 @@ import MKDS11 from "./MKD-S11.jpg";
 import CWP62 from "./CWP-62.jpg";
 import SOE141 from "./SOE-141.jpeg";
 import MXX111 from "./MXX-111.jpg";
+import DRC169 from "./DRC-169.jpg";
+import MXX14 from "./MXX-14.jpg";
+import LLDV32 from "./LLDV-32.jpg";
+import MXX05 from "./MXX-05.jpg";
+import LLDV22 from "./LLDV-22.jpg";
+import MXX41 from "./MXX-41.jpg";
+import SSDV27 from "./SSDV-27.jpg";
 
 export {
   CWP49,
@@ -710,4 +717,11 @@ export {
   CWP62,
   SOE141,
   MXX111,
+  DRC169,
+  MXX14,
+  LLDV32,
+  MXX05,
+  LLDV22,
+  MXX41,
+  SSDV27,
 };
