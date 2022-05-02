@@ -1481,6 +1481,54 @@ const File4 = [
       },
     ],
   },
+  {
+    idIdol: "jai218",
+    avatar:
+      "https://japanesebeauties.one/hardcore/1pondo/yuuna-sasaki/112318_773/yuuna-sasaki-38.jpg",
+    name: "Saori Okumura",
+    other: "Yuuna Sasaki",
+    born: "30/11/1984",
+    height: "165 cm",
+    breast: "85 cm",
+    cup: "D-Cup",
+    waist: "60 cm",
+    hips: "90 cm",
+    styles: [{ tag: "Slender" }, { tag: "Mature" }],
+    album: [
+      {
+        picture:
+          "https://japanesebeauties.one/hardcore/caribbeancom/saori-okumura/051419-919/saori-okumura-5.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/hardcore/1pondo/yuuna-sasaki/082018_732/yuuna-sasaki-7.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/hardcore/caribbeancompr/yuuna-sasaki/071319_001/yuuna-sasaki-5.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/hardcore/caribbeancompr/yuuna-sasaki/102519_002/yuuna-sasaki-4.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/hardcore/caribbeancompr/yuuna-sasaki/020120_001/yuuna-sasaki-17.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/hardcore/1pondo/saori-okumura/033019_828/saori-okumura-8.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/hardcore/1pondo/yuuna-sasaki/011819_799/yuuna-sasaki-34.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/hardcore/caribbeancompr/yuuna-sasaki/083019_002/yuuna-sasaki-4.jpg",
+      },
+    ],
+  },
 ];
 
 export default File4;

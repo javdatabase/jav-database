@@ -128,6 +128,20 @@ const File1 = [
     type: "Censored",
     idols: [{ idIdol: "jai000", name: "Aoi Ichino" }],
   },
+  {
+    code: "JUL-928",
+    title: `NEXT-GENERATION DIAMOND MARRIED WOMAN , SUPER AWAKENING . DENSE KISS AND SEXUAL INTERCOURSE DROWNING IN A SWEET AND LONG KISS AOI ICHINO`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/jul928/jul928pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai000", name: "Aoi Ichino" }],
+  },
+  {
+    code: "JUL-931",
+    title: `LOOKS GRACEFUL ... BIG BREASTS I-CUP X BIG BUTT 100CM SUPER SELFISH BODY HOUSEWIFE MAYU HASEGAWA 30 YEARS OLD AV DEBUT`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/jul931/jul931pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai000", name: "Mayu Hasegawa" }],
+  },
 ];
 
 export default File1;
