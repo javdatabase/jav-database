@@ -302,6 +302,7 @@ function Idol() {
       (item) => item.type === "Uncensored"
     );
     return getEarningIdol(
+      id,
       get(data, "rank", 1000000),
       get(data, "points", 0),
       get(data, "styles", []),
@@ -309,7 +310,7 @@ function Idol() {
       checkBestIdol(get(data, "idIdol", "")),
       get(data, "dvds", []).filter((item) => checkVideo(item.code)).length
     );
-  }, [data]);
+  }, [id, data]);
 
   const price = useMemo(() => {
     return getPriceOneNight(earnings);

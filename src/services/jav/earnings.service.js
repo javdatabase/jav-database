@@ -1,10 +1,11 @@
 import {
   MonthEarnings,
+  StableEarnings,
   OneNightRatio,
   WeekEarnings,
 } from "../../helpers/earning-values";
 
-const STAR_IDOL_ID = "";
+const STAR_IDOL_ID = "jai015";
 const SWEET_NIGHT_IDS = [
   "jai015",
   "jai015",
@@ -14,23 +15,36 @@ const SWEET_NIGHT_IDS = [
   "jai041",
   "jai041",
   "jai041",
+  "jai048",
+  "jai057",
   "jai068",
   "jai068",
+  "jai078",
+  "jai078",
+  "jai148",
+  "jai148",
+  "jai196",
+  "jai196",
   "jai196",
   "jai203",
   "jai203",
   "jai205",
   "jai205",
+  "jai212",
 ];
 const BEST_DVD_IDS = [
   "jai007",
   "jai015",
+  "jai034",
   "jai041",
   "jai048",
   "jai057",
   "jai068",
+  "jai075",
+  "jai078",
   "jai148",
   "jai166",
+  "jai176",
   "jai177",
   "jai179",
   "jai190",
@@ -39,17 +53,22 @@ const BEST_DVD_IDS = [
   "jai202",
   "jai204",
   "jai205",
+  "jai212",
 ];
 const BEST_IDOL_IDS = [
   "jai007",
   "jai015",
   "jai016",
+  "jai034",
   "jai041",
   "jai048",
   "jai057",
   "jai068",
+  "jai075",
+  "jai078",
   "jai148",
   "jai166",
+  "jai176",
   "jai177",
   "jai179",
   "jai184",
@@ -59,12 +78,18 @@ const BEST_IDOL_IDS = [
   "jai202",
   "jai204",
   "jai205",
+  "jai212",
 ];
 const TOP_POINT_GROWTH_IDS = [
   "jai007",
   "jai016",
+  "jai034",
+  "jai048",
   "jai057",
+  "jai078",
+  "jai140",
   "jai148",
+  "jai176",
   "jai179",
   "jai185",
   "jai190",
@@ -88,13 +113,17 @@ const HAS_DVD_IDS = [
   "jai007",
   "jai015",
   "jai016",
+  "jai034",
   "jai041",
   "jai048",
   "jai057",
   "jai068",
+  "jai075",
+  "jai078",
   "jai140",
   "jai148",
   "jai166",
+  "jai176",
   "jai177",
   "jai179",
   "jai184",
@@ -105,10 +134,43 @@ const HAS_DVD_IDS = [
   "jai202",
   "jai204",
   "jai205",
+  "jai212",
 ];
 const NEWBIE_IDS = [];
 
-function getEarningIdol(rank, points, styles, uncensored, best, video) {
+function getStableEarningIdol(id) {
+  const STABLE_IDS = [
+    "jai038",
+    "jai041",
+    "jai048",
+    "jai057",
+    "jai062",
+    "jai067",
+    "jai068",
+    "jai069",
+    "jai070",
+    "jai133",
+    "jai148",
+    "jai151",
+    "jai157",
+    "jai158",
+    "jai166",
+    "jai170",
+    "jai171",
+    "jai179",
+    "jai187",
+    "jai190",
+    "jai196",
+    "jai199",
+    "jai200",
+    "jai203",
+    "jai205",
+    "jai210",
+  ];
+  return STABLE_IDS.includes(id) ? StableEarnings : 0;
+}
+
+function getEarningIdol(id, rank, points, styles, uncensored, best, video) {
   const rankEarnings = Math.ceil(
     MonthEarnings.ranking / (rank > 1 ? rank * 0.6 : rank)
   );
@@ -164,7 +226,8 @@ function getEarningIdol(rank, points, styles, uncensored, best, video) {
     styleEarning +
     uncensoredEarnings +
     bestEarnings +
-    videoEarnings
+    videoEarnings +
+    getStableEarningIdol(id)
   );
 }
 

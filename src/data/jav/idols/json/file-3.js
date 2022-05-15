@@ -1473,7 +1473,12 @@ const File3 = [
     cup: "D-Cup",
     waist: "59 cm",
     hips: "86 cm",
-    styles: [{ tag: "Cute" }, { tag: "Beautiful Breasts" }, { tag: "Teens" }],
+    styles: [
+      { tag: "Retired" },
+      { tag: "Cute" },
+      { tag: "Beautiful Breasts" },
+      { tag: "Teens" },
+    ],
     album: [
       {
         picture:
@@ -1529,7 +1534,7 @@ const File3 = [
     cup: "E-Cup",
     waist: "58 cm",
     hips: "88 cm",
-    styles: [{ tag: "Cute" }, { tag: "Beautiful Breasts" }],
+    styles: [{ tag: "Retired" }, { tag: "Cute" }, { tag: "Beautiful Breasts" }],
     album: [
       {
         picture:
@@ -1557,7 +1562,7 @@ const File3 = [
     cup: "F-Cup",
     waist: "58 cm",
     hips: "86 cm",
-    styles: [{ tag: "Cute" }, { tag: "Beautiful Breasts" }],
+    styles: [{ tag: "Retired" }, { tag: "Cute" }, { tag: "Beautiful Breasts" }],
     album: [
       {
         picture:
@@ -1947,7 +1952,7 @@ const File3 = [
     cup: "I-Cup",
     waist: "59 cm",
     hips: "92 cm",
-    styles: [{ tag: "Cute" }, { tag: "Killer Tits" }],
+    styles: [{ tag: "Retired" }, { tag: "Cute" }, { tag: "Killer Tits" }],
     album: [
       {
         picture: momoko_maeda.momoko_maeda_3,
@@ -1993,7 +1998,7 @@ const File3 = [
     cup: "C-Cup",
     waist: "57 cm",
     hips: "84 cm",
-    styles: [{ tag: "Cute" }, { tag: "Small Tits" }],
+    styles: [{ tag: "Retired" }, { tag: "Cute" }, { tag: "Small Tits" }],
     album: [
       {
         picture:
@@ -2306,6 +2311,7 @@ const File3 = [
     waist: "54 cm",
     hips: "86 cm",
     styles: [
+      { tag: "Retired" },
       { tag: "6 Stars JAV" },
       { tag: "Killer Tits" },
       { tag: "Long Legs" },
@@ -2594,7 +2600,7 @@ const File3 = [
     cup: "G-Cup",
     waist: "60 cm",
     hips: "90 cm",
-    styles: [{ tag: "Beautiful Breasts" }],
+    styles: [{ tag: "Retired" }, { tag: "Beautiful Breasts" }],
     album: [
       {
         picture:
@@ -2677,7 +2683,7 @@ const File3 = [
     cup: "F-Cup",
     waist: "59 cm",
     hips: "89 cm",
-    styles: [{ tag: "Cute" }, { tag: "Beautiful Breasts" }],
+    styles: [{ tag: "Retired" }, { tag: "Cute" }, { tag: "Beautiful Breasts" }],
     album: [
       {
         picture: konomi_yoshinaga.konomi_yoshinaga_9,
@@ -2959,7 +2965,7 @@ const File3 = [
     cup: "G-Cup",
     waist: "60 cm",
     hips: "92 cm",
-    styles: [{ tag: "Beautiful Breasts" }],
+    styles: [{ tag: "Retired" }, { tag: "Beautiful Breasts" }],
     album: [
       {
         picture:
