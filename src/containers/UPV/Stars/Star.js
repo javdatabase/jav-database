@@ -187,8 +187,8 @@ function Star() {
   }, [data]);
 
   const earnings = useMemo(() => {
-    return getSalaryStar(get(data, "points", 0));
-  }, [data]);
+    return getSalaryStar(id, get(data, "points", 0));
+  }, [id, data]);
 
   const price = useMemo(() => {
     return getPriceOneNight(earnings);

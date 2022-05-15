@@ -1,4 +1,8 @@
-import { Salary, OneNightRatio } from "../../helpers/salary-values";
+import {
+  MonthSalary,
+  StableSalary,
+  OneNightRatio,
+} from "../../helpers/salary-values";
 
 const SWEET_STAR_POINTS_BY_IDS = {
   ups001: 8,
@@ -18,8 +22,13 @@ const SWEET_STAR_POINTS_BY_IDS = {
   ups015: 4,
 };
 
-function getSalaryStar(points) {
-  return points * Salary;
+function getStableEarningStar(id) {
+  const STABLE_IDS = ["ups002", "ups004", "ups008"];
+  return STABLE_IDS.includes(id) ? StableSalary : 0;
+}
+
+function getSalaryStar(id, points) {
+  return points * MonthSalary + getStableEarningStar(id);
 }
 
 function getPriceOneNight(earnings) {

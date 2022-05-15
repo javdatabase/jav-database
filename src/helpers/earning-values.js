@@ -22,6 +22,8 @@ const MonthEarnings = {
   video: 13343000,
 };
 
+const StableEarnings = 326699436;
+
 const OneNightRatio = 3;
 
 const WeekEarnings = {
@@ -35,4 +37,4 @@ const WeekEarnings = {
   newbie: 15700000,
 };
 
-export { MonthEarnings, OneNightRatio, WeekEarnings };
+export { MonthEarnings, StableEarnings, OneNightRatio, WeekEarnings };

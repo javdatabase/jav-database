@@ -202,7 +202,7 @@ const File2 = [
     cup: "D-Cup",
     waist: "58 cm",
     hips: "83 cm",
-    styles: [{ tag: "Cute" }, { tag: "Beautiful Breasts" }],
+    styles: [{ tag: "Retired" }, { tag: "Cute" }, { tag: "Beautiful Breasts" }],
     album: [
       {
         picture:
@@ -797,7 +797,7 @@ const File2 = [
     cup: "E-Cup",
     waist: "59 cm",
     hips: "88 cm",
-    styles: [{ tag: "Cute" }, { tag: "Beautiful Breasts" }],
+    styles: [{ tag: "Retired" }, { tag: "Cute" }, { tag: "Beautiful Breasts" }],
     album: [
       {
         picture:
@@ -1579,7 +1579,7 @@ const File2 = [
     cup: "I-Cup",
     waist: "57 cm",
     hips: "88 cm",
-    styles: [{ tag: "Killer Tits" }],
+    styles: [{ tag: "Retired" }, { tag: "Killer Tits" }],
     album: [
       {
         picture: mika_sumire.mika_sumire_4,
@@ -2940,6 +2940,7 @@ const File2 = [
     waist: "53 cm",
     hips: "80 cm",
     styles: [
+      { tag: "Retired" },
       { tag: "6 Stars JAV" },
       { tag: "Cute" },
       { tag: "Beautiful Breasts" },
