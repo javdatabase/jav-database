@@ -142,6 +142,13 @@ const File1 = [
     type: "Censored",
     idols: [{ idIdol: "jai000", name: "Mayu Hasegawa" }],
   },
+  {
+    code: "JUL-963",
+    title: `NEXT GENERATION DIAMOND MARRIED WOMAN X AUTHENTIC " RYO ● " CUCKOLD SERIES ! ! ! I WAS RAPED BY MY HUSBAND'S BOSS ● ON THE 7TH DAY , I LOST MY REASON ... AOI ICHINO`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/jul963/jul963pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai000", name: "Aoi Ichino" }],
+  },
 ];
 
 export default File1;

@@ -2317,6 +2317,7 @@ const File34 = [
     idols: [
       { idIdol: "jai056", name: "Rui Hiduki" },
       { idIdol: "jai164", name: "Kotone Suzumiya" },
+      { idIdol: "jai219", name: "Akari Niimura" },
     ],
   },
   {

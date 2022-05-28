@@ -2801,7 +2801,10 @@ const File41 = [
     title: `CHALLENGE AS A COUPLE! IF MY HUSBAND IS SQUID TWICE WITH KAHO IMAI'S AMAZING TECHNIQUE , MY WIFE IS CUCKOLD AND CUM SHOT SEX !`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/hjmo470/hjmo470pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai179", name: "Kaho Imai" }],
+    idols: [
+      { idIdol: "jai179", name: "Kaho Imai" },
+      { idIdol: "jai219", name: "Akari Niimura" },
+    ],
   },
   {
     code: "BLK-520",

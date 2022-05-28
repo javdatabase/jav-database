@@ -614,7 +614,10 @@ const File32 = [
     title: `BUSTY SAFFLE WIFE AND CREAMPIE AFFAIR TRAVEL`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/84mdbk059/84mdbk059pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai102", name: "Rin Asuka" }],
+    idols: [
+      { idIdol: "jai102", name: "Rin Asuka" },
+      { idIdol: "jai219", name: "Akari Niimura" },
+    ],
   },
   {
     code: "GUN-738",

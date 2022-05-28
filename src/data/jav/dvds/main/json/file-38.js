@@ -36,7 +36,10 @@ const File38 = [
     title: `BECAUSE I CAN NOT ASK MY MOTHER FOR SEX TREATMENT WHILE IN THE HOSPITAL , I ASKED MY AUNT WHO CAME TO VISIT AND SECRETLY PULLED ME OUT WITH A GENTLE COWGIRL 20 CREAMPIE SPECIAL`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/1nhdtb411/1nhdtb411pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai185", name: "Nene Tanaka" }],
+    idols: [
+      { idIdol: "jai185", name: "Nene Tanaka" },
+      { idIdol: "jai219", name: "Akari Niimura" },
+    ],
   },
   {
     code: "YSN-515",
@@ -1668,7 +1671,10 @@ const File38 = [
     title: `I'LL COMMIT A BUSINESS TRIP VISIT SLUT COUNSELOR COMPLETELY SEXUAL HEALTH CARE FOR MEN AT HOME`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/84mdbk152/84mdbk152pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai061", name: "Yuria Satomi" }],
+    idols: [
+      { idIdol: "jai061", name: "Yuria Satomi" },
+      { idIdol: "jai219", name: "Akari Niimura" },
+    ],
   },
   {
     code: "PPT-104",
@@ -2569,7 +2575,10 @@ const File38 = [
     title: `WHEN I CALLED THE POPULAR MARRIED WOMAN DERIHERU , THE CUTEST CLASSMATE GIRL IN THE OLD SCHOOL CAME ! ! ! EVEN AFTER MORE THAN 10 YEARS , SHE IS STILL A BEAUTIFUL WOMAN , AND SHE HAS LEARNED TRANSCENDENTAL TECHNIQUES AND HAS BECOME EXTREMELY EROTIC ! ! ! THE TEMPTATION OF THE DEVIL TO ME WHO WAS TOLD BY EROTIC TECH ! ? ? I HAVE SEX OUT THE SECRET ! ! !`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/84scop701/84scop701pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai001", name: "Yui Hatano" }],
+    idols: [
+      { idIdol: "jai001", name: "Yui Hatano" },
+      { idIdol: "jai219", name: "Akari Niimura" },
+    ],
   },
   {
     code: "ADN-288",

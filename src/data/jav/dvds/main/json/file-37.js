@@ -1940,7 +1940,10 @@ const File37 = [
     poster:
       "http://pics.dmm.co.jp/mono/movie/adult/h_1371zmen004/h_1371zmen004pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai184", name: "Yurara Sasamoto" }],
+    idols: [
+      { idIdol: "jai184", name: "Yurara Sasamoto" },
+      { idIdol: "jai219", name: "Akari Niimura" },
+    ],
   },
   {
     code: "AMA-037",

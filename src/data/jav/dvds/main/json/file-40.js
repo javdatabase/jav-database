@@ -721,7 +721,10 @@ const File40 = [
     poster:
       "http://pics.dmm.co.jp/mono/movie/adult/118docp270/118docp270pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai177", name: "Momoka Tachibana" }],
+    idols: [
+      { idIdol: "jai177", name: "Momoka Tachibana" },
+      { idIdol: "jai219", name: "Akari Niimura" },
+    ],
   },
   {
     code: "SDMM-085",
@@ -1469,7 +1472,10 @@ const File40 = [
     title: `W BUSTY GUY ● MAO HAMASAKI / AKARI NIIMURA`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/13gvh233/13gvh233pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai007", name: "Mao Hamasaki" }],
+    idols: [
+      { idIdol: "jai007", name: "Mao Hamasaki" },
+      { idIdol: "jai219", name: "Akari Niimura" },
+    ],
   },
   {
     code: "GVH-234",

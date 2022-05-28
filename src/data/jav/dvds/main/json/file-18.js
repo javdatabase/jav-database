@@ -307,7 +307,10 @@ const File18 = [
     title: `LISTENING TO THE RUMOR THAT THERE IS A SUPER DEFERENT DERIHER APPEARING WITH THE VIBE THRUST INTO MA • , WHEN HE CALLED IT IN FACT , EROTIC BEYOND IMAGINATION SPREADING OUT IN FRONT OF YOU ! ! PART.2`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/84scop574/84scop574pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai011", name: "Asahi Mizuno" }],
+    idols: [
+      { idIdol: "jai011", name: "Asahi Mizuno" },
+      { idIdol: "jai219", name: "Akari Niimura" },
+    ],
   },
   {
     code: "VRTM-399",

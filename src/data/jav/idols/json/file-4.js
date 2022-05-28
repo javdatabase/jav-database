@@ -1529,6 +1529,62 @@ const File4 = [
       },
     ],
   },
+  {
+    idIdol: "jai219",
+    avatar:
+      "https://japanesebeauties.one/japanese/akari-niimura/14/akari-niimura-7.jpg",
+    name: "Akari Niimura",
+    other: "",
+    born: "07/07/1994",
+    height: "153 cm",
+    breast: "86 cm",
+    cup: "F-Cup",
+    waist: "58 cm",
+    hips: "88 cm",
+    styles: [{ tag: "Killer Tits" }, { tag: "Slender" }],
+    album: [
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/akari-niimura/14/akari-niimura-11.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/akari-niimura/1/akari-niimura-2.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/akari-niimura/12/akari-niimura-10.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/akari-niimura/10/akari-niimura-3.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/akari-niimura/10/akari-niimura-8.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/akari-niimura/10/akari-niimura-10.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/akari-niimura/15/akari-niimura-9.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/akari-niimura/3/akari-niimura-5.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/akari-niimura/9/akari-niimura-9.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/akari-niimura/9/akari-niimura-4.jpg",
+      },
+    ],
+  },
 ];
 
 export default File4;
