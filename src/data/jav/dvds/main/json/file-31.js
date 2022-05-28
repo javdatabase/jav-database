@@ -2202,7 +2202,10 @@ const File31 = [
     title: `" HEY , CAN I SLEEP TOGETHER BECAUSE I'M SCARED ? " 』 ON THE STORMY NIGHT , IF YOU WERE LYING WITH YOUR WEAK MOTHER-IN-LAW WITH TOO BIG BREASTS , YOU COULDN'T ENDURE AND GRAB YOUR CHEST FROM BEHIND ! ! SUDDENLY TO ME ...`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/hunta681/hunta681pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: `jai049`, name: "Hikari Anzai" }],
+    idols: [
+      { idIdol: `jai049`, name: "Hikari Anzai" },
+      { idIdol: "jai219", name: "Akari Niimura" },
+    ],
   },
   {
     code: "AP-720",
@@ -2633,7 +2636,10 @@ const File31 = [
     title: `A BEAUTIFUL ASS WOMAN WHO HAS FELT WITH A STIMULUS THAT HAS BEEN BITTEN BY A TEACHER`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/1nhdtb361/1nhdtb361pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: `jai056`, name: "Rui Hiduki" }],
+    idols: [
+      { idIdol: `jai056`, name: "Rui Hiduki" },
+      { idIdol: "jai219", name: "Akari Niimura" },
+    ],
   },
   {
     code: "NSPS-869",
