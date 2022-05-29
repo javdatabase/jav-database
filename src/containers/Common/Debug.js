@@ -7,6 +7,7 @@ import {
   checkPosterIsFalsy,
   checkAlreadyExistIdols,
   checkAlreadyExistIdIdols,
+  checkAlreadyExistVideos,
 } from "../../utils/debug-data";
 
 import { White, Orange, Pink, Yellow } from "../../themes/colors";
@@ -81,6 +82,10 @@ function Debug() {
     return checkAlreadyExistIdIdols();
   }, []);
 
+  const alreadyExistVideos = useMemo(() => {
+    return checkAlreadyExistVideos();
+  }, []);
+
   return (
     <Container>
       <Title>WARNING DATA</Title>
@@ -122,6 +127,14 @@ function Debug() {
           {typeof alreadyExistIdIdols === "string"
             ? alreadyExistIdIdols
             : alreadyExistIdIdols.join(", ")}
+        </Description>
+      </Content>
+      <Content>
+        <Label>● Videos Already Exists: </Label>
+        <Description>
+          {typeof alreadyExistVideos === "string"
+            ? alreadyExistVideos
+            : alreadyExistVideos.join(", ")}
         </Description>
       </Content>
     </Container>
