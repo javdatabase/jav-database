@@ -3,9 +3,11 @@ import React, {
   memo,
   useState,
   useRef,
+  useMemo,
   useEffect,
   useCallback,
 } from "react";
+import { get } from "lodash";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
@@ -14,6 +16,7 @@ import {
   getIdolDetail,
   getIdolRank,
 } from "../../services/jav/common.service";
+import { VIDEO_CONTENT } from "../../services/jav/videos.service";
 import DvdPoster from "./DvdPoster";
 import IdolTag from "../Idols/IdolTag";
 import IdolDetail from "../Idols/IdolDetail";
@@ -29,6 +32,7 @@ import {
   LightBlue,
   Yellow,
   Red,
+  Green,
 } from "../../themes/colors";
 import { center, fadeIn } from "../../themes/styled";
 import { Regular, XLarge } from "../../themes/font";
@@ -125,6 +129,18 @@ const VideoButtonLink = styled(Link)`
   background: ${Yellow};
 `;
 
+const WebVideoButtonLink = styled.a`
+  position: absolute;
+  right: 0px;
+  top: 36px;
+  z-index: 500;
+  ${center};
+  width: 25px;
+  height: 25px;
+  border-radius: 25px;
+  background: ${Green};
+`;
+
 const Dot = styled.span`
   width: 0;
   height: 0;
@@ -139,6 +155,14 @@ function NewDvdReleaseDetail({ data, active }) {
   const [idol, setIdol] = useState(null);
   const [copied, setCopied] = useState(false);
   const timer = useRef();
+
+  const link = useMemo(() => {
+    return `https://vlxx.link/${get(
+      VIDEO_CONTENT(get(data, "code", "")),
+      "xid",
+      ""
+    )}`;
+  }, [data]);
 
   useEffect(() => {
     return () => {
@@ -213,9 +237,18 @@ function NewDvdReleaseDetail({ data, active }) {
                 />
               </CodeDvdContainer>
               {checkVideo(data.code) && (
-                <VideoButtonLink to={`/jav/video/${data.code}`}>
-                  <Dot />
-                </VideoButtonLink>
+                <Fragment>
+                  <VideoButtonLink to={`/jav/video/${data.code}`}>
+                    <Dot />
+                  </VideoButtonLink>
+                  <WebVideoButtonLink
+                    href={link}
+                    target={"_blank"}
+                    rel={"noreferrer noopener"}
+                  >
+                    <Dot style={{ borderLeft: `10px solid ${White}` }} />
+                  </WebVideoButtonLink>
+                </Fragment>
               )}
             </div>
             <Title>{data.title}</Title>
