@@ -2473,10 +2473,6 @@ const File2 = [
       },
       {
         picture:
-          "https://www.japanesebeauties.net/photos/m/maria-ozawa/qj15/japanesebeauties002.jpg",
-      },
-      {
-        picture:
           "https://www.japanesebeauties.net/japanese/maria-ozawa/3/maria-ozawa-5.jpg",
       },
       {
@@ -2490,14 +2486,6 @@ const File2 = [
       {
         picture:
           "https://www.japanesebeauties.net/japanese/maria-ozawa/1/maria-ozawa-12.jpg",
-      },
-      {
-        picture:
-          "https://www.japanesebeauties.net/photos/m/maria-ozawa/xv43/japanesebeauties006.jpg",
-      },
-      {
-        picture:
-          "https://www.japanesebeauties.net/photos/m/maria-ozawa/qq66/japanesebeauties011.jpg",
       },
     ],
   },
