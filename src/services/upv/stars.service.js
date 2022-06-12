@@ -45,6 +45,7 @@ const STAR_PROFILE = (id) => {
   for (let i = 0; i < SIZE_STARS; i++) {
     if (Stars[i].idStar === id) {
       star = Stars[i];
+      break;
     }
   }
   const points = SWEET_STAR_POINTS_BY_IDS[id] || 0;

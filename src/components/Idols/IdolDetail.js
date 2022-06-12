@@ -73,7 +73,7 @@ const AvatarIdol = styled(Image)`
 `;
 
 const DetailContainer = styled.div`
-  width: 24vw;
+  width: 28vw;
   height: calc(22vw + 6px);
   display: flex;
   flex-direction: column;
