@@ -133,7 +133,7 @@ const File1 = [
     link: "https://www.pornhub.com",
     content: `<iframe width="943" height="530" src="https://fapster.xxx/embed/114481" frameborder="0" allowfullscreen></iframe>`,
     type: "US/EU",
-    stars: [{ idStar: "jai015", name: "Arya Fae" }],
+    stars: [{ idStar: "ups015", name: "Arya Fae" }],
   },
 ];
 
