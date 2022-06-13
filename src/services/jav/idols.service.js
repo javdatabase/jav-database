@@ -83,6 +83,7 @@ const BEST_IDOL_IDS = [
   "jai132",
   "jai133",
   "jai141",
+  "jai148",
   "jai151",
   "jai155",
   "jai156",
@@ -99,6 +100,7 @@ const BEST_IDOL_IDS = [
   "jai203",
   "jai205",
   "jai209",
+  "jai220",
 ];
 
 const BEST_IDOLS = ALL_IDOLS_DETAIL.filter((item) =>
@@ -202,6 +204,7 @@ const IDOL_PROFILE = (id) => {
 const ALL_EARNING_IDOLS = ALL_IDOLS_DETAIL.map((item) => ({
   ...item,
   earnings: getEarningIdol(
+    item.idIdol,
     item.rank,
     item.points,
     item.styles,
@@ -221,6 +224,7 @@ const ALL_BONUS_IDOLS = ALL_EARNING_IDOLS.filter((item) => !!item.bonus)
 const ALL_ORIGINAL_IDOLS = ALL_IDOLS_DETAIL.map((item) => ({
   ...item,
   earnings: getEarningIdol(
+    item.idIdol,
     item.rank,
     item.points,
     item.styles,

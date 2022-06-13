@@ -357,7 +357,10 @@ const File28 = [
     title: `A TRULY PRESENT MASSAGE MASTER'S DELICIOUS STORIES`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/118rix064/118rix064pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai055", name: "Marina Yuzuki" }],
+    idols: [
+      { idIdol: "jai055", name: "Marina Yuzuki" },
+      { idIdol: "jai219", name: "Akari Niimura" },
+    ],
   },
   {
     code: "STARS-008",

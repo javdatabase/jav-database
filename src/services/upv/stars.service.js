@@ -45,6 +45,7 @@ const STAR_PROFILE = (id) => {
   for (let i = 0; i < SIZE_STARS; i++) {
     if (Stars[i].idStar === id) {
       star = Stars[i];
+      break;
     }
   }
   const points = SWEET_STAR_POINTS_BY_IDS[id] || 0;
@@ -53,7 +54,10 @@ const STAR_PROFILE = (id) => {
 
 const ALL_EARNING_STARS = Stars.map((item) => ({
   ...item,
-  earnings: getSalaryStar(SWEET_STAR_POINTS_BY_IDS[item.idStar] || 0),
+  earnings: getSalaryStar(
+    item.idStar,
+    SWEET_STAR_POINTS_BY_IDS[item.idStar] || 0
+  ),
 }))
   .sort((a, b) => b.earnings - a.earnings)
   .map((item, index) => ({

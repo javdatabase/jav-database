@@ -3,6 +3,7 @@ import React, {
   memo,
   useState,
   useRef,
+  useMemo,
   useEffect,
   useCallback,
 } from "react";
@@ -11,6 +12,7 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 import { getIdolRank, checkVideo } from "../../services/jav/common.service";
+import { VIDEO_CONTENT } from "../../services/jav/videos.service";
 import Backdrop from "../UI/Backdrop/Backdrop";
 import DvdPoster from "./DvdPoster";
 import IdolTag from "../Idols/IdolTag";
@@ -27,6 +29,7 @@ import {
   LightBlue,
   Yellow,
   Red,
+  Green,
 } from "../../themes/colors";
 import { center, fadeIn } from "../../themes/styled";
 import { Large, XXLarge } from "../../themes/font";
@@ -114,6 +117,18 @@ const VideoButtonLink = styled(Link)`
   background: ${Yellow};
 `;
 
+const WebVideoButtonLink = styled.a`
+  position: absolute;
+  right: 0px;
+  top: 38px;
+  z-index: 500;
+  ${center};
+  width: 25px;
+  height: 25px;
+  border-radius: 25px;
+  background: ${Green};
+`;
+
 const Dot = styled.span`
   width: 0;
   height: 0;
@@ -126,6 +141,14 @@ const Dot = styled.span`
 function DvdDetail({ show, toggleModal, data }) {
   const [copied, setCopied] = useState(false);
   const timer = useRef();
+
+  const link = useMemo(() => {
+    return `https://vlxx.link/${get(
+      VIDEO_CONTENT(get(data, "code", "")),
+      "xid",
+      ""
+    )}`;
+  }, [data]);
 
   useEffect(() => {
     return () => {
@@ -182,9 +205,18 @@ function DvdDetail({ show, toggleModal, data }) {
               />
             </CodeDvd>
             {checkVideo(get(data, "code", null)) && (
-              <VideoButtonLink to={`/jav/video/${get(data, "code", "")}`}>
-                <Dot />
-              </VideoButtonLink>
+              <Fragment>
+                <VideoButtonLink to={`/jav/video/${get(data, "code", "")}`}>
+                  <Dot />
+                </VideoButtonLink>
+                <WebVideoButtonLink
+                  href={link}
+                  target={"_blank"}
+                  rel={"noreferrer noopener"}
+                >
+                  <Dot style={{ borderLeft: `10px solid ${White}` }} />
+                </WebVideoButtonLink>
+              </Fragment>
             )}
           </div>
           <Title>{get(data, "title", "")}</Title>

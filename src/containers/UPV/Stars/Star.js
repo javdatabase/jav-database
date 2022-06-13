@@ -156,8 +156,8 @@ const Picture = styled(Image)`
 
 const EarningContainer = styled.div`
   position: absolute;
-  left: 20px;
-  bottom: 20px;
+  left: 50px;
+  bottom: 100px;
   display: flex;
   flex-direction: column;
 `;
@@ -187,8 +187,8 @@ function Star() {
   }, [data]);
 
   const earnings = useMemo(() => {
-    return getSalaryStar(get(data, "points", 0));
-  }, [data]);
+    return getSalaryStar(id, get(data, "points", 0));
+  }, [id, data]);
 
   const price = useMemo(() => {
     return getPriceOneNight(earnings);

@@ -1,5 +1,7 @@
-const Salary = 825992000;
+const MonthSalary = 82599200;
 
-const OneNightRatio = 7;
+const StableSalary = 146785280;
 
-export { Salary, OneNightRatio };
+const OneNightRatio = 4;
+
+export { MonthSalary, StableSalary, OneNightRatio };

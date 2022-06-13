@@ -1,6 +1,6 @@
-import React, { memo, useCallback } from "react";
+import React, { memo } from "react";
 import styled from "styled-components";
-import { useHistory, useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 import DvdsIcon from "../../assets/images/ic_dvds/ic_dvds.svg";
 
@@ -55,12 +55,13 @@ const Bar = styled.div`
   transition: 0.3s;
 `;
 
-const LogoContainer = styled.div`
+const LogoContainer = styled(Link)`
   display: flex;
   align-items: center;
   height: 60px;
   margin-left: 50px;
   cursor: pointer;
+  text-decoration: none;
 `;
 
 const ImageLogo = styled.img`
@@ -79,12 +80,7 @@ const Title = styled.span`
 `;
 
 function Header({ title, toggleMenu }) {
-  const history = useHistory();
   const location = useLocation();
-
-  const handleClickLogo = useCallback(() => {
-    history.push(!isNotMain(location.pathname) ? "/jav" : "/upv");
-  }, [history, location.pathname]);
 
   return (
     <Container main={String(!isNotMain(location.pathname))}>
@@ -94,7 +90,7 @@ function Header({ title, toggleMenu }) {
           <Bar />
           <Bar />
         </MenuButton>
-        <LogoContainer onClick={handleClickLogo}>
+        <LogoContainer to={!isNotMain(location.pathname) ? "/jav" : "/upv"}>
           <ImageLogo src={DvdsIcon} alt={""} />
           <CompanyName>
             {!isNotMain(location.pathname) ? "JAV" : "UPV"} Database Official

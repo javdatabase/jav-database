@@ -2947,7 +2947,10 @@ const File20 = [
     title: `WANTED CHAN TV × PRESTIGE PREMIUM 22`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/118bcv022/118bcv022pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai052", name: "Saki Mizumi" }],
+    idols: [
+      { idIdol: "jai052", name: "Saki Mizumi" },
+      { idIdol: "jai219", name: "Akari Niimura" },
+    ],
   },
   {
     code: "BF-192",

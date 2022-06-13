@@ -14,6 +14,7 @@ import * as karen_yuzuriha from "../images/karen-yuzuriha";
 import * as ren_usui from "../images/ren-usui";
 import * as saika_kawakita from "../images/saika-kawakita";
 import * as ria_yamate from "../images/ria-yamate";
+import * as mugi_kobato from "../images/mugi-kobato";
 
 const File4 = [
   {
@@ -84,7 +85,7 @@ const File4 = [
     cup: "C-Cup",
     waist: "59 cm",
     hips: "85 cm",
-    styles: [{ tag: "Cute" }, { tag: "Teens" }],
+    styles: [{ tag: "Retired" }, { tag: "Cute" }, { tag: "Teens" }],
     album: [
       {
         picture:
@@ -1422,6 +1423,230 @@ const File4 = [
       {
         picture:
           "https://japanesebeauties.one/japanese/nene-yoshitaka/1/nene-yoshitaka-6.jpg",
+      },
+    ],
+  },
+  {
+    idIdol: "jai217",
+    avatar:
+      "https://japanesebeauties.one/japanese/sakura-miura/2/sakura-miura-10.jpg",
+    name: "Sakura Miura",
+    other: "",
+    born: "30/11/1997",
+    height: "152 cm",
+    breast: "79 cm",
+    cup: "G-Cup",
+    waist: "52 cm",
+    hips: "78 cm",
+    styles: [{ tag: "Cute" }, { tag: "Beautiful Breasts" }, { tag: "Slender" }],
+    album: [
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/sakura-miura/4/sakura-miura-9.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/sakura-miura/4/sakura-miura-1.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/sakura-miura/3/sakura-miura-1.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/sakura-miura/3/sakura-miura-10.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/sakura-miura/8/sakura-miura-5.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/sakura-miura/5/sakura-miura-10.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/sakura-miura/5/sakura-miura-6.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/sakura-miura/7/sakura-miura-2.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/sakura-miura/6/sakura-miura-5.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/sakura-miura/1/sakura-miura-6.jpg",
+      },
+    ],
+  },
+  {
+    idIdol: "jai218",
+    avatar:
+      "https://japanesebeauties.one/hardcore/1pondo/yuuna-sasaki/112318_773/yuuna-sasaki-38.jpg",
+    name: "Saori Okumura",
+    other: "Yuuna Sasaki",
+    born: "30/11/1984",
+    height: "165 cm",
+    breast: "85 cm",
+    cup: "D-Cup",
+    waist: "60 cm",
+    hips: "90 cm",
+    styles: [{ tag: "Retired" }, { tag: "Slender" }, { tag: "Mature" }],
+    album: [
+      {
+        picture:
+          "https://japanesebeauties.one/hardcore/caribbeancom/saori-okumura/051419-919/saori-okumura-5.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/hardcore/1pondo/yuuna-sasaki/082018_732/yuuna-sasaki-7.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/hardcore/caribbeancompr/yuuna-sasaki/071319_001/yuuna-sasaki-5.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/hardcore/caribbeancompr/yuuna-sasaki/102519_002/yuuna-sasaki-4.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/hardcore/caribbeancompr/yuuna-sasaki/020120_001/yuuna-sasaki-17.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/hardcore/1pondo/saori-okumura/033019_828/saori-okumura-8.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/hardcore/1pondo/yuuna-sasaki/011819_799/yuuna-sasaki-34.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/hardcore/caribbeancompr/yuuna-sasaki/083019_002/yuuna-sasaki-4.jpg",
+      },
+    ],
+  },
+  {
+    idIdol: "jai219",
+    avatar:
+      "https://japanesebeauties.one/japanese/akari-niimura/14/akari-niimura-7.jpg",
+    name: "Akari Niimura",
+    other: "",
+    born: "07/07/1994",
+    height: "153 cm",
+    breast: "86 cm",
+    cup: "F-Cup",
+    waist: "58 cm",
+    hips: "88 cm",
+    styles: [{ tag: "Killer Tits" }, { tag: "Slender" }],
+    album: [
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/akari-niimura/14/akari-niimura-11.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/akari-niimura/1/akari-niimura-2.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/akari-niimura/12/akari-niimura-10.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/akari-niimura/10/akari-niimura-3.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/akari-niimura/10/akari-niimura-8.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/akari-niimura/10/akari-niimura-10.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/akari-niimura/15/akari-niimura-9.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/akari-niimura/3/akari-niimura-5.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/akari-niimura/9/akari-niimura-9.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/akari-niimura/9/akari-niimura-4.jpg",
+      },
+    ],
+  },
+  {
+    idIdol: "jai220",
+    avatar: mugi_kobato.mugi_kobato_1,
+    name: "Mugi Kobato",
+    other: "",
+    born: "08/03/1999",
+    height: "158 cm",
+    breast: "92 cm",
+    cup: "G-Cup",
+    waist: "59 cm",
+    hips: "90 cm",
+    styles: [{ tag: "Killer Tits" }, { tag: "Teens" }],
+    album: [
+      {
+        picture: mugi_kobato.mugi_kobato_2,
+      },
+      {
+        picture: mugi_kobato.mugi_kobato_3,
+      },
+      {
+        picture: mugi_kobato.mugi_kobato_4,
+      },
+      {
+        picture: mugi_kobato.mugi_kobato_5,
+      },
+      {
+        picture: mugi_kobato.mugi_kobato_6,
+      },
+      {
+        picture: mugi_kobato.mugi_kobato_7,
+      },
+      {
+        picture: mugi_kobato.mugi_kobato_8,
+      },
+    ],
+  },
+  {
+    idIdol: "jai221",
+    avatar:
+      "https://japanesebeauties.one/r18/konan-sayoi/ssis00075/konan-sayoi-5.jpg",
+    name: "Konan Koyoi",
+    other: "",
+    born: "02/04/1999",
+    height: "164 cm",
+    breast: "96 cm",
+    cup: "H-Cup",
+    waist: "59 cm",
+    hips: "94 cm",
+    styles: [{ tag: "Killer Tits" }],
+    album: [
+      {
+        picture:
+          "https://japanesebeauties.one/r18/konan-sayoi/sivr00155/konan-sayoi-8.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/r18/konan-sayoi/sivr00155/konan-sayoi-5.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/r18/konan-sayoi/sivr00155/konan-sayoi-11.jpg",
       },
     ],
   },
