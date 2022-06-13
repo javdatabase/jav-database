@@ -27,6 +27,20 @@ const SWEET_NIGHT_IDS = [
   "jai190",
   "jai203",
   "jai212",
+  "jai220",
+  "jai220",
+  "jai220",
+  "jai220",
+  "jai220",
+  "jai220",
+  "jai221",
+  "jai221",
+  "jai221",
+  "jai221",
+  "jai221",
+  "jai221",
+  "jai221",
+  "jai221",
 ];
 const BEST_DVD_IDS = [
   "jai001",
@@ -49,6 +63,8 @@ const BEST_DVD_IDS = [
   "jai207",
   "jai212",
   "jai215",
+  "jai220",
+  "jai221",
 ];
 const BEST_IDOL_IDS = [
   "jai001",
@@ -74,8 +90,17 @@ const BEST_IDOL_IDS = [
   "jai207",
   "jai212",
   "jai215",
+  "jai220",
+  "jai221",
 ];
-const TOP_POINT_GROWTH_IDS = ["jai016", "jai057", "jai151", "jai190"];
+const TOP_POINT_GROWTH_IDS = [
+  "jai016",
+  "jai057",
+  "jai151",
+  "jai190",
+  "jai220",
+  "jai221",
+];
 const TOP_IDOL_IDS = [
   "jai016",
   "jai073",
@@ -87,6 +112,8 @@ const TOP_IDOL_IDS = [
   "jai212",
   "jai213",
   "jai214",
+  "jai220",
+  "jai221",
 ];
 const HAS_DVD_IDS = [
   "jai001",
@@ -113,8 +140,10 @@ const HAS_DVD_IDS = [
   "jai207",
   "jai212",
   "jai215",
+  "jai220",
+  "jai221",
 ];
-const NEWBIE_IDS = [];
+const NEWBIE_IDS = ["jai220", "jai221"];
 
 function getStableEarningIdol(id) {
   const STABLE_IDS = [
@@ -150,6 +179,8 @@ function getStableEarningIdol(id) {
     "jai214",
     "jai216",
     "jai219",
+    "jai220",
+    "jai221",
   ];
   return STABLE_IDS.includes(id) ? StableEarnings : 0;
 }
