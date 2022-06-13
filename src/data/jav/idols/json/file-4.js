@@ -14,6 +14,7 @@ import * as karen_yuzuriha from "../images/karen-yuzuriha";
 import * as ren_usui from "../images/ren-usui";
 import * as saika_kawakita from "../images/saika-kawakita";
 import * as ria_yamate from "../images/ria-yamate";
+import * as mugi_kobato from "../images/mugi-kobato";
 
 const File4 = [
   {
@@ -1582,6 +1583,70 @@ const File4 = [
       {
         picture:
           "https://japanesebeauties.one/japanese/akari-niimura/9/akari-niimura-4.jpg",
+      },
+    ],
+  },
+  {
+    idIdol: "jai220",
+    avatar: mugi_kobato.mugi_kobato_1,
+    name: "Mugi Kobato",
+    other: "",
+    born: "08/03/1999",
+    height: "158 cm",
+    breast: "92 cm",
+    cup: "G-Cup",
+    waist: "59 cm",
+    hips: "90 cm",
+    styles: [{ tag: "Killer Tits" }, { tag: "Teens" }],
+    album: [
+      {
+        picture: mugi_kobato.mugi_kobato_2,
+      },
+      {
+        picture: mugi_kobato.mugi_kobato_3,
+      },
+      {
+        picture: mugi_kobato.mugi_kobato_4,
+      },
+      {
+        picture: mugi_kobato.mugi_kobato_5,
+      },
+      {
+        picture: mugi_kobato.mugi_kobato_6,
+      },
+      {
+        picture: mugi_kobato.mugi_kobato_7,
+      },
+      {
+        picture: mugi_kobato.mugi_kobato_8,
+      },
+    ],
+  },
+  {
+    idIdol: "jai221",
+    avatar:
+      "https://japanesebeauties.one/r18/konan-sayoi/ssis00075/konan-sayoi-5.jpg",
+    name: "Konan Koyoi",
+    other: "",
+    born: "02/04/1999",
+    height: "164 cm",
+    breast: "96 cm",
+    cup: "H-Cup",
+    waist: "59 cm",
+    hips: "94 cm",
+    styles: [{ tag: "Killer Tits" }],
+    album: [
+      {
+        picture:
+          "https://japanesebeauties.one/r18/konan-sayoi/sivr00155/konan-sayoi-8.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/r18/konan-sayoi/sivr00155/konan-sayoi-5.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/r18/konan-sayoi/sivr00155/konan-sayoi-11.jpg",
       },
     ],
   },
