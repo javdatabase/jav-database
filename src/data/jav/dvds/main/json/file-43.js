@@ -472,7 +472,10 @@ const File43 = [
     title: `THE FANZA AWARD-WINNING ACTRESS IS A LUXURY CO-STAR ! ! 360 ° PLEASURE MAX DREAM REVERSE 3P THAT IS SIMULTANEOUSLY SLUT FROM TOP , BOTTOM , FRONT , BACK , LEFT AND RIGHT`,
     poster: "https://pics.dmm.co.jp/mono/movie/adult/ssni603/ssni603pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai207", name: "Miru Sakamichi" }],
+    idols: [
+      { idIdol: "jai207", name: "Miru Sakamichi" },
+      { idIdol: "jai222", name: "Moe Amatsuka" },
+    ],
   },
   {
     code: "SSNI-608",

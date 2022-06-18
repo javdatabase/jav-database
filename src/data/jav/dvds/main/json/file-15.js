@@ -1788,6 +1788,7 @@ const File15 = [
       { idIdol: "jai131", name: "Shunka Ayami" },
       { idIdol: "jai198", name: "Miharu Usa" },
       { idIdol: "jai216", name: "Nene Yoshitaka" },
+      { idIdol: "jai222", name: "Moe Amatsuka" },
     ],
   },
   {
