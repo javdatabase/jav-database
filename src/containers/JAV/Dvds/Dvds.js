@@ -1,10 +1,4 @@
-import React, {
-  Fragment,
-  useState,
-  useMemo,
-  useEffect,
-  useCallback,
-} from "react";
+import React, { Fragment, useState, useEffect, useCallback } from "react";
 import { get } from "lodash";
 import styled from "styled-components";
 import { useHistory, useLocation } from "react-router-dom";
@@ -13,7 +7,7 @@ import ElementResizeEvent from "element-resize-event";
 
 import ShortIdols from "../../../helpers/short-idols";
 import { getIdolRank } from "../../../services/jav/common.service";
-import { ALL_DVDS_RELEASE_BY_PAGE } from "../../../services/jav/dvds.service";
+import { getDvdsByFilterApi } from "../../../services-new/jav/dvds.service";
 import Input from "../../../components/UI/Input/Input";
 import Select from "../../../components/UI/Select/Select";
 import Pagination from "../../../components/UI/Pagination/Pagination";
@@ -104,24 +98,24 @@ function Dvds() {
   const location = useLocation();
   const [filterHeight, setFilterHeight] = useState(80);
   const [show, setShow] = useState(false);
+  const [dvds, setDvds] = useState({ data: [], size: 0 });
   const [data, setData] = useState(null);
-
-  const dvds = useMemo(() => {
-    const state = location.state;
-    const result = ALL_DVDS_RELEASE_BY_PAGE(
-      get(state, "code", ""),
-      get(state, "type", null),
-      get(state, "idols", null),
-      get(state, "page", 1),
-      30
-    );
-    return result;
-  }, [location.state]);
 
   const changeFilterHeight = useCallback(() => {
     const element = document.getElementById("filter-dvds");
     setFilterHeight(element.clientHeight);
   }, []);
+
+  const getDvdsByFilter = useCallback(async () => {
+    const response = await getDvdsByFilterApi(
+      get(location.state, "code", ""),
+      get(location.state, "type", null),
+      get(location.state, "idols", null),
+      get(location.state, "page", 1),
+      30
+    );
+    setDvds(response);
+  }, [location.state]);
 
   useEffect(() => {
     const element = document.getElementById("filter-dvds");
@@ -130,6 +124,10 @@ function Dvds() {
       ElementResizeEvent.unbind(element);
     };
   }, [changeFilterHeight]);
+
+  useEffect(() => {
+    getDvdsByFilter();
+  }, [getDvdsByFilter]);
 
   const handleChangeCode = useCallback(
     (code) => {

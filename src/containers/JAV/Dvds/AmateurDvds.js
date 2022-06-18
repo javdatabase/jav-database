@@ -1,11 +1,8 @@
-import React, { Fragment, useState, useMemo, useCallback } from "react";
+import React, { Fragment, useState, useEffect, useCallback } from "react";
 import styled from "styled-components";
 import LazyLoad from "react-lazyload";
 
-import {
-  ALL_DVDS_AMATEUR_BY_PAGE,
-  SIZE_AMATEUR_DVDS,
-} from "../../../services/jav/dvds.service";
+import { getAmateurDvdsByFilterApi } from "../../../services-new/jav/dvds.service";
 import Pagination from "../../../components/UI/Pagination/Pagination";
 import DvdCard from "../../../components/Dvds/DvdCard";
 import DvdDetail from "../../../components/Dvds/DvdDetail";
@@ -62,11 +59,17 @@ const NotFound = styled.div`
 function AmateurDvds() {
   const [page, setPage] = useState(1);
   const [show, setShow] = useState(false);
+  const [dvds, setDvds] = useState({ data: [], size: 0 });
   const [data, setData] = useState(null);
 
-  const dvds = useMemo(() => {
-    return ALL_DVDS_AMATEUR_BY_PAGE(page, 30);
+  const getAmateurDvdsByFilter = useCallback(async () => {
+    const response = await getAmateurDvdsByFilterApi(page, 30);
+    setDvds(response);
   }, [page]);
+
+  useEffect(() => {
+    getAmateurDvdsByFilter();
+  }, [getAmateurDvdsByFilter]);
 
   const handleChangePage = useCallback((page) => {
     setPage(page);
@@ -91,11 +94,11 @@ function AmateurDvds() {
   return (
     <Fragment>
       <Container>
-        {SIZE_AMATEUR_DVDS === 0 ? (
+        {dvds.size === 0 ? (
           <NotFound>Not Found</NotFound>
         ) : (
           <DvdContainer>
-            {dvds.map((item) => (
+            {dvds.data.map((item) => (
               <LazyLoad
                 key={item.idDvd}
                 height={200}
@@ -111,7 +114,7 @@ function AmateurDvds() {
         )}
         <PaginationContainer>
           <Pagination
-            count={SIZE_AMATEUR_DVDS}
+            count={dvds.size}
             page={page}
             size={30}
             handleChangePage={handleChangePage}

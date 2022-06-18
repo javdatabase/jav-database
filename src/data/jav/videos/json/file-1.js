@@ -481,7 +481,6 @@ const File1 = [
   { code: "IPZ-038", xid: "312" },
   { code: "IPZ-589", xid: "429" },
   { code: "SNIS-496", xid: "177" },
-  { code: "AVOP-127", xid: "392" },
   { code: "SSNI-196", xid: "1322" },
   { code: "SSNI-444", xid: "1423" },
   { code: "SSNI-411", xid: "1321" },
