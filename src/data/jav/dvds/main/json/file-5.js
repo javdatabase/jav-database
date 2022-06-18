@@ -849,6 +849,7 @@ const File5 = [
       { idIdol: `jai069`, name: "Tsukasa Aoi" },
       { idIdol: `jai074`, name: "Arisa Misato" },
       { idIdol: "jai178", name: "Nami Hoshino" },
+      { idIdol: "jai222", name: "Moe Amatsuka" },
     ],
   },
   {
@@ -1043,6 +1044,7 @@ const File5 = [
       { idIdol: `jai069`, name: "Tsukasa Aoi" },
       { idIdol: `jai074`, name: "Arisa Misato" },
       { idIdol: "jai178", name: "Nami Hoshino" },
+      { idIdol: "jai222", name: "Moe Amatsuka" },
     ],
   },
   {

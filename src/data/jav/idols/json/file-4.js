@@ -1650,6 +1650,62 @@ const File4 = [
       },
     ],
   },
+  {
+    idIdol: "jai222",
+    avatar:
+      "https://japanesebeauties.one/japanese/moe-amatsuka/137/moe-amatsuka-3.jpg",
+    name: "Moe Amatsuka",
+    other: "",
+    born: "10/07/1994",
+    height: "155 cm",
+    breast: "84 cm",
+    cup: "D-Cup",
+    waist: "57 cm",
+    hips: "82 cm",
+    styles: [{ tag: "Cute" }, { tag: "Slender" }],
+    album: [
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/moe-amatsuka/110/moe-amatsuka-1.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/moe-amatsuka/110/moe-amatsuka-12.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/moe-amatsuka/135/moe-amatsuka-1.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/moe-amatsuka/137/moe-amatsuka-10.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/moe-amatsuka/122/moe-amatsuka-4.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/moe-amatsuka/107/moe-amatsuka-3.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/moe-amatsuka/43/moe-amatsuka-11.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/moe-amatsuka/91/moe-amatsuka-12.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/moe-amatsuka/84/moe-amatsuka-3.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/moe-amatsuka/157/moe-amatsuka-9.jpg",
+      },
+    ],
+  },
 ];
 
 export default File4;
