@@ -1,9 +1,8 @@
-import React, { useState, useEffect, useCallback } from "react";
+import React, { useState, useCallback } from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 
-// import { NEW_DVDS_RELEASE } from "../../../services/jav/dvds.service";
-import { getNewReleaseDvdsApi } from "../../../services-new/jav/dvds.service";
+import { NEW_DVDS_RELEASE } from "../../../services/jav/dvds.service";
 import WaterWheelSlider from "../../../components/UI/Slider/WaterWheelSlider/Slider";
 import NewDvdReleaseCard from "../../../components/Dvds/NewDvdReleaseCard";
 import NewDvdReleaseDetail from "../../../components/Dvds/NewDvdReleaseDetail";
@@ -84,16 +83,6 @@ const DetailContainer = styled.div`
 
 function Home() {
   const [highlight, setHighlight] = useState(0);
-  const [newReleaseDvds, setNewReleaseDvds] = useState([]);
-
-  const getNewReleaseDvds = useCallback(async () => {
-    const response = await getNewReleaseDvdsApi();
-    setNewReleaseDvds(response);
-  }, []);
-
-  useEffect(() => {
-    getNewReleaseDvds();
-  }, [getNewReleaseDvds]);
 
   const changeHighlight = useCallback((value) => {
     setHighlight(value);
@@ -110,13 +99,13 @@ function Home() {
           height={"calc(14vw + 40px)"}
           onSelect={changeHighlight}
           customColor={
-            newReleaseDvds[highlight] &&
-            newReleaseDvds[highlight].type === "Uncensored"
+            NEW_DVDS_RELEASE[highlight] &&
+            NEW_DVDS_RELEASE[highlight].type === "Uncensored"
               ? `linear-gradient(to right, ${DarkBlue}, ${LightBlue})`
               : `linear-gradient(to right, ${Pink}, ${Orange})`
           }
         >
-          {newReleaseDvds.map((item, index) => (
+          {NEW_DVDS_RELEASE.map((item, index) => (
             <NewDvdReleaseCard
               key={item.idDvd}
               data={item}
@@ -126,7 +115,7 @@ function Home() {
         </WaterWheelSlider>
       </WaterWheelSliderContainer>
       <DetailContainer>
-        {newReleaseDvds.map((item, index) => (
+        {NEW_DVDS_RELEASE.map((item, index) => (
           <NewDvdReleaseDetail
             key={item.idDvd}
             data={item}
