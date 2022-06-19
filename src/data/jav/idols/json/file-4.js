@@ -15,6 +15,7 @@ import * as ren_usui from "../images/ren-usui";
 import * as saika_kawakita from "../images/saika-kawakita";
 import * as ria_yamate from "../images/ria-yamate";
 import * as mugi_kobato from "../images/mugi-kobato";
+import * as iyona_fujii from "../images/iyona-fujii";
 
 const File4 = [
   {
@@ -1703,6 +1704,70 @@ const File4 = [
       {
         picture:
           "https://japanesebeauties.one/japanese/moe-amatsuka/157/moe-amatsuka-9.jpg",
+      },
+    ],
+  },
+  {
+    idIdol: "jai223",
+    avatar:
+      "https://japanesebeauties.one/japanese/nanami-misaki/9/nanami-misaki-4.jpg",
+    name: "Nanami Misaki",
+    other: "",
+    born: "09/06/1996",
+    height: "150 cm",
+    breast: "80 cm",
+    cup: "D-Cup",
+    waist: "59 cm",
+    hips: "83 cm",
+    styles: [{ tag: "Cute" }, { tag: "Beautiful Breasts" }, { tag: "Slender" }],
+    album: [
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/nanami-misaki/2/nanami-misaki-6.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/nanami-misaki/4/nanami-misaki-3.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/nanami-misaki/6/nanami-misaki-5.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/nanami-misaki/5/nanami-misaki-10.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/nanami-misaki/8/nanami-misaki-8.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/nanami-misaki/8/nanami-misaki-5.jpg",
+      },
+    ],
+  },
+  {
+    idIdol: "jai224",
+    avatar: iyona_fujii.iyona_fujii_1,
+    name: "Iyona Fujii",
+    other: "",
+    born: "30/06/1998",
+    height: "165 cm",
+    breast: "82 cm",
+    cup: "D-Cup",
+    waist: "56 cm",
+    hips: "84 cm",
+    styles: [{ tag: "Beautiful Breasts" }, { tag: "Teens" }],
+    album: [
+      {
+        picture: iyona_fujii.iyona_fujii_2,
+      },
+      {
+        picture: iyona_fujii.iyona_fujii_3,
+      },
+      {
+        picture: iyona_fujii.iyona_fujii_4,
       },
     ],
   },
