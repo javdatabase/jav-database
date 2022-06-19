@@ -4,7 +4,7 @@ import styled from "styled-components";
 import Cookies from "js-cookie";
 import LazyLoad from "react-lazyload";
 
-import { getDetailIdolsApi } from "../../../services-new/jav/idols.service";
+import { ALL_IDOLS_DETAIL } from "../../../services/jav/idols.service";
 import IdolRanking from "../../../components/Idols/IdolRanking";
 
 import { Orange, Pink } from "../../../themes/colors";
@@ -45,7 +45,6 @@ const IdolItem = styled.div`
 function Ranking() {
   const [mount, setMount] = useState(false);
   const [scroll, setScroll] = useState(0);
-  const [data, setData] = useState([]);
   const containerRef = useRef();
 
   useEffect(() => {
@@ -64,15 +63,6 @@ function Ranking() {
     };
   }, [scroll]);
 
-  const getDetailIdols = useCallback(async () => {
-    const response = await getDetailIdolsApi();
-    setData(response);
-  }, []);
-
-  useEffect(() => {
-    getDetailIdols();
-  }, [getDetailIdols]);
-
   const handleScroll = useCallback(() => {
     if (containerRef && containerRef.current) {
       setScroll(get(containerRef.current, "scrollTop", 0));
@@ -82,7 +72,7 @@ function Ranking() {
   return (
     <Container ref={containerRef} onScroll={handleScroll}>
       <RankingContainer>
-        {data.map((item) => (
+        {ALL_IDOLS_DETAIL.map((item) => (
           <LazyLoad key={item.idIdol} height={200} once={true} overflow={true}>
             <IdolItem>
               <IdolRanking data={item} />

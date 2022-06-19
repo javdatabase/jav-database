@@ -61,11 +61,18 @@ function checkAlreadyExistIdols() {
   for (let i = 1; i < IdolsStars.length; i++) {
     for (let j = 0; j < i; j++) {
       if (
-        IdolsStars[i].name === IdolsStars[j].name &&
-        IdolsStars[i].name !== ""
+        IdolsStars[i].idIdol &&
+        IdolsStars[i].idIdol === IdolsStars[j].idIdol
       ) {
         count++;
-        response.push(IdolsStars[i].name);
+        response.push(IdolsStars[i].idIdol);
+      }
+      if (
+        IdolsStars[i].idStar &&
+        IdolsStars[i].idStar === IdolsStars[j].idStar
+      ) {
+        count++;
+        response.push(IdolsStars[j].idStar);
       }
     }
   }
@@ -126,6 +133,22 @@ function checkAlreadyExistVideos() {
   }
 }
 
+function checkVideoIsFalsy() {
+  let count = 0;
+  let response = [];
+  for (let i = 1; i < Videos.length; i++) {
+    if (!Dvds.find((item) => item.code === Videos[i].code)) {
+      count++;
+      response.push(Videos[i].code);
+    }
+  }
+  if (count !== 0) {
+    return response;
+  } else {
+    return "* none *";
+  }
+}
+
 export {
   checkAlreadyExistDvd,
   checkAlreadyExistPoster,
@@ -133,4 +156,5 @@ export {
   checkAlreadyExistIdols,
   checkAlreadyExistIdIdols,
   checkAlreadyExistVideos,
+  checkVideoIsFalsy,
 };

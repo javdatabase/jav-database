@@ -2620,7 +2620,10 @@ const File42 = [
     title: `PREMIUM VIP 3 MAJOR MANUFACTURERS EXCLUSIVE BEAUTY CO-STAR HARLEM 240 MINUTES SPECIAL AIKA YAMAGISHI NANAMI MISAKI MIZUKI AIBU`,
     poster: "https://pics.dmm.co.jp/mono/movie/adult/pred305/pred305pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai204", name: "Aika Yamagishi" }],
+    idols: [
+      { idIdol: "jai204", name: "Aika Yamagishi" },
+      { idIdol: "jai223", name: "Nanami Misaki" },
+    ],
   },
   {
     code: "PRED-314",
