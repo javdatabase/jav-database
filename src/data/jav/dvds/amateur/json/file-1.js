@@ -149,6 +149,13 @@ const File1 = [
     type: "Censored",
     idols: [{ idIdol: "jai000", name: "Aoi Ichino" }],
   },
+  {
+    code: "JUL-995",
+    title: `NEXT GENERATION DIAMOND MARRIED WOMAN CHAPTER 4-RYO ● × APPEARED IN THE CLIMAX SERIES - A MAN WHO DOESN'T WANT TO BE EMBRACED MAKES ME SQUID SO MUCH THAT I WANT TO DIE ... AOI ICHINO`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/jul995/jul995pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai000", name: "Aoi Ichino" }],
+  },
 ];
 
 export default File1;
