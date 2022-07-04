@@ -665,6 +665,27 @@ const File47 = [
     type: "Censored",
     idols: [{ idIdol: "jai016", name: "Kanako Iioka" }],
   },
+  {
+    code: "ONEZ-340",
+    title: `I WOULD LIKE TO THANK YOU FOR YOUR SUPPORT. WE WILL DELIVER A SMALL DEVIL SLUT SERVICE MAID . RUI OTOKOTO`,
+    poster: "https://img74.pixhost.to/images/58/292721554_1682053l.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai056", name: "Rui Hiduki" }],
+  },
+  {
+    code: "GMA-033",
+    title: `BONDAGE TRAINING WIFE AN ABNORMAL PLEASURE OF ANGRY WAVES THAT FALLS DUE TO THE TRICK OF A PERVERTED HUSBAND . A ROPE , A CANDLE , A WHIP , A CHRYSANTHEMUM GATE TRAINING , AND TWO INSERTS`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/gma033/gma033pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai056", name: "Rui Hiduki" }],
+  },
+  {
+    code: "LULU-153",
+    title: `DURING OVERTIME WORK , I WAS STERNLY LATE FOR WORK IN THE COMPANY WITH ONLY TWO PEOPLE , AND I WAS PROVOKED UNCONSCIOUSLY BY THE BIG ASS OF THE FEMALE BOSS OF PITAPAN . AKARI NIIMURA`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/lulu153/lulu153pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai219", name: "Akari Niimura" }],
+  },
 ];
 
 export default File47;
