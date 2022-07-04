@@ -2776,7 +2776,7 @@ const File1 = [
     avatar:
       "https://www.japanesebeauties.net/japanese/rui-hiduki/8/rui-hiduki-8.jpg",
     name: "Rui Hiduki",
-    other: "",
+    other: "Rui Otogoto",
     born: "16/01/1994",
     height: "158 cm",
     breast: "92 cm",
