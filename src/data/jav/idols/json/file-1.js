@@ -2565,7 +2565,7 @@ const File1 = [
     cup: "F-Cup",
     waist: "57 cm",
     hips: "87 cm",
-    styles: [{ tag: "Retired" }, { tag: "Cute" }, { tag: "Beautiful Breasts" }],
+    styles: [{ tag: "Cute" }, { tag: "Beautiful Breasts" }],
     album: [
       {
         picture:

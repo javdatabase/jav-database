@@ -16,6 +16,7 @@ import * as saika_kawakita from "../images/saika-kawakita";
 import * as ria_yamate from "../images/ria-yamate";
 import * as mugi_kobato from "../images/mugi-kobato";
 import * as iyona_fujii from "../images/iyona-fujii";
+import * as momona_koibuchi from "../images/momona-koibuchi";
 
 const File4 = [
   {
@@ -1768,6 +1769,51 @@ const File4 = [
       },
       {
         picture: iyona_fujii.iyona_fujii_4,
+      },
+    ],
+  },
+  {
+    idIdol: "jai225",
+    avatar: momona_koibuchi.momona_koibuchi_10,
+    name: "Momona Koibuchi",
+    other: "",
+    born: "14/06/2000",
+    height: "161 cm",
+    breast: "103 cm",
+    cup: "M-Cup",
+    waist: "65 cm",
+    hips: "92 cm",
+    styles: [{ tag: "Killer Tits" }],
+    album: [
+      {
+        picture: momona_koibuchi.momona_koibuchi_1,
+      },
+      {
+        picture: momona_koibuchi.momona_koibuchi_2,
+      },
+      {
+        picture: momona_koibuchi.momona_koibuchi_3,
+      },
+      {
+        picture: momona_koibuchi.momona_koibuchi_4,
+      },
+      {
+        picture: momona_koibuchi.momona_koibuchi_5,
+      },
+      {
+        picture: momona_koibuchi.momona_koibuchi_6,
+      },
+      {
+        picture: momona_koibuchi.momona_koibuchi_7,
+      },
+      {
+        picture: momona_koibuchi.momona_koibuchi_9,
+      },
+      {
+        picture: momona_koibuchi.momona_koibuchi_8,
+      },
+      {
+        picture: momona_koibuchi.momona_koibuchi_11,
       },
     ],
   },
