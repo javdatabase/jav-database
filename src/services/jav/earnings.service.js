@@ -9,37 +9,47 @@ const STAR_IDOL_ID = "";
 const SWEET_NIGHT_IDS = ["jai067", "jai158", "jai220", "jai221"];
 const BEST_DVD_IDS = [
   "jai007",
+  "jai026",
   "jai053",
   "jai067",
   "jai069",
   "jai148",
   "jai158",
   "jai190",
+  "jai195",
   "jai197",
+  "jai202",
   "jai210",
   "jai213",
   "jai214",
+  "jai216",
   "jai219",
   "jai220",
   "jai221",
+  "jai222",
 ];
 const BEST_IDOL_IDS = [
   "jai007",
+  "jai026",
   "jai053",
   "jai067",
   "jai069",
   "jai148",
   "jai158",
   "jai190",
+  "jai195",
   "jai197",
+  "jai202",
   "jai210",
   "jai213",
   "jai214",
+  "jai216",
   "jai219",
   "jai220",
   "jai221",
+  "jai222",
 ];
-const TOP_POINT_GROWTH_IDS = ["jai007", "jai016"];
+const TOP_POINT_GROWTH_IDS = ["jai007", "jai016", "jai219"];
 const TOP_IDOL_IDS = [
   "jai016",
   "jai190",
@@ -52,6 +62,7 @@ const TOP_IDOL_IDS = [
 ];
 const HAS_DVD_IDS = [
   "jai007",
+  "jai026",
   "jai053",
   "jai067",
   "jai069",
@@ -61,14 +72,18 @@ const HAS_DVD_IDS = [
   "jai158",
   "jai185",
   "jai190",
+  "jai195",
   "jai197",
+  "jai202",
   "jai210",
   "jai212",
   "jai213",
   "jai214",
+  "jai216",
   "jai219",
   "jai220",
   "jai221",
+  "jai222",
 ];
 const NEWBIE_IDS = [];
 
