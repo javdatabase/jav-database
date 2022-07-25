@@ -22,7 +22,7 @@ const MonthEarnings = {
   video: 13343000,
 };
 
-const StableEarnings = 326699436;
+const StableEarnings = 772000000;
 
 const OneNightRatio = 3;
 
