@@ -91,34 +91,6 @@ const File1 = [
     idols: [{ idIdol: "jai073", name: "Minami Aizawa" }],
   },
   {
-    code: "WAAA-194",
-    title: `A BUSTY WIFE WHO RE-EMPLOYED AT A COOL IT COMPANY SEEMS TO GO ON AN EMPLOYEE TRIP ... JULIA`,
-    poster: "https://pics.dmm.co.jp/mono/movie/adult/waaa194/waaa194pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai041", name: "Julia" }],
-  },
-  {
-    code: "WAAA-200",
-    title: `SEX APPEAL MUNMUN FEMALE BOSS'S SHARED ROOM MARA EATING REVERSE NTR I WAS NAUGHTY IN THE PRESS WITH A BIG BREASTS BIG ASS CUM SHOT UNTIL MORNING ... MAO HAMASAKI SARINA MOMONAGA`,
-    poster: "https://pics.dmm.co.jp/mono/movie/adult/waaa200/waaa200pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai007", name: "Mao Hamasaki" }],
-  },
-  {
-    code: "SAME-013",
-    title: `A SOLITARY FEMALE DETECTIVE WHO FELL INTO A SEX TOY AFTER BEING RAPED BY AN APHRODISIAC BY THE MOST HATED MAN IN THE WORLD WHO KILLED HER FATHER . SHIRAMINE MIU`,
-    poster: "https://pics.dmm.co.jp/mono/movie/adult/same013/same013pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai200", name: "Miu Shiromine" }],
-  },
-  {
-    code: "SAME-014",
-    title: `STRONG AFTER THE SENTENCE ● THE DAY WHEN THE DEVIL COMMITTED A WOMAN FOR THE FIRST TIME IN 10 YEARS . TSUBAKI SANNOMIYA`,
-    poster: "https://pics.dmm.co.jp/mono/movie/adult/same014/same014pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai187", name: "Tsubaki Sannomiya" }],
-  },
-  {
     code: "NGOD-179",
     title: `MY WIFE , WHO WAS STABBED BY AN UNEQUALED BIG COCK IN AGONY ON A LOCAL BUSINESS TRIP ACCOMPANIED BY HER HUSBAND'S BOSS WHO HAS A POWER HARASSMENT AND IS PHYSIOLOGICALLY IMPOSSIBLE , HAS FALLEN INTO PLEASURE BY THE NEXT MORNING . KANA`,
     poster: "https://pics.dmm.co.jp/mono/movie/adult/ngod179/ngod179pl.jpg",
@@ -132,20 +104,6 @@ const File1 = [
       "https://pics.dmm.co.jp/mono/movie/adult/h_1100hzgd227/h_1100hzgd227pl.jpg",
     type: "Censored",
     idols: [{ idIdol: "jai126", name: "Kaede Mizukawa" }],
-  },
-  {
-    code: "GVH-434",
-    title: `SEX APPEAL PA CHAIRMAN AND EVIL KID STUDENT ORGANIZATION AN MITSUMI`,
-    poster: "https://pics.dmm.co.jp/mono/movie/adult/gvh434/gvh434pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai212", name: "An Mitsumi" }],
-  },
-  {
-    code: "MIDV-168",
-    title: `THAT ? WHEN SHE WAS ERECTED ON A SECRET WHISPERING TEMPTATION DATE WITH HER BEST FRIEND WHO VOLUNTEERED FOR SAFFLE FOR TWO DAYS AT HOME , SHE MADE VAGINAL CUM SHOT AT A HOTEL NEARBY OVER AND OVER AGAIN . JINGUJI TEMPLE NAO`,
-    poster: "https://pics.dmm.co.jp/mono/movie/adult/midv168/midv168pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai158", name: "Nao Jinguji" }],
   },
 ];
 
