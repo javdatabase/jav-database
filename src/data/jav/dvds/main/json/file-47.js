@@ -1887,6 +1887,14 @@ const File47 = [
     type: "Censored",
     idols: [{ idIdol: "jai001", name: "Yui Hatano" }],
   },
+  {
+    code: "NACR-572",
+    title: `MAO HAMASAKI , THE WIFE OF AN EDITOR WHO WAS KEPT BY AN ELDERLY NOVELIST`,
+    poster:
+      "https://pics.dmm.co.jp/mono/movie/adult/h_237nacr572/h_237nacr572pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai007", name: "Mao Hamasaki" }],
+  },
 ];
 
 export default File47;
