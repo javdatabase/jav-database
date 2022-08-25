@@ -13,6 +13,7 @@ const MonthEarnings = {
     active: 257400000,
     retired: 182150000,
   },
+  veryPretty: 233555000,
   sixStar: 100000000,
   killerTits: 98000000,
   beautifulBreasts: 96000000,

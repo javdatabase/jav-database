@@ -871,13 +871,6 @@ const File44 = [
     idols: [{ idIdol: "jai038", name: "Tsubasa Amami" }],
   },
   {
-    code: "JUL-882",
-    title: `A MARRIED WOMAN OF AN ACTIVE NURSERY TEACHER WITH A DAZZLING INNOCENT SMILE YUKI SHINOMIYA 30 YEARS OLD AV DEBUT`,
-    poster: "https://pics.dmm.co.jp/mono/movie/adult/jul882/jul882pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai000", name: "Yuki Sasamiya" }],
-  },
-  {
     code: "JUL-890",
     title: `AT THE PUBLIC BATH JUST BEFORE THE STORE CLOSES ... ~ IMMORAL HOT WATER SWEATY SEXUAL INTERCOURSE WITH A YOUNGER MAN ~ NAO JINGUJI`,
     poster: "https://pics.dmm.co.jp/mono/movie/adult/jul890/jul890pl.jpg",
