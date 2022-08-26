@@ -202,7 +202,12 @@ const File2 = [
     cup: "D-Cup",
     waist: "58 cm",
     hips: "83 cm",
-    styles: [{ tag: "Retired" }, { tag: "Cute" }, { tag: "Beautiful Breasts" }],
+    styles: [
+      { tag: "Very Pretty" },
+      { tag: "Retired" },
+      { tag: "Cute" },
+      { tag: "Beautiful Breasts" },
+    ],
     album: [
       {
         picture:
@@ -313,7 +318,12 @@ const File2 = [
     cup: "H-Cup",
     waist: "61 cm",
     hips: "86 cm",
-    styles: [{ tag: "Retired" }, { tag: "Cute" }, { tag: "Killer Tits" }],
+    styles: [
+      { tag: "Very Pretty" },
+      { tag: "Retired" },
+      { tag: "Cute" },
+      { tag: "Killer Tits" },
+    ],
     album: [
       {
         picture: angelia_mizuki.angelia_mizuki_6,
@@ -480,43 +490,35 @@ const File2 = [
     album: [
       {
         picture:
-          "https://www.japanesebeauties.net/photo-gallery/b/0151-juicy-honey-yu-asakura-013.jpg",
+          "https://japanesebeauties.one/jpg/sexasian18/1104/gallery/_Y/Yuu_Asakura/gallery4/SexAsian18_006.jpg",
       },
       {
         picture:
-          "https://www.japanesebeauties.net/photo-gallery/b/0151-juicy-honey-yu-asakura-015.jpg",
+          "https://japanesebeauties.one/jpg/sexasian18/703/gallery/_Y/Yuu_Asakura/gallery3/SexAsian18_006.jpg",
       },
       {
         picture:
-          "https://www.japanesebeauties.net/photo-gallery/b/0151-juicy-honey-yu-asakura-028.jpg",
+          "https://japanesebeauties.one/jpg/sexasian18/703/gallery/_Y/Yuu_Asakura/gallery3/SexAsian18_008.jpg",
       },
       {
         picture:
-          "https://www.japanesebeauties.net/photo-gallery/b/0151-juicy-honey-yu-asakura-068.jpg",
+          "https://japanesebeauties.one/jpg/sexasian18/703/gallery/_Y/Yuu_Asakura/gallery3/SexAsian18_013.jpg",
       },
       {
         picture:
-          "https://www.japanesebeauties.net/photo-gallery/b/0151-juicy-honey-yu-asakura-043.jpg",
+          "https://japanesebeauties.one/jpg/sexasian18/703/gallery/_Y/Yuu_Asakura/gallery3/SexAsian18_001.jpg",
       },
       {
         picture:
-          "https://www.japanesebeauties.net/photo-gallery/b/0151-juicy-honey-yu-asakura-056.jpg",
+          "https://japanesebeauties.one/jpg/sexasian18/636/gallery/_Y/Yuu_Asakura/gallery2/SexAsian18_003.jpg",
       },
       {
         picture:
-          "https://www.japanesebeauties.net/photo-gallery/b/0151-juicy-honey-yu-asakura-087.jpg",
+          "https://japanesebeauties.one/jpg/sexasian18/1104/gallery/_Y/Yuu_Asakura/gallery4/SexAsian18_007.jpg",
       },
       {
         picture:
-          "https://www.japanesebeauties.net/photo-gallery/b/0151-juicy-honey-yu-asakura-090.jpg",
-      },
-      {
-        picture:
-          "https://www.japanesebeauties.net/photo-gallery/b/0151-juicy-honey-yu-asakura-096.jpg",
-      },
-      {
-        picture:
-          "https://www.japanesebeauties.net/photo-gallery/b/0151-juicy-honey-yu-asakura-115.jpg",
+          "https://japanesebeauties.one/jpg/sexasian18/1104/gallery/_Y/Yuu_Asakura/gallery4/SexAsian18_009.jpg",
       },
     ],
   },
@@ -533,6 +535,7 @@ const File2 = [
     waist: "60 cm",
     hips: "90 cm",
     styles: [
+      { tag: "Very Pretty" },
       { tag: "6 Stars JAV" },
       { tag: "Cute" },
       { tag: "Killer Tits" },
@@ -593,7 +596,12 @@ const File2 = [
     cup: "H-Cup",
     waist: "58 cm",
     hips: "88 cm",
-    styles: [{ tag: "6 Stars JAV" }, { tag: "Cute" }, { tag: "Killer Tits" }],
+    styles: [
+      { tag: "Very Pretty" },
+      { tag: "6 Stars JAV" },
+      { tag: "Cute" },
+      { tag: "Killer Tits" },
+    ],
     album: [
       { picture: "https://www.japanesebeauties.net/japanese/aoi/31/aoi-2.jpg" },
       { picture: "https://www.japanesebeauties.net/japanese/aoi/23/aoi-2.jpg" },
@@ -682,6 +690,7 @@ const File2 = [
     waist: "57 cm",
     hips: "88 cm",
     styles: [
+      { tag: "Very Pretty" },
       { tag: "6 Stars JAV" },
       { tag: "Cute" },
       { tag: "Beautiful Breasts" },
@@ -899,6 +908,7 @@ const File2 = [
     waist: "57 cm",
     hips: "83 cm",
     styles: [
+      { tag: "Very Pretty" },
       { tag: "Retired" },
       { tag: "6 Stars JAV" },
       { tag: "Cute" },
@@ -1021,6 +1031,7 @@ const File2 = [
     waist: "60 cm",
     hips: "88 cm",
     styles: [
+      { tag: "Very Pretty" },
       { tag: "Retired" },
       { tag: "Cute" },
       { tag: "Killer Tits" },
@@ -1083,6 +1094,7 @@ const File2 = [
     waist: "60 cm",
     hips: "89 cm",
     styles: [
+      { tag: "Very Pretty" },
       { tag: "Retired" },
       { tag: "Killer Tits" },
       { tag: "Former Gravure Model" },
@@ -1142,7 +1154,11 @@ const File2 = [
     cup: "H-Cup",
     waist: "58 cm",
     hips: "84 cm",
-    styles: [{ tag: "Killer Tits" }, { tag: "Slender" }],
+    styles: [
+      { tag: "Very Pretty" },
+      { tag: "Killer Tits" },
+      { tag: "Slender" },
+    ],
     album: [
       {
         picture:
@@ -1311,6 +1327,7 @@ const File2 = [
     waist: "58 cm",
     hips: "85 cm",
     styles: [
+      { tag: "Very Pretty" },
       { tag: "Retired" },
       { tag: "6 Stars JAV" },
       { tag: "Cute" },
@@ -1471,7 +1488,12 @@ const File2 = [
     cup: "E-Cup",
     waist: "60 cm",
     hips: "86 cm",
-    styles: [{ tag: "Retired" }, { tag: "Cute" }, { tag: "Beautiful Breasts" }],
+    styles: [
+      { tag: "Very Pretty" },
+      { tag: "Retired" },
+      { tag: "Cute" },
+      { tag: "Beautiful Breasts" },
+    ],
     album: [
       {
         picture:
@@ -1622,7 +1644,11 @@ const File2 = [
     cup: "H-Cup",
     waist: "58 cm",
     hips: "88 cm",
-    styles: [{ tag: "Retired" }, { tag: "Killer Tits" }],
+    styles: [
+      { tag: "Very Pretty" },
+      { tag: "Retired" },
+      { tag: "Killer Tits" },
+    ],
     album: [
       {
         picture:
@@ -2225,6 +2251,7 @@ const File2 = [
     waist: "59 cm",
     hips: "88 cm",
     styles: [
+      { tag: "Very Pretty" },
       { tag: "Retired" },
       { tag: "Cute" },
       { tag: "Killer Tits" },
@@ -2346,7 +2373,12 @@ const File2 = [
     cup: "E-Cup",
     waist: "54 cm",
     hips: "85 cm",
-    styles: [{ tag: "Retired" }, { tag: "Cute" }, { tag: "Slender" }],
+    styles: [
+      { tag: "Very Pretty" },
+      { tag: "Retired" },
+      { tag: "Cute" },
+      { tag: "Slender" },
+    ],
     album: [
       {
         picture:
@@ -2600,7 +2632,12 @@ const File2 = [
     cup: "D-Cup",
     waist: "58 cm",
     hips: "80 cm",
-    styles: [{ tag: "Retired" }, { tag: "Cute" }, { tag: "Beautiful Breasts" }],
+    styles: [
+      { tag: "Very Pretty" },
+      { tag: "Retired" },
+      { tag: "Cute" },
+      { tag: "Beautiful Breasts" },
+    ],
     album: [
       {
         picture:
@@ -2641,6 +2678,7 @@ const File2 = [
     waist: "61 cm",
     hips: "85 cm",
     styles: [
+      { tag: "Very Pretty" },
       { tag: "Retired" },
       { tag: "6 Stars JAV" },
       { tag: "Cute" },
@@ -2701,7 +2739,12 @@ const File2 = [
     cup: "E-Cup",
     waist: "56 cm",
     hips: "85 cm",
-    styles: [{ tag: "Retired" }, { tag: "Cute" }, { tag: "Beautiful Breasts" }],
+    styles: [
+      { tag: "Very Pretty" },
+      { tag: "Retired" },
+      { tag: "Cute" },
+      { tag: "Beautiful Breasts" },
+    ],
     album: [
       {
         picture:
@@ -2758,6 +2801,7 @@ const File2 = [
     waist: "59 cm",
     hips: "88 cm",
     styles: [
+      { tag: "Very Pretty" },
       { tag: "Retired" },
       { tag: "Cute" },
       { tag: "Killer Tits" },
@@ -2818,7 +2862,7 @@ const File2 = [
     cup: "D-Cup",
     waist: "59 cm",
     hips: "86 cm",
-    styles: [{ tag: "Retired" }, { tag: "Cute" }],
+    styles: [{ tag: "Very Pretty" }, { tag: "Retired" }, { tag: "Cute" }],
     album: [
       {
         picture:
