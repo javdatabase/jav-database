@@ -77,13 +77,6 @@ const File1 = [
     idols: [{ idIdol: "jai016", name: "Kanako Iioka" }],
   },
   {
-    code: "STARS-694",
-    title: `" IF IT'S JUST A BLOWJOB , NO MATTER HOW MANY TIMES YOU EJACULATE , YOU WON'T CHEAT , RIGHT ? " I LOVE FOLLOW-UP FELLATIO WITH BARELY LESS THAN NTR ! CHIN SHABU RISK JUNKIE LITTLE DEVIL SLUT ! ! MANA SAKURA`,
-    poster: "https://pics.dmm.co.jp/mono/movie/adult/1stars694/1stars694pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai139", name: "Mana Sakura" }],
-  },
-  {
     code: "STARS-701",
     title: `MAKE LOVE I TOOK A LOT OF DETOURS , BUT IN THE END , I'M HAPPIEST WHEN I'M HAVING SEX WITH MY BOYFRIEND , IORI FURUKAWA`,
     poster: "https://pics.dmm.co.jp/mono/movie/adult/1stars701/1stars701pl.jpg",
@@ -249,13 +242,6 @@ const File1 = [
     poster: "https://pics.dmm.co.jp/mono/movie/adult/ngod181/ngod181pl.jpg",
     type: "Censored",
     idols: [{ idIdol: "jai034", name: "Mary Tachibana" }],
-  },
-  {
-    code: "CJOD-364",
-    title: `JULIA'S SLUTTY MASTURBATION SUPPORT THAT STIMULATES THE FIVE SENSES`,
-    poster: "https://pics.dmm.co.jp/mono/movie/adult/cjod364/cjod364pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai041", name: "Julia" }],
   },
   {
     code: "IPX-928",
