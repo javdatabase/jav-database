@@ -2368,6 +2368,29 @@ const File47 = [
     type: "Uncensored",
     idols: [{ idIdol: "jai190", name: "Miri Mizuki" }],
   },
+  {
+    code: "JUKF-090",
+    title: `BEAUTIFUL GIRL SENKA / RENTAL GIRLFRIEND MAO-CHAN MAO HAMASAKI`,
+    poster:
+      "https://pics.dmm.co.jp/mono/movie/adult/h_227jukf090/h_227jukf090pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai007", name: "Mao Hamasaki" }],
+  },
+  {
+    code: "YSN-581",
+    title: `MAO HAMASAKI I WANT TO BE FUCKED BY MR. HAMASAKI SO MUCH I SAY HIHII`,
+    poster:
+      "https://pics.dmm.co.jp/mono/movie/adult/h_127ysn581/h_127ysn581pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai007", name: "Mao Hamasaki" }],
+  },
+  {
+    code: "WKD-057",
+    title: `OH N NA ♀ IN FULL BLOOM MITSUMI AN`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/2wkd057/2wkd057pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai212", name: "An Mitsumi" }],
+  },
 ];
 
 export default File47;
