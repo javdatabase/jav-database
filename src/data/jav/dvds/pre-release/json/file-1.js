@@ -238,20 +238,6 @@ const File1 = [
     idols: [{ idIdol: "jai016", name: "Kanako Iioka" }],
   },
   {
-    code: "MIAA-699",
-    title: `SCHOOL FESTIVAL REVERSE BUNNY CREAMPIE LES PUS DRESSED IN EMBARRASSING COSPLAY THAT IS MORE EMBARRASSING THAN NAKED ... FEMALE HOMEROOM TEACHER MITSUMI ANN WHO WAS RAPED BY THE STUDENTS BUT FELT WITH NIPPLE BING`,
-    poster: "https://pics.dmm.co.jp/mono/movie/adult/miaa699/miaa699pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai212", name: "An Mitsumi" }],
-  },
-  {
-    code: "MIAA-703",
-    title: `GLANS HEAD & ANAL W LICKING SUCKING DEMON BLOW PLAY CLIMAX MAO HAMASAKI ALICE OTO`,
-    poster: "https://pics.dmm.co.jp/mono/movie/adult/miaa703/miaa703pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai007", name: "Mao Hamasaki" }],
-  },
-  {
     code: "MIAA-704",
     title: `HIMARI GETTING MARRIED TO A GUY I LIKE IS SUPER ANNOYING ! THAT'S WHY ... I GOT A PRE-MARRIAGE CREAMPIE RAPE ... HIMARI KINOSHITA`,
     poster: "https://pics.dmm.co.jp/mono/movie/adult/miaa704/miaa704pl.jpg",
