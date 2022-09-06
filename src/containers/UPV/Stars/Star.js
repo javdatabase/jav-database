@@ -261,7 +261,7 @@ function Star() {
                 {get(data, "album", []).map((item) => (
                   <LazyLoad
                     key={item.picture}
-                    height={450}
+                    height={50}
                     once={true}
                     overflow={true}
                   >

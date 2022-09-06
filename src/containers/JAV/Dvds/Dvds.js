@@ -227,7 +227,7 @@ function Dvds() {
             {dvds.data.map((item) => (
               <LazyLoad
                 key={item.idDvd}
-                height={200}
+                height={30}
                 once={true}
                 overflow={true}
               >

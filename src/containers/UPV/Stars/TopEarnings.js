@@ -80,12 +80,7 @@ function TopEarnings() {
       <Container ref={containerRef} onScroll={handleScroll}>
         <TopEarningsContainer>
           {ALL_EARNING_STARS.map((item) => (
-            <LazyLoad
-              key={item.idStar}
-              height={200}
-              once={true}
-              overflow={true}
-            >
+            <LazyLoad key={item.idStar} height={50} once={true} overflow={true}>
               <StarItem>
                 <StarEarning data={item} />
               </StarItem>
