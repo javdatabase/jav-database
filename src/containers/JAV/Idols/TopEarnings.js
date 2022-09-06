@@ -174,12 +174,7 @@ function TopEarnings() {
       <Container ref={containerRef} onScroll={handleScroll}>
         <TopEarningsContainer>
           {idols.map((item) => (
-            <LazyLoad
-              key={item.idIdol}
-              height={200}
-              once={true}
-              overflow={true}
-            >
+            <LazyLoad key={item.idIdol} height={30} once={true} overflow={true}>
               <IdolItem>
                 <IdolEarning data={item} />
               </IdolItem>

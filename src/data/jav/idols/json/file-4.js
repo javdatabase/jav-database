@@ -17,6 +17,7 @@ import * as ria_yamate from "../images/ria-yamate";
 import * as mugi_kobato from "../images/mugi-kobato";
 import * as iyona_fujii from "../images/iyona-fujii";
 import * as momona_koibuchi from "../images/momona-koibuchi";
+import * as aoi_ichino from "../images/aoi-ichino";
 
 const File4 = [
   {
@@ -1815,6 +1816,25 @@ const File4 = [
       {
         picture: momona_koibuchi.momona_koibuchi_11,
       },
+    ],
+  },
+  {
+    idIdol: "jai226",
+    avatar: aoi_ichino.aoi_ichino_5,
+    name: "Aoi Ichino",
+    other: "",
+    born: "15/09/1989",
+    height: "165 cm",
+    breast: "93 cm",
+    cup: "G-Cup",
+    waist: "59 cm",
+    hips: "90 cm",
+    styles: [{ tag: "Beautiful Breasts" }],
+    album: [
+      { picture: aoi_ichino.aoi_ichino_1 },
+      { picture: aoi_ichino.aoi_ichino_2 },
+      { picture: aoi_ichino.aoi_ichino_3 },
+      { picture: aoi_ichino.aoi_ichino_4 },
     ],
   },
 ];

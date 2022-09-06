@@ -258,7 +258,7 @@ function Stars() {
             {stars.data.map((item) => (
               <LazyLoad
                 key={item.idStar}
-                height={200}
+                height={30}
                 once={true}
                 overflow={true}
               >

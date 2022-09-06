@@ -383,7 +383,7 @@ function Idol() {
             {get(data, "album", []).map((item) => (
               <LazyLoad
                 key={item.picture}
-                height={450}
+                height={50}
                 once={true}
                 overflow={true}
               >
@@ -405,7 +405,7 @@ function Idol() {
             {get(data, "dvds", []).map((item) => (
               <LazyLoad
                 key={item.idDvd}
-                height={200}
+                height={30}
                 once={true}
                 overflow={true}
               >
