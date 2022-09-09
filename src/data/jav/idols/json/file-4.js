@@ -18,6 +18,7 @@ import * as mugi_kobato from "../images/mugi-kobato";
 import * as iyona_fujii from "../images/iyona-fujii";
 import * as momona_koibuchi from "../images/momona-koibuchi";
 import * as aoi_ichino from "../images/aoi-ichino";
+import * as meguri_minoshima from "../images/meguri-minoshima";
 
 const File4 = [
   {
@@ -1835,6 +1836,36 @@ const File4 = [
       { picture: aoi_ichino.aoi_ichino_2 },
       { picture: aoi_ichino.aoi_ichino_3 },
       { picture: aoi_ichino.aoi_ichino_4 },
+    ],
+  },
+  {
+    idIdol: "jai227",
+    avatar: meguri_minoshima.meguri_minoshima_5,
+    name: "Meguri Minoshima",
+    other: "",
+    born: "08/12/2001",
+    height: "156 cm",
+    breast: "86 cm",
+    cup: "E-Cup",
+    waist: "58 cm",
+    hips: "85 cm",
+    styles: [
+      { tag: "6 Stars JAV" },
+      { tag: "Cute" },
+      { tag: "Killer Tits" },
+      { tag: "Slender" },
+    ],
+    album: [
+      { picture: meguri_minoshima.meguri_minoshima_2 },
+      { picture: meguri_minoshima.meguri_minoshima_3 },
+      { picture: meguri_minoshima.meguri_minoshima_4 },
+      { picture: meguri_minoshima.meguri_minoshima_1 },
+      { picture: meguri_minoshima.meguri_minoshima_6 },
+      { picture: meguri_minoshima.meguri_minoshima_7 },
+      { picture: meguri_minoshima.meguri_minoshima_8 },
+      { picture: meguri_minoshima.meguri_minoshima_9 },
+      { picture: meguri_minoshima.meguri_minoshima_10 },
+      { picture: meguri_minoshima.meguri_minoshima_11 },
     ],
   },
 ];

@@ -1328,6 +1328,7 @@ const File45 = [
     idols: [
       { idIdol: "jai113", name: "Airi Suzumura" },
       { idIdol: "jai151", name: "Remu Suzumori" },
+      { idIdol: "jai227", name: "Meguri Minoshima" },
     ],
   },
   {
@@ -2381,7 +2382,10 @@ const File45 = [
     title: `BEST BRUSH GRATED BEST 8 HOURS VOL.07 THE BEST FIRST EXPERIENCE WITH THE BEST BODY AND GOD CORRESPONDENCE ! ! ! ! !`,
     poster: "https://img71.pixhost.to/images/105/281146490_1673213l.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai212", name: "An Mitsumi" }],
+    idols: [
+      { idIdol: "jai212", name: "An Mitsumi" },
+      { idIdol: "jai227", name: "Meguri Minoshima" },
+    ],
   },
   {
     code: "JBJB-004",
