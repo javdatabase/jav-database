@@ -4,4 +4,6 @@ const StableSalary = 146785280;
 
 const OneNightRatio = 4;
 
-export { MonthSalary, StableSalary, OneNightRatio };
+const TokenRate = 7080;
+
+export { MonthSalary, StableSalary, OneNightRatio, TokenRate };

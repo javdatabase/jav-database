@@ -142,6 +142,7 @@ const File2 = [
     waist: "58 cm",
     hips: "86 cm",
     styles: [
+      { tag: "Very Pretty" },
       { tag: "Retired" },
       { tag: "6 Stars JAV" },
       { tag: "Cute" },
@@ -263,7 +264,12 @@ const File2 = [
     cup: "F-Cup",
     waist: "58 cm",
     hips: "83 cm",
-    styles: [{ tag: "Cute" }, { tag: "Beautiful Breasts" }, { tag: "Slender" }],
+    styles: [
+      { tag: "Very Pretty" },
+      { tag: "Cute" },
+      { tag: "Beautiful Breasts" },
+      { tag: "Slender" },
+    ],
     album: [
       {
         picture:
@@ -426,6 +432,7 @@ const File2 = [
     waist: "59 cm",
     hips: "83 cm",
     styles: [
+      { tag: "Retired" },
       { tag: "Cute" },
       { tag: "Killer Tits" },
       { tag: "Slender" },
@@ -750,7 +757,12 @@ const File2 = [
     cup: "G-Cup",
     waist: "58 cm",
     hips: "88 cm",
-    styles: [{ tag: "Retired" }, { tag: "Killer Tits" }, { tag: "Slender" }],
+    styles: [
+      { tag: "Very Pretty" },
+      { tag: "Retired" },
+      { tag: "Killer Tits" },
+      { tag: "Slender" },
+    ],
     album: [
       {
         picture:

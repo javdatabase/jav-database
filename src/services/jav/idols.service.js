@@ -239,6 +239,16 @@ const ALL_ORIGINAL_IDOLS = ALL_IDOLS_DETAIL.map((item) => ({
   .sort((a, b) => b.earnings - a.earnings)
   .map((item, index) => ({ ...item, position: index + 1 }));
 
+const TOTAL_ORIGINAL_EARNINGS = ALL_EARNING_IDOLS.reduce(
+  (acc, item) => acc + item.earnings,
+  0
+);
+
+const TOTAL_BONUS_EARNINGS = ALL_EARNING_IDOLS.reduce(
+  (acc, item) => acc + (item.bonus || 0),
+  0
+);
+
 const TOTAL_EARNINGS = ALL_EARNING_IDOLS.reduce(
   (acc, item) => acc + item.earnings + (item.bonus || 0),
   0
@@ -254,5 +264,7 @@ export {
   ALL_EARNING_IDOLS,
   ALL_BONUS_IDOLS,
   ALL_ORIGINAL_IDOLS,
+  TOTAL_ORIGINAL_EARNINGS,
+  TOTAL_BONUS_EARNINGS,
   TOTAL_EARNINGS,
 };
