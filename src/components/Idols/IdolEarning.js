@@ -304,19 +304,19 @@ function IdolEarning({ data }) {
           <EarningContainer>
             {!get(location.state, "bonus", false) && (
               <PriceIdol>
-                ${priceCurrency(data.earnings)} ({priceCurrency(price)})
+                {priceCurrency(data.earnings)} ({priceCurrency(price)}) ❂
               </PriceIdol>
             )}
             {!!data.bonus &&
               (!get(location.state, "original", false) ||
                 !!get(location.state, "bonus", false)) &&
               (!!get(location.state, "bonus", false) ? (
-                <BonusIdol>${priceCurrency(data.bonus)}</BonusIdol>
+                <BonusIdol>{priceCurrency(data.bonus)} ❂</BonusIdol>
               ) : (
                 <BonusContainer>
-                  +<BonusIdol>${priceCurrency(data.bonus)}</BonusIdol>=
+                  +<BonusIdol>{priceCurrency(data.bonus)} ❂</BonusIdol>=
                   <TotalIdol>
-                    ${priceCurrency(total)} ({priceCurrency(fee)})
+                    {priceCurrency(total)} ({priceCurrency(fee)}) ❂
                   </TotalIdol>
                 </BonusContainer>
               ))}

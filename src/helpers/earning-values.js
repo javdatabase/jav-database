@@ -38,4 +38,12 @@ const WeekEarnings = {
   newbie: 15700000,
 };
 
-export { MonthEarnings, StableEarnings, OneNightRatio, WeekEarnings };
+const TokenRate = 1582;
+
+export {
+  MonthEarnings,
+  StableEarnings,
+  OneNightRatio,
+  WeekEarnings,
+  TokenRate,
+};

@@ -3,25 +3,69 @@ import {
   StableEarnings,
   OneNightRatio,
   WeekEarnings,
+  TokenRate,
 } from "../../helpers/earning-values";
 
 const STAR_IDOL_ID = "";
 const SWEET_NIGHT_IDS = [
   "jai002",
   "jai002",
+  "jai002",
+  "jai002",
+  "jai002",
+  "jai002",
+  "jai002",
+  "jai002",
+  "jai016",
   "jai016",
   "jai016",
   "jai016",
   "jai034",
   "jai038",
   "jai038",
+  "jai038",
   "jai062",
   "jai062",
+  "jai062",
+  "jai070",
+  "jai070",
+  "jai070",
+  "jai070",
+  "jai070",
+  "jai070",
+  "jai070",
+  "jai070",
+  "jai070",
+  "jai070",
+  "jai070",
+  "jai070",
+  "jai070",
+  "jai070",
+  "jai070",
+  "jai070",
   "jai070",
   "jai070",
   "jai073",
   "jai170",
   "jai170",
+  "jai170",
+  "jai170",
+  "jai171",
+  "jai171",
+  "jai171",
+  "jai171",
+  "jai171",
+  "jai171",
+  "jai171",
+  "jai171",
+  "jai171",
+  "jai171",
+  "jai171",
+  "jai171",
+  "jai171",
+  "jai171",
+  "jai171",
+  "jai171",
   "jai171",
   "jai171",
   "jai199",
@@ -140,6 +184,12 @@ function getStableEarningIdol(id) {
     "jai205",
     "jai212",
     "jai220",
+    "jai221",
+    "jai223",
+    "jai224",
+    "jai225",
+    "jai226",
+    "jai227",
   ];
   return STABLE_IDS.includes(id) ? StableEarnings : 0;
 }
@@ -198,13 +248,14 @@ function getEarningIdol(id, rank, points, styles, uncensored, best, video) {
   const videoEarnings = MonthEarnings.video * video;
 
   return (
-    rankEarnings +
-    pointEarnings +
-    styleEarning +
-    uncensoredEarnings +
-    bestEarnings +
-    videoEarnings +
-    getStableEarningIdol(id)
+    (rankEarnings +
+      pointEarnings +
+      styleEarning +
+      uncensoredEarnings +
+      bestEarnings +
+      videoEarnings +
+      getStableEarningIdol(id)) /
+    TokenRate
   );
 }
 
@@ -243,7 +294,7 @@ function getBonusEarnings(id) {
     bonus = bonus + WeekEarnings.newbie;
   }
 
-  return bonus;
+  return bonus / TokenRate;
 }
 
 export { getEarningIdol, getPriceOneNight, getBonusEarnings };

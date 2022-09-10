@@ -17,6 +17,8 @@ import {
   ALL_EARNING_IDOLS,
   ALL_BONUS_IDOLS,
   ALL_ORIGINAL_IDOLS,
+  TOTAL_ORIGINAL_EARNINGS,
+  TOTAL_BONUS_EARNINGS,
   TOTAL_EARNINGS,
 } from "../../../services/jav/idols.service";
 import Checkbox from "../../../components/UI/Checkbox/Checkbox";
@@ -168,7 +170,17 @@ function TopEarnings() {
           </CheckboxGroup>
         </div>
         <Total>
-          Total: <Value>${priceCurrency(TOTAL_EARNINGS)}</Value>
+          Total:{" "}
+          <Value>
+            {priceCurrency(
+              get(location.state, "original", false)
+                ? TOTAL_ORIGINAL_EARNINGS
+                : get(location.state, "bonus", false)
+                ? TOTAL_BONUS_EARNINGS
+                : TOTAL_EARNINGS
+            )}{" "}
+            ❂
+          </Value>
         </Total>
       </FilterIdolsContainer>
       <Container ref={containerRef} onScroll={handleScroll}>

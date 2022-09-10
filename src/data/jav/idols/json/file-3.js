@@ -356,7 +356,12 @@ const File3 = [
     cup: "G-Cup",
     waist: "57 cm",
     hips: "88 cm",
-    styles: [{ tag: "Retired" }, { tag: "Cute" }, { tag: "Killer Tits" }],
+    styles: [
+      { tag: "Very Pretty" },
+      { tag: "Retired" },
+      { tag: "Cute" },
+      { tag: "Killer Tits" },
+    ],
     album: [
       {
         picture:
@@ -1817,6 +1822,7 @@ const File3 = [
     waist: "58 cm",
     hips: "85 cm",
     styles: [
+      { tag: "Very Pretty" },
       { tag: "Cute" },
       { tag: "Beautiful Breasts" },
       { tag: "Mixed-Race" },
@@ -2053,7 +2059,7 @@ const File3 = [
     cup: "G-Cup",
     waist: "60 cm",
     hips: "89 cm",
-    styles: [{ tag: "Killer Tits" }],
+    styles: [{ tag: "Very Pretty" }, { tag: "Killer Tits" }],
     album: [
       {
         picture:

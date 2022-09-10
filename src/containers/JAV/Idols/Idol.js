@@ -498,13 +498,13 @@ function Idol() {
         </ProductContainer>
         <EarningContainer>
           <PriceIdol>
-            ${priceCurrency(earnings)} ({priceCurrency(price)})
+            {priceCurrency(earnings)} ({priceCurrency(price)}) ❂
           </PriceIdol>
           {!!bonus && (
             <Fragment>
-              <BonusIdol>${priceCurrency(bonus)}</BonusIdol>
+              <BonusIdol>{priceCurrency(bonus)} ❂</BonusIdol>
               <TotalIdol>
-                ${priceCurrency(total)} ({priceCurrency(fee)})
+                {priceCurrency(total)} ({priceCurrency(fee)}) ❂
               </TotalIdol>
             </Fragment>
           )}

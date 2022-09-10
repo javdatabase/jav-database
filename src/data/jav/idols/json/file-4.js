@@ -144,7 +144,12 @@ const File4 = [
     cup: "G-Cup",
     waist: "54 cm",
     hips: "83 cm",
-    styles: [{ tag: "Cute" }, { tag: "Beautiful Breasts" }, { tag: "Slender" }],
+    styles: [
+      { tag: "Very Pretty" },
+      { tag: "Cute" },
+      { tag: "Beautiful Breasts" },
+      { tag: "Slender" },
+    ],
     album: [
       {
         picture: tsubaki_sannomiya.tsubaki_sannomiya_10,
@@ -898,7 +903,12 @@ const File4 = [
     cup: "H-Cup",
     waist: "58 cm",
     hips: "85 cm",
-    styles: [{ tag: "Killer Tits" }, { tag: "Slender" }, { tag: "Teens" }],
+    styles: [
+      { tag: "Very Pretty" },
+      { tag: "Killer Tits" },
+      { tag: "Slender" },
+      { tag: "Teens" },
+    ],
     album: [
       {
         picture: karen_yuzuriha.karen_yuzuriha_2,
@@ -1601,7 +1611,7 @@ const File4 = [
     cup: "G-Cup",
     waist: "59 cm",
     hips: "90 cm",
-    styles: [{ tag: "Killer Tits" }, { tag: "Teens" }],
+    styles: [{ tag: "Very Pretty" }, { tag: "Killer Tits" }, { tag: "Teens" }],
     album: [
       {
         picture: mugi_kobato.mugi_kobato_2,

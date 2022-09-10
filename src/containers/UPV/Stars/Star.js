@@ -280,7 +280,7 @@ function Star() {
         </ProductContainer>
         <EarningContainer>
           <PriceStar>
-            ${priceCurrency(earnings)} ({priceCurrency(price)})
+            {priceCurrency(earnings)} ({priceCurrency(price)}) ❂
           </PriceStar>
         </EarningContainer>
       </Container>
