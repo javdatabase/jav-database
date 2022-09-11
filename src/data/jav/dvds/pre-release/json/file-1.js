@@ -180,6 +180,20 @@ const File1 = [
     type: "Censored",
     idols: [{ idIdol: "jai041", name: "Julia" }],
   },
+  {
+    code: "STARS-699",
+    title: `I WAS SQUID WITH A PISTON VIBRATOR SO THAT I SQUIRTED A LOT OF SQUIRTING AND " I'M ALREADY CUMMING " A SUPER CHASING PISTON THAT PIERCES THE BACK OF THE VAGINA IMMEDIATELY AFTER ACME MOMONA KOIBUCHI`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/1stars699/1stars699pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai225", name: "Momona Koibuchi" }],
+  },
+  {
+    code: "STARS-708",
+    title: `IMMEDIATE SADDLE IMMEDIATE PEEING! ASSAULT PURSUIT INCONTINENCE PISTON ! ! SUDDEN HOLY WATER URINATION PEE ENDURANCE DATE HONJO SUZU`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/1stars708/1stars708pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai133", name: "Suzu Honjo" }],
+  },
 ];
 
 export default File1;
