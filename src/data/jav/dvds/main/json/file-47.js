@@ -2910,6 +2910,82 @@ const File47 = [
     type: "Censored",
     idols: [{ idIdol: "jai227", name: "Meguri Minoshima" }],
   },
+  {
+    code: "HUNTB-357",
+    title: `" I'M SORRY , DID YOU SEE IT ? " CUTE , BEAUTIFUL AND EROTIC NIPPLES ! THE EROTIC NIPPLES OF A YOUNG WIFE WHO TAKES OUT THE TRASH , THE FRESH NIPPLES OF A CLUB GIRL , AND THE SISTER'S SISTER IN THE NEXT ROOM`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/huntb357/huntb357pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai007", name: "Mao Hamasaki" }],
+  },
+  {
+    code: "HUNTB-359",
+    title: `NOW THAT I'M AN ADULT WITH THE GIRL I ADMIRED WHEN I WAS A SCHOOL STUDENT , I'M LATE FOR SEX WITH MY SCHOOL UNIFORM ! REUNITED FOR THE FIRST TIME IN SEVERAL YEARS AT A REUNION WITH THE GIRL I LIKED AT THE TIME`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/huntb359/huntb359pl.jpg",
+    type: "Censored",
+    idols: [
+      { idIdol: "jai078", name: "Mitsuki Akai" },
+      { idIdol: "jai172", name: "Maron Natsuki" },
+    ],
+  },
+  {
+    code: "MDBK-259",
+    title: `A QUAGMIRE REVERSE NTR OF LOOTING SLUTS WHO WANT ONLY ONE MAN`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/mdbk259/mdbk259pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai219", name: "Akari Niimura" }],
+  },
+  {
+    code: "NSFS-120",
+    title: `NOSTALGIC CUCKOLD WIFE'S BODY BECAME BROTHER'S BODY MINORI HATSUNE`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/nsfs120/nsfs120pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai075", name: "Minori Hatsune" }],
+  },
+  {
+    code: "NSFS-122",
+    title: `WIVES WHO EMBRACE OTHERS FOR THEIR HUSBANDS AND BECOME SERIOUS`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/nsfs122/nsfs122pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai015", name: "Mao Kurata" }],
+  },
+  {
+    code: "RKI-630",
+    title: `A MEAT-EATING GHETTO BITCH GAL IS A PERVERTED WOMAN WHO DEVOURS COCK AND FAINTS IN AGONY WHILE ENJOYING THE MEAT STICK IN THE BACK OF THE UTERUS`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/rki630/rki630pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai212", name: "An Mitsumi" }],
+  },
+  {
+    code: "TYSF-022",
+    title: `CHARGE ! AMAZING MAN STRONG ●CREAM PIES ! THOROUGHLY INSERT AMATEUR MEN INTO SLUTS ! RAW INTRAVAGINAL EJACULATION SEX MITSUMI AN`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/tysf022/tysf022pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai212", name: "An Mitsumi" }],
+  },
+  {
+    code: "TYSF-023",
+    title: `AN AMATEUR GIRL'S FIRST ANAL LICKING EXPERIENCE ! I'LL GIVE YOU SOME MONEY , SO WHY DON'T YOU TRY BEING LICKED IN FRONT OF YOUR BEST FRIEND ?`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/tysf023/tysf023pl.jpg",
+    type: "Censored",
+    idols: [
+      { idIdol: "jai145", name: "Moa Hoshizora" },
+      { idIdol: "jai148", name: "Nozomi Arimura" },
+    ],
+  },
+  {
+    code: "URKK-066",
+    title: `MY BOOBS ARE RUBBED BY THE PERVERTED LANDLORD NEXT DOOR AND I GET FUCKED EVERY DAY NENE TANAKA`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/urkk066/urkk066pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai185", name: "Nene Tanaka" }],
+  },
+  {
+    code: "BF-672",
+    title: `I WAS TEMPTED BY THE SISTER NEXT DOOR WHO BROUGHT IN A DIFFERENT MAN EVERY NIGHT , AND WAS FORCED TO CUM INSIDE ME`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/bf672/bf672pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai212", name: "An Mitsumi" }],
+  },
 ];
 
 export default File47;
