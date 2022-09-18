@@ -103,6 +103,7 @@ const BEST_IDOL_IDS = [
   "jai209",
   "jai220",
   "jai227",
+  "jai228",
 ];
 
 const BEST_IDOLS = ALL_IDOLS_DETAIL.filter((item) =>

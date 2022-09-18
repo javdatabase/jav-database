@@ -19,6 +19,7 @@ import * as iyona_fujii from "../images/iyona-fujii";
 import * as momona_koibuchi from "../images/momona-koibuchi";
 import * as aoi_ichino from "../images/aoi-ichino";
 import * as meguri_minoshima from "../images/meguri-minoshima";
+import * as non_ohana from "../images/non-ohana";
 
 const File4 = [
   {
@@ -1876,6 +1877,31 @@ const File4 = [
       { picture: meguri_minoshima.meguri_minoshima_9 },
       { picture: meguri_minoshima.meguri_minoshima_10 },
       { picture: meguri_minoshima.meguri_minoshima_11 },
+    ],
+  },
+  {
+    idIdol: "jai228",
+    avatar: non_ohana.non_ohana_3,
+    name: "Non Ohana",
+    other: "",
+    born: "28/06/2001",
+    height: "157 cm",
+    breast: "86 cm",
+    cup: "F-Cup",
+    waist: "60 cm",
+    hips: "88 cm",
+    styles: [{ tag: "Cute" }, { tag: "Beautiful Breasts" }],
+    album: [
+      { picture: non_ohana.non_ohana_1 },
+      { picture: non_ohana.non_ohana_2 },
+      { picture: non_ohana.non_ohana_11 },
+      { picture: non_ohana.non_ohana_4 },
+      { picture: non_ohana.non_ohana_5 },
+      { picture: non_ohana.non_ohana_6 },
+      { picture: non_ohana.non_ohana_7 },
+      { picture: non_ohana.non_ohana_8 },
+      { picture: non_ohana.non_ohana_9 },
+      { picture: non_ohana.non_ohana_10 },
     ],
   },
 ];
