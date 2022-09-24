@@ -7,7 +7,17 @@ import {
 } from "../../helpers/earning-values";
 
 const STAR_IDOL_ID = "";
-const SWEET_NIGHT_IDS = ["jai041", "jai067", "jai158", "jai221"];
+const SWEET_NIGHT_IDS = [
+  "jai041",
+  "jai041",
+  "jai067",
+  "jai067",
+  "jai158",
+  "jai158",
+  "jai221",
+  "jai221",
+  "jai221",
+];
 const BEST_DVD_IDS = [
   "jai036",
   "jai041",
@@ -147,6 +157,9 @@ function getEarningIdol(id, rank, points, styles, uncensored, best, video) {
   }
   if (styles.find((item) => item.tag === "Beautiful Breasts")) {
     styleEarning = styleEarning + MonthEarnings.beautifulBreasts;
+  }
+  if (styles.find((item) => item.tag === "NFT")) {
+    styleEarning = styleEarning + MonthEarnings.nft;
   }
 
   const uncensoredEarnings = MonthEarnings.uncensoredDvds * uncensored;
