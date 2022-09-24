@@ -1,8 +1,8 @@
 import React, { Fragment, useState, useMemo, useCallback } from "react";
-import { get } from "lodash";
+import { get, chunk } from "lodash";
 import styled from "styled-components";
 import { useParams } from "react-router-dom";
-import LazyLoad from "react-lazyload";
+import { Grid } from "react-virtualized";
 
 import { priceCurrency } from "../../../helpers/render-price";
 import {
@@ -120,17 +120,9 @@ const Content = styled.div`
   }
 `;
 
-const DvdContainer = styled.div`
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(11vw, 1fr));
-  gap: 10px;
-  padding: 20px;
-  box-sizing: border-box;
-`;
-
-const PictureContainer = styled(DvdContainer)`
-  grid-template-columns: repeat(auto-fill, minmax(17vw, 1fr));
-  gap: 20px;
+const TabContainer = styled.div`
+  ${center};
+  padding: 15px 0px;
 `;
 
 const PictureBorder = styled.div`
@@ -184,6 +176,10 @@ function Star() {
     return [get(data, "avatar", "")].concat(
       get(data, "album", []).map((item) => item.picture)
     );
+  }, [data]);
+
+  const gridImages = useMemo(() => {
+    return chunk(get(data, "album", []), 2);
   }, [data]);
 
   const earnings = useMemo(() => {
@@ -257,24 +253,42 @@ function Star() {
               onChange={handleChangeTab}
             />
             <Content>
-              <PictureContainer>
-                {get(data, "album", []).map((item) => (
-                  <LazyLoad
-                    key={item.picture}
-                    height={50}
-                    once={true}
-                    overflow={true}
-                  >
-                    <PictureBorder>
-                      <Picture
-                        src={item.picture}
-                        onClick={() => handleModalPicture(item.picture)}
-                        alt={""}
-                      />
-                    </PictureBorder>
-                  </LazyLoad>
-                ))}
-              </PictureContainer>
+              <TabContainer>
+                <Grid
+                  style={{ overflow: "visible" }}
+                  containerStyle={{ overflow: "visible" }}
+                  columnCount={2}
+                  rowCount={gridImages.length}
+                  columnWidth={(window.innerWidth / 2 - 110) / 2}
+                  rowHeight={425}
+                  width={window.innerWidth / 2 - 110}
+                  height={425 * gridImages.length}
+                  cellRenderer={({ columnIndex, key, rowIndex, style }) => (
+                    <div
+                      key={key}
+                      style={{
+                        ...style,
+                        display: "flex",
+                        justifyContent: "center",
+                      }}
+                    >
+                      {!!gridImages?.[rowIndex][columnIndex] && (
+                        <PictureBorder>
+                          <Picture
+                            src={gridImages[rowIndex][columnIndex].picture}
+                            onClick={() =>
+                              handleModalPicture(
+                                gridImages[rowIndex][columnIndex].picture
+                              )
+                            }
+                            alt={""}
+                          />
+                        </PictureBorder>
+                      )}
+                    </div>
+                  )}
+                />
+              </TabContainer>
             </Content>
           </div>
         </ProductContainer>

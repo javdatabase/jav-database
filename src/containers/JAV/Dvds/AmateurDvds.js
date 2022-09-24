@@ -1,6 +1,7 @@
 import React, { Fragment, useState, useMemo, useCallback } from "react";
+import { chunk } from "lodash";
 import styled from "styled-components";
-import LazyLoad from "react-lazyload";
+import { Grid } from "react-virtualized";
 
 import {
   ALL_DVDS_AMATEUR_BY_PAGE,
@@ -33,11 +34,8 @@ const Container = styled.div`
 `;
 
 const DvdContainer = styled.div`
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(14vw, 1fr));
-  gap: 10px;
-  padding: 50px 20px 30px;
-  box-sizing: border-box;
+  ${center}
+  padding: 30px 10px;
 `;
 
 const DvdItem = styled.div`
@@ -68,6 +66,10 @@ function AmateurDvds() {
     return ALL_DVDS_AMATEUR_BY_PAGE(page, 30);
   }, [page]);
 
+  const gridDvds = useMemo(() => {
+    return chunk(dvds, 6);
+  }, [dvds]);
+
   const handleChangePage = useCallback((page) => {
     setPage(page);
   }, []);
@@ -95,18 +97,37 @@ function AmateurDvds() {
           <NotFound>Not Found</NotFound>
         ) : (
           <DvdContainer>
-            {dvds.map((item) => (
-              <LazyLoad
-                key={item.idDvd}
-                height={30}
-                once={true}
-                overflow={true}
-              >
-                <DvdItem>
-                  <DvdCard data={item} click={() => handleChangeData(item)} />
-                </DvdItem>
-              </LazyLoad>
-            ))}
+            <Grid
+              style={{ overflow: "visible" }}
+              containerStyle={{ overflow: "visible" }}
+              columnCount={6}
+              rowCount={gridDvds.length}
+              columnWidth={(window.innerWidth - 20) / 6}
+              rowHeight={228}
+              width={window.innerWidth - 20}
+              height={228 * gridDvds.length}
+              cellRenderer={({ columnIndex, key, rowIndex, style }) => (
+                <div
+                  key={key}
+                  style={{
+                    ...style,
+                    display: "flex",
+                    justifyContent: "center",
+                  }}
+                >
+                  {!!gridDvds?.[rowIndex][columnIndex] && (
+                    <DvdItem>
+                      <DvdCard
+                        data={gridDvds[rowIndex][columnIndex]}
+                        click={() =>
+                          handleChangeData(gridDvds[rowIndex][columnIndex])
+                        }
+                      />
+                    </DvdItem>
+                  )}
+                </div>
+              )}
+            />
           </DvdContainer>
         )}
         <PaginationContainer>

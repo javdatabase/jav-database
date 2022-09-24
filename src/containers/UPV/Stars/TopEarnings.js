@@ -8,7 +8,7 @@ import React, {
 import { get } from "lodash";
 import styled from "styled-components";
 import Cookies from "js-cookie";
-import LazyLoad from "react-lazyload";
+import { List } from "react-virtualized";
 
 import { ALL_EARNING_STARS } from "../../../services/upv/stars.service";
 import StarEarning from "../../../components/Stars/StarEarning";
@@ -79,13 +79,27 @@ function TopEarnings() {
     <Fragment>
       <Container ref={containerRef} onScroll={handleScroll}>
         <TopEarningsContainer>
-          {ALL_EARNING_STARS.map((item) => (
-            <LazyLoad key={item.idStar} height={50} once={true} overflow={true}>
-              <StarItem>
-                <StarEarning data={item} />
-              </StarItem>
-            </LazyLoad>
-          ))}
+          <List
+            width={window.innerWidth - 40}
+            height={320 * ALL_EARNING_STARS.length}
+            rowCount={ALL_EARNING_STARS.length}
+            rowHeight={320}
+            rowRenderer={({ index, key, style }) => (
+              <div
+                key={key}
+                style={{
+                  ...style,
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                }}
+              >
+                <StarItem>
+                  <StarEarning data={ALL_EARNING_STARS[index]} />
+                </StarItem>
+              </div>
+            )}
+          />
         </TopEarningsContainer>
       </Container>
     </Fragment>

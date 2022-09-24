@@ -1,8 +1,8 @@
 import React, { Fragment, useState, useMemo, useCallback } from "react";
-import { get } from "lodash";
+import { get, chunk } from "lodash";
 import styled from "styled-components";
 import { Link, useLocation, useParams } from "react-router-dom";
-import LazyLoad from "react-lazyload";
+import { Grid } from "react-virtualized";
 
 import { priceCurrency } from "../../../helpers/render-price";
 import {
@@ -186,18 +186,14 @@ const TabContent = styled.div`
   }
 `;
 
-const DvdContainer = styled.div`
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(11vw, 1fr));
-  gap: 10px;
-  padding: 20px;
-  box-sizing: border-box;
+const TabContainer = styled.div`
+  ${center};
+  padding: 15px 0px;
 `;
 
 const DvdItem = styled.div`
   ${center}
   flex-direction: column;
-  margin: 5px;
   cursor: pointer;
   transform: translateY(0px);
   transition: transform 0.3s ease-in-out;
@@ -223,11 +219,6 @@ const CodeDvd = styled.div`
       : `linear-gradient(to right, ${Pink}, ${Orange})`};
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-`;
-
-const PictureContainer = styled(DvdContainer)`
-  grid-template-columns: repeat(auto-fill, minmax(17vw, 1fr));
-  gap: 20px;
 `;
 
 const PictureBorder = styled.div`
@@ -295,6 +286,14 @@ function Idol() {
     return [get(data, "avatar", "")].concat(
       get(data, "album", []).map((item) => item.picture)
     );
+  }, [data]);
+
+  const gridImages = useMemo(() => {
+    return chunk(get(data, "album", []), 2);
+  }, [data]);
+
+  const gridDvds = useMemo(() => {
+    return chunk(get(data, "dvds", []), 3);
   }, [data]);
 
   const earnings = useMemo(() => {
@@ -379,51 +378,91 @@ function Idol() {
     switch (tab) {
       case 0:
         return (
-          <PictureContainer>
-            {get(data, "album", []).map((item) => (
-              <LazyLoad
-                key={item.picture}
-                height={50}
-                once={true}
-                overflow={true}
-              >
-                <PictureBorder>
-                  <Picture
-                    src={item.picture}
-                    onClick={() => handleModalPicture(item.picture)}
-                    alt={""}
-                  />
-                </PictureBorder>
-              </LazyLoad>
-            ))}
-          </PictureContainer>
+          <TabContainer>
+            <Grid
+              style={{ overflow: "visible" }}
+              containerStyle={{ overflow: "visible" }}
+              columnCount={2}
+              rowCount={gridImages.length}
+              columnWidth={(window.innerWidth / 2 - 110) / 2}
+              rowHeight={425}
+              width={window.innerWidth / 2 - 110}
+              height={425 * gridImages.length}
+              cellRenderer={({ columnIndex, key, rowIndex, style }) => (
+                <div
+                  key={key}
+                  style={{
+                    ...style,
+                    display: "flex",
+                    justifyContent: "center",
+                  }}
+                >
+                  {!!gridImages?.[rowIndex][columnIndex] && (
+                    <PictureBorder>
+                      <Picture
+                        src={gridImages[rowIndex][columnIndex].picture}
+                        onClick={() =>
+                          handleModalPicture(
+                            gridImages[rowIndex][columnIndex].picture
+                          )
+                        }
+                        alt={""}
+                      />
+                    </PictureBorder>
+                  )}
+                </div>
+              )}
+            />
+          </TabContainer>
         );
 
       case 1:
         return (
-          <DvdContainer>
-            {get(data, "dvds", []).map((item) => (
-              <LazyLoad
-                key={item.idDvd}
-                height={30}
-                once={true}
-                overflow={true}
-              >
-                <DvdItem onClick={() => handleChangeDvd(item)}>
-                  <PosterDvd src={item.poster} />
-                  <CodeDvd uncensored={item.type === "Uncensored"}>
-                    {item.code}
-                  </CodeDvd>
-                </DvdItem>
-              </LazyLoad>
-            ))}
-          </DvdContainer>
+          <TabContainer>
+            <Grid
+              style={{ overflow: "visible" }}
+              containerStyle={{ overflow: "visible" }}
+              columnCount={3}
+              rowCount={gridDvds.length}
+              columnWidth={(window.innerWidth / 2 - 110) / 3}
+              rowHeight={180}
+              width={window.innerWidth / 2 - 110}
+              height={180 * gridDvds.length}
+              cellRenderer={({ columnIndex, key, rowIndex, style }) => (
+                <div
+                  key={key}
+                  style={{
+                    ...style,
+                    display: "flex",
+                    justifyContent: "center",
+                  }}
+                >
+                  {!!gridDvds?.[rowIndex][columnIndex] && (
+                    <DvdItem
+                      onClick={() =>
+                        handleChangeDvd(gridDvds[rowIndex][columnIndex])
+                      }
+                    >
+                      <PosterDvd src={gridDvds[rowIndex][columnIndex].poster} />
+                      <CodeDvd
+                        uncensored={
+                          gridDvds[rowIndex][columnIndex].type === "Uncensored"
+                        }
+                      >
+                        {gridDvds[rowIndex][columnIndex].code}
+                      </CodeDvd>
+                    </DvdItem>
+                  )}
+                </div>
+              )}
+            />
+          </TabContainer>
         );
 
       default:
         return null;
     }
-  }, [tab, data, handleChangeDvd, handleModalPicture]);
+  }, [tab, gridImages, gridDvds, handleModalPicture, handleChangeDvd]);
 
   return (
     <Fragment>
