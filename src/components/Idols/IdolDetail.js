@@ -1,4 +1,4 @@
-import React, { Fragment, memo } from "react";
+import React, { Fragment, memo, useEffect, useCallback } from "react";
 import { get } from "lodash";
 import styled from "styled-components";
 import { Link, useLocation } from "react-router-dom";
@@ -131,6 +131,27 @@ const ViewProfile = styled(Link)`
 
 function IdolDetail({ show, toggleModal, data }) {
   const location = useLocation();
+
+  const controlModal = useCallback(
+    (event) => {
+      if (event.key === "Escape") {
+        toggleModal();
+      }
+    },
+    [toggleModal]
+  );
+
+  useEffect(() => {
+    if (show) {
+      window.addEventListener("keyup", controlModal);
+    } else {
+      window.removeEventListener("keyup", controlModal);
+    }
+
+    return () => {
+      window.removeEventListener("keyup", controlModal);
+    };
+  }, [show, controlModal]);
 
   return (
     <Fragment>

@@ -1,4 +1,4 @@
-import React, { Fragment, memo, useMemo, useCallback } from "react";
+import React, { Fragment, memo, useMemo, useEffect, useCallback } from "react";
 import styled from "styled-components";
 
 import Backdrop from "../UI/Backdrop/Backdrop";
@@ -91,6 +91,33 @@ function StarPicture({ show, toggleModal, listData, data, setData }) {
       setData(listData[current + 1]);
     }
   }, [listData, current, setData]);
+
+  const controlModal = useCallback(
+    (event) => {
+      if (event.key === "ArrowLeft" || event.key === "ArrowUp") {
+        prevImage();
+      }
+      if (event.key === "ArrowRight" || event.key === "ArrowDown") {
+        nextImage();
+      }
+      if (event.key === "Escape") {
+        toggleModal();
+      }
+    },
+    [nextImage, prevImage, toggleModal]
+  );
+
+  useEffect(() => {
+    if (show) {
+      window.addEventListener("keyup", controlModal);
+    } else {
+      window.removeEventListener("keyup", controlModal);
+    }
+
+    return () => {
+      window.removeEventListener("keyup", controlModal);
+    };
+  }, [show, controlModal]);
 
   return (
     <Fragment>

@@ -17,6 +17,7 @@ const MonthEarnings = {
   sixStar: 100000000,
   killerTits: 98000000,
   beautifulBreasts: 96000000,
+  nft: 126560000,
   censoredDvds: 343600,
   uncensoredDvds: 651800,
   best: 101000000,

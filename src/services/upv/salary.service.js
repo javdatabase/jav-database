@@ -1,13 +1,14 @@
 import {
   MonthSalary,
   StableSalary,
+  NFTSalary,
   OneNightRatio,
   TokenRate,
 } from "../../helpers/salary-values";
 
 const SWEET_STAR_POINTS_BY_IDS = {
   ups001: 18,
-  ups002: 41,
+  ups002: 42,
   ups003: 5,
   ups004: 6,
   ups005: 12,
@@ -25,7 +26,11 @@ const SWEET_STAR_POINTS_BY_IDS = {
 
 function getStableEarningStar(id) {
   const STABLE_IDS = ["ups002", "ups004", "ups008"];
-  return STABLE_IDS.includes(id) ? StableSalary : 0;
+  const NFT_IDS = ["ups002"];
+  return (
+    (STABLE_IDS.includes(id) ? StableSalary : 0) +
+    (NFT_IDS.includes(id) ? NFTSalary : 0)
+  );
 }
 
 function getSalaryStar(id, points) {

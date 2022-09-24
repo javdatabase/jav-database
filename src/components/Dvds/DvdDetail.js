@@ -150,13 +150,29 @@ function DvdDetail({ show, toggleModal, data }) {
     )}`;
   }, [data]);
 
+  const controlModal = useCallback(
+    (event) => {
+      if (event.key === "Escape") {
+        toggleModal();
+      }
+    },
+    [toggleModal]
+  );
+
   useEffect(() => {
+    if (show) {
+      window.addEventListener("keyup", controlModal);
+    } else {
+      window.removeEventListener("keyup", controlModal);
+    }
+
     return () => {
+      window.removeEventListener("keyup", controlModal);
       if (timer.current) {
         clearTimeout(timer.current);
       }
     };
-  }, []);
+  }, [show, controlModal]);
 
   const copyToClipboard = useCallback(() => {
     if (get(data, "code", "") && !copied) {

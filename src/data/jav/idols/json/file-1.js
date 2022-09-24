@@ -2136,6 +2136,7 @@ const File1 = [
       { tag: "Very Pretty" },
       { tag: "Killer Tits" },
       { tag: "Mixed-Race" },
+      { tag: "NFT" },
     ],
     album: [
       {

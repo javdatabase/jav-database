@@ -101,7 +101,7 @@ function modelStyle(style) {
       return "#ffff00";
 
     default:
-      return "";
+      return "#ffffff";
   }
 }
 
