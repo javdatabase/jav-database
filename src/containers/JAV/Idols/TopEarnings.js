@@ -10,7 +10,7 @@ import { get } from "lodash";
 import styled from "styled-components";
 import { useHistory, useLocation } from "react-router-dom";
 import Cookies from "js-cookie";
-import LazyLoad from "react-lazyload";
+import { List } from "react-virtualized";
 
 import { priceCurrency } from "../../../helpers/render-price";
 import {
@@ -83,14 +83,12 @@ const Container = styled.div`
 `;
 
 const TopEarningsContainer = styled.div`
-  display: flex;
-  flex-direction: column;
+  ${center};
   padding: 30px 20px;
-  box-sizing: border-box;
 `;
 
 const IdolItem = styled.div`
-  ${center}
+  ${center};
   width: 100%;
   animation: ${fadeIn} 1s linear;
 `;
@@ -185,13 +183,27 @@ function TopEarnings() {
       </FilterIdolsContainer>
       <Container ref={containerRef} onScroll={handleScroll}>
         <TopEarningsContainer>
-          {idols.map((item) => (
-            <LazyLoad key={item.idIdol} height={30} once={true} overflow={true}>
-              <IdolItem>
-                <IdolEarning data={item} />
-              </IdolItem>
-            </LazyLoad>
-          ))}
+          <List
+            width={window.innerWidth - 40}
+            height={320 * idols.length}
+            rowCount={idols.length}
+            rowHeight={320}
+            rowRenderer={({ index, key, style }) => (
+              <div
+                key={key}
+                style={{
+                  ...style,
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                }}
+              >
+                <IdolItem>
+                  <IdolEarning data={idols[index]} />
+                </IdolItem>
+              </div>
+            )}
+          />
         </TopEarningsContainer>
       </Container>
     </Fragment>

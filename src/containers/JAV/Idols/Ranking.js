@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect, useCallback } from "react";
 import { get } from "lodash";
 import styled from "styled-components";
 import Cookies from "js-cookie";
-import LazyLoad from "react-lazyload";
+import { List } from "react-virtualized";
 
 import { ALL_IDOLS_DETAIL } from "../../../services/jav/idols.service";
 import IdolRanking from "../../../components/Idols/IdolRanking";
@@ -30,14 +30,12 @@ const Container = styled.div`
 `;
 
 const RankingContainer = styled.div`
-  display: flex;
-  flex-direction: column;
+  ${center};
   padding: 30px 20px;
-  box-sizing: border-box;
 `;
 
 const IdolItem = styled.div`
-  ${center}
+  ${center};
   width: 100%;
   animation: ${fadeIn} 1s linear;
 `;
@@ -72,13 +70,27 @@ function Ranking() {
   return (
     <Container ref={containerRef} onScroll={handleScroll}>
       <RankingContainer>
-        {ALL_IDOLS_DETAIL.map((item) => (
-          <LazyLoad key={item.idIdol} height={200} once={true} overflow={true}>
-            <IdolItem>
-              <IdolRanking data={item} />
-            </IdolItem>
-          </LazyLoad>
-        ))}
+        <List
+          width={window.innerWidth - 40}
+          height={320 * ALL_IDOLS_DETAIL.length}
+          rowCount={ALL_IDOLS_DETAIL.length}
+          rowHeight={320}
+          rowRenderer={({ index, key, style }) => (
+            <div
+              key={key}
+              style={{
+                ...style,
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+            >
+              <IdolItem>
+                <IdolRanking data={ALL_IDOLS_DETAIL[index]} />
+              </IdolItem>
+            </div>
+          )}
+        />
       </RankingContainer>
     </Container>
   );

@@ -5,10 +5,10 @@ import React, {
   useEffect,
   useCallback,
 } from "react";
-import { get } from "lodash";
+import { get, chunk } from "lodash";
 import styled from "styled-components";
 import { useHistory, useLocation } from "react-router-dom";
-import LazyLoad from "react-lazyload";
+import { Grid } from "react-virtualized";
 import ElementResizeEvent from "element-resize-event";
 
 import SizesCup from "../../../helpers/sizes-cup";
@@ -75,15 +75,12 @@ const Container = styled.div`
 `;
 
 const StarContainer = styled.div`
-  display: grid;
-  grid-template-columns: repeat(5, minmax(15vw, 1fr));
-  gap: 80px 40px;
-  padding: 80px 20px 30px;
-  box-sizing: border-box;
+  ${center};
+  padding: 30px 0px;
 `;
 
 const StarItem = styled.div`
-  ${center}
+  ${center};
   width: 16vw;
   animation: ${fadeIn} 1s linear;
 `;
@@ -122,6 +119,10 @@ function Stars() {
     );
     return result;
   }, [location.state]);
+
+  const gridStars = useMemo(() => {
+    return chunk(stars.data, 5);
+  }, [stars]);
 
   const changeFilterHeight = useCallback(() => {
     const element = document.getElementById("filter-stars");
@@ -255,18 +256,37 @@ function Stars() {
           <NotFound>Not Found</NotFound>
         ) : (
           <StarContainer>
-            {stars.data.map((item) => (
-              <LazyLoad
-                key={item.idStar}
-                height={30}
-                once={true}
-                overflow={true}
-              >
-                <StarItem>
-                  <StarCard data={item} click={() => handleChangeData(item)} />
-                </StarItem>
-              </LazyLoad>
-            ))}
+            <Grid
+              style={{ overflow: "visible" }}
+              containerStyle={{ overflow: "visible" }}
+              columnCount={5}
+              rowCount={gridStars.length}
+              columnWidth={(window.innerWidth - 20) / 5}
+              rowHeight={520}
+              width={window.innerWidth - 20}
+              height={520 * gridStars.length}
+              cellRenderer={({ columnIndex, key, rowIndex, style }) => (
+                <div
+                  key={key}
+                  style={{
+                    ...style,
+                    display: "flex",
+                    justifyContent: "center",
+                  }}
+                >
+                  {!!gridStars?.[rowIndex][columnIndex] && (
+                    <StarItem>
+                      <StarCard
+                        data={gridStars[rowIndex][columnIndex]}
+                        click={() =>
+                          handleChangeData(gridStars[rowIndex][columnIndex])
+                        }
+                      />
+                    </StarItem>
+                  )}
+                </div>
+              )}
+            />
           </StarContainer>
         )}
         <PaginationContainer>
