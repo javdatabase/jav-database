@@ -1,7 +1,6 @@
 import React, {
   Fragment,
   useState,
-  useRef,
   useMemo,
   useEffect,
   useCallback,
@@ -10,7 +9,7 @@ import { get } from "lodash";
 import styled from "styled-components";
 import { useHistory, useLocation } from "react-router-dom";
 import Cookies from "js-cookie";
-import { List } from "react-virtualized";
+import { InfiniteLoader, List } from "react-virtualized";
 
 import { priceCurrency } from "../../../helpers/render-price";
 import {
@@ -43,6 +42,7 @@ const FilterIdolsContainer = styled.div`
   justify-content: space-between;
   width: 100%;
   height: 80px;
+  padding: 20px 0px;
   border-bottom: solid 3px ${Pink};
   box-sizing: border-box;
 `;
@@ -64,27 +64,20 @@ const Value = styled.span`
 `;
 
 const Container = styled.div`
+  ${center};
   position: relative;
-  width: 100%;
-  height: calc(100vh - 183px);
-  overflow: auto;
   box-sizing: border-box;
 
-  &::-webkit-scrollbar {
+  & > .ReactVirtualized__List::-webkit-scrollbar {
     width: 6px;
     background: transparent;
     border-radius: 12px;
   }
 
-  &::-webkit-scrollbar-thumb {
+  & > .ReactVirtualized__List::-webkit-scrollbar-thumb {
     background: linear-gradient(${Orange}, ${Pink});
     border-radius: 10px;
   }
-`;
-
-const TopEarningsContainer = styled.div`
-  ${center};
-  padding: 30px 20px;
 `;
 
 const IdolItem = styled.div`
@@ -93,12 +86,17 @@ const IdolItem = styled.div`
   animation: ${fadeIn} 1s linear;
 `;
 
+const data = [];
+
+function isRowLoaded({ index }) {
+  return !!data[index];
+}
+
 function TopEarnings() {
   const history = useHistory();
   const location = useLocation();
   const [mount, setMount] = useState(false);
   const [scroll, setScroll] = useState(0);
-  const containerRef = useRef();
 
   const idols = useMemo(() => {
     if (get(location.state, "bonus", false)) {
@@ -111,25 +109,21 @@ function TopEarnings() {
   }, [location]);
 
   useEffect(() => {
-    if (containerRef && containerRef.current && !mount) {
+    if (!mount) {
       const scrollCookies = Cookies.get("scroll");
-      if (scrollCookies) {
-        containerRef.current.scrollTo({ top: scrollCookies });
-      }
+      setScroll(Number(scrollCookies || 0));
       setMount(true);
     }
   }, [mount]);
 
   useEffect(() => {
     return () => {
-      Cookies.set("scroll", scroll);
+      Cookies.set("scroll", String(scroll));
     };
   }, [scroll]);
 
-  const handleScroll = useCallback(() => {
-    if (containerRef && containerRef.current) {
-      setScroll(get(containerRef.current, "scrollTop", 0));
-    }
+  const handleScroll = useCallback(({ scrollTop }) => {
+    setScroll(scrollTop || 0);
   }, []);
 
   const handleChangeBonus = useCallback(() => {
@@ -145,6 +139,15 @@ function TopEarnings() {
       bonus: false,
     });
   }, [history, location]);
+
+  const loadMoreRows = useCallback(
+    ({ startIndex, stopIndex }) => {
+      return new Promise((resolve) => {
+        resolve(idols.slice(startIndex, stopIndex));
+      }).then((response) => response);
+    },
+    [idols]
+  );
 
   return (
     <Fragment>
@@ -181,30 +184,41 @@ function TopEarnings() {
           </Value>
         </Total>
       </FilterIdolsContainer>
-      <Container ref={containerRef} onScroll={handleScroll}>
-        <TopEarningsContainer>
-          <List
-            width={window.innerWidth - 40}
-            height={320 * idols.length}
-            rowCount={idols.length}
-            rowHeight={320}
-            rowRenderer={({ index, key, style }) => (
-              <div
-                key={key}
-                style={{
-                  ...style,
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                }}
-              >
-                <IdolItem>
-                  <IdolEarning data={idols[index]} />
-                </IdolItem>
-              </div>
-            )}
-          />
-        </TopEarningsContainer>
+      <Container>
+        <InfiniteLoader
+          isRowLoaded={isRowLoaded}
+          loadMoreRows={loadMoreRows}
+          rowCount={idols.length}
+        >
+          {({ onRowsRendered, registerChild }) => (
+            <List
+              style={{ padding: "30px 20px" }}
+              ref={registerChild}
+              width={window.innerWidth}
+              height={window.innerHeight - 180}
+              rowCount={idols.length}
+              rowHeight={320}
+              scrollTop={scroll}
+              onScroll={handleScroll}
+              onRowsRendered={onRowsRendered}
+              rowRenderer={({ index, key, style }) => (
+                <div
+                  key={key}
+                  style={{
+                    ...style,
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                  }}
+                >
+                  <IdolItem>
+                    <IdolEarning data={idols[index]} />
+                  </IdolItem>
+                </div>
+              )}
+            />
+          )}
+        </InfiniteLoader>
       </Container>
     </Fragment>
   );
