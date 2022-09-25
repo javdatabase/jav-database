@@ -6,7 +6,7 @@ import {
   TokenRate,
 } from "../../helpers/earning-values";
 
-const STAR_IDOL_ID = "";
+const STAR_IDOL_ID = "jai221";
 const SWEET_NIGHT_IDS = [
   "jai041",
   "jai041",
