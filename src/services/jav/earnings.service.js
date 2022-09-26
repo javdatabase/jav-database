@@ -6,7 +6,7 @@ import {
   TokenRate,
 } from "../../helpers/earning-values";
 
-const STAR_IDOL_ID = "";
+const STAR_IDOL_ID = "jai221";
 const SWEET_NIGHT_IDS = [
   "jai041",
   "jai041",
@@ -53,7 +53,17 @@ const BEST_IDOL_IDS = [
   "jai226",
 ];
 const TOP_POINT_GROWTH_IDS = [];
-const TOP_IDOL_IDS = [];
+const TOP_IDOL_IDS = [
+  "jai016",
+  "jai062",
+  "jai200",
+  "jai205",
+  "jai212",
+  "jai213",
+  "jai221",
+  "jai225",
+  "jai228",
+];
 const HAS_DVD_IDS = [
   "jai015",
   "jai036",
