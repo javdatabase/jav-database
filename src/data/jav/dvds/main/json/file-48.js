@@ -815,6 +815,72 @@ const File48 = [
     type: "Censored",
     idols: [{ idIdol: "jai172", name: "Maron Natsuki" }],
   },
+  {
+    code: "AGAV-076",
+    title: `I WANT TO DROWN IN MAO HAMASAKI BODY FLUID BCP THAT DRIVES YOU TO THE VERGE OF DROWNING WITH SALIVA AND PISS`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/agav076/agav076pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai007", name: "Mao Hamasaki" }],
+  },
+  {
+    code: "ALDN-067",
+    title: `I CAN'T STAND IT EVEN IF I'M A DAUGHTER-IN-LAW , MY UNCLE IS MORISAWA KANA`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/aldn067/aldn067pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai016", name: "Kanako Iioka" }],
+  },
+  {
+    code: "AVSA-216",
+    title: `SUPER ENEMA SPLASH KANCHOU ! GAL DA GO ! ! GO ! ! BOMBER INJECTION ! !`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/avsa216/avsa216pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai219", name: "Akari Niimura" }],
+  },
+  {
+    code: "AVSA-217",
+    title: `SUPER FISHEYE FETISHISM POWERFUL EXCITEMENT MITSUSHA EROTIC COSPLAY FLESH FEELING BODY MITSUMI AN`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/avsa217/avsa217pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai212", name: "An Mitsumi" }],
+  },
+  {
+    code: "HUNTB-365",
+    title: `" THIS BIG PUNCH LINE REALLY FEELS GOOD ! " A HORNY MOTHER-IN-LAW WHO HAPPILY ACCEPTS A BIG COCK THAT WAS TOO BIG FOR HER AND DOESN'T FIT ! TOO BIG ... 2`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/huntb365/huntb365pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai228", name: "Non Ohana" }],
+  },
+  {
+    code: "HUNTB-367",
+    title: `A BEAUTIFUL STUDENT TEACHER IS SEXUALLY HARASSED BY A BAD STUDENT EVERY DAY AND BECOMES A SPEAR ! THE TEACHER TRAINEE WHO RECENTLY CAME TO MY SCHOOL IS BEAUTIFUL AND OUTSTANDING IN STYLE ! FROM THE STUDENTS WHO ARE PASSIONATE ABOUT EDUCATION ...`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/huntb367/huntb367pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai148", name: "Nozomi Arimura" }],
+  },
+  {
+    code: "MOND-237",
+    title: `LONGING FEMALE BOSS AND MAO HAMASAKI`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/mond237/mond237pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai007", name: "Mao Hamasaki" }],
+  },
+  {
+    code: "UMSO-468",
+    title: `MUTCHIMUCCHI COLOSSAL TITS BIG BUTT OLDER SISTER BEST 10 PEOPLE VOL.04`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/umso468/umso468pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai056", name: "Rui Hiduki" }],
+  },
+  {
+    code: "UMSO-469",
+    title: `INCOMING CALL FROM HUSBAND IS IN ADULTERY SEX ! ! A MARRIED WOMAN WHO WAS URGED BY AN AFFAIR PARTNER TO ANSWER THE PHONE DESPERATELY SUPPRESSED HER PANT VOICE , BUT THE ACT ESCALATED AND THE EXCITEMENT LEVEL REACHED MAX ! ABSOLUTELY FOUND OUT ! ? OMNIBUS 15 PEOPLE VOL.02`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/umso469/umso469pl.jpg",
+    type: "Censored",
+    idols: [
+      { idIdol: "jai001", name: "Yui Hatano" },
+      { idIdol: "jai016", name: "Kanako Iioka" },
+    ],
+  },
 ];
 
 export default File48;

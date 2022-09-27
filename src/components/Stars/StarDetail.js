@@ -1,4 +1,5 @@
 import React, { Fragment, memo, useEffect, useCallback } from "react";
+import { createPortal } from "react-dom";
 import { get } from "lodash";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
@@ -104,7 +105,7 @@ function StarDetail({ show, toggleModal, data }) {
     };
   }, [show, controlModal]);
 
-  return (
+  return createPortal(
     <Fragment>
       <Backdrop show={show} hiddenModal={toggleModal} />
       <Container show={show}>
@@ -132,7 +133,8 @@ function StarDetail({ show, toggleModal, data }) {
           <div style={{ height: 46 }} />
         </DetailContainer>
       </Container>
-    </Fragment>
+    </Fragment>,
+    document.body
   );
 }
 
