@@ -2260,6 +2260,7 @@ const File1 = [
       { tag: "Killer Tits" },
       { tag: "Long Legs" },
       { tag: "Mixed-Race" },
+      { tag: "NFT" },
     ],
     album: [
       {

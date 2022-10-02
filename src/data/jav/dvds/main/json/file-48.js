@@ -881,6 +881,93 @@ const File48 = [
       { idIdol: "jai016", name: "Kanako Iioka" },
     ],
   },
+  {
+    code: "PED-025",
+    title: `WHEN I TRIED TO BE ALONE FOR ONLY 7 HOURS ... AS A RESULT , I HAD SEX WITH 12 SHOTS . NIIMURA AKARI`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/24ped025/24ped025pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai219", name: "Akari Niimura" }],
+  },
+  {
+    code: "YSN-584",
+    title: `MAO HAMASAKI WANTS TO DEVOUR YOUNG WIFE'S YABE BODY`,
+    poster:
+      "https://pics.dmm.co.jp/mono/movie/adult/h_127ysn584/h_127ysn584pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai007", name: "Mao Hamasaki" }],
+  },
+  {
+    code: "FIR-048",
+    title: `SUPER ! SHEER SHEER PERVERTED SCHOOL BEST 8 HOURS VOL.02 SHEER FETISH SPECIAL SEX WHERE BEAUTIFUL NAKED BODY IS TRANSPARENT !`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/118fir048/118fir048pl.jpg",
+    type: "Censored",
+    idols: [
+      { idIdol: "jai151", name: "Remu Suzumori" },
+      { idIdol: "jai212", name: "An Mitsumi" },
+    ],
+  },
+  {
+    code: "TRE-196",
+    title: `1VS1 BEST [ *NO ACTING AT ALL ] INSTINCT BARE THAI MAN 14 PRODUCTION VOL.03 6 BEST ACTRESSES X STRONGEST ACTORS ! ! 480 MINUTES THAT NO ONE HAS EVER SEEN`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/118tre196/118tre196pl.jpg",
+    type: "Censored",
+    idols: [
+      { idIdol: "jai151", name: "Remu Suzumori" },
+      { idIdol: "jai212", name: "An Mitsumi" },
+    ],
+  },
+  {
+    code: "MIDV-212",
+    title: `THE GODDESS'S BEROKISU IS DROOLING CLOSELY ! SALIVA COVERED CONTINUOUS CUM SHOT KISS KISS CUSTOMS FULL COURSE JINGUJI NAO`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/midv212/midv212pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai158", name: "Nao Jinguji" }],
+  },
+  {
+    code: "WAAA-213",
+    title: `COMPLETE ABSTINENCE FOR 1 MONTH JULIA BREAKS CRAZY LIMITS ! VAGINAL PORTION CRASHING SQUIRTING ACME`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/waaa213/waaa213pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai041", name: "Julia" }],
+  },
+  {
+    code: "WAAA-214",
+    title: `MY GIRLFRIEND WAS RAPED ALL NIGHT BY HER COLLEAGUES WHO GOT HORNY AFTER BEING MADE TO PLAY A VULGAR BANQUET GAME ON A COMPANY TRIP SUMIRE MIZUKAWA`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/waaa214/waaa214pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai190", name: "Miri Mizuki" }],
+  },
+  {
+    code: "ADN-422",
+    title: `WHEN I SENT MY DRUNK SUBORDINATE HOME AT A COMPANY DRINKING PARTY , I FUCKED ALL NIGHT UNTIL MORNING`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/adn422/adn422pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai153", name: "Hikari Ninomiya" }],
+  },
+  {
+    code: "ADN-424",
+    title: `WEEKEND ONLY , MARRIED COUPLE SWAP A NIGHT WHEN MY WIFE IS EMBRACED BY OTHERS NANAMI MISAKI`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/adn424/adn424pl.jpg",
+    type: "Censored",
+    idols: [
+      { idIdol: "jai002", name: "Hibiki Otsuki" },
+      { idIdol: "jai223", name: "Nanami Misaki" },
+    ],
+  },
+  {
+    code: "ADN-425",
+    title: `SWEATY SEX WITH A LONGING FEMALE BOSS IN A MIDSUMMER OFFICE WITH A BROKEN AIR CONDITIONER`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/adn425/adn425pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai187", name: "Tsubaki Sannomiya" }],
+  },
+  {
+    code: "ADN-426",
+    title: `I WAS HELD BY MY DAUGHTER'S BOYFRIEND . KANA MORISAWA , A STORY THAT HAS BEEN FUCKED SINCE THAT DAY WHEN I WAS FORCIBLY PUSHED DOWN`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/adn426/adn426pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai016", name: "Kanako Iioka" }],
+  },
 ];
 
 export default File48;
