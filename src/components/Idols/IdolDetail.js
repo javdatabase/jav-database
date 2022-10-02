@@ -1,4 +1,5 @@
 import React, { Fragment, memo, useEffect, useCallback } from "react";
+import { createPortal } from "react-dom";
 import { get } from "lodash";
 import styled from "styled-components";
 import { Link, useLocation } from "react-router-dom";
@@ -153,7 +154,7 @@ function IdolDetail({ show, toggleModal, data }) {
     };
   }, [show, controlModal]);
 
-  return (
+  return createPortal(
     <Fragment>
       <Backdrop show={show} hiddenModal={toggleModal} />
       <Container
@@ -207,7 +208,8 @@ function IdolDetail({ show, toggleModal, data }) {
           </StylesIdolContainer>
         </DetailContainer>
       </Container>
-    </Fragment>
+    </Fragment>,
+    document.body
   );
 }
 

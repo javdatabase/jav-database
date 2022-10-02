@@ -7,6 +7,7 @@ import React, {
   useEffect,
   useCallback,
 } from "react";
+import { createPortal } from "react-dom";
 import { get } from "lodash";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
@@ -197,7 +198,7 @@ function DvdDetail({ show, toggleModal, data }) {
     }
   }, [data, copied]);
 
-  return (
+  return createPortal(
     <Fragment>
       <Backdrop show={show} hiddenModal={toggleModal} />
       <Container
@@ -262,7 +263,8 @@ function DvdDetail({ show, toggleModal, data }) {
           </IdolsContainer>
         </DetailContainer>
       </Container>
-    </Fragment>
+    </Fragment>,
+    document.body
   );
 }
 

@@ -269,6 +269,7 @@ const File2 = [
       { tag: "Cute" },
       { tag: "Beautiful Breasts" },
       { tag: "Slender" },
+      { tag: "NFT" },
     ],
     album: [
       {

@@ -1,4 +1,5 @@
 import React, { Fragment, memo, useMemo, useEffect, useCallback } from "react";
+import { createPortal } from "react-dom";
 import styled from "styled-components";
 
 import Backdrop from "../UI/Backdrop/Backdrop";
@@ -119,7 +120,7 @@ function IdolPicture({ show, toggleModal, listData, data, setData }) {
     };
   }, [show, controlModal]);
 
-  return (
+  return createPortal(
     <Fragment>
       <Backdrop show={show} hiddenModal={toggleModal} />
       <PrevButton show={show.toString()} onClick={prevImage}>
@@ -129,7 +130,8 @@ function IdolPicture({ show, toggleModal, listData, data, setData }) {
       <NextButton show={show.toString()} onClick={nextImage}>
         {">"}
       </NextButton>
-    </Fragment>
+    </Fragment>,
+    document.body
   );
 }
 
