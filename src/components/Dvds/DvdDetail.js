@@ -164,6 +164,7 @@ function DvdDetail({ show, toggleModal, data }) {
     if (show) {
       window.addEventListener("keyup", controlModal);
     } else {
+      setCopied(false);
       window.removeEventListener("keyup", controlModal);
     }
 

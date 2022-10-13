@@ -62,14 +62,37 @@ function getPicturesRandom(album, size = 10) {
   return randomPictures();
 }
 
+function getRandomNumber(size) {
+  let result = Math.abs(
+    Math.floor(
+      (random(size) * random(83) - random(47) + random(13)) /
+        random(69 - size) +
+        random(size + 27)
+    )
+  );
+
+  while (result < 0 || result > size) {
+    result = Math.abs(
+      Math.floor(
+        (random(size) * random(83) - random(47) + random(13)) /
+          random(69 - size) +
+          random(size + 27)
+      )
+    );
+  }
+  return result;
+}
+
 function getVideoRandom() {
-  return Videos[random(SIZE_VIDEOS - 1)];
+  const index = getRandomNumber(SIZE_VIDEOS - 1);
+  return Videos[random(index)];
 }
 
 function getStarsRandom() {
   function generateNewStar(array, temp) {
     if (!!array.find((item) => item.idStar === temp.idStar)) {
-      return generateNewStar(array, Stars[random(SIZE_STARS - 1)]);
+      const index = getRandomNumber(SIZE_STARS - 1);
+      return generateNewStar(array, Stars[index]);
     }
     return {
       ...temp,
@@ -81,7 +104,8 @@ function getStarsRandom() {
   function randomStars() {
     let stars = Array(10).fill(0);
     for (let i = 0; i < stars.length; i++) {
-      stars[i] = generateNewStar(stars, Stars[random(SIZE_STARS - 1)]);
+      const index = getRandomNumber(SIZE_STARS - 1);
+      stars[i] = generateNewStar(stars, Stars[index]);
     }
     return stars;
   }

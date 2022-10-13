@@ -97,10 +97,32 @@ function getDvdsByIdol(id) {
   };
 }
 
+function getRandomNumber(size) {
+  let result = Math.abs(
+    Math.floor(
+      (random(size) * random(83) - random(47) + random(13)) /
+        random(69 - size) +
+        random(size + 27)
+    )
+  );
+
+  while (result < 0 || result > size) {
+    result = Math.abs(
+      Math.floor(
+        (random(size) * random(83) - random(47) + random(13)) /
+          random(69 - size) +
+          random(size + 27)
+      )
+    );
+  }
+  return result;
+}
+
 function getDvdsRandom() {
   function generateNewDvd(array, temp) {
     if (!!array.find((item) => item.idDvd === temp.idDvd)) {
-      return generateNewDvd(array, MainDvds[random(SIZE_MAIN_DVDS - 1)]);
+      const index = getRandomNumber(SIZE_MAIN_DVDS - 1);
+      return generateNewDvd(array, MainDvds[index]);
     }
     return temp;
   }
@@ -108,7 +130,8 @@ function getDvdsRandom() {
   function randomDvds() {
     let dvds = Array(10).fill(0);
     for (let i = 0; i < dvds.length; i++) {
-      dvds[i] = generateNewDvd(dvds, MainDvds[random(SIZE_MAIN_DVDS - 1)]);
+      const index = getRandomNumber(SIZE_MAIN_DVDS - 1);
+      dvds[i] = generateNewDvd(dvds, MainDvds[index]);
     }
     return dvds;
   }
@@ -121,20 +144,22 @@ function getVideosRandom() {
 
   function generateNewVideo(array, temp) {
     if (!!array.find((item) => item.idDvd === temp.idDvd)) {
-      return generateNewVideo(array, videos[random(videos.length - 1)]);
+      const index = getRandomNumber(videos.length - 1);
+      return generateNewVideo(array, videos[index]);
     }
     return temp;
   }
 
-  function randomDvds() {
+  function randomVideos() {
     let dvds = Array(10).fill(0);
     for (let i = 0; i < dvds.length; i++) {
-      dvds[i] = generateNewVideo(dvds, videos[random(videos.length - 1)]);
+      const index = getRandomNumber(videos.length - 1);
+      dvds[i] = generateNewVideo(dvds, videos[index]);
     }
     return dvds;
   }
 
-  return randomDvds();
+  return randomVideos();
 }
 
 function getIdolsRandom() {
@@ -142,7 +167,8 @@ function getIdolsRandom() {
 
   function generateNewIdol(array, temp) {
     if (!!array.find((item) => item.idIdol === temp.idIdol)) {
-      return generateNewIdol(array, allIdolsDetail[random(SIZE_IDOLS - 1)]);
+      const index = getRandomNumber(SIZE_IDOLS - 1);
+      return generateNewIdol(array, allIdolsDetail[index]);
     }
     return temp;
   }
@@ -150,7 +176,8 @@ function getIdolsRandom() {
   function randomIdols() {
     let idols = Array(10).fill(0);
     for (let i = 0; i < idols.length; i++) {
-      idols[i] = generateNewIdol(idols, allIdolsDetail[random(SIZE_IDOLS - 1)]);
+      const index = getRandomNumber(SIZE_IDOLS - 1);
+      idols[i] = generateNewIdol(idols, allIdolsDetail[index]);
     }
     return idols;
   }
