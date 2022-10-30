@@ -20,6 +20,20 @@ const File1 = [
     type: "Censored",
     idols: [{ idIdol: "jai073", name: "Minami Aizawa" }],
   },
+  {
+    code: "PPPE-085",
+    title: `BUSTY FEMALE TEACHER'S TEMPTATION KAREN YUZURIHA`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/pppe085/pppe085pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai205", name: "Karen Yuzuriha" }],
+  },
+  {
+    code: "PPPE-087",
+    title: `THE NIGHT BEFORE THE WEDDING . I CAN'T RESIST THE BIG TITS TEMPTATION OF MY EX-GIRLFRIEND WHO WAS MY FIRST LOVE ... LOVE HOTEL SECRET MEETING THAT CAN'T STOP CHEATING EVEN WHEN IT'S TIME FOR THE WEDDING NON KOBANA`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/pppe087/pppe087pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai228", name: "Non Ohana" }],
+  },
 ];
 
 export default File1;

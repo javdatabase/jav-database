@@ -1676,6 +1676,13 @@ const File48 = [
     type: "Censored",
     idols: [{ idIdol: "jai153", name: "Hikari Ninomiya" }],
   },
+  {
+    code: "SAME-027",
+    title: `POUNDED LIKE A BITCH IN FRONT OF MY DAUGHTER KANA MORISAWA LALA KUDO`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/same027/same027pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai016", name: "Kanako Iioka" }],
+  },
 ];
 
 export default File48;
