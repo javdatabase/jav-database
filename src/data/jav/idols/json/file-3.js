@@ -1478,9 +1478,9 @@ const File3 = [
     avatar:
       "https://www.japanesebeauties.net/japanese/kana-yume/137/kana-yume-7.jpg",
     name: "Kana Yume",
-    other: "",
+    other: "Jun Mizukawa",
     born: "12/02/1993",
-    height: "163 cm",
+    height: "161 cm",
     breast: "86 cm",
     cup: "D-Cup",
     waist: "59 cm",

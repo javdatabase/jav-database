@@ -23,6 +23,7 @@ const File1 = [
       { tag: "6 Stars JAV" },
       { tag: "Cute" },
       { tag: "Beautiful Breasts" },
+      { tag: "NFT" },
     ],
     album: [
       {
