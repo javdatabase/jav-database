@@ -1,3 +1,5 @@
+import { CCDV130, SSDV124 } from "../../main/images";
+
 const File1 = [
   {
     code: `CHRV-102`,
@@ -176,6 +178,20 @@ const File1 = [
     poster: "https://pics.dmm.co.jp/mono/movie/adult/vec530/vec530pl.jpg",
     type: "Censored",
     idols: [{ idIdol: "jai000", name: "Mayu Hasegawa" }],
+  },
+  {
+    code: "CCDV-130",
+    title: `CATWALK POISON CCDV 130 BUNNY COSPLAY SCHOOL`,
+    poster: CCDV130,
+    type: "Uncensored",
+    idols: [{ idIdol: "jai000", name: "Miyu Sakuraka" }],
+  },
+  {
+    code: "SSDV-124",
+    title: `S MODEL SSDV 124 MY CHILDHOOD FRIEND'S GAL COMFORTED ME WITH A NAUGHTY LESSON`,
+    poster: SSDV124,
+    type: "Uncensored",
+    idols: [{ idIdol: "jai000", name: "Miyu Sakuraka" }],
   },
 ];
 

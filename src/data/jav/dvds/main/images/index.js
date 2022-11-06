@@ -365,6 +365,8 @@ import SSDV119 from "./SSDV-119.jpg";
 import LLDV125 from "./LLDV-125.jpg";
 import CT41 from "./CT-41.jpg";
 import CCDV127 from "./CCDV-127.jpg";
+import CCDV130 from "./CCDV-130.jpg";
+import SSDV124 from "./SSDV-124.jpg";
 
 export {
   CWP49,
@@ -734,4 +736,6 @@ export {
   LLDV125,
   CT41,
   CCDV127,
+  CCDV130,
+  SSDV124,
 };
