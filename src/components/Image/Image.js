@@ -23,7 +23,10 @@ function Avatar({ src, lazy, ...props }) {
   const [reload, setReload] = useState(false);
 
   useEffect(() => {
-    setSource(src || SexyShadowImage);
+    setDummy(true);
+    setTimeout(() => {
+      setSource(src || SexyShadowImage);
+    }, 500);
   }, [src]);
 
   const handleLoad = useCallback(() => {
