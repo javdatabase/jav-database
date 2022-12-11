@@ -23,7 +23,10 @@ function DvdPoster({ src, ...props }) {
   const [reload, setReload] = useState(false);
 
   useEffect(() => {
-    setSource(src || SexyShadowBackground);
+    setDummy(true);
+    setTimeout(() => {
+      setSource(src || SexyShadowBackground);
+    }, 500);
   }, [src]);
 
   const handleLoad = useCallback(() => {
