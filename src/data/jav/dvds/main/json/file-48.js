@@ -2577,6 +2577,67 @@ const File48 = [
     type: "Censored",
     idols: [{ idIdol: "jai143", name: "Kana Yume" }],
   },
+  {
+    code: "SAN-089",
+    title: `6 WIVES CUCKOLD IN VARIOUS SITUATIONS 6 PRODUCTION 270 MINUTES`,
+    poster:
+      "https://pics.dmm.co.jp/mono/movie/adult/h_796san089/h_796san089pl.jpg",
+    type: "Censored",
+    idols: [
+      { idIdol: "jai001", name: "Yui Hatano" },
+      { idIdol: "jai046", name: "Nana Usami" },
+      { idIdol: "jai101", name: "Ameri Ichinose" },
+    ],
+  },
+  {
+    code: "BNST-052",
+    title: `MY LOVELY BIMBO-CHAN ! KANA ( 29 YEARS OLD ) KANA MORISAWA`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/bnst052/bnst052pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai016", name: "Kanako Iioka" }],
+  },
+  {
+    code: "JUSD-999",
+    title: `RIO KURIYAMA THE FIRST ANNIVERSARY 3-DISC SET 12 HOURS ~ POPULAR ACTRESS CLIMBING THE ADULT STAIRS , MADONNA EXCLUSIVE 1ST ANNIVERSARY " FIRST " BEST ~`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/jusd999/jusd999pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai210", name: "Rio Kuriyama" }],
+  },
+  {
+    code: "KTRA-474",
+    title: `PRETTY YOUNGER SISTER COLLECTION 2 4 HOURS`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/ktra474/ktra474pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai158", name: "Nao Jinguji" }],
+  },
+  {
+    code: "NASH-809",
+    title: `A MOTHER WHO DOESN'T CARE ABOUT HER HUSBAND SEDUCES A VIRGIN SON NO MATTER WHAT ! ? BRUSH DOWN !`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/nash809/nash809pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai001", name: "Yui Hatano" }],
+  },
+  {
+    code: "NGOD-183",
+    title: `LEWD AND VULGAR MASTER HAD A PENIS ENLARGEMENT SURGERY TO PLEASE A PROSTITUTE MISS MY WIFE HATANO YUI WAS TEST SHOT AFTER SURGERY WITH A MAGICAL MODIFIED 25CM BIG CANNON AND MADE ME MELO MELO`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/ngod183/ngod183pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai001", name: "Yui Hatano" }],
+  },
+  {
+    code: "TYSF-031",
+    title: `I THINK I'M SLEEPING, BUT ON THE CONTRARY , I'M CHASED BY MY SON AND I'M BEING NTRED NON KOBANA`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/tysf031/tysf031pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai228", name: "Non Ohana" }],
+  },
+  {
+    code: "URKK-072",
+    title: `AT LEAST 10 SHOTS ARE NUKU ! ! 240 MINUTES HIGHLIGHTS OF A REJUVENATED BIG TITS & APHRODISIAC SALON WITH BIG TITS SHAKING AND CUMMING ANY NUMBER OF TIMES`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/urkk072/urkk072pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai185", name: "Nene Tanaka" }],
+  },
 ];
 
 export default File48;
