@@ -8,13 +8,13 @@ import {
 
 const SWEET_STAR_POINTS_BY_IDS = {
   ups001: 18,
-  ups002: 58,
+  ups002: 79,
   ups003: 5,
   ups004: 6,
   ups005: 12,
   ups006: 7,
   ups007: 7,
-  ups008: 22,
+  ups008: 25,
   ups009: 18,
   ups010: 5,
   ups011: 8,
