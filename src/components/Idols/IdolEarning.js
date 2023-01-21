@@ -290,7 +290,7 @@ function IdolEarning({ data }) {
           </IdolInformationContainer>
           <PicturesContainer>
             {data.album
-              .filter((item, index) => index < 10)
+              .filter((_item, index) => index < 10)
               .map((item) => (
                 <PictureBorder key={item.picture}>
                   <Picture
