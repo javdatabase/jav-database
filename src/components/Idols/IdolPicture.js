@@ -9,17 +9,24 @@ import { White, Black, Pink, Orange } from "../../themes/colors";
 import { fadeIn, center } from "../../themes/styled";
 import { XXLarge } from "../../themes/font";
 
-const AvatarIdol = styled(Image)`
+const AvatarModal = styled.div`
   position: fixed;
   z-index: 300;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   display: ${(props) => (props.show === "true" ? "block" : "none")};
+  min-width: 62vh;
+  height: 90vh;
+  border-radius: 12px;
+  animation: ${fadeIn} 0.3s ease-in-out;
+`;
+
+const AvatarIdol = styled(Image)`
+  min-width: 62vh;
   height: 90vh;
   object-fit: cover;
   border-radius: 12px;
-  animation: ${fadeIn} 0.3s ease-in-out;
 `;
 
 const PrevButton = styled.div`
@@ -126,7 +133,9 @@ function IdolPicture({ show, toggleModal, listData, data, setData }) {
       <PrevButton show={show.toString()} onClick={prevImage}>
         {"<"}
       </PrevButton>
-      <AvatarIdol show={show.toString()} src={data} />
+      <AvatarModal show={show.toString()}>
+        <AvatarIdol src={data} />
+      </AvatarModal>
       <NextButton show={show.toString()} onClick={nextImage}>
         {">"}
       </NextButton>
