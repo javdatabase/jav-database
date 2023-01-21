@@ -469,6 +469,30 @@ const File49 = [
     type: "Censored",
     idols: [{ idIdol: "jai143", name: "Kana Yume" }],
   },
+  {
+    code: "BAZX-359",
+    title: `HIGH-END MEN'S ESTE'S EXCESSIVE FORBIDDEN SERVICE`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/bazx359/bazx359pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai027", name: "Maya Kawamura" }],
+  },
+  {
+    code: "HUNTB-422",
+    title: `" 1 CM IS FINE , JUST LET ME INSERT THE TIP ! I'LL NEVER MOVE , SO I'M ASKING A KIND MOTHER-IN-LAW FOR A VIRGIN BOY WITH AN ERECTION ! AFTER ALL , THE MOTHER-IN-LAW IS LUSTFUL AND INSERTS HERSELF ZUPPOSHI !`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/huntb422/huntb422pl.jpg",
+    type: "Censored",
+    idols: [
+      { idIdol: "jai048", name: "Honoka Tsuji" },
+      { idIdol: "jai146", name: "Harua Narumiya" },
+    ],
+  },
+  {
+    code: "NSFS-158",
+    title: `NEW LOVE SEX DOLL BEST`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/nsfs158/nsfs158pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai001", name: "Yui Hatano" }],
+  },
 ];
 
 export default File49;
