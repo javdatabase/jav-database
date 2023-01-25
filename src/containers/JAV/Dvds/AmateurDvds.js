@@ -63,7 +63,7 @@ function AmateurDvds() {
   const [data, setData] = useState(null);
 
   const dvds = useMemo(() => {
-    return ALL_DVDS_AMATEUR_BY_PAGE(page, 30);
+    return ALL_DVDS_AMATEUR_BY_PAGE(page, 60);
   }, [page]);
 
   const gridDvds = useMemo(() => {
@@ -134,7 +134,7 @@ function AmateurDvds() {
           <Pagination
             count={SIZE_AMATEUR_DVDS}
             page={page}
-            size={30}
+            size={60}
             handleChangePage={handleChangePage}
           />
         </PaginationContainer>

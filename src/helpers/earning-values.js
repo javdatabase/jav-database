@@ -13,11 +13,11 @@ const MonthEarnings = {
     active: 857400000,
     retired: 382150000,
   },
-  veryPretty: 933555000,
+  veryPretty: 2133555000,
   sixStar: 800000000,
   killerTits: 308000000,
   beautifulBreasts: 296000000,
-  nft: 626560000,
+  nft: 1926560000,
   censoredDvds: 943600,
   uncensoredDvds: 1251800,
   best: 201000000,
@@ -26,10 +26,10 @@ const MonthEarnings = {
 
 const StableEarnings = 1772000000;
 
-const OneNightRatio = 2;
+const OneNightRatio = 3.861;
 
 const WeekEarnings = {
-  starIdol: 428944000,
+  starIdol: 3528944000,
   bestDvd: 150560000,
   bestIdol: 124436000,
   sweetNight: 1259000000,

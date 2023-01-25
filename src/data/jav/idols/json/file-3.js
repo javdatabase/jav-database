@@ -187,7 +187,7 @@ const File3 = [
     waist: "58 cm",
     hips: "89 cm",
     styles: [
-      { tag: "Very Pretty" },
+      { tag: "Pretty" },
       { tag: "6 Stars JAV" },
       { tag: "Cute" },
       { tag: "Killer Tits" },
@@ -239,7 +239,7 @@ const File3 = [
     waist: "58 cm",
     hips: "83 cm",
     styles: [
-      { tag: "Very Pretty" },
+      { tag: "Pretty" },
       { tag: "Retired" },
       { tag: "6 Stars JAV" },
       { tag: "Cute" },
@@ -357,7 +357,7 @@ const File3 = [
     waist: "57 cm",
     hips: "88 cm",
     styles: [
-      { tag: "Very Pretty" },
+      { tag: "Pretty" },
       { tag: "Retired" },
       { tag: "Cute" },
       { tag: "Killer Tits" },
@@ -1180,7 +1180,7 @@ const File3 = [
     waist: "58 cm",
     hips: "88 cm",
     styles: [
-      { tag: "Very Pretty" },
+      { tag: "Pretty" },
       { tag: "Retired" },
       { tag: "6 Stars JAV" },
       { tag: "Cute" },
@@ -1822,7 +1822,7 @@ const File3 = [
     waist: "58 cm",
     hips: "85 cm",
     styles: [
-      { tag: "Very Pretty" },
+      { tag: "Pretty" },
       { tag: "Cute" },
       { tag: "Beautiful Breasts" },
       { tag: "Mixed-Race" },
@@ -2035,7 +2035,7 @@ const File3 = [
     waist: "57 cm",
     hips: "87 cm",
     styles: [
-      { tag: "Very Pretty" },
+      { tag: "Pretty" },
       { tag: "Retired" },
       { tag: "Cute" },
       { tag: "Killer Tits" },
@@ -2059,7 +2059,7 @@ const File3 = [
     cup: "G-Cup",
     waist: "60 cm",
     hips: "89 cm",
-    styles: [{ tag: "Very Pretty" }, { tag: "Killer Tits" }],
+    styles: [{ tag: "Pretty" }, { tag: "Killer Tits" }],
     album: [
       {
         picture:
@@ -2438,7 +2438,7 @@ const File3 = [
     waist: "60 cm",
     hips: "90 cm",
     styles: [
-      { tag: "Very Pretty" },
+      { tag: "Pretty" },
       { tag: "Retired" },
       { tag: "Cute" },
       { tag: "Beautiful Breasts" },
@@ -2699,7 +2699,7 @@ const File3 = [
     waist: "59 cm",
     hips: "89 cm",
     styles: [
-      { tag: "Very Pretty" },
+      { tag: "Pretty" },
       { tag: "Retired" },
       { tag: "Cute" },
       { tag: "Beautiful Breasts" },

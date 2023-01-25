@@ -4,7 +4,7 @@ const StableSalary = 146785280;
 
 const NFTSalary = 566400000;
 
-const OneNightRatio = 3;
+const OneNightRatio = 4.719;
 
 const TokenRate = 3210;
 

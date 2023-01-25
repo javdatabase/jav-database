@@ -63,7 +63,7 @@ function PreReleaseDvds() {
   const [data, setData] = useState(null);
 
   const dvds = useMemo(() => {
-    return ALL_DVDS_PRE_RELEASE_BY_PAGE(page, 30);
+    return ALL_DVDS_PRE_RELEASE_BY_PAGE(page, 60);
   }, [page]);
 
   const gridDvds = useMemo(() => {
@@ -134,7 +134,7 @@ function PreReleaseDvds() {
           <Pagination
             count={SIZE_PRE_RELEASE_DVDS}
             page={page}
-            size={30}
+            size={60}
             handleChangePage={handleChangePage}
           />
         </PaginationContainer>

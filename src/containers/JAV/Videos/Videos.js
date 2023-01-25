@@ -109,7 +109,7 @@ function Videos() {
       get(state, "code", ""),
       get(state, "idols", null),
       get(state, "page", 1),
-      30
+      60
     );
     return result;
   }, [location.state]);
@@ -243,7 +243,7 @@ function Videos() {
           <Pagination
             count={dvds.size}
             page={get(location.state, "page", 1)}
-            size={30}
+            size={60}
             handleChangePage={handleChangePage}
           />
         </PaginationContainer>
