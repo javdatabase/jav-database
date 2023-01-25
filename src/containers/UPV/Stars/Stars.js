@@ -115,7 +115,7 @@ function Stars() {
       get(state, "breast", ""),
       get(state, "hips", ""),
       get(state, "page", 1),
-      20
+      30
     );
     return result;
   }, [location.state]);
@@ -293,7 +293,7 @@ function Stars() {
           <Pagination
             count={stars.size}
             page={get(location.state, "page", 1)}
-            size={20}
+            size={30}
             handleChangePage={handleChangePage}
           />
         </PaginationContainer>

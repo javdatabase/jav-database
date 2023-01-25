@@ -146,7 +146,7 @@ const File4 = [
     waist: "54 cm",
     hips: "83 cm",
     styles: [
-      { tag: "Very Pretty" },
+      { tag: "Pretty" },
       { tag: "Cute" },
       { tag: "Beautiful Breasts" },
       { tag: "Slender" },
@@ -905,7 +905,7 @@ const File4 = [
     waist: "58 cm",
     hips: "85 cm",
     styles: [
-      { tag: "Very Pretty" },
+      { tag: "Pretty" },
       { tag: "Killer Tits" },
       { tag: "Slender" },
       { tag: "Teens" },
@@ -1612,7 +1612,7 @@ const File4 = [
     cup: "G-Cup",
     waist: "59 cm",
     hips: "90 cm",
-    styles: [{ tag: "Very Pretty" }, { tag: "Killer Tits" }, { tag: "Teens" }],
+    styles: [{ tag: "Pretty" }, { tag: "Killer Tits" }, { tag: "Teens" }],
     album: [
       {
         picture: mugi_kobato.mugi_kobato_2,

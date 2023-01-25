@@ -187,6 +187,7 @@ const TabContent = styled.div`
 `;
 
 const TabContainer = styled.div`
+  position: relative;
   ${center};
   padding: 15px 0px;
 `;
@@ -375,6 +376,7 @@ function Idol() {
   );
 
   const renderTabContent = useCallback(() => {
+    const tabWidth = window.innerWidth / 2 - 110;
     switch (tab) {
       case 0:
         return (
@@ -384,9 +386,9 @@ function Idol() {
               containerStyle={{ overflow: "visible" }}
               columnCount={2}
               rowCount={gridImages.length}
-              columnWidth={(window.innerWidth / 2 - 110) / 2}
+              columnWidth={tabWidth / 2}
               rowHeight={425}
-              width={window.innerWidth / 2 - 110}
+              width={tabWidth}
               height={425 * gridImages.length}
               cellRenderer={({ columnIndex, key, rowIndex, style }) => (
                 <div
@@ -424,9 +426,9 @@ function Idol() {
               containerStyle={{ overflow: "visible" }}
               columnCount={3}
               rowCount={gridDvds.length}
-              columnWidth={(window.innerWidth / 2 - 110) / 3}
+              columnWidth={tabWidth / 3}
               rowHeight={180}
-              width={window.innerWidth / 2 - 110}
+              width={tabWidth}
               height={180 * gridDvds.length}
               cellRenderer={({ columnIndex, key, rowIndex, style }) => (
                 <div
@@ -435,6 +437,10 @@ function Idol() {
                     ...style,
                     display: "flex",
                     justifyContent: "center",
+                    width: tabWidth / 3,
+                    height: 180,
+                    left: columnIndex * (tabWidth / 3),
+                    top: rowIndex * 180,
                   }}
                 >
                   {!!gridDvds?.[rowIndex][columnIndex] && (

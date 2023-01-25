@@ -1,5 +1,5 @@
 const ModelStyles = [
-  "Very Pretty",
+  "Pretty",
   "Retired",
   "6 Stars JAV",
   "Cute",
