@@ -6,8 +6,9 @@ import {
   TokenRate,
 } from "../../helpers/earning-values";
 
-const STAR_IDOL_ID = "";
+const STAR_IDOL_ID = "jai041";
 const SWEET_NIGHT_IDS = [
+  "jai001",
   "jai001",
   "jai001",
   "jai011",
@@ -19,35 +20,61 @@ const SWEET_NIGHT_IDS = [
   "jai015",
   "jai015",
   "jai024",
+  "jai041",
+  "jai057",
   "jai070",
+  "jai071",
+  "jai075",
+  "jai075",
   "jai076",
   "jai076",
+  "jai141",
+  "jai154",
   "jai157",
+  "jai158",
+  "jai158",
+  "jai158",
+  "jai189",
   "jai196",
+  "jai219",
 ];
 const BEST_DVD_IDS = [
   "jai007",
   "jai011",
   "jai015",
   "jai021",
+  "jai075",
+  "jai133",
   "jai146",
   "jai148",
   "jai158",
+  "jai176",
+  "jai190",
   "jai196",
   "jai219",
+  "jai222",
+  "jai228",
 ];
 const BEST_IDOL_IDS = [
   "jai007",
   "jai011",
   "jai015",
   "jai021",
+  "jai075",
+  "jai133",
+  "jai140",
   "jai146",
   "jai148",
   "jai158",
+  "jai176",
+  "jai179",
+  "jai190",
   "jai196",
   "jai219",
+  "jai222",
+  "jai228",
 ];
-const TOP_POINT_GROWTH_IDS = ["jai007", "jai148"];
+const TOP_POINT_GROWTH_IDS = ["jai007", "jai075", "jai148"];
 const TOP_IDOL_IDS = [
   "jai016",
   "jai062",
@@ -66,11 +93,19 @@ const HAS_DVD_IDS = [
   "jai011",
   "jai015",
   "jai021",
+  "jai075",
+  "jai133",
+  "jai140",
   "jai146",
   "jai148",
   "jai158",
+  "jai176",
+  "jai179",
+  "jai190",
   "jai196",
   "jai219",
+  "jai222",
+  "jai228",
 ];
 const NEWBIE_IDS = [];
 
