@@ -74,7 +74,7 @@ const BEST_IDOL_IDS = [
   "jai222",
   "jai228",
 ];
-const TOP_POINT_GROWTH_IDS = ["jai007", "jai075", "jai148"];
+const TOP_POINT_GROWTH_IDS = ["jai007", "jai075", "jai148", "jai219", "jai228"];
 const TOP_IDOL_IDS = [
   "jai016",
   "jai062",
