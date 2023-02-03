@@ -648,6 +648,22 @@ const File49 = [
     type: "Censored",
     idols: [{ idIdol: "jai075", name: "Minori Hatsune" }],
   },
+  {
+    code: "MACB-032",
+    title: `G-CUP WIFE WITH A BOTTOMLESS SEXUAL DESIRE " I WAS LOOKING FOR THIS COCK ... " I MET AN UNEQUALED OLD MAN AND HAD SEX IN THE AFTERNOON AKARI NIIMURA`,
+    poster:
+      "https://pics.dmm.co.jp/mono/movie/adult/h_687macb032/h_687macb032pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai219", name: "Akari Niimura" }],
+  },
+  {
+    code: "SGKX-026",
+    title: `OFF PACO LAB [ EROTIC CUTE AMATEUR DAISY CHAIN ] #001`,
+    poster:
+      "https://pics.dmm.co.jp/mono/movie/adult/h_1571sgkx026/h_1571sgkx026pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai228", name: "Non Ohana" }],
+  },
 ];
 
 export default File49;
