@@ -1,4 +1,5 @@
-import React, { Fragment, memo, useMemo, useCallback } from "react";
+import React, { Fragment, memo, useMemo, useEffect, useCallback } from "react";
+import { createPortal } from "react-dom";
 import styled from "styled-components";
 
 import Backdrop from "../UI/Backdrop/Backdrop";
@@ -8,17 +9,24 @@ import { White, Black, Pink, Orange } from "../../themes/colors";
 import { fadeIn, center } from "../../themes/styled";
 import { XXLarge } from "../../themes/font";
 
-const AvatarIdol = styled(Image)`
+const AvatarModal = styled.div`
   position: fixed;
   z-index: 300;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   display: ${(props) => (props.show === "true" ? "block" : "none")};
+  min-width: 62vh;
+  height: 90vh;
+  border-radius: 12px;
+  animation: ${fadeIn} 0.3s ease-in-out;
+`;
+
+const AvatarIdol = styled(Image)`
+  min-width: 62vh;
   height: 90vh;
   object-fit: cover;
   border-radius: 12px;
-  animation: ${fadeIn} 0.3s ease-in-out;
 `;
 
 const PrevButton = styled.div`
@@ -92,17 +100,47 @@ function IdolPicture({ show, toggleModal, listData, data, setData }) {
     }
   }, [listData, current, setData]);
 
-  return (
+  const controlModal = useCallback(
+    (event) => {
+      if (event.key === "ArrowLeft" || event.key === "ArrowUp") {
+        prevImage();
+      }
+      if (event.key === "ArrowRight" || event.key === "ArrowDown") {
+        nextImage();
+      }
+      if (event.key === "Escape") {
+        toggleModal();
+      }
+    },
+    [nextImage, prevImage, toggleModal]
+  );
+
+  useEffect(() => {
+    if (show) {
+      window.addEventListener("keyup", controlModal);
+    } else {
+      window.removeEventListener("keyup", controlModal);
+    }
+
+    return () => {
+      window.removeEventListener("keyup", controlModal);
+    };
+  }, [show, controlModal]);
+
+  return createPortal(
     <Fragment>
       <Backdrop show={show} hiddenModal={toggleModal} />
       <PrevButton show={show.toString()} onClick={prevImage}>
         {"<"}
       </PrevButton>
-      <AvatarIdol show={show.toString()} src={data} />
+      <AvatarModal show={show.toString()}>
+        <AvatarIdol src={data} />
+      </AvatarModal>
       <NextButton show={show.toString()} onClick={nextImage}>
         {">"}
       </NextButton>
-    </Fragment>
+    </Fragment>,
+    document.body
   );
 }
 

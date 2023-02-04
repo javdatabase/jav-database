@@ -56,49 +56,52 @@ function sizeCup(cup) {
 function modelStyle(style) {
   switch (style) {
     case ModelStyle[0]:
-      return "#bdc3c7";
+      return "#a7f542";
 
     case ModelStyle[1]:
-      return "#ff0084";
+      return "#bdc3c7";
 
     case ModelStyle[2]:
-      return "#11ffbd";
+      return "#ff0084";
 
     case ModelStyle[3]:
-      return "#00c6ff";
+      return "#11ffbd";
 
     case ModelStyle[4]:
-      return "#036310";
+      return "#00c6ff";
 
     case ModelStyle[5]:
-      return "#0072ff";
+      return "#036310";
 
     case ModelStyle[6]:
-      return "#f12711";
+      return "#0072ff";
 
     case ModelStyle[7]:
-      return "#ffa751";
+      return "#f12711";
 
     case ModelStyle[8]:
-      return "#7f00ff";
+      return "#ffa751";
 
     case ModelStyle[9]:
-      return "#f4c4f3";
+      return "#7f00ff";
 
     case ModelStyle[10]:
-      return "#74ebd5";
+      return "#f4c4f3";
 
     case ModelStyle[11]:
-      return "#45b649";
+      return "#74ebd5";
 
     case ModelStyle[12]:
-      return "#f953c6";
+      return "#45b649";
 
     case ModelStyle[13]:
+      return "#f953c6";
+
+    case ModelStyle[14]:
       return "#ffff00";
 
     default:
-      return "";
+      return "#ffffff";
   }
 }
 

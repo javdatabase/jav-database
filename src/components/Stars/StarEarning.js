@@ -218,7 +218,7 @@ function StarEarning({ data }) {
           </PicturesContainer>
           <EarningContainer>
             <PriceStar>
-              ${priceCurrency(data.earnings)} ({priceCurrency(price)})
+              {priceCurrency(data.earnings)} ({priceCurrency(price)}) ❂
             </PriceStar>
           </EarningContainer>
         </div>

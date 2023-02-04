@@ -16,6 +16,10 @@ import * as saika_kawakita from "../images/saika-kawakita";
 import * as ria_yamate from "../images/ria-yamate";
 import * as mugi_kobato from "../images/mugi-kobato";
 import * as iyona_fujii from "../images/iyona-fujii";
+import * as momona_koibuchi from "../images/momona-koibuchi";
+import * as aoi_ichino from "../images/aoi-ichino";
+import * as meguri_minoshima from "../images/meguri-minoshima";
+import * as non_ohana from "../images/non-ohana";
 
 const File4 = [
   {
@@ -141,7 +145,12 @@ const File4 = [
     cup: "G-Cup",
     waist: "54 cm",
     hips: "83 cm",
-    styles: [{ tag: "Cute" }, { tag: "Beautiful Breasts" }, { tag: "Slender" }],
+    styles: [
+      { tag: "Pretty" },
+      { tag: "Cute" },
+      { tag: "Beautiful Breasts" },
+      { tag: "Slender" },
+    ],
     album: [
       {
         picture: tsubaki_sannomiya.tsubaki_sannomiya_10,
@@ -895,7 +904,12 @@ const File4 = [
     cup: "H-Cup",
     waist: "58 cm",
     hips: "85 cm",
-    styles: [{ tag: "Killer Tits" }, { tag: "Slender" }, { tag: "Teens" }],
+    styles: [
+      { tag: "Pretty" },
+      { tag: "Killer Tits" },
+      { tag: "Slender" },
+      { tag: "Teens" },
+    ],
     album: [
       {
         picture: karen_yuzuriha.karen_yuzuriha_2,
@@ -1598,7 +1612,7 @@ const File4 = [
     cup: "G-Cup",
     waist: "59 cm",
     hips: "90 cm",
-    styles: [{ tag: "Killer Tits" }, { tag: "Teens" }],
+    styles: [{ tag: "Pretty" }, { tag: "Killer Tits" }, { tag: "Teens" }],
     album: [
       {
         picture: mugi_kobato.mugi_kobato_2,
@@ -1769,6 +1783,125 @@ const File4 = [
       {
         picture: iyona_fujii.iyona_fujii_4,
       },
+    ],
+  },
+  {
+    idIdol: "jai225",
+    avatar: momona_koibuchi.momona_koibuchi_10,
+    name: "Momona Koibuchi",
+    other: "",
+    born: "14/06/2000",
+    height: "161 cm",
+    breast: "103 cm",
+    cup: "M-Cup",
+    waist: "65 cm",
+    hips: "92 cm",
+    styles: [{ tag: "Killer Tits" }],
+    album: [
+      {
+        picture: momona_koibuchi.momona_koibuchi_1,
+      },
+      {
+        picture: momona_koibuchi.momona_koibuchi_2,
+      },
+      {
+        picture: momona_koibuchi.momona_koibuchi_3,
+      },
+      {
+        picture: momona_koibuchi.momona_koibuchi_4,
+      },
+      {
+        picture: momona_koibuchi.momona_koibuchi_5,
+      },
+      {
+        picture: momona_koibuchi.momona_koibuchi_6,
+      },
+      {
+        picture: momona_koibuchi.momona_koibuchi_7,
+      },
+      {
+        picture: momona_koibuchi.momona_koibuchi_9,
+      },
+      {
+        picture: momona_koibuchi.momona_koibuchi_8,
+      },
+      {
+        picture: momona_koibuchi.momona_koibuchi_11,
+      },
+    ],
+  },
+  {
+    idIdol: "jai226",
+    avatar: aoi_ichino.aoi_ichino_5,
+    name: "Aoi Ichino",
+    other: "",
+    born: "15/09/1989",
+    height: "165 cm",
+    breast: "93 cm",
+    cup: "G-Cup",
+    waist: "59 cm",
+    hips: "90 cm",
+    styles: [{ tag: "Beautiful Breasts" }],
+    album: [
+      { picture: aoi_ichino.aoi_ichino_1 },
+      { picture: aoi_ichino.aoi_ichino_2 },
+      { picture: aoi_ichino.aoi_ichino_3 },
+      { picture: aoi_ichino.aoi_ichino_4 },
+    ],
+  },
+  {
+    idIdol: "jai227",
+    avatar: meguri_minoshima.meguri_minoshima_5,
+    name: "Meguri Minoshima",
+    other: "",
+    born: "08/12/2001",
+    height: "156 cm",
+    breast: "86 cm",
+    cup: "E-Cup",
+    waist: "58 cm",
+    hips: "85 cm",
+    styles: [
+      { tag: "6 Stars JAV" },
+      { tag: "Cute" },
+      { tag: "Killer Tits" },
+      { tag: "Slender" },
+    ],
+    album: [
+      { picture: meguri_minoshima.meguri_minoshima_2 },
+      { picture: meguri_minoshima.meguri_minoshima_3 },
+      { picture: meguri_minoshima.meguri_minoshima_4 },
+      { picture: meguri_minoshima.meguri_minoshima_1 },
+      { picture: meguri_minoshima.meguri_minoshima_6 },
+      { picture: meguri_minoshima.meguri_minoshima_7 },
+      { picture: meguri_minoshima.meguri_minoshima_8 },
+      { picture: meguri_minoshima.meguri_minoshima_9 },
+      { picture: meguri_minoshima.meguri_minoshima_10 },
+      { picture: meguri_minoshima.meguri_minoshima_11 },
+    ],
+  },
+  {
+    idIdol: "jai228",
+    avatar: non_ohana.non_ohana_3,
+    name: "Non Ohana",
+    other: "",
+    born: "28/06/2001",
+    height: "157 cm",
+    breast: "86 cm",
+    cup: "F-Cup",
+    waist: "60 cm",
+    hips: "88 cm",
+    styles: [{ tag: "Cute" }, { tag: "Beautiful Breasts" }],
+    album: [
+      { picture: non_ohana.non_ohana_1 },
+      { picture: non_ohana.non_ohana_2 },
+      { picture: non_ohana.non_ohana_11 },
+      { picture: non_ohana.non_ohana_4 },
+      { picture: non_ohana.non_ohana_5 },
+      { picture: non_ohana.non_ohana_6 },
+      { picture: non_ohana.non_ohana_7 },
+      { picture: non_ohana.non_ohana_8 },
+      { picture: non_ohana.non_ohana_9 },
+      { picture: non_ohana.non_ohana_10 },
     ],
   },
 ];

@@ -186,7 +186,12 @@ const File3 = [
     cup: "J-Cup",
     waist: "58 cm",
     hips: "89 cm",
-    styles: [{ tag: "6 Stars JAV" }, { tag: "Cute" }, { tag: "Killer Tits" }],
+    styles: [
+      { tag: "Pretty" },
+      { tag: "6 Stars JAV" },
+      { tag: "Cute" },
+      { tag: "Killer Tits" },
+    ],
     album: [
       {
         picture: "https://www.japanesebeauties.net/japanese/rion/16/rion-4.jpg",
@@ -234,6 +239,7 @@ const File3 = [
     waist: "58 cm",
     hips: "83 cm",
     styles: [
+      { tag: "Pretty" },
       { tag: "Retired" },
       { tag: "6 Stars JAV" },
       { tag: "Cute" },
@@ -350,7 +356,12 @@ const File3 = [
     cup: "G-Cup",
     waist: "57 cm",
     hips: "88 cm",
-    styles: [{ tag: "Retired" }, { tag: "Cute" }, { tag: "Killer Tits" }],
+    styles: [
+      { tag: "Pretty" },
+      { tag: "Retired" },
+      { tag: "Cute" },
+      { tag: "Killer Tits" },
+    ],
     album: [
       {
         picture:
@@ -1169,6 +1180,7 @@ const File3 = [
     waist: "58 cm",
     hips: "88 cm",
     styles: [
+      { tag: "Pretty" },
       { tag: "Retired" },
       { tag: "6 Stars JAV" },
       { tag: "Cute" },
@@ -1466,9 +1478,9 @@ const File3 = [
     avatar:
       "https://www.japanesebeauties.net/japanese/kana-yume/137/kana-yume-7.jpg",
     name: "Kana Yume",
-    other: "",
+    other: "Jun Mizukawa",
     born: "12/02/1993",
-    height: "163 cm",
+    height: "161 cm",
     breast: "86 cm",
     cup: "D-Cup",
     waist: "59 cm",
@@ -1810,6 +1822,7 @@ const File3 = [
     waist: "58 cm",
     hips: "85 cm",
     styles: [
+      { tag: "Pretty" },
       { tag: "Cute" },
       { tag: "Beautiful Breasts" },
       { tag: "Mixed-Race" },
@@ -2022,6 +2035,7 @@ const File3 = [
     waist: "57 cm",
     hips: "87 cm",
     styles: [
+      { tag: "Pretty" },
       { tag: "Retired" },
       { tag: "Cute" },
       { tag: "Killer Tits" },
@@ -2045,7 +2059,7 @@ const File3 = [
     cup: "G-Cup",
     waist: "60 cm",
     hips: "89 cm",
-    styles: [{ tag: "Killer Tits" }],
+    styles: [{ tag: "Pretty" }, { tag: "Killer Tits" }],
     album: [
       {
         picture:
@@ -2424,6 +2438,7 @@ const File3 = [
     waist: "60 cm",
     hips: "90 cm",
     styles: [
+      { tag: "Pretty" },
       { tag: "Retired" },
       { tag: "Cute" },
       { tag: "Beautiful Breasts" },
@@ -2683,7 +2698,12 @@ const File3 = [
     cup: "F-Cup",
     waist: "59 cm",
     hips: "89 cm",
-    styles: [{ tag: "Retired" }, { tag: "Cute" }, { tag: "Beautiful Breasts" }],
+    styles: [
+      { tag: "Pretty" },
+      { tag: "Retired" },
+      { tag: "Cute" },
+      { tag: "Beautiful Breasts" },
+    ],
     album: [
       {
         picture: konomi_yoshinaga.konomi_yoshinaga_9,

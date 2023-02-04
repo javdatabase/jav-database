@@ -5,10 +5,10 @@ import React, {
   useEffect,
   useCallback,
 } from "react";
-import { get } from "lodash";
+import { get, chunk } from "lodash";
 import styled from "styled-components";
 import { useHistory, useLocation } from "react-router-dom";
-import LazyLoad from "react-lazyload";
+import { Grid } from "react-virtualized";
 import ElementResizeEvent from "element-resize-event";
 
 import SizesCup from "../../../helpers/sizes-cup";
@@ -91,15 +91,12 @@ const Container = styled.div`
 `;
 
 const IdolContainer = styled.div`
-  display: grid;
-  grid-template-columns: repeat(5, minmax(15vw, 1fr));
-  gap: 80px 40px;
-  padding: 80px 20px 30px;
-  box-sizing: border-box;
+  ${center};
+  padding: 30px 0px;
 `;
 
 const IdolItem = styled.div`
-  ${center}
+  ${center};
   width: 16vw;
   animation: ${fadeIn} 1s linear;
 `;
@@ -141,10 +138,14 @@ function Idols() {
       get(state, "censored", false),
       get(state, "retired", false),
       get(state, "page", 1),
-      20
+      30
     );
     return result;
   }, [location.state]);
+
+  const gridIdols = useMemo(() => {
+    return chunk(idols.data, 5);
+  }, [idols]);
 
   const changeFilterHeight = useCallback(() => {
     const element = document.getElementById("filter-idols");
@@ -396,25 +397,44 @@ function Idols() {
           <NotFound>Not Found</NotFound>
         ) : (
           <IdolContainer>
-            {idols.data.map((item) => (
-              <LazyLoad
-                key={item.idIdol}
-                height={200}
-                once={true}
-                overflow={true}
-              >
-                <IdolItem>
-                  <IdolCard data={item} click={() => handleChangeData(item)} />
-                </IdolItem>
-              </LazyLoad>
-            ))}
+            <Grid
+              style={{ overflow: "visible" }}
+              containerStyle={{ overflow: "visible" }}
+              columnCount={5}
+              rowCount={gridIdols.length}
+              columnWidth={(window.innerWidth - 20) / 5}
+              rowHeight={520}
+              width={window.innerWidth - 20}
+              height={520 * gridIdols.length}
+              cellRenderer={({ columnIndex, key, rowIndex, style }) => (
+                <div
+                  key={key}
+                  style={{
+                    ...style,
+                    display: "flex",
+                    justifyContent: "center",
+                  }}
+                >
+                  {!!gridIdols?.[rowIndex][columnIndex] && (
+                    <IdolItem>
+                      <IdolCard
+                        data={gridIdols[rowIndex][columnIndex]}
+                        click={() =>
+                          handleChangeData(gridIdols[rowIndex][columnIndex])
+                        }
+                      />
+                    </IdolItem>
+                  )}
+                </div>
+              )}
+            />
           </IdolContainer>
         )}
         <PaginationContainer>
           <Pagination
             count={idols.size}
             page={get(location.state, "page", 1)}
-            size={20}
+            size={30}
             handleChangePage={handleChangePage}
           />
         </PaginationContainer>

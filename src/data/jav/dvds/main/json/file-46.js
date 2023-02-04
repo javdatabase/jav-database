@@ -1740,7 +1740,10 @@ const File46 = [
     title: `ROOKIE EXCLUSIVE ACTRESS DEBUT BEST 8 HOURS VOL.05 DON'T MISS THE MOMENT OF [ SEX BAN ] OF OVERWHELMING BEAUTIFUL GIRL ! ! !`,
     poster: "https://img69.pixhost.to/images/86/271703638_1667789l.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai220", name: "Mugi Kobato" }],
+    idols: [
+      { idIdol: "jai220", name: "Mugi Kobato" },
+      { idIdol: "jai227", name: "Meguri Minoshima" },
+    ],
   },
   {
     code: "ABW-226",

@@ -1,4 +1,11 @@
-import React, { Fragment, memo, useState, useEffect, useCallback } from "react";
+import React, {
+  Fragment,
+  memo,
+  useState,
+  useRef,
+  useEffect,
+  useCallback,
+} from "react";
 import styled from "styled-components";
 
 import RollingIcon from "../../assets/images/ic_rolling/ic_rolling.svg";
@@ -21,9 +28,17 @@ function Avatar({ src, lazy, ...props }) {
   const [source, setSource] = useState(src || SexyShadowImage);
   const [dummy, setDummy] = useState(true);
   const [reload, setReload] = useState(false);
+  const timer = useRef();
 
   useEffect(() => {
-    setSource(src || SexyShadowImage);
+    setDummy(true);
+    timer.current = setTimeout(() => {
+      setSource(src || SexyShadowImage);
+    }, 500);
+
+    return () => {
+      timer.current && clearTimeout(timer.current);
+    };
   }, [src]);
 
   const handleLoad = useCallback(() => {
@@ -34,10 +49,11 @@ function Avatar({ src, lazy, ...props }) {
     if (reload) {
       setSource(SexyShadowImage);
     } else {
+      timer.current && clearTimeout(timer.current);
       setSource("");
       setDummy(true);
       setReload(true);
-      setTimeout(() => {
+      timer.current = setTimeout(() => {
         setSource(src || SexyShadowImage);
       }, 500);
     }

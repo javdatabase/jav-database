@@ -1,4 +1,5 @@
 const ModelStyles = [
+  "Pretty",
   "Retired",
   "6 Stars JAV",
   "Cute",
@@ -13,6 +14,7 @@ const ModelStyles = [
   "Long Legs",
   "Former TV Actress",
   "Former Race Queen",
+  "NFT",
 ];
 
 export default ModelStyles;

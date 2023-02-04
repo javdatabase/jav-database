@@ -98,19 +98,20 @@ function getDvdsByIdol(id) {
 }
 
 function getDvdsRandom() {
-  function generateNewDvd(array, temp) {
-    if (!!array.find((item) => item.idDvd === temp.idDvd)) {
-      return generateNewDvd(array, MainDvds[random(SIZE_MAIN_DVDS - 1)]);
+  const splitSize = Math.floor(SIZE_MAIN_DVDS / 10);
+  function generateNewDvd(index) {
+    let a = MainDvds.slice(index * splitSize, splitSize * (index + 1) - 1);
+    let n = random(splitSize - 1);
+    while (n > a.length - 1) {
+      n = random(splitSize - 1);
     }
-    return temp;
+    return a[n];
   }
 
   function randomDvds() {
-    let dvds = Array(10).fill(0);
-    for (let i = 0; i < dvds.length; i++) {
-      dvds[i] = generateNewDvd(dvds, MainDvds[random(SIZE_MAIN_DVDS - 1)]);
-    }
-    return dvds;
+    return Array(10)
+      .fill(0)
+      .map((_item, index) => generateNewDvd(index));
   }
 
   return randomDvds();
@@ -118,41 +119,46 @@ function getDvdsRandom() {
 
 function getVideosRandom() {
   const videos = MainDvds.filter((item) => checkVideo(item.code));
+  const splitSize = Math.floor(videos.length / 10);
 
-  function generateNewVideo(array, temp) {
-    if (!!array.find((item) => item.idDvd === temp.idDvd)) {
-      return generateNewVideo(array, videos[random(videos.length - 1)]);
+  function generateNewVideo(index) {
+    let a = videos.slice(index * splitSize, splitSize * (index + 1) - 1);
+    let n = random(splitSize - 1);
+    while (n > a.length - 1) {
+      n = random(splitSize - 1);
     }
-    return temp;
+    return a[n];
   }
 
-  function randomDvds() {
-    let dvds = Array(10).fill(0);
-    for (let i = 0; i < dvds.length; i++) {
-      dvds[i] = generateNewVideo(dvds, videos[random(videos.length - 1)]);
-    }
-    return dvds;
+  function randomVideos() {
+    return Array(10)
+      .fill(0)
+      .map((_item, index) => generateNewVideo(index));
   }
 
-  return randomDvds();
+  return randomVideos();
 }
 
 function getIdolsRandom() {
   const allIdolsDetail = getAllIdolsDetail();
+  const splitSize = Math.floor(SIZE_IDOLS / 10);
 
-  function generateNewIdol(array, temp) {
-    if (!!array.find((item) => item.idIdol === temp.idIdol)) {
-      return generateNewIdol(array, allIdolsDetail[random(SIZE_IDOLS - 1)]);
+  function generateNewIdol(index) {
+    let a = allIdolsDetail.slice(
+      index * splitSize,
+      splitSize * (index + 1) - 1
+    );
+    let n = random(splitSize - 1);
+    while (n > a.length - 1) {
+      n = random(splitSize - 1);
     }
-    return temp;
+    return a[n];
   }
 
   function randomIdols() {
-    let idols = Array(10).fill(0);
-    for (let i = 0; i < idols.length; i++) {
-      idols[i] = generateNewIdol(idols, allIdolsDetail[random(SIZE_IDOLS - 1)]);
-    }
-    return idols;
+    return Array(10)
+      .fill(0)
+      .map((_item, index) => generateNewIdol(index));
   }
 
   return randomIdols();

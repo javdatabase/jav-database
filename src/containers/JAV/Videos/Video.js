@@ -1,13 +1,11 @@
-import React, { useState, useMemo, useCallback, useEffect } from "react";
+import React, { useMemo } from "react";
 import { get } from "lodash";
 import styled from "styled-components";
 import { Link, useParams } from "react-router-dom";
 
-import request from "../../../apis/request";
 import { getIdolRank } from "../../../services/jav/common.service";
 import { VIDEO_CONTENT } from "../../../services/jav/videos.service";
 import IdolTag from "../../../components/Idols/IdolTag";
-import RollingIcon from "../../../assets/images/ic_rolling/ic_rolling.svg";
 
 import {
   White,
@@ -86,14 +84,6 @@ const TagIdol = styled(IdolTag)`
       : `linear-gradient(to right,  ${Orange}, ${Pink})`};
 `;
 
-const VideoContent = styled.div`
-  ${center};
-  width: 943px;
-  height: 530px;
-  border: solid 1px ${White};
-  background: url(${RollingIcon}) center center no-repeat;
-`;
-
 const LinkVideoContainer = styled.div`
   ${center};
   margin-top: 30px;
@@ -112,45 +102,14 @@ const LinkVideo = styled.a`
 
 function Video() {
   const { code } = useParams();
-  const [video, setVideo] = useState("");
 
   const data = useMemo(() => {
     return VIDEO_CONTENT(code);
   }, [code]);
 
   const link = useMemo(() => {
-    return `https://vlxx.link/${get(data, "xid", "")}`;
+    return `https://vlxx.cc/${get(data, "xid", "")}`;
   }, [data]);
-
-  const getVideo = useCallback(
-    (retry) => {
-      if (retry <= 3) {
-        const form = new FormData();
-        form.append("vlxx_download", "1");
-        form.append("id", `${get(data, "xid", "")}-${retry}`);
-        request
-          .post("https://vlxx.sex/ajax.php", form)
-          .then((response) => {
-            if (response?.data?.trim()) {
-              const temp = response?.data?.split('href="') || [];
-              const newTemp = temp[temp.length - 1]?.split('"')[0];
-              setVideo(newTemp || "");
-            } else {
-              getVideo(retry + 1);
-            }
-          })
-          .catch((e) => {
-            getVideo(retry + 1);
-            console.log(e);
-          });
-      }
-    },
-    [data]
-  );
-
-  useEffect(() => {
-    getVideo(1);
-  }, [getVideo]);
 
   return (
     <Container>
@@ -183,12 +142,14 @@ function Video() {
             )
           )}
         </StarsContainer>
-        <VideoContent>
-          <video key={video} width={"943px"} height={"530px"} controls>
-            <source src={video} type={"video/mp4"} />
-            Your browser does not support the video tag.
-          </video>
-        </VideoContent>
+        <iframe
+          title={get(data, "xid", "")}
+          src={link}
+          width={943}
+          height={530}
+          frameborder={0}
+          allowFullScreen={true}
+        />
         <LinkVideoContainer>
           <LinkVideo href={link} target={"_blank"} rel={"noreferrer noopener"}>
             {link}

@@ -7,6 +7,7 @@ import React, {
   useEffect,
   useCallback,
 } from "react";
+import { createPortal } from "react-dom";
 import { get } from "lodash";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
@@ -143,20 +144,37 @@ function DvdDetail({ show, toggleModal, data }) {
   const timer = useRef();
 
   const link = useMemo(() => {
-    return `https://vlxx.link/${get(
+    return `https://vlxx.cc/${get(
       VIDEO_CONTENT(get(data, "code", "")),
       "xid",
       ""
     )}`;
   }, [data]);
 
+  const controlModal = useCallback(
+    (event) => {
+      if (event.key === "Escape") {
+        toggleModal();
+      }
+    },
+    [toggleModal]
+  );
+
   useEffect(() => {
+    if (show) {
+      window.addEventListener("keyup", controlModal);
+    } else {
+      setCopied(false);
+      window.removeEventListener("keyup", controlModal);
+    }
+
     return () => {
+      window.removeEventListener("keyup", controlModal);
       if (timer.current) {
         clearTimeout(timer.current);
       }
     };
-  }, []);
+  }, [show, controlModal]);
 
   const copyToClipboard = useCallback(() => {
     if (get(data, "code", "") && !copied) {
@@ -181,7 +199,7 @@ function DvdDetail({ show, toggleModal, data }) {
     }
   }, [data, copied]);
 
-  return (
+  return createPortal(
     <Fragment>
       <Backdrop show={show} hiddenModal={toggleModal} />
       <Container
@@ -246,7 +264,8 @@ function DvdDetail({ show, toggleModal, data }) {
           </IdolsContainer>
         </DetailContainer>
       </Container>
-    </Fragment>
+    </Fragment>,
+    document.body
   );
 }
 

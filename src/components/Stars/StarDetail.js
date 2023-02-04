@@ -1,4 +1,5 @@
-import React, { Fragment, memo } from "react";
+import React, { Fragment, memo, useEffect, useCallback } from "react";
+import { createPortal } from "react-dom";
 import { get } from "lodash";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
@@ -83,7 +84,28 @@ const ViewProfile = styled(Link)`
 `;
 
 function StarDetail({ show, toggleModal, data }) {
-  return (
+  const controlModal = useCallback(
+    (event) => {
+      if (event.key === "Escape") {
+        toggleModal();
+      }
+    },
+    [toggleModal]
+  );
+
+  useEffect(() => {
+    if (show) {
+      window.addEventListener("keyup", controlModal);
+    } else {
+      window.removeEventListener("keyup", controlModal);
+    }
+
+    return () => {
+      window.removeEventListener("keyup", controlModal);
+    };
+  }, [show, controlModal]);
+
+  return createPortal(
     <Fragment>
       <Backdrop show={show} hiddenModal={toggleModal} />
       <Container show={show}>
@@ -111,7 +133,8 @@ function StarDetail({ show, toggleModal, data }) {
           <div style={{ height: 46 }} />
         </DetailContainer>
       </Container>
-    </Fragment>
+    </Fragment>,
+    document.body
   );
 }
 

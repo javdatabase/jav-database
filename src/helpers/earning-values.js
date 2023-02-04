@@ -1,40 +1,50 @@
 const MonthEarnings = {
-  ranking: 156160400,
-  point1000: 129478900,
-  point500: 97235300,
-  point200: 62013000,
-  point100: 35222300,
-  point50: 26681500,
-  point20: 10443600,
-  point10: 8251000,
-  point5: 3000000,
-  point0: 1225000,
+  ranking: 956160400,
+  point1000: 1529478900,
+  point500: 970235300,
+  point200: 622013000,
+  point100: 351222300,
+  point50: 263681500,
+  point20: 109443600,
+  point10: 98251000,
+  point5: 43000000,
+  point0: 2225000,
   status: {
-    active: 257400000,
-    retired: 182150000,
+    active: 857400000,
+    retired: 382150000,
   },
-  sixStar: 100000000,
-  killerTits: 98000000,
-  beautifulBreasts: 96000000,
-  censoredDvds: 343600,
-  uncensoredDvds: 651800,
-  best: 101000000,
-  video: 13343000,
+  veryPretty: 2133555000,
+  sixStar: 800000000,
+  killerTits: 308000000,
+  beautifulBreasts: 296000000,
+  nft: 1926560000,
+  censoredDvds: 943600,
+  uncensoredDvds: 1251800,
+  best: 201000000,
+  video: 33343000,
 };
 
-const StableEarnings = 326699436;
+const StableEarnings = 1772000000;
 
-const OneNightRatio = 3;
+const OneNightRatio = 3.861;
 
 const WeekEarnings = {
-  starIdol: 228944000,
-  bestDvd: 80560000,
-  bestIdol: 104436000,
-  sweetNight: 76000000,
-  topGrowth: 44360000,
-  topIdol: 34360000,
-  hasDvd: 24780000,
-  newbie: 15700000,
+  starIdol: 3528944000,
+  bestDvd: 150560000,
+  bestIdol: 124436000,
+  sweetNight: 1259000000,
+  topGrowth: 104360000,
+  topIdol: 124360000,
+  hasDvd: 29780000,
+  newbie: 16700000,
 };
 
-export { MonthEarnings, StableEarnings, OneNightRatio, WeekEarnings };
+const TokenRate = 869;
+
+export {
+  MonthEarnings,
+  StableEarnings,
+  OneNightRatio,
+  WeekEarnings,
+  TokenRate,
+};
