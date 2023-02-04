@@ -1,5 +1,5 @@
 const MonthEarnings = {
-  ranking: 5556160400,
+  ranking: 956160400,
   point1000: 1529478900,
   point500: 970235300,
   point200: 622013000,
