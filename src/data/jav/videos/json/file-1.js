@@ -823,6 +823,7 @@ const File1 = [
   { code: "CWP-107", xid: "2313" },
   { code: "TYSF-026", xid: "2314" },
   { code: "PRED-427", xid: "2321" },
+  { code: "SSIS-586", xid: "2326" },
 ];
 
 export default File1;
