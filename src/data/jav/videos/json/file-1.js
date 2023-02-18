@@ -824,6 +824,8 @@ const File1 = [
   { code: "TYSF-026", xid: "2314" },
   { code: "PRED-427", xid: "2321" },
   { code: "SSIS-586", xid: "2326" },
+  { code: "DLDSS-162", xid: "2332" },
+  { code: "FSDSS-530", xid: "2333" },
 ];
 
 export default File1;
