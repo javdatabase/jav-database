@@ -39,7 +39,7 @@ const WeekEarnings = {
   newbie: 16700000,
 };
 
-const TokenRate = 869;
+const TokenRate = 2;
 
 export {
   MonthEarnings,
