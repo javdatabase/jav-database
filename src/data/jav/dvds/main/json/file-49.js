@@ -1650,6 +1650,22 @@ const File49 = [
     type: "Censored",
     idols: [{ idIdol: "jai187", name: "Tsubaki Sannomiya" }],
   },
+  {
+    code: "STSK-067",
+    title: `GUINEA PIG BRUTAL HEALTH CHECKUP CUSCO EXTENDED STUPOR RAPE NEW SOCIAL WORKERS TARGETED BY PERVERTED DOCTORS AND PUT TO SLEEP`,
+    poster:
+      "https://pics.dmm.co.jp/mono/movie/adult/h_1605stsk067/h_1605stsk067pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai144", name: "Kanna Misaki" }],
+  },
+  {
+    code: "ONEZ-360",
+    title: `BUZZ AND VERY POPULAR! TOO EXTREME UNIFORM INFLUENCER CLIPPING SUMMARY VIDEO VOL.01`,
+    poster:
+      "https://pics.dmm.co.jp/mono/movie/adult/h_1674onez360/h_1674onez360pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai140", name: "Riona Minami" }],
+  },
 ];
 
 export default File49;
