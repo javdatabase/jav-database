@@ -26,7 +26,7 @@ const MonthEarnings = {
 
 const StableEarnings = 1772000000;
 
-const OneNightRatio = 3.861;
+const OneNightRatio = 2.9;
 
 const WeekEarnings = {
   starIdol: 3528944000,
@@ -39,7 +39,7 @@ const WeekEarnings = {
   newbie: 16700000,
 };
 
-const TokenRate = 2;
+const TokenRate = 0.5;
 
 export {
   MonthEarnings,
