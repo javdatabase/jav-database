@@ -18,7 +18,7 @@ import {
   Pink,
 } from "../../themes/colors";
 import { center } from "../../themes/styled";
-import { Regular, XLarge, XXLarge } from "../../themes/font";
+import { Regular, Large, XXLarge } from "../../themes/font";
 
 const Container = styled.div`
   width: 100%;
@@ -126,9 +126,10 @@ const PriceStar = styled.div`
   border-radius: 12px;
   background: linear-gradient(to right, ${Pink}, ${Red});
   color: ${White};
-  font-size: ${XLarge};
+  font-size: ${Large};
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: ${Black};
+  white-space: nowrap;
 `;
 
 const ViewProfile = styled(Link)`

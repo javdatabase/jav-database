@@ -25,7 +25,7 @@ import {
   DarkPurple,
 } from "../../themes/colors";
 import { center } from "../../themes/styled";
-import { Regular, XLarge, XXLarge } from "../../themes/font";
+import { Regular, Large, XLarge, XXLarge } from "../../themes/font";
 
 const Container = styled.div`
   width: 100%;
@@ -158,16 +158,18 @@ const PriceIdol = styled.div`
   border-radius: 12px;
   background: linear-gradient(to right, ${LightBlue}, ${DarkBlue});
   color: ${White};
-  font-size: ${XLarge};
+  font-size: ${Large};
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: ${Black};
+  white-space: nowrap;
 `;
 
 const BonusContainer = styled.div`
   color: transparent;
-  font-size: ${XLarge};
+  font-size: ${Large};
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: ${Black};
+  white-space: nowrap;
 `;
 
 const BonusIdol = styled(PriceIdol)`
@@ -175,18 +177,20 @@ const BonusIdol = styled(PriceIdol)`
   background: linear-gradient(to right, ${LightPurple}, ${DarkPurple});
   color: ${White};
   margin-top: 10px;
-  font-size: ${XLarge};
+  font-size: ${Large};
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: ${Black};
+  white-space: nowrap;
 `;
 
 const TotalIdol = styled(BonusIdol)`
   border: solid 6px ${Red};
   background: linear-gradient(to right, ${Yellow}, ${Orange});
   color: ${White};
-  font-size: ${XLarge};
+  font-size: ${Large};
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: ${Black};
+  white-space: nowrap;
 `;
 
 const ViewProfile = styled(Link)`
