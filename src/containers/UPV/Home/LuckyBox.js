@@ -13,17 +13,9 @@ import BestStarCard from "../../../components/Stars/BestStarCard";
 import BestStarDetail from "../../../components/Stars/BestStarDetail";
 import RollingIcon from "../../../assets/images/ic_rolling/ic_rolling.svg";
 
-import {
-  Black,
-  White,
-  Grey,
-  Orange,
-  Blue,
-  DarkBlue,
-  LightBlue,
-} from "../../../themes/colors";
+import { Black, White, Grey, Orange, Blue } from "../../../themes/colors";
 import { center, fadeIn } from "../../../themes/styled";
-import { Large, Regular, XLarge } from "../../../themes/font";
+import { Large, XLarge } from "../../../themes/font";
 
 const Container = styled.div`
   position: relative;
@@ -93,21 +85,6 @@ const Title = styled.div`
 
 const Type = styled.span`
   color: ${Orange};
-`;
-
-const Source = styled.div`
-  font-size: ${Regular};
-  color: ${White};
-`;
-
-const Studio = styled.a`
-  font-size: ${Regular};
-  color: ${DarkBlue};
-  text-decoration: underline;
-
-  &:hover {
-    color: ${LightBlue};
-  }
 `;
 
 const StarsContainer = styled.div`
@@ -201,16 +178,6 @@ function LuckyBox() {
           <Title>
             {get(data, "title", "")} <Type>[{get(data, "type", "")}]</Type>
           </Title>
-          <Source>
-            in{" "}
-            <Studio
-              href={get(data, "link", "")}
-              target={"_blank"}
-              rel={"noreferrer noopener"}
-            >
-              {get(data, "source", "")}
-            </Studio>
-          </Source>
           <StarsContainer>
             {get(data, "stars", []).map((item) =>
               item.idStar === "ups000" ? (

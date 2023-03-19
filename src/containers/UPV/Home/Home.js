@@ -8,17 +8,9 @@ import Pagination from "../../../components/UI/Pagination/Pagination";
 import StarTag from "../../../components/Stars/StarTag";
 import RollingIcon from "../../../assets/images/ic_rolling/ic_rolling.svg";
 
-import {
-  White,
-  Black,
-  Grey,
-  Orange,
-  Blue,
-  DarkBlue,
-  LightBlue,
-} from "../../../themes/colors";
+import { White, Black, Grey, Orange, Blue } from "../../../themes/colors";
 import { center, fadeIn } from "../../../themes/styled";
-import { XLarge, Large, Regular } from "../../../themes/font";
+import { XLarge, Large } from "../../../themes/font";
 
 const Container = styled.div`
   position: relative;
@@ -87,21 +79,6 @@ const Type = styled.span`
   color: ${Orange};
 `;
 
-const Source = styled.div`
-  font-size: ${Regular};
-  color: ${White};
-`;
-
-const Studio = styled.a`
-  font-size: ${Regular};
-  color: ${DarkBlue};
-  text-decoration: underline;
-
-  &:hover {
-    color: ${LightBlue};
-  }
-`;
-
 const StarsContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
@@ -150,16 +127,6 @@ function Home() {
           {get(ALL_VIDEOS[highlight], "title", "")}{" "}
           <Type>[{get(ALL_VIDEOS[highlight], "type", "")}]</Type>
         </Title>
-        <Source>
-          in{" "}
-          <Studio
-            href={get(ALL_VIDEOS[highlight], "link", "")}
-            target={"_blank"}
-            rel={"noreferrer noopener"}
-          >
-            {get(ALL_VIDEOS[highlight], "source", "")}
-          </Studio>
-        </Source>
         <StarsContainer>
           {get(ALL_VIDEOS[highlight], "stars", []).map((item) =>
             item.idStar === "ups000" ? (
