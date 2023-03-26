@@ -2547,7 +2547,7 @@ const File3 = [
     idIdol: "jai171",
     avatar: aka_asuka.aka_asuka_1,
     name: "Aka Asuka",
-    other: "",
+    other: "Hikaru Nagi",
     born: "17/02/1998",
     height: "162 cm",
     breast: "105 cm",
