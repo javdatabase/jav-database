@@ -77,13 +77,6 @@ const File1 = [
     idols: [{ idIdol: "jai199", name: "Momo Sakura" }],
   },
   {
-    code: "WAAA-254",
-    title: `" IS IT OKAY TO BE AN OLD WOMAN LIKE THIS ... ? " A BUSTY MARRIED WOMAN WHO LOST HER CONFIDENCE AS A WOMAN DROWNED IN AN AFFAIR WITH A SINGLE PART-TIMER BOY JULIA`,
-    poster: "https://pics.dmm.co.jp/mono/movie/adult/waaa254/waaa254pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai041", name: "Julia" }],
-  },
-  {
     code: "JUQ-206",
     title: `NUDE MODEL NTR SHOCKING CHEATING VIDEO OF A WIFE DROWNING IN SHAME WITH HER BOSS YUNA SHIINA`,
     poster: "https://pics.dmm.co.jp/mono/movie/adult/juq206/juq206pl.jpg",
@@ -105,20 +98,6 @@ const File1 = [
     idols: [{ idIdol: "jai190", name: "Miri Mizuki" }],
   },
   {
-    code: "JUFE-451",
-    title: `MADE MY NIECE'S CHEEKY MAKO WHO IS LICKING ME KNOW WITH ADULT SUPER PISS SEEDING FUCK ! J SERIES KITANO MINA OF H-CUP WHO HAS COMPLETELY GROWN DESPITE THE HABIT OF A KID`,
-    poster: "https://pics.dmm.co.jp/mono/movie/adult/jufe451/jufe451pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai196", name: "Mina Kitano" }],
-  },
-  {
-    code: "JUFE-461",
-    title: `WHILE BEING LICKED EARS BY AN ADULT WOMAN WHO IS FULL OF SEXUALITY , SHE IS WHISPERED WITH SWEET SIGHS AND VULGAR DIRTY TALK TORTURE KANA MORISAWA`,
-    poster: "https://pics.dmm.co.jp/mono/movie/adult/jufe461/jufe461pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai016", name: "Kanako Iioka" }],
-  },
-  {
     code: "DASS-127",
     title: `AFTER A MONTH OF SHOWERING MY MOTHER WITH A FAVORITE AURA EVERY DAY , I REPEATED CHILD-MAKING SEX WITH MY MOTHER WHO WAS OUT OF REASON OVER AND OVER AGAIN . KANA MORISAWA`,
     poster: "https://pics.dmm.co.jp/mono/movie/adult/dass127/dass127pl.jpg",
@@ -131,34 +110,6 @@ const File1 = [
     poster: "https://pics.dmm.co.jp/mono/movie/adult/dass129/dass129pl.jpg",
     type: "Censored",
     idols: [{ idIdol: "jai190", name: "Miri Mizuki" }],
-  },
-  {
-    code: "ADN-460",
-    title: `MY WIFE WAS PICKED UP BY A STRANGER ON A TRIP WITH A FEMALE FRIEND`,
-    poster: "https://pics.dmm.co.jp/mono/movie/adult/adn460/adn460pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai224", name: "Iyona Fujii" }],
-  },
-  {
-    code: "ADN-462",
-    title: `I PEEKED AT MY FATHER-IN-LAW'S MASTURBATION`,
-    poster: "https://pics.dmm.co.jp/mono/movie/adult/adn462/adn462pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai187", name: "Tsubaki Sannomiya" }],
-  },
-  {
-    code: "SAME-046",
-    title: `CIRCLE PLAN PRESIDENT'S SECRETARY EDITION AKARI NIIMURA`,
-    poster: "https://pics.dmm.co.jp/mono/movie/adult/same046/same046pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai219", name: "Akari Niimura" }],
-  },
-  {
-    code: "SAME-047",
-    title: `A DEVOTED WIFE WHO WAS TURNED INTO A SEX TOY BY MALE CARE HELPERS I CAN ONLY FORGET LONELINESS WHEN I'M BEING FUCKED ... KANA MORISAWA`,
-    poster: "https://pics.dmm.co.jp/mono/movie/adult/same047/same047pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai016", name: "Kanako Iioka" }],
   },
 ];
 
