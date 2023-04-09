@@ -837,8 +837,10 @@ const File1 = [
   { code: "IPZZ-008", xid: "2359" },
   { code: "SSIS-641", xid: "2363" },
   { code: "ALDN-067", xid: "2367" },
-  { code: "NUKA-059", xid: "2368" },
+  { code: "NUKA-59", xid: "2368" },
   { code: "IPZZ-007", xid: "2369" },
+  { code: "IPX-982", xid: "2372" },
+  { code: "IPX-833", xid: "2376" },
 ];
 
 export default File1;
