@@ -20,6 +20,7 @@ import * as momona_koibuchi from "../images/momona-koibuchi";
 import * as aoi_ichino from "../images/aoi-ichino";
 import * as meguri_minoshima from "../images/meguri-minoshima";
 import * as non_ohana from "../images/non-ohana";
+import * as erena from "../images/erena";
 
 const File4 = [
   {
@@ -1903,6 +1904,25 @@ const File4 = [
       { picture: non_ohana.non_ohana_9 },
       { picture: non_ohana.non_ohana_10 },
     ],
+  },
+  {
+    idIdol: "jai229",
+    avatar: erena.erena_2,
+    name: "Erena",
+    other: "",
+    born: "09/02/1997",
+    height: "163 cm",
+    breast: "82 cm",
+    cup: "F-Cup",
+    waist: "62 cm",
+    hips: "94 cm",
+    styles: [
+      { tag: "Cute" },
+      { tag: "Beautiful Breasts" },
+      { tag: "Former TV Actress" },
+      { tag: "Former Gravure Model" },
+    ],
+    album: [{ picture: erena.erena_1 }, { picture: erena.erena_3 }],
   },
 ];
 
