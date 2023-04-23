@@ -7,7 +7,7 @@ import {
 } from "../../helpers/salary-values";
 
 const SWEET_STAR_POINTS_BY_IDS = {
-  ups001: 27,
+  ups001: 33,
   ups002: 109,
   ups003: 10,
   ups004: 11,
