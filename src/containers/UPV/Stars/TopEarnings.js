@@ -112,7 +112,7 @@ function TopEarnings() {
               style={{ padding: "30px 20px" }}
               ref={registerChild}
               width={window.innerWidth}
-              height={window.innerHeight - 100}
+              height={window.innerHeight - 180}
               rowCount={ALL_EARNING_STARS.length}
               rowHeight={320}
               scrollTop={scroll}
