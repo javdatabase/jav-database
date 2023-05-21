@@ -1,59 +1,10 @@
 const File1 = [
   {
-    code: "HMN-389",
-    title: `I TURNED MY ADULTEROUS HOMEROOM TEACHER INTO A REVERSE BUNNY GUY FOR 3 DAYS ... ! JULIA`,
-    poster: "https://pics.dmm.co.jp/mono/movie/adult/hmn389/hmn389pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai041", name: "Julia" }],
-  },
-  {
     code: "WAAA-274",
     title: `MELTING WHOLE BODY BEROKISU SENSUAL SALON DRUNK SALIVA AND BECHO WET TITTIES ADHESION FUCK JULIA`,
     poster: "https://pics.dmm.co.jp/mono/movie/adult/waaa274/waaa274pl.jpg",
     type: "Censored",
     idols: [{ idIdol: "jai041", name: "Julia" }],
-  },
-  {
-    code: "CJOD-379",
-    title: `WHEN I WOKE UP , I WAS ALONE WITH THE FEMALE PRESIDENT AT A LOVE HOTEL . I'M A NEWLYWED WHO CAN'T MOVE AND I'M DRUNK AND I'M BEING FORCED TO HAVE AN ADULTERY POWER HARASSMENT WITH A BEROKISU CREAMPIE ... JULIA`,
-    poster: "https://pics.dmm.co.jp/mono/movie/adult/cjod379/cjod379pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai041", name: "Julia" }],
-  },
-  {
-    code: "CJOD-381",
-    title: `M MAN ONLY ADHESION WHISPERING DIRTY TALK UNLIMITED EJACULATION SOAPLAND NON KOBANA`,
-    poster: "https://pics.dmm.co.jp/mono/movie/adult/cjod381/cjod381pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai228", name: "Non Ohana" }],
-  },
-  {
-    code: "CJOD-384",
-    title: `GOTO AFFAIR TRAVEL COLOSSAL TITS CELEBRITY WIFE AND RICH FATHER'S CREAM PIE ROMANCE TACHIBANA MARY`,
-    poster: "https://pics.dmm.co.jp/mono/movie/adult/cjod384/cjod384pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai034", name: "Mary Tachibana" }],
-  },
-  {
-    code: "SSIS-721",
-    title: `BEHIND CLOSED DOORS , I'LL GIVE YOU NTR ( CUCKOLDING ) AT A BREATHTAKINGLY CLOSE RANGE AYAKA KAWAKITA`,
-    poster: "https://pics.dmm.co.jp/mono/movie/adult/ssis721/ssis721pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai213", name: "Saika Kawakita" }],
-  },
-  {
-    code: "SSIS-724",
-    title: `WHEN I SEND A STRONG-MINDED FEMALE BOSS HOME ... A VIRGIN SUBORDINATE'S SEXUAL DESIRE EXPLODES IN A NAKED BEAUTIFUL BUSTY BODY ! I FUCKED ALL NIGHT LONG . YAMATE PEAR LOVE`,
-    poster: "https://pics.dmm.co.jp/mono/movie/adult/ssis724/ssis724pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai214", name: "Ria Yamate" }],
-  },
-  {
-    code: "JUQ-235",
-    title: `FULLY PREPARED IN 0 SECONDS A VOLUPTUOUS MISTRESS WHO CAN HAVE SEX ANYTIME MARINA SHIRAISHI`,
-    poster: "https://pics.dmm.co.jp/mono/movie/adult/juq235/juq235pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai067", name: "Marina Shiraishi" }],
   },
   {
     code: "JUFE-471",
@@ -103,13 +54,6 @@ const File1 = [
     poster: "https://pics.dmm.co.jp/mono/movie/adult/adn471/adn471pl.jpg",
     type: "Censored",
     idols: [{ idIdol: "jai224", name: "Iyona Fujii" }],
-  },
-  {
-    code: "URE-094",
-    title: `FAITHFUL LIVE-ACTION VERSION OF A POPULAR DOUJIN WHO OBSCENELY PORTRAYS A BEAUTIFUL BRIDE WHO IS DOMINATED BY HER FATHER-IN-LAW'S LEWD TECHNIQUES ! ! ORIGINAL : MERCURY THUNDER , OLD DRILL SOLDIER LIVE-ACTION ORIGINAL WET SCALE SHAMEFUL INTERCOURSE IS ALSO ADDED ! ! MAO KURATA`,
-    poster: "https://pics.dmm.co.jp/mono/movie/adult/ure094/ure094pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai015", name: "Mao Kurata" }],
   },
 ];
 
