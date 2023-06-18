@@ -157,7 +157,7 @@ function NewDvdReleaseDetail({ data, active }) {
   const timer = useRef();
 
   const link = useMemo(() => {
-    return `https://vlxx.ai/${get(
+    return `https://vlxx.moe/${get(
       VIDEO_CONTENT(get(data, "code", "")),
       "xid",
       ""
