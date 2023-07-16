@@ -84,6 +84,10 @@ const Tools = lazy(() =>
   componentLoader(() => import("../containers/Common/Tools/Tools"))
 );
 
+const TopEarnings = lazy(() =>
+  componentLoader(() => import("../containers/Common/TopEarnings"))
+);
+
 const JAVDvdDataTool = lazy(() =>
   componentLoader(() => import("../containers/Common/Tools/JAVDvdData"))
 );
@@ -117,6 +121,7 @@ function Routes() {
         <Route path={"/upv"} component={Upv} />
         <Route path={"/debug"} exact={true} component={Debug} />
         <Route path={"/tools"} exact={true} component={Tools} />
+        <Route path={"/top-earnings"} exact={true} component={TopEarnings} />
         <Route
           path={"/tools/jav-dvd-data"}
           exact={true}

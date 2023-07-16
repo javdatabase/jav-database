@@ -12,8 +12,9 @@ import ErrorBoundary from "../components/ErrorBoundary/ErrorBoundary";
 import BugIcon from "../assets/images/ic_bug/ic_bug.svg";
 import ToolsIcon from "../assets/images/ic_tools/ic_tools.svg";
 
-import { Black, White, Grey } from "../themes/colors";
+import { Black, White, Grey, Pink } from "../themes/colors";
 import { center } from "../themes/styled";
+import { XXLarge } from "../themes/font";
 
 const Container = styled.div`
   position: relative;
@@ -102,6 +103,8 @@ function Layout() {
       return "Tools";
     } else if (matchPath(path, { path: "/tools/:type", exact: true })) {
       return "Tools";
+    } else if (matchPath(path, { path: "/top-earnings", exact: true })) {
+      return "Top Earnings";
     } else {
       return "Not Found";
     }
@@ -119,6 +122,21 @@ function Layout() {
     <Container>
       <Navbar show={show} toggleMenu={toggleMenu} />
       <Header title={title} toggleMenu={toggleMenu} />
+      <ButtonLink
+        to={"/top-earnings"}
+        style={{
+          bottom: "unset",
+          top: "25px",
+          left: "50%",
+          transform: "translateX(-50%)",
+          fontSize: XXLarge,
+          textDecoration: "none",
+          backgroundColor: Black,
+          color: Pink,
+        }}
+      >
+        ❂
+      </ButtonLink>
       <Body>
         <ErrorBoundary>
           <Routes />
