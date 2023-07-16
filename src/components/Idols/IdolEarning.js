@@ -214,7 +214,7 @@ const ViewProfile = styled(Link)`
   }
 `;
 
-function IdolEarning({ data }) {
+function IdolEarning({ data, overall }) {
   const location = useLocation();
   const [show, setShow] = useState(false);
   const [picture, setPicture] = useState(null);
@@ -306,24 +306,32 @@ function IdolEarning({ data }) {
               ))}
           </PicturesContainer>
           <EarningContainer>
-            {!get(location.state, "bonus", false) && (
+            {overall ? (
               <PriceIdol>
-                {priceCurrency(data.earnings)} ({priceCurrency(price)}) ❂
+                {priceCurrency(total)} ({priceCurrency(fee)}) ❂
               </PriceIdol>
+            ) : (
+              <>
+                {!get(location.state, "bonus", false) && (
+                  <PriceIdol>
+                    {priceCurrency(data.earnings)} ({priceCurrency(price)}) ❂
+                  </PriceIdol>
+                )}
+                {!!data.bonus &&
+                  (!get(location.state, "original", false) ||
+                    !!get(location.state, "bonus", false)) &&
+                  (!!get(location.state, "bonus", false) ? (
+                    <BonusIdol>{priceCurrency(data.bonus)} ❂</BonusIdol>
+                  ) : (
+                    <BonusContainer>
+                      +<BonusIdol>{priceCurrency(data.bonus)} ❂</BonusIdol>=
+                      <TotalIdol>
+                        {priceCurrency(total)} ({priceCurrency(fee)}) ❂
+                      </TotalIdol>
+                    </BonusContainer>
+                  ))}
+              </>
             )}
-            {!!data.bonus &&
-              (!get(location.state, "original", false) ||
-                !!get(location.state, "bonus", false)) &&
-              (!!get(location.state, "bonus", false) ? (
-                <BonusIdol>{priceCurrency(data.bonus)} ❂</BonusIdol>
-              ) : (
-                <BonusContainer>
-                  +<BonusIdol>{priceCurrency(data.bonus)} ❂</BonusIdol>=
-                  <TotalIdol>
-                    {priceCurrency(total)} ({priceCurrency(fee)}) ❂
-                  </TotalIdol>
-                </BonusContainer>
-              ))}
           </EarningContainer>
         </div>
       </Container>

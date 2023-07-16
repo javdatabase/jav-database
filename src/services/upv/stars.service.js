@@ -58,6 +58,7 @@ const ALL_EARNING_STARS = Stars.map((item) => ({
     item.idStar,
     SWEET_STAR_POINTS_BY_IDS[item.idStar] || 0
   ),
+  bonus: 0,
 }))
   .sort((a, b) => b.earnings - a.earnings)
   .map((item, index) => ({
