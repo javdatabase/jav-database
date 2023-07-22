@@ -2964,6 +2964,48 @@ const File50 = [
     type: "Censored",
     idols: [{ idIdol: "jai185", name: "Nene Tanaka" }],
   },
+  {
+    code: "SSIS-816",
+    title: `SUPERSTAR ACTRESS AND ORGY SUPER RARE CO-STARRING S1 FAN THANKSGIVING DAY`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/ssis816/ssis816pl.jpg",
+    type: "Censored",
+    idols: [
+      { idIdol: "jai069", name: "Tsukasa Aoi" },
+      { idIdol: "jai070", name: "Yua Mikami" },
+      { idIdol: "jai207", name: "Miru Sakamichi" },
+      { idIdol: "jai214", name: "Ria Yamate" },
+      { idIdol: "jai221", name: "Konan Koyoi" },
+    ],
+  },
+  {
+    code: "HTB-06",
+    title: `HEROINE SUBJUGATION VOL.106 MASKED BEAUTY SAINT WARRIOR ECLIPSE ~ BEAUTY SAINT DESTROYED SCREAMING CHANGE ~ RUI NEKOTO`,
+    poster:
+      "https://pics.dmm.co.jp/mono/movie/adult/h_173htb06/h_173htb06pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai056", name: "Rui Hiduki" }],
+  },
+  {
+    code: "BLK-624",
+    title: `" HER OLDER SISTER " ACCIDENTALLY INGESTED THE APHRODISIAC THAT SHE WAS SUPPOSED TO DRINK AND SEDUCED ME INTO A KIMESEKU CREAMPIE ! RIHO FUJIMORI`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/blk624/blk624pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai057", name: "Yumi Maeda" }],
+  },
+  {
+    code: "EBOD-995",
+    title: `ARRANGE ! BUSTY GAL HAREM LIFE 2 NENE TANAKA ALICE OTO MAYA KIKUCHI MIU ARIOKA`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/ebod995/ebod995pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai185", name: "Nene Tanaka" }],
+  },
+  {
+    code: "EBWH-001",
+    title: `IF YOU TRY TO BREAK A RELATIONSHIP WITH A JEALOUS MISTRESS ... I WILL NOT PULL OUT ∞ IMPREGNATION AND CONFIRMED PREGNANCY AT THE COWGIRL AND I ENDED MY LIFE RIHO FUJIMORI`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/ebwh001/ebwh001pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai057", name: "Yumi Maeda" }],
+  },
 ];
 
 export default File50;
