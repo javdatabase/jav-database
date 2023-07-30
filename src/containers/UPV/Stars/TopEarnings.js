@@ -98,7 +98,10 @@ function TopEarnings() {
     <Fragment>
       <FilterStarsContainer>
         <Total>
-          Total: <Value>{priceCurrency(TOTAL_EARNINGS)} ❂</Value>
+          Total:{" "}
+          <Value>
+            {priceCurrency(TOTAL_EARNINGS)} ❂ / {ALL_EARNING_STARS.length} ❁
+          </Value>
         </Total>
       </FilterStarsContainer>
       <Container>

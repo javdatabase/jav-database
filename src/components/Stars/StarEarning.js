@@ -29,7 +29,7 @@ const Container = styled.div`
   margin: 20px 0px;
   box-sizing: border-box;
   background: ${(props) =>
-    props.overall
+    props.overall === "true"
       ? `linear-gradient(to right, ${White}, ${Grey})`
       : `linear-gradient(to right, ${Yellow}, ${LightBlue})`};
 `;
@@ -146,7 +146,7 @@ const ViewProfile = styled(Link)`
   border-radius: 0px 0px 18px 18px;
   box-sizing: border-box;
   background: ${(props) =>
-    props.overall
+    props.overall === "true"
       ? `linear-gradient(to right, ${White}, ${Grey})`
       : `linear-gradient(to right, ${Yellow}, ${LightBlue})`};
   text-decoration: none;

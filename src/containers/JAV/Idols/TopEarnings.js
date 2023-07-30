@@ -180,7 +180,7 @@ function TopEarnings() {
                 ? TOTAL_BONUS_EARNINGS
                 : TOTAL_EARNINGS
             )}{" "}
-            ❂
+            ❂ / {idols.length} ❁
           </Value>
         </Total>
       </FilterIdolsContainer>
