@@ -32,7 +32,7 @@ const WeekEarnings = {
   starIdol: 3528944000,
   bestDvd: 150560000,
   bestIdol: 124436000,
-  sweetNight: 1259000000,
+  sweetNight: 690000000,
   topGrowth: 104360000,
   topIdol: 124360000,
   hasDvd: 29780000,

@@ -21,7 +21,7 @@ import {
 import StarEarning from "../../components/Stars/StarEarning";
 import IdolEarning from "../../components/Idols/IdolEarning";
 
-import { Grey, Blue, White } from "../../themes/colors";
+import { Grey, Blue, White, Pink } from "../../themes/colors";
 import { center, fadeIn } from "../../themes/styled";
 import { XLarge } from "../../themes/font";
 
@@ -46,6 +46,10 @@ const Total = styled.div`
 
 const Value = styled.span`
   color: ${Blue};
+`;
+
+const SubValue = styled.span`
+  color: ${Pink};
 `;
 
 const Container = styled.div`
@@ -123,7 +127,8 @@ function TopEarnings() {
     <Fragment>
       <FilterStarsContainer>
         <Total>
-          Total: <Value>{priceCurrency(total)} ❂</Value>
+          Total: <Value>{priceCurrency(total)} ❂ </Value>
+          <SubValue>/ {data.length} ❁</SubValue>
         </Total>
       </FilterStarsContainer>
       <Container>
@@ -155,9 +160,9 @@ function TopEarnings() {
                 >
                   <Item>
                     {data[index].idStar ? (
-                      <StarEarning data={data[index]} overall={true} />
+                      <StarEarning data={data[index]} overall={"true"} />
                     ) : (
-                      <IdolEarning data={data[index]} overall={true} />
+                      <IdolEarning data={data[index]} overall={"true"} />
                     )}
                   </Item>
                 </div>

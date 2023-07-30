@@ -8,7 +8,7 @@ import {
 
 const SWEET_STAR_POINTS_BY_IDS = {
   ups001: 33,
-  ups002: 160,
+  ups002: 164,
   ups003: 10,
   ups004: 11,
   ups005: 15,
@@ -22,6 +22,9 @@ const SWEET_STAR_POINTS_BY_IDS = {
   ups013: 5,
   ups014: 8,
   ups015: 7,
+  ups016: 5,
+  ups017: 5,
+  ups018: 6,
 };
 
 function getStableEarningStar(id) {
