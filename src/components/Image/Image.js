@@ -17,6 +17,7 @@ import { center } from "../../themes/styled";
 const Dummy = styled.div`
   ${center}
   border: solid 1px ${White};
+  border-radius: 18px;
   box-sizing: border-box;
 
   img {
