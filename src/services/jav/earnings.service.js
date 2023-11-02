@@ -320,6 +320,18 @@ const SWEET_NIGHT_IDS = [
   "jai221",
   "jai225",
   "jai229",
+  "jai230",
+  "jai230",
+  "jai230",
+  "jai230",
+  "jai230",
+  "jai230",
+  "jai230",
+  "jai230",
+  "jai230",
+  "jai230",
+  "jai230",
+  "jai230",
 ];
 const BEST_DVD_IDS = [
   "jai001",
@@ -394,6 +406,7 @@ const BEST_DVD_IDS = [
   "jai227",
   "jai228",
   "jai229",
+  "jai230",
 ];
 const BEST_IDOL_IDS = [
   "jai001",
@@ -470,6 +483,7 @@ const BEST_IDOL_IDS = [
   "jai227",
   "jai228",
   "jai229",
+  "jai230",
 ];
 const TOP_POINT_GROWTH_IDS = [
   "jai001",
@@ -533,6 +547,7 @@ const TOP_POINT_GROWTH_IDS = [
   "jai226",
   "jai227",
   "jai228",
+  "jai230",
 ];
 const TOP_IDOL_IDS = [
   "jai003",
@@ -551,6 +566,7 @@ const TOP_IDOL_IDS = [
   "jai214",
   "jai225",
   "jai226",
+  "jai230",
 ];
 const HAS_DVD_IDS = [
   "jai001",
@@ -628,6 +644,7 @@ const HAS_DVD_IDS = [
   "jai227",
   "jai228",
   "jai229",
+  "jai230",
 ];
 const NEWBIE_IDS = [];
 
@@ -670,6 +687,7 @@ function getStableEarningIdol(id) {
     "jai226",
     "jai227",
     "jai228",
+    "jai230",
   ];
   return STABLE_IDS.includes(id) ? StableEarnings : 0;
 }

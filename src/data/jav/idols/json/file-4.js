@@ -21,6 +21,7 @@ import * as aoi_ichino from "../images/aoi-ichino";
 import * as meguri_minoshima from "../images/meguri-minoshima";
 import * as non_ohana from "../images/non-ohana";
 import * as erena from "../images/erena";
+import * as mei_itsukaichi from "../images/mei-itsukaichi";
 
 const File4 = [
   {
@@ -1923,6 +1924,29 @@ const File4 = [
       { tag: "Former Gravure Model" },
     ],
     album: [{ picture: erena.erena_1 }, { picture: erena.erena_3 }],
+  },
+  {
+    idIdol: "jai230",
+    avatar: mei_itsukaichi.mei_itsukaichi_6,
+    name: "Mei Itsukaichi",
+    other: "",
+    born: "18/09/2000",
+    height: "161 cm",
+    breast: "90 cm",
+    cup: "G-Cup",
+    waist: "58 cm",
+    hips: "87 cm",
+    styles: [{ tag: "Cute" }, { tag: "Beautiful Breasts" }],
+    album: [
+      { picture: mei_itsukaichi.mei_itsukaichi_2 },
+      { picture: mei_itsukaichi.mei_itsukaichi_3 },
+      { picture: mei_itsukaichi.mei_itsukaichi_4 },
+      { picture: mei_itsukaichi.mei_itsukaichi_5 },
+      { picture: mei_itsukaichi.mei_itsukaichi_1 },
+      { picture: mei_itsukaichi.mei_itsukaichi_7 },
+      { picture: mei_itsukaichi.mei_itsukaichi_8 },
+      { picture: mei_itsukaichi.mei_itsukaichi_9 },
+    ],
   },
 ];
 
