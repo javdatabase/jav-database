@@ -1206,7 +1206,7 @@ const File4 = [
     avatar:
       "https://japanesebeauties.net/japanese/an-mitsumi/4/an-mitsumi-1.jpg",
     name: "An Mitsumi",
-    other: "",
+    other: "Ranran Fujii",
     born: "15/11/2000",
     height: "170 cm",
     breast: "86 cm",
