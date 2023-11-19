@@ -5,7 +5,7 @@ import { Link, useLocation } from "react-router-dom";
 import { modelStyle } from "../../helpers/render-color";
 
 import { Large } from "../../themes/font";
-import { Black } from "../../themes/colors";
+import { Black, White } from "../../themes/colors";
 
 const Component = styled.div`
   margin-right: 10px;
@@ -22,7 +22,7 @@ function IdolStyle({ tag, ...props }) {
 
   return (
     <Link
-      style={{ textDecoration: "none", color: Black }}
+      style={{ textDecoration: "none", color: tag === "1000" ? White : Black }}
       to={{
         pathname: "/jav/idols",
         state: {
