@@ -372,6 +372,7 @@ import SMD108 from "./SMD-108.jpg";
 import CCDV132 from "./CCDV-132.jpg";
 import MXX132 from "./MXX-132.jpg";
 import MXX140 from "./MXX-140.jpg";
+import CCDV144 from "./CCDV-144.jpg";
 
 export {
   CWP49,
@@ -748,4 +749,5 @@ export {
   CCDV132,
   MXX132,
   MXX140,
+  CCDV144,
 };
