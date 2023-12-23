@@ -127,21 +127,17 @@ const ButtonReset = styled(ButtonCopy)`
 
 function UPVVideoDataTool() {
   const [title, setTitle] = useState("");
-  const [source, setSource] = useState("");
-  const [link, setLink] = useState("");
   const [content, setContent] = useState("");
   const [stars, setStars] = useState(null);
   const [copied, setCopied] = useState(false);
   const timer = useRef();
 
   const result = useMemo(() => {
-    if (!title && !source && !link && !content && (!stars || !stars.length)) {
+    if (!title && !content && (!stars || !stars.length)) {
       return "";
     }
     return `{
         title: \`${title}\`,
-        source: "${source}",
-        link: "${link}",
         content: \`<iframe width="943" height="530" src="${content}" frameborder="0" allowfullscreen></iframe>\`,
         type: "US/EU",
         stars: [${
@@ -152,7 +148,7 @@ function UPVVideoDataTool() {
             .join(", ") || ""
         }],
   },`;
-  }, [title, source, link, content, stars]);
+  }, [title, content, stars]);
 
   useEffect(() => {
     return () => {
@@ -199,20 +195,6 @@ function UPVVideoDataTool() {
               onChange={(e) => setTitle(e.target.value.trim().toUpperCase())}
             />
           </Content>
-          <Content style={{ flexDirection: "row" }}>
-            <InputCustom
-              style={{ width: "50%", minWidth: "unset", marginRight: "30px" }}
-              placeholder={"Source..."}
-              value={source}
-              onChange={(e) => setSource(e.target.value.trim().toUpperCase())}
-            />
-            <InputCustom
-              style={{ width: "50%", minWidth: "unset" }}
-              placeholder={"Link..."}
-              value={link}
-              onChange={(e) => setLink(e.target.value.trim())}
-            />
-          </Content>
           <Content>
             <InputCustom
               placeholder={"Content..."}
@@ -257,8 +239,6 @@ function UPVVideoDataTool() {
             type="button"
             onClick={() => {
               setTitle("");
-              setSource("");
-              setLink("");
               setContent("");
               setStars(null);
             }}

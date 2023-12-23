@@ -17,6 +17,8 @@ const ShortStars = [
   { idStar: "jai016", name: "Blake Blossom" },
   { idStar: "jai017", name: "Lilly Bell" },
   { idStar: "jai018", name: "Tru Kait" },
+  { idStar: "jai019", name: "Sybil A Kailena" },
+  { idStar: "jai020", name: "Blair Williams" },
 ];
 
 export default ShortStars;
