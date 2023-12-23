@@ -14,9 +14,9 @@ const SWEET_STAR_POINTS_BY_IDS = {
   ups005: 15,
   ups006: 10,
   ups007: 10,
-  ups008: 28,
+  ups008: 31,
   ups009: 21,
-  ups010: 8,
+  ups010: 9,
   ups011: 11,
   ups012: 16,
   ups013: 5,
@@ -25,6 +25,8 @@ const SWEET_STAR_POINTS_BY_IDS = {
   ups016: 5,
   ups017: 9,
   ups018: 8,
+  ups019: 9,
+  ups020: 6,
 };
 
 function getStableEarningStar(id) {
