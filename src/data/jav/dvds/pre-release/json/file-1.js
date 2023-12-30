@@ -27,13 +27,7 @@ const File1 = [
     type: "Censored",
     idols: [{ idIdol: "jai188", name: "Karen Kaede" }],
   },
-  {
-    code: "WAAA-347",
-    title: `MY FATHER-IN-LAW , WHO I HATE , MAKES ME HAVE SEX AT NIGHT ... KANA MORISAWA`,
-    poster: "https://pics.dmm.co.jp/mono/movie/adult/waaa347/waaa347pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai016", name: "Kanako Iioka" }],
-  },
+
   {
     code: "JUQ-518",
     title: `I CAN'T EVEN TELL MY HUSBAND THAT MY FATHER-IN-LAW IMPREGNATED ME ... - I WAS CREAMPIED OVER AND OVER AGAIN DURING A 1-NIGHT , 2-DAY HOT SPRING TRIP . - MIZUKAWA VIOLET`,
