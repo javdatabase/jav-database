@@ -1603,6 +1603,68 @@ const File52 = [
     type: "Censored",
     idols: [{ idIdol: "jai016", name: "Kanako Iioka" }],
   },
+  {
+    code: "MIDV-586",
+    title: `( OLDER SISTER ) WAS MADE TO CUM SO MUCH BY MY YOUNGER SISTER'S SEXUAL DESIRE MONSTER BOYFRIEND THAT IT WAS EMBARRASSING ... MINA KITANO`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/midv586/midv586pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai196", name: "Mina Kitano" }],
+  },
+  {
+    code: "MIAB-068",
+    title: `MOUTH , PUSSY , ANAL , THREE-HOLE CREAMPIE OK ! REVERSE BUNNY SEX INDUSTRY RUI WHERE SEXUAL DESIRE GOES OUT OF CONTROL`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/miab068/miab068pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai056", name: "Rui Hiduki" }],
+  },
+  {
+    code: "MIAB-071",
+    title: `A SALIVATING NTR SHARED ROOM WITH A KISSING JUNIOR GIRL WHO RUINED ME ON A BUSINESS TRIP . SHE WAS ROBBED OF MY BREATH AND WAS COVERED IN SALIVA IN THE KISSING SPIDER COWGIRL POSITION , DROWNING IN SALIVA MEI ITSUKAICHI`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/miab071/miab071pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai230", name: "Mei Itsukaichi" }],
+  },
+  {
+    code: "CJOD-402",
+    title: `" HEY , IF YOU CUM OUTSIDE , WOULD YOU LIKE TO GO TO A LOVE HOTEL WITHOUT TELLING YOUR GIRLFRIEND ? " WHILE MY GIRLFRIEND WAS AWAY , JULIA , WHO WANTED TO HAVE A SEX FRIEND , ASKED ME OUT ON A DATE , AND EVEN THOUGH WE WERE OUTSIDE , SHE HELD HER J-CUP HUGE BREASTS CLOSE TO ME ... AND WE KISSED REPEATEDLY AND SEDUCED HER . I LOST AND GOT AN ERECTION , SO I EJACULATED MANY TIMES UNTIL MORNING AT THE HOTEL AND WAS TAKEN DOWN ...`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/cjod402/cjod402pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai041", name: "Julia" }],
+  },
+  {
+    code: "MIMK-141",
+    title: `MY LONG-AWAITED INSEMINATION BY MY FAVORITE NEIGHBORHOOD AUNT - LIVE-ACTION VERSION - 30,000 COPIES SOLD RAW SEX , CREAMPIE , FUCKED TO THE LIMIT , NON-STOP 26 EJACULATIONS KANA MORISAWA`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/mimk141/mimk141pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai016", name: "Kanako Iioka" }],
+  },
+  {
+    code: "MRSS-151",
+    title: `" LET'S GO ON ANOTHER TRIP TOGETHER NEXT YEAR ... '' IN ORDER TO EARN MONEY FOR MY SON'S SURGERY , MY BELOVED WIFE SIGNED A CONTRACT TO BECOME A WEALTHY MAN'S MEAT URINAL FOR A YEAR . KANA MORISAWA`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/mrss151/mrss151pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai016", name: "Kanako Iioka" }],
+  },
+  {
+    code: "YMDD-361",
+    title: `EXPLOSIVE WIFE - ELEGANT YOUNG WIFE'S VULGAR AND LEWD SEX 11 TIMES IN A ROW KANA MORISAWA`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/ymdd361/ymdd361pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai016", name: "Kanako Iioka" }],
+  },
+  {
+    code: "YUJ-011",
+    title: `" I LIKE BOYS WHO EJACULATE PREMATURELY . '' EVEN THOUGH I'M MARRIED , I WAS INVITED BY A COLLEAGUE AT WORK , AND I GOT LOST IN KISSES THAT SUFFOCATED ME AND CREAMPIE SEX THAT MADE ME FORGET ABOUT MY WIFE . KANA MORISAWA`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/yuj011/yuj011pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai016", name: "Kanako Iioka" }],
+  },{
+    code: "ANB-229",
+    title: `I BECAME MY MOTHER'S TOY . MY BEAUTIFUL STEPMOTHER IS A LEWD LITTLE DEVIL ! MIIZUMI SAKI`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/anb229/anb229pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai052", name: "Saki Mizumi" }],
+},
 ];
 
 export default File52;

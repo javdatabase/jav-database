@@ -7,14 +7,14 @@ import {
 } from "../../helpers/salary-values";
 
 const SWEET_STAR_POINTS_BY_IDS = {
-  ups001: 33,
+  ups001: 35,
   ups002: 197,
-  ups003: 10,
+  ups003: 12,
   ups004: 11,
   ups005: 15,
   ups006: 10,
   ups007: 10,
-  ups008: 31,
+  ups008: 33,
   ups009: 21,
   ups010: 9,
   ups011: 11,
@@ -25,8 +25,8 @@ const SWEET_STAR_POINTS_BY_IDS = {
   ups016: 5,
   ups017: 9,
   ups018: 8,
-  ups019: 9,
-  ups020: 6,
+  ups019: 21,
+  ups020: 8,
 };
 
 function getStableEarningStar(id) {

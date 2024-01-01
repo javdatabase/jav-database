@@ -24,12 +24,6 @@ const File1 = [
     stars: [{ idStar: "ups004", name: "Leah Gotti" }],
   },
   {
-    title: `GIRLSDOPORN E409 18 YEARS OLD CREAMPIE AND ANAL RETURN`,
-    content: `<iframe width="943" height="530" src="https://sblanh.com/e/jthavncfwo99.html" frameborder="0" allowfullscreen></iframe>`,
-    type: "US/EU",
-    stars: [{ idStar: "ups000", name: "Hannah Harrell" }],
-  },
-  {
     title: `WORKING LATE`,
     content: `<iframe width="943" height="530" src="https://xhvictory.com/videos/black-is-better-dolly-leigh-mr-blaccwood-working-late-11452278" frameborder="0" allowfullscreen></iframe>`,
     type: "US/EU",
