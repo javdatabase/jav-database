@@ -16,7 +16,6 @@ const SWEET_NIGHT_IDS = [
   "jai041",
   "jai041",
   "jai041",
-
   "jai041",
   "jai221",
   "jai221",
