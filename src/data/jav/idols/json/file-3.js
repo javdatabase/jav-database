@@ -187,6 +187,7 @@ const File3 = [
     waist: "58 cm",
     hips: "89 cm",
     styles: [
+      { tag: "Retired" },
       { tag: "Pretty" },
       { tag: "6 Stars JAV" },
       { tag: "Cute" },
@@ -1403,6 +1404,7 @@ const File3 = [
     waist: "59 cm",
     hips: "86 cm",
     styles: [
+      { tag: "Retired" },
       { tag: "6 Stars JAV" },
       { tag: "Cute" },
       { tag: "Beautiful Breasts" },
@@ -1546,7 +1548,7 @@ const File3 = [
     cup: "E-Cup",
     waist: "58 cm",
     hips: "88 cm",
-    styles: [{ tag: "Retired" }, { tag: "Cute" }, { tag: "Beautiful Breasts" }],
+    styles: [{ tag: "Cute" }, { tag: "Beautiful Breasts" }],
     album: [
       {
         picture:
@@ -1882,7 +1884,12 @@ const File3 = [
     cup: "G-Cup",
     waist: "58 cm",
     hips: "89 cm",
-    styles: [{ tag: "Cute" }, { tag: "Killer Tits" }, { tag: "Slender" }],
+    styles: [
+      { tag: "Retired" },
+      { tag: "Cute" },
+      { tag: "Killer Tits" },
+      { tag: "Slender" },
+    ],
     album: [
       {
         picture:
@@ -2269,7 +2276,7 @@ const File3 = [
     cup: "D-Cup",
     waist: "57 cm",
     hips: "84 cm",
-    styles: [{ tag: "Cute" }, { tag: "Beautiful Breasts" }],
+    styles: [{ tag: "Retired" }, { tag: "Cute" }, { tag: "Beautiful Breasts" }],
     album: [
       {
         picture:
@@ -2584,7 +2591,7 @@ const File3 = [
     avatar:
       "http://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/48000/48980/large/wapdb-maron-natsuki-pornostar-asiatique.warashi-asian-pornstars.fr-48980-001.jpg",
     name: "Maron Natsuki",
-    other: "",
+    other: "Eru Natsuya",
     born: "25/12/1996",
     height: "164 cm",
     breast: "88 cm",
@@ -2746,7 +2753,7 @@ const File3 = [
     cup: "H-Cup",
     waist: "63 cm",
     hips: "89 cm",
-    styles: [{ tag: "Killer Tits" }, { tag: "Long Legs" }],
+    styles: [{ tag: "Retired" }, { tag: "Killer Tits" }, { tag: "Long Legs" }],
     album: [
       {
         picture:
@@ -2774,7 +2781,11 @@ const File3 = [
     cup: "E-Cup",
     waist: "59 cm",
     hips: "87 cm",
-    styles: [{ tag: "Beautiful Breasts" }, { tag: "Slender" }],
+    styles: [
+      { tag: "Retired" },
+      { tag: "Beautiful Breasts" },
+      { tag: "Slender" },
+    ],
     album: [
       {
         picture: momoka_tachibana.momoka_tachibana_2,
@@ -3042,7 +3053,7 @@ const File3 = [
     cup: "E-Cup",
     waist: "55 cm",
     hips: "85 cm",
-    styles: [{ tag: "Cute" }, { tag: "Beautiful Breasts" }],
+    styles: [{ tag: "Retired" }, { tag: "Cute" }, { tag: "Beautiful Breasts" }],
     album: [
       {
         picture:

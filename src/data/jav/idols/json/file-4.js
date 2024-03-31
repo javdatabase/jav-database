@@ -548,7 +548,12 @@ const File4 = [
     cup: "A-Cup",
     waist: "54 cm",
     hips: "84 cm",
-    styles: [{ tag: "Small Tits" }, { tag: "Slender" }, { tag: "Teens" }],
+    styles: [
+      { tag: "Retired" },
+      { tag: "Small Tits" },
+      { tag: "Slender" },
+      { tag: "Teens" },
+    ],
     album: [
       {
         picture: wan_horikita.wan_horikita_1,
@@ -580,6 +585,7 @@ const File4 = [
     waist: "59 cm",
     hips: "84 cm",
     styles: [
+      { tag: "Retired" },
       { tag: "Cute" },
       { tag: "Slender" },
       { tag: "Former Gravure Model" },
@@ -726,7 +732,7 @@ const File4 = [
     cup: "G-Cup",
     waist: "60 cm",
     hips: "89 cm",
-    styles: [{ tag: "Killer Tits" }],
+    styles: [{ tag: "Retired" }, { tag: "Killer Tits" }],
     album: [
       {
         picture: nao_yuri.nao_yuri_2,
@@ -772,6 +778,7 @@ const File4 = [
     waist: "56 cm",
     hips: "86 cm",
     styles: [
+      { tag: "Retired" },
       { tag: "Cute" },
       { tag: "Killer Tits" },
       { tag: "Slender" },
@@ -821,7 +828,11 @@ const File4 = [
     cup: "D-Cup",
     waist: "62 cm",
     hips: "93 cm",
-    styles: [{ tag: "Beautiful Breasts" }, { tag: "Long Legs" }],
+    styles: [
+      { tag: "Retired" },
+      { tag: "Beautiful Breasts" },
+      { tag: "Long Legs" },
+    ],
     album: [
       {
         picture: mai_kanami.mai_kanami_2,
@@ -1188,7 +1199,7 @@ const File4 = [
     cup: "G-Cup",
     waist: "64 cm",
     hips: "98 cm",
-    styles: [{ tag: "Killer Tits" }, { tag: "Long Legs" }],
+    styles: [{ tag: "Retired" }, { tag: "Killer Tits" }, { tag: "Long Legs" }],
     album: [
       {
         picture: ren_usui.ren_usui_2,
@@ -1614,7 +1625,12 @@ const File4 = [
     cup: "G-Cup",
     waist: "59 cm",
     hips: "90 cm",
-    styles: [{ tag: "Pretty" }, { tag: "Killer Tits" }, { tag: "Teens" }],
+    styles: [
+      { tag: "Retired" },
+      { tag: "Pretty" },
+      { tag: "Killer Tits" },
+      { tag: "Teens" },
+    ],
     album: [
       {
         picture: mugi_kobato.mugi_kobato_2,
@@ -1735,7 +1751,12 @@ const File4 = [
     cup: "D-Cup",
     waist: "59 cm",
     hips: "83 cm",
-    styles: [{ tag: "Cute" }, { tag: "Beautiful Breasts" }, { tag: "Slender" }],
+    styles: [
+      { tag: "Retired" },
+      { tag: "Cute" },
+      { tag: "Beautiful Breasts" },
+      { tag: "Slender" },
+    ],
     album: [
       {
         picture:
@@ -1774,7 +1795,11 @@ const File4 = [
     cup: "D-Cup",
     waist: "56 cm",
     hips: "84 cm",
-    styles: [{ tag: "Beautiful Breasts" }, { tag: "Teens" }],
+    styles: [
+      { tag: "Retired" },
+      { tag: "Beautiful Breasts" },
+      { tag: "Teens" },
+    ],
     album: [
       {
         picture: iyona_fujii.iyona_fujii_2,

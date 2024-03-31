@@ -144,7 +144,7 @@ function DvdDetail({ show, toggleModal, data }) {
   const timer = useRef();
 
   const link = useMemo(() => {
-    return `https://vlxx.cam/${get(
+    return `https://vlxx.li/${get(
       VIDEO_CONTENT(get(data, "code", "")),
       "xid",
       ""
