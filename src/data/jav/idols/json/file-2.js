@@ -81,6 +81,7 @@ const File2 = [
     waist: "58 cm",
     hips: "88 cm",
     styles: [
+      { tag: "Retired" },
       { tag: "Cute" },
       { tag: "Small Tits" },
       { tag: "Slender" },
@@ -698,6 +699,7 @@ const File2 = [
     waist: "57 cm",
     hips: "88 cm",
     styles: [
+      { tag: "Retired" },
       { tag: "Pretty" },
       { tag: "6 Stars JAV" },
       { tag: "Cute" },
@@ -875,7 +877,12 @@ const File2 = [
     cup: "C-Cup",
     waist: "54 cm",
     hips: "82 cm",
-    styles: [{ tag: "Cute" }, { tag: "Small Tits" }, { tag: "Slender" }],
+    styles: [
+      { tag: "Retired" },
+      { tag: "Cute" },
+      { tag: "Small Tits" },
+      { tag: "Slender" },
+    ],
     album: [
       {
         picture: minami_aizawa.minami_aizawa_1,
@@ -1168,7 +1175,12 @@ const File2 = [
     cup: "H-Cup",
     waist: "58 cm",
     hips: "84 cm",
-    styles: [{ tag: "Pretty" }, { tag: "Killer Tits" }, { tag: "Slender" }],
+    styles: [
+      { tag: "Retired" },
+      { tag: "Pretty" },
+      { tag: "Killer Tits" },
+      { tag: "Slender" },
+    ],
     album: [
       {
         picture:

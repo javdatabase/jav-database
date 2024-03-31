@@ -9,10 +9,6 @@ const MonthEarnings = {
   point10: 98251000,
   point5: 43000000,
   point0: 2225000,
-  status: {
-    active: 857400000,
-    retired: 382150000,
-  },
   veryPretty: 2133555000,
   1000: 100010001000,
   sixStar: 800000000,
@@ -26,6 +22,8 @@ const MonthEarnings = {
 };
 
 const StableEarnings = 1772000000;
+
+const ActiveEarnings = 6420000000;
 
 const OneNightRatio = 2.9;
 
@@ -45,6 +43,7 @@ const TokenRate = 0.5;
 export {
   MonthEarnings,
   StableEarnings,
+  ActiveEarnings,
   OneNightRatio,
   WeekEarnings,
   TokenRate,
