@@ -2561,7 +2561,7 @@ const File3 = [
     cup: "J-Cup",
     waist: "59 cm",
     hips: "88 cm",
-    styles: [{ tag: "Killer Tits" }, { tag: "Teens" }],
+    styles: [{ tag: "Pretty" }, { tag: "Killer Tits" }, { tag: "Teens" }],
     album: [
       {
         picture: aka_asuka.aka_asuka_2,
