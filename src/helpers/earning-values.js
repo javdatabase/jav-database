@@ -9,11 +9,8 @@ const MonthEarnings = {
   point10: 98251000,
   point5: 43000000,
   point0: 2225000,
-  status: {
-    active: 857400000,
-    retired: 382150000,
-  },
   veryPretty: 2133555000,
+  1000: 100010001000,
   sixStar: 800000000,
   killerTits: 308000000,
   beautifulBreasts: 296000000,
@@ -26,24 +23,27 @@ const MonthEarnings = {
 
 const StableEarnings = 1772000000;
 
-const OneNightRatio = 3.861;
+const ActiveEarnings = 6420000000;
+
+const OneNightRatio = 2.9;
 
 const WeekEarnings = {
   starIdol: 3528944000,
   bestDvd: 150560000,
   bestIdol: 124436000,
-  sweetNight: 1259000000,
+  sweetNight: 690000000,
   topGrowth: 104360000,
   topIdol: 124360000,
   hasDvd: 29780000,
   newbie: 16700000,
 };
 
-const TokenRate = 869;
+const TokenRate = 0.5;
 
 export {
   MonthEarnings,
   StableEarnings,
+  ActiveEarnings,
   OneNightRatio,
   WeekEarnings,
   TokenRate,

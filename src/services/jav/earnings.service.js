@@ -4,129 +4,50 @@ import {
   OneNightRatio,
   WeekEarnings,
   TokenRate,
+  ActiveEarnings,
 } from "../../helpers/earning-values";
 
-const STAR_IDOL_ID = "jai041";
+const STAR_IDOL_ID = "";
 const SWEET_NIGHT_IDS = [
   "jai001",
-  "jai001",
-  "jai001",
-  "jai011",
-  "jai011",
-  "jai011",
-  "jai011",
-  "jai011",
-  "jai011",
-  "jai015",
-  "jai015",
-  "jai015",
-  "jai016",
-  "jai024",
-  "jai041",
-  "jai057",
-  "jai070",
-  "jai071",
-  "jai075",
-  "jai075",
-  "jai076",
-  "jai076",
-  "jai141",
-  "jai154",
-  "jai157",
-  "jai158",
-  "jai158",
-  "jai158",
-  "jai187",
-  "jai189",
-  "jai196",
-  "jai219",
-  "jai219",
+  "jai170",
+  "jai170",
+  "jai170",
+  "jai170",
+  "jai170",
+  "jai170",
 ];
 const BEST_DVD_IDS = [
-  "jai007",
-  "jai011",
-  "jai015",
+  "jai001",
   "jai016",
-  "jai021",
-  "jai075",
-  "jai133",
-  "jai146",
-  "jai148",
-  "jai158",
-  "jai172",
-  "jai176",
-  "jai187",
-  "jai190",
-  "jai196",
-  "jai219",
-  "jai222",
-  "jai228",
+  "jai034",
+  "jai053",
+  "jai069",
+  "jai144",
+  "jai151",
+  "jai170",
 ];
 const BEST_IDOL_IDS = [
-  "jai007",
-  "jai011",
-  "jai015",
+  "jai001",
   "jai016",
-  "jai021",
-  "jai075",
-  "jai133",
-  "jai140",
-  "jai146",
-  "jai148",
-  "jai158",
-  "jai172",
-  "jai176",
-  "jai179",
-  "jai187",
-  "jai190",
-  "jai196",
-  "jai219",
-  "jai222",
-  "jai228",
-];
-const TOP_POINT_GROWTH_IDS = [
-  "jai007",
-  "jai015",
-  "jai075",
-  "jai148",
-  "jai172",
-  "jai219",
-  "jai228",
-];
-const TOP_IDOL_IDS = [
-  "jai016",
-  "jai062",
-  "jai070",
+  "jai034",
+  "jai053",
+  "jai069",
+  "jai144",
   "jai151",
-  "jai187",
-  "jai188",
-  "jai199",
-  "jai205",
-  "jai213",
-  "jai227",
-  "jai228",
+  "jai170",
 ];
+const TOP_POINT_GROWTH_IDS = [];
+const TOP_IDOL_IDS = [];
 const HAS_DVD_IDS = [
-  "jai007",
-  "jai011",
-  "jai015",
+  "jai001",
   "jai016",
-  "jai021",
-  "jai075",
-  "jai133",
-  "jai140",
-  "jai146",
-  "jai148",
-  "jai158",
-  "jai172",
-  "jai176",
-  "jai179",
-  "jai187",
-  "jai190",
-  "jai196",
-  "jai219",
-  "jai222",
-  "jai228",
+  "jai034",
+  "jai053",
+  "jai069",
+  "jai144",
+  "jai151",
+  "jai170",
 ];
 const NEWBIE_IDS = [];
 
@@ -169,6 +90,7 @@ function getStableEarningIdol(id) {
     "jai226",
     "jai227",
     "jai228",
+    "jai230",
   ];
   return STABLE_IDS.includes(id) ? StableEarnings : 0;
 }
@@ -199,10 +121,7 @@ function getEarningIdol(id, rank, points, styles, uncensored, best, video) {
     pointEarnings = pointEarnings + MonthEarnings.point0;
   }
 
-  let styleEarning = MonthEarnings.status.active;
-  if (styles.find((item) => item.tag === "Retired")) {
-    styleEarning = MonthEarnings.status.retired;
-  }
+  let styleEarning = 0;
   if (styles.find((item) => item.tag === "Pretty")) {
     styleEarning = styleEarning + MonthEarnings.veryPretty;
   }
@@ -217,6 +136,15 @@ function getEarningIdol(id, rank, points, styles, uncensored, best, video) {
   }
   if (styles.find((item) => item.tag === "NFT")) {
     styleEarning = styleEarning + MonthEarnings.nft;
+  }
+  if (styles.find((item) => item.tag === "1000")) {
+    styleEarning = styleEarning + MonthEarnings[1000];
+  }
+
+  if (styles.find((item) => item.tag === "Retired")) {
+    styleEarning = styleEarning / 2 - getStableEarningIdol(id);
+  } else {
+    styleEarning = styleEarning + ActiveEarnings;
   }
 
   const uncensoredEarnings = MonthEarnings.uncensoredDvds * uncensored;

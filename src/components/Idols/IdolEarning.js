@@ -25,7 +25,7 @@ import {
   DarkPurple,
 } from "../../themes/colors";
 import { center } from "../../themes/styled";
-import { Regular, XLarge, XXLarge } from "../../themes/font";
+import { Regular, Large, XLarge, XXLarge } from "../../themes/font";
 
 const Container = styled.div`
   width: 100%;
@@ -158,16 +158,18 @@ const PriceIdol = styled.div`
   border-radius: 12px;
   background: linear-gradient(to right, ${LightBlue}, ${DarkBlue});
   color: ${White};
-  font-size: ${XLarge};
+  font-size: ${Large};
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: ${Black};
+  white-space: nowrap;
 `;
 
 const BonusContainer = styled.div`
   color: transparent;
-  font-size: ${XLarge};
+  font-size: ${Large};
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: ${Black};
+  white-space: nowrap;
 `;
 
 const BonusIdol = styled(PriceIdol)`
@@ -175,18 +177,20 @@ const BonusIdol = styled(PriceIdol)`
   background: linear-gradient(to right, ${LightPurple}, ${DarkPurple});
   color: ${White};
   margin-top: 10px;
-  font-size: ${XLarge};
+  font-size: ${Large};
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: ${Black};
+  white-space: nowrap;
 `;
 
 const TotalIdol = styled(BonusIdol)`
   border: solid 6px ${Red};
   background: linear-gradient(to right, ${Yellow}, ${Orange});
   color: ${White};
-  font-size: ${XLarge};
+  font-size: ${Large};
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: ${Black};
+  white-space: nowrap;
 `;
 
 const ViewProfile = styled(Link)`
@@ -210,7 +214,7 @@ const ViewProfile = styled(Link)`
   }
 `;
 
-function IdolEarning({ data }) {
+function IdolEarning({ data, overall }) {
   const location = useLocation();
   const [show, setShow] = useState(false);
   const [picture, setPicture] = useState(null);
@@ -302,24 +306,32 @@ function IdolEarning({ data }) {
               ))}
           </PicturesContainer>
           <EarningContainer>
-            {!get(location.state, "bonus", false) && (
+            {overall ? (
               <PriceIdol>
-                {priceCurrency(data.earnings)} ({priceCurrency(price)}) ❂
+                {priceCurrency(total)} ({priceCurrency(fee)}) ❂
               </PriceIdol>
+            ) : (
+              <>
+                {!get(location.state, "bonus", false) && (
+                  <PriceIdol>
+                    {priceCurrency(data.earnings)} ({priceCurrency(price)}) ❂
+                  </PriceIdol>
+                )}
+                {!!data.bonus &&
+                  (!get(location.state, "original", false) ||
+                    !!get(location.state, "bonus", false)) &&
+                  (!!get(location.state, "bonus", false) ? (
+                    <BonusIdol>{priceCurrency(data.bonus)} ❂</BonusIdol>
+                  ) : (
+                    <BonusContainer>
+                      +<BonusIdol>{priceCurrency(data.bonus)} ❂</BonusIdol>=
+                      <TotalIdol>
+                        {priceCurrency(total)} ({priceCurrency(fee)}) ❂
+                      </TotalIdol>
+                    </BonusContainer>
+                  ))}
+              </>
             )}
-            {!!data.bonus &&
-              (!get(location.state, "original", false) ||
-                !!get(location.state, "bonus", false)) &&
-              (!!get(location.state, "bonus", false) ? (
-                <BonusIdol>{priceCurrency(data.bonus)} ❂</BonusIdol>
-              ) : (
-                <BonusContainer>
-                  +<BonusIdol>{priceCurrency(data.bonus)} ❂</BonusIdol>=
-                  <TotalIdol>
-                    {priceCurrency(total)} ({priceCurrency(fee)}) ❂
-                  </TotalIdol>
-                </BonusContainer>
-              ))}
           </EarningContainer>
         </div>
       </Container>

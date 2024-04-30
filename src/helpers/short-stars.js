@@ -14,6 +14,11 @@ const ShortStars = [
   { idStar: "ups013", name: "Katrina Jade" },
   { idStar: "ups014", name: "Mia Khalifa" },
   { idStar: "jai015", name: "Arya Fae" },
+  { idStar: "jai016", name: "Blake Blossom" },
+  { idStar: "jai017", name: "Lilly Bell" },
+  { idStar: "jai018", name: "Tru Kait" },
+  { idStar: "jai019", name: "Sybil A Kailena" },
+  { idStar: "jai020", name: "Blair Williams" },
 ];
 
 export default ShortStars;

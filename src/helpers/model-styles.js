@@ -15,6 +15,7 @@ const ModelStyles = [
   "Former TV Actress",
   "Former Race Queen",
   "NFT",
+  "1000",
 ];
 
 export default ModelStyles;

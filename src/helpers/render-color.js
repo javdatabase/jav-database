@@ -100,6 +100,12 @@ function modelStyle(style) {
     case ModelStyle[14]:
       return "#ffff00";
 
+    case ModelStyle[15]:
+      return "#ffffff";
+
+    case ModelStyle[16]:
+      return "#0000ff";
+
     default:
       return "#ffffff";
   }

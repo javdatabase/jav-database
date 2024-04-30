@@ -9,54 +9,38 @@ const Dvds = MainDvds.concat(PreReleaseDvds, AmateurDvds);
 
 const IdolsStars = Idols.concat(Stars);
 
-function checkAlreadyExistDvd() {
-  let count = 0;
-  let response = [];
+function debugDvds() {
+  const response = {
+    alreadyExistDvd: [],
+    alreadyExistPoster: [],
+    posterIsFalsy: [],
+  };
   for (let i = 1; i < Dvds.length; i++) {
+    if (Dvds[i].poster === "" && Dvds[i].code !== "") {
+      response.posterIsFalsy.push(Dvds[i].code);
+    }
     for (let j = 0; j < i; j++) {
       if (Dvds[i].code === Dvds[j].code && Dvds[i].code !== "") {
-        count++;
-        response.push(Dvds[i].code);
+        response.alreadyExistDvd.push(Dvds[i].code);
       }
-    }
-  }
-  if (count !== 0) {
-    return response;
-  } else {
-    return "* none *";
-  }
-}
-
-function checkAlreadyExistPoster() {
-  let count = 0;
-  let response = [];
-  for (let i = 1; i < Dvds.length; i++) {
-    for (let j = 0; j < i; j++) {
       if (Dvds[i].poster === Dvds[j].poster && Dvds[i].poster !== "") {
-        count++;
-        response.push(Dvds[i].code);
+        response.alreadyExistPoster.push(Dvds[i].code);
       }
     }
   }
-  if (count !== 0) {
-    return response;
-  } else {
-    return "* none *";
+  if (response.alreadyExistDvd.length === 0) {
+    response.alreadyExistDvd = "* none *";
   }
+  if (response.alreadyExistPoster.length === 0) {
+    response.alreadyExistPoster = "* none *";
+  }
+  if (response.posterIsFalsy.length === 0) {
+    response.posterIsFalsy = "* none *";
+  }
+  return response;
 }
 
-function checkPosterIsFalsy() {
-  const data = Dvds.filter((item) => item.poster === "" && item.code !== "");
-  const response = data.map((item) => item.code);
-  if (data.length > 0) {
-    return response;
-  } else {
-    return "* none *";
-  }
-}
-
-function checkAlreadyExistIdols() {
-  let count = 0;
+function debugIdols() {
   let response = [];
   for (let i = 1; i < IdolsStars.length; i++) {
     for (let j = 0; j < i; j++) {
@@ -64,97 +48,48 @@ function checkAlreadyExistIdols() {
         IdolsStars[i].idIdol &&
         IdolsStars[i].idIdol === IdolsStars[j].idIdol
       ) {
-        count++;
         response.push(IdolsStars[i].idIdol);
       }
       if (
         IdolsStars[i].idStar &&
         IdolsStars[i].idStar === IdolsStars[j].idStar
       ) {
-        count++;
         response.push(IdolsStars[j].idStar);
       }
     }
   }
-  if (count !== 0) {
+  if (response.length !== 0) {
     return response;
   } else {
     return "* none *";
   }
 }
 
-function checkAlreadyExistIdIdols() {
-  let count = 0;
-  let response = [];
-  for (let i = 1; i < IdolsStars.length; i++) {
-    for (let j = 0; j < i; j++) {
-      if (
-        IdolsStars[i].idIdol &&
-        IdolsStars[i].idIdol === IdolsStars[j].idIdol
-      ) {
-        count++;
-        response.push(IdolsStars[i].idIdol);
-      }
-      if (
-        IdolsStars[i].idStar &&
-        IdolsStars[i].idStar === IdolsStars[j].idStar
-      ) {
-        count++;
-        response.push(IdolsStars[j].idStar);
-      }
-    }
-  }
-  if (count !== 0) {
-    return response;
-  } else {
-    return "* none *";
-  }
-}
-
-function checkAlreadyExistVideos() {
-  let count = 0;
-  let response = [];
-  for (let i = 1; i < Videos.length; i++) {
-    for (let j = 0; j < i; j++) {
-      if (Videos[i].xid && Videos[i].xid === Videos[j].xid) {
-        count++;
-        response.push(Videos[i].code);
-      }
-      if (Videos[i].code && Videos[i].code === Videos[j].code) {
-        count++;
-        response.push(Videos[j].code);
-      }
-    }
-  }
-  if (count !== 0) {
-    return response;
-  } else {
-    return "* none *";
-  }
-}
-
-function checkVideoIsFalsy() {
-  let count = 0;
-  let response = [];
+function debugVideos() {
+  const response = {
+    alreadyExistVideo: [],
+    videoIsFalsy: [],
+  };
   for (let i = 1; i < Videos.length; i++) {
     if (!Dvds.find((item) => item.code === Videos[i].code)) {
-      count++;
-      response.push(Videos[i].code);
+      response.videoIsFalsy.push(Videos[i].code);
+    }
+    for (let j = 0; j < i; j++) {
+      if (Videos[i].xid && Videos[i].xid === Videos[j].xid) {
+        response.alreadyExistVideo.push(Videos[i].code);
+      }
+      if (Videos[i].code && Videos[i].code === Videos[j].code) {
+        response.alreadyExistVideo.push(Videos[j].code);
+      }
     }
   }
-  if (count !== 0) {
-    return response;
-  } else {
-    return "* none *";
+  if (response.alreadyExistVideo.length === 0) {
+    response.alreadyExistVideo = "* none *";
   }
+  if (response.videoIsFalsy.length === 0) {
+    response.videoIsFalsy = "* none *";
+  }
+  return response;
 }
 
-export {
-  checkAlreadyExistDvd,
-  checkAlreadyExistPoster,
-  checkPosterIsFalsy,
-  checkAlreadyExistIdols,
-  checkAlreadyExistIdIdols,
-  checkAlreadyExistVideos,
-  checkVideoIsFalsy,
-};
+export { debugDvds, debugIdols, debugVideos };

@@ -1,15 +1,7 @@
-import React, { useMemo } from "react";
+import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 
-import {
-  checkAlreadyExistDvd,
-  checkAlreadyExistPoster,
-  checkPosterIsFalsy,
-  checkAlreadyExistIdols,
-  checkAlreadyExistIdIdols,
-  checkAlreadyExistVideos,
-  checkVideoIsFalsy,
-} from "../../utils/debug-data";
+import { debugDvds, debugIdols, debugVideos } from "../../utils/debug-data";
 
 import { White, Orange, Pink, Yellow } from "../../themes/colors";
 import { center, fadeIn } from "../../themes/styled";
@@ -63,32 +55,25 @@ const Description = styled.div`
 `;
 
 function Debug() {
-  const alreadyExistDvds = useMemo(() => {
-    return checkAlreadyExistDvd();
-  }, []);
+  const [alreadyExistDvds, setAlreadyExistDvds] = useState("");
+  const [alreadyExistPoster, setAlreadyExistPoster] = useState("");
+  const [posterIsFalsy, setPosterIsFalsy] = useState("");
+  const [alreadyExistIdIdols, setAlreadyExistIdIdols] = useState("");
+  const [alreadyExistVideos, setAlreadyExistVideos] = useState("");
+  const [videoIsFalsy, setVideoIsFalsy] = useState("");
 
-  const alreadyExistPoster = useMemo(() => {
-    return checkAlreadyExistPoster();
-  }, []);
-
-  const posterIsFalsy = useMemo(() => {
-    return checkPosterIsFalsy();
-  }, []);
-
-  const alreadyExistIdols = useMemo(() => {
-    return checkAlreadyExistIdols();
-  }, []);
-
-  const alreadyExistIdIdols = useMemo(() => {
-    return checkAlreadyExistIdIdols();
-  }, []);
-
-  const alreadyExistVideos = useMemo(() => {
-    return checkAlreadyExistVideos();
-  }, []);
-
-  const videoIsFalsy = useMemo(() => {
-    return checkVideoIsFalsy();
+  useEffect(() => {
+    setTimeout(() => {
+      const dvds = debugDvds();
+      setAlreadyExistDvds(dvds.alreadyExistDvd);
+      setAlreadyExistPoster(dvds.alreadyExistPoster);
+      setPosterIsFalsy(dvds.posterIsFalsy);
+      const idols = debugIdols();
+      setAlreadyExistIdIdols(idols);
+      const videos = debugVideos();
+      setAlreadyExistVideos(videos.alreadyExistVideo);
+      setVideoIsFalsy(videos.videoIsFalsy);
+    }, 0);
   }, []);
 
   return (
@@ -116,14 +101,6 @@ function Debug() {
           {typeof posterIsFalsy === "string"
             ? posterIsFalsy
             : posterIsFalsy.join(", ")}
-        </Description>
-      </Content>
-      <Content>
-        <Label>● Idols Already Exists: </Label>
-        <Description>
-          {typeof alreadyExistIdols === "string"
-            ? alreadyExistIdols
-            : alreadyExistIdols.join(", ")}
         </Description>
       </Content>
       <Content>

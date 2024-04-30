@@ -58,6 +58,7 @@ const ALL_EARNING_STARS = Stars.map((item) => ({
     item.idStar,
     SWEET_STAR_POINTS_BY_IDS[item.idStar] || 0
   ),
+  bonus: 0,
 }))
   .sort((a, b) => b.earnings - a.earnings)
   .map((item, index) => ({
@@ -66,4 +67,15 @@ const ALL_EARNING_STARS = Stars.map((item) => ({
     position: index + 1,
   }));
 
-export { SIZE_STARS, ALL_STARS_BY_PAGE, STAR_PROFILE, ALL_EARNING_STARS };
+const TOTAL_EARNINGS = ALL_EARNING_STARS.reduce(
+  (acc, item) => acc + item.earnings + (item.bonus || 0),
+  0
+);
+
+export {
+  SIZE_STARS,
+  ALL_STARS_BY_PAGE,
+  STAR_PROFILE,
+  ALL_EARNING_STARS,
+  TOTAL_EARNINGS,
+};

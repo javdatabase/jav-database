@@ -16,9 +16,10 @@ import {
   Yellow,
   Red,
   Pink,
+  Grey,
 } from "../../themes/colors";
 import { center } from "../../themes/styled";
-import { Regular, XLarge, XXLarge } from "../../themes/font";
+import { Regular, Large, XXLarge } from "../../themes/font";
 
 const Container = styled.div`
   width: 100%;
@@ -27,7 +28,10 @@ const Container = styled.div`
   padding: 10px;
   margin: 20px 0px;
   box-sizing: border-box;
-  background: linear-gradient(to right, ${Yellow}, ${LightBlue});
+  background: ${(props) =>
+    props.overall === "true"
+      ? `linear-gradient(to right, ${White}, ${Grey})`
+      : `linear-gradient(to right, ${Yellow}, ${LightBlue})`};
 `;
 
 const PositionStar = styled.div`
@@ -126,9 +130,10 @@ const PriceStar = styled.div`
   border-radius: 12px;
   background: linear-gradient(to right, ${Pink}, ${Red});
   color: ${White};
-  font-size: ${XLarge};
+  font-size: ${Large};
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: ${Black};
+  white-space: nowrap;
 `;
 
 const ViewProfile = styled(Link)`
@@ -140,7 +145,10 @@ const ViewProfile = styled(Link)`
   overflow: hidden;
   border-radius: 0px 0px 18px 18px;
   box-sizing: border-box;
-  background: linear-gradient(to right, ${Yellow}, ${LightBlue});
+  background: ${(props) =>
+    props.overall === "true"
+      ? `linear-gradient(to right, ${White}, ${Grey})`
+      : `linear-gradient(to right, ${Yellow}, ${LightBlue})`};
   text-decoration: none;
   color: ${Black};
   font-size: ${Regular};
@@ -152,7 +160,7 @@ const ViewProfile = styled(Link)`
   }
 `;
 
-function StarEarning({ data }) {
+function StarEarning({ data, overall }) {
   const [show, setShow] = useState(false);
   const [picture, setPicture] = useState(null);
 
@@ -182,12 +190,14 @@ function StarEarning({ data }) {
 
   return (
     <Fragment>
-      <Container>
+      <Container overall={overall}>
         <PositionStar>{data.position}</PositionStar>
         <div style={{ display: "flex", width: "100%" }}>
           <AvatarContainer>
             <AvatarStar src={data.avatar} />
-            <ViewProfile to={`/upv/star/${data.idStar}`}>View</ViewProfile>
+            <ViewProfile to={`/upv/star/${data.idStar}`} overall={overall}>
+              View
+            </ViewProfile>
           </AvatarContainer>
           <StarInformationContainer>
             <NameStar>

@@ -19,6 +19,7 @@ const File1 = [
     waist: "59 cm",
     hips: "85 cm",
     styles: [
+      { tag: "1000" },
       { tag: "Pretty" },
       { tag: "6 Stars JAV" },
       { tag: "Cute" },
@@ -500,11 +501,7 @@ const File1 = [
     cup: "E-Cup",
     waist: "58 cm",
     hips: "85 cm",
-    styles: [
-      { tag: "Retired" },
-      { tag: "6 Stars JAV" },
-      { tag: "Beautiful Breasts" },
-    ],
+    styles: [{ tag: "6 Stars JAV" }, { tag: "Beautiful Breasts" }],
     album: [
       {
         picture:
