@@ -1619,6 +1619,63 @@ const File53 = [
     type: "Censored",
     idols: [{ idIdol: "jai001", name: "Yui Hatano" }],
   },
+  {
+    code: "WO-015",
+    title: `BREAST ROAD KANA MORISAWA`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/1wo015/1wo015pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai016", name: "Kanako Iioka" }],
+  },
+  {
+    code: "ABF-094",
+    title: `ALONE WITH AMATEUR-KUN FOR A WHOLE DAY`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/118abf094/118abf094pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai151", name: "Remu Suzumori" }],
+  },
+  {
+    code: "NKKD-328",
+    title: `INCEST WITH A BIG DICK . A MOTHER WHO IS SEDUCED BY HER SON'S HARD , UNRULY DICK`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/nkkd328/nkkd328pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai001", name: "Yui Hatano" }],
+  },
+  {
+    code: "NKKD-330",
+    title: `CRYING NTR THE STORY OF MARY TACHIBANA, WHO HEARD THAT HER PART-TIME WORKER WAS MOVING DUE TO HER HUSBAND'S TRANSFER , AND HAD SEX WHILE CRYING TO SAY GOODBYE UNTIL THE DAY SHE RETIRED`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/nkkd330/nkkd330pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai034", name: "Mary Tachibana" }],
+  },
+  {
+    code: "NBES-087",
+    title: `MISAKI KANNA BEST 5 TITLES UNCUT FULL LENGTH RECORDING ! ! 3 DISC SET 600 MINUTES`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/nbes087/nbes087pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai144", name: "Kanna Misaki" }],
+  },
+  {
+    code: "SONE-137",
+    title: `SHE HAS A CUTE FACE AND LOVES BLOWJOBS ! RIRI NANATSUMORI , A SLUT WITH AN INTENSE SUCKING MOUTH THAT LICKS EVEN THE PENIS`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/sone137/sone137pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai170", name: "Riri Nanatsumori" }],
+  },
+  {
+    code: "SONE-141",
+    title: `AV WHERE SHE IS SEDUCED BY DIRTY TALK AND CUCKOLDED BY THE FACE NATIONAL TREASURE ' TSUKASA AOI ' WITH HER BEAUTIFUL FACE AT ZERO DISTANCE`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/sone141/sone141pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai069", name: "Tsukasa Aoi" }],
+  },
+  {
+    code: "HZGD-272",
+    title: `WHILE MY GIRLFRIEND WAS AWAY ON HER WAY HOME FOR 2 NIGHTS AND 3 DAYS ... A SECRET SEX DIARY WHERE SHE INDULGED IN APHRODISIAC SEX WITH HER BEST FRIEND AND EX-GIRLFRIEND'S MARRIED WOMAN`,
+    poster:
+      "https://pics.dmm.co.jp/mono/movie/adult/h_1100hzgd272/h_1100hzgd272pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai053", name: "Kokone Mizutani" }],
+  },
 ];
 
 export default File53;
