@@ -8,47 +8,12 @@ import {
 } from "../../helpers/earning-values";
 
 const STAR_IDOL_ID = "";
-const SWEET_NIGHT_IDS = [
-  "jai001",
-  "jai170",
-  "jai170",
-  "jai170",
-  "jai170",
-  "jai170",
-  "jai170",
-];
-const BEST_DVD_IDS = [
-  "jai001",
-  "jai016",
-  "jai034",
-  "jai053",
-  "jai069",
-  "jai144",
-  "jai151",
-  "jai170",
-];
-const BEST_IDOL_IDS = [
-  "jai001",
-  "jai016",
-  "jai034",
-  "jai053",
-  "jai069",
-  "jai144",
-  "jai151",
-  "jai170",
-];
+const SWEET_NIGHT_IDS = [];
+const BEST_DVD_IDS = [];
+const BEST_IDOL_IDS = [];
 const TOP_POINT_GROWTH_IDS = [];
 const TOP_IDOL_IDS = [];
-const HAS_DVD_IDS = [
-  "jai001",
-  "jai016",
-  "jai034",
-  "jai053",
-  "jai069",
-  "jai144",
-  "jai151",
-  "jai170",
-];
+const HAS_DVD_IDS = [];
 const NEWBIE_IDS = [];
 
 function getStableEarningIdol(id) {

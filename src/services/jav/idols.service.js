@@ -95,6 +95,7 @@ const BEST_IDOL_IDS = [
   "jai170",
   "jai171",
   "jai175",
+  "jai188",
   "jai189",
   "jai191",
   "jai196",
@@ -104,6 +105,7 @@ const BEST_IDOL_IDS = [
   "jai205",
   "jai209",
   "jai220",
+  "jai221",
   "jai227",
   "jai228",
   "jai230",
@@ -196,12 +198,12 @@ const ALL_IDOLS_BY_PAGE = (
   return { data: [...response].reverse(), size: size };
 };
 
-const IDOL_PROFILE = (id) => {
+const IDOL_PROFILE = (id, sort = true) => {
   let idol = findIdolDetail(id);
   if (idol) {
     idol = {
       ...idol,
-      dvds: sortDvds(idol.dvds),
+      dvds: sort ? sortDvds(idol.dvds) : [...idol.dvds].reverse(),
     };
   }
   return idol;

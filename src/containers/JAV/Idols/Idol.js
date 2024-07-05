@@ -16,6 +16,7 @@ import {
 } from "../../../services/jav/earnings.service";
 import { IDOL_PROFILE } from "../../../services/jav/idols.service";
 import Tabs from "../../../components/UI/Tabs/Tabs";
+import Checkbox from "../../../components/UI/Checkbox/Checkbox";
 import Image from "../../../components/Image/Image";
 import IdolCup from "../../../components/Idols/IdolCup";
 import IdolStyle from "../../../components/Idols/IdolStyle";
@@ -278,10 +279,11 @@ function Idol() {
   const [picture, setPicture] = useState(null);
   const [showDvd, setShowDvd] = useState(false);
   const [dvd, setDvd] = useState(null);
+  const [sort, setSort] = useState(false);
 
   const data = useMemo(() => {
-    return IDOL_PROFILE(id);
-  }, [id]);
+    return IDOL_PROFILE(id, sort);
+  }, [id, sort]);
 
   const listImages = useMemo(() => {
     return [get(data, "avatar", "")].concat(
@@ -375,6 +377,10 @@ function Idol() {
     [toggleModalPicture]
   );
 
+  const handleChangeSort = useCallback(() => {
+    setSort((prev) => !prev);
+  }, []);
+
   const renderTabContent = useCallback(() => {
     const tabWidth = window.innerWidth / 2 - 110;
     switch (tab) {
@@ -420,55 +426,84 @@ function Idol() {
 
       case 1:
         return (
-          <TabContainer>
-            <Grid
-              style={{ overflow: "visible" }}
-              containerStyle={{ overflow: "visible" }}
-              columnCount={3}
-              rowCount={gridDvds.length}
-              columnWidth={tabWidth / 3}
-              rowHeight={180}
-              width={tabWidth}
-              height={180 * gridDvds.length}
-              cellRenderer={({ columnIndex, key, rowIndex, style }) => (
-                <div
-                  key={key}
-                  style={{
-                    ...style,
-                    display: "flex",
-                    justifyContent: "center",
-                    width: tabWidth / 3,
-                    height: 180,
-                    left: columnIndex * (tabWidth / 3),
-                    top: rowIndex * 180,
-                  }}
-                >
-                  {!!gridDvds?.[rowIndex][columnIndex] && (
-                    <DvdItem
-                      onClick={() =>
-                        handleChangeDvd(gridDvds[rowIndex][columnIndex])
-                      }
-                    >
-                      <PosterDvd src={gridDvds[rowIndex][columnIndex].poster} />
-                      <CodeDvd
-                        uncensored={
-                          gridDvds[rowIndex][columnIndex].type === "Uncensored"
+          <>
+            <div
+              style={{
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "flex-end",
+                paddingTop: 16,
+                paddingRight: 32,
+                paddingBottom: 8,
+              }}
+            >
+              <Checkbox
+                label={"Sort"}
+                value={sort}
+                onChange={handleChangeSort}
+              />
+            </div>
+            <TabContainer>
+              <Grid
+                style={{ overflow: "visible" }}
+                containerStyle={{ overflow: "visible" }}
+                columnCount={3}
+                rowCount={gridDvds.length}
+                columnWidth={tabWidth / 3}
+                rowHeight={180}
+                width={tabWidth}
+                height={180 * gridDvds.length}
+                cellRenderer={({ columnIndex, key, rowIndex, style }) => (
+                  <div
+                    key={key}
+                    style={{
+                      ...style,
+                      display: "flex",
+                      justifyContent: "center",
+                      width: tabWidth / 3,
+                      height: 180,
+                      left: columnIndex * (tabWidth / 3),
+                      top: rowIndex * 180,
+                    }}
+                  >
+                    {!!gridDvds?.[rowIndex][columnIndex] && (
+                      <DvdItem
+                        onClick={() =>
+                          handleChangeDvd(gridDvds[rowIndex][columnIndex])
                         }
                       >
-                        {gridDvds[rowIndex][columnIndex].code}
-                      </CodeDvd>
-                    </DvdItem>
-                  )}
-                </div>
-              )}
-            />
-          </TabContainer>
+                        <PosterDvd
+                          src={gridDvds[rowIndex][columnIndex].poster}
+                        />
+                        <CodeDvd
+                          uncensored={
+                            gridDvds[rowIndex][columnIndex].type ===
+                            "Uncensored"
+                          }
+                        >
+                          {gridDvds[rowIndex][columnIndex].code}
+                        </CodeDvd>
+                      </DvdItem>
+                    )}
+                  </div>
+                )}
+              />
+            </TabContainer>
+          </>
         );
 
       default:
         return null;
     }
-  }, [tab, gridImages, gridDvds, handleModalPicture, handleChangeDvd]);
+  }, [
+    tab,
+    sort,
+    gridImages,
+    gridDvds,
+    handleModalPicture,
+    handleChangeDvd,
+    handleChangeSort,
+  ]);
 
   return (
     <Fragment>
