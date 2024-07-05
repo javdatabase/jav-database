@@ -1,11 +1,11 @@
-const MonthSalary = 423599200;
+const MonthSalary = 623599200;
 
 const StableSalary = 146785280;
 
 const NFTSalary = 566400000;
 
-const OneNightRatio = 3.9;
+const OneNightRatio = 2.9;
 
-const TokenRate = 2.5;
+const TokenRate = 29000;
 
 export { MonthSalary, StableSalary, NFTSalary, OneNightRatio, TokenRate };

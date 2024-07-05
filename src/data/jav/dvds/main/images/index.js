@@ -374,6 +374,7 @@ import MXX132 from "./MXX-132.jpg";
 import MXX140 from "./MXX-140.jpg";
 import CCDV144 from "./CCDV-144.jpg";
 import SSDV144 from "./SSDV-144.webp";
+import LLDV149 from "./LLDV-149.jpg";
 
 export {
   CWP49,
@@ -752,4 +753,5 @@ export {
   MXX140,
   CCDV144,
   SSDV144,
+  LLDV149,
 };

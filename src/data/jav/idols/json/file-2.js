@@ -610,6 +610,7 @@ const File2 = [
       { tag: "6 Stars JAV" },
       { tag: "Cute" },
       { tag: "Killer Tits" },
+      { tag: "NFT" },
     ],
     album: [
       { picture: "https://www.japanesebeauties.net/japanese/aoi/31/aoi-2.jpg" },
@@ -2990,7 +2991,6 @@ const File2 = [
     waist: "53 cm",
     hips: "80 cm",
     styles: [
-      { tag: "Retired" },
       { tag: "6 Stars JAV" },
       { tag: "Cute" },
       { tag: "Beautiful Breasts" },
