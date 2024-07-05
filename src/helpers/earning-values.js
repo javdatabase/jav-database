@@ -18,14 +18,14 @@ const MonthEarnings = {
   censoredDvds: 943600,
   uncensoredDvds: 1251800,
   best: 201000000,
-  video: 33343000,
+  video: 33393000,
 };
 
-const StableEarnings = 1772000000;
+const StableEarnings = 3992000000;
 
-const ActiveEarnings = 6420000000;
+const ActiveEarnings = 6920000000;
 
-const OneNightRatio = 2.9;
+const OneNightRatio = 2.6;
 
 const WeekEarnings = {
   starIdol: 3528944000,
@@ -38,7 +38,7 @@ const WeekEarnings = {
   newbie: 16700000,
 };
 
-const TokenRate = 0.5;
+const TokenRate = 8000;
 
 export {
   MonthEarnings,
