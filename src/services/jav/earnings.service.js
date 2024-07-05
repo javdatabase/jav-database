@@ -8,7 +8,16 @@ import {
 } from "../../helpers/earning-values";
 
 const STAR_IDOL_ID = "";
-const SWEET_NIGHT_IDS = [];
+const SWEET_NIGHT_IDS = [
+  "jai001",
+  "jai001",
+  "jai001",
+  "jai001",
+  "jai001",
+  "jai016",
+  "jai158",
+  "jai158",
+];
 const BEST_DVD_IDS = [];
 const BEST_IDOL_IDS = [];
 const TOP_POINT_GROWTH_IDS = [];
@@ -18,6 +27,7 @@ const NEWBIE_IDS = [];
 
 function getStableEarningIdol(id) {
   const STABLE_IDS = [
+    "jai001",
     "jai002",
     "jai016",
     "jai038",
