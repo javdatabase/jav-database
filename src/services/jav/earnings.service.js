@@ -15,15 +15,28 @@ const SWEET_NIGHT_IDS = [
   "jai001",
   "jai001",
   "jai016",
+  "jai151",
   "jai158",
   "jai158",
+  "jai170",
+  "jai170",
+  "jai170",
+  "jai171",
+  "jai171",
+  "jai171",
+  "jai231",
+  "jai231",
+  "jai231",
+  "jai231",
+  "jai231",
+  "jai231",
 ];
-const BEST_DVD_IDS = [];
-const BEST_IDOL_IDS = [];
-const TOP_POINT_GROWTH_IDS = [];
+const BEST_DVD_IDS = ["jai151", "jai170", "jai171", "jai231"];
+const BEST_IDOL_IDS = ["jai151", "jai170", "jai171", "jai231"];
+const TOP_POINT_GROWTH_IDS = ["jai231"];
 const TOP_IDOL_IDS = [];
-const HAS_DVD_IDS = [];
-const NEWBIE_IDS = [];
+const HAS_DVD_IDS = ["jai151", "jai170", "jai171", "jai231"];
+const NEWBIE_IDS = ["jai231"];
 
 function getStableEarningIdol(id) {
   const STABLE_IDS = [
