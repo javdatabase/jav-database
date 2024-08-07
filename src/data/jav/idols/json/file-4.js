@@ -22,6 +22,7 @@ import * as meguri_minoshima from "../images/meguri-minoshima";
 import * as non_ohana from "../images/non-ohana";
 import * as erena from "../images/erena";
 import * as mei_itsukaichi from "../images/mei-itsukaichi";
+import * as marin_mita from "../images/marin-mita";
 
 const File4 = [
   {
@@ -1971,6 +1972,31 @@ const File4 = [
       { picture: mei_itsukaichi.mei_itsukaichi_7 },
       { picture: mei_itsukaichi.mei_itsukaichi_8 },
       { picture: mei_itsukaichi.mei_itsukaichi_9 },
+    ],
+  },
+  {
+    idIdol: "jai231",
+    avatar: marin_mita.marin_mita_2,
+    name: "Marin Mita",
+    other: "",
+    born: "28/06/2002",
+    height: "157 cm",
+    breast: "--",
+    cup: "F-Cup",
+    waist: "55 cm",
+    hips: "--",
+    styles: [{ tag: "Cute" }, { tag: "Beautiful Breasts" }, { tag: "Slender" }],
+    album: [
+      { picture: marin_mita.marin_mita_3 },
+      { picture: marin_mita.marin_mita_4 },
+      { picture: marin_mita.marin_mita_5 },
+      { picture: marin_mita.marin_mita_6 },
+      { picture: marin_mita.marin_mita_7 },
+      { picture: marin_mita.marin_mita_8 },
+      { picture: marin_mita.marin_mita_9 },
+      { picture: marin_mita.marin_mita_10 },
+      { picture: marin_mita.marin_mita_1 },
+      { picture: marin_mita.marin_mita_11 },
     ],
   },
 ];
