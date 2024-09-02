@@ -83,6 +83,7 @@ const BEST_IDOL_IDS = [
   "jai132",
   "jai133",
   "jai141",
+  "jai143",
   "jai148",
   "jai151",
   "jai155",
