@@ -23,6 +23,7 @@ import * as non_ohana from "../images/non-ohana";
 import * as erena from "../images/erena";
 import * as mei_itsukaichi from "../images/mei-itsukaichi";
 import * as marin_mita from "../images/marin-mita";
+import * as kiho_kanematsu from "../images/kiho-kanematsu";
 
 const File4 = [
   {
@@ -1997,6 +1998,35 @@ const File4 = [
       { picture: marin_mita.marin_mita_10 },
       { picture: marin_mita.marin_mita_1 },
       { picture: marin_mita.marin_mita_11 },
+    ],
+  },
+  {
+    idIdol: "jai232",
+    avatar: kiho_kanematsu.kiho_kanematsu_11,
+    name: "Kiho Kanematsu",
+    other: "Satomi Kaneko",
+    born: "22/12/1989",
+    height: "160 cm",
+    breast: "87 cm",
+    cup: "F-Cup",
+    waist: "58 cm",
+    hips: "86 cm",
+    styles: [
+      { tag: "Cute" },
+      { tag: "Beautiful Breasts" },
+      { tag: "Killer Tits" },
+    ],
+    album: [
+      { picture: kiho_kanematsu.kiho_kanematsu_10 },
+      { picture: kiho_kanematsu.kiho_kanematsu_9 },
+      { picture: kiho_kanematsu.kiho_kanematsu_8 },
+      { picture: kiho_kanematsu.kiho_kanematsu_7 },
+      { picture: kiho_kanematsu.kiho_kanematsu_6 },
+      { picture: kiho_kanematsu.kiho_kanematsu_5 },
+      { picture: kiho_kanematsu.kiho_kanematsu_4 },
+      { picture: kiho_kanematsu.kiho_kanematsu_3 },
+      { picture: kiho_kanematsu.kiho_kanematsu_2 },
+      { picture: kiho_kanematsu.kiho_kanematsu_1 },
     ],
   },
 ];
