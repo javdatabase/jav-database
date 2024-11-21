@@ -1049,7 +1049,6 @@ const File1 = [
     hips: "86 cm",
     styles: [
       { tag: "Pretty" },
-      { tag: "Retired" },
       { tag: "Cute" },
       { tag: "Beautiful Breasts" },
       { tag: "Slender" },
