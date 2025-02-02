@@ -144,7 +144,7 @@ function DvdDetail({ show, toggleModal, data }) {
   const timer = useRef();
 
   const link = useMemo(() => {
-    return `https://vlxx.xxx/${get(
+    return `https://vlxx.so/${get(
       VIDEO_CONTENT(get(data, "code", "")),
       "xid",
       ""
