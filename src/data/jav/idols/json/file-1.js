@@ -2719,7 +2719,7 @@ const File1 = [
     cup: "G-Cup",
     waist: "59 cm",
     hips: "88 cm",
-    styles: [{ tag: "Retired" }, { tag: "Killer Tits" }, { tag: "Slender" }],
+    styles: [{ tag: "Killer Tits" }, { tag: "Slender" }],
     album: [
       {
         picture:
@@ -2775,7 +2775,7 @@ const File1 = [
     cup: "K-Cup",
     waist: "58 cm",
     hips: "85 cm",
-    styles: [{ tag: "Killer Tits" }, { tag: "Slender" }],
+    styles: [{ tag: "Retired" }, { tag: "Killer Tits" }, { tag: "Slender" }],
     album: [
       {
         picture:

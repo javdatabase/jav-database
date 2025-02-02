@@ -665,7 +665,7 @@ const File3 = [
     cup: "G-Cup",
     waist: "62 cm",
     hips: "97 cm",
-    styles: [{ tag: "Retired" }, { tag: "Killer Tits" }],
+    styles: [{ tag: "Killer Tits" }],
     album: [
       {
         picture:
@@ -1488,12 +1488,7 @@ const File3 = [
     cup: "D-Cup",
     waist: "59 cm",
     hips: "86 cm",
-    styles: [
-      { tag: "Retired" },
-      { tag: "Cute" },
-      { tag: "Beautiful Breasts" },
-      { tag: "Teens" },
-    ],
+    styles: [{ tag: "Cute" }, { tag: "Beautiful Breasts" }, { tag: "Teens" }],
     album: [
       {
         picture:
@@ -2896,7 +2891,7 @@ const File3 = [
     cup: "G-Cup",
     waist: "60 cm",
     hips: "90 cm",
-    styles: [{ tag: "Killer Tits" }, { tag: "Teens" }],
+    styles: [{ tag: "Retired" }, { tag: "Killer Tits" }, { tag: "Teens" }],
     album: [
       {
         picture:
@@ -3055,7 +3050,7 @@ const File3 = [
     cup: "E-Cup",
     waist: "55 cm",
     hips: "85 cm",
-    styles: [{ tag: "Retired" }, { tag: "Cute" }, { tag: "Beautiful Breasts" }],
+    styles: [{ tag: "Cute" }, { tag: "Beautiful Breasts" }],
     album: [
       {
         picture:

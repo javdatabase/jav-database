@@ -319,7 +319,7 @@ function Idol() {
   }, [earnings]);
 
   const bonus = useMemo(() => {
-    return getBonusEarnings(id);
+    return getBonusEarnings(id) * 4;
   }, [id]);
 
   const total = useMemo(() => {

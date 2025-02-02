@@ -13,7 +13,7 @@ const SizesCup = [
   "L-Cup",
   "M-Cup",
   "N-Cup",
-  "O-Cup",
+  "Q-Cup",
 ];
 
 export default SizesCup;

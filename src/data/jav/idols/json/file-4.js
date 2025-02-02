@@ -24,6 +24,9 @@ import * as erena from "../images/erena";
 import * as mei_itsukaichi from "../images/mei-itsukaichi";
 import * as marin_mita from "../images/marin-mita";
 import * as kiho_kanematsu from "../images/kiho-kanematsu";
+import * as himari from "../images/himari";
+import * as yuka_murakami from "../images/yuka-murakami";
+import * as mirei_shinonome from "../images/mirei-shinonome";
 
 const File4 = [
   {
@@ -1329,6 +1332,7 @@ const File4 = [
     waist: "58 cm",
     hips: "88 cm",
     styles: [
+      { tag: "Retired" },
       { tag: "6 Stars JAV" },
       { tag: "Cute" },
       { tag: "Killer Tits" },
@@ -1982,10 +1986,10 @@ const File4 = [
     other: "",
     born: "28/06/2002",
     height: "157 cm",
-    breast: "--",
+    breast: "77 cm",
     cup: "F-Cup",
     waist: "55 cm",
-    hips: "--",
+    hips: "89 cm",
     styles: [{ tag: "Cute" }, { tag: "Beautiful Breasts" }, { tag: "Slender" }],
     album: [
       { picture: marin_mita.marin_mita_3 },
@@ -2027,6 +2031,76 @@ const File4 = [
       { picture: kiho_kanematsu.kiho_kanematsu_3 },
       { picture: kiho_kanematsu.kiho_kanematsu_2 },
       { picture: kiho_kanematsu.kiho_kanematsu_1 },
+    ],
+  },
+  {
+    idIdol: "jai233",
+    avatar: himari.himari_1,
+    name: "Himari",
+    other: "",
+    born: "--/--/----",
+    height: "160 cm",
+    breast: "118 cm",
+    cup: "Q-Cup",
+    waist: "65 cm",
+    hips: "98 cm",
+    styles: [{ tag: "Beautiful Breasts" }, { tag: "Killer Tits" }],
+    album: [
+      { picture: himari.himari_11 },
+      { picture: himari.himari_2 },
+      { picture: himari.himari_3 },
+      { picture: himari.himari_4 },
+      { picture: himari.himari_5 },
+      { picture: himari.himari_6 },
+      { picture: himari.himari_7 },
+      { picture: himari.himari_8 },
+      { picture: himari.himari_9 },
+      { picture: himari.himari_10 },
+    ],
+  },
+  {
+    idIdol: "jai234",
+    avatar: yuka_murakami.yuka_murakami_8,
+    name: "Yuka Murakami",
+    other: "",
+    born: "30/01/2003",
+    height: "163 cm",
+    breast: "85 cm",
+    cup: "E-Cup",
+    waist: "58 cm",
+    hips: "88 cm",
+    styles: [{ tag: "Cute" }, { tag: "Beautiful Breasts" }],
+    album: [
+      { picture: yuka_murakami.yuka_murakami_2 },
+      { picture: yuka_murakami.yuka_murakami_3 },
+      { picture: yuka_murakami.yuka_murakami_4 },
+      { picture: yuka_murakami.yuka_murakami_5 },
+      { picture: yuka_murakami.yuka_murakami_6 },
+      { picture: yuka_murakami.yuka_murakami_7 },
+      { picture: yuka_murakami.yuka_murakami_1 },
+      { picture: yuka_murakami.yuka_murakami_9 },
+      { picture: yuka_murakami.yuka_murakami_10 },
+      { picture: yuka_murakami.yuka_murakami_11 },
+    ],
+  },
+  {
+    idIdol: "jai235",
+    avatar: mirei_shinonome.mirei_shinonome_6,
+    name: "Mirei Shinonome",
+    other: "Mirei Uno",
+    born: "26/08/2001",
+    height: "156 cm",
+    breast: "85 cm",
+    cup: "G-Cup",
+    waist: "53 cm",
+    hips: "86 cm",
+    styles: [{ tag: "Beautiful Breasts" }, { tag: "Slender" }],
+    album: [
+      { picture: mirei_shinonome.mirei_shinonome_2 },
+      { picture: mirei_shinonome.mirei_shinonome_3 },
+      { picture: mirei_shinonome.mirei_shinonome_4 },
+      { picture: mirei_shinonome.mirei_shinonome_5 },
+      { picture: mirei_shinonome.mirei_shinonome_1 },
     ],
   },
 ];
