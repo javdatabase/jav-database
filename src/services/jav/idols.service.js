@@ -223,7 +223,7 @@ const ALL_EARNING_IDOLS = ALL_IDOLS_DETAIL.map((item) => ({
   ),
   bonus: getBonusEarnings(item.idIdol),
 }))
-  .sort((a, b) => b.earnings + b.bonus - (a.earnings + a.bonus))
+  .sort((a, b) => b.earnings + b.bonus * 4 - (a.earnings + a.bonus * 4))
   .map((item, index) => ({ ...item, position: index + 1 }));
 
 const ALL_BONUS_IDOLS = ALL_EARNING_IDOLS.filter((item) => !!item.bonus)
