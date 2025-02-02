@@ -83,6 +83,7 @@ const BEST_IDOL_IDS = [
   "jai132",
   "jai133",
   "jai141",
+  "jai143",
   "jai148",
   "jai151",
   "jai155",
@@ -251,12 +252,12 @@ const TOTAL_ORIGINAL_EARNINGS = ALL_EARNING_IDOLS.reduce(
 );
 
 const TOTAL_BONUS_EARNINGS = ALL_EARNING_IDOLS.reduce(
-  (acc, item) => acc + (item.bonus || 0),
+  (acc, item) => acc + (item.bonus || 0) * 4,
   0
 );
 
 const TOTAL_EARNINGS = ALL_EARNING_IDOLS.reduce(
-  (acc, item) => acc + item.earnings + (item.bonus || 0),
+  (acc, item) => acc + item.earnings + (item.bonus || 0) * 4,
   0
 );
 

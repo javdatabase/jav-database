@@ -88,7 +88,7 @@ function TopEarnings() {
   const data = useMemo(() => {
     return []
       .concat(ALL_EARNING_STARS, ALL_EARNING_IDOLS)
-      .sort((a, b) => b.earnings + b.bonus - (a.earnings + a.bonus))
+      .sort((a, b) => b.earnings + b.bonus * 4 - (a.earnings + a.bonus * 4))
       .map((item, index) => ({ ...item, position: index + 1 }));
   }, []);
 

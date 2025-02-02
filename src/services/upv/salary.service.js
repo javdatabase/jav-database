@@ -8,7 +8,7 @@ import {
 
 const SWEET_STAR_POINTS_BY_IDS = {
   ups001: 35,
-  ups002: 201,
+  ups002: 302,
   ups003: 12,
   ups004: 11,
   ups005: 15,
@@ -39,7 +39,7 @@ function getStableEarningStar(id) {
 }
 
 function getSalaryStar(id, points) {
-  return (points * MonthSalary + getStableEarningStar(id)) / TokenRate;
+  return (points * MonthSalary + getStableEarningStar(id) * 12) / TokenRate;
 }
 
 function getPriceOneNight(earnings) {

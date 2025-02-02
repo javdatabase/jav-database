@@ -1985,8 +1985,7 @@ const File47 = [
   {
     code: "ABW-267",
     title: `FOR THE FIRST TIME IN MY LIFE , TRANCE STATE SUPER ORGASMIC CUM SEX 62 ORGASM BEYOND THE LIMIT`,
-    poster:
-      "hhttps://pics.dmm.co.jp/mono/movie/adult/118abw267/118abw267pl.jpg",
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/118abw267/118abw267pl.jpg",
     type: "Censored",
     idols: [{ idIdol: "jai220", name: "Mugi Kobato" }],
   },
