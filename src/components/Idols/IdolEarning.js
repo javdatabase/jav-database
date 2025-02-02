@@ -224,7 +224,7 @@ function IdolEarning({ data, overall }) {
   }, [data.earnings]);
 
   const total = useMemo(() => {
-    return data.bonus + data.earnings;
+    return data.bonus * 4 + data.earnings;
   }, [data.bonus, data.earnings]);
 
   const fee = useMemo(() => {
@@ -324,7 +324,8 @@ function IdolEarning({ data, overall }) {
                     <BonusIdol>{priceCurrency(data.bonus)} ❂</BonusIdol>
                   ) : (
                     <BonusContainer>
-                      +<BonusIdol>{priceCurrency(data.bonus)} ❂</BonusIdol>=
+                      +<BonusIdol>{priceCurrency(data.bonus)} ❂</BonusIdol> * 4
+                      =
                       <TotalIdol>
                         {priceCurrency(total)} ({priceCurrency(fee)}) ❂
                       </TotalIdol>

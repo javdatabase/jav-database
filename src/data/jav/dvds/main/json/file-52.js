@@ -88,7 +88,7 @@ const File52 = [
     title: `A FRUSTRATED MARRIED WOMAN WITH A PART-TIME AFFAIR ASKS FOR IT THREE TIMES IN AN HOUR WHILE HER HUSBAND RETURNS HOME ... TENSHI MOE`,
     poster: "https://pics.dmm.co.jp/mono/movie/adult/1fsdss681/1fsdss681pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai169", name: "Momoe Takanashi" }],
+    idols: [{ idIdol: "jai222", name: "Moe Amatsuka" }],
   },
   {
     code: "FSDSS-752",

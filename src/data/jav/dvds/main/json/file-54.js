@@ -2003,7 +2003,7 @@ const File54 = [
     poster: "https://pics.dmm.co.jp/mono/movie/adult/sone288/sone288pl.jpg",
     type: "Censored",
     idols: [
-      { idIdol: "jai068", name: "Aoi" },
+      { idIdol: "jai069", name: "Tsukasa Aoi" },
       { idIdol: "jai207", name: "Miru Sakamichi" },
     ],
   },

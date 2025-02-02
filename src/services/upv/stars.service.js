@@ -68,7 +68,7 @@ const ALL_EARNING_STARS = Stars.map((item) => ({
   }));
 
 const TOTAL_EARNINGS = ALL_EARNING_STARS.reduce(
-  (acc, item) => acc + item.earnings + (item.bonus || 0),
+  (acc, item) => acc + item.earnings + (item.bonus || 0) * 4,
   0
 );
 
