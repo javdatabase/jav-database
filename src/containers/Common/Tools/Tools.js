@@ -79,6 +79,11 @@ function Tools() {
     <Container>
       <Title>TOOLS</Title>
       <Content>
+        <ButtonType to={"/tools/get-jav-dvd-data"} background={Pink}>
+          Get JAV Dvd Data
+        </ButtonType>
+      </Content>
+      <Content>
         <ButtonType
           to={"/tools/jav-dvd-data"}
           background={`linear-gradient(to right, ${Pink}, ${Orange})`}
