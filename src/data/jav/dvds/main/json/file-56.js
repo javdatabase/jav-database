@@ -2280,6 +2280,21 @@ const File56 = [
     type: "Censored",
     idols: [{ idIdol: "jai217", name: "Sakura Miura" }],
   },
+  {
+    code: "MIMA-014",
+    title: `SEXY EROTICA W BUNNY DRIVES MEN CRAZY WITH HER BIG BREASTS, LEWD AND BIG ASS!`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/mima014/mima014pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai148", name: "Nozomi Arimura" }],
+  },
+  {
+    code: "MXGS-1373",
+    title: `I PICKED UP A BEAUTIFUL WOMAN WEARING REVEALING CLOTHES, BUT SHE WAS SO SASSY THAT I ENDED UP MILKING HER LIKE IN AN EROTIC MANGA. YUI HATANO`,
+    poster:
+      "https://pics.dmm.co.jp/mono/movie/adult/h_068mxgs1373/h_068mxgs1373pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai001", name: "Yui Hatano" }],
+  },
 ];
 
 export default File56;
