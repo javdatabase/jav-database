@@ -1,8 +1,6 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import styled from "styled-components";
 
-import Input from "../../../components/UI/Input/Input";
-import Select from "../../../components/UI/Select/Select";
 import Textarea from "../../../components/UI/Textarea/Textarea";
 
 import request from "../../../apis/request";
@@ -79,14 +77,6 @@ const TextareaCustom = styled(Textarea)`
   width: 100%;
 `;
 
-const InputCustom = styled(Input)`
-  width: 100%;
-`;
-
-const SelectCustom = styled(Select)`
-  width: 100%;
-`;
-
 const ButtonCopy = styled.div`
   ${center};
   background: ${(props) =>
@@ -119,7 +109,7 @@ const ButtonReset = styled(ButtonCopy)`
 
 function JAVDvdDataTool() {
   const [link, setLink] = useState("");
-  const [cachedLink, setCachedLink] = useState([]);
+  const [cachedLink] = useState([]);
   const [code, setCode] = useState("");
   const [title, setTitle] = useState("");
   const [poster, setPoster] = useState("");
@@ -148,7 +138,37 @@ function JAVDvdDataTool() {
   useEffect(() => {
     const links = link.split(",").filter((item) => !cachedLink.includes(item));
     links.forEach((item) => {
-      request.get(item).then(console.log).catch(console.log);
+      request
+        .get(item, {
+          headers: {
+            accept:
+              "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+            "accept-language": "en-US,en;q=0.9",
+            priority: "u=0, i",
+            "sec-ch-ua":
+              '"Chromium";v="142", "Google Chrome";v="142", "Not_A Brand";v="99"',
+            "sec-ch-ua-arch": '"x86"',
+            "sec-ch-ua-bitness": '"64"',
+            "sec-ch-ua-full-version": '"142.0.7444.176"',
+            "sec-ch-ua-full-version-list":
+              '"Chromium";v="142.0.7444.176", "Google Chrome";v="142.0.7444.176", "Not_A Brand";v="99.0.0.0"',
+            "sec-ch-ua-mobile": "?0",
+            "sec-ch-ua-model": '""',
+            "sec-ch-ua-platform": '"macOS"',
+            "sec-ch-ua-platform-version": '"15.7.2"',
+            "sec-fetch-dest": "document",
+            "sec-fetch-mode": "navigate",
+            "sec-fetch-site": "none",
+            "sec-fetch-user": "?1",
+            "upgrade-insecure-requests": "1",
+            "user-agent":
+              "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+            cookie:
+              "__utmz=45030847.1716571133.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); UGVyc2lzdFN0b3JhZ2U=%7B%7D; __utma=45030847.1122226552.1716571133.1738524693.1740455561.11; __utmz=45030847.1716571133.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); timezone=-420; __qca=P1-c83f74ba-9740-45a6-a339-3bb6ba069f7d; dm=javlibrary; __utmc=45030847; __utma=45030847.1122226552.1716571133.1738524693.1740455561.11; __utmb=45030847.1.10.1765430653; __utmb=45030847.2.10.1765430653; __utmc=45030847; cf_clearance=OQnge_p3TfNTwhuk_pJH5g9XacY4ynb1hN_fBGQ_gmM-1765430653-1.2.1.1-C362GBCvWeAXECrsDJYYlFqbF.WdDa467qtdfuocRCKurNYEcQ.kA3wxCexkw3w9LQZXDeLs3fmGHGBCRcdoI81F7ORn73mLG234R_0Uuu65NcQtp_XzU77e0B2.C35OxwHRbO0qv600Jmv8amm86xFmINH3B3fudh8xCj9b_noW0WVXG3.Q_O8mNEfv4RycSWD1p_BfF25eyrKrjNi87G9gOwh6fHdb1Fp16wZHzM.E.AgmBP_7GvA1WedRfIZY; over18=18",
+          },
+        })
+        .then(console.log)
+        .catch(console.log);
     });
   }, [link, cachedLink]);
 
