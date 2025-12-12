@@ -1,9 +1,10 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { uniqBy } from "lodash";
 import styled from "styled-components";
 
 import Textarea from "../../../components/UI/Textarea/Textarea";
 
-import request from "../../../apis/request";
+import ShortIdols from "../../../helpers/short-idols";
 import {
   Black,
   Green,
@@ -107,70 +108,118 @@ const ButtonReset = styled(ButtonCopy)`
   }
 `;
 
-function JAVDvdDataTool() {
-  const [link, setLink] = useState("");
-  const [cachedLink] = useState([]);
-  const [code, setCode] = useState("");
-  const [title, setTitle] = useState("");
-  const [poster, setPoster] = useState("");
-  const [type, setType] = useState(null);
-  const [idols, setIdols] = useState(null);
+const convertWrongName = (str) => {
+  const WRONG_NAMES = {
+    "Hibiki Ootsuki": "Hibiki Otsuki",
+    "Honoka Tsujii": "Honoka Tsuji",
+  };
+
+  return WRONG_NAMES[str] || str;
+};
+
+function GetJAVDvdDataTool() {
+  const [sources, setSources] = useState("");
+  const [dvds, setDvds] = useState([]);
   const [copied, setCopied] = useState(false);
   const timer = useRef();
 
-  const result = useMemo(() => {
-    if (!code && !title && !poster && !type && (!idols || !idols.length)) {
-      return "";
+  const parseSourceToDvd = useCallback((html) => {
+    const extract = (pattern) => {
+      const match = html.match(pattern);
+      return match ? match[1].trim() : "";
+    };
+
+    const decodeHtmlEntities = (str) => {
+      return new DOMParser().parseFromString(str, "text/html").documentElement
+        .textContent;
+    };
+
+    const code = extract(
+      /<td class="header">ID:<\/td>\s*<td class="text">([^<]+)<\/td>/i
+    );
+
+    let rawTitle = extract(/<title>(.*?)<\/title>/i);
+    let title = "";
+    if (rawTitle) {
+      rawTitle = rawTitle.replace(/ - JAVLibrary/i, "").trim();
+      title = rawTitle.replaceAll(code, "").trim().toUpperCase();
     }
-    return `{
-      code: "${code}",
-      title: \`${title}\`,
-      poster: "${poster}",
-      type: "${type?.label || ""}",
-      idols: [${
-        idols
-          ?.map((item) => `{ idIdol: "${item.value}", name: "${item.label}" }`)
-          .join(", ") || ""
-      }],
-},`;
-  }, [code, title, poster, type, idols]);
+
+    const poster = extract(/<img[^>]+id="video_jacket_img"[^>]+src="([^"]+)"/i);
+
+    let idols = [
+      ...html.matchAll(/<span class="star"><a[^>]*>([^<]+)<\/a>/gi),
+    ].map((m) => m[1].trim());
+
+    const aliases = [
+      ...html.matchAll(/<span[^>]*id="alias[^"]*"[^>]*>\(([^)]+)\)<\/span>/gi),
+    ].map((m) => m[1].trim());
+
+    idols = [...idols, ...aliases].flatMap((name) => {
+      const match = name.match(/^(.+?)\s*\((.+?)\)$/);
+      return match ? [match[1].trim(), match[2].trim()] : [name];
+    });
+
+    idols = [...new Set(idols)].reduce(
+      (acc, item) => [
+        ...acc,
+        convertWrongName(item),
+        convertWrongName(item.split(" ").reverse().join(" ")),
+      ],
+      []
+    );
+
+    let temp;
+    if (code && title && poster && idols.length) {
+      temp = {
+        code: code,
+        title: decodeHtmlEntities(title),
+        poster: poster,
+        type: "Censored",
+        idols: idols
+          .map((i) => ShortIdols.find((item) => item.name === i))
+          .filter((item) => !!item),
+      };
+      setDvds((p) => uniqBy([...p, temp], "code"));
+    }
+  }, []);
 
   useEffect(() => {
-    const links = link.split(",").filter((item) => !cachedLink.includes(item));
-    links.forEach((item) => {
-      request
-        .get(item, {
-          headers: {
-            accept:
-              "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
-            "accept-language": "en-US,en;q=0.9",
-            priority: "u=0, i",
-            "sec-ch-ua":
-              '"Chromium";v="142", "Google Chrome";v="142", "Not_A Brand";v="99"',
-            "sec-ch-ua-arch": '"x86"',
-            "sec-ch-ua-bitness": '"64"',
-            "sec-ch-ua-full-version": '"142.0.7444.176"',
-            "sec-ch-ua-full-version-list":
-              '"Chromium";v="142.0.7444.176", "Google Chrome";v="142.0.7444.176", "Not_A Brand";v="99.0.0.0"',
-            "sec-ch-ua-mobile": "?0",
-            "sec-ch-ua-model": '""',
-            "sec-ch-ua-platform": '"macOS"',
-            "sec-ch-ua-platform-version": '"15.7.2"',
-            "sec-fetch-dest": "document",
-            "sec-fetch-mode": "navigate",
-            "sec-fetch-site": "none",
-            "sec-fetch-user": "?1",
-            "upgrade-insecure-requests": "1",
-            "user-agent":
-              "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
-            cookie:
-              "__utmz=45030847.1716571133.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); UGVyc2lzdFN0b3JhZ2U=%7B%7D; __utma=45030847.1122226552.1716571133.1738524693.1740455561.11; __utmz=45030847.1716571133.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); timezone=-420; __qca=P1-c83f74ba-9740-45a6-a339-3bb6ba069f7d; dm=javlibrary; __utmc=45030847; __utma=45030847.1122226552.1716571133.1738524693.1740455561.11; __utmb=45030847.1.10.1765430653; __utmb=45030847.2.10.1765430653; __utmc=45030847; cf_clearance=OQnge_p3TfNTwhuk_pJH5g9XacY4ynb1hN_fBGQ_gmM-1765430653-1.2.1.1-C362GBCvWeAXECrsDJYYlFqbF.WdDa467qtdfuocRCKurNYEcQ.kA3wxCexkw3w9LQZXDeLs3fmGHGBCRcdoI81F7ORn73mLG234R_0Uuu65NcQtp_XzU77e0B2.C35OxwHRbO0qv600Jmv8amm86xFmINH3B3fudh8xCj9b_noW0WVXG3.Q_O8mNEfv4RycSWD1p_BfF25eyrKrjNi87G9gOwh6fHdb1Fp16wZHzM.E.AgmBP_7GvA1WedRfIZY; over18=18",
-          },
-        })
-        .then(console.log)
-        .catch(console.log);
-    });
-  }, [link, cachedLink]);
+    if (sources.trim()) {
+      parseSourceToDvd(sources);
+    }
+  }, [sources, parseSourceToDvd]);
+
+  const result = useMemo(() => {
+    if (!dvds.length) {
+      return "";
+    } else {
+      return `${dvds
+        .map(
+          (item) => `{
+            code: "${item.code}",
+            title: \`${item.title}\`,
+            poster: "${item.poster}",
+            type: "Censored",
+            idols: [${
+              item.idols
+                ?.map(
+                  (item) => `{ idIdol: "${item.idIdol}", name: "${item.name}" }`
+                )
+                .join(", ") || ""
+            }],
+}`
+        )
+        .join(",")}`;
+    }
+  }, [dvds]);
+
+  useEffect(() => {
+    if (result) {
+      const element = document.getElementById("textarea-result");
+      element?.scrollTo({ top: element?.scrollHeight, behavior: "smooth" });
+    }
+  }, [result]);
 
   useEffect(() => {
     return () => {
@@ -211,9 +260,10 @@ function JAVDvdDataTool() {
           <Label style={{ color: Orange }}>FORM</Label>
           <Content>
             <TextareaCustom
-              placeholder={"Link,..."}
-              value={link}
-              onChange={(e) => setLink(e.target.value.trim())}
+              rows={19}
+              placeholder={"Sources..."}
+              value={sources}
+              onChange={(e) => setSources(e.target.value)}
             />
           </Content>
         </Column>
@@ -221,6 +271,7 @@ function JAVDvdDataTool() {
           <Label style={{ color: Pink }}>RESULT</Label>
           <Content>
             <TextareaCustom
+              id={"textarea-result"}
               readOnly={true}
               rows={12}
               placeholder={"Result..."}
@@ -239,11 +290,7 @@ function JAVDvdDataTool() {
             disabled={!result}
             type="button"
             onClick={() => {
-              setCode("");
-              setTitle("");
-              setPoster("");
-              setType(null);
-              setIdols(null);
+              setDvds([]);
             }}
           >
             Reset
@@ -254,4 +301,4 @@ function JAVDvdDataTool() {
   );
 }
 
-export default JAVDvdDataTool;
+export default GetJAVDvdDataTool;
