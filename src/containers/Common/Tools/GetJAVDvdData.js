@@ -112,6 +112,7 @@ const convertWrongName = (str) => {
   const WRONG_NAMES = {
     "Hibiki Ootsuki": "Hibiki Otsuki",
     "Honoka Tsujii": "Honoka Tsuji",
+    "Arisa Hanyuu": "Arisa Hanyu",
   };
 
   return WRONG_NAMES[str] || str;
@@ -290,6 +291,7 @@ function GetJAVDvdDataTool() {
             disabled={!result}
             type="button"
             onClick={() => {
+              setSources("");
               setDvds([]);
             }}
           >

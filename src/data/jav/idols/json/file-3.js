@@ -44,6 +44,7 @@ const File3 = [
       { tag: "Cute" },
       { tag: "Beautiful Breasts" },
       { tag: "Long Legs" },
+      { tag: "NFT" },
     ],
     album: [
       {
@@ -2090,7 +2091,12 @@ const File3 = [
     cup: "D-Cup",
     waist: "61 cm",
     hips: "88 cm",
-    styles: [{ tag: "Pretty" }, { tag: "Cute" }, { tag: "Beautiful Breasts" }],
+    styles: [
+      { tag: "Pretty" },
+      { tag: "Cute" },
+      { tag: "Beautiful Breasts" },
+      { tag: "NFT" },
+    ],
     album: [
       {
         picture:

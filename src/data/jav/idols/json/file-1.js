@@ -81,7 +81,12 @@ const File1 = [
     cup: "F-Cup",
     waist: "57 cm",
     hips: "85 cm",
-    styles: [{ tag: "Pretty" }, { tag: "Cute" }, { tag: "Beautiful Breasts" }],
+    styles: [
+      { tag: "Pretty" },
+      { tag: "Cute" },
+      { tag: "Beautiful Breasts" },
+      { tag: "NFT" },
+    ],
     album: [
       {
         picture:
@@ -384,7 +389,12 @@ const File1 = [
     cup: "E-Cup",
     waist: "59 cm",
     hips: "84 cm",
-    styles: [{ tag: "Cute" }, { tag: "Beautiful Breasts" }, { tag: "Teens" }],
+    styles: [
+      { tag: "Cute" },
+      { tag: "Beautiful Breasts" },
+      { tag: "Teens" },
+      { tag: "NFT" },
+    ],
     album: [
       {
         picture:
@@ -1329,7 +1339,7 @@ const File1 = [
     cup: "D-Cup",
     waist: "57 cm",
     hips: "80 cm",
-    styles: [{ tag: "Beautiful Breasts" }],
+    styles: [{ tag: "Beautiful Breasts" }, { tag: "NFT" }],
     album: [
       {
         picture:
@@ -1724,7 +1734,7 @@ const File1 = [
     cup: "G-Cup",
     waist: "63 cm",
     hips: "86 cm",
-    styles: [{ tag: "Killer Tits" }],
+    styles: [{ tag: "Killer Tits" }, { tag: "NFT" }],
     album: [
       {
         picture:
@@ -1949,7 +1959,7 @@ const File1 = [
     cup: "E-Cup",
     waist: "60 cm",
     hips: "88 cm",
-    styles: [{ tag: "Pretty" }, { tag: "Cute" }],
+    styles: [{ tag: "Pretty" }, { tag: "Cute" }, { tag: "NFT" }],
     album: [
       {
         picture:
