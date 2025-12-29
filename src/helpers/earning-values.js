@@ -1,29 +1,29 @@
 const MonthEarnings = {
-  ranking: 1856160400,
-  point1000: 3529478900,
-  point500: 1470235300,
-  point200: 922013000,
-  point100: 651222300,
-  point50: 363681500,
-  point20: 209443600,
-  point10: 138251000,
-  point5: 83000000,
-  point0: 6225000,
-  veryPretty: 6133555000,
-  1000: 300010001000,
-  sixStar: 1600000000,
-  killerTits: 608000000,
-  beautifulBreasts: 496000000,
-  nft: 2926560000,
-  censoredDvds: 1343600,
-  uncensoredDvds: 3251800,
-  best: 401000000,
-  video: 93393000,
+  ranking: 856160400,
+  point1000: 529478900,
+  point500: 470235300,
+  point200: 122013000,
+  point100: 51222300,
+  point50: 33681500,
+  point20: 9443600,
+  point10: 5251000,
+  point5: 3000000,
+  point0: 225000,
+  veryPretty: 13355500,
+  1000: 2950001000,
+  sixStar: 10000000,
+  killerTits: 8000000,
+  beautifulBreasts: 4000000,
+  nft: 6560000,
+  censoredDvds: 343600,
+  uncensoredDvds: 751800,
+  best: 8000000,
+  video: 3393000,
 };
 
-const StableEarnings = 6992000000;
+const StableEarnings = 92000000;
 
-const ActiveEarnings = 18920000000;
+const ActiveEarnings = 420000000;
 
 const OneNightRatio = 5.1;
 
@@ -38,7 +38,7 @@ const WeekEarnings = {
   newbie: 26700000,
 };
 
-const TokenRate = 90;
+const TokenRate = 8;
 
 export {
   MonthEarnings,

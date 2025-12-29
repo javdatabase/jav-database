@@ -293,7 +293,7 @@ const File4 = [
     cup: "D-Cup",
     waist: "58 cm",
     hips: "88 cm",
-    styles: [{ tag: "Cute" }, { tag: "Slender" }],
+    styles: [{ tag: "Cute" }, { tag: "Slender" }, { tag: "NFT" }],
     album: [
       {
         picture:
@@ -654,6 +654,7 @@ const File4 = [
       { tag: "6 Stars JAV" },
       { tag: "Cute" },
       { tag: "Beautiful Breasts" },
+      { tag: "NFT" },
     ],
     album: [
       {
@@ -1284,7 +1285,7 @@ const File4 = [
     cup: "E-Cup",
     waist: "59 cm",
     hips: "89 cm",
-    styles: [{ tag: "Cute" }, { tag: "Beautiful Breasts" }],
+    styles: [{ tag: "Cute" }, { tag: "Beautiful Breasts" }, { tag: "NFT" }],
     album: [
       {
         picture:
