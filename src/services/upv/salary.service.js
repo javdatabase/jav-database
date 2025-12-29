@@ -30,7 +30,7 @@ const SWEET_STAR_POINTS_BY_IDS = {
 };
 
 function getStableEarningStar(id) {
-  const STABLE_IDS = ["ups002", "ups004", "ups008"];
+  const STABLE_IDS = [];
   const NFT_IDS = ["ups002"];
   return (
     (STABLE_IDS.includes(id) ? StableSalary : 0) +

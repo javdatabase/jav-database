@@ -439,6 +439,7 @@ const File2 = [
       { tag: "Killer Tits" },
       { tag: "Slender" },
       { tag: "Former TV Actress" },
+      { tag: "NFT" },
     ],
     album: [
       {
@@ -643,6 +644,7 @@ const File2 = [
       { tag: "6 Stars JAV" },
       { tag: "Cute" },
       { tag: "Beautiful Breasts" },
+      { tag: "NFT" },
     ],
     album: [
       {
@@ -1058,6 +1060,7 @@ const File2 = [
       { tag: "Killer Tits" },
       { tag: "Slender" },
       { tag: "Former TV Actress" },
+      { tag: "NFT" },
     ],
     album: [
       {
@@ -2701,6 +2704,7 @@ const File2 = [
       { tag: "6 Stars JAV" },
       { tag: "Cute" },
       { tag: "Beautiful Breasts" },
+      { tag: "NFT" },
     ],
     album: [
       {

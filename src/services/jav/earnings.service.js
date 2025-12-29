@@ -8,62 +8,16 @@ import {
 } from "../../helpers/earning-values";
 
 const STAR_IDOL_ID = "";
-const SWEET_NIGHT_IDS = ["jai062", "jai067"];
-const BEST_DVD_IDS = ["jai001", "jai148"];
-const BEST_IDOL_IDS = ["jai001", "jai148"];
+const SWEET_NIGHT_IDS = [];
+const BEST_DVD_IDS = [];
+const BEST_IDOL_IDS = [];
 const TOP_POINT_GROWTH_IDS = [];
 const TOP_IDOL_IDS = [];
-const HAS_DVD_IDS = ["jai001", "jai148"];
+const HAS_DVD_IDS = [];
 const NEWBIE_IDS = [];
 
 function getStableEarningIdol(id) {
-  const STABLE_IDS = [
-    "jai001",
-    "jai002",
-    "jai016",
-    "jai038",
-    "jai041",
-    "jai048",
-    "jai057",
-    "jai062",
-    "jai067",
-    "jai068",
-    "jai070",
-    "jai078",
-    "jai133",
-    "jai143",
-    "jai148",
-    "jai151",
-    "jai157",
-    "jai158",
-    "jai170",
-    "jai171",
-    "jai179",
-    "jai187",
-    "jai190",
-    "jai196",
-    "jai199",
-    "jai200",
-    "jai201",
-    "jai203",
-    "jai205",
-    "jai208",
-    "jai212",
-    "jai220",
-    "jai221",
-    "jai223",
-    "jai224",
-    "jai225",
-    "jai226",
-    "jai227",
-    "jai228",
-    "jai230",
-    "jai231",
-    "jai232",
-    "jai233",
-    "jai234",
-    "jai235",
-  ];
+  const STABLE_IDS = [];
   return STABLE_IDS.includes(id) ? StableEarnings : 0;
 }
 
