@@ -177,9 +177,12 @@ function GetJAVDvdDataTool() {
         title: decodeHtmlEntities(title),
         poster: poster,
         type: "Censored",
-        idols: idols
-          .map((i) => ShortIdols.find((item) => item.name === i))
-          .filter((item) => !!item),
+        idols: uniqBy(
+          idols
+            .map((i) => ShortIdols.find((item) => item.name === i))
+            .filter((item) => !!item),
+          "idIdol"
+        ),
       };
       setDvds((p) => uniqBy([...p, temp], "code"));
     }
