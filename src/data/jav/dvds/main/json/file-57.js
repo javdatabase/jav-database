@@ -2036,6 +2036,34 @@ const File57 = [
     type: "Censored",
     idols: [{ idIdol: "jai005", name: "Ai Uehara" }],
   },
+  {
+    code: "DASS-566",
+    title: `UNDERCOVER INVESTIGATOR: MARY TACHIBANA, A NOBLE WOMAN WHO RESISTS THE PLEASURE OF APHRODISIACS`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/dass566/dass566pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai034", name: "Mary Tachibana" }],
+  },
+  {
+    code: "DOA-097",
+    title: `MARRIED WOMAN OUTDOOR BONDAGE TRAINING`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/doa097/doa097pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai034", name: "Mary Tachibana" }],
+  },
+  {
+    code: "JUR-032",
+    title: `MADONNA ALL EXCLUSIVE BUS TOUR 2025 THE MEN WHO GRABBED THE HAREM MONOPOLIZE THE MOST BEAUTIFUL WOMEN! THE FESTIVAL OF DEBAUCHERY CONTINUES! THE DREAM COLLABORATION & BIG ORGY FESTIVAL! PART 2`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/jur032/jur032pl.jpg",
+    type: "Censored",
+    idols: [
+      { idIdol: "jai009", name: "Yuna Shiina" },
+      { idIdol: "jai034", name: "Mary Tachibana" },
+      { idIdol: "jai057", name: "Yumi Maeda" },
+      { idIdol: "jai067", name: "Marina Shiraishi" },
+      { idIdol: "jai158", name: "Nao Jinguji" },
+      { idIdol: "jai210", name: "Rio Kuriyama" },
+    ],
+  },
 ];
 
 export default File57;
