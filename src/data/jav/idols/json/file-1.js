@@ -1577,7 +1577,7 @@ const File1 = [
     cup: "C-Cup",
     waist: "58 cm",
     hips: "89 cm",
-    styles: [{ tag: "Retired" }, { tag: "Cute" }, { tag: "Slender" }],
+    styles: [{ tag: "Cute" }, { tag: "Slender" }],
     album: [
       {
         picture:
@@ -1954,7 +1954,12 @@ const File1 = [
     cup: "E-Cup",
     waist: "60 cm",
     hips: "88 cm",
-    styles: [{ tag: "Pretty" }, { tag: "Cute" }, { tag: "NFT" }],
+    styles: [
+      { tag: "Pretty" },
+      { tag: "Retired" },
+      { tag: "Cute" },
+      { tag: "NFT" },
+    ],
     album: [
       {
         picture:
@@ -2780,7 +2785,7 @@ const File1 = [
     cup: "K-Cup",
     waist: "58 cm",
     hips: "85 cm",
-    styles: [{ tag: "Retired" }, { tag: "Killer Tits" }, { tag: "Slender" }],
+    styles: [{ tag: "Killer Tits" }, { tag: "Slender" }],
     album: [
       {
         picture:
