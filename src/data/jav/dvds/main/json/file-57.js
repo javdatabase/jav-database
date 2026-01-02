@@ -123,7 +123,10 @@ const File57 = [
     title: `ONLY FOR COUPLES WHO HAVE A DESIRE TO BE CUCKOLDED! BIG-BREASTED MARRIED WOMAN GIVES A NO-HANDS BLOWJOB AND MATCHES HER HUSBAND'S DICK! 2 IF YOU CAN GUESS THE RIGHT ONE FROM 10 RAW DICKS JUST BY THE FEEL OF YOUR MOUTH, YOU'LL WIN 1 MILLION YEN! IF YOU FAIL, YOU'LL GET AN INSTANT NTR PUNISHMENT GAME`,
     poster: "https://pics.dmm.co.jp/mono/movie/adult/hjmo678/hjmo678pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai016", name: "Kanako Iioka" }],
+    idols: [
+      { idIdol: "jai016", name: "Kanako Iioka" },
+      { idIdol: "jai056", name: "Rui Hiduki" },
+    ],
   },
   {
     code: "NACR-941",

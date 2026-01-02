@@ -1,4 +1,4 @@
-const MonthSalary = 1823599200;
+const MonthSalary = 1823599200 * 20;
 
 const StableSalary = 9946785280;
 
