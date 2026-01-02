@@ -183,7 +183,13 @@ function GetJAVDvdDataTool() {
             .map((i) => ShortIdols.find((item) => item.name === i))
             .filter((item) => !!item),
           "idIdol"
-        ),
+        ).sort((a, b) => {
+          let x = a.idIdol.toUpperCase();
+          let y = b.idIdol.toUpperCase();
+          if (x < y) return -1;
+          else if (x > y) return 1;
+          else return 0;
+        }),
       };
       setDvds((p) => uniqBy([...p, temp], "code"));
     }
