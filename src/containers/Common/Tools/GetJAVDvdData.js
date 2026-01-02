@@ -113,6 +113,7 @@ const convertWrongName = (str) => {
     "Hibiki Ootsuki": "Hibiki Otsuki",
     "Honoka Tsujii": "Honoka Tsuji",
     "Arisa Hanyuu": "Arisa Hanyu",
+    "Nao Jinguuji": "Nao Jinguji",
   };
 
   return WRONG_NAMES[str] || str;
@@ -173,7 +174,7 @@ function GetJAVDvdDataTool() {
     let temp;
     if (code && title && poster && idols.length) {
       temp = {
-        code: code,
+        code: String(code).toUpperCase(),
         title: decodeHtmlEntities(title),
         poster: poster,
         type: "Censored",
