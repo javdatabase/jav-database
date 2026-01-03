@@ -805,6 +805,7 @@ const File38 = [
     type: "Censored",
     idols: [
       { idIdol: "jai048", name: "Honoka Tsuji" },
+      { idIdol: "jai159", name: "Anna Kurata" },
       { idIdol: "jai185", name: "Nene Tanaka" },
     ],
   },
@@ -1733,7 +1734,10 @@ const File38 = [
     title: `FINALLY DISCOVERED ! ! ! IT SEEMS THAT YOU CAN EXPERIENCE CONTINUOUS EJACULATION UNTIL THE SPERM IS EXHAUSTED WITH UNLIMITED TIME AND THE STANDARD EQUIPMENT OF VAGINAL CUM SHOT OPTION BETWEEN THE ULTIMATE CHONS THAT OPERATE QUIETLY IN A DEPOPULATED AREA FORGOTTEN BY THE WORLD ! ! ! THOROUGH SCOOP ! ! ! 4TH`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/84scop703/84scop703pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai057", name: "Yumi Maeda" }],
+    idols: [
+      { idIdol: "jai057", name: "Yumi Maeda" },
+      { idIdol: "jai159", name: "Anna Kurata" },
+    ],
   },
   {
     code: "UMSO-365",

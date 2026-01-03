@@ -1950,6 +1950,7 @@ const File4 = [
     waist: "62 cm",
     hips: "94 cm",
     styles: [
+      { tag: "Retire" },
       { tag: "Cute" },
       { tag: "Beautiful Breasts" },
       { tag: "Former TV Actress" },
