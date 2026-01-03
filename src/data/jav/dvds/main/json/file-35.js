@@ -2434,7 +2434,10 @@ const File35 = [
     title: `BEFORE GRADUATING , TAKE A BATH WITH YOUR BROTHER ONLY ONCE AGAIN ! I'LL WASH YOU ! ] ALONE IN A SMALL BATH WITH MY SISTER WHO IS TOO BIG ! WASH UP TO JIKO ...`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/hunta841/hunta841pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai173", name: "Rino Hazuki" }],
+    idols: [
+      { idIdol: "jai159", name: "Anna Kurata" },
+      { idIdol: "jai173", name: "Rino Hazuki" },
+    ],
   },
   {
     code: "SW-723",

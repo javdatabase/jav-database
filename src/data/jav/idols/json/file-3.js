@@ -2144,7 +2144,7 @@ const File3 = [
     idIdol: "jai159",
     avatar: anna_kurata.anna_kurata_1,
     name: "Anna Kurata",
-    other: "",
+    other: "Noa Shiina",
     born: "30/03/2000",
     height: "147 cm",
     breast: "97 cm",

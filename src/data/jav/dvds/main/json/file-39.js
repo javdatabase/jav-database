@@ -48,6 +48,7 @@ const File39 = [
     poster: "http://pics.dmm.co.jp/mono/movie/adult/hunta942/hunta942pl.jpg",
     type: "Censored",
     idols: [
+      { idIdol: "jai159", name: "Anna Kurata" },
       { idIdol: "jai162", name: "Tsugumi Morimoto" },
       { idIdol: "jai185", name: "Nene Tanaka" },
     ],

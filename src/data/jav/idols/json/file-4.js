@@ -27,6 +27,8 @@ import * as kiho_kanematsu from "../images/kiho-kanematsu";
 import * as himari from "../images/himari";
 import * as yuka_murakami from "../images/yuka-murakami";
 import * as mirei_shinonome from "../images/mirei-shinonome";
+import * as shio_asami from "../images/shio-asami";
+import * as nene_misumi from "../images/nene-misumi";
 
 const File4 = [
   {
@@ -1950,6 +1952,7 @@ const File4 = [
     waist: "62 cm",
     hips: "94 cm",
     styles: [
+      { tag: "Retire" },
       { tag: "Cute" },
       { tag: "Beautiful Breasts" },
       { tag: "Former TV Actress" },
@@ -2039,7 +2042,7 @@ const File4 = [
     avatar: himari.himari_1,
     name: "Himari",
     other: "",
-    born: "--/--/----",
+    born: "21/05/1996",
     height: "160 cm",
     breast: "118 cm",
     cup: "Q-Cup",
@@ -2106,6 +2109,56 @@ const File4 = [
       { picture: mirei_shinonome.mirei_shinonome_4 },
       { picture: mirei_shinonome.mirei_shinonome_5 },
       { picture: mirei_shinonome.mirei_shinonome_1 },
+    ],
+  },
+  {
+    idIdol: "jai236",
+    avatar: shio_asami.shio_asami_8,
+    name: "Shio Asami",
+    other: "Kanon Hinano",
+    born: "08/08/1999",
+    height: "160 cm",
+    breast: "96 cm",
+    cup: "J-Cup",
+    waist: "58 cm",
+    hips: "92 cm",
+    styles: [{ tag: "Killer Tits" }],
+    album: [
+      { picture: shio_asami.shio_asami_2 },
+      { picture: shio_asami.shio_asami_3 },
+      { picture: shio_asami.shio_asami_4 },
+      { picture: shio_asami.shio_asami_5 },
+      { picture: shio_asami.shio_asami_6 },
+      { picture: shio_asami.shio_asami_7 },
+      { picture: shio_asami.shio_asami_1 },
+      { picture: shio_asami.shio_asami_9 },
+      { picture: shio_asami.shio_asami_10 },
+      { picture: shio_asami.shio_asami_11 },
+    ],
+  },
+  {
+    idIdol: "jai237",
+    avatar: nene_misumi.nene_misumi_1,
+    name: "Nene Misumi",
+    other: "",
+    born: "17/06/2001",
+    height: "160 cm",
+    breast: "92 cm",
+    cup: "H-Cup",
+    waist: "56 cm",
+    hips: "86 cm",
+    styles: [{ tag: "Beautiful Breasts" }],
+    album: [
+      { picture: nene_misumi.nene_misumi_2 },
+      { picture: nene_misumi.nene_misumi_3 },
+      { picture: nene_misumi.nene_misumi_4 },
+      { picture: nene_misumi.nene_misumi_5 },
+      { picture: nene_misumi.nene_misumi_6 },
+      { picture: nene_misumi.nene_misumi_7 },
+      { picture: nene_misumi.nene_misumi_8 },
+      { picture: nene_misumi.nene_misumi_9 },
+      { picture: nene_misumi.nene_misumi_10 },
+      { picture: nene_misumi.nene_misumi_11 },
     ],
   },
 ];

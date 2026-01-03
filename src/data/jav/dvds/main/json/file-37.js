@@ -118,7 +118,10 @@ const File37 = [
     title: `" HUH ? YOU SEE YOUR BREASTS ? " THE AIR CONDITIONER BROKE AND MY HOUSE WAS IN A SAUNA ! IF MY SISTER-IN-LAW SURPASSES THE HEAT WITH A FAN , SHE LOOKS LIKE SHE'S SWEATING NO BRA MORO`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/hunta850/hunta850pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai180", name: "Yuria Kanae" }],
+    idols: [
+      { idIdol: "jai159", name: "Anna Kurata" },
+      { idIdol: "jai180", name: "Yuria Kanae" },
+    ],
   },
   {
     code: "WANZ-988",
