@@ -451,7 +451,7 @@ const File4 = [
     idIdol: "jai195",
     avatar: rin_natsuki.rin_natsuki_1,
     name: "Rin Natsuki",
-    other: "",
+    other: "Rin Ouka",
     born: "16/11/1998",
     height: "166 cm",
     breast: "88 cm",
@@ -1522,7 +1522,7 @@ const File4 = [
     avatar:
       "https://japanesebeauties.one/hardcore/1pondo/yuuna-sasaki/112318_773/yuuna-sasaki-38.jpg",
     name: "Saori Okumura",
-    other: "Yuuna Sasaki",
+    other: "Saki Ikeda",
     born: "30/11/1984",
     height: "165 cm",
     breast: "85 cm",
@@ -1674,7 +1674,7 @@ const File4 = [
     cup: "H-Cup",
     waist: "59 cm",
     hips: "94 cm",
-    styles: [{ tag: "Pretty" }, { tag: "Killer Tits" }],
+    styles: [{ tag: "Pretty" }, { tag: "Retired" }, { tag: "Killer Tits" }],
     album: [
       {
         picture:
@@ -2095,7 +2095,11 @@ const File4 = [
     cup: "G-Cup",
     waist: "53 cm",
     hips: "86 cm",
-    styles: [{ tag: "Beautiful Breasts" }, { tag: "Slender" }],
+    styles: [
+      { tag: "Retired" },
+      { tag: "Beautiful Breasts" },
+      { tag: "Slender" },
+    ],
     album: [
       { picture: mirei_shinonome.mirei_shinonome_2 },
       { picture: mirei_shinonome.mirei_shinonome_3 },
