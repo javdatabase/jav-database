@@ -2809,6 +2809,7 @@ const File34 = [
       { idIdol: "jai011", name: "Asahi Mizuno" },
       { idIdol: "jai016", name: "Kanako Iioka" },
       { idIdol: "jai022", name: "Yuka Tachibana" },
+      { idIdol: "jai029", name: "Misa Kudo" },
     ],
   },
   {
