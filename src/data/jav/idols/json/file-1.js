@@ -1553,7 +1553,7 @@ const File1 = [
     cup: "D-Cup",
     waist: "57 cm",
     hips: "83 cm",
-    styles: [{ tag: "Retired" }, { tag: "Mature" }],
+    styles: [{ tag: "Retired" }, { tag: "Mature" }, { tag: "NFT" }],
     album: [
       {
         picture:
