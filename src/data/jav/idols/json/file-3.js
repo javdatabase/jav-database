@@ -100,7 +100,7 @@ const File3 = [
     cup: "F-Cup",
     waist: "58 cm",
     hips: "90 cm",
-    styles: [{ tag: "Mature" }],
+    styles: [{ tag: "Retired" }, { tag: "Mature" }],
     album: [
       {
         picture:
@@ -2564,7 +2564,12 @@ const File3 = [
     cup: "J-Cup",
     waist: "59 cm",
     hips: "88 cm",
-    styles: [{ tag: "Pretty" }, { tag: "Killer Tits" }, { tag: "Teens" }],
+    styles: [
+      { tag: "Pretty" },
+      { tag: "Retired" },
+      { tag: "Killer Tits" },
+      { tag: "Teens" },
+    ],
     album: [
       {
         picture: aka_asuka.aka_asuka_2,

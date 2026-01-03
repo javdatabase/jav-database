@@ -118,6 +118,9 @@ const convertWrongName = (str) => {
     "Rui Hitzuki": "Rui Hiduki",
     "Honjou Suzu": "Suzu Honjo",
     "Shouko Takahashi": "Shoko Takahashi",
+    "Misa Kudou": "Misa Kudo",
+    "Arisu Ozawa": "Alice Ozawa",
+    "Yuuka Murakami": "Yuka Murakami",
   };
 
   return WRONG_NAMES[str] || str;
