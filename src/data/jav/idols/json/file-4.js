@@ -29,6 +29,8 @@ import * as yuka_murakami from "../images/yuka-murakami";
 import * as mirei_shinonome from "../images/mirei-shinonome";
 import * as shio_asami from "../images/shio-asami";
 import * as nene_misumi from "../images/nene-misumi";
+import * as ako_kimura from "../images/ako-kimura";
+import * as yuuka_niizuma from "../images/yuuka-niizuma";
 
 const File4 = [
   {
@@ -2270,6 +2272,96 @@ const File4 = [
       {
         picture:
           "https://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/41000/41432/large/wapdb-sarina-kurokawa-pornostar-asiatique.warashi-asian-pornstars.fr-41432-001.jpg",
+      },
+    ],
+  },
+  {
+    idIdol: "jai240",
+    avatar: ako_kimura.ako_kimura_1,
+    name: "Ako Kimura",
+    other: "",
+    born: "30/11/1996",
+    height: "159 cm",
+    breast: "108 cm",
+    cup: "L-Cup",
+    waist: "60 cm",
+    hips: "90 cm",
+    styles: [{ tag: "Beautiful Breasts" }, { tag: "Killer Tits" }],
+    album: [
+      {
+        picture: ako_kimura.ako_kimura_2,
+      },
+      {
+        picture: ako_kimura.ako_kimura_3,
+      },
+      {
+        picture: ako_kimura.ako_kimura_4,
+      },
+      {
+        picture: ako_kimura.ako_kimura_5,
+      },
+      {
+        picture: ako_kimura.ako_kimura_6,
+      },
+      {
+        picture: ako_kimura.ako_kimura_7,
+      },
+      {
+        picture: ako_kimura.ako_kimura_8,
+      },
+      {
+        picture: ako_kimura.ako_kimura_9,
+      },
+      {
+        picture: ako_kimura.ako_kimura_10,
+      },
+      {
+        picture: ako_kimura.ako_kimura_11,
+      },
+    ],
+  },
+  {
+    idIdol: "jai241",
+    avatar: yuuka_niizuma.yuuka_niizuma_2,
+    name: "Yuuka Niizuma",
+    other: "",
+    born: "03/12/1993",
+    height: "160 cm",
+    breast: "90 cm",
+    cup: "H-Cup",
+    waist: "60 cm",
+    hips: "88 cm",
+    styles: [{ tag: "Cute" }, { tag: "Beautiful Breasts" }],
+    album: [
+      {
+        picture: yuuka_niizuma.yuuka_niizuma_1,
+      },
+      {
+        picture: yuuka_niizuma.yuuka_niizuma_3,
+      },
+      {
+        picture: yuuka_niizuma.yuuka_niizuma_4,
+      },
+      {
+        picture: yuuka_niizuma.yuuka_niizuma_5,
+      },
+      {
+        picture: yuuka_niizuma.yuuka_niizuma_6,
+      },
+      {
+        picture: yuuka_niizuma.yuuka_niizuma_7,
+      },
+      {
+        picture: yuuka_niizuma.yuuka_niizuma_8,
+      },
+      {
+        picture: yuuka_niizuma.yuuka_niizuma_9,
+      },
+      {
+        picture: yuuka_niizuma.yuuka_niizuma_10,
+      },
+      {
+        picture: yuuka_niizuma.yuuka_niizuma_11,
       },
     ],
   },
