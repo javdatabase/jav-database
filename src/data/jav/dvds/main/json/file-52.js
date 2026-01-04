@@ -13,7 +13,10 @@ const File52 = [
     title: `SEMEN SISTERS WITH EXCELLENT SUCTION POWER ASCEND TO HEAVEN WITH NUKITECH ! ! THE ULTIMATE SLUT DOUBLE BLOWJOB & DOUBLE HANDJOB ! !`,
     poster: "https://pics.dmm.co.jp/mono/movie/adult/125umd894/125umd894pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai158", name: "Nao Jinguji" }],
+    idols: [
+      { idIdol: "jai158", name: "Nao Jinguji" },
+      { idIdol: "jai239", name: "Sarina Momonaga" },
+    ],
   },
   {
     code: "SDMUA-070",
@@ -2964,7 +2967,10 @@ const File52 = [
     poster:
       "https://pics.dmm.co.jp/mono/movie/adult/41hodv21850/41hodv21850pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai007", name: "Mao Hamasaki" }],
+    idols: [
+      { idIdol: "jai007", name: "Mao Hamasaki" },
+      { idIdol: "jai239", name: "Sarina Momonaga" },
+    ],
   },
   {
     code: "PPX-011",

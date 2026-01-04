@@ -2368,7 +2368,10 @@ const File36 = [
     title: `STREET CORNER AMATEUR PICK-UP ! VOL.72 PICKING UP A NIGHTIE NIGHT CLUB PARIPI WOMAN ★ 2`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/118mgt097/118mgt097pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai179", name: "Kaho Imai" }],
+    idols: [
+      { idIdol: "jai179", name: "Kaho Imai" },
+      { idIdol: "jai239", name: "Sarina Momonaga" },
+    ],
   },
   {
     code: "TKI-105",

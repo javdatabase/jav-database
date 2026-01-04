@@ -1386,7 +1386,10 @@ const File47 = [
     title: `SLUT GAL NIGHT POOL SURROUNDED BY NASTY BITCH , SUPER HARLEM TIME ☆ I WAS MADE TO EJACULATE MANY TIMES AIKA MAO HAMASAKI SARINA MOMONAGA RIKA AIMI`,
     poster: "https://pics.dmm.co.jp/mono/movie/adult/cjod356/cjod356pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai007", name: "Mao Hamasaki" }],
+    idols: [
+      { idIdol: "jai007", name: "Mao Hamasaki" },
+      { idIdol: "jai239", name: "Sarina Momonaga" },
+    ],
   },
   {
     code: "VEC-541",
@@ -1582,7 +1585,10 @@ const File47 = [
     title: `SEX APPEAL MUNMUN FEMALE BOSS'S SHARED ROOM MARA EATING REVERSE NTR I WAS NAUGHTY IN THE PRESS WITH A BIG BREASTS BIG ASS CUM SHOT UNTIL MORNING ... MAO HAMASAKI SARINA MOMONAGA`,
     poster: "https://pics.dmm.co.jp/mono/movie/adult/waaa200/waaa200pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai007", name: "Mao Hamasaki" }],
+    idols: [
+      { idIdol: "jai007", name: "Mao Hamasaki" },
+      { idIdol: "jai239", name: "Sarina Momonaga" },
+    ],
   },
   {
     code: "SAME-013",
@@ -1973,7 +1979,10 @@ const File47 = [
     title: `EVEN IF YOU EJACULATE ONCE , YOU WILL FOLLOW UP WITH A BREAST TIGHT PINCER SHOT AND CAREFULLY NUI DOUBLE BIG BREASTS REJUVENATING ESTHETIC MITSUMI ANN MOMONAGA SARINA`,
     poster: "https://pics.dmm.co.jp/mono/movie/adult/pppe071/pppe071pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai212", name: "An Mitsumi" }],
+    idols: [
+      { idIdol: "jai212", name: "An Mitsumi" },
+      { idIdol: "jai239", name: "Sarina Momonaga" },
+    ],
   },
   {
     code: "ABW-265",

@@ -570,6 +570,7 @@ const File41 = [
     idols: [
       { idIdol: "jai048", name: "Honoka Tsuji" },
       { idIdol: "jai172", name: "Maron Natsuki" },
+      { idIdol: "jai239", name: "Sarina Momonaga" },
     ],
   },
   {

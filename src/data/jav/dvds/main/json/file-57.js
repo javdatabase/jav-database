@@ -2594,6 +2594,7 @@ const File57 = [
       { idIdol: "jai143", name: "Kana Yume" },
       { idIdol: "jai196", name: "Mina Kitano" },
       { idIdol: "jai219", name: "Akari Niimura" },
+      { idIdol: "jai239", name: "Sarina Momonaga" },
     ],
   },
   {

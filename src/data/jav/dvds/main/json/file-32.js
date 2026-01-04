@@ -1390,7 +1390,10 @@ const File32 = [
     poster:
       "http://pics.dmm.co.jp/mono/movie/adult/h_491fneo047/h_491fneo047pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai148", name: "Nozomi Arimura" }],
+    idols: [
+      { idIdol: "jai148", name: "Nozomi Arimura" },
+      { idIdol: "jai239", name: "Sarina Momonaga" },
+    ],
   },
   {
     code: "AMBI-104",

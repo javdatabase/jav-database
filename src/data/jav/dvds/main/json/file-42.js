@@ -426,6 +426,7 @@ const File42 = [
     idols: [
       { idIdol: "jai007", name: "Mao Hamasaki" },
       { idIdol: "jai015", name: "Mao Kurata" },
+      { idIdol: "jai239", name: "Sarina Momonaga" },
     ],
   },
   {
@@ -1790,7 +1791,10 @@ const File42 = [
     poster:
       "http://pics.dmm.co.jp/mono/movie/adult/41hodv21635/41hodv21635pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai048", name: "Honoka Tsuji" }],
+    idols: [
+      { idIdol: "jai048", name: "Honoka Tsuji" },
+      { idIdol: "jai239", name: "Sarina Momonaga" },
+    ],
   },
   {
     code: "STARS-468",

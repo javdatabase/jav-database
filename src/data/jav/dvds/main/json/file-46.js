@@ -559,7 +559,10 @@ const File46 = [
     title: `I'LL SHOW YOU THE GAME UNDERWEAR ! SEXUAL GORGEOUS GAL HOME CREAMPIE PREMIUM 02 LET'S RAW SADDLE SEX AT HOME WHERE GIRLS' EVERYDAY LIFE CAN BE SEEN AND HIDDEN ! THIS EROTIC , ADDICTIVE ! ! !`,
     poster: "https://img59.pixhost.to/images/84/228303274_1633932l.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai219", name: "Akari Niimura" }],
+    idols: [
+      { idIdol: "jai219", name: "Akari Niimura" },
+      { idIdol: "jai239", name: "Sarina Momonaga" },
+    ],
   },
   {
     code: "GHNU-11",
@@ -2700,7 +2703,10 @@ const File46 = [
     title: `VAGINAL SQUEEZING M SEXUAL FEELING HOUSE SECOND THAT CONTINUES TO BE SQUID BY 3 SLUT SISTERS`,
     poster: "https://pics.dmm.co.jp/mono/movie/adult/mkmp457/mkmp457pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai007", name: "Mao Hamasaki" }],
+    idols: [
+      { idIdol: "jai007", name: "Mao Hamasaki" },
+      { idIdol: "jai239", name: "Sarina Momonaga" },
+    ],
   },
   {
     code: "STARS-618",

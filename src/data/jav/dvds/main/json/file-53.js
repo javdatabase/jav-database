@@ -2473,6 +2473,7 @@ const File53 = [
     idols: [
       { idIdol: "jai016", name: "Kanako Iioka" },
       { idIdol: "jai034", name: "Mary Tachibana" },
+      { idIdol: "jai239", name: "Sarina Momonaga" },
     ],
   },
   {
@@ -2597,6 +2598,7 @@ const File53 = [
     idols: [
       { idIdol: "jai016", name: "Kanako Iioka" },
       { idIdol: "jai034", name: "Mary Tachibana" },
+      { idIdol: "jai239", name: "Sarina Momonaga" },
     ],
   },
   {

@@ -316,7 +316,10 @@ const File30 = [
     title: `" AH ! I'VE ENTERED IN RAW ! " IF YOU RUB JI ○ PORT ON MA ○ KO WITH OIL INTERCRURAL SEX , IT IS TOO COMFORTABLE AND RAW INSERTION ! ! MISS DERIHERU 9 WHO HAD GOT CREAMPIE SEX 9`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/13ovg113/13ovg113pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: `jai001`, name: "Yui Hatano" }],
+    idols: [
+      { idIdol: `jai001`, name: "Yui Hatano" },
+      { idIdol: "jai239", name: "Sarina Momonaga" },
+    ],
   },
   {
     code: "CJOD-208",
