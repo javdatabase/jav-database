@@ -20,9 +20,12 @@ import {
   DarkBlue,
   LightBlue,
   Green,
+  Red,
 } from "../../../themes/colors";
 import { center, fadeIn } from "../../../themes/styled";
-import { Large, XLarge, XXLarge } from "../../../themes/font";
+import { Regular, Large, XLarge, XXLarge } from "../../../themes/font";
+import { ALL_DVDS_RELEASE_BY_PAGE } from "../../../services/jav/dvds.service";
+import { ALL_VIDEOS_BY_PAGE } from "../../../services/jav/videos.service";
 
 const Container = styled.div`
   width: 100%;
@@ -81,6 +84,13 @@ const Label = styled.div`
   margin-bottom: 20px;
 `;
 
+const Error = styled.div`
+  color: ${(props) => (props.valid ? Green : Red)};
+  font-size: ${Regular};
+  font-weight: bold;
+  margin-top: 10px;
+`;
+
 const TextareaCustom = styled(Textarea)`
   width: 100%;
 `;
@@ -121,6 +131,7 @@ const ButtonReset = styled(ButtonCopy)`
 
 function JAVVideoDataTool() {
   const [code, setCode] = useState("");
+  const [error, setError] = useState("");
   const [xid, setXid] = useState("");
   const [copied, setCopied] = useState(false);
   const timer = useRef();
@@ -140,6 +151,22 @@ function JAVVideoDataTool() {
       }
     };
   }, []);
+
+  useEffect(() => {
+    if (code) {
+      const noDvds = !ALL_DVDS_RELEASE_BY_PAGE(code).size;
+      const hasVideos = !!ALL_VIDEOS_BY_PAGE(code).size;
+      setError(
+        noDvds
+          ? "Code is not exist"
+          : hasVideos
+          ? "Code is exist"
+          : "Code is valid"
+      );
+    } else {
+      setError("");
+    }
+  }, [code]);
 
   const copyToClipboard = useCallback(() => {
     if (result && !copied) {
@@ -176,6 +203,7 @@ function JAVVideoDataTool() {
               value={code}
               onChange={(e) => setCode(e.target.value.trim().toUpperCase())}
             />
+            {error && <Error valid={error === "Code is valid"}>{error}</Error>}
           </Content>
           <Content>
             <InputCustom

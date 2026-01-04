@@ -2466,7 +2466,10 @@ const File55 = [
     title: `TIME-STOPPING OFFICE. A DIVINE DEVICE THAT CAN STOP TIME, ALLOWING YOU TO INSERT OR STOP IT WHENEVER YOU WANT.`,
     poster: "https://pics.dmm.co.jp/mono/movie/adult/hsoda038/hsoda038pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai052", name: "Saki Mizumi" }],
+    idols: [
+      { idIdol: "jai052", name: "Saki Mizumi" },
+      { idIdol: "jai239", name: "Sarina Momonaga" },
+    ],
   },
   {
     code: "REAL-858",

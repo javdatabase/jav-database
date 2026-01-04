@@ -22,7 +22,10 @@ const File43 = [
     title: `BIG TITS ONLY ! ! ! IT SWELLS FROM THE TOP OF THE CLOTHES , PICKS UP THE CLEAR BREASTS , TAKES IT OFF , AND SEX RECORD ONLY BEAUTIFUL GIRLS WITH ESTIMATED E-CUP OR MORE EXCERPT SUMMARY 4 HOURS`,
     poster: "https://pics.dmm.co.jp/mono/movie/adult/npjb043/npjb043pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai206", name: "Reona Kirishima" }],
+    idols: [
+      { idIdol: "jai206", name: "Reona Kirishima" },
+      { idIdol: "jai239", name: "Sarina Momonaga" },
+    ],
   },
   {
     code: "SOUD-023",

@@ -1,6 +1,6 @@
-const MonthSalary = 1823599200 * 20;
+const MonthSalary = 823599200 * 25;
 
-const StableSalary = 9946785280;
+const StableSalary = 946785280;
 
 const NFTSalary = 3066400000;
 
