@@ -197,7 +197,10 @@ const File56 = [
     poster:
       "https://pics.dmm.co.jp/mono/movie/adult/h_047wa543/h_047wa543pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai147", name: "Satomi Suzuki" }],
+    idols: [
+      { idIdol: "jai147", name: "Satomi Suzuki" },
+      { idIdol: "jai239", name: "Sarina Momonaga" },
+    ],
   },
   {
     code: "KATU-131",
@@ -2332,6 +2335,7 @@ const File56 = [
     idols: [
       { idIdol: "jai001", name: "Yui Hatano" },
       { idIdol: "jai007", name: "Mao Hamasaki" },
+      { idIdol: "jai239", name: "Sarina Momonaga" },
     ],
   },
   {

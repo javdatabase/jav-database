@@ -57,6 +57,7 @@ import File56 from "./json/file-56";
 import File57 from "./json/file-57";
 import File58 from "./json/file-58";
 import File59 from "./json/file-59";
+import File60 from "./json/file-60";
 
 const response = []
   .concat(
@@ -118,7 +119,8 @@ const response = []
     File56,
     File57,
     File58,
-    File59
+    File59,
+    File60
   )
   .map((item, index) => ({
     ...item,

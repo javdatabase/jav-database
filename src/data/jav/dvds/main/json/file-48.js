@@ -1521,7 +1521,10 @@ const File48 = [
     title: `A NO PANTIES NURSE ROLLS UP WITH THE SMILE OF AN ANGEL ! ! CONTINUOUS EJACULATION HOSPITAL THAT IS POPULAR AND BEDS ARE NOT AVAILABLE`,
     poster: "https://pics.dmm.co.jp/mono/movie/adult/mkmp485/mkmp485pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai001", name: "Yui Hatano" }],
+    idols: [
+      { idIdol: "jai001", name: "Yui Hatano" },
+      { idIdol: "jai239", name: "Sarina Momonaga" },
+    ],
   },
   {
     code: "NASH-780",

@@ -285,7 +285,10 @@ const File39 = [
     title: `IT WAS MY FATHER , NOT MY BOYFRIEND , WHO ASKED FOR JI-PO ! ? ? THE DAUGHTER WHO GOT DRUNK BEFORE AND AFTER UNCONSCIOUSLY STRADDLES HER FATHER AND IS STRONG ● INSERT ! ! ! VOL.02`,
     poster: "http://pics.dmm.co.jp/mono/movie/adult/84umso368/84umso368pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai158", name: "Nao Jinguji" }],
+    idols: [
+      { idIdol: "jai158", name: "Nao Jinguji" },
+      { idIdol: "jai239", name: "Sarina Momonaga" },
+    ],
   },
   {
     code: "SUPA-568",

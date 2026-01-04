@@ -2161,6 +2161,118 @@ const File4 = [
       { picture: nene_misumi.nene_misumi_11 },
     ],
   },
+  {
+    idIdol: "jai238",
+    avatar:
+      "https://japanesebeauties.one/japanese/naho-ozawa/13/naho-ozawa-6.jpg",
+    name: "Naho Ozawa",
+    other: "",
+    born: "26/01/1983",
+    height: "157 cm",
+    breast: "84 cm",
+    cup: "D-Cup",
+    waist: "58 cm",
+    hips: "86 cm",
+    styles: [{ tag: "Mature" }],
+    album: [
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/naho-ozawa/18/naho-ozawa-1.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/naho-ozawa/16/naho-ozawa-8.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/naho-ozawa/14/naho-ozawa-5.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/naho-ozawa/15/naho-ozawa-4.jpg",
+      },
+      {
+        picture:
+          "https://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/6000/6061/large/wapdb-naho-ozawa-pornostar-asiatique.warashi-asian-pornstars.fr-6061-009.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/naho-ozawa/15/naho-ozawa-7.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/naho-ozawa/19/naho-ozawa-7.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/naho-ozawa/17/naho-ozawa-8.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/naho-ozawa/12/naho-ozawa-6.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/naho-ozawa/9/naho-ozawa-10.jpg",
+      },
+    ],
+  },
+  {
+    idIdol: "jai239",
+    avatar:
+      "https://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/45000/45198/large/wapdb-sarina-kurokawa-pornostar-asiatique.warashi-asian-pornstars.fr-45198-001.jpg",
+    name: "Sarina Momonaga",
+    other: "Sarina Kurokawa",
+    born: "12/12/1996",
+    height: "166 cm",
+    breast: "88 cm",
+    cup: "F-Cup",
+    waist: "56 cm",
+    hips: "85 cm",
+    styles: [{ tag: "Cute" }, { tag: "Beautiful Breasts" }],
+    album: [
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/sarina-kurokawa/5/sarina-kurokawa-8.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/sarina-kurokawa/4/sarina-kurokawa-4.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/sarina-kurokawa/8/sarina-kurokawa-10.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/sarina-kurokawa/6/sarina-kurokawa-7.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/sarina-kurokawa/10/sarina-kurokawa-8.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/sarina-kurokawa/3/sarina-kurokawa-12.jpg",
+      },
+      {
+        picture:
+          "https://japanesebeauties.one/japanese/sarina-kurokawa/2/sarina-kurokawa-6.jpg",
+      },
+      {
+        picture:
+          "https://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/40000/40432/large/wapdb-sarina-kurokawa-pornostar-asiatique.warashi-asian-pornstars.fr-40432-001.jpg",
+      },
+      {
+        picture:
+          "https://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/41000/41677/large/wapdb-sarina-kurokawa-pornostar-asiatique.warashi-asian-pornstars.fr-41677-001.jpg",
+      },
+      {
+        picture:
+          "https://warashi-asian-pornstars.fr/WAPdB-img/pornostars-f-galeries/41000/41432/large/wapdb-sarina-kurokawa-pornostar-asiatique.warashi-asian-pornstars.fr-41432-001.jpg",
+      },
+    ],
+  },
 ];
 
 export default File4;

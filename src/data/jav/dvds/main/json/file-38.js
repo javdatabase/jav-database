@@ -1029,7 +1029,10 @@ const File38 = [
     poster:
       "http://pics.dmm.co.jp/mono/movie/adult/118docp269/118docp269pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai185", name: "Nene Tanaka" }],
+    idols: [
+      { idIdol: "jai185", name: "Nene Tanaka" },
+      { idIdol: "jai239", name: "Sarina Momonaga" },
+    ],
   },
   {
     code: "MIAA-367",

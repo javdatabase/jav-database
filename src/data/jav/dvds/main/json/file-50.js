@@ -1933,7 +1933,10 @@ const File50 = [
     title: `" WOMAN AT CONVENIENCE STORE HEADQUARTERS " INCLUDES 5 FULL-LENGTH UNCUT TITLES ! COMPLETE VERSION BEST2 !`,
     poster: "https://pics.dmm.co.jp/mono/movie/adult/nbes078/nbes078pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai002", name: "Hibiki Otsuki" }],
+    idols: [
+      { idIdol: "jai002", name: "Hibiki Otsuki" },
+      { idIdol: "jai239", name: "Sarina Momonaga" },
+    ],
   },
   {
     code: "RVG-197",
@@ -2215,7 +2218,10 @@ const File50 = [
     title: `A BUSTY GAL WHO LOVES SEX VS AN UNEQUALED VIRGIN WHO LOVES MASTURBATION A VIRGIN AND A BIMBO GAL WHO NEVER MET EACH OTHER CLASH !`,
     poster: "https://pics.dmm.co.jp/mono/movie/adult/huntb585/huntb585pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai148", name: "Nozomi Arimura" }],
+    idols: [
+      { idIdol: "jai148", name: "Nozomi Arimura" },
+      { idIdol: "jai239", name: "Sarina Momonaga" },
+    ],
   },
   {
     code: "HUNTB-592",
