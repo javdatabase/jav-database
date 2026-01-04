@@ -238,6 +238,8 @@ const ShortIdols = [
   { idIdol: "jai237", name: "Nene Misumi" },
   { idIdol: "jai238", name: "Naho Ozawa" },
   { idIdol: "jai239", name: "Sarina Momonaga" },
+  { idIdol: "jai240", name: "Ako Kimura" },
+  { idIdol: "jai241", name: "Yuuka Niizuma" },
 ];
 
 export default ShortIdols;
