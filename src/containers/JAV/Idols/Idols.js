@@ -130,7 +130,7 @@ function Idols() {
       get(state, "styles", null),
       get(state, "best", false),
       get(state, "uncensored", false),
-      get(state, "working", false),
+      get(state, "working", true),
       get(state, "height", ""),
       get(state, "breast", ""),
       get(state, "hips", ""),
@@ -339,7 +339,7 @@ function Idols() {
           <CheckboxGroup>
             <Checkbox
               label={"Working"}
-              value={get(location.state, "working", false)}
+              value={get(location.state, "working", true)}
               onChange={handleChangeWorking}
             />
           </CheckboxGroup>
