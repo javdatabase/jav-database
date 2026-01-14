@@ -125,6 +125,7 @@ const convertWrongName = (str) => {
     "Leila Kitakawa": "Reira Kitagawa",
     "Nao Yuuri": "Nao Yuri",
     "Arisa Shindou": "Arisa Shindo",
+    "Hinano Kanon": "Shio Asami",
   };
 
   return WRONG_NAMES[str] || str;

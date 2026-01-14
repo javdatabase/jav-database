@@ -1942,7 +1942,7 @@ const File3 = [
     cup: "C-Cup",
     waist: "59 cm",
     hips: "88 cm",
-    styles: [{ tag: "Cute" }],
+    styles: [{ tag: "Retired" }, { tag: "Cute" }],
     album: [
       {
         picture:

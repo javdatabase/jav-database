@@ -378,6 +378,7 @@ import LLDV149 from "./LLDV-149.jpg";
 import MXX145 from "./MXX-145.webp";
 import MMDV151 from "./MMDV-151.webp";
 import SSDV152 from "./SSDV-152.webp";
+import GSDV001 from "./GSDV-001.jpeg";
 
 export {
   CWP49,
@@ -760,4 +761,5 @@ export {
   MXX145,
   MMDV151,
   SSDV152,
+  GSDV001,
 };
