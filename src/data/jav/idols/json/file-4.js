@@ -31,6 +31,7 @@ import * as shio_asami from "../images/shio-asami";
 import * as nene_misumi from "../images/nene-misumi";
 import * as ako_kimura from "../images/ako-kimura";
 import * as yuuka_niizuma from "../images/yuuka-niizuma";
+import * as unpai from "../images/unpai";
 
 const File4 = [
   {
@@ -2362,6 +2363,55 @@ const File4 = [
       },
       {
         picture: yuuka_niizuma.yuuka_niizuma_11,
+      },
+    ],
+  },
+  {
+    idIdol: "jai242",
+    avatar: unpai.unpai_4,
+    name: "Unpai",
+    other: "Sayaka Ito",
+    born: "17/07/1995",
+    height: "165 cm",
+    breast: "92 cm",
+    cup: "H-Cup",
+    waist: "60 cm",
+    hips: "96 cm",
+    styles: [
+      { tag: "Beautiful Breasts" },
+      { tag: "Former Gravure Model" },
+      { tag: "NFT" },
+    ],
+    album: [
+      {
+        picture: unpai.unpai_2,
+      },
+      {
+        picture: unpai.unpai_3,
+      },
+      {
+        picture: unpai.unpai_1,
+      },
+      {
+        picture: unpai.unpai_5,
+      },
+      {
+        picture: unpai.unpai_6,
+      },
+      {
+        picture: unpai.unpai_7,
+      },
+      {
+        picture: unpai.unpai_8,
+      },
+      {
+        picture: unpai.unpai_9,
+      },
+      {
+        picture: unpai.unpai_10,
+      },
+      {
+        picture: unpai.unpai_11,
       },
     ],
   },

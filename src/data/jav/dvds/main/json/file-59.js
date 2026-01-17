@@ -1434,7 +1434,10 @@ const File59 = [
     title: `MOODYZ'S FIRST EXCLUSIVE SUPER HAREM, MOODYZ ONLY ONE STARS, I LOVE YOU ALL. [MOODYZ 25TH ANNIVERSARY COMMEMORATIVE WORK]`,
     poster: "https://pics.dmm.co.jp/mono/movie/adult/mird270/mird270pl.jpg",
     type: "Censored",
-    idols: [{ idIdol: "jai166", name: "Rikka Ono" }],
+    idols: [
+      { idIdol: "jai166", name: "Rikka Ono" },
+      { idIdol: "jai242", name: "Unpai" },
+    ],
   },
   {
     code: "JUR-249",
