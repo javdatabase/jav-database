@@ -80,8 +80,8 @@ const TagIdol = styled(IdolTag)`
     props.queen
       ? `linear-gradient(to right, ${Yellow}, ${Red})`
       : props.runnerUp
-      ? `linear-gradient(to right, ${LightBlue}, ${Pink})`
-      : `linear-gradient(to right,  ${Orange}, ${Pink})`};
+        ? `linear-gradient(to right, ${LightBlue}, ${Pink})`
+        : `linear-gradient(to right,  ${Orange}, ${Pink})`};
 `;
 
 const LinkVideoContainer = styled.div`
@@ -108,7 +108,7 @@ function Video() {
   }, [code]);
 
   const link = useMemo(() => {
-    return `https://vlxx.net/${get(data, "xid", "")}`;
+    return `https://vlxx.ms/${get(data, "xid", "")}`;
   }, [data]);
 
   return (
@@ -139,7 +139,7 @@ function Video() {
                   name={item.name}
                 />
               </Link>
-            )
+            ),
           )}
         </StarsContainer>
         <iframe
