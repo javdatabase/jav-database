@@ -113,8 +113,8 @@ const TagIdol = styled(IdolTag)`
     props.queen
       ? `linear-gradient(to right, ${Yellow}, ${Red})`
       : props.runnerUp
-      ? `linear-gradient(to right, ${LightBlue}, ${Pink})`
-      : `linear-gradient(to right,  ${Orange}, ${Pink})`};
+        ? `linear-gradient(to right, ${LightBlue}, ${Pink})`
+        : `linear-gradient(to right,  ${Orange}, ${Pink})`};
 `;
 
 const VideoButtonLink = styled(Link)`
@@ -157,10 +157,10 @@ function NewDvdReleaseDetail({ data, active }) {
   const timer = useRef();
 
   const link = useMemo(() => {
-    return `https://vlxx.net/${get(
+    return `https://vlxx.ms/${get(
       VIDEO_CONTENT(get(data, "code", "")),
       "xid",
-      ""
+      "",
     )}`;
   }, [data]);
 
@@ -186,7 +186,7 @@ function NewDvdReleaseDetail({ data, active }) {
       }
       toggleModal();
     },
-    [toggleModal]
+    [toggleModal],
   );
 
   const copyToClipboard = useCallback(() => {

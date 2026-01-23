@@ -2981,6 +2981,7 @@ const File50 = [
       { idIdol: "jai207", name: "Miru Sakamichi" },
       { idIdol: "jai214", name: "Ria Yamate" },
       { idIdol: "jai221", name: "Konan Koyoi" },
+      { idIdol: "jai242", name: "Unpai" },
     ],
   },
   {
