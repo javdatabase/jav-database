@@ -62,6 +62,48 @@ const File61 = [
     type: "Censored",
     idols: [{ idIdol: "jai076", name: "Megu Fujiura" }],
   },
+  {
+    code: "OAE-305",
+    title: `NAKED GOD MARIN MITA`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/oae305/oae305pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai231", name: "Marin Mita" }],
+  },
+  {
+    code: "SNOS-109",
+    title: `I MET MY EX-SEX FRIEND FOR THE FIRST TIME IN 3 YEARS, RIGHT BEFORE WE GOT MARRIED, AND SHE LOOKED CUTER AND HAD BECOME A WOMAN WITH EVEN STRONGER SEXUAL DESIRES... I USED UP ALL THE CONDOMS AND HAD SEX WITH HER FOREVER. MARIN MITA`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/snos109/snos109pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai231", name: "Marin Mita" }],
+  },
+  {
+    code: "SNOS-066",
+    title: `AFTER ABSTINENCE, HER SENSITIVE L-CUP BODY IS GIVEN THE ULTIMATE PLEASURE WITH ALL THE TEASING, APHRODISIAC, BREAST DEVELOPMENT, LOTS OF TOY PLAY, HANGING ORGASMS, AND FOLLOW-UP PISTON THRUSTS! A CRAZY CLIMAX! KIMURA AIKO`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/snos066/snos066pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai240", name: "Ako Kimura" }],
+  },
+  {
+    code: "SNOS-078",
+    title: `A NEWLYWED WIFE IS GIVEN A POWERFUL APHRODISIAC BY HER OBSCENE TRAINER, AND HER ENTIRE BODY BECOMES A CLITORIS! DURING TRAINING, SHE CONVULSES VIOLENTLY, HER PUSSY SPREADS OPEN, AND SHE HAS A PEEING ORGASM. MIRU`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/snos078/snos078pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai207", name: "Miru Sakamichi" }],
+  },
+  {
+    code: "SNOS-059",
+    title: `MY GIRLFRIEND'S SISTER IS OBVIOUSLY NAUGHTY AND EATS MY DICK.`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/snos059/snos059pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai232", name: "Kiho Kanematsu" }],
+  },
+  {
+    code: "SNOS-056",
+    title: `A LEWD WEEKEND FOR A MAN AND WOMAN WHO CROSSED THE LINE UNDER THE INFLUENCE OF ALCOHOL IN AN ORDINARY EVERYDAY LIFE. RAW AND ORDINARY, BUT THE MOST EROTIC SEX. AYAKA KAWAKITA`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/snos056/snos056pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai213", name: "Saika Kawakita" }],
+  },
 ];
 
 export default File61;
