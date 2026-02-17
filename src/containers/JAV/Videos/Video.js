@@ -108,7 +108,7 @@ function Video() {
   }, [code]);
 
   const link = useMemo(() => {
-    return `https://vlxx.ms/${get(data, "xid", "")}`;
+    return `https://vlxx.bz/${get(data, "xid", "")}`;
   }, [data]);
 
   return (
