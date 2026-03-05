@@ -1,14 +1,16 @@
-import React, { Fragment, memo, useEffect, useCallback } from "react";
+import React, { Fragment, memo, useEffect, useCallback, useMemo } from "react";
 import { createPortal } from "react-dom";
 import { get } from "lodash";
 import styled from "styled-components";
 import { Link, useLocation } from "react-router-dom";
 
 import { getIdolRank, checkBestIdol } from "../../services/jav/common.service";
+import { IDOL_PROFILE } from "../../services/jav/idols.service";
 import Backdrop from "../UI/Backdrop/Backdrop";
 import Image from "../Image/Image";
 import IdolCup from "./IdolCup";
 import IdolStyle from "./IdolStyle";
+import DvdPoster from "../Dvds/DvdPoster";
 
 import {
   Pink,
@@ -22,7 +24,7 @@ import {
   LightPurple,
 } from "../../themes/colors";
 import { center, fadeIn } from "../../themes/styled";
-import { Large, XLarge, XXLarge } from "../../themes/font";
+import { Regular, Large, XLarge, XXLarge } from "../../themes/font";
 
 const Container = styled.div`
   position: fixed;
@@ -31,16 +33,21 @@ const Container = styled.div`
   left: 50%;
   transform: translate(-50%, -50%);
   ${center}
-  display: ${(props) => (props.show ? "flex" : "none")};
+  display: ${(props) => (props.show ? "block" : "none")};
   padding: 10px;
   border-radius: 18px;
   background: ${(props) =>
     props.queen
       ? `linear-gradient(to right, ${Yellow}, ${Red})`
       : props.runnerUp
-      ? `linear-gradient(to right, ${LightBlue}, ${Pink})`
-      : `linear-gradient(to right,  ${Orange}, ${Pink})`};
+        ? `linear-gradient(to right, ${LightBlue}, ${Pink})`
+        : `linear-gradient(to right,  ${Orange}, ${Pink})`};
   animation: ${fadeIn} 0.3s ease-in-out;
+`;
+
+const Wrapper = styled.div`
+  display: flex;
+  margin-bottom: 10px;
 `;
 
 const AvatarContainer = styled.div`
@@ -104,6 +111,31 @@ const StyleIdol = styled(IdolStyle)`
   margin-top: 10px;
 `;
 
+const DvdWrapper = styled.div`
+  display: flex;
+  padding: 10px 2px 5px;
+  gap: 10px;
+`;
+
+const DvdItem = styled.div`
+  ${center}
+  flex-direction: column;
+`;
+
+const PosterDvd = styled(DvdPoster)`
+  width: 7.5vw;
+  max-width: 7.5vw;
+  height: 5vw;
+  max-height: 5vw;
+`;
+
+const CodeDvd = styled.div`
+  margin-top: 5px;
+  font-size: ${Regular};
+  color: ${Black};
+  cursor: pointer;
+`;
+
 const ViewProfile = styled(Link)`
   position: absolute;
   bottom: 0px;
@@ -117,8 +149,8 @@ const ViewProfile = styled(Link)`
     props.queen === "true"
       ? `linear-gradient(to right, ${Yellow}, ${Red})`
       : props.runner === "true"
-      ? `linear-gradient(to right, ${LightBlue}, ${Pink})`
-      : `linear-gradient(to right,  ${Orange}, ${Pink})`};
+        ? `linear-gradient(to right, ${LightBlue}, ${Pink})`
+        : `linear-gradient(to right,  ${Orange}, ${Pink})`};
   text-decoration: none;
   color: ${Black};
   font-size: ${Large};
@@ -133,13 +165,23 @@ const ViewProfile = styled(Link)`
 function IdolDetail({ show, toggleModal, data }) {
   const location = useLocation();
 
+  const dvds = useMemo(
+    () =>
+      data
+        ? IDOL_PROFILE(data.idIdol, false).dvds.filter(
+            (_item, index) => index < 6,
+          )
+        : [],
+    [data],
+  );
+
   const controlModal = useCallback(
     (event) => {
       if (event.key === "Escape") {
         toggleModal();
       }
     },
-    [toggleModal]
+    [toggleModal],
   );
 
   useEffect(() => {
@@ -154,6 +196,20 @@ function IdolDetail({ show, toggleModal, data }) {
     };
   }, [show, controlModal]);
 
+  const copyToClipboard = useCallback((code) => {
+    const textarea = document.createElement("textarea");
+    textarea.style.position = "fixed";
+    textarea.style.left = "0";
+    textarea.style.top = "0";
+    textarea.style.opacity = "0";
+    textarea.value = code;
+    document.body.appendChild(textarea);
+    textarea.focus();
+    textarea.select();
+    document.execCommand("copy");
+    document.body.removeChild(textarea);
+  }, []);
+
   return createPortal(
     <Fragment>
       <Backdrop show={show} hiddenModal={toggleModal} />
@@ -162,54 +218,66 @@ function IdolDetail({ show, toggleModal, data }) {
         runnerUp={getIdolRank(get(data, "idIdol", "")) === 2}
         show={show}
       >
-        <AvatarContainer>
-          {checkBestIdol(get(data, "idIdol", "")) && (
-            <BadgeIdol
-              to={{
-                pathname: "/jav/idols",
-                state: {
-                  ...location.state,
-                  best: true,
-                  page: 1,
-                },
-              }}
+        <Wrapper>
+          <AvatarContainer>
+            {checkBestIdol(get(data, "idIdol", "")) && (
+              <BadgeIdol
+                to={{
+                  pathname: "/jav/idols",
+                  state: {
+                    ...location.state,
+                    best: true,
+                    page: 1,
+                  },
+                }}
+              >
+                ☿
+              </BadgeIdol>
+            )}
+            <AvatarIdol src={get(data, "avatar", null)} />
+            <ViewProfile
+              to={`/jav/idol/${get(data, "idIdol", "")}`}
+              queen={(getIdolRank(get(data, "idIdol", "")) === 1).toString()}
+              runner={(getIdolRank(get(data, "idIdol", "")) === 2).toString()}
             >
-              ☿
-            </BadgeIdol>
-          )}
-          <AvatarIdol src={get(data, "avatar", null)} />
-          <ViewProfile
-            to={`/jav/idol/${get(data, "idIdol", "")}`}
-            queen={(getIdolRank(get(data, "idIdol", "")) === 1).toString()}
-            runner={(getIdolRank(get(data, "idIdol", "")) === 2).toString()}
-          >
-            View
-          </ViewProfile>
-        </AvatarContainer>
-        <DetailContainer>
-          <NameIdol>
-            {get(data, "name", "")}{" "}
-            {get(data, "other", "") ? `(${get(data, "other")})` : ""}
-          </NameIdol>
-          <InformationIdol>
-            ● Born: {get(data, "born", "")} ({get(data, "age", "")} year olds)
-            <br />● Height: {get(data, "height", "")}
-            <br />● Breast: {get(data, "breast", "")}{" "}
-            <IdolCup cup={get(data, "cup", "")}>
-              ({get(data, "cup", "")})
-            </IdolCup>
-            <br />● Waist: {get(data, "waist", "")}
-            <br />● Hips: {get(data, "hips", "")}
-          </InformationIdol>
-          <StylesIdolContainer>
-            {get(data, "styles", []).map((item) => (
-              <StyleIdol key={item.tag} tag={item.tag} />
-            ))}
-          </StylesIdolContainer>
-        </DetailContainer>
+              View
+            </ViewProfile>
+          </AvatarContainer>
+          <DetailContainer>
+            <NameIdol>
+              {get(data, "name", "")}{" "}
+              {get(data, "other", "") ? `(${get(data, "other")})` : ""}
+            </NameIdol>
+            <InformationIdol>
+              ● Born: {get(data, "born", "")} ({get(data, "age", "")} year olds)
+              <br />● Height: {get(data, "height", "")}
+              <br />● Breast: {get(data, "breast", "")}{" "}
+              <IdolCup cup={get(data, "cup", "")}>
+                ({get(data, "cup", "")})
+              </IdolCup>
+              <br />● Waist: {get(data, "waist", "")}
+              <br />● Hips: {get(data, "hips", "")}
+            </InformationIdol>
+            <StylesIdolContainer>
+              {get(data, "styles", []).map((item) => (
+                <StyleIdol key={item.tag} tag={item.tag} />
+              ))}
+            </StylesIdolContainer>
+          </DetailContainer>
+        </Wrapper>
+        <DvdWrapper>
+          {dvds.map((item) => (
+            <DvdItem key={item.idDvd}>
+              <PosterDvd src={item.poster} />
+              <CodeDvd onClick={() => copyToClipboard(item.code)}>
+                {item.code}
+              </CodeDvd>
+            </DvdItem>
+          ))}
+        </DvdWrapper>
       </Container>
     </Fragment>,
-    document.body
+    document.body,
   );
 }
 
