@@ -1440,6 +1440,41 @@ const File61 = [
     type: "Censored",
     idols: [{ idIdol: "jai054", name: "Arisa Hanyu" }],
   },
+  {
+    code: "JUR-076",
+    title: `SHIINA YUNA RETURNS TO BONDAGE AFTER 10 YEARS...!! A MARRIED WOMAN ADDICTED TO HEMP ROPE`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/jur076/jur076pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai009", name: "Yuna Shiina" }],
+  },
+  {
+    code: "JUR-638",
+    title: `A MARRIED WOMAN WORKING AT A HIGH-CLASS CLUB, COVERED IN THE SWEAT AND BODILY FLUIDS OF HER WEALTHY CLIENTS, ENGAGES IN AFTER-HOURS SEX WORK—MARINA SHIRAISHI`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/jur638/jur638pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai067", name: "Marina Shiraishi" }],
+  },
+  {
+    code: "JUR-689",
+    title: `CUCKOLDING AND IMPALEMENT RING ● PLEASE VIOLATE MY BELOVED WIFE TO THE DEEPEST DEPTHS. - YUUKA NIIZUMA`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/jur689/jur689pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai241", name: "Yuuka Niizuma" }],
+  },
+  {
+    code: "JUR-687",
+    title: `FRIEND OF MINE BOASTED, "I HAVE SEX WITH MY WIFE THREE TIMES A WEEK." I ENDED UP SLEEPING WITH HIS WIFE, HAVING SEX WITH HER FIVE TIMES A WEEK, THREE OR FOUR TIMES EACH TIME, A TOTAL OF 19 TIMES.`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/jur687/jur687pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai076", name: "Megu Fujiura" }],
+  },
+  {
+    code: "JUR-651",
+    title: `ONLY I, THE CLASS REPRESENTATIVE, KNOW THE HIDDEN SIDE OF STUDENT GUIDANCE TEACHER AOI-SENSEI. AFTER SCHOOL, I SPEND MY DAYS EXPOSING MYSELF ON SCHOOL GROUNDS WITH THE SCHOOL'S MOST SERIOUS FEMALE TEACHER. - ICHINO AOI`,
+    poster: "https://pics.dmm.co.jp/mono/movie/adult/jur651/jur651pl.jpg",
+    type: "Censored",
+    idols: [{ idIdol: "jai226", name: "Aoi Ichino" }],
+  },
 ];
 
 export default File61;
