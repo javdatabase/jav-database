@@ -2125,7 +2125,7 @@ const File4 = [
     cup: "J-Cup",
     waist: "58 cm",
     hips: "92 cm",
-    styles: [{ tag: "Killer Tits" }],
+    styles: [{ tag: "Pretty" }, { tag: "Killer Tits" }],
     album: [
       { picture: shio_asami.shio_asami_2 },
       { picture: shio_asami.shio_asami_3 },
@@ -2150,7 +2150,7 @@ const File4 = [
     cup: "H-Cup",
     waist: "56 cm",
     hips: "86 cm",
-    styles: [{ tag: "Beautiful Breasts" }],
+    styles: [{ tag: "Pretty" }, { tag: "Beautiful Breasts" }],
     album: [
       { picture: nene_misumi.nene_misumi_2 },
       { picture: nene_misumi.nene_misumi_3 },
@@ -2287,7 +2287,11 @@ const File4 = [
     cup: "L-Cup",
     waist: "60 cm",
     hips: "90 cm",
-    styles: [{ tag: "Beautiful Breasts" }, { tag: "Killer Tits" }],
+    styles: [
+      { tag: "Pretty" },
+      { tag: "Beautiful Breasts" },
+      { tag: "Killer Tits" },
+    ],
     album: [
       {
         picture: ako_kimura.ako_kimura_2,
