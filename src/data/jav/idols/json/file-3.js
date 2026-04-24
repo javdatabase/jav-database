@@ -666,7 +666,7 @@ const File3 = [
     cup: "G-Cup",
     waist: "62 cm",
     hips: "97 cm",
-    styles: [{ tag: "Killer Tits" }],
+    styles: [{ tag: "Retired" }, { tag: "Killer Tits" }],
     album: [
       {
         picture:
@@ -1669,7 +1669,11 @@ const File3 = [
     cup: "G-Cup",
     waist: "58 cm",
     hips: "84 cm",
-    styles: [{ tag: "Beautiful Breasts" }, { tag: "Slender" }],
+    styles: [
+      { tag: "Retired" },
+      { tag: "Beautiful Breasts" },
+      { tag: "Slender" },
+    ],
     album: [
       {
         picture:
