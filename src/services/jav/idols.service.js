@@ -1,7 +1,7 @@
 import { toUpper, trim } from "lodash";
 
 import Idols from "../../data/jav/idols";
-import { BEST_IDOL_IDS } from "../../data/jav/best-idol-ids";
+import { BEST_IDOL_IDS } from "../../helpers/best-idol-ids";
 import { createLazy } from "../../utils/lazy";
 
 import {
@@ -20,7 +20,7 @@ const SIZE_IDOLS = Idols.length;
 const getAllIdolsDetail = createLazy(() => getAllIdolsDetailImpl());
 
 const getBestIdols = createLazy(() =>
-  getAllIdolsDetail().filter((item) => BEST_IDOL_IDS.includes(item.idIdol))
+  getAllIdolsDetail().filter((item) => BEST_IDOL_IDS.includes(item.idIdol)),
 );
 
 const getAllEarningIdols = createLazy(() =>
@@ -34,19 +34,19 @@ const getAllEarningIdols = createLazy(() =>
         item.styles,
         item.dvds.filter((d) => d.type === "Uncensored").length,
         BEST_IDOL_IDS.includes(item.idIdol),
-        item.dvds.filter((d) => checkVideo(d.code)).length
+        item.dvds.filter((d) => checkVideo(d.code)).length,
       ),
       bonus: getBonusEarnings(item.idIdol),
     }))
     .sort((a, b) => b.earnings + b.bonus * 4 - (a.earnings + a.bonus * 4))
-    .map((item, index) => ({ ...item, position: index + 1 }))
+    .map((item, index) => ({ ...item, position: index + 1 })),
 );
 
 const getAllBonusIdols = createLazy(() =>
   getAllEarningIdols()
     .filter((item) => !!item.bonus)
     .sort((a, b) => b.bonus - a.bonus)
-    .map((item, index) => ({ ...item, position: index + 1 }))
+    .map((item, index) => ({ ...item, position: index + 1 })),
 );
 
 const getAllOriginalIdols = createLazy(() =>
@@ -60,27 +60,27 @@ const getAllOriginalIdols = createLazy(() =>
         item.styles,
         item.dvds.filter((d) => d.type === "Uncensored").length,
         BEST_IDOL_IDS.includes(item.idIdol),
-        item.dvds.filter((d) => checkVideo(d.code)).length
+        item.dvds.filter((d) => checkVideo(d.code)).length,
       ),
       bonus: getBonusEarnings(item.idIdol),
     }))
     .sort((a, b) => b.earnings - a.earnings)
-    .map((item, index) => ({ ...item, position: index + 1 }))
+    .map((item, index) => ({ ...item, position: index + 1 })),
 );
 
 const getTotalOriginalEarnings = createLazy(() =>
-  getAllEarningIdols().reduce((acc, item) => acc + item.earnings, 0)
+  getAllEarningIdols().reduce((acc, item) => acc + item.earnings, 0),
 );
 
 const getTotalBonusEarnings = createLazy(() =>
-  getAllEarningIdols().reduce((acc, item) => acc + (item.bonus || 0) * 4, 0)
+  getAllEarningIdols().reduce((acc, item) => acc + (item.bonus || 0) * 4, 0),
 );
 
 const getTotalIdolEarnings = createLazy(() =>
   getAllEarningIdols().reduce(
     (acc, item) => acc + item.earnings + (item.bonus || 0) * 4,
-    0
-  )
+    0,
+  ),
 );
 
 // --- Service functions (use raw data directly — no lazy needed) ---
@@ -99,23 +99,23 @@ const ALL_IDOLS_BY_PAGE = (
   censored,
   retired,
   page,
-  pageSize
+  pageSize,
 ) => {
   let temp = sortIdols(Idols);
   if (name) {
     temp = temp.filter((item) =>
-      toUpper(item.name + " " + item.other).includes(toUpper(trim(name)))
+      toUpper(item.name + " " + item.other).includes(toUpper(trim(name))),
     );
   }
   if (cup && cup.length > 0) {
     temp = temp.filter(
-      (item) => !!cup.find((filter) => filter.value === item.cup)
+      (item) => !!cup.find((filter) => filter.value === item.cup),
     );
   }
   if (styles && styles.length > 0) {
     temp = temp.filter((item) => {
       const result = item.styles.filter(
-        (style) => !!styles.find((filter) => filter.value === style.tag)
+        (style) => !!styles.find((filter) => filter.value === style.tag),
       );
       return result.length >= styles.length;
     });
@@ -134,22 +134,22 @@ const ALL_IDOLS_BY_PAGE = (
   }
   if (working === true && retired === false) {
     temp = temp.filter(
-      (item) => !item.styles.find((style) => style.tag === "Retired")
+      (item) => !item.styles.find((style) => style.tag === "Retired"),
     );
   }
   if (working === false && retired === true) {
     temp = temp.filter(
-      (item) => !!item.styles.find((style) => style.tag === "Retired")
+      (item) => !!item.styles.find((style) => style.tag === "Retired"),
     );
   }
   if (height) {
     temp = temp.filter(
-      (item) => Number(item.height.replace(" cm", "")) >= height
+      (item) => Number(item.height.replace(" cm", "")) >= height,
     );
   }
   if (breast) {
     temp = temp.filter(
-      (item) => Number(item.breast.replace(" cm", "")) >= breast
+      (item) => Number(item.breast.replace(" cm", "")) >= breast,
     );
   }
   if (hips) {

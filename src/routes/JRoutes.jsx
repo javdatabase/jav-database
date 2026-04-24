@@ -123,19 +123,19 @@ function JRoutes() {
   return (
     <Suspense fallback={<Loading />}>
       <Routes>
-        <Route path="/jav" element={<Navigate to="/jav/home" replace />} />
-        <Route path="/jav/home" element={<Home />} />
-        <Route path="/jav/lucky-box" element={<LuckyBox />} />
-        <Route path="/jav/best-idols" element={<BestIdols />} />
-        <Route path="/jav/top-earnings" element={<TopEarnings />} />
-        <Route path="/jav/ranking" element={<Ranking />} />
-        <Route path="/jav/idols" element={<Idols />} />
-        <Route path="/jav/idol/:id/*" element={<Idol />} />
-        <Route path="/jav/dvds" element={<Dvds />} />
-        <Route path="/jav/pre-release-dvds" element={<PreReleaseDvds />} />
-        <Route path="/jav/amateur-dvds" element={<AmateurDvds />} />
-        <Route path="/jav/videos" element={<Videos />} />
-        <Route path="/jav/video/:code" element={<Video />} />
+        <Route index element={<Navigate to="/jav/home" replace />} />
+        <Route path="home" element={<Home />} />
+        <Route path="lucky-box" element={<LuckyBox />} />
+        <Route path="best-idols" element={<BestIdols />} />
+        <Route path="top-earnings" element={<TopEarnings />} />
+        <Route path="ranking" element={<Ranking />} />
+        <Route path="idols" element={<Idols />} />
+        <Route path="idol/:id/*" element={<Idol />} />
+        <Route path="dvds" element={<Dvds />} />
+        <Route path="pre-release-dvds" element={<PreReleaseDvds />} />
+        <Route path="amateur-dvds" element={<AmateurDvds />} />
+        <Route path="videos" element={<Videos />} />
+        <Route path="video/:code" element={<Video />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Suspense>

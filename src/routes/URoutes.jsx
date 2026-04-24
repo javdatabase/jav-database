@@ -95,12 +95,12 @@ function URoutes() {
   return (
     <Suspense fallback={<Loading />}>
       <Routes>
-        <Route path="/upv" element={<Navigate to="/upv/home" replace />} />
-        <Route path="/upv/home" element={<Home />} />
-        <Route path="/upv/lucky-box" element={<LuckyBox />} />
-        <Route path="/upv/top-earnings" element={<TopEarnings />} />
-        <Route path="/upv/stars" element={<Stars />} />
-        <Route path="/upv/star/:id/*" element={<Star />} />
+        <Route index element={<Navigate to="/upv/home" replace />} />
+        <Route path="home" element={<Home />} />
+        <Route path="lucky-box" element={<LuckyBox />} />
+        <Route path="top-earnings" element={<TopEarnings />} />
+        <Route path="stars" element={<Stars />} />
+        <Route path="star/:id/*" element={<Star />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Suspense>

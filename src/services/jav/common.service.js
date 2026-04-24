@@ -3,7 +3,7 @@ import { get, omit, random } from "lodash";
 import Idols from "../../data/jav/idols";
 import MainDvds from "../../data/jav/dvds/main";
 import Videos from "../../data/jav/videos";
-import { BEST_IDOL_IDS } from "../../data/jav/best-idol-ids";
+import { BEST_IDOL_IDS } from "../../helpers/best-idol-ids";
 import { createLazy } from "../../utils/lazy";
 
 import { SIZE_MAIN_DVDS } from "./dvds.service";
@@ -93,7 +93,7 @@ function sortIdols(idols) {
 
 function getDvdsByIdol(id) {
   const dvds = MainDvds.filter((item) =>
-    item.idols.find((idol) => idol.idIdol === id)
+    item.idols.find((idol) => idol.idIdol === id),
   );
   return {
     size: dvds.length,
@@ -150,7 +150,7 @@ function getIdolsRandom() {
   function generateNewIdol(index) {
     let a = allIdolsDetail.slice(
       index * splitSize,
-      splitSize * (index + 1) - 1
+      splitSize * (index + 1) - 1,
     );
     let n = random(splitSize - 1);
     while (n > a.length - 1) {
