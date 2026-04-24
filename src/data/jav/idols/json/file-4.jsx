@@ -1707,7 +1707,7 @@ const File4 = [
     cup: "D-Cup",
     waist: "57 cm",
     hips: "82 cm",
-    styles: [{ tag: "Cute" }, { tag: "Slender" }],
+    styles: [{ tag: "Retired" }, { tag: "Cute" }, { tag: "Slender" }],
     album: [
       {
         picture:
