@@ -7,7 +7,7 @@ import React, {
 } from "react";
 import { get, chunk } from "lodash";
 import styled from "styled-components";
-import { useHistory, useLocation } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 import { Grid } from "react-virtualized";
 import ElementResizeEvent from "element-resize-event";
 
@@ -115,7 +115,7 @@ const NotFound = styled.div`
 `;
 
 function Idols() {
-  const history = useHistory();
+  const navigate = useNavigate();
   const location = useLocation();
   const [filterHeight, setFilterHeight] = useState(160);
   const [show, setShow] = useState(false);
@@ -163,25 +163,25 @@ function Idols() {
   const handleChangeName = useCallback(
     (name) => {
       const state = { ...location.state, name: name, page: 1 };
-      history.push(location.pathname, state);
+      navigate(location.pathname, { state });
     },
-    [history, location]
+    [navigate, location]
   );
 
   const handleChangeCup = useCallback(
     (cup) => {
       const state = { ...location.state, cup: cup, page: 1 };
-      history.push(location.pathname, state);
+      navigate(location.pathname, { state });
     },
-    [history, location]
+    [navigate, location]
   );
 
   const handleChangeStyles = useCallback(
     (styles) => {
       const state = { ...location.state, styles: styles, page: 1 };
-      history.push(location.pathname, state);
+      navigate(location.pathname, { state });
     },
-    [history, location]
+    [navigate, location]
   );
 
   const handleChangeBest = useCallback(() => {
@@ -190,8 +190,8 @@ function Idols() {
       best: !get(location.state, "best", false),
       page: 1,
     };
-    history.push(location.pathname, state);
-  }, [history, location]);
+    navigate(location.pathname, { state });
+  }, [navigate, location]);
 
   const handleChangeUncensored = useCallback(() => {
     const state = {
@@ -199,8 +199,8 @@ function Idols() {
       uncensored: !get(location.state, "uncensored", false),
       page: 1,
     };
-    history.push(location.pathname, state);
-  }, [history, location]);
+    navigate(location.pathname, { state });
+  }, [navigate, location]);
 
   const handleChangeWorking = useCallback(() => {
     const state = {
@@ -208,31 +208,31 @@ function Idols() {
       working: !get(location.state, "working", false),
       page: 1,
     };
-    history.push(location.pathname, state);
-  }, [history, location]);
+    navigate(location.pathname, { state });
+  }, [navigate, location]);
 
   const handleChangeHeight = useCallback(
     (height) => {
       const state = { ...location.state, height: height, page: 1 };
-      history.push(location.pathname, state);
+      navigate(location.pathname, { state });
     },
-    [history, location]
+    [navigate, location]
   );
 
   const handleChangeBreast = useCallback(
     (breast) => {
       const state = { ...location.state, breast: breast, page: 1 };
-      history.push(location.pathname, state);
+      navigate(location.pathname, { state });
     },
-    [history, location]
+    [navigate, location]
   );
 
   const handleChangeHips = useCallback(
     (hips) => {
       const state = { ...location.state, hips: hips, page: 1 };
-      history.push(location.pathname, state);
+      navigate(location.pathname, { state });
     },
-    [history, location]
+    [navigate, location]
   );
 
   const handleChangeNormal = useCallback(() => {
@@ -241,8 +241,8 @@ function Idols() {
       normal: !get(location.state, "normal", false),
       page: 1,
     };
-    history.push(location.pathname, state);
-  }, [history, location]);
+    navigate(location.pathname, { state });
+  }, [navigate, location]);
 
   const handleChangeCensored = useCallback(() => {
     const state = {
@@ -250,8 +250,8 @@ function Idols() {
       censored: !get(location.state, "censored", false),
       page: 1,
     };
-    history.push(location.pathname, state);
-  }, [history, location]);
+    navigate(location.pathname, { state });
+  }, [navigate, location]);
 
   const handleChangeRetired = useCallback(() => {
     const state = {
@@ -259,8 +259,8 @@ function Idols() {
       retired: !get(location.state, "retired", false),
       page: 1,
     };
-    history.push(location.pathname, state);
-  }, [history, location]);
+    navigate(location.pathname, { state });
+  }, [navigate, location]);
 
   const handleChangePage = useCallback(
     (page) => {
@@ -268,9 +268,9 @@ function Idols() {
         ...location.state,
         page: page,
       };
-      history.push(location.pathname, state);
+      navigate(location.pathname, { state });
     },
-    [history, location]
+    [navigate, location]
   );
 
   const toggleModal = useCallback(() => {

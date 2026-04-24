@@ -1,6 +1,6 @@
 import React, { Suspense, lazy } from "react";
 import styled from "styled-components";
-import { Switch, Route, Redirect } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 
 import LoadingIcon from "../assets/images/ic_loading_upv/ic_loading_upv.svg";
 
@@ -57,7 +57,6 @@ function componentLoader(lazyComponent, attemptsLeft = 3) {
     lazyComponent()
       .then(resolve)
       .catch((error) => {
-        // let us retry after 500 ms
         setTimeout(() => {
           if (attemptsLeft === 1) {
             reject(error);
@@ -95,23 +94,15 @@ const TopEarnings = lazy(() =>
 function URoutes() {
   return (
     <Suspense fallback={<Loading />}>
-      <Switch>
-        <Route
-          path={"/upv"}
-          exact={true}
-          render={() => <Redirect to={"/upv/home"} exact={true} />}
-        />
-        <Route path={"/upv/home"} exact={true} component={Home} />
-        <Route path={"/upv/lucky-box"} exact={true} component={LuckyBox} />
-        <Route
-          path={"/upv/top-earnings"}
-          exact={true}
-          component={TopEarnings}
-        />
-        <Route path={"/upv/stars"} exact={true} component={Stars} />
-        <Route path={"/upv/star/:id"} exact={false} component={Star} />
-        <Route path={"*"} component={NotFound} />
-      </Switch>
+      <Routes>
+        <Route path="/upv" element={<Navigate to="/upv/home" replace />} />
+        <Route path="/upv/home" element={<Home />} />
+        <Route path="/upv/lucky-box" element={<LuckyBox />} />
+        <Route path="/upv/top-earnings" element={<TopEarnings />} />
+        <Route path="/upv/stars" element={<Stars />} />
+        <Route path="/upv/star/:id/*" element={<Star />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
     </Suspense>
   );
 }

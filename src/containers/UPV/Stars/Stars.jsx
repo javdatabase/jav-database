@@ -7,7 +7,7 @@ import React, {
 } from "react";
 import { get, chunk } from "lodash";
 import styled from "styled-components";
-import { useHistory, useLocation } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 import { Grid } from "react-virtualized";
 import ElementResizeEvent from "element-resize-event";
 
@@ -99,7 +99,7 @@ const NotFound = styled.div`
 `;
 
 function Stars() {
-  const history = useHistory();
+  const navigate = useNavigate();
   const location = useLocation();
   const [filterHeight, setFilterHeight] = useState(160);
   const [show, setShow] = useState(false);
@@ -140,41 +140,41 @@ function Stars() {
   const handleChangeName = useCallback(
     (name) => {
       const state = { ...location.state, name: name, page: 1 };
-      history.push(location.pathname, state);
+      navigate(location.pathname, { state });
     },
-    [history, location]
+    [navigate, location]
   );
 
   const handleChangeCup = useCallback(
     (cup) => {
       const state = { ...location.state, cup: cup, page: 1 };
-      history.push(location.pathname, state);
+      navigate(location.pathname, { state });
     },
-    [history, location]
+    [navigate, location]
   );
 
   const handleChangeHeight = useCallback(
     (height) => {
       const state = { ...location.state, height: height, page: 1 };
-      history.push(location.pathname, state);
+      navigate(location.pathname, { state });
     },
-    [history, location]
+    [navigate, location]
   );
 
   const handleChangeBreast = useCallback(
     (breast) => {
       const state = { ...location.state, breast: breast, page: 1 };
-      history.push(location.pathname, state);
+      navigate(location.pathname, { state });
     },
-    [history, location]
+    [navigate, location]
   );
 
   const handleChangeHips = useCallback(
     (hips) => {
       const state = { ...location.state, hips: hips, page: 1 };
-      history.push(location.pathname, state);
+      navigate(location.pathname, { state });
     },
-    [history, location]
+    [navigate, location]
   );
 
   const handleChangePage = useCallback(
@@ -183,9 +183,9 @@ function Stars() {
         ...location.state,
         page: page,
       };
-      history.push(location.pathname, state);
+      navigate(location.pathname, { state });
     },
-    [history, location]
+    [navigate, location]
   );
 
   const toggleModal = useCallback(() => {

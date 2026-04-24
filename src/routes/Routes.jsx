@@ -1,6 +1,6 @@
 import React, { Suspense, lazy } from "react";
 import styled from "styled-components";
-import { Switch, Route, Redirect } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 
 import LoadingIcon from "../assets/images/ic_loading_jav/ic_loading_jav.svg";
 
@@ -57,7 +57,6 @@ function componentLoader(lazyComponent, attemptsLeft = 3) {
     lazyComponent()
       .then(resolve)
       .catch((error) => {
-        // let us retry after 500 ms
         setTimeout(() => {
           if (attemptsLeft === 1) {
             reject(error);
@@ -112,54 +111,26 @@ const UPVStarDataTool = lazy(() =>
   componentLoader(() => import("../containers/Common/Tools/UPVStarData"))
 );
 
-function Routes() {
+function AppRoutes() {
   return (
     <Suspense fallback={<Loading />}>
-      <Switch>
-        <Route
-          path={"/"}
-          exact={true}
-          render={() => <Redirect to={"/jav"} />}
-        />
-        <Route path={"/jav"} component={Jav} />
-        <Route path={"/upv"} component={Upv} />
-        <Route path={"/debug"} exact={true} component={Debug} />
-        <Route path={"/tools"} exact={true} component={Tools} />
-        <Route path={"/top-earnings"} exact={true} component={TopEarnings} />
-        <Route
-          path={"/tools/get-jav-dvd-data"}
-          exact={true}
-          component={GetJAVDvdDataTool}
-        />
-        <Route
-          path={"/tools/jav-dvd-data"}
-          exact={true}
-          component={JAVDvdDataTool}
-        />
-        <Route
-          path={"/tools/jav-idol-data"}
-          exact={true}
-          component={JAVIdolDataTool}
-        />
-        <Route
-          path={"/tools/jav-video-data"}
-          exact={true}
-          component={JAVVideoDataTool}
-        />
-        <Route
-          path={"/tools/upv-video-data"}
-          exact={true}
-          component={UPVVideoDataTool}
-        />
-        <Route
-          path={"/tools/upv-star-data"}
-          exact={true}
-          component={UPVStarDataTool}
-        />
-        <Route path={"*"} component={NotFound} />
-      </Switch>
+      <Routes>
+        <Route path="/" element={<Navigate to="/jav" replace />} />
+        <Route path="/jav/*" element={<Jav />} />
+        <Route path="/upv/*" element={<Upv />} />
+        <Route path="/debug" element={<Debug />} />
+        <Route path="/tools" element={<Tools />} />
+        <Route path="/top-earnings" element={<TopEarnings />} />
+        <Route path="/tools/get-jav-dvd-data" element={<GetJAVDvdDataTool />} />
+        <Route path="/tools/jav-dvd-data" element={<JAVDvdDataTool />} />
+        <Route path="/tools/jav-idol-data" element={<JAVIdolDataTool />} />
+        <Route path="/tools/jav-video-data" element={<JAVVideoDataTool />} />
+        <Route path="/tools/upv-video-data" element={<UPVVideoDataTool />} />
+        <Route path="/tools/upv-star-data" element={<UPVStarDataTool />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
     </Suspense>
   );
 }
 
-export default Routes;
+export default AppRoutes;

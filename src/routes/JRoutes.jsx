@@ -1,6 +1,6 @@
 import React, { Suspense, lazy } from "react";
 import styled from "styled-components";
-import { Switch, Route, Redirect } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 
 import LoadingIcon from "../assets/images/ic_loading_jav/ic_loading_jav.svg";
 
@@ -57,7 +57,6 @@ function componentLoader(lazyComponent, attemptsLeft = 3) {
     lazyComponent()
       .then(resolve)
       .catch((error) => {
-        // let us retry after 500 ms
         setTimeout(() => {
           if (attemptsLeft === 1) {
             reject(error);
@@ -123,38 +122,22 @@ const Video = lazy(() =>
 function JRoutes() {
   return (
     <Suspense fallback={<Loading />}>
-      <Switch>
-        <Route
-          path={"/jav"}
-          exact={true}
-          render={() => <Redirect to={"/jav/home"} exact={true} />}
-        />
-        <Route path={"/jav/home"} exact={true} component={Home} />
-        <Route path={"/jav/lucky-box"} exact={true} component={LuckyBox} />
-        <Route path={"/jav/best-idols"} exact={true} component={BestIdols} />
-        <Route
-          path={"/jav/top-earnings"}
-          exact={true}
-          component={TopEarnings}
-        />
-        <Route path={"/jav/ranking"} exact={true} component={Ranking} />
-        <Route path={"/jav/idols"} exact={true} component={Idols} />
-        <Route path={"/jav/idol/:id"} exact={false} component={Idol} />
-        <Route path={"/jav/dvds"} exact={true} component={Dvds} />
-        <Route
-          path={"/jav/pre-release-dvds"}
-          exact={true}
-          component={PreReleaseDvds}
-        />
-        <Route
-          path={"/jav/amateur-dvds"}
-          exact={true}
-          component={AmateurDvds}
-        />
-        <Route path={"/jav/videos"} exact={true} component={Videos} />
-        <Route path={"/jav/video/:code"} exact={true} component={Video} />
-        <Route path={"*"} component={NotFound} />
-      </Switch>
+      <Routes>
+        <Route path="/jav" element={<Navigate to="/jav/home" replace />} />
+        <Route path="/jav/home" element={<Home />} />
+        <Route path="/jav/lucky-box" element={<LuckyBox />} />
+        <Route path="/jav/best-idols" element={<BestIdols />} />
+        <Route path="/jav/top-earnings" element={<TopEarnings />} />
+        <Route path="/jav/ranking" element={<Ranking />} />
+        <Route path="/jav/idols" element={<Idols />} />
+        <Route path="/jav/idol/:id/*" element={<Idol />} />
+        <Route path="/jav/dvds" element={<Dvds />} />
+        <Route path="/jav/pre-release-dvds" element={<PreReleaseDvds />} />
+        <Route path="/jav/amateur-dvds" element={<AmateurDvds />} />
+        <Route path="/jav/videos" element={<Videos />} />
+        <Route path="/jav/video/:code" element={<Video />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
     </Suspense>
   );
 }

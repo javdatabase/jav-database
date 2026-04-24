@@ -1,6 +1,6 @@
 import React, { useState, useMemo, useEffect, useCallback } from "react";
 import { get } from "lodash";
-import { Link, useHistory, useLocation } from "react-router-dom";
+import { Link, useNavigate, useLocation } from "react-router-dom";
 import styled from "styled-components";
 
 import {
@@ -117,7 +117,7 @@ const DetailContainer = styled.div`
 `;
 
 function LuckyBox() {
-  const history = useHistory();
+  const navigate = useNavigate();
   const location = useLocation();
   const [first, setFirst] = useState(true);
   const [highlight, setHighlight] = useState(0);
@@ -150,9 +150,9 @@ function LuckyBox() {
       } else {
         setData(getStarsRandom());
       }
-      history.push(location.pathname, { type: value });
+      navigate(location.pathname, { state: { type: value } });
     },
-    [history, location.pathname]
+    [navigate, location.pathname]
   );
 
   const endLoop = useCallback(() => {
