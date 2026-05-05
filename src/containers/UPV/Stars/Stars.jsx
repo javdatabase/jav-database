@@ -36,6 +36,8 @@ const FilterStarsContainer = styled.div`
 const RowFilter = styled.div`
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
   min-height: 80px;
   padding: 20px;
   box-sizing: border-box;
@@ -43,7 +45,6 @@ const RowFilter = styled.div`
 
 const SelectCustom = styled(Select)`
   width: 300px;
-  margin-left: 30px;
 `;
 
 const Result = styled.div`
@@ -81,7 +82,7 @@ const StarContainer = styled.div`
 
 const StarItem = styled.div`
   ${center};
-  width: 16vw;
+  width: 82%;
   animation: ${fadeIn} 1s linear;
 `;
 
@@ -233,14 +234,12 @@ function Stars() {
             onChange={(e) => handleChangeHeight(e.target.value)}
           />
           <Input
-            style={{ marginLeft: "30px" }}
             placeholder={"Search breast..."}
             type={"number"}
             value={get(location.state, "breast", "")}
             onChange={(e) => handleChangeBreast(e.target.value)}
           />
           <Input
-            style={{ marginLeft: "30px" }}
             placeholder={"Search hips..."}
             type={"number"}
             value={get(location.state, "hips", "")}

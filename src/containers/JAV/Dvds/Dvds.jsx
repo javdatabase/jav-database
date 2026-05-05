@@ -79,7 +79,7 @@ const DvdContainer = styled.div`
 
 const DvdItem = styled.div`
   ${center}
-  width: 15vw;
+  width: 88%;
   animation: ${fadeIn} 1s linear;
 `;
 

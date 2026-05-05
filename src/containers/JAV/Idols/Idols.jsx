@@ -47,6 +47,8 @@ const FilterIdolsContainer = styled.div`
 const RowFilter = styled.div`
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
   min-height: 80px;
   padding: 20px;
   box-sizing: border-box;
@@ -54,12 +56,10 @@ const RowFilter = styled.div`
 
 const SelectCustom = styled(Select)`
   width: 300px;
-  margin-left: 30px;
 `;
 
 const CheckboxGroup = styled.div`
   display: flex;
-  margin-left: 30px;
 `;
 
 const Result = styled.div`
@@ -97,7 +97,7 @@ const IdolContainer = styled.div`
 
 const IdolItem = styled.div`
   ${center};
-  width: 16vw;
+  width: 82%;
   animation: ${fadeIn} 1s linear;
 `;
 
@@ -352,14 +352,12 @@ function Idols() {
             onChange={(e) => handleChangeHeight(e.target.value)}
           />
           <Input
-            style={{ marginLeft: "30px" }}
             placeholder={"Search breast..."}
             type={"number"}
             value={get(location.state, "breast", "")}
             onChange={(e) => handleChangeBreast(e.target.value)}
           />
           <Input
-            style={{ marginLeft: "30px" }}
             placeholder={"Search hips..."}
             type={"number"}
             value={get(location.state, "hips", "")}
@@ -372,14 +370,14 @@ function Idols() {
               onChange={handleChangeNormal}
             />
           </CheckboxGroup>
-          <CheckboxGroup style={{ marginLeft: "44.5px" }}>
+          <CheckboxGroup>
             <Checkbox
               label={"Censored"}
               value={get(location.state, "censored", false)}
               onChange={handleChangeCensored}
             />
           </CheckboxGroup>
-          <CheckboxGroup style={{ marginLeft: "50.5px" }}>
+          <CheckboxGroup>
             <Checkbox
               label={"Retired"}
               value={get(location.state, "retired", false)}

@@ -11,27 +11,26 @@ const Container = styled.div`
   ${center}
   flex-direction: column;
   cursor: pointer;
-  width: 16vw;
-  height: calc(22vw + 50px);
+  width: 100%;
   transform: translateY(0px);
   transition: transform 0.3s ease-in-out;
 
   &:hover {
-    transform: translateY(-40px);
+    transform: translateY(-20px);
   }
 `;
 
 const AvatarContainer = styled.div`
   position: relative;
-  width: 16vw;
-  height: 22vw;
+  width: 100%;
+  aspect-ratio: 8 / 11;
   border-radius: 18px;
   overflow: hidden;
 `;
 
 const AvatarStar = styled(Image)`
-  width: 16vw;
-  height: 22vw;
+  width: 100%;
+  height: 100%;
   border-radius: 18px;
   object-fit: cover;
 `;
