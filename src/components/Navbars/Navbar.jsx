@@ -1,6 +1,6 @@
 import React, { Fragment, memo, useMemo, useCallback } from "react";
 import styled from "styled-components";
-import { Link, useHistory, useLocation } from "react-router-dom";
+import { Link, useNavigate, useLocation } from "react-router-dom";
 
 import {
   SIZE_MAIN_DVDS,
@@ -136,10 +136,10 @@ const Arrow = styled.img`
 `;
 
 function Navbar({ show, toggleMenu }) {
-  const history = useHistory();
+  const navigate = useNavigate();
   const location = useLocation();
 
-  const navigate = useMemo(
+  const navItems = useMemo(
     () =>
       !isNotMain(location.pathname)
         ? [
@@ -210,9 +210,9 @@ function Navbar({ show, toggleMenu }) {
   );
 
   const handleClickLogo = useCallback(() => {
-    history.push(!isNotMain(location.pathname) ? "/jav" : "/upv");
+    navigate(!isNotMain(location.pathname) ? "/jav" : "/upv");
     toggleMenu();
-  }, [history, location.pathname, toggleMenu]);
+  }, [navigate, location.pathname, toggleMenu]);
 
   return (
     <Fragment>
@@ -235,7 +235,7 @@ function Navbar({ show, toggleMenu }) {
             <img src={SwapIcon} alt={""} />
           </ButtonSwitch>
         </ButtonContainer>
-        {navigate.map((item, index) => (
+        {navItems.map((item, index) => (
           <Navigate
             key={item.path}
             active={location.pathname === item.path ? 1 : 0}

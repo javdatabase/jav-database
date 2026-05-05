@@ -3,13 +3,14 @@ import { get, omit, random } from "lodash";
 import Idols from "../../data/jav/idols";
 import MainDvds from "../../data/jav/dvds/main";
 import Videos from "../../data/jav/videos";
+import { BEST_IDOL_IDS } from "../../helpers/best-idol-ids";
+import { createLazy } from "../../utils/lazy";
 
-import { SIZE_IDOLS, ALL_IDOLS_DETAIL, BEST_IDOL_IDS } from "./idols.service";
 import { SIZE_MAIN_DVDS } from "./dvds.service";
 
 function findIdolById(id) {
   let detail = undefined;
-  for (let i = 0; i < SIZE_IDOLS; i++) {
+  for (let i = 0; i < Idols.length; i++) {
     if (Idols[i].idIdol === id) {
       detail = Idols[i];
     }
@@ -28,10 +29,11 @@ function getIdolName(id) {
 }
 
 function findIdolDetail(id) {
+  const allIdols = getAllIdolsDetail();
   let detail = undefined;
-  for (let i = 0; i < ALL_IDOLS_DETAIL.length; i++) {
-    if (ALL_IDOLS_DETAIL[i].idIdol === id) {
-      detail = ALL_IDOLS_DETAIL[i];
+  for (let i = 0; i < allIdols.length; i++) {
+    if (allIdols[i].idIdol === id) {
+      detail = allIdols[i];
     }
   }
   return detail;
@@ -61,7 +63,7 @@ function checkUncensoredIdol(id) {
   return response;
 }
 
-function getAllIdolsDetail() {
+function getAllIdolsDetailImpl() {
   const idols = Idols.map((item) => {
     const { dvds, size } = getDvdsByIdol(item.idIdol);
     return {
@@ -76,6 +78,8 @@ function getAllIdolsDetail() {
   return response;
 }
 
+const getAllIdolsDetail = createLazy(() => getAllIdolsDetailImpl());
+
 function sortIdols(idols) {
   const response = [...idols].sort((a, b) => {
     let x = a.name.toUpperCase();
@@ -89,7 +93,7 @@ function sortIdols(idols) {
 
 function getDvdsByIdol(id) {
   const dvds = MainDvds.filter((item) =>
-    item.idols.find((idol) => idol.idIdol === id)
+    item.idols.find((idol) => idol.idIdol === id),
   );
   return {
     size: dvds.length,
@@ -141,12 +145,12 @@ function getVideosRandom() {
 
 function getIdolsRandom() {
   const allIdolsDetail = getAllIdolsDetail();
-  const splitSize = Math.floor(SIZE_IDOLS / 10);
+  const splitSize = Math.floor(Idols.length / 10);
 
   function generateNewIdol(index) {
     let a = allIdolsDetail.slice(
       index * splitSize,
-      splitSize * (index + 1) - 1
+      splitSize * (index + 1) - 1,
     );
     let n = random(splitSize - 1);
     while (n > a.length - 1) {
@@ -187,6 +191,7 @@ export {
   checkBestIdol,
   checkUncensoredIdol,
   getAllIdolsDetail,
+  getAllIdolsDetailImpl,
   sortIdols,
   getDvdsByIdol,
   getDvdsRandom,

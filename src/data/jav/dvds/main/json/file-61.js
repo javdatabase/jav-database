@@ -1803,20 +1803,6 @@ const File61 = [
     idols: [{ idIdol: "jai144", name: "Kanna Misaki" }],
   },
   {
-    code: "PRED-828",
-    title: `SUCK! SPERM! PTOM! TWO HORNY GIRLS WHO ARE MORE THAN JUST BEST FRIENDS MELT INTO EACH OTHER IN THIS SLUTTY HAREM SPECIAL. YAMAGISHI AYAKA AND TAKEUCHI YUKI`,
-    poster: "https://pics.dmm.co.jp/mono/movie/adult/pred828/pred828pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai204", name: "Aika Yamagishi" }],
-  },
-  {
-    code: "PRED-832",
-    title: `A REJUVENATING MASSAGE PARLOR WHERE SHE WHISPERS DIRTY WORDS AND MAKES YOU CUM ONE, TWO, THREE TIMES. CREAMPIE OK, 23 FOLLOW-UP SHOTS, AGONIZING MALE SQUIRTING, AND A CLIMAX THAT WILL LEAVE YOU EXHAUSTED. EXTRA OIL! YAMAGISHI AYAKA`,
-    poster: "https://pics.dmm.co.jp/mono/movie/adult/pred832/pred832pl.jpg",
-    type: "Censored",
-    idols: [{ idIdol: "jai204", name: "Aika Yamagishi" }],
-  },
-  {
     code: "MIDA-576",
     title: `A REWARD FOR THE MASOCHISTIC TEACHER! DRINK ALL OF HER SALIVA, PEE, SWEAT, AND LOVE JUICE! DROWN IN THE EXCITEMENT JUICES OF A GRINNING DEVILISH STUDENT! HOLY WATER DRIPPING ACADEMY ONO RIKKA`,
     poster: "https://pics.dmm.co.jp/mono/movie/adult/mida576/mida576pl.jpg",

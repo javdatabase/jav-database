@@ -11,13 +11,18 @@ import { InfiniteLoader, List } from "react-virtualized";
 
 import { priceCurrency } from "../../helpers/render-price";
 import {
-  ALL_EARNING_STARS,
-  TOTAL_EARNINGS as STAR_TOTAL_EARNINGS,
+  getAllEarningStars,
+  getTotalStarEarnings,
 } from "../../services/upv/stars.service";
 import {
-  ALL_EARNING_IDOLS,
-  TOTAL_EARNINGS as IDOL_TOTAL_EARNINGS,
+  getAllEarningIdols,
+  getTotalIdolEarnings,
 } from "../../services/jav/idols.service";
+
+const ALL_EARNING_STARS = getAllEarningStars();
+const STAR_TOTAL_EARNINGS = getTotalStarEarnings();
+const ALL_EARNING_IDOLS = getAllEarningIdols();
+const IDOL_TOTAL_EARNINGS = getTotalIdolEarnings();
 import StarEarning from "../../components/Stars/StarEarning";
 import IdolEarning from "../../components/Idols/IdolEarning";
 

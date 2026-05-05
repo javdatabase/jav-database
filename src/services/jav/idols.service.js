@@ -1,10 +1,11 @@
 import { toUpper, trim } from "lodash";
 
 import Idols from "../../data/jav/idols";
+import { BEST_IDOL_IDS } from "../../helpers/best-idol-ids";
+import { createLazy } from "../../utils/lazy";
 
 import {
-  findIdolDetail,
-  getAllIdolsDetail,
+  getAllIdolsDetailImpl,
   sortIdols,
   sortDvds,
   checkUncensoredIdol,
@@ -14,107 +15,75 @@ import { getEarningIdol, getBonusEarnings } from "./earnings.service";
 
 const SIZE_IDOLS = Idols.length;
 
-const ALL_IDOLS_DETAIL = getAllIdolsDetail();
+// --- Lazy computed values (computed on first access, cached forever) ---
 
-const BEST_IDOL_IDS = [
-  "jai001",
-  "jai002",
-  "jai003",
-  "jai004",
-  "jai006",
-  "jai008",
-  "jai009",
-  "jai015",
-  "jai016",
-  "jai020",
-  "jai021",
-  "jai024",
-  "jai028",
-  "jai029",
-  "jai032",
-  "jai036",
-  "jai037",
-  "jai038",
-  "jai040",
-  "jai041",
-  "jai042",
-  "jai045",
-  "jai049",
-  "jai051",
-  "jai052",
-  "jai054",
-  "jai057",
-  "jai060",
-  "jai061",
-  "jai062",
-  "jai063",
-  "jai066",
-  "jai068",
-  "jai069",
-  "jai070",
-  "jai071",
-  "jai074",
-  "jai076",
-  "jai077",
-  "jai078",
-  "jai081",
-  "jai084",
-  "jai085",
-  "jai087",
-  "jai091",
-  "jai098",
-  "jai099",
-  "jai102",
-  "jai103",
-  "jai106",
-  "jai107",
-  "jai108",
-  "jai109",
-  "jai110",
-  "jai111",
-  "jai112",
-  "jai116",
-  "jai117",
-  "jai118",
-  "jai120",
-  "jai121",
-  "jai124",
-  "jai127",
-  "jai132",
-  "jai133",
-  "jai141",
-  "jai143",
-  "jai148",
-  "jai151",
-  "jai155",
-  "jai156",
-  "jai157",
-  "jai158",
-  "jai166",
-  "jai168",
-  "jai169",
-  "jai170",
-  "jai171",
-  "jai175",
-  "jai188",
-  "jai189",
-  "jai191",
-  "jai196",
-  "jai200",
-  "jai201",
-  "jai203",
-  "jai205",
-  "jai209",
-  "jai220",
-  "jai221",
-  "jai227",
-  "jai228",
-  "jai230",
-];
+const getAllIdolsDetail = createLazy(() => getAllIdolsDetailImpl());
 
-const BEST_IDOLS = ALL_IDOLS_DETAIL.filter((item) =>
-  BEST_IDOL_IDS.includes(item.idIdol)
+const getBestIdols = createLazy(() =>
+  getAllIdolsDetail().filter((item) => BEST_IDOL_IDS.includes(item.idIdol)),
 );
+
+const getAllEarningIdols = createLazy(() =>
+  getAllIdolsDetail()
+    .map((item) => ({
+      ...item,
+      earnings: getEarningIdol(
+        item.idIdol,
+        item.rank,
+        item.points,
+        item.styles,
+        item.dvds.filter((d) => d.type === "Uncensored").length,
+        BEST_IDOL_IDS.includes(item.idIdol),
+        item.dvds.filter((d) => checkVideo(d.code)).length,
+      ),
+      bonus: getBonusEarnings(item.idIdol),
+    }))
+    .sort((a, b) => b.earnings + b.bonus * 4 - (a.earnings + a.bonus * 4))
+    .map((item, index) => ({ ...item, position: index + 1 })),
+);
+
+const getAllBonusIdols = createLazy(() =>
+  getAllEarningIdols()
+    .filter((item) => !!item.bonus)
+    .sort((a, b) => b.bonus - a.bonus)
+    .map((item, index) => ({ ...item, position: index + 1 })),
+);
+
+const getAllOriginalIdols = createLazy(() =>
+  getAllIdolsDetail()
+    .map((item) => ({
+      ...item,
+      earnings: getEarningIdol(
+        item.idIdol,
+        item.rank,
+        item.points,
+        item.styles,
+        item.dvds.filter((d) => d.type === "Uncensored").length,
+        BEST_IDOL_IDS.includes(item.idIdol),
+        item.dvds.filter((d) => checkVideo(d.code)).length,
+      ),
+      bonus: getBonusEarnings(item.idIdol),
+    }))
+    .sort((a, b) => b.earnings - a.earnings)
+    .map((item, index) => ({ ...item, position: index + 1 })),
+);
+
+const getTotalOriginalEarnings = createLazy(() =>
+  getAllEarningIdols().reduce((acc, item) => acc + item.earnings, 0),
+);
+
+const getTotalBonusEarnings = createLazy(() =>
+  getAllEarningIdols().reduce((acc, item) => acc + (item.bonus || 0) * 4, 0),
+);
+
+const getTotalIdolEarnings = createLazy(() =>
+  getAllEarningIdols().reduce(
+    (acc, item) => acc + item.earnings + (item.bonus || 0) * 4,
+    0,
+  ),
+);
+
+// --- Service functions (use raw data directly — no lazy needed) ---
 
 const ALL_IDOLS_BY_PAGE = (
   name,
@@ -130,29 +99,25 @@ const ALL_IDOLS_BY_PAGE = (
   censored,
   retired,
   page,
-  pageSize
+  pageSize,
 ) => {
   let temp = sortIdols(Idols);
   if (name) {
     temp = temp.filter((item) =>
-      toUpper(item.name + " " + item.other).includes(toUpper(trim(name)))
+      toUpper(item.name + " " + item.other).includes(toUpper(trim(name))),
     );
   }
   if (cup && cup.length > 0) {
     temp = temp.filter(
-      (item) => !!cup.find((filter) => filter.value === item.cup)
+      (item) => !!cup.find((filter) => filter.value === item.cup),
     );
   }
   if (styles && styles.length > 0) {
     temp = temp.filter((item) => {
       const result = item.styles.filter(
-        (style) => !!styles.find((filter) => filter.value === style.tag)
+        (style) => !!styles.find((filter) => filter.value === style.tag),
       );
-      if (result.length < styles.length) {
-        return false;
-      } else {
-        return true;
-      }
+      return result.length >= styles.length;
     });
   }
   if (best === true && normal === false) {
@@ -169,22 +134,22 @@ const ALL_IDOLS_BY_PAGE = (
   }
   if (working === true && retired === false) {
     temp = temp.filter(
-      (item) => !item.styles.find((style) => style.tag === "Retired")
+      (item) => !item.styles.find((style) => style.tag === "Retired"),
     );
   }
   if (working === false && retired === true) {
     temp = temp.filter(
-      (item) => !!item.styles.find((style) => style.tag === "Retired")
+      (item) => !!item.styles.find((style) => style.tag === "Retired"),
     );
   }
   if (height) {
     temp = temp.filter(
-      (item) => Number(item.height.replace(" cm", "")) >= height
+      (item) => Number(item.height.replace(" cm", "")) >= height,
     );
   }
   if (breast) {
     temp = temp.filter(
-      (item) => Number(item.breast.replace(" cm", "")) >= breast
+      (item) => Number(item.breast.replace(" cm", "")) >= breast,
     );
   }
   if (hips) {
@@ -200,7 +165,8 @@ const ALL_IDOLS_BY_PAGE = (
 };
 
 const IDOL_PROFILE = (id, sort = true) => {
-  let idol = findIdolDetail(id);
+  const idolsDetail = getAllIdolsDetail();
+  let idol = idolsDetail.find((item) => item.idIdol === id);
   if (idol) {
     idol = {
       ...idol,
@@ -210,68 +176,17 @@ const IDOL_PROFILE = (id, sort = true) => {
   return idol;
 };
 
-const ALL_EARNING_IDOLS = ALL_IDOLS_DETAIL.map((item) => ({
-  ...item,
-  earnings: getEarningIdol(
-    item.idIdol,
-    item.rank,
-    item.points,
-    item.styles,
-    item.dvds.filter((item) => item.type === "Uncensored").length,
-    BEST_IDOL_IDS.includes(item.idIdol),
-    item.dvds.filter((item) => checkVideo(item.code)).length
-  ),
-  bonus: getBonusEarnings(item.idIdol),
-}))
-  .sort((a, b) => b.earnings + b.bonus * 4 - (a.earnings + a.bonus * 4))
-  .map((item, index) => ({ ...item, position: index + 1 }));
-
-const ALL_BONUS_IDOLS = ALL_EARNING_IDOLS.filter((item) => !!item.bonus)
-  .sort((a, b) => b.bonus - a.bonus)
-  .map((item, index) => ({ ...item, position: index + 1 }));
-
-const ALL_ORIGINAL_IDOLS = ALL_IDOLS_DETAIL.map((item) => ({
-  ...item,
-  earnings: getEarningIdol(
-    item.idIdol,
-    item.rank,
-    item.points,
-    item.styles,
-    item.dvds.filter((item) => item.type === "Uncensored").length,
-    BEST_IDOL_IDS.includes(item.idIdol),
-    item.dvds.filter((item) => checkVideo(item.code)).length
-  ),
-  bonus: getBonusEarnings(item.idIdol),
-}))
-  .sort((a, b) => b.earnings - a.earnings)
-  .map((item, index) => ({ ...item, position: index + 1 }));
-
-const TOTAL_ORIGINAL_EARNINGS = ALL_EARNING_IDOLS.reduce(
-  (acc, item) => acc + item.earnings,
-  0
-);
-
-const TOTAL_BONUS_EARNINGS = ALL_EARNING_IDOLS.reduce(
-  (acc, item) => acc + (item.bonus || 0) * 4,
-  0
-);
-
-const TOTAL_EARNINGS = ALL_EARNING_IDOLS.reduce(
-  (acc, item) => acc + item.earnings + (item.bonus || 0) * 4,
-  0
-);
-
 export {
   SIZE_IDOLS,
-  ALL_IDOLS_BY_PAGE,
   BEST_IDOL_IDS,
-  BEST_IDOLS,
-  ALL_IDOLS_DETAIL,
+  ALL_IDOLS_BY_PAGE,
   IDOL_PROFILE,
-  ALL_EARNING_IDOLS,
-  ALL_BONUS_IDOLS,
-  ALL_ORIGINAL_IDOLS,
-  TOTAL_ORIGINAL_EARNINGS,
-  TOTAL_BONUS_EARNINGS,
-  TOTAL_EARNINGS,
+  getAllIdolsDetail,
+  getBestIdols,
+  getAllEarningIdols,
+  getAllBonusIdols,
+  getAllOriginalIdols,
+  getTotalOriginalEarnings,
+  getTotalBonusEarnings,
+  getTotalIdolEarnings,
 };

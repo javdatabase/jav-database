@@ -60,50 +60,48 @@ function Layout() {
 
   const renderTitle = useCallback(() => {
     const path = location.pathname;
-    if (matchPath(path, { path: "/jav/home", exact: true })) {
+    if (matchPath({ path: "/jav/home" }, path)) {
       return "Home";
-    } else if (matchPath(path, { path: "/jav/lucky-box", exact: true })) {
+    } else if (matchPath({ path: "/jav/lucky-box" }, path)) {
       return "Lucky Box";
-    } else if (matchPath(path, { path: "/jav/best-idols", exact: true })) {
+    } else if (matchPath({ path: "/jav/best-idols" }, path)) {
       return `${BEST_IDOL_IDS.length} Best Idols`;
-    } else if (matchPath(path, { path: "/jav/ranking", exact: true })) {
+    } else if (matchPath({ path: "/jav/ranking" }, path)) {
       return "Ranking";
     } else if (
-      matchPath(path, { path: "/jav/top-earnings", exact: true }) ||
-      matchPath(path, { path: "/upv/top-earnings", exact: true })
+      matchPath({ path: "/jav/top-earnings" }, path) ||
+      matchPath({ path: "/upv/top-earnings" }, path)
     ) {
       return "Top Earnings";
-    } else if (matchPath(path, { path: "/jav/idols", exact: true })) {
+    } else if (matchPath({ path: "/jav/idols" }, path)) {
       return "Idols";
-    } else if (matchPath(path, { path: "/jav/idol/:id", exact: false })) {
+    } else if (matchPath({ path: "/jav/idol/:id", end: false }, path)) {
       return getIdolName(path.replace("/jav/idol/", ""));
-    } else if (matchPath(path, { path: "/jav/dvds", exact: true })) {
+    } else if (matchPath({ path: "/jav/dvds" }, path)) {
       return "Dvds";
-    } else if (
-      matchPath(path, { path: "/jav/pre-release-dvds", exact: true })
-    ) {
+    } else if (matchPath({ path: "/jav/pre-release-dvds" }, path)) {
       return "Pre Release Dvds";
-    } else if (matchPath(path, { path: "/jav/amateur-dvds", exact: true })) {
+    } else if (matchPath({ path: "/jav/amateur-dvds" }, path)) {
       return "Amateur Dvds";
-    } else if (matchPath(path, { path: "/jav/videos", exact: true })) {
+    } else if (matchPath({ path: "/jav/videos" }, path)) {
       return "Videos";
-    } else if (matchPath(path, { path: "/jav/video/:code", exact: true })) {
+    } else if (matchPath({ path: "/jav/video/:code" }, path)) {
       return path.replace("/jav/video/", "");
-    } else if (matchPath(path, { path: "/upv/home", exact: true })) {
+    } else if (matchPath({ path: "/upv/home" }, path)) {
       return "Home";
-    } else if (matchPath(path, { path: "/upv/lucky-box", exact: true })) {
+    } else if (matchPath({ path: "/upv/lucky-box" }, path)) {
       return "Lucky Box";
-    } else if (matchPath(path, { path: "/upv/stars", exact: true })) {
+    } else if (matchPath({ path: "/upv/stars" }, path)) {
       return "Stars";
-    } else if (matchPath(path, { path: "/upv/star/:id", exact: true })) {
+    } else if (matchPath({ path: "/upv/star/:id" }, path)) {
       return getStarName(path.replace("/upv/star/", ""));
-    } else if (matchPath(path, { path: "/debug", exact: true })) {
+    } else if (matchPath({ path: "/debug" }, path)) {
       return "Debug";
-    } else if (matchPath(path, { path: "/tools", exact: true })) {
+    } else if (matchPath({ path: "/tools" }, path)) {
       return "Tools";
-    } else if (matchPath(path, { path: "/tools/:type", exact: true })) {
+    } else if (matchPath({ path: "/tools/:type" }, path)) {
       return "Tools";
-    } else if (matchPath(path, { path: "/top-earnings", exact: true })) {
+    } else if (matchPath({ path: "/top-earnings" }, path)) {
       return "Top Earnings";
     } else {
       return "Not Found";

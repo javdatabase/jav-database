@@ -7,19 +7,26 @@ import React, {
 } from "react";
 import { get } from "lodash";
 import styled from "styled-components";
-import { useHistory, useLocation } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 import Cookies from "js-cookie";
 import { InfiniteLoader, List } from "react-virtualized";
 
 import { priceCurrency } from "../../../helpers/render-price";
 import {
-  ALL_EARNING_IDOLS,
-  ALL_BONUS_IDOLS,
-  ALL_ORIGINAL_IDOLS,
-  TOTAL_ORIGINAL_EARNINGS,
-  TOTAL_BONUS_EARNINGS,
-  TOTAL_EARNINGS,
+  getAllEarningIdols,
+  getAllBonusIdols,
+  getAllOriginalIdols,
+  getTotalOriginalEarnings,
+  getTotalBonusEarnings,
+  getTotalIdolEarnings,
 } from "../../../services/jav/idols.service";
+
+const ALL_EARNING_IDOLS = getAllEarningIdols();
+const ALL_BONUS_IDOLS = getAllBonusIdols();
+const ALL_ORIGINAL_IDOLS = getAllOriginalIdols();
+const TOTAL_ORIGINAL_EARNINGS = getTotalOriginalEarnings();
+const TOTAL_BONUS_EARNINGS = getTotalBonusEarnings();
+const TOTAL_EARNINGS = getTotalIdolEarnings();
 import Checkbox from "../../../components/UI/Checkbox/Checkbox";
 import IdolEarning from "../../../components/Idols/IdolEarning";
 
@@ -93,7 +100,7 @@ function isRowLoaded({ index }) {
 }
 
 function TopEarnings() {
-  const history = useHistory();
+  const navigate = useNavigate();
   const location = useLocation();
   const [mount, setMount] = useState(false);
   const [scroll, setScroll] = useState(0);
@@ -127,18 +134,22 @@ function TopEarnings() {
   }, []);
 
   const handleChangeBonus = useCallback(() => {
-    history.push(location.pathname, {
-      original: false,
-      bonus: !get(location.state, "bonus", false),
+    navigate(location.pathname, {
+      state: {
+        original: false,
+        bonus: !get(location.state, "bonus", false),
+      },
     });
-  }, [history, location]);
+  }, [navigate, location]);
 
   const handleChangeOriginal = useCallback(() => {
-    history.push(location.pathname, {
-      original: !get(location.state, "original", false),
-      bonus: false,
+    navigate(location.pathname, {
+      state: {
+        original: !get(location.state, "original", false),
+        bonus: false,
+      },
     });
-  }, [history, location]);
+  }, [navigate, location]);
 
   const loadMoreRows = useCallback(
     ({ startIndex, stopIndex }) => {

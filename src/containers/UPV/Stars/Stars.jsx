@@ -7,7 +7,7 @@ import React, {
 } from "react";
 import { get, chunk } from "lodash";
 import styled from "styled-components";
-import { useHistory, useLocation } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 import { Grid } from "react-virtualized";
 import ElementResizeEvent from "element-resize-event";
 
@@ -36,6 +36,8 @@ const FilterStarsContainer = styled.div`
 const RowFilter = styled.div`
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
   min-height: 80px;
   padding: 20px;
   box-sizing: border-box;
@@ -43,7 +45,6 @@ const RowFilter = styled.div`
 
 const SelectCustom = styled(Select)`
   width: 300px;
-  margin-left: 30px;
 `;
 
 const Result = styled.div`
@@ -81,7 +82,7 @@ const StarContainer = styled.div`
 
 const StarItem = styled.div`
   ${center};
-  width: 16vw;
+  width: 82%;
   animation: ${fadeIn} 1s linear;
 `;
 
@@ -99,7 +100,7 @@ const NotFound = styled.div`
 `;
 
 function Stars() {
-  const history = useHistory();
+  const navigate = useNavigate();
   const location = useLocation();
   const [filterHeight, setFilterHeight] = useState(160);
   const [show, setShow] = useState(false);
@@ -140,41 +141,41 @@ function Stars() {
   const handleChangeName = useCallback(
     (name) => {
       const state = { ...location.state, name: name, page: 1 };
-      history.push(location.pathname, state);
+      navigate(location.pathname, { state });
     },
-    [history, location]
+    [navigate, location]
   );
 
   const handleChangeCup = useCallback(
     (cup) => {
       const state = { ...location.state, cup: cup, page: 1 };
-      history.push(location.pathname, state);
+      navigate(location.pathname, { state });
     },
-    [history, location]
+    [navigate, location]
   );
 
   const handleChangeHeight = useCallback(
     (height) => {
       const state = { ...location.state, height: height, page: 1 };
-      history.push(location.pathname, state);
+      navigate(location.pathname, { state });
     },
-    [history, location]
+    [navigate, location]
   );
 
   const handleChangeBreast = useCallback(
     (breast) => {
       const state = { ...location.state, breast: breast, page: 1 };
-      history.push(location.pathname, state);
+      navigate(location.pathname, { state });
     },
-    [history, location]
+    [navigate, location]
   );
 
   const handleChangeHips = useCallback(
     (hips) => {
       const state = { ...location.state, hips: hips, page: 1 };
-      history.push(location.pathname, state);
+      navigate(location.pathname, { state });
     },
-    [history, location]
+    [navigate, location]
   );
 
   const handleChangePage = useCallback(
@@ -183,9 +184,9 @@ function Stars() {
         ...location.state,
         page: page,
       };
-      history.push(location.pathname, state);
+      navigate(location.pathname, { state });
     },
-    [history, location]
+    [navigate, location]
   );
 
   const toggleModal = useCallback(() => {
@@ -233,14 +234,12 @@ function Stars() {
             onChange={(e) => handleChangeHeight(e.target.value)}
           />
           <Input
-            style={{ marginLeft: "30px" }}
             placeholder={"Search breast..."}
             type={"number"}
             value={get(location.state, "breast", "")}
             onChange={(e) => handleChangeBreast(e.target.value)}
           />
           <Input
-            style={{ marginLeft: "30px" }}
             placeholder={"Search hips..."}
             type={"number"}
             value={get(location.state, "hips", "")}

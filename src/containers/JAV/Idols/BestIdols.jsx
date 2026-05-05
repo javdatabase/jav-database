@@ -2,7 +2,9 @@ import React, { useState, useMemo, useCallback } from "react";
 import styled from "styled-components";
 
 import { getIdolRank } from "../../../services/jav/common.service";
-import { BEST_IDOLS } from "../../../services/jav/idols.service";
+import { getBestIdols } from "../../../services/jav/idols.service";
+
+const BEST_IDOLS = getBestIdols();
 import WaterWheelSlider from "../../../components/UI/Slider/WaterWheelSlider/Slider";
 import BestIdolCard from "../../../components/Idols/BestIdolCard";
 import BestIdolDetail from "../../../components/Idols/BestIdolDetail";

@@ -3,14 +3,15 @@ import { get, uniqBy, random } from "lodash";
 import Stars from "../../data/upv/stars";
 import Videos from "../../data/upv/videos";
 
-import { ALL_EARNING_STARS, SIZE_STARS } from "./stars.service";
+import { getAllEarningStars, SIZE_STARS } from "./stars.service";
 import { SIZE_VIDEOS } from "./videos.service";
 
 function findStarById(id) {
+  const earningStars = getAllEarningStars();
   let detail = undefined;
-  for (let i = 0; i < SIZE_STARS; i++) {
-    if (ALL_EARNING_STARS[i].idStar === id) {
-      detail = ALL_EARNING_STARS[i];
+  for (let i = 0; i < earningStars.length; i++) {
+    if (earningStars[i].idStar === id) {
+      detail = earningStars[i];
     }
   }
   return detail;

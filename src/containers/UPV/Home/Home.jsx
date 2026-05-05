@@ -1,7 +1,7 @@
 import React, { useMemo, useCallback } from "react";
 import { get } from "lodash";
 import styled from "styled-components";
-import { Link, useHistory, useLocation } from "react-router-dom";
+import { Link, useNavigate, useLocation } from "react-router-dom";
 
 import { SIZE_VIDEOS, ALL_VIDEOS } from "../../../services/upv/videos.service";
 import Pagination from "../../../components/UI/Pagination/Pagination";
@@ -103,7 +103,7 @@ const PaginationContainer = styled.div`
 `;
 
 function Home() {
-  const history = useHistory();
+  const navigate = useNavigate();
   const location = useLocation();
 
   const highlight = useMemo(() => {
@@ -113,9 +113,9 @@ function Home() {
   const handleChangePage = useCallback(
     (page) => {
       const state = { ...location.state, page: page };
-      history.push(location.pathname, state);
+      navigate(location.pathname, { state });
     },
-    [history, location]
+    [navigate, location]
   );
 
   return (

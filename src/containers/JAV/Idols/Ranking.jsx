@@ -3,7 +3,9 @@ import styled from "styled-components";
 import Cookies from "js-cookie";
 import { InfiniteLoader, List } from "react-virtualized";
 
-import { ALL_IDOLS_DETAIL } from "../../../services/jav/idols.service";
+import { getAllIdolsDetail } from "../../../services/jav/idols.service";
+
+const ALL_IDOLS_DETAIL = getAllIdolsDetail();
 import IdolRanking from "../../../components/Idols/IdolRanking";
 
 import { Orange, Pink } from "../../../themes/colors";

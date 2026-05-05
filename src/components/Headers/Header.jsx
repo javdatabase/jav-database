@@ -18,7 +18,7 @@ const Container = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 0 50px;
+  padding: 0 clamp(15px, 3vw, 50px);
   position: relative;
   z-index: 100;
   background: ${(props) =>
@@ -59,24 +59,28 @@ const LogoContainer = styled(Link)`
   display: flex;
   align-items: center;
   height: 60px;
-  margin-left: 50px;
+  margin-left: clamp(10px, 2.5vw, 50px);
   cursor: pointer;
   text-decoration: none;
 `;
 
 const ImageLogo = styled.img`
-  height: 50px;
+  height: clamp(30px, 3.5vw, 50px);
 `;
 
 const CompanyName = styled.span`
   font-weight: 900;
-  font-size: 50px;
+  font-size: clamp(18px, 2.8vw, 50px);
   margin-left: 10px;
   color: ${White};
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 `;
 
 const Title = styled.span`
   font-size: ${XXLarge};
+  white-space: nowrap;
 `;
 
 function Header({ title, toggleMenu }) {

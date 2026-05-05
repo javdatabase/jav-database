@@ -1,6 +1,7 @@
 import { toUpper, trim } from "lodash";
 
 import Stars from "../../data/upv/stars";
+import { createLazy } from "../../utils/lazy";
 import { sortStars, getPicturesRandom } from "./common.service";
 import { getSalaryStar, SWEET_STAR_POINTS_BY_IDS } from "./salary.service";
 
@@ -52,30 +53,34 @@ const STAR_PROFILE = (id) => {
   return { ...star, points: points };
 };
 
-const ALL_EARNING_STARS = Stars.map((item) => ({
-  ...item,
-  earnings: getSalaryStar(
-    item.idStar,
-    SWEET_STAR_POINTS_BY_IDS[item.idStar] || 0
-  ),
-  bonus: 0,
-}))
-  .sort((a, b) => b.earnings - a.earnings)
-  .map((item, index) => ({
+const getAllEarningStars = createLazy(() =>
+  Stars.map((item) => ({
     ...item,
-    album: getPicturesRandom(item.album),
-    position: index + 1,
-  }));
+    earnings: getSalaryStar(
+      item.idStar,
+      SWEET_STAR_POINTS_BY_IDS[item.idStar] || 0
+    ),
+    bonus: 0,
+  }))
+    .sort((a, b) => b.earnings - a.earnings)
+    .map((item, index) => ({
+      ...item,
+      album: getPicturesRandom(item.album),
+      position: index + 1,
+    }))
+);
 
-const TOTAL_EARNINGS = ALL_EARNING_STARS.reduce(
-  (acc, item) => acc + item.earnings + (item.bonus || 0) * 4,
-  0
+const getTotalStarEarnings = createLazy(() =>
+  getAllEarningStars().reduce(
+    (acc, item) => acc + item.earnings + (item.bonus || 0) * 4,
+    0
+  )
 );
 
 export {
   SIZE_STARS,
   ALL_STARS_BY_PAGE,
   STAR_PROFILE,
-  ALL_EARNING_STARS,
-  TOTAL_EARNINGS,
+  getAllEarningStars,
+  getTotalStarEarnings,
 };

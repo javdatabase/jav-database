@@ -7,7 +7,7 @@ import React, {
 } from "react";
 import { get, chunk } from "lodash";
 import styled from "styled-components";
-import { useHistory, useLocation } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 import { Grid } from "react-virtualized";
 import ElementResizeEvent from "element-resize-event";
 
@@ -79,7 +79,7 @@ const DvdContainer = styled.div`
 
 const DvdItem = styled.div`
   ${center}
-  width: 15vw;
+  width: 88%;
   animation: ${fadeIn} 1s linear;
 `;
 
@@ -97,7 +97,7 @@ const NotFound = styled.div`
 `;
 
 function Dvds() {
-  const history = useHistory();
+  const navigate = useNavigate();
   const location = useLocation();
   const [filterHeight, setFilterHeight] = useState(80);
   const [show, setShow] = useState(false);
@@ -135,33 +135,33 @@ function Dvds() {
   const handleChangeCode = useCallback(
     (code) => {
       const state = { ...location.state, code: code, page: 1 };
-      history.push(location.pathname, state);
+      navigate(location.pathname, { state });
     },
-    [history, location]
+    [navigate, location]
   );
 
   const handleChangeType = useCallback(
     (type) => {
       const state = { ...location.state, type: type, page: 1 };
-      history.push(location.pathname, state);
+      navigate(location.pathname, { state });
     },
-    [history, location]
+    [navigate, location]
   );
 
   const handleChangeIdols = useCallback(
     (idols) => {
       const state = { ...location.state, idols: idols, page: 1 };
-      history.push(location.pathname, state);
+      navigate(location.pathname, { state });
     },
-    [history, location]
+    [navigate, location]
   );
 
   const handleChangePage = useCallback(
     (page) => {
       const state = { ...location.state, page: page };
-      history.push(location.pathname, state);
+      navigate(location.pathname, { state });
     },
-    [history, location]
+    [navigate, location]
   );
 
   const toggleModal = useCallback(() => {

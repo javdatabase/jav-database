@@ -5,9 +5,12 @@ import { InfiniteLoader, List } from "react-virtualized";
 
 import { priceCurrency } from "../../../helpers/render-price";
 import {
-  ALL_EARNING_STARS,
-  TOTAL_EARNINGS,
+  getAllEarningStars,
+  getTotalStarEarnings,
 } from "../../../services/upv/stars.service";
+
+const ALL_EARNING_STARS = getAllEarningStars();
+const TOTAL_EARNINGS = getTotalStarEarnings();
 import StarEarning from "../../../components/Stars/StarEarning";
 
 import { Grey, Blue, White } from "../../../themes/colors";
